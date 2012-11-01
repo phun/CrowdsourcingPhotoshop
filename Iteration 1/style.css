@@ -1,0 +1,72 @@
+body {
+	width: 800px;
+	font-size: 16px;
+}
+label {
+	font-weight: bold;
+	font-size: 20px;
+}
+textarea {
+	height: 150px;
+	width: 300px;
+}
+input[type=text] {
+	width: 300px;
+	height: 25px;
+}
+ol {
+	padding-left: 20px;
+}
+.smallText {
+	font-size: 12px;
+	text-decoration: underline;
+}
+.left {
+	float: left;
+	margin-right: 10px;
+}
+.section {
+	padding-left: 100px;
+}
+.toolButton {
+	width: 700px;
+	font-size: 50pt;
+}
+#timeline {
+	margin-top: 10px;
+}
+.screenshot {
+	width: 45%;
+	float: right;
+	margin-left: 5px;
+}
+.cleaner {
+  clear: both;
+  font-size: 1px;
+}
+.submitHIT {
+	/* Make Bigger */
+}
+
+#timelineHolder {
+	position: relative;
+}
+
+.marker {
+	position: absolute;
+	top: -1;
+	height: 100%;
+	width: 4px;
+	background: white;
+	z-index: 2;
+	border: 1px solid black;
+}
+
+#timelineHolder .ui-slider-handle {
+	z-index: -1;
+	opacity: 0;
+}
+
+#submitIndices {
+	display: none;
+}

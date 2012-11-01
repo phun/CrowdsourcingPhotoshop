@@ -1,0 +1,102 @@
+<html>
+<head>
+	<title>Amazon Turk Step 1</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.22.custom.css" type="text/css" />
+	<script src="js/libs/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery-ui-1.8.22.custom.min.js"></script> 
+	<script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			var addTick = function(index) {
+	    		var id = "marker-" + (indices.length - 1);  
+	    		console.log(id);          
+	    		var duration = jwplayer().getDuration();
+	   			var offset = index / duration * 100;
+	    		var html = "<span class='marker' id='" + id + "' style='left:" + offset + "%;'></span>";  
+	    		var i = $(html);
+
+
+	    		i.click(function() {
+	    			$(this).hide();
+	    			indices.splice($(this).attr("id").split('-')[1], 1);
+	    			console.log(indices);
+	    		})
+	    		$("#timelineHolder").append(i);      
+	    	};
+
+			var indices = [];
+
+			jwplayer("mediaplayer").setup({
+			  flashplayer: "js/libs/jwplayer/player.swf",
+			  width: "700",
+			  height: "400",
+			  controlbar: "bottom",
+			  file: "videos/first.mp4",
+			  events: {
+					onTime: function(event) {
+            			$("#timeline").slider('value', event.position);
+          			}
+			  }
+			});
+
+			$(".toolButton").click(function() {
+				var index = jwplayer().getPosition();
+				indices.push(index);
+				addTick(index);
+				$("#submitIndices").val(indices);
+			});
+
+			$(".submitHIT").click(function() {
+				alert(indices);
+			});
+
+	    	$( "#timeline" ).slider({
+				range: "min",
+				min: 0,
+				max: 279,
+				step: 0.1,
+				animate: true,
+				slide: function(event, ui){
+					jwplayer().seek(ui.value);
+				}
+      		});
+		});
+	</script>
+</head>
+<body>
+
+<h1> HIT Task: Click When Tools Are Used in Photoshop </h1>
+
+<h2> Instructions </h2>
+<div class="section">
+	<img class="screenshot" src="toolLocationsScreenshot.png"/>
+	<ol>
+		<li> Watching the Photoshop video tutorial. </li>
+		<li> Click on the "Tool Selected" button every time the user in the video selects a tool in the red regions. </li>
+<!-- 		<li> <strong> TIP: </strong> The locations of the tools in Photoshop are generally in the red regions. </li> -->
+	</ol>
+</div>
+<div class='cleaner'>&nbsp;</div>
+<h2> Task </h2>
+<div class="section">
+	<div id="mediaplayer" width="588" height="441" >JW Player goes here</div>
+	<br/><button class="toolButton">Tool Selected</button>
+	<br/><div id="timelineHolder">
+		<div id="timeline"></div>
+		</div>
+</div>
+
+<h2> Done </h2>
+<div class="section">
+	<form action="http://www.mturk.com/mturk/externalSubmit">
+	<input type="text" name="indices" id="submitIndices">
+	When you are done hit the submit button.
+	<br> <input type="submit" value="Submit">
+	</form>
+</div>
+</body>
+
+</html>
