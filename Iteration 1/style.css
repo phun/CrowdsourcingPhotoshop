@@ -1,6 +1,8 @@
 body {
-	width: 800px;
+	width: 700px;
 	font-size: 16px;
+	padding-left: 20px;
+	padding-bottom: 20px;
 }
 label {
 	font-weight: bold;
@@ -26,12 +28,17 @@ ol {
 	margin-right: 10px;
 }
 .section {
-	padding-left: 100px;
+	padding-left: 0px;
 }
 .toolButton {
-	width: 700px;
-	font-size: 50pt;
+	width: 100%;
+	height: 50px;
 }
+
+#title {
+	border-bottom: 1px solid #EEE;
+}
+
 #timeline {
 	margin-top: 10px;
 }
@@ -60,6 +67,11 @@ ol {
 	background: white;
 	z-index: 2;
 	border: 1px solid black;
+}
+
+.marker:hover {
+	background: #006DCC;
+	cursor: pointer;
 }
 
 #timelineHolder .ui-slider-handle {
