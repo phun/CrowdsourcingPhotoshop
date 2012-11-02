@@ -31,13 +31,13 @@
 
 	    		// On hover add "Click to remove"
 	    		i.hover(function() {
-	    			var html = "<span class='removeHelper' style='top:" + this.offsetHeight + "; left: " + this.offsetLeft + "'> Click to Remove </span>";
+	    			var html = "<span class='removeHelper' style='top:" + this.offsetHeight + "; left: " + this.offsetLeft + "'> Double-click to Remove </span>";
 	    			$("#timelineHolder").append(html);
 	    		}, function() {
 	    			$("#timelineHolder .removeHelper").each(function() { $(this).remove(); });
 	    		});
 
-	    		i.click(function() {
+	    		i.dblclick(function() {
 	    			$(this).hide();
 	    			indices.splice($(this).attr("id").split('-')[1], 1);
 	    			console.log(indices);
@@ -104,7 +104,7 @@
 		<li> Click on the <button class="btn btn-inverse btn-mini disabled">Tool Selected</button> button every time the user in the video selects a tool in the red regions.
 			<ul>
 				<li>A tick <img src="tick.png" /> will be added to the timeline which represents the time the tool was selected. </li>
-				<li>To remove a tick, click on the tick. </li>
+				<li>To remove a tick, double-click on the tick. </li>
 			</ul>
 		</li>
 <!-- 		<li> <strong> TIP: </strong> The locations of the tools in Photoshop are generally in the red regions. </li> -->
