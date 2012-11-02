@@ -1,6 +1,6 @@
 body {
 	width: 700px;
-	font-size: 16px;
+	font-size: 14px;
 	padding-left: 20px;
 	padding-bottom: 20px;
 }
@@ -34,7 +34,10 @@ ol {
 	width: 100%;
 	height: 50px;
 }
-
+.removeHelper {
+	position: absolute;
+	font-size: 12px;
+}
 #title {
 	border-bottom: 1px solid #EEE;
 }
@@ -64,13 +67,12 @@ ol {
 	top: -1;
 	height: 100%;
 	width: 4px;
-	background: white;
 	z-index: 2;
 	border: 1px solid black;
 }
 
 .marker:hover {
-	background: #006DCC;
+	background: white;
 	cursor: pointer;
 }
 
