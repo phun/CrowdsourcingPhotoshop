@@ -29,6 +29,9 @@ ol {
 }
 .section {
 	padding-left: 0px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #EEE;
+	margin-bottom: 10px;
 }
 
 .task .video {
@@ -60,6 +63,11 @@ ol {
 }
 .screenshot {
 	width: 45%;
+	float: right;
+	margin-left: 5px;
+}
+.regions {
+	width: 60%;
 	float: right;
 	margin-left: 5px;
 }

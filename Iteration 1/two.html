@@ -3,10 +3,12 @@
 	<title>Amazon Turk Step 2</title>
 	<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.22.custom.css" type="text/css" />
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="js/libs/chosen.css" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script src="js/libs/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="js/libs/jquery-ui-1.8.22.custom.min.js"></script> 
 	<script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script>
+	<script type="text/javascript" src="js/libs/chosen.jquery.min.js"></script>
 
 	<script type="text/javascript">
 
@@ -21,111 +23,143 @@
 
 		$(document).ready(function() {
 
-			var addTick = function(index) {
-	    		var id = "marker-" + (indices.length - 1);  
-	    		console.log(id);          
-	    		var duration = jwplayer().getDuration();
-	   			var offset = index / duration * 100;
-	    		var html = "<span class='marker btn-inverse' id='" + id + "' style='left:" + offset + "%;'></span>";  
-	    		var i = $(html);
+			var tasks = [];
 
-	    		// On hover add "Click to remove"
-	    		i.hover(function() {
-	    			var html = "<span class='removeHelper' style='top:" + this.offsetHeight + "; left: " + this.offsetLeft + "'> Double-click to Remove </span>";
-	    			$("#timelineHolder").append(html);
-	    		}, function() {
-	    			$("#timelineHolder .removeHelper").each(function() { $(this).remove(); });
-	    		});
+      		var makeTask = function(video) {
 
-	    		i.dblclick(function() {
-	    			$(this).hide();
-	    			indices.splice($(this).attr("id").split('-')[1], 1);
-	    			console.log(indices);
-	    		})
-	    		$("#timelineHolder").append(i);      
-	    	};
+      			var num = tasks.length + 1;
 
-			var indices = [];
+      			var ht = '<div class="section task">' +
+      					'<h2> Video #' + num + '</h2>' +
+						'<div class="video">' +
+							'<div id="mediaplayer-' + num + '" width="400" height="300">JW Player goes here</div>' + 
+						'</div>' +
+						'<div class="info">' +
+							'<h4> Which region was tool selected from? </h4>' +
+							'<select id="region-selector-' + num + '" class="span3">' +
+								'<option value="0"> Select a Region </option>' +
+								'<option value="1"> Region #1 (Top) </option>' +
+								'<option value="2"> Region #2 (Left) </option>' +
+								'<option value="3"> Region #3 (Right) </option>' +
+								'<option value="4"> Other </option>' +
+							'</select>' +
+							'<h4> What was the name of the tool? </h4>' +
+							'<select id="tool-selector-' + num + '" class="span3">' +
+							'</select>'
+						'</div>' +
+					'</div>';
 
-			var video = "videos/first.mp4";
+				$("#tasks").append(ht);
 
-			if (params['video'] == '1')
-			{
-				video = "videos/no_tools.mp4";
-			}
+	      		$("#region-selector-" + num).change(function() {
+	      			var v = $(this).val();
+	      			if (v == 2) {
+	      				popTools("tool-selector-" + num);
+	      			} else if (v == 1) {
+	      				popMenus("tool-selector-" + num);
+	      			}
+	      		});
 
-			jwplayer("mediaplayer").setup({
-			  flashplayer: "js/libs/jwplayer/player.swf",
-			  // width: "700",
-			  // height: "400",
-			  controlbar: "bottom",
-			  file: video,
-			  events: {
-					onTime: function(event) {
-            			$("#timeline").slider('value', event.position);
-          			}
-			  }
-			});
+      			var clear = function() {
+	      			var html = '<select id="tool-selector-' + num + '" class="span3"></select>';
+	      			var p = $("#tool-selector-" + num).parent();
+	      			p.append(html);
+	      			$("#tool-selector-" + num).remove();
+	      			$("#tool_selector_" + num + "_chzn").remove();
 
-			$(".toolButton").click(function() {
-				var index = jwplayer().getPosition();
-				indices.push(index);
-				addTick(index);
-				$("#submitIndices").val(indices);
-			});
+	      		};
+
+		    	var popTools = function(id) {
+		    		clear();
+		    		var select = $("#" +id);
+					$.getJSON('tools.json', function(data) {
+						for (var i in data) {
+							var o = data[i];
+							var opt = "<option value='" + o.value + "'>" + o.label + "</option>";
+							select.append(opt);
+						};
+						select.chosen().change(function() {
+							tasks[num - 1]["tool"] = $(this).val();
+						});
+					});
+		    	};
+
+		    	var popMenus = function(id) {
+		    		clear();
+		    		var select = $("#" +id);
+					$.getJSON('menus.json', function(data) {
+						for (var i in data) {
+							var o = data[i];
+							var opt = "<option value='" + o.value + "'>" + o.label + "</option>";
+							select.append(opt);
+						};
+						select.chosen().change(function() {
+							tasks[num - 1]["tool"] = $(this).val();
+						});
+					});
+		    	};
+
+				jwplayer("mediaplayer-" + num).setup({
+					flashplayer: "js/libs/jwplayer/player.swf",
+					controlbar: "bottom",
+					file: video,
+					events: {
+						onTime: function(event) {
+							$("#timeline").slider('value', event.position);
+						}
+					}
+				});
+
+				tasks.push({
+					"id": num,
+					"video": video,
+				});
+
+				$("#region-selector-" + num).change(function() {
+					tasks[num - 1]["region"] = $(this).val();
+				});
+
+      		};
+
+
+			video = "videos/no_tools.mp4";
+      		makeTask(video);
+      		makeTask(video);
+      		makeTask(video);
 
 			$(".submitHIT").click(function() {
-				alert(indices);
+				console.log(tasks);
 			});
 
-	    	$( "#timeline" ).slider({
-				range: "min",
-				min: 0,
-				max: 279,
-				step: 0.1,
-				animate: true,
-				slide: function(event, ui){
-					jwplayer().seek(ui.value);
-				}
-      		});
 		});
 	</script>
 </head>
 <body>
 <div id="title">
-	<h1> HIT Task: Click When Tools Are Used in Photoshop </h1>
+	<h1> HIT Task: Label Tools Used in Photoshop Videos </h1>
 </div>
 
 <h2> Instructions </h2>
 <div class="section">
-	<img class="screenshot" src="toolLocationsScreenshot.png"/>
 	You will be watching 3 videos. For each video:
 	<ol>
-		<li> Watch the Photoshop video tutorial. </li>
-		<li> Click on the <button class="btn btn-inverse btn-mini disabled">Tool Selected</button> button every time the user in the video selects a tool in the red regions.
-			<ul>
-				<li>A tick <img src="tick.png" /> will be added to the timeline which represents the time the tool was selected. </li>
-				<li>To remove a tick, double-click on the tick. </li>
-			</ul>
-		</li>
-<!-- 		<li> <strong> TIP: </strong> The locations of the tools in Photoshop are generally in the red regions. </li> -->
+		<li> Watch the video clip. </li>
+		<li> Locate the region where the user selects a tool. </li>
+		<li> Select the region from the first drop down menu. </li>
+		<li> Find the tool the user selects from the second drop down menu. </li>
 	</ol>
+	<h3> Regions </h3>
+	<img class="regions" src="toolLocation-2.png"/>
+	<strong> Region #1: </strong>
+	Top of the screen in teal.<br/>
+	<strong> Region #2: </strong>
+	Left of the screen in pink.<br/>
+	<strong> Region #3: </strong>
+	Right of the screen in yellow.<br/>
+	<ol>
+	<div class='cleaner'>&nbsp;</div>
 </div>
-<div class='cleaner'>&nbsp;</div>
-<h2> Task #1 </h2>
-<div class="section task">
-	<div class="video">
-		<div id="mediaplayer" width="400" height="300">JW Player goes here</div>
-	</div>
-	<div class="info">
-		<h4> Which region was tool selected from? </h4>
-		<select class="span3">
-			<option val="1"> Region #1 (Top) </option>
-			<option val="2"> Region #2 (Left) </option>
-			<option val="3"> Region #3 (Right) </option>
-		</select>
-	</div>
-</div>
+<div id="tasks"></div>
 <div class='cleaner'>&nbsp;</div>
 <h2> Finish </h2>
 <div class="section">
@@ -134,6 +168,7 @@
 	<button type="submit" class="btn btn-large btn-primary" style="float:right">Submit</button>
 	When you are done hit the submit button.
 	</form>
+	<button class="submitHIT">HI </button>
 </div>
 </body>
 
