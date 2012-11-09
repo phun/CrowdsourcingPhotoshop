@@ -1,0 +1,138 @@
+<html>
+<head>
+	<title>Amazon Turk Step 1</title>
+	<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.22.custom.css" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="js/libs/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery-ui-1.8.22.custom.min.js"></script> 
+	<script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script>
+
+	<script type="text/javascript">
+
+		// Get Parameters
+		var prmstr = window.location.search.substr(1);
+		var prmarr = prmstr.split ("&");
+		var params = {};
+		for ( var i = 0; i < prmarr.length; i++) {
+			var tmparr = prmarr[i].split("=");
+			params[tmparr[0]] = tmparr[1];
+		}
+
+		$(document).ready(function() {
+
+			var addTick = function(index) {
+	    		var id = "marker-" + (indices.length - 1);  
+	    		console.log(id);          
+	    		var duration = jwplayer().getDuration();
+	   			var offset = index / duration * 100;
+	    		var html = "<span class='marker btn-inverse' id='" + id + "' style='left:" + offset + "%;'></span>";  
+	    		var i = $(html);
+
+	    		// On hover add "Click to remove"
+	    		i.hover(function() {
+	    			var html = "<span class='removeHelper' style='top:" + this.offsetHeight + "; left: " + this.offsetLeft + "'> Double-click to Remove </span>";
+	    			$("#timelineHolder").append(html);
+	    		}, function() {
+	    			$("#timelineHolder .removeHelper").each(function() { $(this).remove(); });
+	    		});
+
+	    		i.dblclick(function() {
+	    			$(this).hide();
+	    			indices.splice($(this).attr("id").split('-')[1], 1);
+	    			console.log(indices);
+	    		})
+	    		$("#timelineHolder").append(i);      
+	    	};
+
+			var indices = [];
+
+			var vid = "1";
+
+			if (params['id'])
+			{
+				vid = params['id'];
+			}
+
+			video = "videos/t1_"+ vid + ".mp4";
+
+			$("#videoURL").val(video);
+
+			jwplayer("mediaplayer").setup({
+			  flashplayer: "js/libs/jwplayer/player.swf",
+			  // width: "700",
+			  // height: "400",
+			  controlbar: "bottom",
+			  file: video,
+			  events: {
+					onTime: function(event) {
+            			$("#timeline").slider('value', event.position);
+          			}
+			  }
+			});
+
+			$(".toolButton").click(function() {
+				var index = jwplayer().getPosition();
+				indices.push(index);
+				addTick(index);
+				$("#submitIndices").val(indices);
+			});
+
+			$(".submitHIT").click(function() {
+				alert(indices);
+			});
+
+	    	$( "#timeline" ).slider({
+				range: "min",
+				min: 0,
+				max: 279,
+				step: 0.1,
+				animate: true,
+				slide: function(event, ui){
+					jwplayer().seek(ui.value);
+				}
+      		});
+		});
+	</script>
+</head>
+<body>
+<div id="title">
+	<h1>Click When Tools Are Used in Photoshop </h1>
+</div>
+
+<h2> Instructions </h2>
+<div class="section">
+	<img class="screenshot" src="toolLocationsScreenshot.png"/>
+	<ol>
+		<li> Watch the Photoshop video tutorial. </li>
+		<li> Click on the <button class="btn btn-inverse btn-mini disabled">Tool Selected</button> button every time the user in the video selects a tool in the red regions.
+			<ul>
+				<li>A tick <img src="tick.png" /> will be added to the timeline which represents the time the tool was selected. </li>
+				<li>To remove a tick, double-click on the tick. </li>
+			</ul>
+		</li>
+	</ol>
+	<div class='cleaner'>&nbsp;</div>
+</div>
+<h2> Task </h2>
+<div class="section">
+	<div id="mediaplayer" width="100%" height="400">JW Player goes here</div>
+	<br/><button class="btn btn-inverse toolButton">Tool Selected</button>
+	<br/><div id="timelineHolder">
+		<div id="timeline"></div>
+		</div>
+</div>
+<div class='cleaner'>&nbsp;</div>
+<h2> Finish </h2>
+<div class="section">
+	<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
+	<form id="submitForm" action="submit_one.php">
+	<input type="text" name="indices" id="submitIndices">
+	<input type="text" name="video" id="videoURL">
+	<button type="submit" class="btn btn-large btn-primary" style="float:right">Submit</button>
+	When you are done hit the submit button.
+	</form>
+</div>
+</body>
+
+</html>

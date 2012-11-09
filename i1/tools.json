@@ -1,0 +1,570 @@
+[
+			{
+				"value": "move",
+				"label": "Move",
+				"kind": "Selection",
+				"desc": "",
+        		"order": "1",
+				"icon": "1_1.png"
+			},
+			{
+				"value": "rectangular-marquee",
+				"label": "Rectangular Marquee",
+				"kind": "Selection",
+				"desc": "",
+        		"order": "2",
+				"icon": "2_1.png"
+			},
+			{
+				"value": "elliptical-marquee",
+				"label": "Elliptical Marquee",
+				"kind": "Selection",
+				"desc": "",
+        		"order": "2",
+				"icon": "2_2.png"
+			},
+			{
+				"value": "single-column-marquee",
+				"label": "Single Column Marquee",
+				"kind": "Selection",
+				"desc": "",
+        		"order": "2",
+				"icon": "2_3.png"
+			},
+			{
+				"value": "single-row-marquee",
+				"label": "Single Row Marquee",
+				"kind": "Selection",
+				"desc": "",
+        		"order": "2",
+				"icon": "2_4.png"
+			},
+			{
+				"value": "lasso",
+				"label": "Lasso",
+				"kind": "Selection",
+				"desc": "",
+        		"order": "3",
+				"icon": "3_1.png"
+			},
+			{
+				"value": "polygonal-lasso",
+				"label": "Polygonal Lasso",
+				"kind": "Selection",
+				"desc": "",
+        		"order": "3",
+				"icon": "3_2.png"
+			},
+			{
+				"value": "magnetic-lasso",
+				"label": "Magnetic Lasso",
+				"kind": "Selection",
+				"desc": "",
+        		"order": "3",
+				"icon": "3_3.png"
+			},
+			{
+				"value": "quick-selection",
+				"label": "Quick Selection",
+				"kind": "Selection",
+				"desc": "",
+        		"order": "4",
+				"icon": "4_1.png"
+			},
+			{
+				"value": "magic-wand",
+				"label": "Magic Wand",
+				"kind": "Selection",
+				"desc": "",
+        		"order": "4",
+				"icon": "4_2.png"
+			},
+			{
+				"value": "crop",
+				"label": "Crop",
+				"kind": "Crop and Slice",
+				"desc": "",
+        		"order": "5",
+				"icon": "5_1.png"
+			},
+			{
+				"value": "slice",
+				"label": "Slice",
+				"kind": "Crop and Slice",
+				"desc": "",
+        		"order": "5",
+				"icon": "5_2.png"
+			},
+			{
+				"value": "slice-select",
+				"label": "Slice Select",
+				"kind": "Crop and Slice",
+				"desc": "",
+        		"order": "5",
+				"icon": "5_3.png"
+			},
+			{
+				"value": "eyedropper",
+				"label": "Eyedropper",
+				"kind": "Measuring",
+				"desc": "",
+        		"order": "6",
+				"icon": "6_1.png"
+			},
+			{
+				"value": "color-sampler",
+				"label": "Color Sampler",
+				"kind": "Measuring",
+				"desc": "",
+        		"order": "6",
+				"icon": "6_2.png"
+			},
+			{
+				"value": "ruler",
+				"label": "Ruler",
+				"kind": "Measuring",
+				"desc": "",
+        		"order": "6",
+				"icon": "6_3.png"
+			},
+			{
+				"value": "note",
+				"label": "Note",
+				"kind": "Measuring",
+				"desc": "",
+        		"order": "6",
+				"icon": "6_4.png"
+			},
+			{
+				"value": "count",
+				"label": "Count",
+				"kind": "Measuring",
+				"desc": "",
+        		"order": "6",
+				"icon": "6_5.png"
+			},
+			{
+				"value": "spot-healing-brush",
+				"label": "Spot Healing Brush",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "7",
+				"icon": "7_1.png"
+			},
+			{
+				"value": "healing-brush",
+				"label": "Healing Brush",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "7",
+				"icon": "7_2.png"
+			},
+			{
+				"value": "patch",
+				"label": "Patch",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "7",
+				"icon": "7_3.png"
+			},
+			{
+				"value": "red-eye",
+				"label": "Red Eye",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "7",
+				"icon": "7_4.png"
+			},
+			{
+				"value": "clone-stamp",
+				"label": "Clone Stamp",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "9",
+				"icon": "9_1.png"
+			},
+			{
+				"value": "pattern-stamp",
+				"label": "Pattern Stamp",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "9",
+				"icon": "9_2.png"
+			},
+			{
+				"value": "eraser",
+				"label": "Eraser",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "11",
+				"icon": "11_1.png"
+			},
+			{
+				"value": "background-eraser",
+				"label": "Background Eraser",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "11",
+				"icon": "11_2.png"
+			},
+			{
+				"value": "magic-eraser",
+				"label": "Magic Eraser",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "11",
+				"icon": "11_3.png"
+			},
+			{
+				"value": "blur",
+				"label": "Blur",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "13",
+				"icon": "13_1.png"
+			},
+			{
+				"value": "sharpen",
+				"label": "Sharpen",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "13",
+				"icon": "13_2.png"
+			},
+			{
+				"value": "smudge",
+				"label": "Smudge",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "13",
+				"icon": "13_3.png"
+			},
+			{
+				"value": "dodge",
+				"label": "Dodge",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "14",
+				"icon": "14_1.png"
+			},
+			{
+				"value": "burn",
+				"label": "Burn",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "14",
+				"icon": "14_2.png"
+			},
+			{
+				"value": "sponge",
+				"label": "Sponge",
+				"kind": "Retouching",
+				"desc": "",
+        		"order": "14",
+				"icon": "14_3.png"
+			},
+			{
+				"value": "brush",
+				"label": "Brush",
+				"kind": "Painting",
+				"desc": "",
+        		"order": "8",
+				"icon": "8_1.png"
+			},
+			{
+				"value": "pencil",
+				"label": "Pencil",
+				"kind": "Painting",
+				"desc": "",
+        		"order": "8",
+				"icon": "8_2.png"
+			},
+			{
+				"value": "color-replacement",
+				"label": "Color Replacement",
+				"kind": "Painting",
+				"desc": "",
+        		"order": "8",
+				"icon": "8_3.png"
+			},
+			{
+				"value": "mixer-brush",
+				"label": "Mixer Brush",
+				"kind": "Painting",
+				"desc": "",
+        		"order": "8",
+				"icon": "8_4.png"
+			},
+			{
+				"value": "history-brush",
+				"label": "History Brush",
+				"kind": "Painting",
+				"desc": "",
+        		"order": "10",
+				"icon": "10_1.png"
+			},
+			{
+				"value": "art-history-brush",
+				"label": "Art History Brush",
+				"kind": "Painting",
+				"desc": "",
+        		"order": "10",
+				"icon": "10_2.png"
+			},
+			{
+				"value": "gradient",
+				"label": "Gradient",
+				"kind": "Painting",
+				"desc": "",
+        		"order": "12",
+				"icon": "12_1.png"
+			},
+			{
+				"value": "paint-bucket",
+				"label": "Paint Bucket",
+				"kind": "Painting",
+				"desc": "",
+        		"order": "12",
+				"icon": "12_2.png"
+			},
+			{
+				"value": "pen",
+				"label": "Pen",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "15",
+				"icon": "15_1.png"
+			},
+			{
+				"value": "freeform-pen",
+				"label": "Freeform Pen",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "15",
+				"icon": "15_2.png"
+			},
+			{
+				"value": "add-anchor-point",
+				"label": "Add Anchor Point",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "15",
+				"icon": "15_3.png"
+			},
+			{
+				"value": "delete-anchor-point",
+				"label": "Delete Anchor Point",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "15",
+				"icon": "15_4.png"
+			},
+			{
+				"value": "convert-point",
+				"label": "Convert Point",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "15",
+				"icon": "15_5.png"
+			},
+			{
+				"value": "horizontal-type",
+				"label": "Horizontal Type",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "16",
+				"icon": "16_1.png"
+			},
+			{
+				"value": "vertical-type",
+				"label": "Vertical Type",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "16",
+				"icon": "16_2.png"
+			},
+			{
+				"value": "horizontal-type-mask",
+				"label": "Horizontal Type Mask",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "16",
+				"icon": "16_3.png"
+			},
+			{
+				"value": "vertical-type-mask",
+				"label": "Vertical Type Mask",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "16",
+				"icon": "16_4.png"
+			},
+			{
+				"value": "path-selection",
+				"label": "Path Selection",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "17",
+				"icon": "17_1.png"
+			},
+			{
+				"value": "direct-selection",
+				"label": "Direct Selection",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "17",
+				"icon": "17_2.png"
+			},
+			{
+				"value": "rectangle",
+				"label": "Rectangle",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "18",
+				"icon": "18_1.png"
+			},
+			{
+				"value": "rounded-rectangle",
+				"label": "Rounded Rectangle",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "18",
+				"icon": "18_2.png"
+			},
+			{
+				"value": "ellipse",
+				"label": "Ellipse",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "18",
+				"icon": "18_3.png"
+			},
+			{
+				"value": "polygon",
+				"label": "Polygon",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "18",
+				"icon": "18_4.png"
+			},
+			{
+				"value": "line",
+				"label": "Line",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "18",
+				"icon": "18_5.png"
+			},
+			{
+				"value": "custom-shape",
+				"label": "Custom Shape",
+				"kind": "Drawing and Type",
+				"desc": "",
+        		"order": "18",
+				"icon": "18_6.png"
+			},
+			{
+				"value": "3d-object-rotate",
+				"label": "3D Object Rotate",
+				"kind": "Navigation and 3D",
+				"desc": "",
+        		"order": "19",
+				"icon": "19_1.png"
+			},
+			{
+				"value": "3d-object-roll",
+				"label": "3D Object Roll",
+				"kind": "Navigation and 3D",
+				"desc": "",
+        		"order": "19",
+				"icon": "19_2.png"
+			},
+			{
+				"value": "3d-object-pan",
+				"label": "3D Object Pan",
+				"kind": "Navigation and 3D",
+				"desc": "",
+        		"order": "19",
+				"icon": "19_3.png"
+			},
+			{
+				"value": "3d-object-slide",
+				"label": "3D Object Slide",
+				"kind": "Navigation and 3D",
+				"desc": "",
+        		"order": "19",
+				"icon": "19_4.png"
+			},
+			{
+				"value": "3d-object-scale",
+				"label": "3D Object Scale",
+				"kind": "Navigation and 3D",
+				"desc": "",
+        		"order": "19",
+				"icon": "19_5.png"
+			},
+			{
+				"value": "3d-rotate-camera",
+				"label": "3D Rotate Camera",
+				"kind": "Navigation and 3D",
+				"desc": "",
+        		"order": "20",
+				"icon": "20_1.png"
+			},
+			{
+				"value": "3d-roll-camera",
+				"label": "3D Roll Camera",
+				"kind": "Navigation and 3D",
+				"desc": "",
+        		"order": "20",
+				"icon": "20_2.png"
+			},
+			{
+				"value": "3d-pan-camera",
+				"label": "3D Pan Camera",
+				"kind": "Navigation and 3D",
+				"desc": "",
+        		"order": "20",
+				"icon": "20_3.png"
+			},
+			{
+				"value": "3d-walk-camera",
+				"label": "3D Walk Camera",
+				"kind": "Navigation and 3D",
+				"desc": "",
+        		"order": "20",
+				"icon": "20_4.png"
+			},
+			{
+				"value": "3d-zoom-camera",
+				"label": "3D Zoom Camera",
+				"kind": "Navigation and 3D",
+				"desc": "",
+        		"order": "20",
+				"icon": "20_5.png"
+			},
+			{
+				"value": "hand",
+				"label": "Hand",
+				"kind": "Navigation and 3D",
+				"desc": "",
+        		"order": "21",
+				"icon": "21_1.png"
+			},
+			{
+				"value": "rotate-view",
+				"label": "Rotate View",
+				"kind": "Navigation and 3D",
+				"desc": "",
+        		"order": "21",
+				"icon": "21_2.png"
+			},
+			{
+				"value": "zoom",
+				"label": "Zoom",
+				"kind": "Navigation and 3D",
+				"desc": "",
+        		"order": "22",
+				"icon": "22_1.png"
+			}
+]
