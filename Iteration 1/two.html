@@ -27,6 +27,8 @@
 
       		var makeTask = function(video) {
 
+      			$("#video").val(video);
+
       			var num = tasks.length + 1;
 
       			var ht = '<div class="section task">' +
@@ -41,7 +43,6 @@
 								'<option value="1"> Region #1 (Top) </option>' +
 								'<option value="2"> Region #2 (Left) </option>' +
 								'<option value="3"> Region #3 (Right) </option>' +
-								'<option value="4"> Other </option>' +
 							'</select>' +
 							'<h4> What was the name of the tool? </h4>' +
 							'<select id="tool-selector-' + num + '" class="span3">' +
@@ -78,9 +79,12 @@
 							var opt = "<option value='" + o.value + "'>" + o.label + "</option>";
 							select.append(opt);
 						};
-						select.chosen().change(function() {
+						var c = select.chosen()
+						c.change(function() {
 							tasks[num - 1]["tool"] = $(this).val();
+							$("#tool").val($(this).val());
 						});
+						$("#tool").val($(c).val());
 					});
 		    	};
 
@@ -93,9 +97,12 @@
 							var opt = "<option value='" + o.value + "'>" + o.label + "</option>";
 							select.append(opt);
 						};
-						select.chosen().change(function() {
+						var c = select.chosen();
+						c.change(function() {
 							tasks[num - 1]["tool"] = $(this).val();
+							$("#tool").val($(this).val());
 						});
+						$("#tool").val($(c).val());
 					});
 		    	};
 
@@ -117,6 +124,7 @@
 
 				$("#region-selector-" + num).change(function() {
 					tasks[num - 1]["region"] = $(this).val();
+					$("#region").val($(this).val());
 				});
 
       		};
@@ -124,19 +132,13 @@
 
 			video = "videos/no_tools.mp4";
       		makeTask(video);
-      		makeTask(video);
-      		makeTask(video);
-
-			$(".submitHIT").click(function() {
-				console.log(tasks);
-			});
 
 		});
 	</script>
 </head>
 <body>
 <div id="title">
-	<h1> HIT Task: Label Tools Used in Photoshop Videos </h1>
+	<h1> Label Tools Used in Photoshop Videos </h1>
 </div>
 
 <h2> Instructions </h2>
@@ -163,12 +165,14 @@
 <div class='cleaner'>&nbsp;</div>
 <h2> Finish </h2>
 <div class="section">
-	<form action="http://www.mturk.com/mturk/externalSubmit">
-	<input type="text" name="indices" id="submitIndices">
+	<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
+	<form id="submitForm" action="submit_two.php">
+		<input type="text" name="video" id="video">
+		<input type="text" name="region" id="region">
+		<input type="text" name="tool" id="tool">
 	<button type="submit" class="btn btn-large btn-primary" style="float:right">Submit</button>
 	When you are done hit the submit button.
 	</form>
-	<button class="submitHIT">HI </button>
 </div>
 </body>
 

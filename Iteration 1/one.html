@@ -54,6 +54,8 @@
 				video = "videos/no_tools.mp4";
 			}
 
+			$("#videoURL").val(video);
+
 			jwplayer("mediaplayer").setup({
 			  flashplayer: "js/libs/jwplayer/player.swf",
 			  // width: "700",
@@ -121,8 +123,10 @@
 <div class='cleaner'>&nbsp;</div>
 <h2> Finish </h2>
 <div class="section">
-	<form action="http://www.mturk.com/mturk/externalSubmit">
+	<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
+	<form id="submitForm" action="submit_one.php">
 	<input type="text" name="indices" id="submitIndices">
+	<input type="text" name="video" id="videoURL">
 	<button type="submit" class="btn btn-large btn-primary" style="float:right">Submit</button>
 	When you are done hit the submit button.
 	</form>
