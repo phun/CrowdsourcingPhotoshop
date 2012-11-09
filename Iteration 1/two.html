@@ -58,7 +58,12 @@
 
 	      		$("#region-selector-" + num).change(function() {
 	      			var v = $(this).val();
-	      			if (v == 2) {
+	      			if (v == 3) {
+	      				popRight("tool-selector-" + num);
+	      				$("#tool-selector-" + num).removeAttr("disabled");
+	      				$("#tool-selector-" + num + "_chzn").removeAttr("disabled");
+	      			}
+	      			else if (v == 2) {
 	      				popTools("tool-selector-" + num);
 	      				$("#tool-selector-" + num).removeAttr("disabled");
 	      				$("#tool-selector-" + num + "_chzn").removeAttr("disabled");
@@ -79,8 +84,10 @@
 	      				$("#tool").val("NO_TOOL_IN_VIDEO");
 	      				$("#tool-selector-" + num).attr("disabled", "disabled");
 	      				$("#tool-selector-" + num + "_chzn").attr("disabled", "disabled");
+	      				$("#region-selector-" + num).attr("disabled", "disabled");
 	      			} else {
 	      				$("#tool").val($("#tool-selector-" + num).chosen().val());
+	      				$("#region-selector-" + num).removeAttr("disabled");
 	      				if ($("#region-selector-" + num).val() != 0) {
 	      					$("#tool-selector-" + num).removeAttr("disabled");
 	      					$("#tool-selector-" + num + "_chzn").removeAttr("disabled");
@@ -159,6 +166,37 @@
 					});
 		    	};
 
+		    	var popRight = function(id) {
+		    		clear();
+		    		var select = $("#" +id);
+		    		select.html("");
+					$.getJSON('right.json', function(data) {
+						for (var i in data) {
+							var o = data[i];
+							var opt = "<option value='" + o.value + "'>" + o.label + "</option>";
+							select.append(opt);
+						};
+						var c = select.chosen({
+							no_results_text: 
+								"We can't find that option. Click to create: ",
+							no_results_callback: function(resultsHtml, terms) {
+								resultsHtml.css("cursor","pointer");
+								resultsHtml.click(function() {
+									select.append($("<option selected></option>").attr("value",terms).text(terms)); 
+									select.trigger("liszt:updated");
+									select.focus();
+									$("#tool").val($(c).val());
+								});
+							}
+						});
+						c.change(function() {
+							tasks[num - 1]["tool"] = $(this).val();
+							$("#tool").val($(this).val());
+						});
+						$("#tool").val($(c).val());
+					});
+		    	};
+
 				jwplayer("mediaplayer-" + num).setup({
 					flashplayer: "js/libs/jwplayer/player.swf",
 					controlbar: "bottom",
@@ -183,7 +221,15 @@
       		};
 
 
-			video = "videos/no_tools.mp4";
+			var vid = "1";
+
+			if (params['id'])
+			{
+				vid = params['id'];
+			}
+
+			video = "videos/t2_"+ vid + ".mp4";
+
       		makeTask(video);
 
 		});
@@ -194,14 +240,15 @@
 	<h1> Label Tools Used in Photoshop Videos </h1>
 </div>
 
-<h2> Instructions </h2>
 <div class="section">
+	<h3>Background</h3>
+	In this video, the instructor is going to use a tool.  We would like to know what tool it is.
 	<img class="regions" src="toolLocation-2.png"/>
-	You will be watching 3 videos. For each video:
+	<h3>Instructions</h3>
 	<ol>
 		<li> Watch the video clip. </li>
-		<li> Locate the region where the user selects a tool.
-			<ul> <li> If the tool is not within one of the three regions showned on the right, ignore it. </li> </ul>
+		<li> Find the tool the user selects that is within one of the highlighted regions (#1, #2, #3).
+			<ul> <li> If the tool is not within a highlighted region, ignore it. </li> </ul>
 		</li>
 		<li> Select the region from the first drop down menu. </li>
 		<li> Find the tool the user selects from the second drop down menu. </li>

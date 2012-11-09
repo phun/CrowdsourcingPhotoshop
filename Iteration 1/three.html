@@ -74,14 +74,55 @@
 			var allAfterIndices = [];
 			var afterIndice;
 
-			var video = "videos/first.mp4";
+			var vid = "1";
+			var tname;
 
-			if (params['video'] == '1')
+			if (params['id'])
 			{
-				video = "videos/no_tools.mp4";
+				vid = params['id'];
 			}
 
+			switch(vid)
+			{
+				case '1':
+					tname = "Polygonal Lasso";
+					break;
+				case '2':
+					tname = "Feather";
+					break;
+				case '3':
+					tname = "Inverse";
+					break;
+				case '4':
+					tname = "Motion Blur";
+					break;
+				case '5':
+					tname = "Gradient Map";
+					break;
+				case '6':
+					tname = "Levels";
+					break;
+				case '7':
+					tname = "Add Noise";
+					break;
+				case '8':
+					tname = "Desaturate";
+					break;
+				case '9':
+					tname = "Duplicate Layer";
+					break;
+				case '10':
+					tname = "Invert";
+					break;
+				default:
+					tname = "Something broke :[";
+			}
+
+			$(".tname").text(tname);
+
+			video = "videos/t2_"+ vid + ".mp4";
 			$("#videoURL").val(video);
+
 
 			jwplayer("mediaplayer").setup({
 			  flashplayer: "js/libs/jwplayer/player.swf",
@@ -134,20 +175,26 @@
 </head>
 <body>
 <div id="title">
-	<h1> HIT Task: Click When Tools Are Used in Photoshop </h1>
+	<h1> Find Before and After Images in Photoshop </h1>
 </div>
 
-<h2> Information </h2>
 <div class="section">
-	<h4>Background</h4>
-	In this video, the instructor is going to use [X tool].  We would like the before and after images for [X tool]. For example:
-	<h4>Instructions</h4>
+	<h3>Information</h3>
+	In this video, the instructor is going to use the <span class="tname"></span> tool in Photoshop. 
+	<br />We would like the before and after images for <span class="tname"></span>.
+
+<!-- 	</br/><h4>For example:</h4> 
+	<img src="gaussian_blur_before.png" style="width: 150px;"> <img src="gaussian_blur_after.png" style="width: 150px;">
+ -->
+	<h3>Instructions</h3>
 	<ol>
 		<li> Watch the Photoshop video tutorial. </li>
 		<li><strong>Before Image:</strong> Click the <button class="btn btn-info btn-mini disabled">Before Image</button> when you see the image during the first ten seconds. </li>
-		<li> Wait and do not click while the instructor is using the tool. </li>
-		<li><strong>After Image:</strong> Click the <button class="btn btn-danger btn-mini disabled">After Image</button> when you see the image after the instructor is finished with the tool.</li>
+		<li> Wait and do not click while the instructor is using <span class="tname"></span>. </li>
+		<li><strong>After Image:</strong> Click the <button class="btn btn-danger btn-mini disabled">After Image</button> when you see the image after the instructor is finished with <span class="tname"></span>.</li>
+
 	</ol>
+	<ul><li><i>Tip</i>: Click again to override the current selection.</li></ul>
 	<div class='cleaner'>&nbsp;</div>
 </div>
 <h2> Task </h2>

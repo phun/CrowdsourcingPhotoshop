@@ -92,7 +92,8 @@ ol {
 .regions {
 	width: 48%;
 	float: right;
-	margin-left: 5px;
+	margin-left: 10px;
+	padding-top: 20px;
 }
 .cleaner {
   clear: both;
@@ -110,13 +111,18 @@ ol {
 	position: relative;
 }
 
+.tname {
+	font-style: italic;
+	font-weight: bold;
+}
+
 .marker {
 	position: absolute;
 	top: -1;
-	height: 100%;
-	width: 4px;
+	height: 16px;
+	width: 8px;
 	z-index: 2;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 .marker:hover {

@@ -47,12 +47,14 @@
 
 			var indices = [];
 
-			var video = "videos/first.mp4";
+			var vid = "1";
 
-			if (params['video'] == '1')
+			if (params['id'])
 			{
-				video = "videos/no_tools.mp4";
+				vid = params['id'];
 			}
+
+			video = "videos/t1_"+ vid + ".mp4";
 
 			$("#videoURL").val(video);
 
@@ -95,7 +97,7 @@
 </head>
 <body>
 <div id="title">
-	<h1> HIT Task: Click When Tools Are Used in Photoshop </h1>
+	<h1>Click When Tools Are Used in Photoshop </h1>
 </div>
 
 <h2> Instructions </h2>
