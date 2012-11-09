@@ -19,10 +19,21 @@ input[type=text] {
 ol {
 	padding-left: 20px;
 }
+
+[disabled=disabled] {
+	opacity: 0.5;
+}
 .smallText {
 	font-size: 12px;
 	text-decoration: underline;
 }
+
+.subtext {
+	margin-left: 10px;
+	font-size: 8pt;
+	vertical-align: text-top;
+};
+
 .left {
 	float: left;
 	margin-right: 10px;
@@ -79,7 +90,7 @@ ol {
 	margin-left: 5px;
 }
 .regions {
-	width: 60%;
+	width: 48%;
 	float: right;
 	margin-left: 5px;
 }

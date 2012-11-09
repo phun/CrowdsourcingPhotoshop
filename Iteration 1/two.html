@@ -8,7 +8,7 @@
 	<script src="js/libs/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="js/libs/jquery-ui-1.8.22.custom.min.js"></script> 
 	<script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script>
-	<script type="text/javascript" src="js/libs/chosen.jquery.min.js"></script>
+	<script type="text/javascript" src="js/libs/chosen.jquery.js"></script>
 
 	<script type="text/javascript">
 
@@ -32,7 +32,7 @@
       			var num = tasks.length + 1;
 
       			var ht = '<div class="section task">' +
-      					'<h2> Video #' + num + '</h2>' +
+      					'<h2> Video </h2>' +
 						'<div class="video">' +
 							'<div id="mediaplayer-' + num + '" width="400" height="300">JW Player goes here</div>' + 
 						'</div>' +
@@ -44,42 +44,82 @@
 								'<option value="2"> Region #2 (Left) </option>' +
 								'<option value="3"> Region #3 (Right) </option>' +
 							'</select>' +
-							'<h4> What was the name of the tool? </h4>' +
+							'<div><h4> What was the name of the tool? </h4>' +
 							'<select id="tool-selector-' + num + '" class="span3">' +
-							'</select>'
+							'<option> Select Region First </option></select></div>' +
+							'<br/><br/><input type="checkbox" id="noTool"><span class="subtext">No tool was used in the video</span>' +
 						'</div>' +
 					'</div>';
 
 				$("#tasks").append(ht);
 
+				$("#tool-selector-" + num).attr("disabled", "disabled");
+				$("#tool-selector-" + num).chosen();
+
 	      		$("#region-selector-" + num).change(function() {
 	      			var v = $(this).val();
 	      			if (v == 2) {
 	      				popTools("tool-selector-" + num);
+	      				$("#tool-selector-" + num).removeAttr("disabled");
+	      				$("#tool-selector-" + num + "_chzn").removeAttr("disabled");
 	      			} else if (v == 1) {
 	      				popMenus("tool-selector-" + num);
-	      			}
+	      				$("#tool-selector-" + num).removeAttr("disabled");
+	      				$("#tool-selector-" + num + "_chzn").removeAttr("disabled");
+	      			} else if (v == 0) {
+	      				clear();
+	      				$("#tool-selector-" + num).attr("disabled", "disabled");
+	      				$("#tool-selector-" + num + "_chzn").attr("disabled", "disabled");
+						$("#tool-selector-" + num).chosen();
+	      			};
 	      		});
 
+	      		$("#noTool").change(function() {
+	      			if($(this).attr("checked")) {
+	      				$("#tool").val("NO_TOOL_IN_VIDEO");
+	      				$("#tool-selector-" + num).attr("disabled", "disabled");
+	      				$("#tool-selector-" + num + "_chzn").attr("disabled", "disabled");
+	      			} else {
+	      				$("#tool").val($("#tool-selector-" + num).chosen().val());
+	      				if ($("#region-selector-" + num).val() != 0) {
+	      					$("#tool-selector-" + num).removeAttr("disabled");
+	      					$("#tool-selector-" + num + "_chzn").removeAttr("disabled");
+	      				}
+	      			}
+	      		})
+
       			var clear = function() {
-	      			var html = '<select id="tool-selector-' + num + '" class="span3"></select>';
+	      			var html = '<select id="tool-selector-' + num + '" class="span3"><option> Select Region First </option></select>';
 	      			var p = $("#tool-selector-" + num).parent();
-	      			p.append(html);
 	      			$("#tool-selector-" + num).remove();
-	      			$("#tool_selector_" + num + "_chzn").remove();
+	      			p.append(html);
+	      			$("#tool-selector-" + num + "_chzn").remove();
 
 	      		};
 
 		    	var popTools = function(id) {
 		    		clear();
 		    		var select = $("#" +id);
+		    		select.html("");
 					$.getJSON('tools.json', function(data) {
 						for (var i in data) {
 							var o = data[i];
 							var opt = "<option value='" + o.value + "'>" + o.label + "</option>";
 							select.append(opt);
 						};
-						var c = select.chosen()
+						var c = select.chosen({
+							no_results_text: 
+								"We can't find that option. Click to create: ",
+							no_results_callback: function(resultsHtml, terms) {
+								resultsHtml.css("cursor","pointer");
+								resultsHtml.click(function() {
+									select.append($("<option selected></option>").attr("value",terms).text(terms)); 
+									select.trigger("liszt:updated");
+									select.focus();
+									$("#tool").val($(c).val());
+								});
+							}
+						})
 						c.change(function() {
 							tasks[num - 1]["tool"] = $(this).val();
 							$("#tool").val($(this).val());
@@ -91,13 +131,26 @@
 		    	var popMenus = function(id) {
 		    		clear();
 		    		var select = $("#" +id);
+		    		select.html("");
 					$.getJSON('menus.json', function(data) {
 						for (var i in data) {
 							var o = data[i];
 							var opt = "<option value='" + o.value + "'>" + o.label + "</option>";
 							select.append(opt);
 						};
-						var c = select.chosen();
+						var c = select.chosen({
+							no_results_text: 
+								"We can't find that option. Click to create: ",
+							no_results_callback: function(resultsHtml, terms) {
+								resultsHtml.css("cursor","pointer");
+								resultsHtml.click(function() {
+									select.append($("<option selected></option>").attr("value",terms).text(terms)); 
+									select.trigger("liszt:updated");
+									select.focus();
+									$("#tool").val($(c).val());
+								});
+							}
+						});
 						c.change(function() {
 							tasks[num - 1]["tool"] = $(this).val();
 							$("#tool").val($(this).val());
@@ -143,22 +196,16 @@
 
 <h2> Instructions </h2>
 <div class="section">
+	<img class="regions" src="toolLocation-2.png"/>
 	You will be watching 3 videos. For each video:
 	<ol>
 		<li> Watch the video clip. </li>
-		<li> Locate the region where the user selects a tool. </li>
+		<li> Locate the region where the user selects a tool.
+			<ul> <li> If the tool is not within one of the three regions showned on the right, ignore it. </li> </ul>
+		</li>
 		<li> Select the region from the first drop down menu. </li>
 		<li> Find the tool the user selects from the second drop down menu. </li>
 	</ol>
-	<h3> Regions </h3>
-	<img class="regions" src="toolLocation-2.png"/>
-	<strong> Region #1: </strong>
-	Top of the screen in teal.<br/>
-	<strong> Region #2: </strong>
-	Left of the screen in pink.<br/>
-	<strong> Region #3: </strong>
-	Right of the screen in yellow.<br/>
-	<ol>
 	<div class='cleaner'>&nbsp;</div>
 </div>
 <div id="tasks"></div>
