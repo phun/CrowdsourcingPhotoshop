@@ -1,0 +1,273 @@
+<html>
+<head>
+	<title>Amazon Turk Step 2</title>
+	<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.22.custom.css" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="js/libs/chosen.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="js/libs/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery-ui-1.8.22.custom.min.js"></script> 
+	<script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script>
+	<script type="text/javascript" src="js/libs/chosen.jquery.js"></script>
+
+	<script type="text/javascript">
+
+		// Get Parameters
+		var prmstr = window.location.search.substr(1);
+		var prmarr = prmstr.split ("&");
+		var params = {};
+		for ( var i = 0; i < prmarr.length; i++) {
+			var tmparr = prmarr[i].split("=");
+			params[tmparr[0]] = tmparr[1];
+		}
+
+		$(document).ready(function() {
+
+			var tasks = [];
+
+      		var makeTask = function(video) {
+
+      			$("#video").val(video);
+
+      			var num = tasks.length + 1;
+
+      			var ht = '<div class="section task">' +
+      					'<h2> Video </h2>' +
+						'<div class="video">' +
+							'<div id="mediaplayer-' + num + '" width="400" height="300">JW Player goes here</div>' + 
+						'</div>' +
+						'<div class="info">' +
+							'<h4> Which region was tool selected from? </h4>' +
+							'<select id="region-selector-' + num + '" class="span3">' +
+								'<option value="0"> Select a Region </option>' +
+								'<option value="1"> Region #1 (Top) </option>' +
+								'<option value="2"> Region #2 (Left) </option>' +
+								'<option value="3"> Region #3 (Right) </option>' +
+							'</select>' +
+							'<div><h4> What was the name of the tool? </h4>' +
+							'<select id="tool-selector-' + num + '" class="span3">' +
+							'<option> Select Region First </option></select></div>' +
+							'<br/><br/><input type="checkbox" id="noTool"><span class="subtext">No tool was used in the video</span>' +
+						'</div>' +
+					'</div>';
+
+				$("#tasks").append(ht);
+
+				$("#tool-selector-" + num).attr("disabled", "disabled");
+				$("#tool-selector-" + num).chosen();
+
+	      		$("#region-selector-" + num).change(function() {
+	      			var v = $(this).val();
+	      			if (v == 3) {
+	      				popRight("tool-selector-" + num);
+	      				$("#tool-selector-" + num).removeAttr("disabled");
+	      				$("#tool-selector-" + num + "_chzn").removeAttr("disabled");
+	      			}
+	      			else if (v == 2) {
+	      				popTools("tool-selector-" + num);
+	      				$("#tool-selector-" + num).removeAttr("disabled");
+	      				$("#tool-selector-" + num + "_chzn").removeAttr("disabled");
+	      			} else if (v == 1) {
+	      				popMenus("tool-selector-" + num);
+	      				$("#tool-selector-" + num).removeAttr("disabled");
+	      				$("#tool-selector-" + num + "_chzn").removeAttr("disabled");
+	      			} else if (v == 0) {
+	      				clear();
+	      				$("#tool-selector-" + num).attr("disabled", "disabled");
+	      				$("#tool-selector-" + num + "_chzn").attr("disabled", "disabled");
+						$("#tool-selector-" + num).chosen();
+	      			};
+	      		});
+
+	      		$("#noTool").change(function() {
+	      			if($(this).attr("checked")) {
+	      				$("#tool").val("NO_TOOL_IN_VIDEO");
+	      				$("#tool-selector-" + num).attr("disabled", "disabled");
+	      				$("#tool-selector-" + num + "_chzn").attr("disabled", "disabled");
+	      				$("#region-selector-" + num).attr("disabled", "disabled");
+	      			} else {
+	      				$("#tool").val($("#tool-selector-" + num).chosen().val());
+	      				$("#region-selector-" + num).removeAttr("disabled");
+	      				if ($("#region-selector-" + num).val() != 0) {
+	      					$("#tool-selector-" + num).removeAttr("disabled");
+	      					$("#tool-selector-" + num + "_chzn").removeAttr("disabled");
+	      				}
+	      			}
+	      		})
+
+      			var clear = function() {
+	      			var html = '<select id="tool-selector-' + num + '" class="span3"><option> Select Region First </option></select>';
+	      			var p = $("#tool-selector-" + num).parent();
+	      			$("#tool-selector-" + num).remove();
+	      			p.append(html);
+	      			$("#tool-selector-" + num + "_chzn").remove();
+
+	      		};
+
+		    	var popTools = function(id) {
+		    		clear();
+		    		var select = $("#" +id);
+		    		select.html("");
+					$.getJSON('tools.json', function(data) {
+						for (var i in data) {
+							var o = data[i];
+							var opt = "<option value='" + o.value + "'>" + o.label + "</option>";
+							select.append(opt);
+						};
+						var c = select.chosen({
+							no_results_text: 
+								"We can't find that option. Click to create: ",
+							no_results_callback: function(resultsHtml, terms) {
+								resultsHtml.css("cursor","pointer");
+								resultsHtml.click(function() {
+									select.append($("<option selected></option>").attr("value",terms).text(terms)); 
+									select.trigger("liszt:updated");
+									select.focus();
+									$("#tool").val($(c).val());
+								});
+							}
+						})
+						c.change(function() {
+							tasks[num - 1]["tool"] = $(this).val();
+							$("#tool").val($(this).val());
+						});
+						$("#tool").val($(c).val());
+					});
+		    	};
+
+		    	var popMenus = function(id) {
+		    		clear();
+		    		var select = $("#" +id);
+		    		select.html("");
+					$.getJSON('menus.json', function(data) {
+						for (var i in data) {
+							var o = data[i];
+							var opt = "<option value='" + o.value + "'>" + o.label + "</option>";
+							select.append(opt);
+						};
+						var c = select.chosen({
+							no_results_text: 
+								"We can't find that option. Click to create: ",
+							no_results_callback: function(resultsHtml, terms) {
+								resultsHtml.css("cursor","pointer");
+								resultsHtml.click(function() {
+									select.append($("<option selected></option>").attr("value",terms).text(terms)); 
+									select.trigger("liszt:updated");
+									select.focus();
+									$("#tool").val($(c).val());
+								});
+							}
+						});
+						c.change(function() {
+							tasks[num - 1]["tool"] = $(this).val();
+							$("#tool").val($(this).val());
+						});
+						$("#tool").val($(c).val());
+					});
+		    	};
+
+		    	var popRight = function(id) {
+		    		clear();
+		    		var select = $("#" +id);
+		    		select.html("");
+					$.getJSON('right.json', function(data) {
+						for (var i in data) {
+							var o = data[i];
+							var opt = "<option value='" + o.value + "'>" + o.label + "</option>";
+							select.append(opt);
+						};
+						var c = select.chosen({
+							no_results_text: 
+								"We can't find that option. Click to create: ",
+							no_results_callback: function(resultsHtml, terms) {
+								resultsHtml.css("cursor","pointer");
+								resultsHtml.click(function() {
+									select.append($("<option selected></option>").attr("value",terms).text(terms)); 
+									select.trigger("liszt:updated");
+									select.focus();
+									$("#tool").val($(c).val());
+								});
+							}
+						});
+						c.change(function() {
+							tasks[num - 1]["tool"] = $(this).val();
+							$("#tool").val($(this).val());
+						});
+						$("#tool").val($(c).val());
+					});
+		    	};
+
+				jwplayer("mediaplayer-" + num).setup({
+					flashplayer: "js/libs/jwplayer/player.swf",
+					controlbar: "bottom",
+					file: video,
+					events: {
+						onTime: function(event) {
+							$("#timeline").slider('value', event.position);
+						}
+					}
+				});
+
+				tasks.push({
+					"id": num,
+					"video": video,
+				});
+
+				$("#region-selector-" + num).change(function() {
+					tasks[num - 1]["region"] = $(this).val();
+					$("#region").val($(this).val());
+				});
+
+      		};
+
+
+			var vid = "1";
+
+			if (params['id'])
+			{
+				vid = params['id'];
+			}
+
+			video = "videos/t2_"+ vid + ".mp4";
+
+      		makeTask(video);
+
+		});
+	</script>
+</head>
+<body>
+<div id="title">
+	<h1> Label Tools Used in Photoshop Videos </h1>
+</div>
+
+<div class="section">
+	<h3>Background</h3>
+	In this video, the instructor is going to use a tool.  We would like to know what tool it is.
+	<img class="regions" src="toolLocation-2.png"/>
+	<h3>Instructions</h3>
+	<ol>
+		<li> Watch the video clip. </li>
+		<li> Find the tool the user selects that is within one of the highlighted regions (#1, #2, #3).
+			<ul> <li> If the tool is not within a highlighted region, ignore it. </li> </ul>
+		</li>
+		<li> Select the region from the first drop down menu. </li>
+		<li> Find the tool the user selects from the second drop down menu. </li>
+	</ol>
+	<div class='cleaner'>&nbsp;</div>
+</div>
+<div id="tasks"></div>
+<div class='cleaner'>&nbsp;</div>
+<h2> Finish </h2>
+<div class="section">
+	<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
+	<form id="submitForm" action="submit_two.php">
+		<input type="text" name="video" id="video">
+		<input type="text" name="region" id="region">
+		<input type="text" name="tool" id="tool">
+	<button type="submit" class="btn btn-large btn-primary" style="float:right">Submit</button>
+	When you are done hit the submit button.
+	</form>
+</div>
+</body>
+
+</html>
