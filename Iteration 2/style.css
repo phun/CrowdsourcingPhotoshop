@@ -46,15 +46,14 @@ ol {
 }
 
 .task .video {
-	display: inline-block;
 	vertical-align: top;
-	width: 59%;
 }
 
 .task .info {
-	display: inline-block;
 	vertical-align: top;
-	width: 39%;
+	margin-top: 30px;
+	border: 1px solid black;
+	padding: 0px 10px 10px 10px;
 }
 
 .toolButton {
@@ -130,11 +129,52 @@ ol {
 	cursor: pointer;
 }
 
-#timelineHolder .ui-slider-handle {
+.ui-slider-handle {
 	z-index: -1;
 	opacity: 0;
 }
 
 #submitIndices {
+	display: none;
+}
+
+.ss {
+	width: 100%;
+}
+
+.imgClick {
+	display: inline-block;
+	width: 31%;
+	margin-right: 2px;
+	vertical-align: top;
+}
+
+.not {
+	color: white;
+	background: red;
+	padding-left: 5px;
+}
+
+.linkText {
+	font-size: 8pt;
+}
+
+.pretestImg {
+	display: inline-block;
+	width: 60%;
+	vertical-align: top;
+}
+
+.pretestText {
+	display: inline-block;
+	width: 35%;
+	vertical-align: top;
+}
+
+.result {
+	display:none;
+}
+
+.testText {
 	display: none;
 }

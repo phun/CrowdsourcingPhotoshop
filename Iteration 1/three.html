@@ -1,3 +1,4 @@
+
 <html>
 <head>
 	<title>Amazon Turk Step 3</title>
@@ -77,10 +78,18 @@
 			var vid = "1";
 			var tname;
 
+			if (params['assignmentId'])
+			{
+				$("#assignmentId").val(params['assignmentId']);
+			}
+
+
 			if (params['id'])
 			{
 				vid = params['id'];
-			}
+			}  else {
+                                $("body").css("background", "red");
+                        }     
 
 			switch(vid)
 			{
@@ -210,8 +219,9 @@
 <h2> Finish </h2>
 <div class="section">
 	<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
-	<form id="submitForm" action="submit_three.php">
-		<input type="text" name="beforeIndice" id="beforeIndice">
+	<form id="submitForm" action="https://www.mturk.com/mturk/externalSubmit" method="POST">
+        <input type="hidden" name="assignmentId" id="assignmentId" value="">
+	<input type="text" name="beforeIndice" id="beforeIndice">
 		<input type="text" name="allBeforeIndices" id="allBeforeIndices">
 		<input type="text" name="afterIndice" id="afterIndice">
 		<input type="text" name="allAfterIndices" id="allAfterIndices">

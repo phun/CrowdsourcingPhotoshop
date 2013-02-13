@@ -1,3 +1,4 @@
+
 <html>
 <head>
 	<title>Amazon Turk Step 2</title>
@@ -220,6 +221,10 @@
 
       		};
 
+			if (params['assignmentId'])
+			{
+				$("#assignmentId").val(params['assignmentId']);
+			}
 
 			var vid = "1";
 
@@ -227,7 +232,9 @@
 			{
 				vid = params['id'];
 			}
-
+ else {
+                                $("body").css("background", "red");
+                        }     
 			video = "videos/t2_"+ vid + ".mp4";
 
       		makeTask(video);
@@ -260,7 +267,8 @@
 <h2> Finish </h2>
 <div class="section">
 	<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
-	<form id="submitForm" action="submit_two.php">
+        <form id="submitForm" action="https://www.mturk.com/mturk/externalSubmit" method="POST">
+        <input type="hidden" name="assignmentId" id="assignmentId" value="">
 		<input type="text" name="video" id="video">
 		<input type="text" name="region" id="region">
 		<input type="text" name="tool" id="tool">

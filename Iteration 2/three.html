@@ -7,8 +7,11 @@
 	<script src="js/libs/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="js/libs/jquery-ui-1.8.22.custom.min.js"></script> 
 	<script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script>
-
+	<link rel="stylesheet" type="text/css" href="js/jquery.qtip.min.css" />
+	<script type="text/javascript" src="js/jquery.qtip.min.js"></script>
 	<script type="text/javascript">
+
+		var pauseOnSeek = true;
 
 		// Get Parameters
 		var prmstr = window.location.search.substr(1);
@@ -20,6 +23,35 @@
 		}
 
 		$(document).ready(function() {
+
+			var addToolTick = function() {
+	    		var id = "toolTick";          
+	    		var duration = 100;
+	   			var offset = 49.2;
+	    		var html = "<span class='marker btn-inverse toolTick' id='" + id + "' style='left:" + offset + "%;'></span>";  
+	    		var i = $(html);
+
+	    		// On hover add "Click to remove"
+	    		i.qtip({
+					content: {
+						text: 'Tool Used Here'
+					},
+					position: {
+						my: 'top center', // Use the corner...
+						at: 'bottom center' // ...and opposite corner
+					},
+					show: {
+						event: false, // Don't specify a show event...
+						ready: true // ... but show the tooltip when ready
+					},
+					hide: false, // Don't specify a hide event either!
+					style: {
+						classes: 'qtip-shadow qtip-' + 'dark'
+					}
+				});
+
+	    		$("#timelineHolder").append(i);      
+	    	};
 
 			var addBeforeTick = function(index) {
 	    		var id = "beforeTick";  
@@ -82,6 +114,11 @@
 				vid = params['id'];
 			}
 
+			if (params['assignmentId'])
+			{
+				$("#assignmentId").val(params['assignmentId']);
+			}
+
 			switch(vid)
 			{
 				case '1':
@@ -123,6 +160,16 @@
 			video = "videos/t2_"+ vid + ".mp4";
 			$("#videoURL").val(video);
 
+			var toggleBtns = function(pos, dur) {
+				if (pos < dur / 2) {
+					$('#beforeButton').removeClass('disabled').removeAttr('disabled');
+					$('#afterButton').addClass('disabled').attr('disabled', 'disabled');
+				} else {
+					$('#afterButton').removeClass('disabled').removeAttr('disabled');
+					$('#beforeButton').addClass('disabled').attr('disabled', 'disabled');
+				}
+			}
+
 
 			jwplayer("mediaplayer").setup({
 			  flashplayer: "js/libs/jwplayer/player.swf",
@@ -130,8 +177,15 @@
 			  file: video,
 			  events: {
 					onTime: function(event) {
+						toggleBtns(event.position, jwplayer().getDuration());
 						$("#timeline").slider( "option", "max", jwplayer().getDuration());
             			$("#timeline").slider('value', event.position);
+          			},
+          			onPlay: function(event) {
+          				var s = $('#submitBtn');
+          				if (s.attr('disabled') == 'disabled') {
+          					setTimeout( function() { s.removeAttr('disabled').removeClass('disabled') } , 20000);
+          				}
           			}
 			  }
 			});
@@ -171,6 +225,17 @@
 				}
       		});
 
+      		//$('#readBtn').addClass('disabled').attr('disabled', 'disabled');
+      		$('#readBtn').click(function() {
+      				$('#task').show();
+      				addToolTick();
+      		});
+
+      		var enableRead = function() {
+				$('#readBtn').removeClass('disabled').removeAttr('disabled');
+      		}
+      		setTimeout(enableRead, 5000);
+
 		});
 	</script>
 </head>
@@ -189,36 +254,45 @@
  -->
 	<h3>Instructions</h3>
 	<ol>
+		<li> <font color="red"><strong> Please have your audio on! </strong> </font></li>
 		<li> Watch the Photoshop video tutorial. </li>
-		<li><strong>Before Image:</strong> Click the <button class="btn btn-info btn-mini disabled">Before Image</button> when you see the image during the first ten seconds. </li>
-		<li> Wait and do not click while the instructor is using <span class="tname"></span>. </li>
-		<li><strong>After Image:</strong> Click the <button class="btn btn-danger btn-mini disabled">After Image</button> when you see the image after the instructor is finished with <span class="tname"></span>.</li>
+		<li><strong>Before Image:</strong> Click the <button class="btn btn-info btn-mini disabled">Before Image</button> when you see the image during the <strong> first ten seconds. </strong> <br/>
+			<i> Note: The image should not be blocked by any dialog or menu. </i>
+		</li>
+		<li> Wait until the instructor is done with using <span class="tname"></span>. </li>
+		<li><strong>After Image:</strong> Click the <button class="btn btn-danger btn-mini disabled">After Image</button> when you see the image after the instructor is finished with <span class="tname"></span> during the <strong> last ten seconds. </strong></li>
 
 	</ol>
-	<ul><li><i>Tip</i>: Click again to override the current selection.</li></ul>
+	<ul><li><i>Tip</i>: Clicking on the buttons multiple times to override the current selection.</li></ul>
+
+	<button id='readBtn' class="btn btn-large btn-primary"> I have read the instructions. </button> 
+
 	<div class='cleaner'>&nbsp;</div>
 </div>
-<h2> Task </h2>
-<div class="section" style="text-align: center;">
-	<div id="mediaplayer" width="100%" height="400">JW Player goes here</div>
-	<br/><button class="btn btn-info" id="beforeButton">Before Image</button><button class="btn btn-danger" id="afterButton">After Image</button>
-	<br/><div id="timelineHolder">
-		<div id="timeline"></div>
-		</div>
-</div>
-<div class='cleaner'>&nbsp;</div>
-<h2> Finish </h2>
-<div class="section">
-	<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
-	<form id="submitForm" action="submit_three.php">
-		<input type="text" name="beforeIndice" id="beforeIndice">
-		<input type="text" name="allBeforeIndices" id="allBeforeIndices">
-		<input type="text" name="afterIndice" id="afterIndice">
-		<input type="text" name="allAfterIndices" id="allAfterIndices">
-		<input type="text" name="video" id="videoURL">
-		<button type="submit" class="btn btn-large btn-primary" style="float:right">Submit</button>
-		When you are done hit the submit button.
-	</form>
+<div id='task' style='display: none'>
+	<h2> Task </h2>
+	<div class="section" style="text-align: center;">
+		<div id="mediaplayer" width="100%" height="400">JW Player goes here</div>
+		<br/><button class="btn btn-info" id="beforeButton">Before Image</button><button class="btn btn-danger" id="afterButton">After Image</button>
+		<br/><div id="timelineHolder">
+			<div id="timeline"></div>
+			</div>
+	</div>
+	<div class='cleaner'>&nbsp;</div>
+	<h2> Finish </h2>
+	<div class="section">
+		<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
+		<form id="submitForm" action="https://www.mturk.com/mturk/externalSubmit" method="POST">
+			<input type="hidden" name="assignmentId" id="assignmentId" value="">
+			<input type="text" name="beforeIndice" id="beforeIndice">
+			<input type="text" name="allBeforeIndices" id="allBeforeIndices">
+			<input type="text" name="afterIndice" id="afterIndice">
+			<input type="text" name="allAfterIndices" id="allAfterIndices">
+			<input type="text" name="video" id="videoURL">
+			<button id="submitBtn" type="submit" class="btn btn-large btn-primary disabled" style="float:right" disabled='disabled'>Submit</button>
+			When you are done hit the submit button.
+		</form>
+	</div>
 </div>
 </body>
 

@@ -1,10 +1,13 @@
+
 <html>
 <head>
 	<title>Amazon Turk Step 1</title>
 	<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.22.custom.css" type="text/css" />
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link href="css/lightbox.css" rel="stylesheet" />
 	<script src="js/libs/jquery-1.7.2.min.js"></script>
+	<script src="js/lightbox.js"></script>
 	<script type="text/javascript" src="js/libs/jquery-ui-1.8.22.custom.min.js"></script> 
 	<script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script>
 
@@ -26,7 +29,7 @@
 	    		console.log(id);          
 	    		var duration = jwplayer().getDuration();
 	   			var offset = index / duration * 100;
-	    		var html = "<span class='marker btn-inverse' id='" + id + "' style='left:" + offset + "%;'></span>";  
+	    		var html = "<span class='marker btn-inverse' id='" + id + "' style='left:" + offset + "%;' data-index='" + index + "'></span>";  
 	    		var i = $(html);
 
 	    		// On hover add "Click to remove"
@@ -38,20 +41,40 @@
 	    		});
 
 	    		i.dblclick(function() {
-	    			$(this).hide();
-	    			indices.splice($(this).attr("id").split('-')[1], 1);
-	    			console.log(indices);
-	    		})
-	    		$("#timelineHolder").append(i);      
+	    			$(this).remove();
+	    			$("#timelineHolder .removeHelper").each(function() { $(this).remove(); });
+	    			var ans = [];
+	    			$('.marker').each(function() {
+	    				ans.push($(this).attr('data-index'));
+	    			});
+	    			console.log(ans);
+	    			$("#submitIndices").val(ans);
+	    		});
+
+	    		$("#timelineHolder").append(i); 
+
+	    		var ans = [];
+    			$('.marker').each(function() {
+    				ans.push($(this).attr('data-index'));
+    			});
+    			console.log(ans);
+    			$("#submitIndices").val(ans);     
 	    	};
 
 			var indices = [];
 
 			var vid = "1";
 
+			if (params['assignmentId'])
+			{
+				$("#assignmentId").val(params['assignmentId']);
+			}
+
 			if (params['id'])
 			{
 				vid = params['id'];
+			} else {
+				$("body").css("background", "red");
 			}
 
 			video = "videos/t1_"+ vid + ".mp4";
@@ -66,8 +89,14 @@
 			  file: video,
 			  events: {
 					onTime: function(event) {
-						$("#timeline").slider( "option", "max", jwplayer().getDuration());
+				$("#timeline").slider( "option", "max", jwplayer().getDuration());
             			$("#timeline").slider('value', event.position);
+          			},
+          			onPlay: function(event) {
+          				var s = $('#submitBtn');
+          				if (s.attr('disabled') == 'disabled') {
+          					setTimeout( function() { s.removeAttr('disabled').removeClass('disabled') } , 45000);
+          				}
           			}
 			  }
 			});
@@ -76,7 +105,6 @@
 				var index = jwplayer().getPosition();
 				indices.push(index);
 				addTick(index);
-				$("#submitIndices").val(indices);
 			});
 
 			$(".submitHIT").click(function() {
@@ -93,46 +121,79 @@
 					jwplayer().seek(ui.value);
 				}
       		});
+
+      		if (params['assignmentId'] != null && params['assignmentId'] != 'ASSIGNMENT_ID_NOT_AVAILABLE') {
+ 				var testURL = 'http://www.phuster.com/turk/2/test.html?assignmentId=' + params['assignmentId'];
+				$("#testURL").attr('href', testURL).text(testURL);     			
+      		} else {   			
+      			$("#testURL").html('<i> Please accept HIT to view tutorial link. </i>');
+      			$("#testURL").removeAttr('href');
+      		}
+
+      		$("#passcode").change(function() {
+      			var tok = parseInt(params['assignmentId'].replace(/\D+/g, '' )) * 64;
+      			if (parseInt($(this).val()) == tok) {
+      				$("#task").show();
+      			}
+      		});
 		});
 	</script>
 </head>
 <body>
-<div id="title">
+<!-- <div id="title">
 	<h1>Click When Tools Are Used in Photoshop </h1>
-</div>
+</div> -->
 
-<h2> Instructions </h2>
+<h2> Tutorial </h2>
 <div class="section">
-	<img class="screenshot" src="toolLocationsScreenshot.png"/>
+	In order to start this task, you must complete short a tutorial.
 	<ol>
-		<li> Watch the Photoshop video tutorial. </li>
-		<li> Click on the <button class="btn btn-primary btn-mini disabled">Tool Clicked</button> button every time the user in the video clicks on a tool in the red regions.
-			<ul>
-				<li>A tick <img src="tick.png" /> will be added to the timeline which represents the time the tool was clicked. </li>
-				<li>To remove a tick, double-click on the tick. </li>
-			</ul>
+		<li> Copy and paste this url into a new tab or window: <br/> <a id='testURL' href='' target="_blank"></a> </li>
+		<li> 
+			Complete the the test and paste the passcode below. <br/>
+			<input type='text' id='passcode'></input> <button id='passcodeSubmit' class="btn btn-small btn-primary" style='vertical-align: top'>Submit </button>
 		</li>
 	</ol>
+</div>
+
+<div id='task' style='display: none'>
+
+	<h2> Instructions </h2>
+	<div class="section">
+		<img class="screenshot" src="toolLocationsScreenshot.png"/>
+		<ol>
+			<li> <font color="red"><strong> Please have your audio on! </strong> </font></li>
+			<li> Watch the Photoshop video tutorial. </li>
+			<li> Click on the <button class="btn btn-primary btn-mini disabled">Tool Clicked</button> button every time the instructor in the video clicks on a tool in the red regions.
+				<ul>
+					<li>A tick <img src="tick.png" /> will be added to the timeline which represents the time the tool was selected. </li>
+					<li>To remove a tick, double-click on the tick. </li>
+				</ul>
+			</li>
+		</ol>
+		<div class='cleaner'>&nbsp;</div>
+	</div>
+
+	<h2> Task </h2>
+	<div class="section">
+		<div id="mediaplayer" width="100%" height="400">JW Player goes here</div>
+		<br/><button class="btn btn-primary toolButton">Tool Clicked</button>
+		<br/><div id="timelineHolder">
+			<div id="timeline"></div>
+			</div>
+	</div>
 	<div class='cleaner'>&nbsp;</div>
-</div>
-<h2> Task </h2>
-<div class="section">
-	<div id="mediaplayer" width="100%" height="400">JW Player goes here</div>
-	<br/><button class="btn btn-primary toolButton">Tool Clicked</button>
-	<br/><div id="timelineHolder">
-		<div id="timeline"></div>
-		</div>
-</div>
-<div class='cleaner'>&nbsp;</div>
-<h2> Finish </h2>
-<div class="section">
-	<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
-	<form id="submitForm" action="submit_one.php">
-	<input type="text" name="indices" id="submitIndices">
-	<input type="text" name="video" id="videoURL">
-	<button type="submit" class="btn btn-large btn-primary" style="float:right">Submit</button>
-	When you are done hit the submit button.
-	</form>
+	<h2> Finish </h2>
+	<div class="section">
+		<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
+		<form id="submitForm" action="https://www.mturk.com/mturk/externalSubmit" method="POST">
+		<input type="hidden" name="assignmentId" id="assignmentId" value="">
+		<input type="text" name="indices" id="submitIndices">
+		<input type="text" name="video" id="videoURL">
+		<button id="submitBtn" type="submit" class="btn btn-large btn-primary disabled" style="float:right" disabled='disabled'>Submit</button>
+		When you are done hit the submit button.
+		</form>
+	</div>
 </div>
 </body>
 

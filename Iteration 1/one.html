@@ -1,3 +1,4 @@
+
 <html>
 <head>
 	<title>Amazon Turk Step 1</title>
@@ -49,9 +50,16 @@
 
 			var vid = "1";
 
+			if (params['assignmentId'])
+			{
+				$("#assignmentId").val(params['assignmentId']);
+			}
+
 			if (params['id'])
 			{
 				vid = params['id'];
+			} else {
+				$("body").css("background", "red");
 			}
 
 			video = "videos/t1_"+ vid + ".mp4";
@@ -66,7 +74,7 @@
 			  file: video,
 			  events: {
 					onTime: function(event) {
-						$("#timeline").slider( "option", "max", jwplayer().getDuration());
+				$("#timeline").slider( "option", "max", jwplayer().getDuration());
             			$("#timeline").slider('value', event.position);
           			}
 			  }
@@ -106,9 +114,9 @@
 	<img class="screenshot" src="toolLocationsScreenshot.png"/>
 	<ol>
 		<li> Watch the Photoshop video tutorial. </li>
-		<li> Click on the <button class="btn btn-primary btn-mini disabled">Tool Clicked</button> button every time the user in the video clicks on a tool in the red regions.
+		<li> Click on the <button class="btn btn-inverse btn-mini disabled">Tool Selected</button> button every time the user in the video selects a tool in the red regions.
 			<ul>
-				<li>A tick <img src="tick.png" /> will be added to the timeline which represents the time the tool was clicked. </li>
+				<li>A tick <img src="tick.png" /> will be added to the timeline which represents the time the tool was selected. </li>
 				<li>To remove a tick, double-click on the tick. </li>
 			</ul>
 		</li>
@@ -118,7 +126,7 @@
 <h2> Task </h2>
 <div class="section">
 	<div id="mediaplayer" width="100%" height="400">JW Player goes here</div>
-	<br/><button class="btn btn-primary toolButton">Tool Clicked</button>
+	<br/><button class="btn btn-inverse toolButton">Tool Selected</button>
 	<br/><div id="timelineHolder">
 		<div id="timeline"></div>
 		</div>
@@ -127,7 +135,8 @@
 <h2> Finish </h2>
 <div class="section">
 	<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
-	<form id="submitForm" action="submit_one.php">
+	<form id="submitForm" action="https://www.mturk.com/mturk/externalSubmit" method="POST">
+	<input type="hidden" name="assignmentId" id="assignmentId" value="">
 	<input type="text" name="indices" id="submitIndices">
 	<input type="text" name="video" id="videoURL">
 	<button type="submit" class="btn btn-large btn-primary" style="float:right">Submit</button>
