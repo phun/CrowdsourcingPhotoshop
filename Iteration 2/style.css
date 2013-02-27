@@ -178,3 +178,17 @@ ol {
 .testText {
 	display: none;
 }
+
+#playButton {
+	border: 5px solid transparent;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+#playButton:hover {
+	border-color: blue;
+}
+
+#audioplayer {
+	display: none;
+}
