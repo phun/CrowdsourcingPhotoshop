@@ -167,19 +167,10 @@
       		});
 
       		if (params['assignmentId'] != null && params['assignmentId'] != 'ASSIGNMENT_ID_NOT_AVAILABLE') {
- 				var testURL = 'http://www.phuster.com/turk/2/test.html?assignmentId=' + params['assignmentId'];
-				$("#testURL").attr('href', testURL).text(testURL);     			
+						$('#audioTest').show();   			
       		} else {   			
-      			$("#testURL").html('<i> Please accept HIT to view tutorial link. </i>');
-      			$("#testURL").removeAttr('href');
+      			$("#test").show();
       		}
-
-      		$("#passcode").change(function() {
-      			var tok = parseInt(params['assignmentId'].replace(/\D+/g, '' )) * 64;
-      			if (parseInt($(this).val()) == tok) {
-      				$("#audioTest").show();
-      			}
-      		});
 		});
 	</script>
 </head>
@@ -188,21 +179,16 @@
 	<h1>Click When Tools Are Used in Photoshop </h1>
 </div> -->
 
-<h2> Tutorial </h2>
-<div class="section">
-	In order to start this task, you must complete short a tutorial.
-	<ol>
-		<li> Copy and paste this url into a new tab or window: <br/> <a id='testURL' href='' target="_blank"></a> </li>
-		<li> 
-			Complete the the test and paste the passcode below. <br/>
-			<input type='text' id='passcode'></input> <button id='passcodeSubmit' class="btn btn-small btn-primary" style='vertical-align: top'>Submit </button>
-		</li>
-	</ol>
+<div class="section" id='test' style="display: none">
+	In order to start this task, you must complete a short qualification test located here: <a href="https://www.mturk.com/mturk/requestqualification?qualificationId=2718MQU6L5OB3WUMH2O4IIJF7N7WDA" target="_blank">https://www.mturk.com/mturk/requestqualification?qualificationId=2718MQU6L5OB3WUMH2O4IIJF7N7WDA </a>
+	<br /> <br />
+	<b>If you have completed the test, please accept the task to view it.</b>
 </div>
 
-<div id='audioTest' style='display: none'>
+<div id='audioTest' style="display: none">
 	<h2> Audio Test </h2>
 	<div class='section'>
+		<p> Please have your audio on to complete this task. </p>
 		<div id='audioplayer' style='display: none'></div>
 		<img id='playButton' src='images/play_button.png' style='float: left; height: 70px'>
 		<h3> Click on the play button and type what you hear.</h3>
