@@ -136,14 +136,22 @@
 		  });
 
 		  $("#audioSubmit").click(function() {
-		  	if ($("#audioText").val() == ans) {
+		  	if ($("#audioText").val().toLowerCase() == ans) {
 		  		$("#audioTest").hide();
 		  		$("#task").show();
 		  	} else {
 		  		
 		  	}
-		  })
+		  });
 
+		  $("#audioText").change(function() {
+		  	if ($("#audioText").val().toLowerCase() == ans) {
+		  		$("#audioTest").hide();
+		  		$("#task").show();
+		  	} else {
+		  		
+		  	}
+      });
 
 			$(".toolButton").click(function() {
 				var index = jwplayer().getPosition();

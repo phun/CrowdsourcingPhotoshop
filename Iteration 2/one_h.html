@@ -1,0 +1,255 @@
+
+<html>
+<head>
+  <title>Amazon Turk Step 1</title>
+  <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.22.custom.css" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="css/lightbox.css" rel="stylesheet" />
+  <script src="js/libs/jquery-1.7.2.min.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script type="text/javascript" src="js/libs/jquery-ui-1.8.22.custom.min.js"></script> 
+  <script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script>
+
+  <script type="text/javascript">
+
+    // Get Parameters
+    var prmstr = window.location.search.substr(1);
+    var prmarr = prmstr.split ("&");
+    var params = {};
+    for ( var i = 0; i < prmarr.length; i++) {
+      var tmparr = prmarr[i].split("=");
+      params[tmparr[0]] = tmparr[1];
+    }
+
+    $(document).ready(function() {
+
+      var addTick = function(index) {
+          var id = "marker-" + (indices.length - 1);  
+          console.log(id);          
+          var duration = jwplayer().getDuration();
+          var offset = index / duration * 100;
+          var html = "<span class='marker btn-inverse' id='" + id + "' style='left:" + offset + "%;' data-index='" + index + "'></span>";  
+          var i = $(html);
+
+          // On hover add "Click to remove"
+          i.hover(function() {
+            var html = "<span class='removeHelper' style='top:" + this.offsetHeight + "; left: " + this.offsetLeft + "'> Double-click to Remove </span>";
+            $("#timelineHolder").append(html);
+          }, function() {
+            $("#timelineHolder .removeHelper").each(function() { $(this).remove(); });
+          });
+
+          i.dblclick(function() {
+            $(this).remove();
+            $("#timelineHolder .removeHelper").each(function() { $(this).remove(); });
+            var ans = [];
+            $('.marker').each(function() {
+              ans.push($(this).attr('data-index'));
+            });
+            console.log(ans);
+            $("#submitIndices").val(ans);
+          });
+
+          $("#timelineHolder").append(i); 
+
+          var ans = [];
+          $('.marker').each(function() {
+            ans.push($(this).attr('data-index'));
+          });
+          console.log(ans);
+          $("#submitIndices").val(ans);     
+        };
+
+      var indices = [];
+
+      var vid = "1";
+
+      if (params['assignmentId'])
+      {
+        $("#assignmentId").val(params['assignmentId']);
+      }
+
+      if (params['id'])
+      {
+        vid = params['id'];
+      } else {
+        $("body").css("background", "red");
+      }
+
+      video = "videos/t1_"+ vid + "_h.mp4";
+
+      $("#videoURL").val(video);
+
+      jwplayer("mediaplayer").setup({
+        flashplayer: "js/libs/jwplayer/player.swf",
+        // width: "700",
+        // height: "400",
+        controlbar: "bottom",
+        file: video,
+        events: {
+          onTime: function(event) {
+        $("#timeline").slider( "option", "max", jwplayer().getDuration());
+                  $("#timeline").slider('value', event.position);
+                },
+                onPlay: function(event) {
+                  $(".toolButton").removeClass('disabled').removeAttr('disabled');
+                  var s = $('#submitBtn');
+                  if (s.attr('disabled') == 'disabled') {
+                    setTimeout( function() { s.removeAttr('disabled').removeClass('disabled') } , 90000);
+                  }
+                }
+        }
+      });
+
+      var randomInt = Math.floor((Math.random()*3)+1);
+      var audioStr;
+      var ans;
+
+      switch(randomInt) {
+        case 1:
+          audioStr = "sounds/amazon.wav";
+          ans = "amazon";
+          break;
+        case 2:
+          audioStr = "sounds/cat.wav";
+          ans = "cat";
+          break;
+        case 3:
+          audioStr = "sounds/dog.wav";
+          ans = "dog";
+          break;
+        case 4:
+          audioStr = "sounds/mechanical.wav";
+          ans = "mechanical";
+      }
+
+      jwplayer("audioplayer").setup({
+        flashplayer: "js/libs/jwplayer/player.swf",
+        'file': audioStr,
+        'controlbar': 'bottom'
+      });
+
+      $("#playButton").click(function() {
+        jwplayer("audioplayer").play();
+
+      });
+
+      $("#audioSubmit").click(function() {
+        if ($("#audioText").val() == ans) {
+          $("#audioTest").hide();
+          $("#task").show();
+        } else {
+          
+        }
+      })
+
+
+      $(".toolButton").click(function() {
+        var index = jwplayer().getPosition();
+        indices.push(index);
+        addTick(index);
+      });
+
+      $(".submitHIT").click(function() {
+        alert(indices);
+      });
+
+        $( "#timeline" ).slider({
+        range: "min",
+        min: 0,
+        max: 279,
+        step: 0.1,
+        animate: true,
+        slide: function(event, ui){
+          jwplayer().seek(ui.value);
+        }
+          });
+
+          if (params['assignmentId'] != null && params['assignmentId'] != 'ASSIGNMENT_ID_NOT_AVAILABLE') {
+        var testURL = 'http://www.phuster.com/turk/2/test.html?assignmentId=' + params['assignmentId'];
+        $("#testURL").attr('href', testURL).text(testURL);          
+          } else {        
+            $("#testURL").html('<i> Please accept HIT to view tutorial link. </i>');
+            $("#testURL").removeAttr('href');
+          }
+
+          $("#passcode").change(function() {
+            var tok = parseInt(params['assignmentId'].replace(/\D+/g, '' )) * 64;
+            if (parseInt($(this).val()) == tok) {
+              $("#audioTest").show();
+            }
+          });
+    });
+  </script>
+</head>
+<body>
+<!-- <div id="title">
+  <h1>Click When Tools Are Used in Photoshop </h1>
+</div> -->
+
+<h2> Tutorial </h2>
+<div class="section">
+  In order to start this task, you must complete short a tutorial.
+  <ol>
+    <li> Copy and paste this url into a new tab or window: <br/> <a id='testURL' href='' target="_blank"></a> </li>
+    <li> 
+      Complete the the test and paste the passcode below. <br/>
+      <input type='text' id='passcode'></input> <button id='passcodeSubmit' class="btn btn-small btn-primary" style='vertical-align: top'>Submit </button>
+    </li>
+  </ol>
+</div>
+
+<div id='audioTest' style='display: none'>
+  <h2> Audio Test </h2>
+  <div class='section'>
+    <div id='audioplayer' style='display: none'></div>
+    <img id='playButton' src='images/play_button.png' style='float: left; height: 70px'>
+    <h3> Click on the play button and type what you hear.</h3>
+    <input type='text' id='audioText'></input> <button id='audioSubmit' class="btn btn-small btn-primary" style='vertical-align: top'>Submit </button>
+    <div style='clear:both;'></div>
+  </div>
+</div>
+
+<div id='task' style='display: none;'>
+
+  <h2> Instructions </h2>
+  <div class="section">
+    <img class="screenshot" src="toolLocationsScreenshot.png"/>
+    <ol>
+      <li> <font color="red"><strong> Please have your audio on! </strong> </font></li>
+      <li> Watch the Photoshop video tutorial. </li>
+      <li> Click on the <button class="btn btn-primary btn-mini disabled">Tool Clicked</button> button every time the instructor in the video clicks on a tool in the red regions.
+        <ul>
+          <li>A tick <img src="tick.png" /> will be added to the timeline which represents the time the tool was selected. </li>
+          <li>To remove a tick, double-click on the tick. </li>
+        </ul>
+      </li>
+    </ol>
+    <div class='cleaner'>&nbsp;</div>
+  </div>
+
+  <h2> Task </h2>
+  <div class="section">
+    <div id="mediaplayer" width="100%" height="400">JW Player goes here</div>
+    <br/><button class="btn btn-primary toolButton disabled" disabled="disabled">Tool Clicked</button>
+    <br/><div id="timelineHolder">
+      <div id="timeline"></div>
+      </div>
+  </div>
+  <div class='cleaner'>&nbsp;</div>
+  <h2> Finish </h2>
+  <div class="section">
+    <!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
+    <form id="submitForm" action="https://www.mturk.com/mturk/externalSubmit" method="POST">
+    <input type="hidden" name="assignmentId" id="assignmentId" value="">
+    <input type="text" name="indices" id="submitIndices">
+    <input type="text" name="video" id="videoURL">
+    <button id="submitBtn" type="submit" class="btn btn-large btn-primary disabled" style="float:right" disabled='disabled'>Submit</button>
+    When you are done hit the submit button.
+    </form>
+  </div>
+</div>
+</body>
+
+</html>
