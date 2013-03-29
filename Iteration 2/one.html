@@ -22,6 +22,12 @@
 			params[tmparr[0]] = tmparr[1];
 		}
 
+		var half = false;
+
+		if (params["half"] == "true") {
+			half = true;
+		}
+
 		$(document).ready(function() {
 
 			var addTick = function(index) {
@@ -79,6 +85,10 @@
 
 			video = "videos/t1_"+ vid + ".mp4";
 
+			if (half) {
+				video = "videos/t1_"+ vid + "_h.mp4";
+			}
+
 			$("#videoURL").val(video);
 
 			jwplayer("mediaplayer").setup({
@@ -89,16 +99,29 @@
 			  file: video,
 			  events: {
 					onTime: function(event) {
-				$("#timeline").slider( "option", "max", jwplayer().getDuration());
-            			$("#timeline").slider('value', event.position);
-          			},
-          			onPlay: function(event) {
-          				$(".toolButton").removeClass('disabled').removeAttr('disabled');
-          				var s = $('#submitBtn');
-          				if (s.attr('disabled') == 'disabled') {
-          					setTimeout( function() { s.removeAttr('disabled').removeClass('disabled') } , 45000);
-          				}
+						$("#timeline").slider( "option", "max", jwplayer().getDuration());
+            	$("#timeline").slider('value', event.position);
+          },
+          onPlay: function(event) {
+          	$(".toolButton").removeClass('disabled').removeAttr('disabled');
+          		var s = $('#submitBtn');
+          		if (s.attr('disabled') == 'disabled') {
+          			if (half) {
+          				setTimeout( function() { s.removeAttr('disabled').removeClass('disabled') } , 90000);
+          			} else {
+          				setTimeout( function() { s.removeAttr('disabled').removeClass('disabled') } , 45000);
           			}
+          		}
+          },
+          onIdle: function() {
+          	$(".toolButton").attr('disabled', true).addClass('disabled');
+          },
+          onBuffer: function() {
+          	$(".toolButton").attr('disabled', true).addClass('disabled');
+          },
+          onPause: function() {
+          	$(".toolButton").attr('disabled', true).addClass('disabled');
+          }
 			  }
 			});
 
@@ -140,27 +163,25 @@
 		  		$("#audioTest").hide();
 		  		$("#task").show();
 		  	} else {
-		  		
+					$("#incorrect-audio").show();	  		
 		  	}
 		  });
 
-		  $("#audioText").change(function() {
-		  	if ($("#audioText").val().toLowerCase() == ans) {
-		  		$("#audioTest").hide();
-		  		$("#task").show();
-		  	} else {
-		  		
-		  	}
+		  $("#audioText").keypress(function(e) {
+		  	if (e.keyCode == 13) {
+			  	if ($("#audioText").val().toLowerCase() == ans) {
+			  		$("#audioTest").hide();
+			  		$("#task").show();
+			  	} else {
+			  		$("#incorrect-audio").show();
+			  	}
+			  }
       });
 
 			$(".toolButton").click(function() {
 				var index = jwplayer().getPosition();
 				indices.push(index);
 				addTick(index);
-			});
-
-			$(".submitHIT").click(function() {
-				alert(indices);
 			});
 
 	    	$( "#timeline" ).slider({
@@ -216,6 +237,7 @@
 		<h3> Click on the play button and type what you hear.</h3>
 		<input type='text' id='audioText'></input> <button id='audioSubmit' class="btn btn-small btn-primary" style='vertical-align: top'>Submit </button>
 		<div style='clear:both;'></div>
+		<h4 id='incorrect-audio' style="display:none; color: red"> Incorrect Message. Please Listen and try again. </h4>
 	</div>
 </div>
 

@@ -52,12 +52,10 @@ function actOnEachLine(textareaId) {
   var lines = textarea.value.replace(/\r\n/g, "\n").split("\n");
   var newLines, newValue, i;
 
-  // Use the map() method of Array where available 
   newLines = [];
   i = lines.length;
   while (i--) {
     var n = lines[i].split(/\t/);
-    console.log(n);
     newLines[i] = script(n);
   }
 
@@ -87,7 +85,18 @@ var script = function(n) {
     indicesString = n[30];
 
   var indices = indicesString.split(',');
+
   var vids = {
+    "videos/t1_1_h.mp4": { "labels": [44.43*2], "length": 61.00*2 },
+    "videos/t1_2_h.mp4": { "labels": [], "length": 61.00*2 },
+    "videos/t1_3_h.mp4": { "labels": [29.06*2,44.65*2,58.53*2], "length": 61.00*2 },
+    "videos/t1_4_h.mp4": { "labels": [10.26*2,27.79*2,46.09*2], "length": 99.00*2 },
+    "videos/t1_5_h.mp4": { "labels": [38*2], "length": 61.00*2 },
+    "videos/t1_6_h.mp4": { "labels": [15.26*2,41.04*2,57.17*2], "length": 62.00*2 },
+    "videos/t1_7_h.mp4": { "labels": [4.38*2,21.92*2,26.76*2,47.04*2], "length": 89.00*2 },
+    "videos/t1_8_h.mp4": { "labels": [15.15*2,23.15*2,29.91*2,38.02*2,56.66*2], "length": 61.00*2 },
+    "videos/t1_9_h.mp4": { "labels": [18.04*2,55.29*2,59.08*2], "length": 61.00*2 },
+    "videos/t1_10_h.mp4": { "labels": [1.43*2,11.19*2], "length": 45.00*2 },
     "videos/t1_1.mp4": { "labels": [44.43], "length": 61.00 },
     "videos/t1_2.mp4": { "labels": [], "length": 61.00 },
     "videos/t1_3.mp4": { "labels": [29.06,44.65,58.53], "length": 61.00 },

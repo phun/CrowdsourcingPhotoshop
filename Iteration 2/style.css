@@ -108,6 +108,7 @@ ol {
 
 #timelineHolder {
 	position: relative;
+	margin-top: 50px;
 }
 
 .tname {
