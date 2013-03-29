@@ -1,0 +1,149 @@
+// begin:b0cb
+__HITs = {
+	"sandbox:29E6NG1FS3NYCVE94F6ZVZL25E2LZP" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2HHUQIHPCGJ22E4ZSAWXK0JPPFI178"
+	},
+	"sandbox:2B3RGNTBJ3MM298QELE65KHBH9FV92" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2KMVOK5UFJ51NJTPDD6YTS1CSGM69N"
+	},
+	"sandbox:2WL95SW6NG1FHFQ9CX2YI1FZ0MNVHS" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2RM2D5NQYN5FS23U5JKYPNCWYY46A2"
+	},
+	"sandbox:28RY8TNKIMZSBHNQ66TOP0PG325XAM" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2J31QP6AUC262S9I2FO3Y0FK0ZO18V"
+	},
+	"sandbox:2XVHDM25L8I9CBZH6SQ6RE4Q4UVQGU" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=20FJUNU8LZ6RWCJGGNZDBJ3VEUW3J9"
+	},
+	"sandbox:2OOO33FDEY5CD83W55Q3BCRFTZ8R0T" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2J3C9KSSZVXXR27GJ8BQRYGNIJ13LB"
+	},
+	"sandbox:2WVEY5COW0LGGB6J156LF6VN2MYW5M" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2J3C9KSSZVXXR27GJ8BQRYGNIJ13LB"
+	},
+	"sandbox:2J4IKMN9U8P9NFB4LAOI6SUYQ92TC1" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2P7R9Y8TNKIMO4PG9T8S5OM0P3V8VR"
+	},
+	"sandbox:2FC98JHSTLB3ACIM8N9OEJEJZ1XRFX" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2P7R9Y8TNKIMO4PG9T8S5OM0P3V8VR"
+	},
+	"sandbox:2BVD8XMB3Q39OCEHJ7F6W4EV0GXRGW" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2P7R9Y8TNKIMO4PG9T8S5OM0P3V8VR"
+	},
+	"sandbox:2UZDM25L8I9NO89S3DXOH4QWFGARHV" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2P7R9Y8TNKIMO4PG9T8S5OM0P3V8VR"
+	},
+	"sandbox:28P0G5R98D8JS7HIL6JTQYCGB9ETD1" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2P7R9Y8TNKIMO4PG9T8S5OM0P3V8VR"
+	},
+	"sandbox:2C4EC1PC6SK9GVBGDD9ZHHMAICP0OU" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2P7R9Y8TNKIMO4PG9T8S5OM0P3V8VR"
+	},
+	"sandbox:2T7WZ9RNDWIOKDVIH1UDWGU1BLFTEU" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2P7R9Y8TNKIMO4PG9T8S5OM0P3V8VR"
+	},
+	"sandbox:24ASCXKNQY2R1VNHSDME6HR0SHL0PB" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2P7R9Y8TNKIMO4PG9T8S5OM0P3V8VR"
+	},
+	"sandbox:2YATLB3L0FBJYURM8SARHVE5ZCTWK7" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2P7R9Y8TNKIMO4PG9T8S5OM0P3V8VR"
+	},
+	"sandbox:2YZRRLFQ0ONNK3KC9VF9HGRBFTPRIO" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2P7R9Y8TNKIMO4PG9T8S5OM0P3V8VR"
+	}
+}
+__S3_Objects = {
+}
+currentHITs = [
+	"2J4IKMN9U8P9NFB4LAOI6SUYQ92TC1",
+	"2FC98JHSTLB3ACIM8N9OEJEJZ1XRFX",
+	"2BVD8XMB3Q39OCEHJ7F6W4EV0GXRGW",
+	"2UZDM25L8I9NO89S3DXOH4QWFGARHV",
+	"28P0G5R98D8JS7HIL6JTQYCGB9ETD1",
+	"2C4EC1PC6SK9GVBGDD9ZHHMAICP0OU",
+	"2T7WZ9RNDWIOKDVIH1UDWGU1BLFTEU",
+	"24ASCXKNQY2R1VNHSDME6HR0SHL0PB",
+	"2YATLB3L0FBJYURM8SARHVE5ZCTWK7",
+	"2YZRRLFQ0ONNK3KC9VF9HGRBFTPRIO"
+]
+__safetyCounters = {
+	"moneySpent" : 0.3400000000000002,
+	"hitsCreated" : 27
+}
+__stackFrames = {
+	"for-real:2" : {
+		"sequencialFrames" : [
+			{
+				"creationTime" : 1.364573757955E12,
+				"onceFunc" : "\nfunction () {\n    mturk.deleteHITsRaw(hits);\n}\n",
+				"returnValue" : undefined,
+				"returnTime" : 1.364573758217E12,
+				"printOutput" : "disabled HIT: 29AZVXX2Q45UJWTZNUEIZ1NSGBIQ8E\n"
+			},
+			{
+				"creationTime" : 1.36457375822E12,
+				"onceFunc" : "\nfunction () {\n    mturk.deleteHITsRaw(hits);\n}\n",
+				"returnValue" : undefined,
+				"returnTime" : 1.364573758354E12,
+				"printOutput" : "disabled HIT: 2RT6BFMFFOYY75448T4GHSC0ZKYLYY\n"
+			},
+			{
+				"creationTime" : 1.364574979013E12,
+				"onceFunc" : "\nfunction () {\n    mturk.deleteHITsRaw(hits);\n}\n",
+				"returnValue" : undefined,
+				"returnTime" : 1.364574980036E12,
+				"printOutput" : "disabled HIT: 255NVRH1KHO93SUMWKEVCLKWFKPQZJ\n"
+			},
+			{
+				"creationTime" : 1.364574980038E12,
+				"onceFunc" : "\nfunction () {\n    mturk.deleteHITsRaw(hits);\n}\n",
+				"returnValue" : undefined,
+				"returnTime" : 1.364574980167E12,
+				"printOutput" : "disabled HIT: 2K6H1XERSQV6V3O06WK3KVWA37L08R\n"
+			},
+			{
+				"creationTime" : 1.364574980174E12,
+				"onceFunc" : "\nfunction () {\n    mturk.deleteHITsRaw(hits);\n}\n",
+				"returnValue" : undefined,
+				"returnTime" : 1.364574980315E12,
+				"printOutput" : "disabled HIT: 2TUF0CP5KXPT7ZLTMC74SM7N6T8XYW\n"
+			},
+			{
+				"creationTime" : 1.364574980317E12,
+				"onceFunc" : "\nfunction () {\n    mturk.deleteHITsRaw(hits);\n}\n",
+				"returnValue" : undefined,
+				"returnTime" : 1.364574980435E12,
+				"printOutput" : "disabled HIT: 2BCU00OQKKA47UVJHGL2980E4NEXXQ\n"
+			},
+			{
+				"creationTime" : 1.364574980437E12,
+				"onceFunc" : "\nfunction () {\n    mturk.deleteHITsRaw(hits);\n}\n",
+				"returnValue" : undefined,
+				"returnTime" : 1.3645749806E12,
+				"printOutput" : "disabled HIT: 25UCF0CP5KXPIUQT7BPG7PM7VL8XWX\n"
+			},
+			{
+				"creationTime" : 1.364574980603E12,
+				"onceFunc" : "\nfunction () {\n    mturk.deleteHITsRaw(hits);\n}\n",
+				"returnValue" : undefined,
+				"returnTime" : 1.364574980726E12,
+				"printOutput" : "disabled HIT: 243VWJ5OPB0YKS2JN0NBAEP92Q3W4H\n"
+			},
+			{
+				"creationTime" : 1.364574980729E12,
+				"onceFunc" : "\nfunction () {\n    mturk.deleteHITsRaw(hits);\n}\n",
+				"returnValue" : undefined,
+				"returnTime" : 1.364574980857E12,
+				"printOutput" : "disabled HIT: 25L3FDEY5COWPXJ2OHZCUFLCEIPT2S\n"
+			},
+			{
+				"creationTime" : 1.364574980859E12,
+				"onceFunc" : "\nfunction () {\n    mturk.deleteHITsRaw(hits);\n}\n",
+				"returnValue" : undefined,
+				"returnTime" : 1.364574981181E12,
+				"printOutput" : "disabled HIT: 2NKNJQ2172Z9Y2KH0YCCYEBU9QLQYS\n"
+			}
+		]
+	}
+}
+// end:b0cb
