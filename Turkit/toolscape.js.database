@@ -1,4 +1,4 @@
-// begin:b0cb
+// begin:10bb
 __HITs = {
 	"sandbox:29E6NG1FS3NYCVE94F6ZVZL25E2LZP" : {
 		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2HHUQIHPCGJ22E4ZSAWXK0JPPFI178"
@@ -50,25 +50,205 @@ __HITs = {
 	},
 	"sandbox:2YZRRLFQ0ONNK3KC9VF9HGRBFTPRIO" : {
 		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2P7R9Y8TNKIMO4PG9T8S5OM0P3V8VR"
+	},
+	"sandbox:2H6NNVRH1KHOHYSC1CXNY9LK4UZYPK" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=25A1XERSQV66Z5128YUHYWAVK5619V"
+	},
+	"sandbox:2YG5PQJQ9OPLTHOSKRIXJ8KCWMO0YG" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=25A1XERSQV66Z5128YUHYWAVK5619V"
+	},
+	"sandbox:2NKNJQ2172Z9HATR1PCCYEBU9QLYQB" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=25A1XERSQV66Z5128YUHYWAVK5619V"
+	},
+	"sandbox:2G151RYQM3ELY7YXGDKGXFTE2GS0Z7" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=25A1XERSQV66Z5128YUHYWAVK5619V"
+	},
+	"sandbox:21KJE1M7PKK9TB8RE41C34LZ5CNYRC" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=25A1XERSQV66Z5128YUHYWAVK5619V"
+	},
+	"sandbox:235CWYB49F9S0CTIR6AOQST5PSHTPQ" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=25A1XERSQV66Z5128YUHYWAVK5619V"
+	},
+	"sandbox:21GEPLSP75KLUQ84TT1HTEQVRE6YS0" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=25A1XERSQV66Z5128YUHYWAVK5619V"
+	},
+	"sandbox:29JCSTMOFXRD0OUXRJPDQXJFUO3TQH" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=25A1XERSQV66Z5128YUHYWAVK5619V"
+	},
+	"sandbox:2XBP9RA7S5WM9QLJIT673JMHTXKYTP" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=25A1XERSQV66Z5128YUHYWAVK5619V"
+	},
+	"sandbox:29UXKNQY2RCJSQFKLJUHU0KUQXT2R0" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=25A1XERSQV66Z5128YUHYWAVK5619V"
+	},
+	"sandbox:24192NJKM05BU35F73N2JTP9ZXAAFK" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FVRCJK63ZVEB13LAZ9AT9JL5E38X5"
+	},
+	"sandbox:24C8LZ6R70G5ZTKYYOUVH7WS0GQ7NX" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FVRCJK63ZVEB13LAZ9AT9JL5E38X5"
+	},
+	"sandbox:2J845UUKQOYGV28MDXZOJ010FFYEWH" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FVRCJK63ZVEB13LAZ9AT9JL5E38X5"
+	},
+	"sandbox:294EZZ2MIKMNHEKAZ3U8WWWXQQV7OC" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FVRCJK63ZVEB13LAZ9AT9JL5E38X5"
+	},
+	"sandbox:2V9SQV66RLPHQDF2L11VNI62V6T5DY" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FVRCJK63ZVEB13LAZ9AT9JL5E38X5"
+	},
+	"sandbox:21ASZVXX2Q452EWBE37NLW1N0VR7PT" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FVRCJK63ZVEB13LAZ9AT9JL5E38X5"
+	},
+	"sandbox:2JODG67D1X3V8ZWL2TB2ME1MFCNAHI" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FVRCJK63ZVEB13LAZ9AT9JL5E38X5"
+	},
+	"sandbox:27OSVQ8H88MQ2QXQEGMCL1RX5RD7QK" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FVRCJK63ZVEB13LAZ9AT9JL5E38X5"
+	},
+	"sandbox:2LOOQ1SNQQ7QERCQRVBCQR121DF7RL" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FVRCJK63ZVEB13LAZ9AT9JL5E38X5"
+	},
+	"sandbox:2LKJ1LY58B72F6C36KBHG16YNFY7S9" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FVRCJK63ZVEB13LAZ9AT9JL5E38X5"
+	},
+	"sandbox:25CQIHPCGJ2DAL0OMAOH3JPP05582U" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=28LQV66RLPHI1NTGMFMKL62NJD26E8"
+	},
+	"sandbox:2P1IA0RYNJ92V3W7QA2MMTUH6J5835" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=28LQV66RLPHI1NTGMFMKL62NJD26E8"
+	},
+	"sandbox:2XE40SPW1INMP0ABUOUNDB6BN9IF2I" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=28LQV66RLPHI1NTGMFMKL62NJD26E8"
+	},
+	"sandbox:2BT2YU98JHSTTVF6QK2JCIOBR1MCOA" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=28LQV66RLPHI1NTGMFMKL62NJD26E8"
+	},
+	"sandbox:2ETAT2D5NQYNDZFBQO75WYMNKJ184Q" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=28LQV66RLPHI1NTGMFMKL62NJD26E8"
+	},
+	"sandbox:2P0UB2YU98JH0DXWTQRFEJ9IWYMAMR" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=28LQV66RLPHI1NTGMFMKL62NJD26E8"
+	},
+	"sandbox:26LTVOK5UFJ59IJB4TQF1QS1KFW85V" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=28LQV66RLPHI1NTGMFMKL62NJD26E8"
+	},
+	"sandbox:2Y4VHVKCJ011SMJP9C0KTW61GA786B" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=28LQV66RLPHI1NTGMFMKL62NJD26E8"
+	},
+	"sandbox:2H6HOVR14IXKWMXUSM5CZA6XBLR87A" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=28LQV66RLPHI1NTGMFMKL62NJD26E8"
+	},
+	"sandbox:27MJ3NAB6BFMNZ0JONK1WJFDO1VGTA" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=28LQV66RLPHI1NTGMFMKL62NJD26E8"
+	},
+	"sandbox:2Z5MHGYQ4J3NIVIW5R6FRYYI1OWANR" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2XDCCVLL3CA3B6TVFVVCCNQU7KX8YB"
+	},
+	"sandbox:24XSVGULF3950GI8666S6NYNRY1AO6" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2XDCCVLL3CA3B6TVFVVCCNQU7KX8YB"
+	},
+	"sandbox:2JSOO2GMMEGOW02D2RXIDA2SM5X88X" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2XDCCVLL3CA3B6TVFVVCCNQU7KX8YB"
+	},
+	"sandbox:2W36VCPWZ9RNLGU9L6J7VN3D13XAPN" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2XDCCVLL3CA3B6TVFVVCCNQU7KX8YB"
+	},
+	"sandbox:2H3WSBRI8IUBAI6UYO8SWLB3TNIF3T" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2XDCCVLL3CA3B6TVFVVCCNQU7KX8YB"
+	},
+	"sandbox:22H6R70G5R98LSVOLJYWVSTN6ZJAQE" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2XDCCVLL3CA3B6TVFVVCCNQU7KX8YB"
+	},
+	"sandbox:23ZGYQ4J3NABEVR75KFY1IT116ICPR" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2XDCCVLL3CA3B6TVFVVCCNQU7KX8YB"
+	},
+	"sandbox:29DGULF395SWE7SM5XUN1NJB624CQI" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2XDCCVLL3CA3B6TVFVVCCNQU7KX8YB"
+	},
+	"sandbox:26VOBDDP8PJWSEPYY2DB6Q397NEF4E" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2XDCCVLL3CA3B6TVFVVCCNQU7KX8YB"
+	},
+	"sandbox:2NDCPWZ9RNDWQ87MICJN6DTG2O6CRJ" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2XDCCVLL3CA3B6TVFVVCCNQU7KX8YB"
+	},
+	"sandbox:23I5BMJTUHYWA05AZW17V5WM9TCMHE" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FYCOW0LGRZ3GW30BHXVQUZWDE18Z2"
+	},
+	"sandbox:2DM0SPW1INMHOI2P98EAE6BFU2IG3T" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FYCOW0LGRZ3GW30BHXVQUZWDE18Z2"
+	},
+	"sandbox:22ESBRI8IUB26ELT9MJTOB3L82EG4E" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FYCOW0LGRZ3GW30BHXVQUZWDE18Z2"
+	},
+	"sandbox:26E1INMHGYQ4RNZV1B2FPFFO6LLK75" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FYCOW0LGRZ3GW30BHXVQUZWDE18Z2"
+	},
+	"sandbox:20EKUDD8XMB3YNLKQGXUWO6TC1YDOB" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FYCOW0LGRZ3GW30BHXVQUZWDE18Z2"
+	},
+	"sandbox:2808IUB2YU98R14EBGUL3FBJH5RK8S" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FYCOW0LGRZ3GW30BHXVQUZWDE18Z2"
+	},
+	"sandbox:2U78PJWKUDD856NOG80Z3B6U1B9K9H" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FYCOW0LGRZ3GW30BHXVQUZWDE18Z2"
+	},
+	"sandbox:2U6BDDP8PJWK2XPTNR23T39Z8Y9G5J" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FYCOW0LGRZ3GW30BHXVQUZWDE18Z2"
+	},
+	"sandbox:2MPDZKPFE4EGL1P7SAC8L9NZ4TKG6Z" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FYCOW0LGRZ3GW30BHXVQUZWDE18Z2"
+	},
+	"sandbox:2QQJHSTLB3L0NVVU8T2JHJRE318HTA" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=2FYCOW0LGRZ3GW30BHXVQUZWDE18Z2"
+	},
+	"sandbox:27IJG5TYMNCW6VGU5EJSVHX196RMI7" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=26OH8MZ9O9Z6SGGKCFQHKRRLFD0900"
+	},
+	"sandbox:27D66RLPHIT3PF8VLP965NJQAOAG8L" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=26OH8MZ9O9Z6SGGKCFQHKRRLFD0900"
+	},
+	"sandbox:27WOZFYQS1CS1600NW4S7IC1MLGMJJ" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=26OH8MZ9O9Z6SGGKCFQHKRRLFD0900"
+	},
+	"sandbox:2L179KQW618NCQ6I5H448XCE1AGMKI" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=26OH8MZ9O9Z6SGGKCFQHKRRLFD0900"
+	},
+	"sandbox:2L13NAB6BFMFN8AJ8YSTMFDGMFFHU1" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=26OH8MZ9O9Z6SGGKCFQHKRRLFD0900"
+	},
+	"sandbox:2SKYU98JHSTLJNXL5GA9LOBJM6UDPS" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=26OH8MZ9O9Z6SGGKCFQHKRRLFD0900"
+	},
+	"sandbox:2YYYQ4J3NAB6JZY05TPYLT1TR2GDQJ" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=26OH8MZ9O9Z6SGGKCFQHKRRLFD0900"
+	},
+	"sandbox:2WL95SW6NG1F0NZJDO2YI1FZ0MOHVQ" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=26OH8MZ9O9Z6SGGKCFQHKRRLFD0900"
+	},
+	"sandbox:2CYULF395SW6V0D0I8EYQJBYNOIDRK" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=26OH8MZ9O9Z6SGGKCFQHKRRLFD0900"
+	},
+	"sandbox:2TK6DG67D1X33KR5QHFK5JE1UUSG9A" : {
+		"url" : "https://workersandbox.mturk.com/mturk/preview?groupId=26OH8MZ9O9Z6SGGKCFQHKRRLFD0900"
 	}
 }
 __S3_Objects = {
 }
 currentHITs = [
-	"2J4IKMN9U8P9NFB4LAOI6SUYQ92TC1",
-	"2FC98JHSTLB3ACIM8N9OEJEJZ1XRFX",
-	"2BVD8XMB3Q39OCEHJ7F6W4EV0GXRGW",
-	"2UZDM25L8I9NO89S3DXOH4QWFGARHV",
-	"28P0G5R98D8JS7HIL6JTQYCGB9ETD1",
-	"2C4EC1PC6SK9GVBGDD9ZHHMAICP0OU",
-	"2T7WZ9RNDWIOKDVIH1UDWGU1BLFTEU",
-	"24ASCXKNQY2R1VNHSDME6HR0SHL0PB",
-	"2YATLB3L0FBJYURM8SARHVE5ZCTWK7",
-	"2YZRRLFQ0ONNK3KC9VF9HGRBFTPRIO"
+	"27IJG5TYMNCW6VGU5EJSVHX196RMI7",
+	"27D66RLPHIT3PF8VLP965NJQAOAG8L",
+	"27WOZFYQS1CS1600NW4S7IC1MLGMJJ",
+	"2L179KQW618NCQ6I5H448XCE1AGMKI",
+	"2L13NAB6BFMFN8AJ8YSTMFDGMFFHU1",
+	"2SKYU98JHSTLJNXL5GA9LOBJM6UDPS",
+	"2YYYQ4J3NAB6JZY05TPYLT1TR2GDQJ",
+	"2WL95SW6NG1F0NZJDO2YI1FZ0MOHVQ",
+	"2CYULF395SW6V0D0I8EYQJBYNOIDRK",
+	"2TK6DG67D1X33KR5QHFK5JE1UUSG9A"
 ]
 __safetyCounters = {
-	"moneySpent" : 0.3400000000000002,
-	"hitsCreated" : 27
+	"moneySpent" : 6.3399999999999945,
+	"hitsCreated" : 87
 }
 __stackFrames = {
 	"for-real:2" : {
@@ -146,4 +326,4 @@ __stackFrames = {
 		]
 	}
 }
-// end:b0cb
+// end:10bb

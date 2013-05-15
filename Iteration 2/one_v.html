@@ -21,17 +21,27 @@
 
 	<script type="text/javascript">
 
-		function Timer(callback, delay) {
+		function Timer(delay) {
 			var timerId, start, remaining = delay;
+			var paused = true;
+
+			var c = function() {$('#submitBtn').removeAttr('disabled').removeClass('disabled')};
 
 			this.pause = function() {
-				window.clearTimeout(timerId);
-				remaining -= new Date() - start;
+				if (!paused) {
+					paused = true;
+					window.clearTimeout(timerId);
+					remaining -= new Date() - start;
+				}
 			};
 
 			this.resume = function() {
-				start = new Date();
-				timerId = window.setTimeout(callback, remaining);
+				if (paused) {
+					paused = false;
+					start = new Date();
+					console.log(remaining);
+					timerId = window.setTimeout(c, remaining);
+				}
 			};
 
 			this.resume();
@@ -50,6 +60,9 @@
 		var indices = [];	// array of all the indices
 
 		var vid = "1"; // default video number
+		if (params["id"]) {
+			vid = params["id"]
+		}
 
 		// Set up video url
 		video = "videos/t1_"+ vid + ".mp4";
@@ -65,9 +78,9 @@
 
 		var timer;
 		if (half) {
-			timer = new Timer(function() { $('#submitBtn').removeAttr('disabled').removeClass('disabled') } , 90000);
+			timer = new Timer(90000);
 		} else {
-			timer = new Timer(function() { $('#submitBtn').removeAttr('disabled').removeClass('disabled') } , 45000);
+			timer = new Timer(45000);
 		}
 		timer.pause();
 
@@ -345,7 +358,7 @@
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-		<h3 id="myModalLabel">What Tool was Clicked</h3>
+		<h3 id="myModalLabel">What tool was clicked?</h3>
 	</div>
 	<div class="modal-body" style="min-height: 250px">
 		<p>What was the tool used at this click?</p>

@@ -1,0 +1,290 @@
+<html>
+<head>
+  <title>Amazon Turk Tutorial</title>
+  <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.22.custom.css" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="css/lightbox.css" rel="stylesheet" />
+  <script src="js/libs/jquery-1.7.2.min.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script>
+  <script type="text/javascript">
+    // Get Parameters
+    var prmstr = window.location.search.substr(1);
+    var prmarr = prmstr.split ("&");
+    var params = {};
+    for ( var i = 0; i < prmarr.length; i++) {
+      var tmparr = prmarr[i].split("=");
+      params[tmparr[0]] = tmparr[1];
+    }
+
+    $(document).ready(function() {
+
+      var handle = function() {
+        if (correct + incorrect == 5) {
+          displayAns();
+        }
+      }
+
+      var displayAns = function() {
+        if (correct > 3) {
+          var tok = parseInt(params['assignmentId'].replace(/\D+/g, '' )) * 64;
+          $("#resultsDes").text("Please paste this passcode into the previous page.");
+          $("#correctCode").val(tok).show();
+        } else {
+          $("#resultsDes").text("Sorry, you didn't pass the test. Refresh the page and try again.");
+        }
+      }
+
+      var correct = 0;
+      var incorrect = 0;
+
+      $("#d1n").click(function() {
+        correct += 1;
+        $("#d1y").remove();
+        $("#d1n").remove();
+        $("#d1result").text("Correct").show();
+        $("#d1text").show();
+        handle();
+      });
+
+      $("#d1y").click(function() {
+        incorrect += 1;
+        $("#d1y").remove();
+        $("#d1n").remove();
+        $("#d1result").text("Incorrect").show();
+        $("#d1text").show();
+        handle();
+      });
+
+      $("#d2n").click(function() {
+        correct += 1;
+        $("#d2y").remove();
+        $("#d2n").remove();
+        $("#d2result").text("Correct").show();
+        $("#d2text").show();
+        handle();
+      });
+
+      $("#d2y").click(function() {
+        incorrect += 1;
+        $("#d2y").remove();
+        $("#d2n").remove();
+        $("#d2result").text("Incorrect").show();
+        $("#d2text").show();
+        handle();
+      });
+
+      $("#d3n").click(function() {
+        correct += 1;
+        $("#d3y").remove();
+        $("#d3n").remove();
+        $("#d3result").text("Correct").show();
+        $("#d3text").show();
+                handle();
+      });
+
+      $("#d3y").click(function() {
+        incorrect += 1;
+        $("#d3y").remove();
+        $("#d3n").remove();
+        $("#d3result").text("Incorrect").show();
+        $("#d3text").show();
+                handle();
+      });
+
+      $("#c1y").click(function() {
+        correct += 1;
+        $("#c1y").remove();
+        $("#c1n").remove();
+        $("#c1result").text("Correct").show();
+        $("#c1text").show();
+                handle();
+      });
+
+      $("#c1n").click(function() {
+        incorrect += 1;
+        $("#c1y").remove();
+        $("#c1n").remove();
+        $("#c1result").text("Incorrect").show();
+        $("#c1text").show();
+        handle();
+      });
+
+      $("#c2y").click(function() {
+        correct += 1;
+        $("#c2y").remove();
+        $("#c2n").remove();
+        $("#c2result").text("Correct").show();
+        $("#c2text").show();
+        handle();
+      });
+
+      $("#c2n").click(function() {
+        incorrect += 1;
+        $("#c2y").remove();
+        $("#c2n").remove();
+        $("#c2result").text("Incorrect").show();
+        $("#c2text").show();
+        handle();
+      });
+
+      $("#c3y").click(function() {
+        correct += 1;
+        $("#c3y").remove();
+        $("#c3n").remove();
+        $("#c3result").text("Correct").show();
+        $("#c3text").show();
+        handle();
+      });
+
+      $("#c3n").click(function() {
+        incorrect += 1;
+        $("#c3y").remove();
+        $("#c3n").remove();
+        $("#c3result").text("Incorrect").show();
+        $("#c3text").show();
+        handle();
+      });
+
+    });
+  </script>
+
+</head>
+<body>
+
+<h2> Instructions </h2>
+<div class="section">
+  You will be watching a step-by-step Photoshop Video Tutorial and locating all the steps in the video. You will learn what are steps in this tutorial.
+</div>
+
+<div class="section" style="border: 3px solid green; padding: 3px">
+  <h2 style="color: white; background: green; padding-left: 5px"> What are Steps </h2>
+  <div class="imgClick">
+    <a href="click-1.png" rel="lightbox" title="my caption"><img class="ss" src="click-1.png" /></a>
+    <span class="linkText"> Click image to zoom </span>
+    <h3> Tools on the Left Sidebar </h3>
+    <p> When the instructor selects a tool on the left sidebar. </p>
+  </div>
+  <div class="imgClick">
+    <a href="click-2.png" rel="lightbox" title="my caption"><img class="ss" src="click-2.png" /></a>
+    <span class="linkText"> Click image to zoom </span>
+    <h3> Actions from the Menu bar </h3>
+    <p> When the instructor selects an action from the menu bar. </p>
+  </div>
+  <div class="imgClick">
+    <a href="click-3.png" rel="lightbox" title="my caption"><img class="ss" src="click-3.png" /></a>
+    <span class="linkText"> Click image to zoom </span>
+    <h3> Layer Properies in Bottom Right Panel </h3>
+    <p> When the instructor changes layer properties on the bottom right panel. </p>
+  </div>
+</div>
+
+<div class="section" style="border: 3px solid red; padding: 3px">
+  <h2 class="not"> NOT Steps </h2>
+  <div class="imgClick">
+    <a href="dont-1.png" rel="lightbox" title="my caption"><img class="ss" src="dont-1.png" /></a>
+    <span class="linkText"> Click image to zoom </span>
+    <h3> Dialog Menus </h3>
+    <p> Changes made in Dialog Menus generally aren't steps. </p>
+  </div>
+  <div class="imgClick">
+    <a href="dont-3.png" rel="lightbox" title="my caption"><img class="ss" src="dont-3.png" /></a>
+    <span class="linkText"> Click image to zoom </span>
+    <h3> Changing Tool Properties </h3>
+    <p> Changes to tool properties also don't count, such as brush sizes, font sizes, or RGB slider values. </p>
+  </div>
+</div>
+
+<h2> PreTest </h2>
+<div class="section">
+  Please complete this pretest in order to continue.
+</div>
+<div class="section">
+  <div>
+  </div>
+  <br/>
+  <div>
+    <div class="pretestImg">
+      <a href="click-1.png" rel="lightbox" title="my caption"><img class="ss" src="click-1.png" /></a>
+    </div>
+    <div class="pretestText">
+      <strong> 2. Is this a new step? </strong> <br/> <br/>
+      <button id='c1y' class="btn btn-large btn-success"> Yes </button>
+      <button id='c1n' class="btn btn-large btn-danger"> No </button>
+      <h3 id='c1result' class="result"> Correct </h3>
+      <div id='c1text' class='testText'>
+        This <strong> is </strong> a new step because the instructor is selecting a new tool.
+      </div>
+    </div>
+  </div>
+  <br/>
+  <div>
+    <div class="pretestImg">
+      <a href="click-3.png" rel="lightbox" title="my caption"><img class="ss" src="click-3.png" /></a>
+    </div>
+    <div class="pretestText">
+      <strong> 3. Is this a new step? </strong> <br/> <br/>
+      <button id='c3y' class="btn btn-large btn-success"> Yes </button>
+      <button id='c3n' class="btn btn-large btn-danger"> No </button>
+      <h3 id='c3result' class="result"> Correct </h3>
+      <div id='c3text' class='testText'>
+        This <strong> is </strong> a new step because the instructor is changing the layer properties.
+      </div>
+    </div>
+  </div>
+  <br/>
+  <div>
+    <div class="pretestImg">
+      <a href="dont-1.png" rel="lightbox" title="my caption"><img class="ss" src="dont-1.png" /></a>
+    </div>
+    <div class="pretestText">
+      <strong> 4. Is this a new step? </strong> <br/> <br/>
+      <button id='d1y' class="btn btn-large btn-success"> Yes </button>
+      <button id='d1n' class="btn btn-large btn-danger"> No </button>
+      <h3 id='d1result' class="result"> Correct </h3>
+      <div id='d1text' class='testText'>
+        This is <strong> not </strong> a new step because the instructor is only using a dialog menu.
+      </div>
+    </div>
+  </div>
+  <br/>
+  <div>
+    <div class="pretestImg">
+      <a href="click-2.png" rel="lightbox" title="my caption"><img class="ss" src="click-2.png" /></a>
+    </div>
+    <div class="pretestText">
+      <strong> 5. Is this a new step? </strong> <br/> <br/>
+      <button id='c2y' class="btn btn-large btn-success"> Yes </button>
+      <button id='c2n' class="btn btn-large btn-danger"> No </button>
+      <h3 id='c2result' class="result"> Correct </h3>
+      <div id='c2text' class='testText'>
+        This <strong> is </strong> a new step because the instructor is selecting an action from the menu bar.
+      </div>
+    </div>
+  </div>
+  <br/>
+  <div>
+    <div class="pretestImg">
+      <a href="dont-3.png" rel="lightbox" title="my caption"><img class="ss" src="dont-3.png" /></a>
+    </div>
+    <div class="pretestText">
+      <strong> 6. Is this a new step? </strong> <br/> <br/>
+      <button id='d3y' class="btn btn-large btn-success"> Yes </button>
+      <button id='d3n' class="btn btn-large btn-danger"> No </button>
+      <h3 id='d3result' class="result"> Correct </h3>
+      <div id='d3text' class='testText'>
+        This is <strong> not </strong> a new step because the instructor is only changing tool properties.
+      </div>
+    </div>
+  </div>
+</div>
+<div class='section'>
+  <h2> Results </h2>
+  <div id='resultsDes'>
+    Please complete the pretest to view the results.
+  </div>
+  <br/><input type='text' id='correctCode' style='display: none'>
+</div>
+</body>
+</html>

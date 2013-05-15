@@ -50,6 +50,10 @@
 		var indices = [];	// array of all the indices
 
 		var vid = "1"; // default video number
+		if (params["id"]) {
+			vid = params["id"]
+		}
+
 
 		// Set up video url
 		video = "videos/t1_"+ vid + ".mp4";
@@ -105,12 +109,12 @@
 
 			$("#timelineHolder").append(i);
 
-			var placement = (indexId) ? 'bottom' : 'top';
+			var placement = (indexId % 2) ? 'bottom' : 'top';
 
 			var a = '<a class="tt" id="tooltip-' + indexId + '">(Remove)</a>';
 
 			var displayName = ""
-			if (name.length > 10) {
+			if (name.length > 20) {
 				displayName = name.substring(0,20) + "...";
 			} else {
 				displayName = name;
@@ -131,7 +135,6 @@
 
 			indexId++;
 
-			indexId++;
 			var ans = [];
 			$('.marker').each(function() { ans.push($(this).attr('data-index') + "@" + $(this).attr('data-name')) });
 			$("#submitIndices").val(ans);     
@@ -146,6 +149,8 @@
 
 			jwplayer("mediaplayer").setup({
 				flashplayer: "js/libs/jwplayer/player.swf",
+				height: 500,
+				width: 850,
 				controlbar: "bottom",
 				file: video,
 				events: {
@@ -205,9 +210,9 @@
 			$(".toolButton").click(function() {
 				index = jwplayer("mediaplayer").getPosition();
 				jwplayer("mediaplayer").pause();
-				$('#myModal').modal({backdrop: 'static'});
-				$('#index').val(index);
-				$('#myModal').modal('show');
+				$(this).hide(500);
+				$('#addBox').show(500);
+				setTimeout(function() {$("#toolname").focus()}, 500);
 			});
 
 			$( "#timeline" ).slider({
@@ -222,7 +227,7 @@
 			});
 
 			if (params['assignmentId'] != null && params['assignmentId'] != 'ASSIGNMENT_ID_NOT_AVAILABLE') {
-				var testURL = 'http://www.phuster.com/turk/2/test.html?assignmentId=' + params['assignmentId'];
+				var testURL = 'http://www.phuster.com/turk/2/test_i.html?assignmentId=' + params['assignmentId'];
 				$("#testURL").attr('href', testURL).text(testURL);     			
 			} else {   			
 				$("#testURL").html('<i> Please accept HIT to view tutorial link. </i>');
@@ -237,7 +242,9 @@
 			});
 
 			$('#addClick').click(function() {
-				$('#myModal').modal('hide');
+				$('#addBox').hide();
+				$(".toolButton").show();
+				jwplayer("mediaplayer").play();
 				addTick(index, toolname);
 				clearModal();
 				$("#addClick").attr('disabled', true).addClass('disabled');
@@ -245,12 +252,23 @@
 
 			$("#addClick").attr('disabled', true).addClass('disabled');
 
-			$("#toolname").keyup(function() {
-				toolname = $(this).val();
-				if (!toolname) {
-					$("#addClick").attr('disabled', true).addClass('disabled');
+			$("#addCancel").click(function() {
+				clearModal();
+				$("#addBox").hide();
+				$('.toolButton').show();
+				jwplayer("mediaplayer").play();
+			});
+
+			$("#toolname").keyup(function(e) {
+				if (e.keyCode == 13) {
+					$("#addClick").click();
 				} else {
-					$("#addClick").removeAttr('disabled').removeClass('disabled');
+					toolname = $(this).val();
+					if (!toolname) {
+						$("#addClick").attr('disabled', true).addClass('disabled');
+					} else {
+						$("#addClick").removeAttr('disabled').removeClass('disabled');
+					}
 				}
 			});
 
@@ -262,7 +280,19 @@
 	<h1>Click When Tools Are Used in Photoshop </h1>
 </div> -->
 
-<div id='audioTest'>
+<h2> Tutorial </h2>
+<div class="section">
+	In order to start this task, you must complete short a tutorial.
+	<ol>
+		<li> Copy and paste this url into a new tab or window: <br/> <a id='testURL' href='' target="_blank"></a> </li>
+		<li> 
+			Complete the the test and paste the passcode below. <br/>
+			<input type='text' id='passcode'></input> <button id='passcodeSubmit' class="btn btn-small btn-primary" style='vertical-align: top'>Submit </button>
+		</li>
+	</ol>
+</div>
+
+<div id='audioTest' style="display: none">
 	<h2> Audio Test </h2>
 	<div class='section'>
 		<div id='audioplayer' style='display: none'></div>
@@ -275,18 +305,17 @@
 </div>
 
 <div id='task' style='display: none;'>
-		<div style="float:right; border: 1px solid black; padding: 0px 5px;">
+	<div style="float:right; border: 1px solid black; padding: 0px 5px; max-width: 300px;">
 		<h3 style="padding-top:0; margin-top:0;"> What is a step? </h3>
 		<p> Here are some examples of steps: </p>
 		<ul>
 			<li> Instructor uses a new tool. </li>
 			<li> Instructor applies a filter/effect. </li>
-			<li> Instructor modifies a layer. </li>
+			<li> Instructor adds a layer or changes layer settings. </li>
 		</ul>
-		<p> Here are some that are NOT steps: </p>
+		<p> Here are some that are <strong>NOT</strong> steps: </p>
 		<ul>
-			<li> Instructor changes tool settings. </li>
-			<li> Instructor changes the name of a layer. </li>
+			<li> Instructor changes tool parameters (brush size, paint bucket color, RGB slider values, etc). </li>
 		</ul>
 	</div>
 	<h2> Instructions </h2>
@@ -308,9 +337,19 @@
 	<div class="section">
 		<div id="mediaplayer" width="100%" height="400">JW Player goes here</div>
 		<br/><button class="btn btn-primary toolButton disabled" disabled="disabled">New Step Given</button>
+		<br/><div id="addBox" style="border: 1px solid gray; padding: 5px; display: none">
+			<h3>Briefly describe the step in a few words.</h3>
+			<div style="float: right">
+				<button class="btn " id="addCancel">Cancel</button>
+				<button class="btn btn-primary" id="addClick">Add New Step</button>
+			</div>
+			<input type="text" id="toolname"></input>
+			<br/>
+			<i>ex. "Used Lasso Tool", "Increased Contrast" </i>
+		</div>
 		<br/><div id="timelineHolder">
 			<div id="timeline"></div>
-			</div>
+		</div>
 	</div>
 	<div class='cleaner'>&nbsp;</div>
 	<h2> Finish </h2>
@@ -323,23 +362,6 @@
 		<button id="submitBtn" type="submit" class="btn btn-large btn-primary disabled" style="float:right" disabled='disabled'>Submit</button>
 		When you are done hit the submit button.
 		</form>
-	</div>
-</div>
-
-<!-- Modal -->
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-		<h3 id="myModalLabel">What Was the step?</h3>
-	</div>
-	<div class="modal-body" style="min-height: 250px">
-		<p>Briefly describe the step in a sentence.</p>
-		<span id="ii" style="display:none"></span>
-		<input type="text" id="toolname"></input>
-	</div>
-	<div class="modal-footer">
-		<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-		<button class="btn btn-primary" id="addClick">Add New Step</button>
 	</div>
 </div>
 

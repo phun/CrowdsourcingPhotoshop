@@ -2,7 +2,7 @@
 setTrace(2);
 
 // URL containing the page you want turkers to work on.
-var url = "http://people.csail.mit.edu/phun/photoshop/i2/one_v.html?id=1";
+var url = "http://people.csail.mit.edu/phun/photoshop/i2/one_i_v.html?id=4";
 
 var gettask_url = "http://people.csail.mit.edu/juhokim/sinch2/php/gettask.php";
 
@@ -50,7 +50,7 @@ var numHITsAtOnce = 2;
 var reward = 0.01;
 
 // Number of assignments offered in each HIT posted.
-var assignments = 1;
+var assignments = 10;
 
 //
 var numhits = 10;

@@ -126,7 +126,7 @@ var script = function(n) {
   }
 
   for (i = 0; i < indices.length; i++) {
-    var index = indices[i];
+    var index = indices[i].split('@')[0];
     addTick(index, max);
   }
 
