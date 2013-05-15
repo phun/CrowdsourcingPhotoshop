@@ -227,7 +227,7 @@
 			});
 
 			if (params['assignmentId'] != null && params['assignmentId'] != 'ASSIGNMENT_ID_NOT_AVAILABLE') {
-				var testURL = 'http://www.phuster.com/turk/2/test_i.html?assignmentId=' + params['assignmentId'];
+				var testURL = 'http://people.csail.mit.edu/phun/photoshop/i2/test_i.html?assignmentId=' + params['assignmentId'];
 				$("#testURL").attr('href', testURL).text(testURL);     			
 			} else {   			
 				$("#testURL").html('<i> Please accept HIT to view tutorial link. </i>');
@@ -282,11 +282,11 @@
 
 <h2> Tutorial </h2>
 <div class="section">
-	In order to start this task, you must complete short a tutorial.
+	In order to start this task, you must complete a short tutorial.
 	<ol>
-		<li> Copy and paste this url into a new tab or window: <br/> <a id='testURL' href='' target="_blank"></a> </li>
+		<li> Open this link below and complete the tutorial: <br/> <a id='testURL' href='' target="_blank"></a> </li>
 		<li> 
-			Complete the the test and paste the passcode below. <br/>
+			Complete the test and paste the passcode below. <br/>
 			<input type='text' id='passcode'></input> <button id='passcodeSubmit' class="btn btn-small btn-primary" style='vertical-align: top'>Submit </button>
 		</li>
 	</ol>

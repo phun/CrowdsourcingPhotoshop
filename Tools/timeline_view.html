@@ -40,6 +40,33 @@
 
 var timelineCount = 0;
 
+var windowSize = 2.5;
+
+var rowIndices = [];
+
+var vids = {
+  "videos/t1_1_h.mp4": { "labels": [44.43*2], "length": 61.00*2 },
+  "videos/t1_2_h.mp4": { "labels": [], "length": 61.00*2 },
+  "videos/t1_3_h.mp4": { "labels": [29.06*2,44.65*2,58.53*2], "length": 61.00*2 },
+  "videos/t1_4_h.mp4": { "labels": [10.26*2,27.79*2,46.09*2], "length": 99.00*2 },
+  "videos/t1_5_h.mp4": { "labels": [38*2], "length": 61.00*2 },
+  "videos/t1_6_h.mp4": { "labels": [15.26*2,41.04*2,57.17*2], "length": 62.00*2 },
+  "videos/t1_7_h.mp4": { "labels": [4.38*2,21.92*2,26.76*2,47.04*2], "length": 89.00*2 },
+  "videos/t1_8_h.mp4": { "labels": [15.15*2,23.15*2,29.91*2,38.02*2,56.66*2], "length": 61.00*2 },
+  "videos/t1_9_h.mp4": { "labels": [18.04*2,55.29*2,59.08*2], "length": 61.00*2 },
+  "videos/t1_10_h.mp4": { "labels": [1.43*2,11.19*2], "length": 45.00*2 },
+  "videos/t1_1.mp4": { "labels": [44.43], "length": 61.00 },
+  "videos/t1_2.mp4": { "labels": [], "length": 61.00 },
+  "videos/t1_3.mp4": { "labels": [29.06,44.65,58.53], "length": 61.00 },
+  "videos/t1_4.mp4": { "labels": [10.26,27.79,46.09], "length": 99.00 },
+  "videos/t1_5.mp4": { "labels": [38], "length": 61.00 },
+  "videos/t1_6.mp4": { "labels": [15.26,41.04,57.17], "length": 62.00 },
+  "videos/t1_7.mp4": { "labels": [4.38,21.92,26.76,47.04], "length": 89.00 },
+  "videos/t1_8.mp4": { "labels": [15.15,23.15,29.91,38.02,56.66], "length": 61.00 },
+  "videos/t1_9.mp4": { "labels": [18.04,55.29,59.08], "length": 61.00 },
+  "videos/t1_10.mp4": { "labels": [1.43,11.19], "length": 45.00 }
+};
+
 Array.prototype.max = function() {
     return Math.max.apply(null, this);
 };
@@ -86,38 +113,33 @@ var script = function(n) {
 
   var indices = indicesString.split(',');
 
-  var vids = {
-    "videos/t1_1_h.mp4": { "labels": [44.43*2], "length": 61.00*2 },
-    "videos/t1_2_h.mp4": { "labels": [], "length": 61.00*2 },
-    "videos/t1_3_h.mp4": { "labels": [29.06*2,44.65*2,58.53*2], "length": 61.00*2 },
-    "videos/t1_4_h.mp4": { "labels": [10.26*2,27.79*2,46.09*2], "length": 99.00*2 },
-    "videos/t1_5_h.mp4": { "labels": [38*2], "length": 61.00*2 },
-    "videos/t1_6_h.mp4": { "labels": [15.26*2,41.04*2,57.17*2], "length": 62.00*2 },
-    "videos/t1_7_h.mp4": { "labels": [4.38*2,21.92*2,26.76*2,47.04*2], "length": 89.00*2 },
-    "videos/t1_8_h.mp4": { "labels": [15.15*2,23.15*2,29.91*2,38.02*2,56.66*2], "length": 61.00*2 },
-    "videos/t1_9_h.mp4": { "labels": [18.04*2,55.29*2,59.08*2], "length": 61.00*2 },
-    "videos/t1_10_h.mp4": { "labels": [1.43*2,11.19*2], "length": 45.00*2 },
-    "videos/t1_1.mp4": { "labels": [44.43], "length": 61.00 },
-    "videos/t1_2.mp4": { "labels": [], "length": 61.00 },
-    "videos/t1_3.mp4": { "labels": [29.06,44.65,58.53], "length": 61.00 },
-    "videos/t1_4.mp4": { "labels": [10.26,27.79,46.09], "length": 99.00 },
-    "videos/t1_5.mp4": { "labels": [38], "length": 61.00 },
-    "videos/t1_6.mp4": { "labels": [15.26,41.04,57.17], "length": 62.00 },
-    "videos/t1_7.mp4": { "labels": [4.38,21.92,26.76,47.04], "length": 89.00 },
-    "videos/t1_8.mp4": { "labels": [15.15,23.15,29.91,38.02,56.66], "length": 61.00 },
-    "videos/t1_9.mp4": { "labels": [18.04,55.29,59.08], "length": 61.00 },
-    "videos/t1_10.mp4": { "labels": [1.43,11.19], "length": 45.00 }
-  };
+  var allIndices = [];
+
+  if (indices != "") {
+    for (i = 0; i < indices.length; i++) {
+      var index = indices[i].split('@')[0];
+      allIndices.push(index);
+    }
+  }
+
+  rowIndices.push(allIndices);
+
+  var acc = accSingular(allIndices, videosURL);
+  var pre = accSingularPre(allIndices, videosURL);
+  var recall = accSingularRecall(allIndices, videosURL);
 
   var max = vids[videosURL]["length"];
 
-  var newtlh = '<tr>' +
+  var newtlh = '<tr class="timelineRow" id="' + 'row-' + timelineCount + '">' +
     '<td>' +
     '<div class="timelineHolder" id="' + 'tlh-' + timelineCount + '"><div class="timeline"></div>' +
     '</td>' +
-    '<td>' + videosURL + '</td>' + 
-    '<td>' + indicesString + '</td>' + 
-    '<td>' + workerId + '</td></tr>';
+    '<td class="acc">' + acc + '</td>' +
+    '<td class="precision">' + pre + '</td>' +
+    '<td class="recall">' + recall + '</td>' +
+    '<td class="videosURL">' + videosURL + '</td>' + 
+    '<td class="indicesString">' + indicesString + '</td>' + 
+    '<td class="workerId">' + workerId + '</td></tr>';
   $('#timelineBody').append(newtlh);
 
   for (i = 0; i < vids[videosURL]["labels"].length; i++) {
@@ -125,21 +147,208 @@ var script = function(n) {
     addGod(index, max);
   }
 
-  for (i = 0; i < indices.length; i++) {
-    var index = indices[i].split('@')[0];
-    addTick(index, max);
+  if (indices != "") {
+    for (i = 0; i < indices.length; i++) {
+      var index = indices[i].split('@')[0];
+      addTick(index, max);
+    }
   }
 
   timelineCount++;
+}
+
+function accGroup(ind, videosURL) {
+
+  var indiceDict = {};
+  var correct = 0;
+  var incorrect = 0;
+
+  // generate dict
+  for (i = 0; i < vids[videosURL]["labels"].length; i++) {
+    var index = vids[videosURL]["labels"][i];
+    indiceDict[index] = false;
+  }
+
+  // Go through indices and compare
+  if (ind != "") {
+    for (i = 0; i < ind.length; i++) {
+      var index = ind[i].split('@')[0];
+      for (j = 0; j < vids[videosURL]["labels"].length; j++) {
+        var god = vids[videosURL]["labels"][j];
+        var min = god - windowSize;
+        var max = god + windowSize;
+        if (index >= min && index <= max) {
+          if (indiceDict[god] == false) {
+            indiceDict[god] = true;
+            correct++;
+          }
+          break;
+        } else if (j == vids[videosURL]["labels"].length - 1) {
+          incorrect++;
+        }
+      }
+    }
+  }
+
+  // Add incorrects for missing gold marks
+  for (i = 0; i < vids[videosURL]["labels"].length; i++) {
+    var index = vids[videosURL]["labels"][i];
+    if (indiceDict[index] == false) {
+      incorrect++;
+    }
+  }
+  return correct + '/' + (incorrect + correct);
+}
+
+function accSingular(ind, videosURL) {
+
+  var indiceDict = {};
+  var correct = 0;
+  var incorrect = 0;
+
+  // generate dict
+  for (i = 0; i < vids[videosURL]["labels"].length; i++) {
+    var index = vids[videosURL]["labels"][i];
+    indiceDict[index] = false;
+  }
+
+  // Go through indices and compare
+  if (ind != "") {
+    for (i = 0; i < ind.length; i++) {
+      var index = ind[i].split('@')[0];
+      for (j = 0; j < vids[videosURL]["labels"].length; j++) {
+        var god = vids[videosURL]["labels"][j];
+        var min = parseInt(god) - parseInt(windowSize);
+        var max = parseInt(god) + parseInt(windowSize);
+        if (index >= min && index <= max && indiceDict[god] == false) {
+          indiceDict[god] = true;
+          correct++;
+          break;
+        } else if (j == vids[videosURL]["labels"].length - 1) {
+          incorrect++;
+        }
+      }
+    }
+  }
+
+  // Add incorrects for missing gold marks
+  for (i = 0; i < vids[videosURL]["labels"].length; i++) {
+    var index = vids[videosURL]["labels"][i];
+    if (indiceDict[index] == false) {
+      incorrect++;
+    }
+  }
+  return correct + '/' + (correct + incorrect);
+}
+
+function accSingularPre(ind, videosURL) {
+
+  var indiceDict = {};
+  var correct = 0;
+  var incorrect = 0;
+
+  // generate dict
+  for (i = 0; i < vids[videosURL]["labels"].length; i++) {
+    var index = vids[videosURL]["labels"][i];
+    indiceDict[index] = false;
+  }
+
+  // Go through indices and compare
+  if (ind != "") {
+    for (i = 0; i < ind.length; i++) {
+      var index = ind[i].split('@')[0];
+      for (j = 0; j < vids[videosURL]["labels"].length; j++) {
+        var god = vids[videosURL]["labels"][j];
+        var min = parseInt(god) - parseInt(windowSize);
+        var max = parseInt(god) + parseInt(windowSize);
+        if (index >= min && index <= max && indiceDict[god] == false) {
+          indiceDict[god] = true;
+          correct++;
+          break;
+        // } else if (j == vids[videosURL]["labels"].length - 1) {
+        //   incorrect++;
+        }
+      }
+    }
+  }
+
+  // // Add incorrects for missing gold marks
+  // for (i = 0; i < vids[videosURL]["labels"].length; i++) {
+  //   var index = vids[videosURL]["labels"][i];
+  //   if (indiceDict[index] == false) {
+  //     incorrect++;
+  //   }
+  // }
+  return correct + '/' + ind.length;
+}
+
+function accSingularRecall(ind, videosURL) {
+
+  var indiceDict = {};
+  var correct = 0;
+  var incorrect = 0;
+
+  // generate dict
+  for (i = 0; i < vids[videosURL]["labels"].length; i++) {
+    var index = vids[videosURL]["labels"][i];
+    indiceDict[index] = false;
+  }
+
+  // Go through indices and compare
+  if (ind != "") {
+    for (i = 0; i < ind.length; i++) {
+      var index = ind[i].split('@')[0];
+      for (j = 0; j < vids[videosURL]["labels"].length; j++) {
+        var god = vids[videosURL]["labels"][j];
+        var min = parseInt(god) - parseInt(windowSize);
+        var max = parseInt(god) + parseInt(windowSize);
+        if (index >= min && index <= max && indiceDict[god] == false) {
+          indiceDict[god] = true;
+          correct++;
+          break;
+        // } else if (j == vids[videosURL]["labels"].length - 1) {
+        //   incorrect++;
+        }
+      }
+    }
+  }
+
+  // // Add incorrects for missing gold marks
+  // for (i = 0; i < vids[videosURL]["labels"].length; i++) {
+  //   var index = vids[videosURL]["labels"][i];
+  //   if (indiceDict[index] == false) {
+  //     incorrect++;
+  //   }
+  // }
+  return correct + '/' + vids[videosURL]["labels"].length;
+}
+
+function updateWindowSize() {
+  var newSize = $('#windowInput').val();
+  if (!$.isNumeric(newSize)) {
+    return;
+  }
+  windowSize = parseInt(newSize);
+  $('.timelineRow').each( function() {
+    var number = $(this).attr('id').split('row-')[1];
+    var videosURL = $(this).find('.videosURL').text();
+    var newAcc = accSingular(rowIndices[number], videosURL); 
+    $(this).find('.acc').text(newAcc);
+    var newPre = accSingularPre(rowIndices[number], videosURL); 
+    $(this).find('.precision').text(newAcc);
+    var newRecall = accSingularRecall(rowIndices[number], videosURL); 
+    $(this).find('.recall').text(newAcc);
+  });
 }
 </script>
 </head>
 <body>
   <textarea id="t"></textarea>
   <button onclick="actOnEachLine('t')">eval</button>
+  <input type="text" id="windowInput"> </input> <button id="windowSubmit" onclick="updateWindowSize()">Update Size </button>
   <table class='table' id='timelines'>
     <thead>
-      <tr><th class="sorttable_nosort">Timeline</th><th>Video</th><th>Indices</th><th>Worker ID</th></tr>
+      <tr><th class="sorttable_nosort">Timeline</th><th>Acc</th><th>Precision</th><th>Recall</th><th>Video</th><th>Indices</th><th>Worker ID</th></tr>
     </thead>
     <tbody id='timelineBody'>
     </tbody>
