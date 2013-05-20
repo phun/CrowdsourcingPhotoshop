@@ -50,7 +50,7 @@ VERSION: Gather Tools Clicked
 					timerId = window.setTimeout(c, remaining);
 				}
 			};
-
+			console.log("Timer", delay);
 			this.resume();
 		}
 
@@ -84,12 +84,6 @@ VERSION: Gather Tools Clicked
 		var indexId = 0;
 
 		var timer;
-		if (half) {
-			timer = new Timer(90000);
-		} else {
-			timer = new Timer(45000);
-		}
-		timer.pause();
 
 		switch(randomInt) {
 			case 1:
@@ -110,7 +104,7 @@ VERSION: Gather Tools Clicked
 		}
 
 		function clearModal() {
-			$("input[name='region']").removeAttr('checked');
+			$("#instructionDes").val("");
 		}
 
 		function addTick(index, val) {
@@ -167,7 +161,11 @@ VERSION: Gather Tools Clicked
 					},
 					onPlay: function(event) {
 						$(".toolButton").removeClass('disabled').removeAttr('disabled');
-						timer.resume();
+						if (!timer) {
+							timer = new Timer(Math.floor(jwplayer().getDuration() * 900));
+						} else {
+							timer.resume();
+						}
 					},
 					onIdle: function() {
 						$(".toolButton").attr('disabled', true).addClass('disabled');

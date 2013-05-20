@@ -1,0 +1,195 @@
+<html>
+<head>
+	<title>Amazon Turk Step 2</title>
+	<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.22.custom.css" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="js/libs/chosen.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="js/libs/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery-ui-1.8.22.custom.min.js"></script> 
+	<script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script>
+	<script type="text/javascript" src="js/libs/chosen.jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/jquery.qtip.min.css" />
+	<script type="text/javascript" src="js/jquery.qtip.min.js"></script>
+	<script type="text/javascript">
+
+		var videoPlayed = false;
+
+		// Get Parameters
+		var prmstr = window.location.search.substr(1);
+		var prmarr = prmstr.split ("&");
+		var params = {};
+		for ( var i = 0; i < prmarr.length; i++) {
+			var tmparr = prmarr[i].split("=");
+			params[tmparr[0]] = tmparr[1];
+		}
+
+		$(document).ready(function() {
+
+			var tasks = [];
+
+		    var addToolTick = function(num) {
+	    		var id = "toolTick";          
+	    		var duration = 100;
+	   			var offset = 49.2;
+	    		var html = "<span class='marker btn-inverse toolTick' id='" + id + "' style='left:" + offset + "%;'></span>";  
+	    		var i = $(html);
+
+	    		// On hover add "Click to remove"
+	    		i.qtip({
+					content: {
+						text: 'Instruction Here'
+					},
+					position: {
+						my: 'top center', // Use the corner...
+						at: 'bottom center' // ...and opposite corner
+					},
+					show: {
+						event: false, // Don't specify a show event...
+						ready: true // ... but show the tooltip when ready
+					},
+					hide: false, // Don't specify a hide event either!
+					style: {
+						classes: 'qtip-shadow qtip-' + 'dark'
+					}
+				});
+	    		$("#timelineHolder-" + num).append(i);      
+	    	};
+
+      		var makeTask = function(video) {
+
+      			$("#video").val(video);
+
+      			var num = tasks.length + 1;
+
+      			var ht = '<div class="section task">' +
+      					// '<h2> Video </h2>' +
+						'<div class="video">' +
+							'<div id="mediaplayer-' + num + '" width="100%" height="400">JW Player goes here</div>' + 
+						'</div>' +
+						'<br/><div id="timelineHolder-' + num + '" style="position:relative">' +
+						'<div id="timeline-' + num + '"></div>' + 
+						'</div>' + 
+						'<div class="info">' +
+							'<div><h3> What was the makeup instruction at the 10 second time mark? </h3>' +
+							'<h4><i>For example. "Apply blush onto the cheeks." </i></h4>' +
+							'<input type="text" id="des-' + num + '" class="span4">' +
+						'</div>' +
+					'</div>';
+
+				$("#tasks").append(ht);
+				$("#des-" + num).keyup(function() {
+					$("#instruction").val($(this).val());
+					if ($(this).val() != "" && videoPlayed) {
+						$("#taskSub").removeClass('disabled').removeAttr('disabled');
+					} else {
+						console.log("hi");
+						$("#taskSub").addClass('disabled').attr('disabled', 'disabled');
+					}
+				})
+
+				jwplayer("mediaplayer-" + num).setup({
+					flashplayer: "js/libs/jwplayer/player.swf",
+					controlbar: "bottom",
+					file: video,
+					events: {
+						onTime: function(event) {
+							$("#timeline-" + num).slider( "option", "max", jwplayer().getDuration());
+	            			$("#timeline-" + num).slider('value', event.position);
+						}, 
+						onPlay: function(event) {
+							setTimeout( function() { 
+								 videoPlayed = true;
+								 if ($("#instruction").val() != "") {
+								 	$("#taskSub").removeClass('disabled').removeAttr('disabled');
+								 }
+							}, 20000);
+          				}
+					}
+				});
+
+				tasks.push({
+					"id": num,
+					"video": video,
+				});
+
+				$( "#timeline-" + num ).slider({
+					range: "min",
+					min: 0,
+					max: 279,
+					step: 0.1,
+					animate: true,
+					slide: function(event, ui){
+						jwplayer().seek(ui.value);
+					}
+	      		});
+      		};
+
+			if (params['assignmentId'])
+			{
+				$("#assignmentId").val(params['assignmentId']);
+			}
+
+			var vid = "1";
+
+			if (params['id'])
+			{
+				vid = params['id'];
+			} else {
+                $("body").css("background", "red");
+            }     
+			video = "videos/t2_"+ vid + ".mp4";
+
+      		makeTask(video);
+
+
+      		$('#readBtn').click(function() {
+      				$('#task').show();
+      				addToolTick(1);
+      		});
+
+      		var enableRead = function() {
+				$('#readBtn').removeClass('disabled').removeAttr('disabled');
+      		}
+      		setTimeout(enableRead, 5000);
+		});
+	</script>
+</head>
+<body>
+<div id="title">
+	<h1> Label Instruction in Makeup How-to Video </h1>
+</div>
+
+<div class="section">
+<br />
+	In this video clip, the instructor is going to give a makeup instruction at the <strong>10 second mark</strong>.  We would like to know what it is.
+	<h3>HIT Information</h3>
+	<ol>
+		<li> <font color="red"><strong> Please have your audio on! </strong> </font></li>
+		<li> Watch the video clip and focus on the instruction at the <strong>10 second mark</strong> . </li>
+		<li> Describe in a short sentence, what the makeup instruction was. </li>
+		<li> <strong> IGNORE makeup instructions that are <u>NOT</u> happening at the 10 second mark. </strong> </li>
+	</ol>
+
+	<button id='readBtn' class="btn btn-large btn-primary disabled" disabled='disabled'> I have read the information. </button> 
+
+	<div class='cleaner'>&nbsp;</div>
+</div>
+<div id="task" style='display: none'>
+<div id="tasks" ></div>
+<div class='cleaner'>&nbsp;</div>
+<h2> Finish </h2>
+<div class="section">
+	<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
+        <form id="submitForm" action="https://www.mturk.com/mturk/externalSubmit" method="POST">
+        <input type="hidden" name="assignmentId" id="assignmentId" value="">
+		<input type="text" name="video" id="video">
+		<input type="text" name="instruction" id="instruction">
+	<button id='taskSub' type="submit" class="btn btn-large btn-primary disabled" style="float:right" disabled="disabled">Submit</button>
+	When you are done hit the submit button.
+	</form>
+</div>
+</div>
+</body>
+
+</html>
