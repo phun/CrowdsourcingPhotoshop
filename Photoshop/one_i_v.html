@@ -1,0 +1,370 @@
+
+<html>
+<head>
+	<title>Amazon Turk Step 1</title>
+	<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.22.custom.css" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="js/libs/chosen.css" type="text/css" />
+	<link href="css/lightbox.css" rel="stylesheet" />
+	<script src="js/libs/jquery-1.7.2.min.js"></script>
+	<script src="js/libs/bootstrap/bootstrap.min.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script type="text/javascript" src="js/libs/jquery-ui-1.8.22.custom.min.js"></script> 
+	<script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script>
+	<script type="text/javascript" src="js/libs/chosen.jquery.js"></script>
+
+	<style type="text/css">
+		.chzn-container .chzn-results { max-height: 150px; }
+		.tt { line-height: 10pt; cursor: pointer; }
+	</style>
+
+	<script type="text/javascript">
+
+		function Timer(callback, delay) {
+			var timerId, start, remaining = delay;
+
+			this.pause = function() {
+				window.clearTimeout(timerId);
+				remaining -= new Date() - start;
+			};
+
+			this.resume = function() {
+				start = new Date();
+				timerId = window.setTimeout(callback, remaining);
+			};
+
+			this.resume();
+		}
+
+		// Get Parameters
+		var prmstr = window.location.search.substr(1);
+		var prmarr = prmstr.split("&");
+		var params = {};
+		for ( var i = 0; i < prmarr.length; i++) {
+			var tmparr = prmarr[i].split("=");
+			params[tmparr[0]] = tmparr[1];
+		}
+
+		var half = (params["half"] == "true");	// boolean of half speed or not
+		var indices = [];	// array of all the indices
+
+		var vid = "1"; // default video number
+		if (params["id"]) {
+			vid = params["id"]
+		}
+
+
+		// Set up video url
+		video = "videos/t1_"+ vid + ".mp4";
+		if (half) { video = "videos/t1_"+ vid + "_h.mp4" };
+
+		var randomInt = Math.floor((Math.random()*4)+1);
+		var audioStr;
+		var ans;
+
+		var index;
+		var toolname;
+		var indexId = 0;
+
+		var timer;
+		if (half) {
+			timer = new Timer(function() { $('#submitBtn').removeAttr('disabled').removeClass('disabled') } , 90000);
+		} else {
+			timer = new Timer(function() { $('#submitBtn').removeAttr('disabled').removeClass('disabled') } , 45000);
+		}
+		timer.pause();
+
+		switch(randomInt) {
+			case 1:
+				audioStr = "sounds/amazon.wav";
+				ans = "amazon";
+				break;
+			case 2:
+				audioStr = "sounds/cat.wav";
+				ans = "cat";
+				break;
+			case 3:
+				audioStr = "sounds/dog.wav";
+				ans = "dog";
+				break;
+			default:
+				audioStr = "sounds/mechanical.wav";
+				ans = "mechanical";
+		}
+
+		function clearModal() {
+			$("#toolname").val('');
+		}
+
+		function addTick(index, name) {
+			
+			indices.push(index);
+			
+			var id = "marker-" + indexId;          
+			var duration = jwplayer().getDuration();
+			var offset = index / duration * 100;
+			var html = "<span class='marker btn-inverse' id='" + id + "' style='left:" + offset + "%;' data-index='" + index + "' data-name='" + name + "'></span>";  
+			var i = $(html);
+
+			$("#timelineHolder").append(i);
+
+			var placement = (indexId % 2) ? 'bottom' : 'top';
+
+			var a = '<a class="tt" id="tooltip-' + indexId + '">(Remove)</a>';
+
+			var displayName = ""
+			if (name.length > 20) {
+				displayName = name.substring(0,20) + "...";
+			} else {
+				displayName = name;
+			}
+
+			i.tooltip({placement: placement, title: displayName +'<br>' + a, html: true, trigger: 'manual'}).tooltip('show');
+			
+			$('#tooltip-' + indexId).click(function() {
+				i.tooltip('destroy');
+				i.remove();
+				$("#timelineHolder .removeHelper").each(function() { $(this).remove(); });
+				var ans = [];
+				$('.marker').each(function() {
+					ans.push($(this).attr('data-index') + "@" + $(this).attr('data-name'));
+				});
+				$("#submitIndices").val(ans);
+			});
+
+			indexId++;
+
+			var ans = [];
+			$('.marker').each(function() { ans.push($(this).attr('data-index') + "@" + $(this).attr('data-name')) });
+			$("#submitIndices").val(ans);     
+		};
+
+		$(document).ready(function() {
+
+			// Tell us what assigmentID is
+			if (params['assignmentId']) { $("#assignmentId").val(params['assignmentId']) };
+
+			$("#videoURL").val(video);
+
+			jwplayer("mediaplayer").setup({
+				flashplayer: "js/libs/jwplayer/player.swf",
+				height: 500,
+				width: 850,
+				controlbar: "bottom",
+				file: video,
+				events: {
+					onTime: function(event) {
+						$("#timeline").slider( "option", "max", jwplayer().getDuration());
+						$("#timeline").slider('value', event.position);
+					},
+					onPlay: function(event) {
+						$(".toolButton").removeClass('disabled').removeAttr('disabled');
+						timer.resume();
+					},
+					onIdle: function() {
+						$(".toolButton").attr('disabled', true).addClass('disabled');
+						timer.pause();
+					},
+					onBuffer: function() {
+						$(".toolButton").attr('disabled', true).addClass('disabled');
+						timer.pause();
+					},
+					onPause: function() {
+						$(".toolButton").attr('disabled', true).addClass('disabled');
+						timer.pause();
+					}
+				}
+			});
+
+			jwplayer("audioplayer").setup({
+				flashplayer: "js/libs/jwplayer/player.swf",
+				file: audioStr,
+				controlbar: 'bottom'
+			});
+
+			$("#playButton").click(function() {
+				jwplayer("audioplayer").play();
+			});
+
+			$("#audioSubmit").click(function() {
+				if ($("#audioText").val().toLowerCase() == ans) {
+					$("#audioTest").hide();
+					$("#task").show();
+				} else {
+					$("#incorrect-audio").show();	  		
+				}
+			});
+
+			$("#audioText").keypress(function(e) {
+				if (e.keyCode == 13) {
+					if ($("#audioText").val().toLowerCase() == ans) {
+						$("#audioTest").hide();
+						$("#task").show();
+					} else {
+						$("#incorrect-audio").show();
+					}
+				}
+			});
+
+			$(".toolButton").click(function() {
+				index = jwplayer("mediaplayer").getPosition();
+				jwplayer("mediaplayer").pause();
+				$(this).hide(500);
+				$('#addBox').show(500);
+				setTimeout(function() {$("#toolname").focus()}, 500);
+			});
+
+			$( "#timeline" ).slider({
+				range: "min",
+				min: 0,
+				max: 279,
+				step: 0.1,
+				animate: true,
+				slide: function(event, ui){
+					jwplayer().seek(ui.value);
+				}
+			});
+
+			if (params['assignmentId'] != null && params['assignmentId'] != 'ASSIGNMENT_ID_NOT_AVAILABLE') {
+				var testURL = 'http://people.csail.mit.edu/phun/photoshop/i2/test_i.html?assignmentId=' + params['assignmentId'];
+				$("#testURL").attr('href', testURL).text(testURL);     			
+			} else {   			
+				$("#testURL").html('<i> Please accept HIT to view tutorial link. </i>');
+				$("#testURL").removeAttr('href');
+			}
+
+			$("#passcode").change(function() {
+				var tok = parseInt(params['assignmentId'].replace(/\D+/g, '' )) * 64;
+				if (parseInt($(this).val()) == tok) {
+				$("#audioTest").show();
+				}
+			});
+
+			$('#addClick').click(function() {
+				$('#addBox').hide();
+				$(".toolButton").show();
+				jwplayer("mediaplayer").play();
+				addTick(index, toolname);
+				clearModal();
+				$("#addClick").attr('disabled', true).addClass('disabled');
+			});
+
+			$("#addClick").attr('disabled', true).addClass('disabled');
+
+			$("#addCancel").click(function() {
+				clearModal();
+				$("#addBox").hide();
+				$('.toolButton').show();
+				jwplayer("mediaplayer").play();
+			});
+
+			$("#toolname").keyup(function(e) {
+				if (e.keyCode == 13) {
+					$("#addClick").click();
+				} else {
+					toolname = $(this).val();
+					if (!toolname) {
+						$("#addClick").attr('disabled', true).addClass('disabled');
+					} else {
+						$("#addClick").removeAttr('disabled').removeClass('disabled');
+					}
+				}
+			});
+
+		});
+	</script>
+</head>
+<body>
+<!-- <div id="title">
+	<h1>Click When Tools Are Used in Photoshop </h1>
+</div> -->
+
+<h2> Tutorial </h2>
+<div class="section">
+	In order to start this task, you must complete a short tutorial.
+	<ol>
+		<li> Open this link below and complete the tutorial: <br/> <a id='testURL' href='' target="_blank"></a> </li>
+		<li> 
+			Complete the test and paste the passcode below. <br/>
+			<input type='text' id='passcode'></input> <button id='passcodeSubmit' class="btn btn-small btn-primary" style='vertical-align: top'>Submit </button>
+		</li>
+	</ol>
+</div>
+
+<div id='audioTest' style="display: none">
+	<h2> Audio Test </h2>
+	<div class='section'>
+		<div id='audioplayer' style='display: none'></div>
+		<img id='playButton' src='images/play_button.png' style='float: left; height: 70px'>
+		<h3> Click on the play button and type what you hear.</h3>
+		<input type='text' id='audioText'></input> <button id='audioSubmit' class="btn btn-small btn-primary" style='vertical-align: top'>Submit </button>
+		<div style='clear:both;'></div>
+		<h4 id='incorrect-audio' style="display:none; color: red"> Incorrect Message. Please Listen and try again. </h4>
+	</div>
+</div>
+
+<div id='task' style='display: none;'>
+	<div style="float:right; border: 1px solid black; padding: 0px 5px; max-width: 300px;">
+		<h3 style="padding-top:0; margin-top:0;"> What is a step? </h3>
+		<p> Here are some examples of steps: </p>
+		<ul>
+			<li> Instructor uses a new tool. </li>
+			<li> Instructor applies a filter/effect. </li>
+			<li> Instructor adds a layer or changes layer settings. </li>
+		</ul>
+		<p> Here are some that are <strong>NOT</strong> steps: </p>
+		<ul>
+			<li> Instructor changes tool parameters (brush size, paint bucket color, RGB slider values, etc). </li>
+		</ul>
+	</div>
+	<h2> Instructions </h2>
+	<div class="section">
+		<p> Your goal is to gather all of the steps in the step-by-step Photoshop video tutorial.
+		<ol>
+			<li> <font color="red"><strong> Please have your audio on! </strong> </font></li>
+			<li> Watch step-by-step Photoshop video tutorial. </li>
+			<li> Click on the <button class="btn btn-primary btn-mini disabled">New Step Given</button> button every time the instructor starts a new step in the video.
+				<ul>
+					<li>A tick <img src="tick.png" /> will be added to the timeline which represents the start of a new step. </li>
+				</ul>
+			</li>
+		</ol>
+		<div class='cleaner'>&nbsp;</div>
+	</div>
+
+	<h2> Task </h2>
+	<div class="section">
+		<div id="mediaplayer" width="100%" height="400">JW Player goes here</div>
+		<br/><button class="btn btn-primary toolButton disabled" disabled="disabled">New Step Given</button>
+		<br/><div id="addBox" style="border: 1px solid gray; padding: 5px; display: none">
+			<h3>Briefly describe the step in a few words.</h3>
+			<div style="float: right">
+				<button class="btn " id="addCancel">Cancel</button>
+				<button class="btn btn-primary" id="addClick">Add New Step</button>
+			</div>
+			<input type="text" id="toolname"></input>
+			<br/>
+			<i>ex. "Used Lasso Tool", "Increased Contrast" </i>
+		</div>
+		<br/><div id="timelineHolder">
+			<div id="timeline"></div>
+		</div>
+	</div>
+	<div class='cleaner'>&nbsp;</div>
+	<h2> Finish </h2>
+	<div class="section">
+		<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
+		<form id="submitForm" action="https://www.mturk.com/mturk/externalSubmit" method="POST">
+		<input type="hidden" name="assignmentId" id="assignmentId" value="">
+		<input type="text" name="indices" id="submitIndices">
+		<input type="text" name="video" id="videoURL">
+		<button id="submitBtn" type="submit" class="btn btn-large btn-primary disabled" style="float:right" disabled='disabled'>Submit</button>
+		When you are done hit the submit button.
+		</form>
+	</div>
+</div>
+
+</body>
+
+</html>

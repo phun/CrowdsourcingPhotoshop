@@ -1,0 +1,6429 @@
+[
+      {
+        "value": "photoshop",
+        "label": "Photoshop",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "1",
+        "icon": "white.png"
+      },
+      {
+        "value": "photoshop-about_photoshop",
+        "label": "Photoshop > About Photoshop",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-about_plug_in",
+        "label": "Photoshop > About Plug-In",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },             
+      {
+        "value": "photoshop-preferences",
+        "label": "Photoshop > Preferences",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "photoshop-preferences-general",
+        "label": "Photoshop > Preferences > General",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "photoshop-preferences-interface",
+        "label": "Photoshop > Preferences > Interface",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-preferences-file_handling",
+        "label": "Photoshop > Preferences > File Handling",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-preferences-performance",
+        "label": "Photoshop > Preferences > Performance",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-preferences-cursors",
+        "label": "Photoshop > Preferences > Cursors",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-preferences-transparency_gamut",
+        "label": "Photoshop > Preferences > Transparency & Gamut",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-preferences-units_rulers",
+        "label": "Photoshop > Preferences > Units & Rulers",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-preferences-guides_grid_slices",
+        "label": "Photoshop > Preferences > Guides, Grid, & Slices",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-preferences-plug_ins",
+        "label": "Photoshop > Preferences > Plug-Ins",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-preferences-type",
+        "label": "Photoshop > Preferences > Type",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-preferences-3d",
+        "label": "Photoshop > Preferences > 3D",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-preferences-camera_raw",
+        "label": "Photoshop > Preferences > Camera Raw",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                        
+      {
+        "value": "photoshop-services",
+        "label": "Photoshop > Services",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-hide_photoshop",
+        "label": "Photoshop > Hide Photoshop",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-hide_others",
+        "label": "Photoshop > Hide Others",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-show_all",
+        "label": "Photoshop > Show All",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "photoshop-quit_photoshop",
+        "label": "Photoshop > Quit Photoshop",
+        "kind": "Photoshop",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },                                   
+      {
+        "value": "file",
+        "label": "File",
+        "kind": "File",
+        "desc": "",
+        "level": "1",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-new",
+        "label": "File > New",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-open",
+        "label": "File > Open",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-browse_in_bridge",
+        "label": "File > Browse in Bridge",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-browse_in_mini_bridge",
+        "label": "File > Browse in Mini Bridge",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-open_as_smart_object",
+        "label": "File > Open As Smart Object",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-open_recent",
+        "label": "File > Open Recent",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-share_my_screen",
+        "label": "File > Share My Screen",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-create_new_review",
+        "label": "File > Create New Review",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-device_central",
+        "label": "File > Device Central",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-close",
+        "label": "File > Close",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "file-close_all",
+        "label": "File > Close All",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-close_and_go_to_bridge",
+        "label": "File > Close and Go To Bridge",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-save",
+        "label": "File > Save",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-save_as",
+        "label": "File > Save As",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-check_in",
+        "label": "File > Check In",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "file-save_for_web_devices",
+        "label": "File > Save for Web & Devices",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-revert",
+        "label": "File > Revert",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-place",
+        "label": "File > Place",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-import",
+        "label": "File > Import",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-import-variable_data_sets",
+        "label": "File > Import > Variable Data Sets",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-import-video_frams_to_layers",
+        "label": "File > Import > Video Frames to Layers",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },      
+      {
+        "value": "file-import-notes",
+        "label": "File > Import > Notes",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },            
+      {
+        "value": "file-export",
+        "label": "File > Export",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "file-export-data_sets_as_files",
+        "label": "File > Export > Data Sets as Files",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },    
+      {
+        "value": "file-export-paths_to_illustrator",
+        "label": "File > Export > Paths to Illustrator",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },     
+      {
+        "value": "file-export-render_video",
+        "label": "File > Export > Render Video",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },     
+      {
+        "value": "file-export-zoomify",
+        "label": "File > Export > Zoomify",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                            
+      {
+        "value": "file-automate",
+        "label": "File > Automate",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-automate-batch",
+        "label": "File > Automate > Batch",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-automate-create_droplet",
+        "label": "File > Automate > Create Droplet",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-automate-crop_and_straighten_photos",
+        "label": "File > Automate > Crop and Straighten Photos",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-automate-conditional_mode_change",
+        "label": "File > Automate > Conditional Mode Change",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-automate-fit_image",
+        "label": "File > Automate > Fit Image",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-automate-lens_correction",
+        "label": "File > Automate > Lens Correction",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-automate-merge_to_hdr_pro",
+        "label": "File > Automate > Merge to HDR Pro",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-automate-photomerge",
+        "label": "File > Automate > Photomerge",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                    
+      {
+        "value": "file-scripts",
+        "label": "File > Scripts",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-scripts-image_processor",
+        "label": "File > Scripts > Image Processor",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "file-scripts-delete_all_empty_layers",
+        "label": "File > Scripts > Delete All Empty Layers",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "file-scripts-flatten_all_layer_effects",
+        "label": "File > Scripts > Flatten All Layer Effects",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "file-scripts-flatten_all_masks",
+        "label": "File > Scripts > Flatten All Masks",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "file-scripts-layer_comps_to_files",
+        "label": "File > Scripts > Layer Comps to Files",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "file-scripts-layer_comps_to_wpg",
+        "label": "File > Scripts > Layer Comps to WPG",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "file-scripts-export_layers_to_files",
+        "label": "File > Scripts > Export Layers to Files",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "file-scripts-script_events_manager",
+        "label": "File > Scripts > Script Events Manager",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "file-scripts-load_files_into_stack",
+        "label": "File > Scripts > Load Files into Stack",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "file-scripts-load_multiple_dicom_files",
+        "label": "File > Scripts > Load Multiple DICOM Files",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "file-scripts-statistics",
+        "label": "File > Scripts > Statistics",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "file-scripts-browse",
+        "label": "File > Scripts > Browse",
+        "kind": "File",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                       
+      {
+        "value": "file-file_info",
+        "label": "File > File Info",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-print",
+        "label": "File > Print",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "file-print_one_copy",
+        "label": "File > Print One Copy",
+        "kind": "File",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "edit",
+        "label": "Edit",
+        "kind": "Edit",
+        "desc": "",
+        "level": "1",
+        "icon": "white.png"
+      },       
+      {
+        "value": "edit-undo",
+        "label": "Edit > Undo",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-step_forward",
+        "label": "Edit > Step Forward",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-step_backward",
+        "label": "Edit > Step Backward",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "edit-fade",
+        "label": "Edit > Fade",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-cut",
+        "label": "Edit > Cut",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-copy",
+        "label": "Edit > Copy",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-copy_merged",
+        "label": "Edit > Copy Merged",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-paste",
+        "label": "Edit > Paste",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-paste_special",
+        "label": "Edit > Paste Special",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "edit-paste_special-paste_in_place",
+        "label": "Edit > Paste Special > Paste in Place",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },    
+      {
+        "value": "edit-paste_special-paste_into",
+        "label": "Edit > Paste Special > Paste into",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "edit-paste_special-paste_outside",
+        "label": "Edit > Paste Special > Paste Outside",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                             
+      {
+        "value": "edit-clear",
+        "label": "Edit > Clear",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-check_spelling",
+        "label": "Edit > Check Spelling",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-find_and_replace_text",
+        "label": "Edit > Find and Replace Text",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "edit-fill",
+        "label": "Edit > Fill",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-Stroke",
+        "label": "Edit > Stroke",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-content-aware-scale",
+        "label": "Edit > Content-Aware Scale",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "edit-puppet_warp",
+        "label": "Edit > Puppet Warp",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-free_transform",
+        "label": "Edit > Free Transform",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-transform",
+        "label": "Edit > Transform",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "edit-transform-again",
+        "label": "Edit > Transform > Again",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },     
+      {
+        "value": "edit-transform-scale",
+        "label": "Edit > Transform > Scale",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-transform-rotate",
+        "label": "Edit > Transform > Rotate",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-transform-skew",
+        "label": "Edit > Transform > Skew",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-transform-distort",
+        "label": "Edit > Transform > Distort",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-transform-perspective",
+        "label": "Edit > Transform > Perspective",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-transform-warp",
+        "label": "Edit > Transform > Warp",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-transform-rotate_180",
+        "label": "Edit > Transform > Rotate 180°",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-transform-rotate_90_cw",
+        "label": "Edit > Transform > Rotate 90° CW",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-transform-rotate_90_ccw",
+        "label": "Edit > Transform > Rotate 90° CCW",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-transform-flip_horizontal",
+        "label": "Edit > Transform > Flip Horizontal",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-transform-flip_vertical",
+        "label": "Edit > Transform > Flip Vertical",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                      
+      {
+        "value": "edit-auto_align_layers",
+        "label": "Edit > Auto-Align Layers",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-auto_blend_layers",
+        "label": "Edit > Auto-Blend Layers",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-define_brush_preset",
+        "label": "Edit > Define Brush Preset",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "edit-define_pattern",
+        "label": "Edit > Define Pattern",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-define_custom_shape",
+        "label": "Edit > Define CUstom Shape",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-purge",
+        "label": "Edit > Purge",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "edit-purge-undo",
+        "label": "Edit > Purge > Undo",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "edit-purge-clipboard",
+        "label": "Edit > Purge > Clipboard",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "edit-purge-histories",
+        "label": "Edit > Purge > Histories",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "edit-purge-all",
+        "label": "Edit > Purge > All",
+        "kind": "Edit",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                         
+      {
+        "value": "edit-adobe_pdf_presets",
+        "label": "Edit > Adobe PDF Presets",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-preset_manager",
+        "label": "Edit > Preset Manager",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-remote_connections",
+        "label": "Edit > Remote Connections",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "edit-color_settings",
+        "label": "Edit > Color Settings",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-assign_profile",
+        "label": "Edit > Assign Profile",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-convert_to_profile",
+        "label": "Edit > Convert to Profile",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "edit-keyboard_shortcuts",
+        "label": "Edit > Keyboard Shortcuts",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-menus",
+        "label": "Edit > Menus",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "edit-start_dictation",
+        "label": "Edit > Start Dictation",
+        "kind": "Edit",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },       
+      {
+        "value": "image",
+        "label": "Image",
+        "kind": "Image",
+        "desc": "",
+        "level": "1",
+        "icon": "white.png"
+      },     
+      {
+        "value": "image-mode",
+        "label": "Image > Mode",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "image-mode-bitmap",
+        "label": "Image > Mode > Bitmap",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },    
+      {
+        "value": "image-mode-grayscale",
+        "label": "Image > Mode > Grayscale",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-mode-duotone",
+        "label": "Image > Mode > Duotone",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-mode-indexed_color",
+        "label": "Image > Mode > Indexed Color",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-mode-rgb_color",
+        "label": "Image > Mode > RGB Color",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-mode-cmyk_color",
+        "label": "Image > Mode > CMYK Color",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-mode-lab_color",
+        "label": "Image > Mode > Lab Color",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-mode-multichannel",
+        "label": "Image > Mode > Multichannel",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-mode-8bits_channel",
+        "label": "Image > Mode > 8 Bits/Channel",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-mode-16bits_channel",
+        "label": "Image > Mode > 16 Bits/Channel",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-mode-32bits_channel",
+        "label": "Image > Mode > 32 Bits/Channel",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "image-mode-color_table",
+        "label": "Image > Mode > Color Table",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                       
+      {
+        "value": "image-adjustments",
+        "label": "Image > Adjustments",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "image-adjustments-brightness_contrast",
+        "label": "Image > Adjustments > Brightness/Contrast",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-levels",
+        "label": "Image > Adjustments > Levels",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-curves",
+        "label": "Image > Adjustments > Curves",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-exposure",
+        "label": "Image > Adjustments > Exposure",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-vibrance",
+        "label": "Image > Adjustments > Vibrance",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-hue_saturation",
+        "label": "Image > Adjustments > Hue/Saturation",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-color_balance",
+        "label": "Image > Adjustments > Color Balance",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-black_white",
+        "label": "Image > Adjustments > Black & White",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-photo_filter",
+        "label": "Image > Adjustments > Photo Filter",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-channel_mixer",
+        "label": "Image > Adjustments > Channel Mixer",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-invert",
+        "label": "Image > Adjustments > Invert",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-posterize",
+        "label": "Image > Adjustments > Posterize",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-threshold",
+        "label": "Image > Adjustments > Threshold",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-gradient_map",
+        "label": "Image > Adjustments > Gradient Map",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "image-adjustments-selective_color",
+        "label": "Image > Adjustments > Selective Color",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "image-adjustments-shadows_highlights",
+        "label": "Image > Adjustments > Shadows/Highlights",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-hdr_toning",
+        "label": "Image > Adjustments > HDR Toning",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-desaturate",
+        "label": "Image > Adjustments > Desaturate",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-match_color",
+        "label": "Image > Adjustments > Match Color",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-replace_color",
+        "label": "Image > Adjustments > Replace Color",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-equalize",
+        "label": "Image > Adjustments > Equalize",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-adjustments-brightness_contrast",
+        "label": "Image > Adjustments > Brightness/Contrast",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                                                                           
+      {
+        "value": "image-auto_tone",
+        "label": "Image > Auto Contrast",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "image-auto_contrast",
+        "label": "Image > Auto Contrast",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },        
+      {
+        "value": "image-auto_color",
+        "label": "Image > Auto Color",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "image-image_size",
+        "label": "Image > Image Size",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "image-canvas_size",
+        "label": "Image > Canvas Size",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "image-image_rotation",
+        "label": "Image > Image Rotation",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "image-image_rotation-180",
+        "label": "Image > Image Rotation > 180°",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },       
+      {
+        "value": "image-image_rotation-90_cw",
+        "label": "Image > Image Rotation > 90° CW",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "image-image_rotation-90_ccw",
+        "label": "Image > Image Rotation > 90° CCW",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "image-image_rotation-arbitrary",
+        "label": "Image > Image Rotation > Arbitrary",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "image-image_rotation-flip_canvas_horizontal",
+        "label": "Image > Image Rotation > Flip Canvas Horizontal",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "image-image_rotation-flip_canvas_vertical",
+        "label": "Image > Image Rotation > Flip Canvas Vertical",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                 
+      {
+        "value": "image-crop",
+        "label": "Image > Crop",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "image-trim",
+        "label": "Image > Trim",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "image-reveal_all",
+        "label": "Image > Reveal All",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "image-duplicate",
+        "label": "Image > Duplicate",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "image-apply_image",
+        "label": "Image > Apply Image",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "image-calculations",
+        "label": "Image > Calculations",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "image-variables",
+        "label": "Image > Variables",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "image-variables-define",
+        "label": "Image > Variables > Define",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "image-variables-data_sets",
+        "label": "Image > Variables > Data Sets",
+        "kind": "Image",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },              
+      {
+        "value": "image-apply_data_set",
+        "label": "Image > Apply Data Set",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "image-trap",
+        "label": "Image > Trap",
+        "kind": "Image",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },                                                                                                                                              
+      {
+        "value": "layer",
+        "label": "Layer",
+        "kind": "Layer",
+        "desc": "",
+        "level": "1",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-new",
+        "label": "Layer > New",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-new-layer",
+        "label": "Layer > New > Layer",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-new-layer_from_background",
+        "label": "Layer > New > Layer From Background",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-new-group",
+        "label": "Layer > New > Group",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-new-group_from_layers",
+        "label": "Layer > New > Group from Layers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-new-layer_via_copy",
+        "label": "Layer > New > Layer via Copy",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-layer_via_cut",
+        "label": "Layer > Layer via Cut",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "layer-duplicate_layer",
+        "label": "Layer > Duplicate Layer",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },                          
+      {
+        "value": "layer-delete",
+        "label": "Layer > Delete",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "layer-delete-layer",
+        "label": "Layer > Delete > Layer",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-delete-hidden_layers",
+        "label": "Layer > Delete > Hidden Layers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                
+      {
+        "value": "layer-layer_properties",
+        "label": "Layer > Layer Properties",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-layer_style",
+        "label": "Layer > Layer Style",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "layer-layer_style-blending_options",
+        "label": "Layer > Layer Style > Blending Options",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-layer_style-drop_shadow",
+        "label": "Layer > Layer Style > Drop Shadow",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-inner_shadow",
+        "label": "Layer > Layer Style > Inner Shadow",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-outer_glow",
+        "label": "Layer > Layer Style > Outer Glow",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-inner_glow",
+        "label": "Layer > Layer Style > Inner Glow",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-bevel_and_emboss",
+        "label": "Layer > Layer Style > Bevel and Emboss",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-satin",
+        "label": "Layer > Layer Style > Satin",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-color_overlay",
+        "label": "Layer > Layer Style > Color Overlay",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-gradient_overlay",
+        "label": "Layer > Layer Style > Gradient Overlay",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-pattern_overlay",
+        "label": "Layer > Layer Style > Pattern Overlay",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-stroke",
+        "label": "Layer > Layer Style > Stroke",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-copy_layer_style",
+        "label": "Layer > Layer Style > Copy Layer Style",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-paste_layer_style",
+        "label": "Layer > Layer Style > Paste Layer Style",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-clear_layer_style",
+        "label": "Layer > Layer Style > Clear Layer Style",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-global_light",
+        "label": "Layer > Layer Style > Global Light",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-create_layer",
+        "label": "Layer > Layer Style > Create Layer",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-hide_all_effects",
+        "label": "Layer > Layer Style > Hide All Effects",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_style-scale_effects",
+        "label": "Layer > Layer Style > Scale Effects",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                                                       
+      {
+        "value": "layer-smart_filter",
+        "label": "Layer > Smart Filter",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-new_fill_layer",
+        "label": "Layer > New Fill Layer",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-new_fill_layer-solid_color",
+        "label": "Layer > New Fill Layer > Solid Color",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-new_fill_layer-gradient",
+        "label": "Layer > New Fill Layer > Gradient",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-new_fill_layer-pattern",
+        "label": "Layer > New Fill Layer > Pattern",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                  
+      {
+        "value": "layer-new_adjustment_layer",
+        "label": "Layer > New Adjustment Layer",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-new_adjustment_layer-brightness_contrast",
+        "label": "Layer > New Adjustment Layer > Brightness/Contrast",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },    
+      {
+        "value": "layer-new_adjustment_layer-levels",
+        "label": "Layer > New Adjustment Layer > Levels",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-new_adjustment_layer-curves",
+        "label": "Layer > New Adjustment Layer > Curves",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-new_adjustment_layer-exposure",
+        "label": "Layer > New Adjustment Layer > Exposure",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-new_adjustment_layer-vibrance",
+        "label": "Layer > New Adjustment Layer > Vibrance",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-new_adjustment_layer-hue_saturation",
+        "label": "Layer > New Adjustment Layer > Hue/Saturation",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-new_adjustment_layer-color_balance",
+        "label": "Layer > New Adjustment Layer > Color Balance",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-new_adjustment_layer-black_and_white",
+        "label": "Layer > New Adjustment Layer > Black & White",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-new_adjustment_layer-photo_filter",
+        "label": "Layer > New Adjustment Layer > Photo Filter",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-new_adjustment_layer-channel_mixer",
+        "label": "Layer > New Adjustment Layer > Channel Mixer",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-new_adjustment_layer-invert",
+        "label": "Layer > New Adjustment Layer > Invert",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-new_adjustment_layer-posterize",
+        "label": "Layer > New Adjustment Layer > Posterize",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-new_adjustment_layer-threshold",
+        "label": "Layer > New Adjustment Layer > Threshold",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-new_adjustment_layer-gradient_map",
+        "label": "Layer > New Adjustment Layer > Gradient Map",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-new_adjustment_layer-selective_color",
+        "label": "Layer > New Adjustment Layer > Selective Color",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                                       
+      {
+        "value": "layer-layer_content_options",
+        "label": "Layer > Layer Content Options",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-layer_mask",
+        "label": "Layer > Layer Mask",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-layer_mask-reveal_all",
+        "label": "Layer > Layer Mask > Reveal All",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },      
+      {
+        "value": "layer-layer_mask-hide_all",
+        "label": "Layer > Layer Mask > Hide All",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_mask-reveal_selection",
+        "label": "Layer > Layer Mask > Reveal Selection",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_mask-hide_selection",
+        "label": "Layer > Layer Mask > Hide Selection",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_mask-from_transparence",
+        "label": "Layer > Layer Mask > From Transparency",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_mask-delete",
+        "label": "Layer > Layer Mask > Delete",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_mask-apply",
+        "label": "Layer > Layer Mask > Apply",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_mask-enable",
+        "label": "Layer > Layer Mask > Enable",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-layer_mask-link",
+        "label": "Layer > Layer Mask > Link",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                 
+      {
+        "value": "layer-vector_mask",
+        "label": "Layer > Vector Mask",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-vector_mask-reveal_all",
+        "label": "Layer > Vector Mask > Reveal All",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-vector_mask-hide_all",
+        "label": "Layer > Vector Mask > Hide All",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-vector_mask-current_path",
+        "label": "Layer > Vector Mask > Current Path",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-vector_mask-delete",
+        "label": "Layer > Vector Mask > Delete",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-vector_mask-enable",
+        "label": "Layer > Vector Mask > Enable",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-vector_mask-link",
+        "label": "Layer > Vector Mask > Link",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                        
+      {
+        "value": "layer-create_clipping_mask",
+        "label": "Layer > Create Clipping Mask",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-smart_objects",
+        "label": "Layer > Smart Objects",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "layer-smart_objects-convert_to_smart_object",
+        "label": "Layer > Smart Objects > Convert to Smart Object",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },       
+      {
+        "value": "layer-smart_objects-new_smart_object_via_copy",
+        "label": "Layer > Smart Objects > New Smart Object via Copy",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-smart_objects-edit_contents",
+        "label": "Layer > Smart Objects > Edit Contents",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-smart_objects-export_contents",
+        "label": "Layer > Smart Objects > Export Contents",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-smart_objects-replace_contents",
+        "label": "Layer > Smart Objects > Replace Contents",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-smart_objects-stack_mode",
+        "label": "Layer > Smart Objects > Stack Mode",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-smart_objects-rasterize",
+        "label": "Layer > Smart Objects > Rasterize",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                       
+      {
+        "value": "layer-video_layers",
+        "label": "Layer > Video Layers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },      
+      {
+        "value": "layer-video_layers-new_video_layer_from_file",
+        "label": "Layer > Video Layers > New Video Layer from File",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },          
+      {
+        "value": "layer-video_layers-new_blank_video_layer",
+        "label": "Layer > Video Layers > New Blank Video Layer",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-video_layers-insert_blank_frame",
+        "label": "Layer > Video Layers > Insert Blank Frame",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-video_layers-dupliclate_frame",
+        "label": "Layer > Video Layers > Duplicate Frame",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-video_layers-delete_frame",
+        "label": "Layer > Video Layers > Delete Frame",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-video_layers-replace_footage",
+        "label": "Layer > Video Layers > Replace Footage",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-video_layers-interpret_footage",
+        "label": "Layer > Video Layers > Interpret Footage",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-video_layers-show_altered_video",
+        "label": "Layer > Video Layers > Show Altered Video",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-video_layers-restore_frame",
+        "label": "Layer > Video Layers > Restore Frame",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-video_layers-restore_all_frames",
+        "label": "Layer > Video Layers > Restore All Frames",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-video_layers-reload_frame",
+        "label": "Layer > Video Layers > Reload Frame",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-video_layers-rasterize",
+        "label": "Layer > Video Layers > Rasterize",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                    
+      {
+        "value": "layer-type",
+        "label": "Layer > Type",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-type-create_work_path",
+        "label": "Layer > Type > Create Work Path",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "layer-type-convert_to_shape",
+        "label": "Layer > Type > Convert to Shape",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-type-horizontal",
+        "label": "Layer > Type > Horizontal",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-type-vertical",
+        "label": "Layer > Type > Vertical",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-type-anti_alias_none",
+        "label": "Layer > Type > Anti-Alias None",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-type-anti_alias_sharp",
+        "label": "Layer > Type > Anti-Alias Sharp",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-type-anti_alias_crisp",
+        "label": "Layer > Type > Anti-Alias Crisp",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-type-anti_alias_strong",
+        "label": "Layer > Type > Anti-Alias Strong",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-type-anti_alias_smooth",
+        "label": "Layer > Type > Anti-Alias Smooth",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-type-convert_text_shape_type",
+        "label": "Layer > Type > Convert Text Shape Type",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-type-warp_text",
+        "label": "Layer > Type > Warp Text",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-type-update_all_text_layers",
+        "label": "Layer > Type > Update All Text Layers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-type-replace_all_missing_fonts",
+        "label": "Layer > Type > Replace All Missing Fonts",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                             
+      {
+        "value": "layer-rasterize",
+        "label": "Layer > Rasterize",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-rasterize-type",
+        "label": "Layer > Rasterize > Type",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },      
+      {
+        "value": "layer-rasterize-shape",
+        "label": "Layer > Rasterize > Shape",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-rasterize-fill_content",
+        "label": "Layer > Rasterize > Fill Content",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-rasterize-vector_mask",
+        "label": "Layer > Rasterize > Vector Mask",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-rasterize-smart_object",
+        "label": "Layer > Rasterize > Smart Object",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-rasterize-video",
+        "label": "Layer > Rasterize > Video",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-rasterize-3d",
+        "label": "Layer > Rasterize > 3D",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-rasterize-layer",
+        "label": "Layer > Rasterize > Layer",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-rasterize-all_layers",
+        "label": "Layer > Rasterize > All Layers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                  
+      {
+        "value": "layer-new_layer_based_slice",
+        "label": "Layer > New Layer Based Slice",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-group_layers",
+        "label": "Layer > Group Layers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-ungroup_layers",
+        "label": "Layer > Ungroup Layers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-hide_layers",
+        "label": "Layer > Hide Layers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-arrange",
+        "label": "Layer > Arrange",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "layer-arrange-bring_to_front",
+        "label": "Layer > Arrange > Bring to Front",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-arrange-bring-forward",
+        "label": "Layer > Arrange > Bring Forward",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-arrange-send_backward",
+        "label": "Layer > Arrange > Send Backward",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-arrange-send_to_back",
+        "label": "Layer > Arrange > Send to Back",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-arrange-reverse",
+        "label": "Layer > Arrange > Reverse",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                 
+      {
+        "value": "layer-align",
+        "label": "Layer > Align",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-align-top_edges",
+        "label": "Layer > Align > Top Edges",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "layer-align-vertical_centers",
+        "label": "Layer > Align > Vertical Centers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-align-bottom_edges",
+        "label": "Layer > Align > Bottom Edges",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-align-left_edges",
+        "label": "Layer > Align > Left Edges",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-align-horizontal_centers",
+        "label": "Layer > Align > Horizontal Centers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-align-right_edges",
+        "label": "Layer > Align > Right Edges",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                  
+      {
+        "value": "layer-distribute",
+        "label": "Layer > Distribute",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-distribute-top_edges",
+        "label": "Layer > Distribute > Top Edges",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "layer-distribute-vertical_centers",
+        "label": "Layer > Distribute > Vertical Centers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-distribute-bottom_edges",
+        "label": "Layer > Distribute > Bottom Edges",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-distribute-left_edges",
+        "label": "Layer > Distribute > Left Edges",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-distribute-horizontal_centers",
+        "label": "Layer > Distribute > Horizontal Centers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "layer-distribute-right_edges",
+        "label": "Layer > Distribute > Right Edges",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },        
+      {
+        "value": "layer-lock_all_layers_in_group",
+        "label": "Layer > Lock All Layers in Group",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-link_layers",
+        "label": "Layer > Link Layers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-select_linked_layers",
+        "label": "Layer > Select Linked Layers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-merge_layers",
+        "label": "Layer > Merge Layers",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-merge_visible",
+        "label": "Layer > Merge Visible",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "layer-flatten_image",
+        "label": "Layer > Flatten Image",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },      
+      {
+        "value": "layer-matting",
+        "label": "Layer > Matting",
+        "kind": "Layer",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-matting-color_decontaminate",
+        "label": "Layer > Matting > Color Decontaminate",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-matting-defringe",
+        "label": "Layer > Matting > Defringe",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-matting-remove_black_matte",
+        "label": "Layer > Matting > Remove Black Matte",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "layer-matting-remove_white_matte",
+        "label": "Layer > Matting > Remove White Matte",
+        "kind": "Layer",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                          
+      {
+        "value": "select",
+        "label": "Select",
+        "kind": "Select",
+        "desc": "",
+        "level": "1",
+        "icon": "white.png"
+      },  
+      {
+        "value": "select-all",
+        "label": "Select > All",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },        
+      {
+        "value": "select-deselect",
+        "label": "Select > Deselect",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },      
+      {
+        "value": "select-reselect",
+        "label": "Select > Reselect",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "select-inverse",
+        "label": "Select > Inverse",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "select-all_layers",
+        "label": "Select > All Layers",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },        
+      {
+        "value": "select-deselect_layers",
+        "label": "Select > Deselect Layers",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },      
+      {
+        "value": "select-similar_layers",
+        "label": "Select > Similar Layers",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "select-color_range",
+        "label": "Select > Color Range",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "select-refine_edge",
+        "label": "Select > Refine Edge",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },        
+      {
+        "value": "select-modify",
+        "label": "Select > Modify",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },      
+      {
+        "value": "select-modify-border",
+        "label": "Select > Modify > Border",
+        "kind": "Select",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "select-modify-smooth",
+        "label": "Select > Modify > Smooth",
+        "kind": "Select",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "select-modify-expand",
+        "label": "Select > Modify > Expand",
+        "kind": "Select",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "select-modify-contract",
+        "label": "Select > Modify > Contract",
+        "kind": "Select",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "select-modify-feather",
+        "label": "Select > Modify > Feather",
+        "kind": "Select",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                
+      {
+        "value": "select-grow",
+        "label": "Select > Grow",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "select-similar",
+        "label": "Select > Similar",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "select-transform_selection",
+        "label": "Select > Transform Selection",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },        
+      {
+        "value": "select-edit_in_quick_mask_mode",
+        "label": "Select > Edit in Quick Mask Mode",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },      
+      {
+        "value": "select-load_selection",
+        "label": "Select > Load Selection",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "select-save_selection",
+        "label": "Select > Save Selection",
+        "kind": "Select",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },                                                     
+      {
+        "value": "filter",
+        "label": "Filter",
+        "kind": "Filter",
+        "desc": "",
+        "level": "1",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-last_filter",
+        "label": "Filter > Last Filter",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-convert_for_smart_filters",
+        "label": "Filter > Convert for Smart Filters",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-filter_gallery",
+        "label": "Filter > Filter Gallery",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-lens_correction",
+        "label": "Filter > Lens Correction",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-liquify",
+        "label": "Filter > Liquify",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-vanishing_point",
+        "label": "Filter > Vanishing Point",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },                                   
+      {
+        "value": "filter-artistic",
+        "label": "Filter > Artistic",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-artistic-colored_pencil",
+        "label": "Filter > Artistic > Colored Pencil",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },       
+      {
+        "value": "filter-artistic-cutout",
+        "label": "Filter > Artistic > Cutout",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-artistic-dry_brush",
+        "label": "Filter > Artistic > Dry Brush",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-artistic-film_grain",
+        "label": "Filter > Artistic > Film Grain",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-artistic-fresco",
+        "label": "Filter > Artistic > Fresco",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-artistic-neon_glow",
+        "label": "Filter > Artistic > Neon Glow",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-artistic-paint_daubs",
+        "label": "Filter > Artistic > Paint Daubs",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-artistic-palette_knife",
+        "label": "Filter > Artistic > Palette Knife",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-artistic-plastic_wrap",
+        "label": "Filter > Artistic > Plastic Wrap",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-artistic-poster_edges",
+        "label": "Filter > Artistic > Poster Edges",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-artistic-rough_pastels",
+        "label": "Filter > Artistic > Rough Pastels",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-artistic-smudge_stick",
+        "label": "Filter > Artistic > Smudge Stick",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-artistic-sponge",
+        "label": "Filter > Artistic > Sponge",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-artistic-underpainting",
+        "label": "Filter > Artistic > Underpainting",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-artistic-watercolor",
+        "label": "Filter > Artistic > Watercolor",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                                          
+      {
+        "value": "filter-blur",
+        "label": "Filter > Blur",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+
+      {
+        "value": "filter-blur-average",
+        "label": "Filter > Blur > Average",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-blur-blur",
+        "label": "Filter > Blur > Blur",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-blur-blur_more",
+        "label": "Filter > Blur > Blur More",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-blur-box_blur",
+        "label": "Filter > Blur > Box Blur",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-blur-gaussian_blur",
+        "label": "Filter > Blur > Gaussian Blur",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-blur-lens_blur",
+        "label": "Filter > Blur > Lens Blur",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-blur-motion_blur",
+        "label": "Filter > Blur > Motion Blur",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-blur-radial_blur",
+        "label": "Filter > Blur > Radial Blur",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-blur-shape_blur",
+        "label": "Filter > Blur > Shape Blur",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-blur-smart_blur",
+        "label": "Filter > Blur > Smart Blur",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-blur-surface_blur",
+        "label": "Filter > Blur > Surface Blur",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },      
+      {
+        "value": "filter-brush_strokes",
+        "label": "Filter > Brush Strokes",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-brush_strokes-accented_edges",
+        "label": "Filter > Brush Strokes > Accented Edges",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },     
+      {
+        "value": "filter-brush_strokes-angled_strokes",
+        "label": "Filter > Brush Strokes > Angled Strokes",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-brush_strokes-crosshatch",
+        "label": "Filter > Brush Strokes > Crosshatch",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-brush_strokes-dark_strokes",
+        "label": "Filter > Brush Strokes > Dark Strokes",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-brush_strokes-ink_outlines",
+        "label": "Filter > Brush Strokes > Ink Outlines",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-brush_strokes-spatter",
+        "label": "Filter > Brush Strokes > Spatter",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-brush_strokes-sprayed_strokes",
+        "label": "Filter > Brush Strokes > Sprayed Strokes",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-brush_strokes-sumi_e",
+        "label": "Filter > Brush Strokes > Sumi-e",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                           
+      {
+        "value": "filter-distort",
+        "label": "Filter > Distort",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "filter-distort-diffuse_glow",
+        "label": "Filter > Distort > Diffuse Glow",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "filter-distort-displace",
+        "label": "Filter > Distort > Displace",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-distort-glass",
+        "label": "Filter > Distort > Glass",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-distort-ocean_ripple",
+        "label": "Filter > Distort > Ocean Ripple",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-distort-pinch",
+        "label": "Filter > Distort > Pinch",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-distort-polar_coordinates",
+        "label": "Filter > Distort > Polar Coordinates",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-distort-ripple",
+        "label": "Filter > Distort > Ripple",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-distort-shear",
+        "label": "Filter > Distort > Shear",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-distort-spherize",
+        "label": "Filter > Distort > Spherize",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-distort-twirl",
+        "label": "Filter > Distort > Twirl",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-distort-wave",
+        "label": "Filter > Distort > Wave",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-distort-zigzag",
+        "label": "Filter > Distort > Zigzag",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                                                         
+      {
+        "value": "filter-noise",
+        "label": "Filter > Noise",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "filter-noise-add_noise",
+        "label": "Filter > Noise > Add Noise",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-noise-despeckle",
+        "label": "Filter > Noise > Despeckle",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-noise-dust_scratches",
+        "label": "Filter > Noise > Dust & Scratches",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-noise-median",
+        "label": "Filter > Noise > Median",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-noise-reduce_noise",
+        "label": "Filter > Noise > Reduce Noise",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                 
+      {
+        "value": "filter-pixelate",
+        "label": "Filter > Pixelate",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-pixelate-color_halftone",
+        "label": "Filter > Pixelate > Color Halftone",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "filter-pixelate-crystallize",
+        "label": "Filter > Pixelate > Crystallize",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-pixelate-facet",
+        "label": "Filter > Pixelate > Facet",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-pixelate-fragment",
+        "label": "Filter > Pixelate > Fragment",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-pixelate-mezzotint",
+        "label": "Filter > Pixelate > Mezzotint",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-pixelate-mosaic",
+        "label": "Filter > Pixelate > Mosaic",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-pixelate-pointillize",
+        "label": "Filter > Pixelate > Pointillize",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                        
+      {
+        "value": "filter-render",
+        "label": "Filter > Render",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-render-clouds",
+        "label": "Filter > Render > Clouds",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-render-difference_clouds",
+        "label": "Filter > Render > Difference Clouds",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-render-fibers",
+        "label": "Filter > Render > Fibers",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-render-lens_flare",
+        "label": "Filter > Render > Lens Flare",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                        
+      {
+        "value": "filter-sharpen",
+        "label": "Filter > Sharpen",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-sharpen-sharpen",
+        "label": "Filter > Sharpen > Sharpen",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-sharpen-sharpen_edges",
+        "label": "Filter > Sharpen > Sharpen Edges",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-sharpen-sharpen_more",
+        "label": "Filter > Sharpen > Sharpen More",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-sharpen-smart_sharpen",
+        "label": "Filter > Sharpen > Smart Sharpen",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-sharpen-unsharp_mask",
+        "label": "Filter > Sharpen > Unsharp Mask",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                  
+      {
+        "value": "filter-sketch",
+        "label": "Filter > Sketch",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "filter-sketch-bas_relief",
+        "label": "Filter > Sketch > Bas Relief",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },    
+      {
+        "value": "filter-sketch-chalk_charcoal",
+        "label": "Filter > Sketch > Chalk & Charcoal",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-sketch-charcoal",
+        "label": "Filter > Sketch > Charcoal",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-sketch-chrome",
+        "label": "Filter > Sketch > Chrome",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-sketch-conte_crayon",
+        "label": "Filter > Sketch > Conté Crayon",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-sketch-graphic_pen",
+        "label": "Filter > Sketch > Graphic Pen",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-sketch-halftone_pattern",
+        "label": "Filter > Sketch > Halftone Pattern",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-sketch-note_paper",
+        "label": "Filter > Sketch > Note Paper",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-sketch-photocopy",
+        "label": "Filter > Sketch > Photocopy",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-sketch-plaster",
+        "label": "Filter > Sketch > Plaster",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-sketch-reticulation",
+        "label": "Filter > Sketch > Reticulation",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-sketch-stamp",
+        "label": "Filter > Sketch > Stamp",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-sketch-torn_edges",
+        "label": "Filter > Sketch > Torn Edges",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-sketch-water_paper",
+        "label": "Filter > Sketch > Water Paper",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                                    
+      {
+        "value": "filter-stylize",
+        "label": "Filter > Stylize",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-stylize-diffuse",
+        "label": "Filter > Stylize > Diffuse",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },     
+      {
+        "value": "filter-stylize-emboss",
+        "label": "Filter > Stylize > Emboss",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-stylize-extrude",
+        "label": "Filter > Stylize > Extrude",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-stylize-find_edges",
+        "label": "Filter > Stylize > Find Edges",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-stylize-glowing_edges",
+        "label": "Filter > Stylize > Glowing Edges",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-stylize-solarize",
+        "label": "Filter > Stylize > Solarize",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-stylize-tiles",
+        "label": "Filter > Stylize > Tiles",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-stylize-trace_contour",
+        "label": "Filter > Stylize > Trace Contour",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-stylize-wind",
+        "label": "Filter > Stylize > Wind",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                   
+      {
+        "value": "filter-texture",
+        "label": "Filter > Texture",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-texture-craquelure",
+        "label": "Filter > Texture > Craquelure",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-texture-grain",
+        "label": "Filter > Texture > Grain",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-texture-mosaic_tiles",
+        "label": "Filter > Texture > Mosaic Tiles",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-texture-patchwork",
+        "label": "Filter > Texture > Patchwork",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-texture-stained_glass",
+        "label": "Filter > Texture > Stained Glass",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "filter-texture-texturizer",
+        "label": "Filter > Texture > Texturizer",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                   
+      {
+        "value": "filter-video",
+        "label": "Filter > Video",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "filter-video-de_interlace",
+        "label": "Filter > Video > De-Interlace",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },    
+      {
+        "value": "filter-video-ntsc_colors",
+        "label": "Filter > Video > NTSC Colors",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                
+      {
+        "value": "filter-other",
+        "label": "Filter > Other",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-other-custom",
+        "label": "Filter > Other > Custom",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-other-high_pass",
+        "label": "Filter > Other > High Pass",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-other-maximum",
+        "label": "Filter > Other > Maximum",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-other-minimum",
+        "label": "Filter > Other > Minimum",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "filter-other-offset",
+        "label": "Filter > Other > Offset",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                   
+      {
+        "value": "filter-digimarc",
+        "label": "Filter > Digimarc",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-digimarc-embed_watermark",
+        "label": "Filter > Digimarc > Embed Watermark",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "filter-digimarc-read_watermark",
+        "label": "Filter > Digimarc > Read Watermark",
+        "kind": "Filter",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },            
+      {
+        "value": "filter-browse_filters_online",
+        "label": "Filter > Browse Filters Online",
+        "kind": "Filter",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },                        
+      {
+        "value": "analysis",
+        "label": "Analysis",
+        "kind": "Analysis",
+        "desc": "",
+        "level": "1",
+        "icon": "white.png"
+      },
+      {
+        "value": "analysis-set_measurement_scale",
+        "label": "Analysis > Set Measurement Scale",
+        "kind": "Analysis",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "analysis-set_data_points",
+        "label": "Analysis > Set Data Points",
+        "kind": "Analysis",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "analysis-record_measurements",
+        "label": "Analysis > Record Measurements",
+        "kind": "Analysis",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "analysis-ruler_tool",
+        "label": "Analysis > Ruler Tool",
+        "kind": "Analysis",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "analysis-count_tool",
+        "label": "Analysis > Count Tool",
+        "kind": "Analysis",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "analysis-place_scale_marker",
+        "label": "Analysis > Place Scale Marker",
+        "kind": "Analysis",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },            
+      {
+        "value": "3d",
+        "label": "3D",
+        "kind": "3D",
+        "desc": "",
+        "level": "1",
+        "icon": "white.png"
+      },
+      {
+        "value": "3d-new_layer_from_3d_file",
+        "label": "3D > New Layer from 3D File",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-new_3d_postcard_from_layer",
+        "label": "3D > New 3D Postcard From Layer",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },       
+      {
+        "value": "3d-new_shape_from_layer",
+        "label": "3D > New Shape From Layer",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-new_shape_from_layer-cone",
+        "label": "3D > New Shape From Layer > Cone",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-new_shape_from_layer-cube",
+        "label": "3D > New Shape From Layer > Cube",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "3d-new_shape_from_layer-cube_wrap",
+        "label": "3D > New Shape From Layer > Cube Wrap",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "3d-new_shape_from_layer-cylinder",
+        "label": "3D > New Shape From Layer > Cylinder",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "3d-new_shape_from_layer-donut",
+        "label": "3D > New Shape From Layer > Donut",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "3d-new_shape_from_layer-hat",
+        "label": "3D > New Shape From Layer > Hat",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "3d-new_shape_from_layer-pyramid",
+        "label": "3D > New Shape From Layer > Pyramid",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "3d-new_shape_from_layer-ring",
+        "label": "3D > New Shape From Layer > Ring",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "3d-new_shape_from_layer-soda_can",
+        "label": "3D > New Shape From Layer > Soda Can",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "3d-new_shape_from_layer-sphere",
+        "label": "3D > New Shape From Layer > Sphere",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "3d-new_shape_from_layer-spherical_panorama",
+        "label": "3D > New Shape From Layer > Spherical Panorama",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "3d-new_shape_from_layer-wine_bottle",
+        "label": "3D > New Shape From Layer > Wine Bottle",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                       
+      {
+        "value": "3d-new_mesh_from_grayscale",
+        "label": "3D > New Mesh From Grayscale",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-new_mesh_from_grayscale-plane",
+        "label": "3D > New Mesh From Grayscale > Plane",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "3d-new_mesh_from_grayscale-two_sided_plane",
+        "label": "3D > New Mesh From Grayscale > Two-Sided Plane",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "3d-new_mesh_from_grayscale-cylinder",
+        "label": "3D > New Mesh From Grayscale > Cylinder",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },
+      {
+        "value": "3d-new_mesh_from_grayscale",
+        "label": "3D > New Mesh From Grayscale > Sphere",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                        
+      {
+        "value": "3d-new_volumn_from_layers",
+        "label": "3D > New Volumn From Layers",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-repousse",
+        "label": "3D > Repoussé",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "3d-repousse-text_layer",
+        "label": "3D > Repoussé > Text Layer",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-repousse-layer_mask",
+        "label": "3D > Repoussé > Layer Mask",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },            
+      {
+        "value": "3d-repousse-selected_path",
+        "label": "3D > Repoussé > Selected Path",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "3d-repousse-current_selection",
+        "label": "3D > Repoussé > Current Selection",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "3d-repousse-create_constraint_from_selection",
+        "label": "3D > Repoussé > Create Constraint From Selection",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "3d-repousse-create_constraint_from_selected_path",
+        "label": "3D > Repoussé > Create Constraint From Selected Path",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "3d-repousse-edit_in_repousse",
+        "label": "3D > Repoussé > Edit in Repoussé",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "3d-repousse-split_repousse_meshes",
+        "label": "3D > Repoussé > Split Repoussé Meshes",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                      
+      {
+        "value": "3d-render_settings",
+        "label": "3D > Render Settings",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-ground_plane_shadow_catcher",
+        "label": "3D > Ground Plane Shadow Catcher",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },       
+      {
+        "value": "3d-snap_object_to_ground_plane",
+        "label": "3D > Snap Object To Ground Plane",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-auto_hide_layers_for_performance",
+        "label": "3D > Auto-Hide Layers For Performance",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-hide_nearest_surface",
+        "label": "3D > Hide Nearest Surface",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-only_hide_enclosed_polygons",
+        "label": "3D > Only Hide Enclosed Polygons",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "3d-invert_visible_surfaces",
+        "label": "3D > Invert Visible Surfaces",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-reveal_all_surfaces",
+        "label": "3D > Reveal All Surfaces",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },       
+      {
+        "value": "3d-3d_paint_mode",
+        "label": "3D > 3D Paint Mode",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-3d_paint_mode-diffuse",
+        "label": "3D > 3D Paint Mode > Diffuse",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },         
+      {
+        "value": "3d-3d_paint_mode-bump",
+        "label": "3D > 3D Paint Mode > Bump",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "3d-3d_paint_mode-glossiness",
+        "label": "3D > 3D Paint Mode > Glossiness",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "3d-3d_paint_mode-opacity",
+        "label": "3D > 3D Paint Mode > Opacity",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "3d-3d_paint_mode-shininess",
+        "label": "3D > 3D Paint Mode > Shininess",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "3d-3d_paint_mode-self_illumination",
+        "label": "3D > 3D Paint Mode > Self-Illumination",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "3d-3d_paint_mode-reflectivity",
+        "label": "3D > 3D Paint Mode > Reflectivity",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                       
+      {
+        "value": "3d-select_paintable_areas",
+        "label": "3D > Select Paintable Areas",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-create_uv_overlays",
+        "label": "3D > Create UV Overlays",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "3d-create_uv_overlays-wireframe",
+        "label": "3D > Create UV Overlays > Wireframe",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "3d-create_uv_overlays-shaded",
+        "label": "3D > Create UV Overlays > Shaded",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "3d-create_uv_overlays-normal_map",
+        "label": "3D > Create UV Overlays > Normal Map",
+        "kind": "3D",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                    
+      {
+        "value": "3d-new_tiled_painting",
+        "label": "3D > New Tiled Painting",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "3d-paint_falloff",
+        "label": "3D > Paint Falloff",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-reparameterize-uvs",
+        "label": "3D > Reparameterize UVs",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },       
+      {
+        "value": "3d-merge_3d_layers",
+        "label": "3D > Merge 3D Layers",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-export_3d_layers",
+        "label": "3D > Export 3D Layers",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-resume_progressive_render",
+        "label": "3D > Resume Progressive Render",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-progressive_render_selection",
+        "label": "3D > Progressive Render Selection",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "3d-rasterize",
+        "label": "3D > Rasterize",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "3d-browse_3d_content_online",
+        "label": "3D > Browse 3D Content Online",
+        "kind": "3D",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },                                       
+      {
+        "value": "view",
+        "label": "View",
+        "kind": "View",
+        "desc": "",
+        "level": "1",
+        "icon": "white.png"
+      },      
+      {
+        "value": "view-proof_setup",
+        "label": "View > Proof Setup",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "view-proof_setup-custom",
+        "label": "View > Proof Setup > Custom",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-proof_setup-working_cmyk",
+        "label": "View > Proof Setup > Working CMYK",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-proof_setup-working_cyan_plate",
+        "label": "View > Proof Setup > Working Cyan Plate",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-proof_setup-working_magenta_plate",
+        "label": "View > Proof Setup > Working Magenta Plate",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-proof_setup-working_yellow_plate",
+        "label": "View > Proof Setup > Working Yellow Plate",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-proof_setup-working_black_plate",
+        "label": "View > Proof Setup > Working Black Plate",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "view-proof_setup-working_cmy_plate",
+        "label": "View > Proof Setup > Working CMY Plate",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-proof_setup-legacy_macintosh_rgb",
+        "label": "View > Proof Setup > Legacy Macintosh RGB",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-proof_setup-internet_standard_rgb",
+        "label": "View > Proof Setup > Internet Standard RGB",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-proof_setup-monitor_rgb",
+        "label": "View > Proof Setup > Monitor RGB",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-proof_setup-color_blindness_protanopia_type",
+        "label": "View > Proof Setup > Color Blindness - Protanopia-type",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-proof_setup-color_blindness_deuteranopia_type",
+        "label": "View > Proof Setup > Color Blindness - Deuteranopia-type",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                              
+      {
+        "value": "view-proof_colors",
+        "label": "View > Proof Colors",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "view-gamut_warning",
+        "label": "View > Gamut Warning",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "view-pixel_aspect_ratio",
+        "label": "View > Pixel Aspect Ratio",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "view-pixel_aspect_ratio-custom_pixel_aspect_ratio",
+        "label": "View > Pixel Aspect Ratio > Custom Pixel Aspect Ratio",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-pixel_aspect_ratio-delete_pixel_aspect_ratio",
+        "label": "View > Pixel Aspect Ratio > Delete Pixel Aspect Ratio",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-pixel_aspect_ratio-reset_pixel_aspect_ratios",
+        "label": "View > Pixel Aspect Ratio > Reset Pixel Aspect Ratios",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-pixel_aspect_ratio-square",
+        "label": "View > Pixel Aspect Ratio > Square",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-pixel_aspect_ratio-d1_dv_ntsc",
+        "label": "View > Pixel Aspect Ratio > D1/DV NTSC (0.91)",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-pixel_aspect_ratio-d1_dv_pal",
+        "label": "View > Pixel Aspect Ratio > D1/DV PAL (1.09)",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-pixel_aspect_ratio-d1_dv_ntsc_widescreen",
+        "label": "View > Pixel Aspect Ratio > D1/DV NTSC Widescreen (1.21)",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-pixel_aspect_ratio-hdv_1808_dvcpro_hd_720",
+        "label": "View > Pixel Aspect Ratio > HDV 1080/DVCPRO HD 720 (1.33)",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-pixel_aspect_ratio-d1_dv_pal_widescreen",
+        "label": "View > Pixel Aspect Ratio > D1/DV PAL Wdiescreen (1.46)",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-pixel_aspect_ratio-anamorphic_2_1",
+        "label": "View > Pixel Aspect Ratio > Anamorphic 2:1 (2)",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-pixel_aspect_ratio-dvcpro_hd_1080",
+        "label": "View > Pixel Aspect Ratio > DVCPRO HD 1080 (1.5)",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                    
+      {
+        "value": "view-pixel_aspect_ratio_correction",
+        "label": "View > Pixel Aspect Ratio Correction",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "view-32_bit_preview_options",
+        "label": "View > 32-bit Preview Options",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },      
+      {
+        "value": "view-zoom_in",
+        "label": "View > Zoom In",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "view-zoom_out",
+        "label": "View > Zoom Out",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "view-fit_on_screen",
+        "label": "View > Fit on Screen",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "view-actual_pixels",
+        "label": "View > Actual Pixels",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "view-print_size",
+        "label": "View > Print Size",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "view-screen_mode",
+        "label": "View > Screen Mode",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "view-screen_mode-standard_screen_mode",
+        "label": "View > Screen Mode > Standard Screen Mode",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-screen_mode-full_screen_mode_with_menu_bar",
+        "label": "View > Screen Mode > Full Screen Mode With Menu Bar",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "view-screen_mode-full_screen_mode",
+        "label": "View > Screen Mode > Full Screen Mode",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                    
+      {
+        "value": "view-extras",
+        "label": "View > Extras",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "view-show",
+        "label": "View > Show",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "view-show-layer_edges",
+        "label": "View > Show > Layer Edges",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "view-show-selection_edges",
+        "label": "View > Show > Selection Edges",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-target_path",
+        "label": "View > Show > Target Path",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-grid",
+        "label": "View > Show > Grid",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-guides",
+        "label": "View > Show > Guides",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-count",
+        "label": "View > Show > Count",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-smart_guides",
+        "label": "View > Show > Smart Guides",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-slices",
+        "label": "View > Show > Slices",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-notes",
+        "label": "View > Show > Notes",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-pixel_grid",
+        "label": "View > Show > Pixel Grid",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-3d_axis",
+        "label": "View > Show > 3D Axis",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-3d_ground_plane",
+        "label": "View > Show > 3D Ground Plane",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-3d_lights",
+        "label": "View > Show > 3D Lights",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-3d_selection",
+        "label": "View > Show > 3D Selection",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-brush_preview",
+        "label": "View > Show > Brush Preview",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-mesh",
+        "label": "View > Show > Mesh",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-all",
+        "label": "View > Show > All",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-none",
+        "label": "View > Show > None",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "view-show-show_extras_options",
+        "label": "View > Show > Show Extras Options",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                                                                  
+      {
+        "value": "view-rulers",
+        "label": "View > Rulers",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "view-snap",
+        "label": "View > Snap",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },         
+      {
+        "value": "view-snap_to",
+        "label": "View > Snap To",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "view-snap_to-guides",
+        "label": "View > Snap To > Guides",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "view-snap_to-grid",
+        "label": "View > Snap To > Grid",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "view-snap_to-layers",
+        "label": "View > Snap To > Layers",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "view-snap_to-slices",
+        "label": "View > Snap To > Slices",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "view-snap_to-document_bounds",
+        "label": "View > Snap To > Document Bounds",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "view-snap_to-all",
+        "label": "View > Snap To > All",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "view-snap_to-none",
+        "label": "View > Snap To > None",
+        "kind": "View",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                             
+      {
+        "value": "view-lock_guides",
+        "label": "View > Lock Guides",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },   
+      {
+        "value": "view-clear_guides",
+        "label": "View > Clear Guides",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "view-new_guide",
+        "label": "View > New Guide",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },     
+      {
+        "value": "view-lock_slices",
+        "label": "View > Lock Slices",
+        "kind": "View",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "window",
+        "label": "Window",
+        "kind": "Window",
+        "desc": "",
+        "level": "1",
+        "icon": "white.png"
+      },   
+      {
+        "value": "window-arrange",
+        "label": "Window > Arrange",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-arrange-cascade",
+        "label": "Window > Arrange > Cascade",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },   
+      {
+        "value": "window-arrange-tile",
+        "label": "Window > Arrange > Tile",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "window-arrange-float_in_window",
+        "label": "Window > Arrange > Float in Window",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "window-arrange-float_all_in_windows",
+        "label": "Window > Arrange > Float All in Windows",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "window-arrange-consolidate_all_to_tabs",
+        "label": "Window > Arrange > Consolidate All to Tabs",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "window-arrange-match_zoom",
+        "label": "Window > Arrange > Match Zoom",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "window-arrange-match_location",
+        "label": "Window > Arrange > Match Location",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "window-arrange-match_rotation",
+        "label": "Window > Arrange > Match Rotation",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "window-arrange-match_all",
+        "label": "Window > Arrange > Match All",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "window-arrange-minimize",
+        "label": "Window > Arrange > Minimize",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      }, 
+      {
+        "value": "window-arrange-bring_all_to_front",
+        "label": "Window > Arrange > Bring All to Front",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                  
+      {
+        "value": "window-workspace",
+        "label": "Window > Workspace",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-workspace-essentials_default",
+        "label": "Window > Workspace > Essentials (Default)",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },    
+      {
+        "value": "window-workspace-new_in_cs5",
+        "label": "Window > Workspace > New in CS5",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-workspace-3d",
+        "label": "Window > Workspace > 3D",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-workspace-design",
+        "label": "Window > Workspace > Design",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-workspace-motion",
+        "label": "Window > Workspace > Motion",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-workspace-painting",
+        "label": "Window > Workspace > Painting",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-workspace-photography",
+        "label": "Window > Workspace > Photography",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-workspace-reset_essentials",
+        "label": "Window > Workspace > Reset Essentials",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-workspace-new_workspace",
+        "label": "Window > Workspace > New Workspace",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-workspace-delete_workspace",
+        "label": "Window > Workspace > Delete Workspace",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-workspace-keyboard_shortcuts_menus",
+        "label": "Window > Workspace > Keyaobrd Shortcuts & Menus",
+        "kind": "Window",
+        "desc": "",
+        "level": "3",
+        "icon": "white.png"
+      },                                                                  
+      {
+        "value": "window-extensions",
+        "label": "Window > Extensions",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-3d",
+        "label": "Window > 3D",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "window-actions",
+        "label": "Window > Actions",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-adjustments",
+        "label": "Window > Adjustments",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-animation",
+        "label": "Window > Animation",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-brush",
+        "label": "Window > Brush",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-brush_presets",
+        "label": "Window > Brush Presets",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-channels",
+        "label": "Window > Channels",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-character",
+        "label": "Window > Character",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-clone_source",
+        "label": "Window > Clone Source",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-color",
+        "label": "Window > Color",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-histogram",
+        "label": "Window > Histogram",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-history",
+        "label": "Window > History",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-info",
+        "label": "Window > Info",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-layer_comps",
+        "label": "Window > Layer Comps",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },            
+      {
+        "value": "window-layers",
+        "label": "Window > Layers",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },    
+      {
+        "value": "window-masks",
+        "label": "Window > Masks",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-measurement_log",
+        "label": "Window > Measurement Log",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-navigator",
+        "label": "Window > Navigator",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-notes",
+        "label": "Window > Notes",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-paragraph",
+        "label": "Window > Paragraph",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-paths",
+        "label": "Window > Paths",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-styles",
+        "label": "Window > Styles",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-swatches",
+        "label": "Window > Swatches",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-tool_presets",
+        "label": "Window > Tool Presets",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-application_frame",
+        "label": "Window > Application Frame",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-application_bar",
+        "label": "Window > Application Bar",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-options",
+        "label": "Window > Options",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },  
+      {
+        "value": "window-tools",
+        "label": "Window > Tools",
+        "kind": "Window",
+        "desc": "",
+        "level": "2",
+        "icon": "white.png"
+      },                                                                                                   
+      {
+        "value": "help",
+        "label": "Help",
+        "kind": "Help",
+        "desc": "",
+        "level": "1",
+        "icon": "white.png"
+      },  
+      {
+        "value": "blending_mode",
+        "label": "Set the blending mode for layer",
+        "level": "1",
+        "icon": "white.png"
+      },
+      {
+        "value": "dissolve",
+        "label": "Set the blending mode for layer > Dissolve",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "darken",
+        "label": "Set the blending mode for layer > Darken",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "multiply",
+        "label": "Set the blending mode for layer > Multiply",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "color_burn",
+        "label": "Set the blending mode for layer > Color Burn",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "linear_burn",
+        "label": "Set the blending mode for layer > Linear Burn",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "darker_color",
+        "label": "Set the blending mode for layer > Darker Color",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "lighten",
+        "label": "Set the blending mode for layer >  Lighten",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "screen",
+        "label": "Set the blending mode for layer > Screen",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "color_dodge",
+        "label": "Set the blending mode for layer > Color Dodge",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "linear_dodge",
+        "label": "Set the blending mode for layer > Linear Dodge (Add)",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "lighter_color",
+        "label": "Set the blending mode for layer > Lighter Color",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "overlay",
+        "label": "Set the blending mode for layer > Overlay",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "soft_light",
+        "label": "Set the blending mode for layer > Soft Light",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "hard_light",
+        "label": "Set the blending mode for layer > Hard Light",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "vivid_light",
+        "label": "Set the blending mode for layer > Vivid Light",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "linear_light",
+        "label": "Set the blending mode for layer > Linear Light",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "pin_light",
+        "label": "Set the blending mode for layer > Pin Light",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "hard_mix",
+        "label": "Set the blending mode for layer > hard_mix",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "difference",
+        "label": "Set the blending mode for layer > Difference",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "exclusion",
+        "label": "Set the blending mode for layer > Exclusion",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "subtract",
+        "label": "Set the blending mode for layer > Subtract",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "divide",
+        "label": "Set the blending mode for layer > Divide",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "hue",
+        "label": "Set the blending mode for layer > Hue",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "saturation",
+        "label": "Set the blending mode for layer > Saturation",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "color",
+        "label": "Set the blending mode for layer > Color",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "luminoscity",
+        "label": "Set the blending mode for layer > Luminoscity",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "opacity",
+        "label": "Opacity",
+        "level": "1",
+        "icon": "white.png"
+      },
+      {
+        "value": "fill",
+        "label": "Fill",
+        "level": "1",
+        "icon": "white.png"
+      },      
+      {
+        "value": "add-layer-style",
+        "label": "Add a layer style",
+        "level": "1",
+        "icon": "white.png"
+      },
+      {
+        "value": "blending-options",
+        "label": "Add a layer style > Blending Options",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "bevel-emboss",
+        "label": "Add a layer style > Bevel & Emboss",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "stroke",
+        "label": "Add a layer style > Stroke",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "inner_shadow",
+        "label": "Add a layer style > Inner Shadow",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "inner_glow",
+        "label": "Add a layer style > Inner Glow",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "satin",
+        "label": "Add a layer style > Satin",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "color_overlay",
+        "label": "Add a layer style > Color Overlay",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "gradient_overlay",
+        "label": "Add a layer style > Gradient Overlay",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "pattern_overlay",
+        "label": "Add a layer style > Pattern Overlay",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "outer_glow",
+        "label": "Add a layer style > Outer Glow",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "drop_shadow",
+        "label": "Add a layer style > Drop Shadow",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "new_group",
+        "label": "Create a new group",
+        "level": "1",
+        "icon": "white.png"
+      },
+      {
+        "value": "new_layer",
+        "label": "Create a new layer",
+        "level": "1",
+        "icon": "white.png"
+      },
+      {
+        "value": "adjustnew-fill-ment-layer",
+        "label": "Create new fill or adjustment layer",
+        "level": "1",
+        "icon": "white.png"
+      },
+      {
+        "value": "solid_color",
+        "label": "Create new fill or adjustment layer > Solid Color",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "gradient",
+        "label": "Create new fill or adjustment layer > Gradient",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "pattern",
+        "label": "Create new fill or adjustment layer > Pattern",
+        "level": "2",
+        "icon": "white.png"
+      },                                                         
+      {
+        "value": "brightness_contrast",
+        "label": "Create new fill or adjustment layer > Brightness/Contrast",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "levels",
+        "label": "Create new fill or adjustment layer > Levels",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "curves",
+        "label": "Create new fill or adjustment layer > Curves",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "exposure",
+        "label": "Create new fill or adjustment layer > Exposure",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "vibrance",
+        "label": "Create new fill or adjustment layer > Vibrance",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "hue_saturation",
+        "label": "Create new fill or adjustment layer > Hue/Saturation",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "color_balance",
+        "label": "Create new fill or adjustment layer > Color Balance",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "black_white",
+        "label": "Create new fill or adjustment layer > Black & White",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "photo_filter",
+        "label": "Create new fill or adjustment layer > Photo Filter",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "channel_mixer",
+        "label": "Create new fill or adjustment layer > Channel Mixer",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "color_lookup",
+        "label": "Create new fill or adjustment layer > Color Lookup",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "invert",
+        "label": "Create new fill or adjustment layer > Invert",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "posterize",
+        "label": "Create new fill or adjustment layer > Posterize",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "threshold",
+        "label": "Create new fill or adjustment layer > Threshold",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "gradient_map",
+        "label": "Create new fill or adjustment layer > Gradient Map",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "selective_color",
+        "label": "Create new fill or adjustment layer > Selective Color",
+        "level": "2",
+        "icon": "white.png"
+      },
+      {
+        "value": "move",
+        "label": "Move",
+        "kind": "Selection",
+        "desc": "",
+            "order": "1",
+        "icon": "1_1.png"
+      },
+      {
+        "value": "rectangular-marquee",
+        "label": "Rectangular Marquee",
+        "kind": "Selection",
+        "desc": "",
+            "order": "2",
+        "icon": "2_1.png"
+      },
+      {
+        "value": "elliptical-marquee",
+        "label": "Elliptical Marquee",
+        "kind": "Selection",
+        "desc": "",
+            "order": "2",
+        "icon": "2_2.png"
+      },
+      {
+        "value": "single-column-marquee",
+        "label": "Single Column Marquee",
+        "kind": "Selection",
+        "desc": "",
+            "order": "2",
+        "icon": "2_3.png"
+      },
+      {
+        "value": "single-row-marquee",
+        "label": "Single Row Marquee",
+        "kind": "Selection",
+        "desc": "",
+            "order": "2",
+        "icon": "2_4.png"
+      },
+      {
+        "value": "lasso",
+        "label": "Lasso",
+        "kind": "Selection",
+        "desc": "",
+            "order": "3",
+        "icon": "3_1.png"
+      },
+      {
+        "value": "polygonal-lasso",
+        "label": "Polygonal Lasso",
+        "kind": "Selection",
+        "desc": "",
+            "order": "3",
+        "icon": "3_2.png"
+      },
+      {
+        "value": "magnetic-lasso",
+        "label": "Magnetic Lasso",
+        "kind": "Selection",
+        "desc": "",
+            "order": "3",
+        "icon": "3_3.png"
+      },
+      {
+        "value": "quick-selection",
+        "label": "Quick Selection",
+        "kind": "Selection",
+        "desc": "",
+            "order": "4",
+        "icon": "4_1.png"
+      },
+      {
+        "value": "magic-wand",
+        "label": "Magic Wand",
+        "kind": "Selection",
+        "desc": "",
+            "order": "4",
+        "icon": "4_2.png"
+      },
+      {
+        "value": "crop",
+        "label": "Crop",
+        "kind": "Crop and Slice",
+        "desc": "",
+            "order": "5",
+        "icon": "5_1.png"
+      },
+      {
+        "value": "slice",
+        "label": "Slice",
+        "kind": "Crop and Slice",
+        "desc": "",
+            "order": "5",
+        "icon": "5_2.png"
+      },
+      {
+        "value": "slice-select",
+        "label": "Slice Select",
+        "kind": "Crop and Slice",
+        "desc": "",
+            "order": "5",
+        "icon": "5_3.png"
+      },
+      {
+        "value": "eyedropper",
+        "label": "Eyedropper",
+        "kind": "Measuring",
+        "desc": "",
+            "order": "6",
+        "icon": "6_1.png"
+      },
+      {
+        "value": "color-sampler",
+        "label": "Color Sampler",
+        "kind": "Measuring",
+        "desc": "",
+            "order": "6",
+        "icon": "6_2.png"
+      },
+      {
+        "value": "ruler",
+        "label": "Ruler",
+        "kind": "Measuring",
+        "desc": "",
+            "order": "6",
+        "icon": "6_3.png"
+      },
+      {
+        "value": "note",
+        "label": "Note",
+        "kind": "Measuring",
+        "desc": "",
+            "order": "6",
+        "icon": "6_4.png"
+      },
+      {
+        "value": "count",
+        "label": "Count",
+        "kind": "Measuring",
+        "desc": "",
+            "order": "6",
+        "icon": "6_5.png"
+      },
+      {
+        "value": "spot-healing-brush",
+        "label": "Spot Healing Brush",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "7",
+        "icon": "7_1.png"
+      },
+      {
+        "value": "healing-brush",
+        "label": "Healing Brush",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "7",
+        "icon": "7_2.png"
+      },
+      {
+        "value": "patch",
+        "label": "Patch",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "7",
+        "icon": "7_3.png"
+      },
+      {
+        "value": "red-eye",
+        "label": "Red Eye",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "7",
+        "icon": "7_4.png"
+      },
+      {
+        "value": "clone-stamp",
+        "label": "Clone Stamp",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "9",
+        "icon": "9_1.png"
+      },
+      {
+        "value": "pattern-stamp",
+        "label": "Pattern Stamp",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "9",
+        "icon": "9_2.png"
+      },
+      {
+        "value": "eraser",
+        "label": "Eraser",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "11",
+        "icon": "11_1.png"
+      },
+      {
+        "value": "background-eraser",
+        "label": "Background Eraser",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "11",
+        "icon": "11_2.png"
+      },
+      {
+        "value": "magic-eraser",
+        "label": "Magic Eraser",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "11",
+        "icon": "11_3.png"
+      },
+      {
+        "value": "blur",
+        "label": "Blur",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "13",
+        "icon": "13_1.png"
+      },
+      {
+        "value": "sharpen",
+        "label": "Sharpen",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "13",
+        "icon": "13_2.png"
+      },
+      {
+        "value": "smudge",
+        "label": "Smudge",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "13",
+        "icon": "13_3.png"
+      },
+      {
+        "value": "dodge",
+        "label": "Dodge",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "14",
+        "icon": "14_1.png"
+      },
+      {
+        "value": "burn",
+        "label": "Burn",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "14",
+        "icon": "14_2.png"
+      },
+      {
+        "value": "sponge",
+        "label": "Sponge",
+        "kind": "Retouching",
+        "desc": "",
+            "order": "14",
+        "icon": "14_3.png"
+      },
+      {
+        "value": "brush",
+        "label": "Brush",
+        "kind": "Painting",
+        "desc": "",
+            "order": "8",
+        "icon": "8_1.png"
+      },
+      {
+        "value": "pencil",
+        "label": "Pencil",
+        "kind": "Painting",
+        "desc": "",
+            "order": "8",
+        "icon": "8_2.png"
+      },
+      {
+        "value": "color-replacement",
+        "label": "Color Replacement",
+        "kind": "Painting",
+        "desc": "",
+            "order": "8",
+        "icon": "8_3.png"
+      },
+      {
+        "value": "mixer-brush",
+        "label": "Mixer Brush",
+        "kind": "Painting",
+        "desc": "",
+            "order": "8",
+        "icon": "8_4.png"
+      },
+      {
+        "value": "history-brush",
+        "label": "History Brush",
+        "kind": "Painting",
+        "desc": "",
+            "order": "10",
+        "icon": "10_1.png"
+      },
+      {
+        "value": "art-history-brush",
+        "label": "Art History Brush",
+        "kind": "Painting",
+        "desc": "",
+            "order": "10",
+        "icon": "10_2.png"
+      },
+      {
+        "value": "gradient",
+        "label": "Gradient",
+        "kind": "Painting",
+        "desc": "",
+            "order": "12",
+        "icon": "12_1.png"
+      },
+      {
+        "value": "paint-bucket",
+        "label": "Paint Bucket",
+        "kind": "Painting",
+        "desc": "",
+            "order": "12",
+        "icon": "12_2.png"
+      },
+      {
+        "value": "pen",
+        "label": "Pen",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "15",
+        "icon": "15_1.png"
+      },
+      {
+        "value": "freeform-pen",
+        "label": "Freeform Pen",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "15",
+        "icon": "15_2.png"
+      },
+      {
+        "value": "add-anchor-point",
+        "label": "Add Anchor Point",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "15",
+        "icon": "15_3.png"
+      },
+      {
+        "value": "delete-anchor-point",
+        "label": "Delete Anchor Point",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "15",
+        "icon": "15_4.png"
+      },
+      {
+        "value": "convert-point",
+        "label": "Convert Point",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "15",
+        "icon": "15_5.png"
+      },
+      {
+        "value": "horizontal-type",
+        "label": "Horizontal Type",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "16",
+        "icon": "16_1.png"
+      },
+      {
+        "value": "vertical-type",
+        "label": "Vertical Type",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "16",
+        "icon": "16_2.png"
+      },
+      {
+        "value": "horizontal-type-mask",
+        "label": "Horizontal Type Mask",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "16",
+        "icon": "16_3.png"
+      },
+      {
+        "value": "vertical-type-mask",
+        "label": "Vertical Type Mask",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "16",
+        "icon": "16_4.png"
+      },
+      {
+        "value": "path-selection",
+        "label": "Path Selection",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "17",
+        "icon": "17_1.png"
+      },
+      {
+        "value": "direct-selection",
+        "label": "Direct Selection",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "17",
+        "icon": "17_2.png"
+      },
+      {
+        "value": "rectangle",
+        "label": "Rectangle",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "18",
+        "icon": "18_1.png"
+      },
+      {
+        "value": "rounded-rectangle",
+        "label": "Rounded Rectangle",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "18",
+        "icon": "18_2.png"
+      },
+      {
+        "value": "ellipse",
+        "label": "Ellipse",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "18",
+        "icon": "18_3.png"
+      },
+      {
+        "value": "polygon",
+        "label": "Polygon",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "18",
+        "icon": "18_4.png"
+      },
+      {
+        "value": "line",
+        "label": "Line",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "18",
+        "icon": "18_5.png"
+      },
+      {
+        "value": "custom-shape",
+        "label": "Custom Shape",
+        "kind": "Drawing and Type",
+        "desc": "",
+            "order": "18",
+        "icon": "18_6.png"
+      },
+      {
+        "value": "3d-object-rotate",
+        "label": "3D Object Rotate",
+        "kind": "Navigation and 3D",
+        "desc": "",
+            "order": "19",
+        "icon": "19_1.png"
+      },
+      {
+        "value": "3d-object-roll",
+        "label": "3D Object Roll",
+        "kind": "Navigation and 3D",
+        "desc": "",
+            "order": "19",
+        "icon": "19_2.png"
+      },
+      {
+        "value": "3d-object-pan",
+        "label": "3D Object Pan",
+        "kind": "Navigation and 3D",
+        "desc": "",
+            "order": "19",
+        "icon": "19_3.png"
+      },
+      {
+        "value": "3d-object-slide",
+        "label": "3D Object Slide",
+        "kind": "Navigation and 3D",
+        "desc": "",
+            "order": "19",
+        "icon": "19_4.png"
+      },
+      {
+        "value": "3d-object-scale",
+        "label": "3D Object Scale",
+        "kind": "Navigation and 3D",
+        "desc": "",
+            "order": "19",
+        "icon": "19_5.png"
+      },
+      {
+        "value": "3d-rotate-camera",
+        "label": "3D Rotate Camera",
+        "kind": "Navigation and 3D",
+        "desc": "",
+            "order": "20",
+        "icon": "20_1.png"
+      },
+      {
+        "value": "3d-roll-camera",
+        "label": "3D Roll Camera",
+        "kind": "Navigation and 3D",
+        "desc": "",
+            "order": "20",
+        "icon": "20_2.png"
+      },
+      {
+        "value": "3d-pan-camera",
+        "label": "3D Pan Camera",
+        "kind": "Navigation and 3D",
+        "desc": "",
+            "order": "20",
+        "icon": "20_3.png"
+      },
+      {
+        "value": "3d-walk-camera",
+        "label": "3D Walk Camera",
+        "kind": "Navigation and 3D",
+        "desc": "",
+            "order": "20",
+        "icon": "20_4.png"
+      },
+      {
+        "value": "3d-zoom-camera",
+        "label": "3D Zoom Camera",
+        "kind": "Navigation and 3D",
+        "desc": "",
+            "order": "20",
+        "icon": "20_5.png"
+      },
+      {
+        "value": "hand",
+        "label": "Hand",
+        "kind": "Navigation and 3D",
+        "desc": "",
+            "order": "21",
+        "icon": "21_1.png"
+      },
+      {
+        "value": "rotate-view",
+        "label": "Rotate View",
+        "kind": "Navigation and 3D",
+        "desc": "",
+            "order": "21",
+        "icon": "21_2.png"
+      },
+      {
+        "value": "zoom",
+        "label": "Zoom",
+        "kind": "Navigation and 3D",
+        "desc": "",
+            "order": "22",
+        "icon": "22_1.png"
+      }
+]

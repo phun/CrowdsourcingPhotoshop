@@ -1,0 +1,113 @@
+<html>
+<head>
+<link rel="stylesheet" href="js/jquery-ui-1.8.22.custom.css" type="text/css" />
+<link rel="stylesheet" href="js/bootstrap.min.css" type="text/css" />
+<script src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.22.custom.min.js"></script>
+<style type="text/css">
+  .marker {
+    position: absolute;
+    top: -1;
+    height: 16px;
+    width: 4px;
+    z-index: 2;
+  }
+  .user {
+    z-index: 3;
+    height: 8px;
+    top: 3px;
+  }
+  .timelineHolder {
+    position: relative;
+    margin-left: 50px;
+    width: 200px;
+  }
+  .timeline {
+    border: 1px solid black;
+    height: 10px;
+    background-color: gray;
+  }
+</style>
+<script type="text/javascript">
+
+var timelineCount = 0;
+
+Array.prototype.max = function() {
+    return Math.max.apply(null, this);
+};
+Array.prototype.min = function() {
+    return Math.min.apply(null, this);
+};
+
+function actOnEachLine(textareaId) {
+  var textarea = document.getElementById(textareaId);
+    var lines = textarea.value.replace(/\r\n/g, "\n").split("\n");
+    var newLines, newValue, i;
+
+    // Use the map() method of Array where available 
+    newLines = [];
+    i = lines.length;
+    while (i--) {
+      var n = lines[i].split(/\s+/);
+      console.log(n);
+        newLines[i] = script(n[0], n[1]);
+    }
+    textarea.value = newLines.join("\r\n");
+}
+
+var addTick = function(index, max) {
+  var offset = index / max * 100;
+  var html = "<span class='marker user btn-success' style='left:" + offset + "%;' data-index='" + index + "'></span>";  
+  var i = $(html);
+  $("#tlh-" + timelineCount).append(i); 
+};
+
+var addGod = function(index, max) {
+  var offset = index / max * 100;
+  var html = "<span class='marker btn-danger' style='left:" + offset + "%;' data-index='" + index + "'></span>";  
+  var i = $(html);
+  $("#tlh-" + timelineCount).append(i); 
+};
+
+var script = function(videosURL, indicesString) {
+  var indices = indicesString.split(',');
+  var buffer = 1;
+  var labels = {
+    "videos/t1_1.mp4": [[49.87,38.78,44.43]],
+    "videos/t1_2.mp4": [],
+    "videos/t1_3.mp4": [29.06,44.65,58.53],
+    "videos/t1_4.mp4": [10.26,27.79,46.09],
+    "videos/t1_5.mp4": [38],
+    "videos/t1_6.mp4": [15.26,41.04,57.17],
+    "videos/t1_7.mp4": [4.38,21.92,26.76,47.04],
+    "videos/t1_8.mp4": [15.15,23.15,29.91,38.02,56.66],
+    "videos/t1_9.mp4": [18.04,55.29,59.08],
+    "videos/t1_10.mp4": [1.43,11.19]
+  };
+
+  var max = labels[videosURL].concat(indices).max();
+
+  var newtlh = '<br/><div class="timelineHolder" id="' + 'tlh-' + timelineCount + '"><div class="timeline"></div></div>';
+  $('#timelines').append(newtlh);
+
+  for (i = 0; i < labels[videosURL].length; i++) {
+    var index = labels[videosURL][i];
+    addGod(index, max);
+  }
+
+  for (i = 0; i < indices.length; i++) {
+    var index = indices[i];
+    addTick(index, max);
+  }
+
+  timelineCount++;
+}
+</script>
+</head>
+<body>
+  <textarea id="t"></textarea>
+  <button onclick="actOnEachLine('t')">eval</button>
+  <div id ='timelines'>
+  </div>
+</body>
+</html>

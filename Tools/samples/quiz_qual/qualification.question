@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+    <Overview>
+        <Title>Photoshop Video Tutorial Click Test</Title>
+        <Text>Instructions:</Text>
+        <List>
+            <ListItem>Please read this tutorial: http://www.phuster.com/turk/2/tut.html</ListItem>
+            <ListItem>Answer the questions below based on your knowledge.</ListItem>
+        </List>
+    </Overview>
+    <Question>
+        <QuestionIdentifier>question1</QuestionIdentifier>
+        <QuestionContent>
+            <Text>Is this a qualified click?</Text>
+            <Text>Image:</Text>
+            <Binary>
+              <MimeType>
+              <Type>image</Type>
+              <SubType>jpg</SubType>
+              </MimeType>
+              <DataURL>http://www.phuster.com/turk/2/dont-2.png</DataURL>
+              <AltText>Image of a potential qualified click</AltText>
+            </Binary>
+        </QuestionContent>
+        <AnswerSpecification>
+            <SelectionAnswer>
+              <StyleSuggestion>radiobutton</StyleSuggestion>
+              <Selections>
+                <Selection>
+                  <SelectionIdentifier>1a</SelectionIdentifier>
+                  <Text>Yes</Text>
+                </Selection>
+                <Selection>
+                  <SelectionIdentifier>1b</SelectionIdentifier>
+                  <Text>No</Text>
+                </Selection>
+              </Selections>
+            </SelectionAnswer>
+        </AnswerSpecification>
+    </Question>
+    <Question>
+        <QuestionIdentifier>question2</QuestionIdentifier>
+        <QuestionContent>
+            <Text>Is this a qualified click?</Text>
+            <Text>Image:</Text>
+            <Binary>
+              <MimeType>
+              <Type>image</Type>
+              <SubType>jpg</SubType>
+              </MimeType>
+              <DataURL>http://www.phuster.com/turk/2/click-1.png</DataURL>
+              <AltText>Image of a potential qualified click</AltText>
+            </Binary>
+        </QuestionContent>
+        <AnswerSpecification>
+            <SelectionAnswer>
+              <StyleSuggestion>radiobutton</StyleSuggestion>
+              <Selections>
+                <Selection>
+                  <SelectionIdentifier>2a</SelectionIdentifier>
+                  <Text>Yes</Text>
+                </Selection>
+                <Selection>
+                  <SelectionIdentifier>2b</SelectionIdentifier>
+                  <Text>No</Text>
+                </Selection>
+              </Selections>
+            </SelectionAnswer>
+        </AnswerSpecification>
+    </Question>
+    <Question>
+        <QuestionIdentifier>question3</QuestionIdentifier>
+        <QuestionContent>
+            <Text>Is this a qualified click?</Text>
+            <Text>Image:</Text>
+            <Binary>
+              <MimeType>
+              <Type>image</Type>
+              <SubType>jpg</SubType>
+              </MimeType>
+              <DataURL>http://www.phuster.com/turk/2/click-3.png</DataURL>
+              <AltText>Image of a potential qualified click</AltText>
+            </Binary>
+        </QuestionContent>
+        <AnswerSpecification>
+            <SelectionAnswer>
+              <StyleSuggestion>radiobutton</StyleSuggestion>
+              <Selections>
+                <Selection>
+                  <SelectionIdentifier>3a</SelectionIdentifier>
+                  <Text>Yes</Text>
+                </Selection>
+                <Selection>
+                  <SelectionIdentifier>3b</SelectionIdentifier>
+                  <Text>No</Text>
+                </Selection>
+              </Selections>
+            </SelectionAnswer>
+        </AnswerSpecification>
+    </Question>
+    <Question>
+        <QuestionIdentifier>question4</QuestionIdentifier>
+        <QuestionContent>
+            <Text>Is this a qualified click?</Text>
+            <Text>Image:</Text>
+            <Binary>
+              <MimeType>
+              <Type>image</Type>
+              <SubType>jpg</SubType>
+              </MimeType>
+              <DataURL>http://www.phuster.com/turk/2/dont-1.png</DataURL>
+              <AltText>Image of a potential qualified click</AltText>
+            </Binary>
+        </QuestionContent>
+        <AnswerSpecification>
+            <SelectionAnswer>
+              <StyleSuggestion>radiobutton</StyleSuggestion>
+              <Selections>
+                <Selection>
+                  <SelectionIdentifier>4a</SelectionIdentifier>
+                  <Text>Yes</Text>
+                </Selection>
+                <Selection>
+                  <SelectionIdentifier>4b</SelectionIdentifier>
+                  <Text>No</Text>
+                </Selection>
+              </Selections>
+            </SelectionAnswer>
+        </AnswerSpecification>
+    </Question>
+    <Question>
+        <QuestionIdentifier>question5</QuestionIdentifier>
+        <QuestionContent>
+            <Text>Is this a qualified click?</Text>
+            <Text>Image:</Text>
+            <Binary>
+              <MimeType>
+              <Type>image</Type>
+              <SubType>jpg</SubType>
+              </MimeType>
+              <DataURL>http://www.phuster.com/turk/2/click-2.png</DataURL>
+              <AltText>Image of a potential qualified click</AltText>
+            </Binary>
+        </QuestionContent>
+        <AnswerSpecification>
+            <SelectionAnswer>
+              <StyleSuggestion>radiobutton</StyleSuggestion>
+              <Selections>
+                <Selection>
+                  <SelectionIdentifier>5a</SelectionIdentifier>
+                  <Text>Yes</Text>
+                </Selection>
+                <Selection>
+                  <SelectionIdentifier>5b</SelectionIdentifier>
+                  <Text>No</Text>
+                </Selection>
+              </Selections>
+            </SelectionAnswer>
+        </AnswerSpecification>
+    </Question>
+    <Question>
+        <QuestionIdentifier>question6</QuestionIdentifier>
+        <QuestionContent>
+            <Text>Is this a qualified click?</Text>
+            <Text>Image:</Text>
+            <Binary>
+              <MimeType>
+              <Type>image</Type>
+              <SubType>jpg</SubType>
+              </MimeType>
+              <DataURL>http://www.phuster.com/turk/2/dont-3.png</DataURL>
+              <AltText>Image of a potential qualified click</AltText>
+            </Binary>
+        </QuestionContent>
+        <AnswerSpecification>
+            <SelectionAnswer>
+              <StyleSuggestion>radiobutton</StyleSuggestion>
+              <Selections>
+                <Selection>
+                  <SelectionIdentifier>6a</SelectionIdentifier>
+                  <Text>Yes</Text>
+                </Selection>
+                <Selection>
+                  <SelectionIdentifier>6b</SelectionIdentifier>
+                  <Text>No</Text>
+                </Selection>
+              </Selections>
+            </SelectionAnswer>
+        </AnswerSpecification>
+    </Question>
+</QuestionForm>
+
