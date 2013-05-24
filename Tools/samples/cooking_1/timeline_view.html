@@ -56,7 +56,7 @@ function actOnEachLine(textareaId) {
   newLines = [];
   i = lines.length;
   while (i--) {
-    var n = lines[i].split(/\t/);
+    var n = lines[i].replace(/\"/g, "").split(/\t/);
     console.log(n);
     newLines[i] = script(n);
   }
@@ -85,21 +85,23 @@ var script = function(n) {
     timeSubmitted = n[23],
     videosURL = n[29],
     indicesString = n[30];
-
+  if (typeof indicesString === "undefined" || typeof videosURL === "undefined")
+    return;
   var indices = indicesString.split(',');
   var vids = {
-    "videos/t1_1.mp4": { "labels": [44.43], "length": 61.00 },
-    "videos/t1_2.mp4": { "labels": [], "length": 61.00 },
-    "videos/t1_3.mp4": { "labels": [29.06,44.65,58.53], "length": 61.00 },
-    "videos/t1_4.mp4": { "labels": [10.26,27.79,46.09], "length": 99.00 },
-    "videos/t1_5.mp4": { "labels": [38], "length": 61.00 },
-    "videos/t1_6.mp4": { "labels": [15.26,41.04,57.17], "length": 62.00 },
-    "videos/t1_7.mp4": { "labels": [4.38,21.92,26.76,47.04], "length": 89.00 },
-    "videos/t1_8.mp4": { "labels": [15.15,23.15,29.91,38.02,56.66], "length": 61.00 },
-    "videos/t1_9.mp4": { "labels": [18.04,55.29,59.08], "length": 61.00 },
+    "videos/t1_01.mp4": { "labels": [], "length": 59.00 },
+    "videos/t1_02.mp4": { "labels": [], "length": 59.00 },
+    "videos/t1_03.mp4": { "labels": [], "length": 59.00 },
+    "videos/t1_04.mp4": { "labels": [], "length": 59.00 },
+    "videos/t1_05.mp4": { "labels": [38], "length": 61.00 },
+    "videos/t1_06.mp4": { "labels": [15.26,41.04,57.17], "length": 62.00 },
+    "videos/t1_07.mp4": { "labels": [4.38,21.92,26.76,47.04], "length": 89.00 },
+    "videos/t1_08.mp4": { "labels": [15.15,23.15,29.91,38.02,56.66], "length": 61.00 },
+    "videos/t1_09.mp4": { "labels": [18.04,55.29,59.08], "length": 61.00 },
     "videos/t1_10.mp4": { "labels": [1.43,11.19], "length": 45.00 }
   };
-
+  if (typeof vids[videosURL] === "undefined")
+    return;
   var max = vids[videosURL]["length"];
 
   var newtlh = '<tr>' +
@@ -117,7 +119,7 @@ var script = function(n) {
   }
 
   for (i = 0; i < indices.length; i++) {
-    var index = indices[i];
+    var index = indices[i].split("@")[0];
     addTick(index, max);
   }
 
