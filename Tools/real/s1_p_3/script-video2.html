@@ -1,0 +1,73 @@
+<html>
+
+<head>
+<script type="text/javascript">
+function actOnEachLine(textareaId) {
+	var textarea = document.getElementById(textareaId);
+    var lines = textarea.value.replace(/\r\n/g, "\n").split("\n");
+    var newLines, newValue, i;
+
+    // Use the map() method of Array where available 
+    newLines = [];
+    i = lines.length;
+    while (i--) {
+        newLines[i] = script(lines[i], document.getElementById("start").value, document.getElementById("end").value);
+    }
+    textarea.value = newLines.join("\r\n");
+}
+
+var script = function(indicesString, start, end) {
+	start = parseInt(start);
+	end = parseInt(end);
+	var indices = indicesString.split(',');
+	var buffer = 1;
+	var labels = [{"id":"396","video_id":"21","user_id":"1","tm":"35","type":"image","tool":"","comment":"#initial","thumbnail":"img\/thumbnails\/z6jHHxfgG-o_35_crop.png","added_at":"2012-09-04 02:12:06"},{"id":"397","video_id":"21","user_id":"1","tm":"38","type":"menu","tool":"Layer > New Adjustment Layer > Color Balance","comment":"","thumbnail":"img\/thumbnails\/z6jHHxfgG-o_38.png","added_at":"2012-09-04 02:12:20"},{"id":"398","video_id":"21","user_id":"1","tm":"69","type":"image","tool":"","comment":"","thumbnail":"img\/thumbnails\/z6jHHxfgG-o_69_crop.png","added_at":"2012-09-04 02:13:14"},{"id":"399","video_id":"21","user_id":"1","tm":"73","type":"menu","tool":"Layer > New Adjustment Layer > Curves","comment":"","thumbnail":"img\/thumbnails\/z6jHHxfgG-o_73.png","added_at":"2012-09-04 02:13:26"},{"id":"400","video_id":"21","user_id":"1","tm":"96","type":"image","tool":"","comment":"","thumbnail":"img\/thumbnails\/z6jHHxfgG-o_96_crop.png","added_at":"2012-09-04 02:14:00"},{"id":"401","video_id":"21","user_id":"1","tm":"99","type":"menu","tool":"Layer > New Adjustment Layer > Gradient Map","comment":"","thumbnail":"img\/thumbnails\/z6jHHxfgG-o_99.png","added_at":"2012-09-04 02:14:16"},{"id":"402","video_id":"21","user_id":"1","tm":"120","type":"image","tool":"","comment":"","thumbnail":"img\/thumbnails\/z6jHHxfgG-o_120_crop.png","added_at":"2012-09-04 02:14:47"},{"id":"403","video_id":"21","user_id":"1","tm":"122","type":"menu","tool":"Layer > New Adjustment Layer > Levels","comment":"","thumbnail":"img\/thumbnails\/z6jHHxfgG-o_122.png","added_at":"2012-09-04 02:14:59"},{"id":"404","video_id":"21","user_id":"1","tm":"132","type":"image","tool":"","comment":"","thumbnail":"img\/thumbnails\/z6jHHxfgG-o_132_crop.png","added_at":"2012-09-04 02:15:23"},{"id":"405","video_id":"21","user_id":"1","tm":"139","type":"menu","tool":"Filter > Convert for Smart Filters","comment":"","thumbnail":"img\/thumbnails\/z6jHHxfgG-o_139.png","added_at":"2012-09-04 02:15:46"},{"id":"406","video_id":"21","user_id":"1","tm":"144","type":"menu","tool":"Filter > Lens Correction","comment":"","thumbnail":"img\/thumbnails\/z6jHHxfgG-o_144.png","added_at":"2012-09-04 02:16:06"},{"id":"407","video_id":"21","user_id":"1","tm":"159","type":"image","tool":"","comment":"","thumbnail":"img\/thumbnails\/z6jHHxfgG-o_159_crop.png","added_at":"2012-09-04 02:16:33"},{"id":"408","video_id":"21","user_id":"1","tm":"165","type":"menu","tool":"Filter > Noise > Add Noise","comment":"","thumbnail":"img\/thumbnails\/z6jHHxfgG-o_165.png","added_at":"2012-09-04 02:16:47"},{"id":"409","video_id":"21","user_id":"1","tm":"170","type":"image","tool":"","comment":"#final","thumbnail":"img\/thumbnails\/z6jHHxfgG-o_170_crop.png","added_at":"2012-09-04 02:17:11"}];
+	var toolTimes = [];
+	var correct = 0;
+	var indicesNotAdded = 0;
+	var falseIndices = 0;
+	for (i = 0; i < labels.length; i++) {
+		var label = labels[i];
+		if (label["type"] != "image" && label["tm"] > start && label["tm"] < end) {
+			toolTimes.push({"time": label["tm"] - start, "hit": false});
+		}
+	}
+	for (i = 0; i < indices.length; i++) {
+		var index = indices[i];
+		if (!isNaN(index) && ' \t\n\r\v'.indexOf(index) <= -1) {
+			if (toolTimes.length == 0) {
+				falseIndices += 1;
+			}
+			for (j = 0; j < toolTimes.length; j++) {
+				var toolTime = toolTimes[j];
+				var before = toolTime["time"] - buffer;
+				var after = toolTime["time"] + buffer;
+				if (index >= before && index <= after && toolTime["hit"] == false) {
+					correct += 1;
+					toolTimes[j]["hit"] = true;
+					break;
+				}
+				if (j == toolTimes.length - 1) {
+					falseIndices += 1;
+				}
+			}
+		}
+	}
+	for (j = 0; j < toolTimes.length; j++) {
+		if (toolTimes[j]["hit"] == false) {
+			indicesNotAdded += 1;
+		}
+	}
+	console.log(toolTimes);
+	wrong = indicesNotAdded + falseIndices;
+	return correct + "\t" + indicesNotAdded + "\t" + falseIndices;
+}
+</script>
+</head>
+<body>
+	<textarea id="t"></textarea>
+	<input id="start">
+	<input id="end">
+	<button onclick="actOnEachLine('t')">eval</button>
+</body>
+</html>

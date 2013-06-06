@@ -1,0 +1,139 @@
+<html>
+<head>
+<link rel="stylesheet" href="js/jquery-ui-1.8.22.custom.css" type="text/css" />
+<link rel="stylesheet" href="js/bootstrap.min.css" type="text/css" />
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/sorttable.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.22.custom.min.js"></script>
+<style type="text/css">
+  /* Sortable tables */
+  table.sortable thead {
+      background-color:#eee;
+      color:#666666;
+      font-weight: bold;
+      cursor: default;
+  }
+  .marker {
+    position: absolute;
+    top: -1;
+    height: 16px;
+    width: 4px;
+    z-index: 2;
+  }
+  .user {
+    z-index: 3;
+    height: 8px;
+    top: 3px;
+  }
+  .timelineHolder {
+    position: relative;
+    margin-left: 50px;
+    width: 200px;
+  }
+  .timeline {
+    border: 1px solid black;
+    height: 10px;
+    background-color: lightgray;
+  }
+</style>
+<script type="text/javascript">
+
+var timelineCount = 0;
+
+Array.prototype.max = function() {
+    return Math.max.apply(null, this);
+};
+Array.prototype.min = function() {
+    return Math.min.apply(null, this);
+};
+
+function actOnEachLine(textareaId) {
+  var textarea = document.getElementById(textareaId);
+  var lines = textarea.value.replace(/\r\n/g, "\n").split("\n");
+  var newLines, newValue, i;
+
+  // Use the map() method of Array where available 
+  newLines = [];
+  i = lines.length;
+  while (i--) {
+    var n = lines[i].split(/\t/);
+    console.log(n);
+    newLines[i] = script(n);
+  }
+
+  sorttable.makeSortable(document.getElementById('timelines'));
+}
+
+var addTick = function(index, max) {
+  var offset = index / max * 100;
+  var html = "<span class='marker user btn-success' style='left:" + offset + "%;' data-index='" + index + "'></span>";  
+  var i = $(html);
+  $("#tlh-" + timelineCount).append(i); 
+};
+
+var addGod = function(index, max) {
+  var offset = index / max * 100;
+  var html = "<span class='marker btn-danger' style='left:" + offset + "%;' data-index='" + index + "'></span>";  
+  var i = $(html);
+  $("#tlh-" + timelineCount).append(i); 
+};
+
+var script = function(n) {
+
+  var workerId = n[19],
+    timeAccepted = n[22],
+    timeSubmitted = n[23],
+    videosURL = n[29],
+    indicesString = n[30];
+
+  var indices = indicesString.split(',');
+  var vids = {
+    "videos/t1_1.mp4": { "labels": [44.43], "length": 61.00 },
+    "videos/t1_2.mp4": { "labels": [], "length": 61.00 },
+    "videos/t1_3.mp4": { "labels": [29.06,44.65,58.53], "length": 61.00 },
+    "videos/t1_4.mp4": { "labels": [10.26,27.79,46.09], "length": 99.00 },
+    "videos/t1_5.mp4": { "labels": [38], "length": 61.00 },
+    "videos/t1_6.mp4": { "labels": [15.26,41.04,57.17], "length": 62.00 },
+    "videos/t1_7.mp4": { "labels": [4.38,21.92,26.76,47.04], "length": 89.00 },
+    "videos/t1_8.mp4": { "labels": [15.15,23.15,29.91,38.02,56.66], "length": 61.00 },
+    "videos/t1_9.mp4": { "labels": [18.04,55.29,59.08], "length": 61.00 },
+    "videos/t1_10.mp4": { "labels": [1.43,11.19], "length": 45.00 }
+  };
+
+  var max = vids[videosURL]["length"];
+
+  var newtlh = '<tr>' +
+    '<td>' +
+    '<div class="timelineHolder" id="' + 'tlh-' + timelineCount + '"><div class="timeline"></div>' +
+    '</td>' +
+    '<td>' + videosURL + '</td>' + 
+    '<td>' + indicesString + '</td>' + 
+    '<td>' + workerId + '</td></tr>';
+  $('#timelineBody').append(newtlh);
+
+  for (i = 0; i < vids[videosURL]["labels"].length; i++) {
+    var index = vids[videosURL]["labels"][i];
+    addGod(index, max);
+  }
+
+  for (i = 0; i < indices.length; i++) {
+    var index = indices[i];
+    addTick(index, max);
+  }
+
+  timelineCount++;
+}
+</script>
+</head>
+<body>
+  <textarea id="t"></textarea>
+  <button onclick="actOnEachLine('t')">eval</button>
+  <table class='table' id='timelines'>
+    <thead>
+      <tr><th class="sorttable_nosort">Timeline</th><th>Video</th><th>Indices</th><th>Worker ID</th></tr>
+    </thead>
+    <tbody id='timelineBody'>
+    </tbody>
+  </table>
+</body>
+</html>
