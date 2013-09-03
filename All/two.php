@@ -80,6 +80,7 @@ $video = $result->fetch_assoc();
 	<script type="text/javascript" src="js/libs/chosen.jquery.js"></script>
 	<link rel="stylesheet" type="text/css" href="js/jquery.qtip.min.css" />
 	<script type="text/javascript" src="js/jquery.qtip.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
 	<script type="text/javascript">
 
 		var videoPlayed = false;
@@ -92,6 +93,10 @@ $video = $result->fetch_assoc();
 			var tmparr = prmarr[i].split("=");
 			params[tmparr[0]] = tmparr[1];
 		}
+
+		// starting time retrieved from database. (target time - 10)
+		var start = <?php echo json_encode($time_index); ?> - 10;
+		console.log(start);		
 		      // 2. This code loads the IFrame Player API code asynchronously.
 		      // var tag = document.createElement('script');
 		      // tag.src = "https://www.youtube.com/iframe_api";
@@ -100,26 +105,53 @@ $video = $result->fetch_assoc();
 
 		      // 3. This function creates an <iframe> (and YouTube player)
 		      //    after the API code downloads.
-		      var player;
-		      function onYouTubeIframeAPIReady() {
-		        player = new YT.Player('ytplayer', {
-		          height: '390',
-		          width: '640',
-		          videoId: "<?php echo $video['slug']; ?>",
-		          events: {
-		            'onReady': onPlayerReady,
-		            'onStateChange': onPlayerStateChange
-		          }
-		        });
-		      }
+		      // var player;
+		      // function onYouTubeIframeAPIReady() {
+		      //   player = new YT.Player('ytplayer', {
+		      //     height: '390',
+		      //     width: '640',
+		      //     videoId: "<?php echo $video['slug']; ?>",
+		      //     events: {
+		      //       'onReady': onPlayerReady,
+		      //       'onStateChange': onPlayerStateChange
+		      //     }
+		      //   });
+		      // }
+		    var player;
+    		var vidParams = { allowScriptAccess: "always" };
+    		var atts = { id: "ytplayer" };
+    		swfobject.embedSWF("http://www.youtube.com/v/<?php echo $video['slug']; ?>?enablejsapi=1&playerapiid=ytplayer&version=3",
+                       "ytplayer", "100%", "360", "8", null, null, vidParams, atts);
 
-		      
+			function onYouTubePlayerReady(playerId) {
+			      player = document.getElementById("ytplayer");
+			      console.log("onPlayerReady", start, start+20);
+			      player.addEventListener("onStateChange", "onPlayerStateChange");
+			      player.loadVideoById({'videoId': '<?php echo $video['slug']; ?>', 'startSeconds': start, 'endSeconds': start+20});
+			      setInterval(updateytplayerInfo, 600);
+			      addInformation();
+			      updateytplayerInfo();
+			}		      
+
+			function updateytplayerInfo(){
+				if (player) {
+				    var position = player.getCurrentTime();
+					var offset = parseInt(position - start);
+					if (offset < 10)
+						$("#timerDisplay").text("0:0" + offset);
+					else
+						$("#timerDisplay").text("0:" + offset);		
+					$("#timeline").slider( "option", "max", 20);
+	            	$("#timeline").slider('value', offset);		    
+				}							
+			}
+
 		      // 4. The API will call this function when the video player is ready.
 		      function onPlayerReady(event) {
-		      	console.log("onPlayerReady");
-		        //event.target.playVideo();
-			  player.loadVideoById({'videoId': '<?php echo $video['slug']; ?>', 'startSeconds': 40, 'endSeconds': 60});
-			  //player.cueVideoById({'videoId': 'bHQqvYy5KYo', 'startSeconds': 50, 'endSeconds': 60});
+			    console.log("onPlayerReady", start, start+20);
+			    //event.target.playVideo();
+				player.cueVideoById({'videoId': '<?php echo $video['slug']; ?>', 'startSeconds': start, 'endSeconds': start+20});
+				//player.cueVideoById({'videoId': 'bHQqvYy5KYo', 'startSeconds': 50, 'endSeconds': 60});
 
 		      }
 
@@ -127,28 +159,46 @@ $video = $result->fetch_assoc();
 		      //    The function indicates that when playing a video (state=1),
 		      //    the player should play for six seconds and then stop.
 		      var done = false;
-		      function onPlayerStateChange(event) {
-		      	console.log("CHANGE", event.data);
-		        if (event.data == YT.PlayerState.PLAYING && !done) {
-		          // setTimeout(stopVideo, 6000);
-				  setTimeout( function() { 
+		      function onPlayerStateChange(state) {
+		      	console.log("CHANGE", state, state == -1, state == "-1");
+		      	if (state == -1){
+		      		console.log("hello");
+				    setInterval( function() { 
+				    	console.log("checking");
+				  		if (player.getPlayerState() == -1){
+							$("#errorMsg").show()
+								.html("Cannot see the video? Please open <a target='_blank' href='<?php echo urldecode(stripslashes($video['url'])); ?>&t=" +
+									parseInt(start) + "s'>this link</a>, watch the video for 20 seconds, and answer the question below.");
+					     	setTimeout( function() { 
+								videoPlayed = true;
+								if ($("#instruction").val() != "") {
+								 	$("#taskSub").removeClass('disabled').removeAttr('disabled');
+								}
+							}, 20000);
+						}
+					}, 5000);		      		
+		      	}
+		        if (state == YT.PlayerState.PLAYING && !done) {
+		            // setTimeout(stopVideo, 6000);
+				    setTimeout( function() { 
 						 videoPlayed = true;
 						 if ($("#instruction").val() != "") {
 						 	$("#taskSub").removeClass('disabled').removeAttr('disabled');
 						 }
 					}, 20000);
-		          done = true;
+		            done = true;
 		        }
 		      }
+
 		      function stopVideo() {
 		        player.stopVideo();
 		      }   
 
 		$(document).ready(function() {
 
-			var tasks = [];
+			// var tasks = [];
 
-		    var addToolTick = function(num) {
+		    var addToolTick = function() {
 	    		var id = "toolTick";          
 	    		var duration = 100;
 	   			var offset = 49.2;
@@ -173,29 +223,26 @@ $video = $result->fetch_assoc();
 						classes: 'qtip-shadow qtip-' + 'dark'
 					}
 				});
-	    		$("#timelineHolder-" + num).append(i);      
+	    		$("#timelineHolder").append(i);      
 	    	};
 
       		var makeTask = function(video, labels, genre) {
 
       			$("#video").val(video);
       			var infoDes;
-      			var num = tasks.length + 1;
-      			// starting time retrieved from database. (target time - 10)
-      			var start = <?php echo json_encode($time_index); ?> - 10;
-      			console.log(start);
 
       			var ht = '<div class="section task">' +
       					// '<h2> Video </h2>' +
-						'<div class="video">' +
-							'<div id="mediaplayer-' + num + '" width="100%" height="400">JW Player goes here</div>' + 
-						'</div>' +
-						'<br/><div id="timerDisplay">0:00</div></span><div id="timelineHolder-' + num + '" style="position:relative">' +
-						'<div id="timeline-' + num + '"></div>' + 
+						// '<div class="video">' +
+						// 	'<div id="mediaplayer" width="100%" height="400">JW Player goes here</div>' + 
+						// '</div>' +
+						'<div id="errorMsg"></div>' +						
+						'<br/><div id="timerDisplay">0:00</div></span><div id="timelineHolder" style="position:relative">' +
+						'<div id="timeline"></div>' + 
 						'</div>' + 
 						'<div class="info"><div>' +
 							'<h3> Which best describes the instruction around the 10 second time mark? </h3>' +
-							'<div>Tip: Pick a concrete and actionable instruction.</div>' +
+							'<div id="tipLabel"><strong>Tip: Pick a concrete and actionable instruction.</strong></div>' +
 							// '<div>Select multiple ONLY if there are more than one instructions in this video.</div>' +
 							// '<div><strong>GOOD: concrete and actionable.</strong> <span class="good-examples"></span></div>' +
 							// '<div><strong>BAD: too generic and not actionable.</strong> <span class="bad-examples"></span></div>' +
@@ -241,7 +288,7 @@ $video = $result->fetch_assoc();
 				labels.sort(function () { if (Math.random()<.5) return -1; else return 1; });
 				for (labelIndex in labels) {
 					var label = labels[labelIndex];
-					var inputString = '<input type="radio" name="labelRadios" value="' + label.toLowerCase() + '">' + label.toLowerCase() + '<br>';
+					var inputString = '<input type="radio" name="labelRadios" value="' + label.toLowerCase() + '">&quot;' + label.toLowerCase() + '&quot;<br>';
 					$("#labelSelection").append(inputString);					
 				}
 
@@ -292,52 +339,52 @@ $video = $result->fetch_assoc();
 					}
 				})
 
-				jwplayer("mediaplayer-" + num).setup({
-					flashplayer: "js/libs/jwplayer/player.swf",
-					controlbar: "bottom",
-					file: video,
-					// file: "http://www.youtube.com/watch?v=iTXnpGe7a1A",
-					// start: start,					
-					events: {
-						onTime: function(event) {
-							console.log(event.position);
-							var offset = parseInt(event.position - start);
-							if (offset < 10)
-								$("#timerDisplay").text("0:0" + offset);
-							else
-								$("#timerDisplay").text("0:" + offset);
-							// if (event.position > 120)
-							// 	jwplayer().pause();
-							//$("#timeline-" + num).slider( "option", "max", jwplayer().getDuration());
-							//$("#timeline-" + num).slider('value', event.position);
-							$("#timeline-" + num).slider( "option", "max", 20);
-	            			$("#timeline-" + num).slider('value', event.position - start);
-						}, 
-						onPlay: function(event) {
-							jwplayer().seek(start);
-							setTimeout( function() { 
-								videoPlayed = true;
-								if ($("#instruction").val() != "") {
-								 	$("#taskSub").removeClass('disabled').removeAttr('disabled');
-								}
-							}, 20000);
-          				}
-					}
-				});
+				// jwplayer("mediaplayer").setup({
+				// 	flashplayer: "js/libs/jwplayer/player.swf",
+				// 	controlbar: "bottom",
+				// 	file: video,
+				// 	// file: "http://www.youtube.com/watch?v=iTXnpGe7a1A",
+				// 	start: start,					
+				// 	events: {
+				// 		onReady: function(event) {
+				// 			jwplayer().seek(start);
+				// 		},
+				// 		onTime: function(event) {
+				// 			// console.log(event.position);
+				// 			var offset = parseInt(event.position - start);
+				// 			if (offset < 10)
+				// 				$("#timerDisplay").text("0:0" + offset);
+				// 			else
+				// 				$("#timerDisplay").text("0:" + offset);
+				// 			// if (event.position > 120)
+				// 			// 	jwplayer().pause();
+				// 			//$("#timeline").slider( "option", "max", jwplayer().getDuration());
+				// 			//$("#timeline").slider('value', event.position);
+				// 			$("#timeline").slider( "option", "max", 20);
+	   //          			$("#timeline").slider('value', event.position - start);
+				// 		}, 
+				// 		onPlay: function(event) {
+				// 			setTimeout( function() { 
+				// 				videoPlayed = true;
+				// 				if ($("#instruction").val() != "") {
+				// 				 	$("#taskSub").removeClass('disabled').removeAttr('disabled');
+				// 				}
+				// 			}, 20000);
+    //       				}
+				// 	}
+				// });
 
-				tasks.push({
-					"id": num,
-					"video": video,
-				});
 
-				$( "#timeline-" + num ).slider({
+				$( "#timeline").slider({
 					range: "min",
 					min: 0,
 					max: 279,
 					step: 0.1,
 					animate: true,
 					slide: function(event, ui){
-						jwplayer().seek(ui.value + start);
+						// jwplayer().seek(ui.value + start);
+						if (player)
+							player.seekTo(ui.value + start);
 					}
 	      		});
       		};
@@ -388,13 +435,13 @@ $video = $result->fetch_assoc();
 
       		$('#readBtn').click(function() {
       				$('#task').show();
-      				addToolTick(1);
+      				addToolTick();
       		});
 
       		var enableRead = function() {
 				$('#readBtn').removeClass('disabled').removeAttr('disabled');
       		}
-      		setTimeout(enableRead, 5000);
+      		setTimeout(enableRead, 50); // TODO: change back to 5000
    		
 		});
 	</script>
@@ -425,8 +472,8 @@ $video = $result->fetch_assoc();
 </div>
 <div id="task" style='display: none'>
 <form id="submitForm" action="https://www.mturk.com/mturk/externalSubmit" method="POST">
-		<!-- <div id="ytplayer"></div> -->
-<!-- 			<iframe id="ytplayer" type="text/html" width="640" height="390"
+		<div id="ytplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
+		<!-- <iframe id="ytplayer" type="text/html" width="640" height="390"
 	  src="https://www.youtube.com/v/<?php echo $video['slug']; ?>?enablejsapi=1&version=3"
 	  frameborder="0"></iframe> -->
 <div id="tasks" >
