@@ -1,0 +1,1816 @@
+{
+    "s1_c01_v01": {
+        "860": {
+            "desc": "Slice the Fresh Mozzerella", 
+            "label_id": "860", 
+            "time": "37"
+        }, 
+        "867": {
+            "desc": "Cut the Tomato In Thin Slices", 
+            "label_id": "867", 
+            "time": "64"
+        }, 
+        "870": {
+            "desc": "Add Sauce to the Pizza", 
+            "label_id": "870", 
+            "time": "80"
+        }, 
+        "873": {
+            "desc": "Add Sliced Tomatoes to Pizza", 
+            "label_id": "873", 
+            "time": "128"
+        }, 
+        "875": {
+            "desc": "Add Mozzerella", 
+            "label_id": "875", 
+            "time": "178"
+        }, 
+        "877": {
+            "desc": "Add Basil on Top", 
+            "label_id": "877", 
+            "time": "203"
+        }, 
+        "878": {
+            "desc": "Put Pizza In the Oven", 
+            "label_id": "878", 
+            "time": "236"
+        }
+    }, 
+    "s1_c01_v02": {
+        "881": {
+            "desc": "Cut Mozzarella Into Cubes", 
+            "label_id": "881", 
+            "time": "64"
+        }, 
+        "882": {
+            "desc": "Season the Puree", 
+            "label_id": "882", 
+            "time": "68"
+        }, 
+        "883": {
+            "desc": "Add a Bit of Olive Oil to Puree", 
+            "label_id": "883", 
+            "time": "79"
+        }, 
+        "884": {
+            "desc": "Add a pinch of salt", 
+            "label_id": "884", 
+            "time": "83"
+        }, 
+        "885": {
+            "desc": "Stir Together", 
+            "label_id": "885", 
+            "time": "88"
+        }, 
+        "886": {
+            "desc": "Spread a bit of oil over the pan", 
+            "label_id": "886", 
+            "time": "93"
+        }, 
+        "887": {
+            "desc": "Take a quarter of pizza dough", 
+            "label_id": "887", 
+            "time": "98"
+        }, 
+        "888": {
+            "desc": "Form a ball", 
+            "label_id": "888", 
+            "time": "104"
+        }, 
+        "889": {
+            "desc": "Spread dough evenly onto pan", 
+            "label_id": "889", 
+            "time": "110"
+        }, 
+        "890": {
+            "desc": "Add puree sauce", 
+            "label_id": "890", 
+            "time": "121"
+        }, 
+        "891": {
+            "desc": "Add mozzerella", 
+            "label_id": "891", 
+            "time": "138"
+        }, 
+        "892": {
+            "desc": "Optionally, add a turn of olive oil to top", 
+            "label_id": "892", 
+            "time": "157"
+        }, 
+        "893": {
+            "desc": "Bake Pizza 15-20 minutes at 400 F", 
+            "label_id": "893", 
+            "time": "167"
+        }, 
+        "894": {
+            "desc": "Lay Few Basil Leaves in the center of Pizza", 
+            "label_id": "894", 
+            "time": "181"
+        }
+    }, 
+    "s1_c01_v03": {
+        "909": {
+            "desc": "Get out Pizza Dough", 
+            "label_id": "909", 
+            "time": "43"
+        }, 
+        "911": {
+            "desc": "Put Dough in Flour", 
+            "label_id": "911", 
+            "time": "51"
+        }, 
+        "913": {
+            "desc": "Get a board and put flour on it", 
+            "label_id": "913", 
+            "time": "82"
+        }, 
+        "915": {
+            "desc": "And Add a little corn meal", 
+            "label_id": "915", 
+            "time": "87"
+        }, 
+        "916": {
+            "desc": "Add Fresh Plum Tomatoes", 
+            "label_id": "916", 
+            "time": "132"
+        }, 
+        "919": {
+            "desc": "Add bit of salt and pepper", 
+            "label_id": "919", 
+            "time": "155"
+        }, 
+        "922": {
+            "desc": "Add fresh mozzerella", 
+            "label_id": "922", 
+            "time": "184"
+        }, 
+        "927": {
+            "desc": "Add fresh basil", 
+            "label_id": "927", 
+            "time": "208"
+        }, 
+        "928": {
+            "desc": "Add a little olive oil", 
+            "label_id": "928", 
+            "time": "226"
+        }, 
+        "931": {
+            "desc": "Take Pizza out of oven", 
+            "label_id": "931", 
+            "time": "285"
+        }
+    }, 
+    "s1_c01_v04": {
+        "933": {
+            "desc": "Flatten Dough", 
+            "label_id": "933", 
+            "time": "19"
+        }, 
+        "936": {
+            "desc": "Add sauce", 
+            "label_id": "936", 
+            "time": "38"
+        }, 
+        "938": {
+            "desc": "Add cheese", 
+            "label_id": "938", 
+            "time": "48"
+        }, 
+        "942": {
+            "desc": "Add basil leaves", 
+            "label_id": "942", 
+            "time": "62"
+        }, 
+        "944": {
+            "desc": "add olive oil", 
+            "label_id": "944", 
+            "time": "68"
+        }, 
+        "949": {
+            "desc": "Pull Pizza out of oven", 
+            "label_id": "949", 
+            "time": "153"
+        }
+    }, 
+    "s1_c01_v05": {
+        "950": {
+            "desc": "start making dough with flour, yeast and salt", 
+            "label_id": "950", 
+            "time": "61"
+        }, 
+        "951": {
+            "desc": "Add Water", 
+            "label_id": "951", 
+            "time": "68"
+        }, 
+        "955": {
+            "desc": "Mix Dough for 15-20 minutes", 
+            "label_id": "955", 
+            "time": "80"
+        }, 
+        "957": {
+            "desc": "Put dough into a ball", 
+            "label_id": "957", 
+            "time": "105"
+        }, 
+        "959": {
+            "desc": "Cover dough and let it dry for a couple hours", 
+            "label_id": "959", 
+            "time": "111"
+        }, 
+        "967": {
+            "desc": "Flour up the dough", 
+            "label_id": "967", 
+            "time": "159"
+        }, 
+        "969": {
+            "desc": "Make dough flat with hands", 
+            "label_id": "969", 
+            "time": "162"
+        }, 
+        "974": {
+            "desc": "Add mozzerella cheese", 
+            "label_id": "974", 
+            "time": "182"
+        }, 
+        "976": {
+            "desc": "Add basil leaves", 
+            "label_id": "976", 
+            "time": "186"
+        }, 
+        "980": {
+            "desc": "Add fresh basil and olive oil", 
+            "label_id": "980", 
+            "time": "224"
+        }
+    }, 
+    "s1_c02_v01": {
+        "1001": {
+            "desc": "stir often", 
+            "label_id": "1001", 
+            "time": "110"
+        }, 
+        "1004": {
+            "desc": "Teaspon of mustard", 
+            "label_id": "1004", 
+            "time": "148"
+        }, 
+        "1006": {
+            "desc": "boil macaroni in salted water", 
+            "label_id": "1006", 
+            "time": "158"
+        }, 
+        "1008": {
+            "desc": "dump macaroni in dish and pour sauce", 
+            "label_id": "1008", 
+            "time": "185"
+        }, 
+        "1010": {
+            "desc": "pour the rest of the cheese", 
+            "label_id": "1010", 
+            "time": "189"
+        }, 
+        "1012": {
+            "desc": "add half a cup of japanese pancro breadcrumbs", 
+            "label_id": "1012", 
+            "time": "207"
+        }, 
+        "1014": {
+            "desc": "add table spoon of butter and mix", 
+            "label_id": "1014", 
+            "time": "217"
+        }, 
+        "1016": {
+            "desc": "put crumbs on top", 
+            "label_id": "1016", 
+            "time": "220"
+        }, 
+        "984": {
+            "desc": "add some flour", 
+            "label_id": "984", 
+            "time": "30"
+        }, 
+        "986": {
+            "desc": "cook on medium heat for 3-4 minutes", 
+            "label_id": "986", 
+            "time": "40"
+        }, 
+        "988": {
+            "desc": "add some thyme, chyan, and white pepper", 
+            "label_id": "988", 
+            "time": "48"
+        }, 
+        "992": {
+            "desc": "add two more cups of milk", 
+            "label_id": "992", 
+            "time": "74"
+        }, 
+        "994": {
+            "desc": "bring to a simmer on medium heat", 
+            "label_id": "994", 
+            "time": "79"
+        }, 
+        "995": {
+            "desc": "grade some nutmeg", 
+            "label_id": "995", 
+            "time": "86"
+        }, 
+        "997": {
+            "desc": "add a couple drips of worchestshire sauce", 
+            "label_id": "997", 
+            "time": "96"
+        }, 
+        "998": {
+            "desc": "put in a teaspoon of salt", 
+            "label_id": "998", 
+            "time": "102"
+        }
+    }, 
+    "s1_c02_v02": {
+        "1020": {
+            "desc": "get the gloves on", 
+            "label_id": "1020", 
+            "time": "102"
+        }, 
+        "1023": {
+            "desc": "add 1 pound of cooked elbow macaroni", 
+            "label_id": "1023", 
+            "time": "117"
+        }, 
+        "1025": {
+            "desc": "put 1/2 cup of shredded Muenster cheese", 
+            "label_id": "1025", 
+            "time": "128"
+        }, 
+        "1027": {
+            "desc": "put 1/2 cup of shredded mild cheddar cheese", 
+            "label_id": "1027", 
+            "time": "132"
+        }, 
+        "1029": {
+            "desc": "add 1/2 cup of shredded sharp cheddar cheese", 
+            "label_id": "1029", 
+            "time": "135"
+        }, 
+        "1031": {
+            "desc": "add 1/2 cup of shredded Monterey Jack", 
+            "label_id": "1031", 
+            "time": "139"
+        }, 
+        "1032": {
+            "desc": "add 1/4 cup Mozzarella cheese", 
+            "label_id": "1032", 
+            "time": "141"
+        }, 
+        "1034": {
+            "desc": "add 1/4 cup Provolone", 
+            "label_id": "1034", 
+            "time": "143"
+        }, 
+        "1035": {
+            "desc": "add 1 cup Velveeta, cut into cubes", 
+            "label_id": "1035", 
+            "time": "146"
+        }, 
+        "1038": {
+            "desc": "mix it all together", 
+            "label_id": "1038", 
+            "time": "156"
+        }, 
+        "1040": {
+            "desc": "add 1/2 pound of steamed chopped lobster", 
+            "label_id": "1040", 
+            "time": "179"
+        }, 
+        "1042": {
+            "desc": "add 1/2 lb sauteed chopped shrimp", 
+            "label_id": "1042", 
+            "time": "184"
+        }, 
+        "1044": {
+            "desc": "add 1 teaspoon melted butter", 
+            "label_id": "1044", 
+            "time": "197"
+        }, 
+        "1046": {
+            "desc": "add 2 large eggs, lightly beaten", 
+            "label_id": "1046", 
+            "time": "206"
+        }, 
+        "1048": {
+            "desc": "add 1/4 teaspoon of seasoned salt", 
+            "label_id": "1048", 
+            "time": "214"
+        }, 
+        "1050": {
+            "desc": "2 cups of half and half", 
+            "label_id": "1050", 
+            "time": "223"
+        }, 
+        "1052": {
+            "desc": "more mixing", 
+            "label_id": "1052", 
+            "time": "241"
+        }, 
+        "1056": {
+            "desc": "Bake in oven at 325 for 45 minutes or until golden brown", 
+            "label_id": "1056", 
+            "time": "296"
+        }, 
+        "857": {
+            "desc": "test instruction", 
+            "label_id": "857", 
+            "time": "3"
+        }
+    }, 
+    "s1_c02_v03": {
+        "1057": {
+            "desc": "get 8 ounces of cooked macaroni", 
+            "label_id": "1057", 
+            "time": "52"
+        }, 
+        "1059": {
+            "desc": "put macaroni in croc pot", 
+            "label_id": "1059", 
+            "time": "92"
+        }, 
+        "1062": {
+            "desc": "Add 1 1/2 cup of sharp cheddar cheese", 
+            "label_id": "1062", 
+            "time": "118"
+        }, 
+        "1063": {
+            "desc": "add 8 ounces of sour cream", 
+            "label_id": "1063", 
+            "time": "134"
+        }, 
+        "1066": {
+            "desc": "add a can of cheddar cheese soup", 
+            "label_id": "1066", 
+            "time": "152"
+        }, 
+        "1068": {
+            "desc": "use a large spoon and stir it", 
+            "label_id": "1068", 
+            "time": "180"
+        }, 
+        "1071": {
+            "desc": "place pot into the crock pot", 
+            "label_id": "1071", 
+            "time": "230"
+        }, 
+        "1075": {
+            "desc": "set crock pot on low", 
+            "label_id": "1075", 
+            "time": "234"
+        }, 
+        "1078": {
+            "desc": "She did stir it after 1 hour and add 1 cup of milk", 
+            "label_id": "1078", 
+            "time": "280"
+        }
+    }, 
+    "s1_c02_v04": {
+        "1080": {
+            "desc": "Get 4 cups of cooked elbow macaroni", 
+            "label_id": "1080", 
+            "time": "27"
+        }, 
+        "1082": {
+            "desc": "add 4 tablespoons of butter", 
+            "label_id": "1082", 
+            "time": "64"
+        }, 
+        "1084": {
+            "desc": "add a little salt 1/2 teaspoon", 
+            "label_id": "1084", 
+            "time": "68"
+        }, 
+        "1085": {
+            "desc": "mix everything together", 
+            "label_id": "1085", 
+            "time": "76"
+        }, 
+        "1088": {
+            "desc": "cut buncha' hoop cheese into cubes", 
+            "label_id": "1088", 
+            "time": "96"
+        }, 
+        "1089": {
+            "desc": "cut buncha' hoop cheese into cubes", 
+            "label_id": "1089", 
+            "time": "96"
+        }, 
+        "1091": {
+            "desc": "throw the cheese into the pot", 
+            "label_id": "1091", 
+            "time": "98"
+        }, 
+        "1093": {
+            "desc": "add a couple more bags of cheese", 
+            "label_id": "1093", 
+            "time": "108"
+        }, 
+        "1095": {
+            "desc": "beat 3 eggs together", 
+            "label_id": "1095", 
+            "time": "132"
+        }, 
+        "1099": {
+            "desc": "add the mixture into the pot", 
+            "label_id": "1099", 
+            "time": "156"
+        }, 
+        "1101": {
+            "desc": "add 1/2 cups of milk", 
+            "label_id": "1101", 
+            "time": "164"
+        }, 
+        "1103": {
+            "desc": "stir it completely", 
+            "label_id": "1103", 
+            "time": "169"
+        }, 
+        "1105": {
+            "desc": "pour everything into a pan", 
+            "label_id": "1105", 
+            "time": "193"
+        }, 
+        "1107": {
+            "desc": "put it in the oven at 350 degrees for 40-45 minutes", 
+            "label_id": "1107", 
+            "time": "199"
+        }, 
+        "1109": {
+            "desc": "rotate the pan and let it cook for 5 more minutes", 
+            "label_id": "1109", 
+            "time": "234"
+        }, 
+        "1111": {
+            "desc": "top it with more cheese", 
+            "label_id": "1111", 
+            "time": "252"
+        }, 
+        "1113": {
+            "desc": "let it cook for 5 more minutes", 
+            "label_id": "1113", 
+            "time": "263"
+        }
+    }, 
+    "s1_c02_v05": {
+        "1115": {
+            "desc": "butter up the pot", 
+            "label_id": "1115", 
+            "time": "8"
+        }, 
+        "1117": {
+            "desc": "Add small onions", 
+            "label_id": "1117", 
+            "time": "20"
+        }, 
+        "1122": {
+            "desc": "Add 2 tablespoons of Cayenne pepper", 
+            "label_id": "1122", 
+            "time": "42"
+        }, 
+        "1123": {
+            "desc": "Add 1 1/2 teaspoon of basil", 
+            "label_id": "1123", 
+            "time": "49"
+        }, 
+        "1125": {
+            "desc": "Add 1 teaspoon of salt", 
+            "label_id": "1125", 
+            "time": "54"
+        }, 
+        "1127": {
+            "desc": "add 1 3/4 cup of whole milk", 
+            "label_id": "1127", 
+            "time": "63"
+        }, 
+        "1129": {
+            "desc": "Chop up sun dried tomatoes", 
+            "label_id": "1129", 
+            "time": "67"
+        }, 
+        "1132": {
+            "desc": "Stir the pot constantly", 
+            "label_id": "1132", 
+            "time": "91"
+        }, 
+        "1134": {
+            "desc": "Put 2 1/2 cups of cooked broccoli in a bowl", 
+            "label_id": "1134", 
+            "time": "117"
+        }, 
+        "1135": {
+            "desc": "Add the 1/2 cup of sundried tomatoes", 
+            "label_id": "1135", 
+            "time": "119"
+        }, 
+        "1140": {
+            "desc": "Add the types of cheeses into the cooking pot", 
+            "label_id": "1140", 
+            "time": "127"
+        }, 
+        "1142": {
+            "desc": "Pour the sauce into the bowl", 
+            "label_id": "1142", 
+            "time": "136"
+        }, 
+        "1144": {
+            "desc": "Pour everything into a pan", 
+            "label_id": "1144", 
+            "time": "139"
+        }, 
+        "1146": {
+            "desc": "Put the pan in the oven for 30 minutes at 350 degrees", 
+            "label_id": "1146", 
+            "time": "142"
+        }
+    }, 
+    "s1_c03_v01": {
+        "1148": {
+            "desc": "Get avocados", 
+            "label_id": "1148", 
+            "time": "20"
+        }, 
+        "1150": {
+            "desc": "Add some lime juice", 
+            "label_id": "1150", 
+            "time": "27"
+        }, 
+        "1152": {
+            "desc": "Add coarsely chopped Cilantro", 
+            "label_id": "1152", 
+            "time": "32"
+        }, 
+        "1155": {
+            "desc": "Add tomatoes", 
+            "label_id": "1155", 
+            "time": "41"
+        }, 
+        "1157": {
+            "desc": "Add green onions (or white or yellow)", 
+            "label_id": "1157", 
+            "time": "53"
+        }, 
+        "1159": {
+            "desc": "Add jalepenos", 
+            "label_id": "1159", 
+            "time": "66"
+        }, 
+        "1161": {
+            "desc": "Add black pepper", 
+            "label_id": "1161", 
+            "time": "76"
+        }, 
+        "1163": {
+            "desc": "Add cumin", 
+            "label_id": "1163", 
+            "time": "81"
+        }, 
+        "1165": {
+            "desc": "Add salt (coarsely ground is recommended)", 
+            "label_id": "1165", 
+            "time": "87"
+        }, 
+        "1167": {
+            "desc": "Add sriracha sauce", 
+            "label_id": "1167", 
+            "time": "92"
+        }, 
+        "1169": {
+            "desc": "Add garlic", 
+            "label_id": "1169", 
+            "time": "103"
+        }, 
+        "1171": {
+            "desc": "Add more lime juice to top it off", 
+            "label_id": "1171", 
+            "time": "104"
+        }, 
+        "1173": {
+            "desc": "Use a potato masher, and mash each half of an avocado", 
+            "label_id": "1173", 
+            "time": "118"
+        }, 
+        "1175": {
+            "desc": "NOTE: Don't over mix!", 
+            "label_id": "1175", 
+            "time": "135"
+        }, 
+        "1177": {
+            "desc": "You can add more lime juice", 
+            "label_id": "1177", 
+            "time": "151"
+        }, 
+        "1179": {
+            "desc": "Mix it up ", 
+            "label_id": "1179", 
+            "time": "159"
+        }
+    }, 
+    "s1_c03_v02": {
+        "1185": {
+            "desc": "Wash Your hands", 
+            "label_id": "1185", 
+            "time": "86"
+        }, 
+        "1187": {
+            "desc": "Cut open your avocado, by using your blade around the avocado an", 
+            "label_id": "1187", 
+            "time": "108"
+        }, 
+        "1189": {
+            "desc": "Remove the seed using your hands", 
+            "label_id": "1189", 
+            "time": "121"
+        }, 
+        "1191": {
+            "desc": "Scoop out the flesh using a spoon", 
+            "label_id": "1191", 
+            "time": "133"
+        }, 
+        "1193": {
+            "desc": "Slice tomatoes in both directions", 
+            "label_id": "1193", 
+            "time": "148"
+        }, 
+        "1196": {
+            "desc": "Add handful of diced onions", 
+            "label_id": "1196", 
+            "time": "164"
+        }, 
+        "1198": {
+            "desc": "Add some chili ortegas (2)", 
+            "label_id": "1198", 
+            "time": "169"
+        }, 
+        "1200": {
+            "desc": "Chop up everything", 
+            "label_id": "1200", 
+            "time": "177"
+        }, 
+        "1202": {
+            "desc": "Add everything to the gaucumole", 
+            "label_id": "1202", 
+            "time": "212"
+        }, 
+        "1204": {
+            "desc": "Add a pinch of salt", 
+            "label_id": "1204", 
+            "time": "222"
+        }, 
+        "1206": {
+            "desc": "Mash everything using a potato masher", 
+            "label_id": "1206", 
+            "time": "228"
+        }, 
+        "1207": {
+            "desc": "Optionally, add hot sauce.", 
+            "label_id": "1207", 
+            "time": "241"
+        }
+    }, 
+    "s1_c03_v03": {
+        "1209": {
+            "desc": "Cover 2 Tortillas with Cooking Spray", 
+            "label_id": "1209", 
+            "time": "51"
+        }, 
+        "1211": {
+            "desc": "Stack them together", 
+            "label_id": "1211", 
+            "time": "57"
+        }, 
+        "1213": {
+            "desc": "Cut them cup", 
+            "label_id": "1213", 
+            "time": "61"
+        }, 
+        "1215": {
+            "desc": "Spray cooking spray on a cooking sheet and Lay the tortillas out", 
+            "label_id": "1215", 
+            "time": "73"
+        }, 
+        "1217": {
+            "desc": "Put it in the oven", 
+            "label_id": "1217", 
+            "time": "83"
+        }, 
+        "1218": {
+            "desc": "Cooking them for 15 minutes at 400 degrees F", 
+            "label_id": "1218", 
+            "time": "95"
+        }, 
+        "1219": {
+            "desc": "Cut open avocados", 
+            "label_id": "1219", 
+            "time": "101"
+        }, 
+        "1221": {
+            "desc": "Remove skin if possible", 
+            "label_id": "1221", 
+            "time": "123"
+        }, 
+        "1223": {
+            "desc": "Mash them up a little", 
+            "label_id": "1223", 
+            "time": "134"
+        }, 
+        "1225": {
+            "desc": "Throw in some tomatoes", 
+            "label_id": "1225", 
+            "time": "169"
+        }, 
+        "1227": {
+            "desc": "Add jalapeno peppers", 
+            "label_id": "1227", 
+            "time": "171"
+        }, 
+        "1229": {
+            "desc": "Add onions", 
+            "label_id": "1229", 
+            "time": "174"
+        }, 
+        "1231": {
+            "desc": "Put some salt", 
+            "label_id": "1231", 
+            "time": "179"
+        }, 
+        "1233": {
+            "desc": "Put some pepper", 
+            "label_id": "1233", 
+            "time": "181"
+        }, 
+        "1235": {
+            "desc": "Put some cumin", 
+            "label_id": "1235", 
+            "time": "185"
+        }, 
+        "1237": {
+            "desc": "Mash it all up", 
+            "label_id": "1237", 
+            "time": "188"
+        }
+    }, 
+    "s1_c03_v04": {
+        "1239": {
+            "desc": "Add avocados", 
+            "label_id": "1239", 
+            "time": "37"
+        }, 
+        "1241": {
+            "desc": "Add avenero peppers", 
+            "label_id": "1241", 
+            "time": "71"
+        }, 
+        "1243": {
+            "desc": "Add garlic", 
+            "label_id": "1243", 
+            "time": "73"
+        }, 
+        "1245": {
+            "desc": "Add white onions", 
+            "label_id": "1245", 
+            "time": "77"
+        }, 
+        "1247": {
+            "desc": "Add Cilantro", 
+            "label_id": "1247", 
+            "time": "89"
+        }, 
+        "1249": {
+            "desc": "Add lemon juice", 
+            "label_id": "1249", 
+            "time": "93"
+        }, 
+        "1251": {
+            "desc": "Add pinch of salt", 
+            "label_id": "1251", 
+            "time": "116"
+        }, 
+        "1253": {
+            "desc": "Mix everything together", 
+            "label_id": "1253", 
+            "time": "118"
+        }, 
+        "1255": {
+            "desc": "Add a bit more salt", 
+            "label_id": "1255", 
+            "time": "163"
+        }
+    }, 
+    "s1_c03_v05": {
+        "1257": {
+            "desc": "Add 8 large avocados", 
+            "label_id": "1257", 
+            "time": "5"
+        }, 
+        "1259": {
+            "desc": "Add tomatoes", 
+            "label_id": "1259", 
+            "time": "11"
+        }, 
+        "1261": {
+            "desc": "Add white onions", 
+            "label_id": "1261", 
+            "time": "17"
+        }, 
+        "1263": {
+            "desc": "Add finely cut cilantro", 
+            "label_id": "1263", 
+            "time": "26"
+        }, 
+        "1265": {
+            "desc": "Add cerano peppers", 
+            "label_id": "1265", 
+            "time": "37"
+        }, 
+        "1267": {
+            "desc": "Add 8-9 lemon juices", 
+            "label_id": "1267", 
+            "time": "55"
+        }, 
+        "1268": {
+            "desc": "Mix everything together", 
+            "label_id": "1268", 
+            "time": "71"
+        }, 
+        "1270": {
+            "desc": "Add some salt", 
+            "label_id": "1270", 
+            "time": "72"
+        }, 
+        "1272": {
+            "desc": "Mix it more together", 
+            "label_id": "1272", 
+            "time": "83"
+        }
+    }, 
+    "s1_c04_v01": {
+        "1274": {
+            "desc": "Add 1 cup of wheat flour", 
+            "label_id": "1274", 
+            "time": "34"
+        }, 
+        "1276": {
+            "desc": "All 1 cup of all purpose flour", 
+            "label_id": "1276", 
+            "time": "37"
+        }, 
+        "1278": {
+            "desc": "Add 1 tablespoon of oil", 
+            "label_id": "1278", 
+            "time": "41"
+        }, 
+        "1280": {
+            "desc": "All salt", 
+            "label_id": "1280", 
+            "time": "42"
+        }, 
+        "1282": {
+            "desc": "Add water to make it soft dough", 
+            "label_id": "1282", 
+            "time": "44"
+        }, 
+        "1284": {
+            "desc": "Mix and make sure the dough is soft", 
+            "label_id": "1284", 
+            "time": "50"
+        }, 
+        "1286": {
+            "desc": "Let dough rest for at least 15 minutes", 
+            "label_id": "1286", 
+            "time": "53"
+        }, 
+        "1288": {
+            "desc": "Start making stuffing by getting cut onions", 
+            "label_id": "1288", 
+            "time": "56"
+        }, 
+        "1290": {
+            "desc": "Use same quantity of pressed rice", 
+            "label_id": "1290", 
+            "time": "60"
+        }, 
+        "1292": {
+            "desc": "Mix them together", 
+            "label_id": "1292", 
+            "time": "64"
+        }, 
+        "1294": {
+            "desc": "Add chili powder", 
+            "label_id": "1294", 
+            "time": "66"
+        }, 
+        "1296": {
+            "desc": "Add cumin powder", 
+            "label_id": "1296", 
+            "time": "75"
+        }, 
+        "1300": {
+            "desc": "Add chopped green chilis", 
+            "label_id": "1300", 
+            "time": "77"
+        }, 
+        "1301": {
+            "desc": "Add koreanda", 
+            "label_id": "1301", 
+            "time": "79"
+        }, 
+        "1304": {
+            "desc": "Add a bit of chopped marsala", 
+            "label_id": "1304", 
+            "time": "79"
+        }, 
+        "1306": {
+            "desc": "Mix everything together", 
+            "label_id": "1306", 
+            "time": "86"
+        }, 
+        "1307": {
+            "desc": "Flatten the dough", 
+            "label_id": "1307", 
+            "time": "102"
+        }, 
+        "1309": {
+            "desc": "Sprinkle a bit of flour on both sides", 
+            "label_id": "1309", 
+            "time": "106"
+        }, 
+        "1311": {
+            "desc": "Slightly heat one side and then heat the other side", 
+            "label_id": "1311", 
+            "time": "121"
+        }, 
+        "1314": {
+            "desc": "Cut them into thin sheet", 
+            "label_id": "1314", 
+            "time": "128"
+        }, 
+        "1317": {
+            "desc": "Apply the mixture on the side of one sheet", 
+            "label_id": "1317", 
+            "time": "139"
+        }, 
+        "1319": {
+            "desc": "Roll the sheet into a triangle", 
+            "label_id": "1319", 
+            "time": "145"
+        }, 
+        "1321": {
+            "desc": "Add in the stuffing", 
+            "label_id": "1321", 
+            "time": "149"
+        }, 
+        "1323": {
+            "desc": "Apply more of the paste onto the sheet", 
+            "label_id": "1323", 
+            "time": "153"
+        }, 
+        "1325": {
+            "desc": "Close it into a triangle", 
+            "label_id": "1325", 
+            "time": "156"
+        }, 
+        "1327": {
+            "desc": "Make more of these triangles by repeating the steps", 
+            "label_id": "1327", 
+            "time": "166"
+        }, 
+        "1330": {
+            "desc": "Put it in medium hot oil, don't fry them too much", 
+            "label_id": "1330", 
+            "time": "176"
+        }, 
+        "1332": {
+            "desc": "Note: Make 6 per person", 
+            "label_id": "1332", 
+            "time": "205"
+        }, 
+        "1333": {
+            "desc": "Fry them once, then wait for 5 minutes, and then fry them again ", 
+            "label_id": "1333", 
+            "time": "217"
+        }
+    }, 
+    "s1_c04_v02": {
+        "1337": {
+            "desc": "Chop up some sweet potatoes", 
+            "label_id": "1337", 
+            "time": "35"
+        }, 
+        "1339": {
+            "desc": "Chop up plain potatoes", 
+            "label_id": "1339", 
+            "time": "39"
+        }, 
+        "1341": {
+            "desc": "Chop up pumpkin", 
+            "label_id": "1341", 
+            "time": "42"
+        }, 
+        "1343": {
+            "desc": "Put all of them into a pot", 
+            "label_id": "1343", 
+            "time": "47"
+        }, 
+        "1345": {
+            "desc": "Cover them with water", 
+            "label_id": "1345", 
+            "time": "48"
+        }, 
+        "1346": {
+            "desc": "Boil until they are nice and soft", 
+            "label_id": "1346", 
+            "time": "51"
+        }, 
+        "1348": {
+            "desc": "Mash them using a potato masher", 
+            "label_id": "1348", 
+            "time": "57"
+        }, 
+        "1350": {
+            "desc": "Add cumin", 
+            "label_id": "1350", 
+            "time": "63"
+        }, 
+        "1352": {
+            "desc": "Add Garra masala", 
+            "label_id": "1352", 
+            "time": "65"
+        }, 
+        "1354": {
+            "desc": "Add curry powder", 
+            "label_id": "1354", 
+            "time": "65"
+        }, 
+        "1356": {
+            "desc": "Mix everything until they are well combined", 
+            "label_id": "1356", 
+            "time": "70"
+        }, 
+        "1358": {
+            "desc": "Add in peas", 
+            "label_id": "1358", 
+            "time": "74"
+        }, 
+        "1360": {
+            "desc": "Mix it one more time", 
+            "label_id": "1360", 
+            "time": "76"
+        }, 
+        "1362": {
+            "desc": "Let it cool down", 
+            "label_id": "1362", 
+            "time": "80"
+        }, 
+        "1363": {
+            "desc": "Once the mixer is cool, cut our pastry into quarters", 
+            "label_id": "1363", 
+            "time": "84"
+        }, 
+        "1365": {
+            "desc": "Add spoonful of the mixer", 
+            "label_id": "1365", 
+            "time": "92"
+        }, 
+        "1367": {
+            "desc": "Fold it in by grab opposite corners and pinching in the middle", 
+            "label_id": "1367", 
+            "time": "96"
+        }, 
+        "1369": {
+            "desc": "Do it to the other side too", 
+            "label_id": "1369", 
+            "time": "98"
+        }, 
+        "1371": {
+            "desc": "Pinch down the ends", 
+            "label_id": "1371", 
+            "time": "103"
+        }, 
+        "1374": {
+            "desc": "Put them on a baking tray and brush them with a beated egg", 
+            "label_id": "1374", 
+            "time": "114"
+        }, 
+        "1376": {
+            "desc": "Put the tray in the oven for 20-25 minutes at 190 celsius", 
+            "label_id": "1376", 
+            "time": "122"
+        }, 
+        "1378": {
+            "desc": "Sprinkle a little peprica", 
+            "label_id": "1378", 
+            "time": "128"
+        }
+    }, 
+    "s1_c04_v03": {
+        "1380": {
+            "desc": "Get 1 1/2 cups of plain flour", 
+            "label_id": "1380", 
+            "time": "26"
+        }, 
+        "1382": {
+            "desc": "add a pinch of salt", 
+            "label_id": "1382", 
+            "time": "32"
+        }, 
+        "1384": {
+            "desc": "Add 4 tsp of vegetable oil", 
+            "label_id": "1384", 
+            "time": "34"
+        }, 
+        "1386": {
+            "desc": "Add half a cup of water", 
+            "label_id": "1386", 
+            "time": "37"
+        }, 
+        "1389": {
+            "desc": "Mix this all together", 
+            "label_id": "1389", 
+            "time": "42"
+        }, 
+        "1391": {
+            "desc": "Knead the dough on a lightly floured surfaced for 2-3 minutes", 
+            "label_id": "1391", 
+            "time": "51"
+        }, 
+        "1393": {
+            "desc": "Leave the dough to rest for 5-10 minutes", 
+            "label_id": "1393", 
+            "time": "63"
+        }, 
+        "1395": {
+            "desc": "For samosa filling, we got 300 g of mashed potatoes", 
+            "label_id": "1395", 
+            "time": "68"
+        }, 
+        "1397": {
+            "desc": "Get 1/4 of a finely chopped onions", 
+            "label_id": "1397", 
+            "time": "70"
+        }, 
+        "1399": {
+            "desc": "Get 30g of Frozen Peas", 
+            "label_id": "1399", 
+            "time": "73"
+        }, 
+        "1401": {
+            "desc": "Get 1 teaspoon of Coriander powder", 
+            "label_id": "1401", 
+            "time": "75"
+        }, 
+        "1403": {
+            "desc": "Get 1/2 teaspoon of Cumin powder", 
+            "label_id": "1403", 
+            "time": "79"
+        }, 
+        "1405": {
+            "desc": "Get a 1/4 teaspoon Chilli, Garam Masala, Salt, and mustard seeds", 
+            "label_id": "1405", 
+            "time": "83"
+        }, 
+        "1407": {
+            "desc": "Get 2 Chopped Chillis", 
+            "label_id": "1407", 
+            "time": "88"
+        }, 
+        "1409": {
+            "desc": "Get 1 teaspoon of garlic and ginger paste", 
+            "label_id": "1409", 
+            "time": "91"
+        }, 
+        "1411": {
+            "desc": "Mix everything together in the bowl", 
+            "label_id": "1411", 
+            "time": "96"
+        }, 
+        "1413": {
+            "desc": "Break a gold ball size of the dough", 
+            "label_id": "1413", 
+            "time": "110"
+        }, 
+        "1415": {
+            "desc": "Roll the dough in between your hands into a ball and then into a", 
+            "label_id": "1415", 
+            "time": "115"
+        }, 
+        "1417": {
+            "desc": "Roll the dough into a rectangle", 
+            "label_id": "1417", 
+            "time": "122"
+        }, 
+        "1419": {
+            "desc": "Grab a 8 in by 4 in plate and put it on top of the dough so you ", 
+            "label_id": "1419", 
+            "time": "138"
+        }, 
+        "1421": {
+            "desc": "Add a teaspoon of the mixture into one corner", 
+            "label_id": "1421", 
+            "time": "160"
+        }, 
+        "1423": {
+            "desc": "Wet two of the edges", 
+            "label_id": "1423", 
+            "time": "166"
+        }, 
+        "1425": {
+            "desc": "Fold one corner over", 
+            "label_id": "1425", 
+            "time": "172"
+        }, 
+        "1427": {
+            "desc": "Press the dough down", 
+            "label_id": "1427", 
+            "time": "185"
+        }, 
+        "1429": {
+            "desc": "Spread the filling out a bit", 
+            "label_id": "1429", 
+            "time": "193"
+        }, 
+        "1430": {
+            "desc": "Wet the other edge", 
+            "label_id": "1430", 
+            "time": "195"
+        }, 
+        "1432": {
+            "desc": "Fold the samosa over to the wetted edge", 
+            "label_id": "1432", 
+            "time": "202"
+        }, 
+        "1434": {
+            "desc": "Press the edge down like previously", 
+            "label_id": "1434", 
+            "time": "207"
+        }, 
+        "1436": {
+            "desc": "Wet the remaining flap", 
+            "label_id": "1436", 
+            "time": "213"
+        }, 
+        "1438": {
+            "desc": "Fold the flap over to complete the triangle", 
+            "label_id": "1438", 
+            "time": "216"
+        }, 
+        "1440": {
+            "desc": "Either deep fry them in oil at 180 C for 6 minutes", 
+            "label_id": "1440", 
+            "time": "243"
+        }, 
+        "1443": {
+            "desc": "OR shallow fry them for 3 minutes on each side", 
+            "label_id": "1443", 
+            "time": "254"
+        }, 
+        "1445": {
+            "desc": "OR put them on a baking tray, glaze them with milk, and bake the", 
+            "label_id": "1445", 
+            "time": "271"
+        }
+    }, 
+    "s1_c04_v04": [], 
+    "s1_c04_v05": {
+        "1447": {
+            "desc": "Put 250g of chicken mince in a bowl", 
+            "label_id": "1447", 
+            "time": "47"
+        }, 
+        "1449": {
+            "desc": "Add 1 large finely chopped onion", 
+            "label_id": "1449", 
+            "time": "51"
+        }, 
+        "1451": {
+            "desc": "Add 2 finely chopped green chillies", 
+            "label_id": "1451", 
+            "time": "54"
+        }, 
+        "1453": {
+            "desc": "Add 1/4 cup of finely chopped Coriander leaves", 
+            "label_id": "1453", 
+            "time": "55"
+        }, 
+        "1455": {
+            "desc": "Add 2 teaspoons of ginger garlic paste", 
+            "label_id": "1455", 
+            "time": "57"
+        }, 
+        "1457": {
+            "desc": "Add a pinch of turmeric powder", 
+            "label_id": "1457", 
+            "time": "59"
+        }, 
+        "1459": {
+            "desc": "Add 1/2 teaspoon of red chilli powder", 
+            "label_id": "1459", 
+            "time": "60"
+        }, 
+        "1461": {
+            "desc": "Add 1 teaspoon of Chaat masala", 
+            "label_id": "1461", 
+            "time": "61"
+        }, 
+        "1463": {
+            "desc": "Add 1 teaspoon of garam masala powder", 
+            "label_id": "1463", 
+            "time": "62"
+        }, 
+        "1465": {
+            "desc": "Add salt to taste", 
+            "label_id": "1465", 
+            "time": "65"
+        }, 
+        "1467": {
+            "desc": "Add 2 teaspoons of lemon juice", 
+            "label_id": "1467", 
+            "time": "67"
+        }, 
+        "1469": {
+            "desc": "mix everything together", 
+            "label_id": "1469", 
+            "time": "68"
+        }, 
+        "1471": {
+            "desc": "Take a samosa strop, and apply water to the edges", 
+            "label_id": "1471", 
+            "time": "73"
+        }, 
+        "1473": {
+            "desc": "Put a portion of the stuffing onto a corner", 
+            "label_id": "1473", 
+            "time": "82"
+        }, 
+        "1475": {
+            "desc": "Folder it, and apply water on one of the edges", 
+            "label_id": "1475", 
+            "time": "85"
+        }, 
+        "1477": {
+            "desc": "Fold it again and pinch the edge", 
+            "label_id": "1477", 
+            "time": "87"
+        }, 
+        "1479": {
+            "desc": "Continue folding it up the samosa paper", 
+            "label_id": "1479", 
+            "time": "99"
+        }, 
+        "1481": {
+            "desc": "Used some refined flour to seal the samosa together", 
+            "label_id": "1481", 
+            "time": "112"
+        }, 
+        "1483": {
+            "desc": "Put the samosa in deep frying oil on a low heat", 
+            "label_id": "1483", 
+            "time": "123"
+        }, 
+        "1485": {
+            "desc": "Remove the samosas and put them onto absorbant paper", 
+            "label_id": "1485", 
+            "time": "168"
+        }
+    }, 
+    "s1_c05_v01": {
+        "1487": {
+            "desc": "Use thinly sliced beef, and put them into the bowl to marinate", 
+            "label_id": "1487", 
+            "time": "49"
+        }, 
+        "1489": {
+            "desc": "Pour 4 tablespoons of pear juice and 3 tablespoons of refined wh", 
+            "label_id": "1489", 
+            "time": "57"
+        }, 
+        "1491": {
+            "desc": "Leave it for about 20 minutes to make beef tender", 
+            "label_id": "1491", 
+            "time": "69"
+        }, 
+        "1493": {
+            "desc": "Slice the carrots, onions, and green onions", 
+            "label_id": "1493", 
+            "time": "79"
+        }, 
+        "1495": {
+            "desc": "Prepare 6 tablespoons of soy sauce, 1 tablespoon, of oyster sauc", 
+            "label_id": "1495", 
+            "time": "87"
+        }, 
+        "1497": {
+            "desc": "Add 2 tablespoons of finely chopped green onion, 2 tablespoons o", 
+            "label_id": "1497", 
+            "time": "95"
+        }, 
+        "1500": {
+            "desc": "Add 1 tablespoon of sugar, a few drops of giner juice, 1 tablesp", 
+            "label_id": "1500", 
+            "time": "103"
+        }, 
+        "1502": {
+            "desc": "Mix it together and por it onto the beef to marinate the beef.", 
+            "label_id": "1502", 
+            "time": "113"
+        }, 
+        "1504": {
+            "desc": "May add sliced vegetables and marinate together with the beef.", 
+            "label_id": "1504", 
+            "time": "121"
+        }, 
+        "1506": {
+            "desc": "Pour about 1 tablespoon of oil and fry the beef", 
+            "label_id": "1506", 
+            "time": "124"
+        }, 
+        "1509": {
+            "desc": "Add mushrooms when the beef is almost cooked.", 
+            "label_id": "1509", 
+            "time": "135"
+        }, 
+        "1511": {
+            "desc": "Place it on the plate and it's ready to eat.", 
+            "label_id": "1511", 
+            "time": "141"
+        }
+    }, 
+    "s1_c05_v02": {
+        "1513": {
+            "desc": "Chop 2 sticks of green onions and half of a regular onion", 
+            "label_id": "1513", 
+            "time": "4"
+        }, 
+        "1515": {
+            "desc": "Slice sirloin beef thinly", 
+            "label_id": "1515", 
+            "time": "35"
+        }, 
+        "1517": {
+            "desc": "Put everything into a bowl, and add 2 tablespoons of rice wine", 
+            "label_id": "1517", 
+            "time": "74"
+        }, 
+        "1519": {
+            "desc": "Add 2 tablespoons of sesame oil", 
+            "label_id": "1519", 
+            "time": "86"
+        }, 
+        "1521": {
+            "desc": "Add a quart cup of sugar", 
+            "label_id": "1521", 
+            "time": "102"
+        }, 
+        "1523": {
+            "desc": "Add 1/2 cup of soy sauce ", 
+            "label_id": "1523", 
+            "time": "108"
+        }, 
+        "1525": {
+            "desc": "Mix everything together", 
+            "label_id": "1525", 
+            "time": "119"
+        }, 
+        "1527": {
+            "desc": "Let it sit for 3 hours", 
+            "label_id": "1527", 
+            "time": "132"
+        }, 
+        "1529": {
+            "desc": "Dump everything into a pan and cook it on high heat for a couple", 
+            "label_id": "1529", 
+            "time": "140"
+        }
+    }, 
+    "s1_c05_v03": {
+        "1531": {
+            "desc": "Marinate beef with soysauce, oyster sauce, garlic, ginger, black", 
+            "label_id": "1531", 
+            "time": "48"
+        }, 
+        "1534": {
+            "desc": "Heat the wok", 
+            "label_id": "1534", 
+            "time": "97"
+        }, 
+        "1535": {
+            "desc": "Melt the butter", 
+            "label_id": "1535", 
+            "time": "100"
+        }, 
+        "1537": {
+            "desc": "Add marinated beef while leaving the marination mix in the bowl", 
+            "label_id": "1537", 
+            "time": "112"
+        }, 
+        "1539": {
+            "desc": "Cook beef for 8 minutes", 
+            "label_id": "1539", 
+            "time": "123"
+        }, 
+        "1541": {
+            "desc": "Add searoning and remove from heat", 
+            "label_id": "1541", 
+            "time": "130"
+        }, 
+        "1542": {
+            "desc": "Put mushroom, celery, green pepper, and onion in the remaining m", 
+            "label_id": "1542", 
+            "time": "137"
+        }, 
+        "1544": {
+            "desc": "Mix thouroughly", 
+            "label_id": "1544", 
+            "time": "150"
+        }, 
+        "1546": {
+            "desc": "Heat same wok with olive oil", 
+            "label_id": "1546", 
+            "time": "167"
+        }, 
+        "1548": {
+            "desc": "Stir fry marinated veggies until half done", 
+            "label_id": "1548", 
+            "time": "182"
+        }
+    }, 
+    "s1_c05_v04": {
+        "1551": {
+            "desc": "Get a pound of thinly sliced beef", 
+            "label_id": "1551", 
+            "time": "66"
+        }, 
+        "1556": {
+            "desc": "Get 1 piece of green onion", 
+            "label_id": "1556", 
+            "time": "69"
+        }, 
+        "1558": {
+            "desc": "Half an onion", 
+            "label_id": "1558", 
+            "time": "71"
+        }, 
+        "1560": {
+            "desc": "Half a carrot", 
+            "label_id": "1560", 
+            "time": "73"
+        }, 
+        "1562": {
+            "desc": "Get 1 tablespoon of garlic", 
+            "label_id": "1562", 
+            "time": "75"
+        }, 
+        "1564": {
+            "desc": "get 1 tablespoon of sugar", 
+            "label_id": "1564", 
+            "time": "77"
+        }, 
+        "1566": {
+            "desc": "1 tablespoon of honey", 
+            "label_id": "1566", 
+            "time": "81"
+        }, 
+        "1568": {
+            "desc": "Get 2 Table spoons of sesame oil", 
+            "label_id": "1568", 
+            "time": "86"
+        }, 
+        "1570": {
+            "desc": "Get 3 tablespoons of soysauce", 
+            "label_id": "1570", 
+            "time": "90"
+        }, 
+        "1572": {
+            "desc": "get 3 table spoon of lettic juice", 
+            "label_id": "1572", 
+            "time": "95"
+        }, 
+        "1574": {
+            "desc": "Slice thinly, the green onion, carrot, and onion", 
+            "label_id": "1574", 
+            "time": "102"
+        }, 
+        "1576": {
+            "desc": "Next prepare in a big bowl, all of the ingredients except the on", 
+            "label_id": "1576", 
+            "time": "112"
+        }, 
+        "1578": {
+            "desc": "Make sure that everything is well mixed", 
+            "label_id": "1578", 
+            "time": "175"
+        }, 
+        "1580": {
+            "desc": "After mixing, put the vegetables in", 
+            "label_id": "1580", 
+            "time": "184"
+        }, 
+        "1582": {
+            "desc": "Wait until the pan gets hot, and then put some cooking oil into ", 
+            "label_id": "1582", 
+            "time": "213"
+        }, 
+        "1584": {
+            "desc": "Cook everything on a med-high heat until completed", 
+            "label_id": "1584", 
+            "time": "221"
+        }, 
+        "1586": {
+            "desc": "Move meat onto a nice dish and serve", 
+            "label_id": "1586", 
+            "time": "265"
+        }
+    }, 
+    "s1_c05_v05": {
+        "1588": {
+            "desc": "Cut 3 cups of beef, thinly", 
+            "label_id": "1588", 
+            "time": "31"
+        }, 
+        "1590": {
+            "desc": "Slice 1 onion", 
+            "label_id": "1590", 
+            "time": "51"
+        }, 
+        "1592": {
+            "desc": "Slice one carrot", 
+            "label_id": "1592", 
+            "time": "73"
+        }, 
+        "1594": {
+            "desc": "Add 6 tablespoons of soy sauce into a bowl", 
+            "label_id": "1594", 
+            "time": "97"
+        }, 
+        "1596": {
+            "desc": "Add 3 tablespoons of cooking wine", 
+            "label_id": "1596", 
+            "time": "107"
+        }, 
+        "1598": {
+            "desc": "Add 3 tablespoons of pear juice", 
+            "label_id": "1598", 
+            "time": "115"
+        }, 
+        "1600": {
+            "desc": "1 tablespoon of sesame oil", 
+            "label_id": "1600", 
+            "time": "124"
+        }, 
+        "1602": {
+            "desc": "Add 3 tablespoons of chopped green onions", 
+            "label_id": "1602", 
+            "time": "136"
+        }, 
+        "1604": {
+            "desc": "Add 1 1/2 minced garlic", 
+            "label_id": "1604", 
+            "time": "145"
+        }, 
+        "1606": {
+            "desc": "1 tablespoon of sesame seed", 
+            "label_id": "1606", 
+            "time": "154"
+        }, 
+        "1608": {
+            "desc": "add 1 pinch of ginger powder and 1 teaspoon of black pepper", 
+            "label_id": "1608", 
+            "time": "160"
+        }, 
+        "1610": {
+            "desc": "Add 3 tablespoons of sugar", 
+            "label_id": "1610", 
+            "time": "169"
+        }, 
+        "1612": {
+            "desc": "Mix well", 
+            "label_id": "1612", 
+            "time": "173"
+        }, 
+        "1614": {
+            "desc": "In a large bowl, combine beef, onions, and carrots", 
+            "label_id": "1614", 
+            "time": "185"
+        }, 
+        "1616": {
+            "desc": "Pour the mixed sauce into the bowl and mix well", 
+            "label_id": "1616", 
+            "time": "201"
+        }, 
+        "1618": {
+            "desc": "Cover bowl with plastic wrap and put bowl in refrigerator for ha", 
+            "label_id": "1618", 
+            "time": "243"
+        }, 
+        "1620": {
+            "desc": "Fry the marinated bulgogi on a heated pan until the beef is cook", 
+            "label_id": "1620", 
+            "time": "267"
+        }
+    }
+}

@@ -1,0 +1,806 @@
+None
+[s1_c01_v01]  Precision: 0.3158  Recall:0.8571  F1:0.4615  F2:0.6383 turk: 19 true: 7 match: 6 fp: 13 fn: 1
+[s1_c01_v02]  Precision: 0.6364  Recall:1.0000  F1:0.7778  F2:0.8975 turk: 22 true: 14 match: 14 fp: 8 fn: 0
+[s1_c01_v03]  Precision: 0.4500  Recall:0.9000  F1:0.6000  F2:0.7500 turk: 20 true: 10 match: 9 fp: 11 fn: 1
+[s1_c01_v04]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 12 true: 6 match: 6 fp: 6 fn: 0
+[s1_c01_v05]  Precision: 0.1724  Recall:1.0000  F1:0.2941  F2:0.5102 turk: 58 true: 10 match: 10 fp: 48 fn: 0
+[s1_c02_v01]  Precision: 0.3077  Recall:1.0000  F1:0.4706  F2:0.6897 turk: 52 true: 16 match: 16 fp: 36 fn: 0
+[s1_c02_v02]  Precision: 0.3243  Recall:0.6316  F1:0.4286  F2:0.5310 turk: 37 true: 19 match: 12 fp: 25 fn: 7
+[s1_c02_v03]  Precision: 0.2195  Recall:1.0000  F1:0.3600  F2:0.5844 turk: 41 true: 9 match: 9 fp: 32 fn: 0
+[s1_c02_v04]  Precision: 0.4839  Recall:0.8824  F1:0.6250  F2:0.7576 turk: 31 true: 17 match: 15 fp: 16 fn: 2
+[s1_c02_v05]  Precision: 0.5185  Recall:1.0000  F1:0.6829  F2:0.8434 turk: 27 true: 14 match: 14 fp: 13 fn: 0
+[s1_c03_v01]  Precision: 0.5517  Recall:1.0000  F1:0.7111  F2:0.8602 turk: 29 true: 16 match: 16 fp: 13 fn: 0
+[s1_c03_v02]  Precision: 0.3529  Recall:1.0000  F1:0.5217  F2:0.7317 turk: 34 true: 12 match: 12 fp: 22 fn: 0
+[s1_c03_v03]  Precision: 0.5517  Recall:1.0000  F1:0.7111  F2:0.8602 turk: 29 true: 16 match: 16 fp: 13 fn: 0
+[s1_c03_v04]  Precision: 0.3462  Recall:1.0000  F1:0.5143  F2:0.7258 turk: 26 true: 9 match: 9 fp: 17 fn: 0
+[s1_c03_v05]  Precision: 0.6923  Recall:1.0000  F1:0.8182  F2:0.9184 turk: 13 true: 9 match: 9 fp: 4 fn: 0
+[s1_c04_v01]  Precision: 0.6429  Recall:0.9310  F1:0.7606  F2:0.8544 turk: 42 true: 29 match: 27 fp: 15 fn: 2
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.6458  Recall:0.9394  F1:0.7654  F2:0.8611 turk: 48 true: 33 match: 31 fp: 17 fn: 2
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4000  Recall:1.0000  F1:0.5714  F2:0.7692 turk: 50 true: 20 match: 20 fp: 30 fn: 0
+[s1_c05_v01]  Precision: 0.4444  Recall:1.0000  F1:0.6153  F2:0.8000 turk: 27 true: 12 match: 12 fp: 15 fn: 0
+[s1_c05_v02]  Precision: 0.4286  Recall:1.0000  F1:0.6000  F2:0.7895 turk: 21 true: 9 match: 9 fp: 12 fn: 0
+[s1_c05_v03]  Precision: 0.3704  Recall:1.0000  F1:0.5406  F2:0.7463 turk: 27 true: 10 match: 10 fp: 17 fn: 0
+[s1_c05_v04]  Precision: 0.4103  Recall:0.9412  F1:0.5715  F2:0.7477 turk: 39 true: 17 match: 16 fp: 23 fn: 1
+[s1_c05_v05]  Precision: 0.5667  Recall:1.0000  F1:0.7234  F2:0.8674 turk: 30 true: 17 match: 17 fp: 13 fn: 0
+=====================================
+eps: 0.01 GLOBAL Precision: 0.4155 Recall:0.9263  F1:0.5737  F2:0.7435
+[s1_c01_v01]  Precision: 0.3000  Recall:0.8571  F1:0.4444  F2:0.6250 turk: 20 true: 7 match: 6 fp: 14 fn: 1
+[s1_c01_v02]  Precision: 0.5200  Recall:0.9286  F1:0.6667  F2:0.8025 turk: 25 true: 14 match: 13 fp: 12 fn: 1
+[s1_c01_v03]  Precision: 0.4762  Recall:1.0000  F1:0.6452  F2:0.8197 turk: 21 true: 10 match: 10 fp: 11 fn: 0
+[s1_c01_v04]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 12 true: 6 match: 6 fp: 6 fn: 0
+[s1_c01_v05]  Precision: 0.1724  Recall:1.0000  F1:0.2941  F2:0.5102 turk: 58 true: 10 match: 10 fp: 48 fn: 0
+[s1_c02_v01]  Precision: 0.2963  Recall:1.0000  F1:0.4571  F2:0.6780 turk: 54 true: 16 match: 16 fp: 38 fn: 0
+[s1_c02_v02]  Precision: 0.3429  Recall:0.6316  F1:0.4445  F2:0.5406 turk: 35 true: 19 match: 12 fp: 23 fn: 7
+[s1_c02_v03]  Precision: 0.2368  Recall:1.0000  F1:0.3829  F2:0.6081 turk: 38 true: 9 match: 9 fp: 29 fn: 0
+[s1_c02_v04]  Precision: 0.4412  Recall:0.8824  F1:0.5883  F2:0.7353 turk: 34 true: 17 match: 15 fp: 19 fn: 2
+[s1_c02_v05]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 28 true: 14 match: 14 fp: 14 fn: 0
+[s1_c03_v01]  Precision: 0.5000  Recall:0.9375  F1:0.6522  F2:0.7979 turk: 30 true: 16 match: 15 fp: 15 fn: 1
+[s1_c03_v02]  Precision: 0.3333  Recall:1.0000  F1:0.5000  F2:0.7143 turk: 36 true: 12 match: 12 fp: 24 fn: 0
+[s1_c03_v03]  Precision: 0.5333  Recall:1.0000  F1:0.6956  F2:0.8510 turk: 30 true: 16 match: 16 fp: 14 fn: 0
+[s1_c03_v04]  Precision: 0.3462  Recall:1.0000  F1:0.5143  F2:0.7258 turk: 26 true: 9 match: 9 fp: 17 fn: 0
+[s1_c03_v05]  Precision: 0.5000  Recall:0.8889  F1:0.6400  F2:0.7692 turk: 16 true: 9 match: 8 fp: 8 fn: 1
+[s1_c04_v01]  Precision: 0.6591  Recall:1.0000  F1:0.7945  F2:0.9063 turk: 44 true: 29 match: 29 fp: 15 fn: 0
+[s1_c04_v02]  Precision: 0.9286  Recall:0.5909  F1:0.7222  F2:0.6372 turk: 14 true: 22 match: 13 fp: 1 fn: 9
+[s1_c04_v03]  Precision: 0.6739  Recall:0.9394  F1:0.7848  F2:0.8708 turk: 46 true: 33 match: 31 fp: 15 fn: 2
+no matches for this video.
+[s1_c04_v05]  Precision: 0.3922  Recall:1.0000  F1:0.5634  F2:0.7634 turk: 51 true: 20 match: 20 fp: 31 fn: 0
+[s1_c05_v01]  Precision: 0.4615  Recall:1.0000  F1:0.6315  F2:0.8108 turk: 26 true: 12 match: 12 fp: 14 fn: 0
+[s1_c05_v02]  Precision: 0.3913  Recall:1.0000  F1:0.5625  F2:0.7627 turk: 23 true: 9 match: 9 fp: 14 fn: 0
+[s1_c05_v03]  Precision: 0.3704  Recall:1.0000  F1:0.5406  F2:0.7463 turk: 27 true: 10 match: 10 fp: 17 fn: 0
+[s1_c05_v04]  Precision: 0.4359  Recall:1.0000  F1:0.6071  F2:0.7944 turk: 39 true: 17 match: 17 fp: 22 fn: 0
+[s1_c05_v05]  Precision: 0.6071  Recall:1.0000  F1:0.7555  F2:0.8854 turk: 28 true: 17 match: 17 fp: 11 fn: 0
+=====================================
+eps: 0.02 GLOBAL Precision: 0.4092 Recall:0.9320  F1:0.5687  F2:0.7423
+[s1_c01_v01]  Precision: 0.3684  Recall:1.0000  F1:0.5384  F2:0.7447 turk: 19 true: 7 match: 7 fp: 12 fn: 0
+[s1_c01_v02]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 28 true: 14 match: 14 fp: 14 fn: 0
+[s1_c01_v03]  Precision: 0.4545  Recall:1.0000  F1:0.6250  F2:0.8064 turk: 22 true: 10 match: 10 fp: 12 fn: 0
+[s1_c01_v04]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 12 true: 6 match: 6 fp: 6 fn: 0
+[s1_c01_v05]  Precision: 0.1887  Recall:1.0000  F1:0.3175  F2:0.5377 turk: 53 true: 10 match: 10 fp: 43 fn: 0
+[s1_c02_v01]  Precision: 0.3019  Recall:1.0000  F1:0.4638  F2:0.6838 turk: 53 true: 16 match: 16 fp: 37 fn: 0
+[s1_c02_v02]  Precision: 0.3333  Recall:0.5789  F1:0.4230  F2:0.5045 turk: 33 true: 19 match: 11 fp: 22 fn: 8
+[s1_c02_v03]  Precision: 0.2432  Recall:1.0000  F1:0.3912  F2:0.6164 turk: 37 true: 9 match: 9 fp: 28 fn: 0
+[s1_c02_v04]  Precision: 0.4688  Recall:0.8824  F1:0.6123  F2:0.7501 turk: 32 true: 17 match: 15 fp: 17 fn: 2
+[s1_c02_v05]  Precision: 0.4828  Recall:1.0000  F1:0.6512  F2:0.8236 turk: 29 true: 14 match: 14 fp: 15 fn: 0
+[s1_c03_v01]  Precision: 0.5161  Recall:1.0000  F1:0.6808  F2:0.8421 turk: 31 true: 16 match: 16 fp: 15 fn: 0
+[s1_c03_v02]  Precision: 0.3429  Recall:1.0000  F1:0.5107  F2:0.7229 turk: 35 true: 12 match: 12 fp: 23 fn: 0
+[s1_c03_v03]  Precision: 0.5926  Recall:1.0000  F1:0.7442  F2:0.8791 turk: 27 true: 16 match: 16 fp: 11 fn: 0
+[s1_c03_v04]  Precision: 0.3214  Recall:1.0000  F1:0.4865  F2:0.7031 turk: 28 true: 9 match: 9 fp: 19 fn: 0
+[s1_c03_v05]  Precision: 0.5333  Recall:0.8889  F1:0.6666  F2:0.7843 turk: 15 true: 9 match: 8 fp: 7 fn: 1
+[s1_c04_v01]  Precision: 0.6744  Recall:1.0000  F1:0.8055  F2:0.9119 turk: 43 true: 29 match: 29 fp: 14 fn: 0
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7273  Recall:0.9697  F1:0.8312  F2:0.9091 turk: 44 true: 33 match: 32 fp: 12 fn: 1
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4082  Recall:1.0000  F1:0.5797  F2:0.7752 turk: 49 true: 20 match: 20 fp: 29 fn: 0
+[s1_c05_v01]  Precision: 0.4615  Recall:1.0000  F1:0.6315  F2:0.8108 turk: 26 true: 12 match: 12 fp: 14 fn: 0
+[s1_c05_v02]  Precision: 0.3750  Recall:1.0000  F1:0.5455  F2:0.7500 turk: 24 true: 9 match: 9 fp: 15 fn: 0
+[s1_c05_v03]  Precision: 0.3704  Recall:1.0000  F1:0.5406  F2:0.7463 turk: 27 true: 10 match: 10 fp: 17 fn: 0
+[s1_c05_v04]  Precision: 0.4359  Recall:1.0000  F1:0.6071  F2:0.7944 turk: 39 true: 17 match: 17 fp: 22 fn: 0
+[s1_c05_v05]  Precision: 0.5333  Recall:0.9412  F1:0.6808  F2:0.8163 turk: 30 true: 17 match: 16 fp: 14 fn: 1
+=====================================
+eps: 0.03 GLOBAL Precision: 0.4172 Recall:0.9348  F1:0.5769  F2:0.7490
+[s1_c01_v01]  Precision: 0.3684  Recall:1.0000  F1:0.5384  F2:0.7447 turk: 19 true: 7 match: 7 fp: 12 fn: 0
+[s1_c01_v02]  Precision: 0.5185  Recall:1.0000  F1:0.6829  F2:0.8434 turk: 27 true: 14 match: 14 fp: 13 fn: 0
+[s1_c01_v03]  Precision: 0.4167  Recall:1.0000  F1:0.5883  F2:0.7813 turk: 24 true: 10 match: 10 fp: 14 fn: 0
+[s1_c01_v04]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 12 true: 6 match: 6 fp: 6 fn: 0
+[s1_c01_v05]  Precision: 0.2041  Recall:1.0000  F1:0.3390  F2:0.5618 turk: 49 true: 10 match: 10 fp: 39 fn: 0
+[s1_c02_v01]  Precision: 0.3077  Recall:1.0000  F1:0.4706  F2:0.6897 turk: 52 true: 16 match: 16 fp: 36 fn: 0
+[s1_c02_v02]  Precision: 0.3438  Recall:0.5789  F1:0.4314  F2:0.5093 turk: 32 true: 19 match: 11 fp: 21 fn: 8
+[s1_c02_v03]  Precision: 0.2571  Recall:1.0000  F1:0.4090  F2:0.6338 turk: 35 true: 9 match: 9 fp: 26 fn: 0
+[s1_c02_v04]  Precision: 0.4516  Recall:0.8235  F1:0.5833  F2:0.7070 turk: 31 true: 17 match: 14 fp: 17 fn: 3
+[s1_c02_v05]  Precision: 0.4828  Recall:1.0000  F1:0.6512  F2:0.8236 turk: 29 true: 14 match: 14 fp: 15 fn: 0
+[s1_c03_v01]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 32 true: 16 match: 16 fp: 16 fn: 0
+[s1_c03_v02]  Precision: 0.3529  Recall:1.0000  F1:0.5217  F2:0.7317 turk: 34 true: 12 match: 12 fp: 22 fn: 0
+[s1_c03_v03]  Precision: 0.5926  Recall:1.0000  F1:0.7442  F2:0.8791 turk: 27 true: 16 match: 16 fp: 11 fn: 0
+[s1_c03_v04]  Precision: 0.3214  Recall:1.0000  F1:0.4865  F2:0.7031 turk: 28 true: 9 match: 9 fp: 19 fn: 0
+[s1_c03_v05]  Precision: 0.5333  Recall:0.8889  F1:0.6666  F2:0.7843 turk: 15 true: 9 match: 8 fp: 7 fn: 1
+[s1_c04_v01]  Precision: 0.6364  Recall:0.9655  F1:0.7671  F2:0.8750 turk: 44 true: 29 match: 28 fp: 16 fn: 1
+[s1_c04_v02]  Precision: 0.8000  Recall:0.5455  F1:0.6487  F2:0.5826 turk: 15 true: 22 match: 12 fp: 3 fn: 10
+[s1_c04_v03]  Precision: 0.7045  Recall:0.9394  F1:0.8052  F2:0.8807 turk: 44 true: 33 match: 31 fp: 13 fn: 2
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4082  Recall:1.0000  F1:0.5797  F2:0.7752 turk: 49 true: 20 match: 20 fp: 29 fn: 0
+[s1_c05_v01]  Precision: 0.4286  Recall:1.0000  F1:0.6000  F2:0.7895 turk: 28 true: 12 match: 12 fp: 16 fn: 0
+[s1_c05_v02]  Precision: 0.3750  Recall:1.0000  F1:0.5455  F2:0.7500 turk: 24 true: 9 match: 9 fp: 15 fn: 0
+[s1_c05_v03]  Precision: 0.3704  Recall:1.0000  F1:0.5406  F2:0.7463 turk: 27 true: 10 match: 10 fp: 17 fn: 0
+[s1_c05_v04]  Precision: 0.4359  Recall:1.0000  F1:0.6071  F2:0.7944 turk: 39 true: 17 match: 17 fp: 22 fn: 0
+[s1_c05_v05]  Precision: 0.5926  Recall:0.9412  F1:0.7273  F2:0.8421 turk: 27 true: 17 match: 16 fp: 11 fn: 1
+=====================================
+eps: 0.04 GLOBAL Precision: 0.4150 Recall:0.9263  F1:0.5732  F2:0.7432
+[s1_c01_v01]  Precision: 0.4118  Recall:1.0000  F1:0.5834  F2:0.7778 turk: 17 true: 7 match: 7 fp: 10 fn: 0
+[s1_c01_v02]  Precision: 0.5185  Recall:1.0000  F1:0.6829  F2:0.8434 turk: 27 true: 14 match: 14 fp: 13 fn: 0
+[s1_c01_v03]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 23 true: 10 match: 10 fp: 13 fn: 0
+[s1_c01_v04]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 12 true: 6 match: 6 fp: 6 fn: 0
+[s1_c01_v05]  Precision: 0.2174  Recall:1.0000  F1:0.3572  F2:0.5814 turk: 46 true: 10 match: 10 fp: 36 fn: 0
+[s1_c02_v01]  Precision: 0.3061  Recall:0.9375  F1:0.4615  F2:0.6637 turk: 49 true: 16 match: 15 fp: 34 fn: 1
+[s1_c02_v02]  Precision: 0.3438  Recall:0.5789  F1:0.4314  F2:0.5093 turk: 32 true: 19 match: 11 fp: 21 fn: 8
+[s1_c02_v03]  Precision: 0.2647  Recall:1.0000  F1:0.4186  F2:0.6429 turk: 34 true: 9 match: 9 fp: 25 fn: 0
+[s1_c02_v04]  Precision: 0.4688  Recall:0.8824  F1:0.6123  F2:0.7501 turk: 32 true: 17 match: 15 fp: 17 fn: 2
+[s1_c02_v05]  Precision: 0.4828  Recall:1.0000  F1:0.6512  F2:0.8236 turk: 29 true: 14 match: 14 fp: 15 fn: 0
+[s1_c03_v01]  Precision: 0.4706  Recall:1.0000  F1:0.6400  F2:0.8163 turk: 34 true: 16 match: 16 fp: 18 fn: 0
+[s1_c03_v02]  Precision: 0.3636  Recall:1.0000  F1:0.5333  F2:0.7407 turk: 33 true: 12 match: 12 fp: 21 fn: 0
+[s1_c03_v03]  Precision: 0.6154  Recall:1.0000  F1:0.7619  F2:0.8889 turk: 26 true: 16 match: 16 fp: 10 fn: 0
+[s1_c03_v04]  Precision: 0.3214  Recall:1.0000  F1:0.4865  F2:0.7031 turk: 28 true: 9 match: 9 fp: 19 fn: 0
+[s1_c03_v05]  Precision: 0.5714  Recall:0.8889  F1:0.6956  F2:0.8000 turk: 14 true: 9 match: 8 fp: 6 fn: 1
+[s1_c04_v01]  Precision: 0.6429  Recall:0.9310  F1:0.7606  F2:0.8544 turk: 42 true: 29 match: 27 fp: 15 fn: 2
+[s1_c04_v02]  Precision: 0.7333  Recall:0.5000  F1:0.5946  F2:0.5340 turk: 15 true: 22 match: 11 fp: 4 fn: 11
+[s1_c04_v03]  Precision: 0.6977  Recall:0.9091  F1:0.7895  F2:0.8572 turk: 43 true: 33 match: 30 fp: 13 fn: 3
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4000  Recall:1.0000  F1:0.5714  F2:0.7692 turk: 50 true: 20 match: 20 fp: 30 fn: 0
+[s1_c05_v01]  Precision: 0.4444  Recall:1.0000  F1:0.6153  F2:0.8000 turk: 27 true: 12 match: 12 fp: 15 fn: 0
+[s1_c05_v02]  Precision: 0.3913  Recall:1.0000  F1:0.5625  F2:0.7627 turk: 23 true: 9 match: 9 fp: 14 fn: 0
+[s1_c05_v03]  Precision: 0.3704  Recall:1.0000  F1:0.5406  F2:0.7463 turk: 27 true: 10 match: 10 fp: 17 fn: 0
+[s1_c05_v04]  Precision: 0.4211  Recall:0.9412  F1:0.5819  F2:0.7548 turk: 38 true: 17 match: 16 fp: 22 fn: 1
+[s1_c05_v05]  Precision: 0.6296  Recall:1.0000  F1:0.7727  F2:0.8947 turk: 27 true: 17 match: 17 fp: 10 fn: 0
+=====================================
+eps: 0.05 GLOBAL Precision: 0.4202 Recall:0.9178  F1:0.5765  F2:0.7421
+[s1_c01_v01]  Precision: 0.4375  Recall:1.0000  F1:0.6087  F2:0.7955 turk: 16 true: 7 match: 7 fp: 9 fn: 0
+[s1_c01_v02]  Precision: 0.5385  Recall:1.0000  F1:0.7000  F2:0.8537 turk: 26 true: 14 match: 14 fp: 12 fn: 0
+[s1_c01_v03]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 23 true: 10 match: 10 fp: 13 fn: 0
+[s1_c01_v04]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 12 true: 6 match: 6 fp: 6 fn: 0
+[s1_c01_v05]  Precision: 0.2222  Recall:1.0000  F1:0.3636  F2:0.5882 turk: 45 true: 10 match: 10 fp: 35 fn: 0
+[s1_c02_v01]  Precision: 0.3200  Recall:1.0000  F1:0.4848  F2:0.7018 turk: 50 true: 16 match: 16 fp: 34 fn: 0
+[s1_c02_v02]  Precision: 0.3548  Recall:0.5789  F1:0.4400  F2:0.5140 turk: 31 true: 19 match: 11 fp: 20 fn: 8
+[s1_c02_v03]  Precision: 0.2727  Recall:1.0000  F1:0.4285  F2:0.6521 turk: 33 true: 9 match: 9 fp: 24 fn: 0
+[s1_c02_v04]  Precision: 0.5000  Recall:0.9412  F1:0.6531  F2:0.8000 turk: 32 true: 17 match: 16 fp: 16 fn: 1
+[s1_c02_v05]  Precision: 0.4828  Recall:1.0000  F1:0.6512  F2:0.8236 turk: 29 true: 14 match: 14 fp: 15 fn: 0
+[s1_c03_v01]  Precision: 0.4706  Recall:1.0000  F1:0.6400  F2:0.8163 turk: 34 true: 16 match: 16 fp: 18 fn: 0
+[s1_c03_v02]  Precision: 0.3750  Recall:1.0000  F1:0.5455  F2:0.7500 turk: 32 true: 12 match: 12 fp: 20 fn: 0
+[s1_c03_v03]  Precision: 0.6400  Recall:1.0000  F1:0.7805  F2:0.8989 turk: 25 true: 16 match: 16 fp: 9 fn: 0
+[s1_c03_v04]  Precision: 0.3462  Recall:1.0000  F1:0.5143  F2:0.7258 turk: 26 true: 9 match: 9 fp: 17 fn: 0
+[s1_c03_v05]  Precision: 0.5333  Recall:0.8889  F1:0.6666  F2:0.7843 turk: 15 true: 9 match: 8 fp: 7 fn: 1
+[s1_c04_v01]  Precision: 0.6429  Recall:0.9310  F1:0.7606  F2:0.8544 turk: 42 true: 29 match: 27 fp: 15 fn: 2
+[s1_c04_v02]  Precision: 0.8667  Recall:0.5909  F1:0.7027  F2:0.6311 turk: 15 true: 22 match: 13 fp: 2 fn: 9
+[s1_c04_v03]  Precision: 0.6977  Recall:0.9091  F1:0.7895  F2:0.8572 turk: 43 true: 33 match: 30 fp: 13 fn: 3
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4167  Recall:1.0000  F1:0.5883  F2:0.7813 turk: 48 true: 20 match: 20 fp: 28 fn: 0
+[s1_c05_v01]  Precision: 0.4615  Recall:1.0000  F1:0.6315  F2:0.8108 turk: 26 true: 12 match: 12 fp: 14 fn: 0
+[s1_c05_v02]  Precision: 0.3750  Recall:1.0000  F1:0.5455  F2:0.7500 turk: 24 true: 9 match: 9 fp: 15 fn: 0
+[s1_c05_v03]  Precision: 0.3846  Recall:1.0000  F1:0.5555  F2:0.7576 turk: 26 true: 10 match: 10 fp: 16 fn: 0
+[s1_c05_v04]  Precision: 0.4474  Recall:1.0000  F1:0.6182  F2:0.8019 turk: 38 true: 17 match: 17 fp: 21 fn: 0
+[s1_c05_v05]  Precision: 0.5926  Recall:0.9412  F1:0.7273  F2:0.8421 turk: 27 true: 17 match: 16 fp: 11 fn: 1
+=====================================
+eps: 0.06 GLOBAL Precision: 0.4310 Recall:0.9292  F1:0.5889  F2:0.7547
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5385  Recall:1.0000  F1:0.7000  F2:0.8537 turk: 26 true: 14 match: 14 fp: 12 fn: 0
+[s1_c01_v03]  Precision: 0.4545  Recall:1.0000  F1:0.6250  F2:0.8064 turk: 22 true: 10 match: 10 fp: 12 fn: 0
+11.91 19
+Truth  Flatten Dough
+Turker making of neapolitan pizza
+41.295 48
+Truth  Add cheese
+Turker No rolling pin 
+Turker Add sauce
+71.885 68
+Truth  add olive oil
+Turker put oil on the dove
+Turker add basil leaves and oil
+54.565 62
+Truth  Add basil leaves
+Turker Add the cheese
+Turker make neopolitan pizza
+34.745 38
+Truth  Add sauce
+Turker Spread dough by hand.  No rolling pin may be used.
+Turker no rolling pin may be used
+153.52 153
+Truth  Pull Pizza out of oven
+Turker again role the pizza and put the plate 
+[s1_c01_v04]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 12 true: 6 match: 6 fp: 6 fn: 0
+[s1_c01_v05]  Precision: 0.2326  Recall:1.0000  F1:0.3774  F2:0.6025 turk: 43 true: 10 match: 10 fp: 33 fn: 0
+[s1_c02_v01]  Precision: 0.3265  Recall:1.0000  F1:0.4923  F2:0.7079 turk: 49 true: 16 match: 16 fp: 33 fn: 0
+[s1_c02_v02]  Precision: 0.3548  Recall:0.5789  F1:0.4400  F2:0.5140 turk: 31 true: 19 match: 11 fp: 20 fn: 8
+[s1_c02_v03]  Precision: 0.2727  Recall:1.0000  F1:0.4285  F2:0.6521 turk: 33 true: 9 match: 9 fp: 24 fn: 0
+[s1_c02_v04]  Precision: 0.5000  Recall:0.9412  F1:0.6531  F2:0.8000 turk: 32 true: 17 match: 16 fp: 16 fn: 1
+[s1_c02_v05]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 28 true: 14 match: 14 fp: 14 fn: 0
+[s1_c03_v01]  Precision: 0.4706  Recall:1.0000  F1:0.6400  F2:0.8163 turk: 34 true: 16 match: 16 fp: 18 fn: 0
+[s1_c03_v02]  Precision: 0.3750  Recall:1.0000  F1:0.5455  F2:0.7500 turk: 32 true: 12 match: 12 fp: 20 fn: 0
+[s1_c03_v03]  Precision: 0.6000  Recall:0.9375  F1:0.7317  F2:0.8427 turk: 25 true: 16 match: 15 fp: 10 fn: 1
+[s1_c03_v04]  Precision: 0.3462  Recall:1.0000  F1:0.5143  F2:0.7258 turk: 26 true: 9 match: 9 fp: 17 fn: 0
+[s1_c03_v05]  Precision: 0.5333  Recall:0.8889  F1:0.6666  F2:0.7843 turk: 15 true: 9 match: 8 fp: 7 fn: 1
+[s1_c04_v01]  Precision: 0.6429  Recall:0.9310  F1:0.7606  F2:0.8544 turk: 42 true: 29 match: 27 fp: 15 fn: 2
+[s1_c04_v02]  Precision: 0.8000  Recall:0.5455  F1:0.6487  F2:0.5826 turk: 15 true: 22 match: 12 fp: 3 fn: 10
+[s1_c04_v03]  Precision: 0.7442  Recall:0.9697  F1:0.8421  F2:0.9143 turk: 43 true: 33 match: 32 fp: 11 fn: 1
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4167  Recall:1.0000  F1:0.5883  F2:0.7813 turk: 48 true: 20 match: 20 fp: 28 fn: 0
+[s1_c05_v01]  Precision: 0.4444  Recall:1.0000  F1:0.6153  F2:0.8000 turk: 27 true: 12 match: 12 fp: 15 fn: 0
+[s1_c05_v02]  Precision: 0.3750  Recall:1.0000  F1:0.5455  F2:0.7500 turk: 24 true: 9 match: 9 fp: 15 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4103  Recall:0.9412  F1:0.5715  F2:0.7477 turk: 39 true: 17 match: 16 fp: 23 fn: 1
+[s1_c05_v05]  Precision: 0.6154  Recall:0.9412  F1:0.7442  F2:0.8511 turk: 26 true: 17 match: 16 fp: 10 fn: 1
+=====================================
+eps: 0.07 GLOBAL Precision: 0.4318 Recall:0.9235  F1:0.5885  F2:0.7522
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5200  Recall:0.9286  F1:0.6667  F2:0.8025 turk: 25 true: 14 match: 13 fp: 12 fn: 1
+[s1_c01_v03]  Precision: 0.4762  Recall:1.0000  F1:0.6452  F2:0.8197 turk: 21 true: 10 match: 10 fp: 11 fn: 0
+[s1_c01_v04]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 12 true: 6 match: 6 fp: 6 fn: 0
+[s1_c01_v05]  Precision: 0.2326  Recall:1.0000  F1:0.3774  F2:0.6025 turk: 43 true: 10 match: 10 fp: 33 fn: 0
+[s1_c02_v01]  Precision: 0.3061  Recall:0.9375  F1:0.4615  F2:0.6637 turk: 49 true: 16 match: 15 fp: 34 fn: 1
+[s1_c02_v02]  Precision: 0.3548  Recall:0.5789  F1:0.4400  F2:0.5140 turk: 31 true: 19 match: 11 fp: 20 fn: 8
+[s1_c02_v03]  Precision: 0.2727  Recall:1.0000  F1:0.4285  F2:0.6521 turk: 33 true: 9 match: 9 fp: 24 fn: 0
+[s1_c02_v04]  Precision: 0.5000  Recall:0.9412  F1:0.6531  F2:0.8000 turk: 32 true: 17 match: 16 fp: 16 fn: 1
+[s1_c02_v05]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 28 true: 14 match: 14 fp: 14 fn: 0
+[s1_c03_v01]  Precision: 0.4848  Recall:1.0000  F1:0.6530  F2:0.8247 turk: 33 true: 16 match: 16 fp: 17 fn: 0
+[s1_c03_v02]  Precision: 0.3750  Recall:1.0000  F1:0.5455  F2:0.7500 turk: 32 true: 12 match: 12 fp: 20 fn: 0
+[s1_c03_v03]  Precision: 0.6154  Recall:1.0000  F1:0.7619  F2:0.8889 turk: 26 true: 16 match: 16 fp: 10 fn: 0
+[s1_c03_v04]  Precision: 0.3462  Recall:1.0000  F1:0.5143  F2:0.7258 turk: 26 true: 9 match: 9 fp: 17 fn: 0
+[s1_c03_v05]  Precision: 0.5333  Recall:0.8889  F1:0.6666  F2:0.7843 turk: 15 true: 9 match: 8 fp: 7 fn: 1
+[s1_c04_v01]  Precision: 0.6429  Recall:0.9310  F1:0.7606  F2:0.8544 turk: 42 true: 29 match: 27 fp: 15 fn: 2
+[s1_c04_v02]  Precision: 0.8667  Recall:0.5909  F1:0.7027  F2:0.6311 turk: 15 true: 22 match: 13 fp: 2 fn: 9
+[s1_c04_v03]  Precision: 0.7381  Recall:0.9394  F1:0.8267  F2:0.8908 turk: 42 true: 33 match: 31 fp: 11 fn: 2
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4167  Recall:1.0000  F1:0.5883  F2:0.7813 turk: 48 true: 20 match: 20 fp: 28 fn: 0
+[s1_c05_v01]  Precision: 0.4444  Recall:1.0000  F1:0.6153  F2:0.8000 turk: 27 true: 12 match: 12 fp: 15 fn: 0
+[s1_c05_v02]  Precision: 0.3750  Recall:1.0000  F1:0.5455  F2:0.7500 turk: 24 true: 9 match: 9 fp: 15 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4359  Recall:1.0000  F1:0.6071  F2:0.7944 turk: 39 true: 17 match: 17 fp: 22 fn: 0
+[s1_c05_v05]  Precision: 0.5769  Recall:0.8824  F1:0.6977  F2:0.7979 turk: 26 true: 17 match: 15 fp: 11 fn: 2
+=====================================
+eps: 0.08 GLOBAL Precision: 0.4339 Recall:0.9207  F1:0.5898  F2:0.7520
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5417  Recall:0.9286  F1:0.6842  F2:0.8125 turk: 24 true: 14 match: 13 fp: 11 fn: 1
+[s1_c01_v03]  Precision: 0.4762  Recall:1.0000  F1:0.6452  F2:0.8197 turk: 21 true: 10 match: 10 fp: 11 fn: 0
+[s1_c01_v04]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 12 true: 6 match: 6 fp: 6 fn: 0
+[s1_c01_v05]  Precision: 0.2381  Recall:1.0000  F1:0.3846  F2:0.6098 turk: 42 true: 10 match: 10 fp: 32 fn: 0
+[s1_c02_v01]  Precision: 0.3265  Recall:1.0000  F1:0.4923  F2:0.7079 turk: 49 true: 16 match: 16 fp: 33 fn: 0
+[s1_c02_v02]  Precision: 0.3548  Recall:0.5789  F1:0.4400  F2:0.5140 turk: 31 true: 19 match: 11 fp: 20 fn: 8
+[s1_c02_v03]  Precision: 0.2727  Recall:1.0000  F1:0.4285  F2:0.6521 turk: 33 true: 9 match: 9 fp: 24 fn: 0
+[s1_c02_v04]  Precision: 0.5161  Recall:0.9412  F1:0.6666  F2:0.8081 turk: 31 true: 17 match: 16 fp: 15 fn: 1
+[s1_c02_v05]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 28 true: 14 match: 14 fp: 14 fn: 0
+[s1_c03_v01]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 32 true: 16 match: 16 fp: 16 fn: 0
+[s1_c03_v02]  Precision: 0.4000  Recall:1.0000  F1:0.5714  F2:0.7692 turk: 30 true: 12 match: 12 fp: 18 fn: 0
+[s1_c03_v03]  Precision: 0.6154  Recall:1.0000  F1:0.7619  F2:0.8889 turk: 26 true: 16 match: 16 fp: 10 fn: 0
+[s1_c03_v04]  Precision: 0.3333  Recall:1.0000  F1:0.5000  F2:0.7143 turk: 27 true: 9 match: 9 fp: 18 fn: 0
+[s1_c03_v05]  Precision: 0.5333  Recall:0.8889  F1:0.6666  F2:0.7843 turk: 15 true: 9 match: 8 fp: 7 fn: 1
+[s1_c04_v01]  Precision: 0.6429  Recall:0.9310  F1:0.7606  F2:0.8544 turk: 42 true: 29 match: 27 fp: 15 fn: 2
+[s1_c04_v02]  Precision: 0.8000  Recall:0.5455  F1:0.6487  F2:0.5826 turk: 15 true: 22 match: 12 fp: 3 fn: 10
+[s1_c04_v03]  Precision: 0.7143  Recall:0.9091  F1:0.8000  F2:0.8621 turk: 42 true: 33 match: 30 fp: 12 fn: 3
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4167  Recall:1.0000  F1:0.5883  F2:0.7813 turk: 48 true: 20 match: 20 fp: 28 fn: 0
+[s1_c05_v01]  Precision: 0.4615  Recall:1.0000  F1:0.6315  F2:0.8108 turk: 26 true: 12 match: 12 fp: 14 fn: 0
+[s1_c05_v02]  Precision: 0.3750  Recall:1.0000  F1:0.5455  F2:0.7500 turk: 24 true: 9 match: 9 fp: 15 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4474  Recall:1.0000  F1:0.6182  F2:0.8019 turk: 38 true: 17 match: 17 fp: 21 fn: 0
+[s1_c05_v05]  Precision: 0.5769  Recall:0.8824  F1:0.6977  F2:0.7979 turk: 26 true: 17 match: 15 fp: 11 fn: 2
+=====================================
+eps: 0.09 GLOBAL Precision: 0.4367 Recall:0.9178  F1:0.5918  F2:0.7521
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5833  Recall:1.0000  F1:0.7368  F2:0.8750 turk: 24 true: 14 match: 14 fp: 10 fn: 0
+[s1_c01_v03]  Precision: 0.4762  Recall:1.0000  F1:0.6452  F2:0.8197 turk: 21 true: 10 match: 10 fp: 11 fn: 0
+[s1_c01_v04]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 12 true: 6 match: 6 fp: 6 fn: 0
+[s1_c01_v05]  Precision: 0.2381  Recall:1.0000  F1:0.3846  F2:0.6098 turk: 42 true: 10 match: 10 fp: 32 fn: 0
+[s1_c02_v01]  Precision: 0.3200  Recall:1.0000  F1:0.4848  F2:0.7018 turk: 50 true: 16 match: 16 fp: 34 fn: 0
+[s1_c02_v02]  Precision: 0.3548  Recall:0.5789  F1:0.4400  F2:0.5140 turk: 31 true: 19 match: 11 fp: 20 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5333  Recall:0.9412  F1:0.6808  F2:0.8163 turk: 30 true: 17 match: 16 fp: 14 fn: 1
+[s1_c02_v05]  Precision: 0.5185  Recall:1.0000  F1:0.6829  F2:0.8434 turk: 27 true: 14 match: 14 fp: 13 fn: 0
+[s1_c03_v01]  Precision: 0.5161  Recall:1.0000  F1:0.6808  F2:0.8421 turk: 31 true: 16 match: 16 fp: 15 fn: 0
+[s1_c03_v02]  Precision: 0.4000  Recall:1.0000  F1:0.5714  F2:0.7692 turk: 30 true: 12 match: 12 fp: 18 fn: 0
+[s1_c03_v03]  Precision: 0.5769  Recall:0.9375  F1:0.7143  F2:0.8333 turk: 26 true: 16 match: 15 fp: 11 fn: 1
+[s1_c03_v04]  Precision: 0.3333  Recall:1.0000  F1:0.5000  F2:0.7143 turk: 27 true: 9 match: 9 fp: 18 fn: 0
+[s1_c03_v05]  Precision: 0.5714  Recall:0.8889  F1:0.6956  F2:0.8000 turk: 14 true: 9 match: 8 fp: 6 fn: 1
+[s1_c04_v01]  Precision: 0.6429  Recall:0.9310  F1:0.7606  F2:0.8544 turk: 42 true: 29 match: 27 fp: 15 fn: 2
+[s1_c04_v02]  Precision: 0.9286  Recall:0.5909  F1:0.7222  F2:0.6372 turk: 14 true: 22 match: 13 fp: 1 fn: 9
+[s1_c04_v03]  Precision: 0.7381  Recall:0.9394  F1:0.8267  F2:0.8908 turk: 42 true: 33 match: 31 fp: 11 fn: 2
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4167  Recall:1.0000  F1:0.5883  F2:0.7813 turk: 48 true: 20 match: 20 fp: 28 fn: 0
+[s1_c05_v01]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 24 true: 12 match: 12 fp: 12 fn: 0
+[s1_c05_v02]  Precision: 0.4091  Recall:1.0000  F1:0.5807  F2:0.7759 turk: 22 true: 9 match: 9 fp: 13 fn: 0
+[s1_c05_v03]  Precision: 0.4167  Recall:1.0000  F1:0.5883  F2:0.7813 turk: 24 true: 10 match: 10 fp: 14 fn: 0
+[s1_c05_v04]  Precision: 0.4211  Recall:0.9412  F1:0.5819  F2:0.7548 turk: 38 true: 17 match: 16 fp: 22 fn: 1
+[s1_c05_v05]  Precision: 0.6154  Recall:0.9412  F1:0.7442  F2:0.8511 turk: 26 true: 17 match: 16 fp: 10 fn: 1
+=====================================
+eps: 0.1 GLOBAL Precision: 0.4461 Recall:0.9263  F1:0.6022  F2:0.7622
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5455  Recall:0.8571  F1:0.6667  F2:0.7692 turk: 22 true: 14 match: 12 fp: 10 fn: 2
+[s1_c01_v03]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 20 true: 10 match: 10 fp: 10 fn: 0
+[s1_c01_v04]  Precision: 0.5455  Recall:1.0000  F1:0.7059  F2:0.8572 turk: 11 true: 6 match: 6 fp: 5 fn: 0
+[s1_c01_v05]  Precision: 0.2439  Recall:1.0000  F1:0.3922  F2:0.6173 turk: 41 true: 10 match: 10 fp: 31 fn: 0
+[s1_c02_v01]  Precision: 0.3061  Recall:0.9375  F1:0.4615  F2:0.6637 turk: 49 true: 16 match: 15 fp: 34 fn: 1
+[s1_c02_v02]  Precision: 0.3667  Recall:0.5789  F1:0.4490  F2:0.5189 turk: 30 true: 19 match: 11 fp: 19 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5517  Recall:0.9412  F1:0.6956  F2:0.8247 turk: 29 true: 17 match: 16 fp: 13 fn: 1
+[s1_c02_v05]  Precision: 0.5185  Recall:1.0000  F1:0.6829  F2:0.8434 turk: 27 true: 14 match: 14 fp: 13 fn: 0
+[s1_c03_v01]  Precision: 0.5161  Recall:1.0000  F1:0.6808  F2:0.8421 turk: 31 true: 16 match: 16 fp: 15 fn: 0
+[s1_c03_v02]  Precision: 0.4000  Recall:1.0000  F1:0.5714  F2:0.7692 turk: 30 true: 12 match: 12 fp: 18 fn: 0
+[s1_c03_v03]  Precision: 0.6154  Recall:1.0000  F1:0.7619  F2:0.8889 turk: 26 true: 16 match: 16 fp: 10 fn: 0
+[s1_c03_v04]  Precision: 0.3462  Recall:1.0000  F1:0.5143  F2:0.7258 turk: 26 true: 9 match: 9 fp: 17 fn: 0
+[s1_c03_v05]  Precision: 0.6154  Recall:0.8889  F1:0.7273  F2:0.8163 turk: 13 true: 9 match: 8 fp: 5 fn: 1
+[s1_c04_v01]  Precision: 0.6429  Recall:0.9310  F1:0.7606  F2:0.8544 turk: 42 true: 29 match: 27 fp: 15 fn: 2
+[s1_c04_v02]  Precision: 0.9286  Recall:0.5909  F1:0.7222  F2:0.6372 turk: 14 true: 22 match: 13 fp: 1 fn: 9
+[s1_c04_v03]  Precision: 0.7143  Recall:0.9091  F1:0.8000  F2:0.8621 turk: 42 true: 33 match: 30 fp: 12 fn: 3
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4255  Recall:1.0000  F1:0.5970  F2:0.7874 turk: 47 true: 20 match: 20 fp: 27 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4091  Recall:1.0000  F1:0.5807  F2:0.7759 turk: 22 true: 9 match: 9 fp: 13 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4474  Recall:1.0000  F1:0.6182  F2:0.8019 turk: 38 true: 17 match: 17 fp: 21 fn: 0
+[s1_c05_v05]  Precision: 0.6154  Recall:0.9412  F1:0.7442  F2:0.8511 turk: 26 true: 17 match: 16 fp: 10 fn: 1
+=====================================
+eps: 0.11 GLOBAL Precision: 0.4494 Recall:0.9178  F1:0.6034  F2:0.7595
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.6364  Recall:1.0000  F1:0.7778  F2:0.8975 turk: 22 true: 14 match: 14 fp: 8 fn: 0
+[s1_c01_v03]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 20 true: 10 match: 10 fp: 10 fn: 0
+[s1_c01_v04]  Precision: 0.5455  Recall:1.0000  F1:0.7059  F2:0.8572 turk: 11 true: 6 match: 6 fp: 5 fn: 0
+[s1_c01_v05]  Precision: 0.2439  Recall:1.0000  F1:0.3922  F2:0.6173 turk: 41 true: 10 match: 10 fp: 31 fn: 0
+[s1_c02_v01]  Precision: 0.3265  Recall:1.0000  F1:0.4923  F2:0.7079 turk: 49 true: 16 match: 16 fp: 33 fn: 0
+[s1_c02_v02]  Precision: 0.3793  Recall:0.5789  F1:0.4583  F2:0.5238 turk: 29 true: 19 match: 11 fp: 18 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5714  Recall:0.9412  F1:0.7111  F2:0.8333 turk: 28 true: 17 match: 16 fp: 12 fn: 1
+[s1_c02_v05]  Precision: 0.5185  Recall:1.0000  F1:0.6829  F2:0.8434 turk: 27 true: 14 match: 14 fp: 13 fn: 0
+[s1_c03_v01]  Precision: 0.5161  Recall:1.0000  F1:0.6808  F2:0.8421 turk: 31 true: 16 match: 16 fp: 15 fn: 0
+[s1_c03_v02]  Precision: 0.4000  Recall:1.0000  F1:0.5714  F2:0.7692 turk: 30 true: 12 match: 12 fp: 18 fn: 0
+[s1_c03_v03]  Precision: 0.6154  Recall:1.0000  F1:0.7619  F2:0.8889 turk: 26 true: 16 match: 16 fp: 10 fn: 0
+[s1_c03_v04]  Precision: 0.3600  Recall:1.0000  F1:0.5294  F2:0.7377 turk: 25 true: 9 match: 9 fp: 16 fn: 0
+[s1_c03_v05]  Precision: 0.6154  Recall:0.8889  F1:0.7273  F2:0.8163 turk: 13 true: 9 match: 8 fp: 5 fn: 1
+[s1_c04_v01]  Precision: 0.6341  Recall:0.8966  F1:0.7428  F2:0.8280 turk: 41 true: 29 match: 26 fp: 15 fn: 3
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7619  Recall:0.9697  F1:0.8533  F2:0.9195 turk: 42 true: 33 match: 32 fp: 10 fn: 1
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4500  Recall:1.0000  F1:0.6207  F2:0.8036 turk: 20 true: 9 match: 9 fp: 11 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4211  Recall:0.9412  F1:0.5819  F2:0.7548 turk: 38 true: 17 match: 16 fp: 22 fn: 1
+[s1_c05_v05]  Precision: 0.5769  Recall:0.8824  F1:0.6977  F2:0.7979 turk: 26 true: 17 match: 15 fp: 11 fn: 2
+=====================================
+eps: 0.12 GLOBAL Precision: 0.4565 Recall:0.9207  F1:0.6104  F2:0.7651
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5455  Recall:0.8571  F1:0.6667  F2:0.7692 turk: 22 true: 14 match: 12 fp: 10 fn: 2
+[s1_c01_v03]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 20 true: 10 match: 10 fp: 10 fn: 0
+[s1_c01_v04]  Precision: 0.5455  Recall:1.0000  F1:0.7059  F2:0.8572 turk: 11 true: 6 match: 6 fp: 5 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3265  Recall:1.0000  F1:0.4923  F2:0.7079 turk: 49 true: 16 match: 16 fp: 33 fn: 0
+[s1_c02_v02]  Precision: 0.3793  Recall:0.5789  F1:0.4583  F2:0.5238 turk: 29 true: 19 match: 11 fp: 18 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5556  Recall:0.8824  F1:0.6819  F2:0.7895 turk: 27 true: 17 match: 15 fp: 12 fn: 2
+[s1_c02_v05]  Precision: 0.5185  Recall:1.0000  F1:0.6829  F2:0.8434 turk: 27 true: 14 match: 14 fp: 13 fn: 0
+[s1_c03_v01]  Precision: 0.5161  Recall:1.0000  F1:0.6808  F2:0.8421 turk: 31 true: 16 match: 16 fp: 15 fn: 0
+[s1_c03_v02]  Precision: 0.4000  Recall:1.0000  F1:0.5714  F2:0.7692 turk: 30 true: 12 match: 12 fp: 18 fn: 0
+[s1_c03_v03]  Precision: 0.5769  Recall:0.9375  F1:0.7143  F2:0.8333 turk: 26 true: 16 match: 15 fp: 11 fn: 1
+[s1_c03_v04]  Precision: 0.3600  Recall:1.0000  F1:0.5294  F2:0.7377 turk: 25 true: 9 match: 9 fp: 16 fn: 0
+[s1_c03_v05]  Precision: 0.6154  Recall:0.8889  F1:0.7273  F2:0.8163 turk: 13 true: 9 match: 8 fp: 5 fn: 1
+[s1_c04_v01]  Precision: 0.6585  Recall:0.9310  F1:0.7714  F2:0.8598 turk: 41 true: 29 match: 27 fp: 14 fn: 2
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7381  Recall:0.9394  F1:0.8267  F2:0.8908 turk: 42 true: 33 match: 31 fp: 11 fn: 2
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4500  Recall:1.0000  F1:0.6207  F2:0.8036 turk: 20 true: 9 match: 9 fp: 11 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4474  Recall:1.0000  F1:0.6182  F2:0.8019 turk: 38 true: 17 match: 17 fp: 21 fn: 0
+[s1_c05_v05]  Precision: 0.6400  Recall:0.9412  F1:0.7619  F2:0.8602 turk: 25 true: 17 match: 16 fp: 9 fn: 1
+=====================================
+eps: 0.13 GLOBAL Precision: 0.4556 Recall:0.9150  F1:0.6083  F2:0.7614
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5909  Recall:0.9286  F1:0.7222  F2:0.8333 turk: 22 true: 14 match: 13 fp: 9 fn: 1
+[s1_c01_v03]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 20 true: 10 match: 10 fp: 10 fn: 0
+[s1_c01_v04]  Precision: 0.5455  Recall:1.0000  F1:0.7059  F2:0.8572 turk: 11 true: 6 match: 6 fp: 5 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3265  Recall:1.0000  F1:0.4923  F2:0.7079 turk: 49 true: 16 match: 16 fp: 33 fn: 0
+[s1_c02_v02]  Precision: 0.3793  Recall:0.5789  F1:0.4583  F2:0.5238 turk: 29 true: 19 match: 11 fp: 18 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5556  Recall:0.8824  F1:0.6819  F2:0.7895 turk: 27 true: 17 match: 15 fp: 12 fn: 2
+[s1_c02_v05]  Precision: 0.5385  Recall:1.0000  F1:0.7000  F2:0.8537 turk: 26 true: 14 match: 14 fp: 12 fn: 0
+[s1_c03_v01]  Precision: 0.5161  Recall:1.0000  F1:0.6808  F2:0.8421 turk: 31 true: 16 match: 16 fp: 15 fn: 0
+[s1_c03_v02]  Precision: 0.4000  Recall:1.0000  F1:0.5714  F2:0.7692 turk: 30 true: 12 match: 12 fp: 18 fn: 0
+[s1_c03_v03]  Precision: 0.6154  Recall:1.0000  F1:0.7619  F2:0.8889 turk: 26 true: 16 match: 16 fp: 10 fn: 0
+[s1_c03_v04]  Precision: 0.3600  Recall:1.0000  F1:0.5294  F2:0.7377 turk: 25 true: 9 match: 9 fp: 16 fn: 0
+[s1_c03_v05]  Precision: 0.5714  Recall:0.8889  F1:0.6956  F2:0.8000 turk: 14 true: 9 match: 8 fp: 6 fn: 1
+[s1_c04_v01]  Precision: 0.6585  Recall:0.9310  F1:0.7714  F2:0.8598 turk: 41 true: 29 match: 27 fp: 14 fn: 2
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7500  Recall:0.9091  F1:0.8219  F2:0.8721 turk: 40 true: 33 match: 30 fp: 10 fn: 3
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4500  Recall:1.0000  F1:0.6207  F2:0.8036 turk: 20 true: 9 match: 9 fp: 11 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4595  Recall:1.0000  F1:0.6297  F2:0.8095 turk: 37 true: 17 match: 17 fp: 20 fn: 0
+[s1_c05_v05]  Precision: 0.6800  Recall:1.0000  F1:0.8095  F2:0.9140 turk: 25 true: 17 match: 17 fp: 8 fn: 0
+=====================================
+eps: 0.14 GLOBAL Precision: 0.4603 Recall:0.9207  F1:0.6138  F2:0.7672
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.6364  Recall:1.0000  F1:0.7778  F2:0.8975 turk: 22 true: 14 match: 14 fp: 8 fn: 0
+[s1_c01_v03]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 20 true: 10 match: 10 fp: 10 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3265  Recall:1.0000  F1:0.4923  F2:0.7079 turk: 49 true: 16 match: 16 fp: 33 fn: 0
+[s1_c02_v02]  Precision: 0.3667  Recall:0.5789  F1:0.4490  F2:0.5189 turk: 30 true: 19 match: 11 fp: 19 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5185  Recall:0.8235  F1:0.6363  F2:0.7368 turk: 27 true: 17 match: 14 fp: 13 fn: 3
+[s1_c02_v05]  Precision: 0.5385  Recall:1.0000  F1:0.7000  F2:0.8537 turk: 26 true: 14 match: 14 fp: 12 fn: 0
+[s1_c03_v01]  Precision: 0.5161  Recall:1.0000  F1:0.6808  F2:0.8421 turk: 31 true: 16 match: 16 fp: 15 fn: 0
+[s1_c03_v02]  Precision: 0.4000  Recall:1.0000  F1:0.5714  F2:0.7692 turk: 30 true: 12 match: 12 fp: 18 fn: 0
+[s1_c03_v03]  Precision: 0.6154  Recall:1.0000  F1:0.7619  F2:0.8889 turk: 26 true: 16 match: 16 fp: 10 fn: 0
+[s1_c03_v04]  Precision: 0.3600  Recall:1.0000  F1:0.5294  F2:0.7377 turk: 25 true: 9 match: 9 fp: 16 fn: 0
+[s1_c03_v05]  Precision: 0.6154  Recall:0.8889  F1:0.7273  F2:0.8163 turk: 13 true: 9 match: 8 fp: 5 fn: 1
+[s1_c04_v01]  Precision: 0.6585  Recall:0.9310  F1:0.7714  F2:0.8598 turk: 41 true: 29 match: 27 fp: 14 fn: 2
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7250  Recall:0.8788  F1:0.7945  F2:0.8430 turk: 40 true: 33 match: 29 fp: 11 fn: 4
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4324  Recall:0.9412  F1:0.5926  F2:0.7619 turk: 37 true: 17 match: 16 fp: 21 fn: 1
+[s1_c05_v05]  Precision: 0.6800  Recall:1.0000  F1:0.8095  F2:0.9140 turk: 25 true: 17 match: 17 fp: 8 fn: 0
+=====================================
+eps: 0.15 GLOBAL Precision: 0.4588 Recall:0.9150  F1:0.6112  F2:0.7632
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.6364  Recall:1.0000  F1:0.7778  F2:0.8975 turk: 22 true: 14 match: 14 fp: 8 fn: 0
+[s1_c01_v03]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 20 true: 10 match: 10 fp: 10 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3265  Recall:1.0000  F1:0.4923  F2:0.7079 turk: 49 true: 16 match: 16 fp: 33 fn: 0
+[s1_c02_v02]  Precision: 0.3667  Recall:0.5789  F1:0.4490  F2:0.5189 turk: 30 true: 19 match: 11 fp: 19 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5556  Recall:0.8824  F1:0.6819  F2:0.7895 turk: 27 true: 17 match: 15 fp: 12 fn: 2
+[s1_c02_v05]  Precision: 0.5385  Recall:1.0000  F1:0.7000  F2:0.8537 turk: 26 true: 14 match: 14 fp: 12 fn: 0
+[s1_c03_v01]  Precision: 0.5161  Recall:1.0000  F1:0.6808  F2:0.8421 turk: 31 true: 16 match: 16 fp: 15 fn: 0
+[s1_c03_v02]  Precision: 0.4000  Recall:1.0000  F1:0.5714  F2:0.7692 turk: 30 true: 12 match: 12 fp: 18 fn: 0
+[s1_c03_v03]  Precision: 0.6000  Recall:0.9375  F1:0.7317  F2:0.8427 turk: 25 true: 16 match: 15 fp: 10 fn: 1
+[s1_c03_v04]  Precision: 0.3600  Recall:1.0000  F1:0.5294  F2:0.7377 turk: 25 true: 9 match: 9 fp: 16 fn: 0
+[s1_c03_v05]  Precision: 0.6154  Recall:0.8889  F1:0.7273  F2:0.8163 turk: 13 true: 9 match: 8 fp: 5 fn: 1
+[s1_c04_v01]  Precision: 0.6585  Recall:0.9310  F1:0.7714  F2:0.8598 turk: 41 true: 29 match: 27 fp: 14 fn: 2
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7000  Recall:0.8485  F1:0.7671  F2:0.8140 turk: 40 true: 33 match: 28 fp: 12 fn: 5
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.4167  Recall:1.0000  F1:0.5883  F2:0.7813 turk: 24 true: 10 match: 10 fp: 14 fn: 0
+[s1_c05_v04]  Precision: 0.4324  Recall:0.9412  F1:0.5926  F2:0.7619 turk: 37 true: 17 match: 16 fp: 21 fn: 1
+[s1_c05_v05]  Precision: 0.6000  Recall:0.8824  F1:0.7143  F2:0.8065 turk: 25 true: 17 match: 15 fp: 10 fn: 2
+=====================================
+eps: 0.16 GLOBAL Precision: 0.4566 Recall:0.9093  F1:0.6079  F2:0.7588
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5455  Recall:0.8571  F1:0.6667  F2:0.7692 turk: 22 true: 14 match: 12 fp: 10 fn: 2
+[s1_c01_v03]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 20 true: 10 match: 10 fp: 10 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3265  Recall:1.0000  F1:0.4923  F2:0.7079 turk: 49 true: 16 match: 16 fp: 33 fn: 0
+[s1_c02_v02]  Precision: 0.3667  Recall:0.5789  F1:0.4490  F2:0.5189 turk: 30 true: 19 match: 11 fp: 19 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5556  Recall:0.8824  F1:0.6819  F2:0.7895 turk: 27 true: 17 match: 15 fp: 12 fn: 2
+[s1_c02_v05]  Precision: 0.5200  Recall:0.9286  F1:0.6667  F2:0.8025 turk: 25 true: 14 match: 13 fp: 12 fn: 1
+[s1_c03_v01]  Precision: 0.5333  Recall:1.0000  F1:0.6956  F2:0.8510 turk: 30 true: 16 match: 16 fp: 14 fn: 0
+[s1_c03_v02]  Precision: 0.4000  Recall:1.0000  F1:0.5714  F2:0.7692 turk: 30 true: 12 match: 12 fp: 18 fn: 0
+[s1_c03_v03]  Precision: 0.6000  Recall:0.9375  F1:0.7317  F2:0.8427 turk: 25 true: 16 match: 15 fp: 10 fn: 1
+[s1_c03_v04]  Precision: 0.3600  Recall:1.0000  F1:0.5294  F2:0.7377 turk: 25 true: 9 match: 9 fp: 16 fn: 0
+[s1_c03_v05]  Precision: 0.6923  Recall:1.0000  F1:0.8182  F2:0.9184 turk: 13 true: 9 match: 9 fp: 4 fn: 0
+[s1_c04_v01]  Precision: 0.6585  Recall:0.9310  F1:0.7714  F2:0.8598 turk: 41 true: 29 match: 27 fp: 14 fn: 2
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7000  Recall:0.8485  F1:0.7671  F2:0.8140 turk: 40 true: 33 match: 28 fp: 12 fn: 5
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.4167  Recall:1.0000  F1:0.5883  F2:0.7813 turk: 24 true: 10 match: 10 fp: 14 fn: 0
+[s1_c05_v04]  Precision: 0.4595  Recall:1.0000  F1:0.6297  F2:0.8095 turk: 37 true: 17 match: 17 fp: 20 fn: 0
+[s1_c05_v05]  Precision: 0.6000  Recall:0.8824  F1:0.7143  F2:0.8065 turk: 25 true: 17 match: 15 fp: 10 fn: 2
+=====================================
+eps: 0.17 GLOBAL Precision: 0.4565 Recall:0.9065  F1:0.6072  F2:0.7572
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5909  Recall:0.9286  F1:0.7222  F2:0.8333 turk: 22 true: 14 match: 13 fp: 9 fn: 1
+[s1_c01_v03]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 20 true: 10 match: 10 fp: 10 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3265  Recall:1.0000  F1:0.4923  F2:0.7079 turk: 49 true: 16 match: 16 fp: 33 fn: 0
+[s1_c02_v02]  Precision: 0.3667  Recall:0.5789  F1:0.4490  F2:0.5189 turk: 30 true: 19 match: 11 fp: 19 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5556  Recall:0.8824  F1:0.6819  F2:0.7895 turk: 27 true: 17 match: 15 fp: 12 fn: 2
+[s1_c02_v05]  Precision: 0.5200  Recall:0.9286  F1:0.6667  F2:0.8025 turk: 25 true: 14 match: 13 fp: 12 fn: 1
+[s1_c03_v01]  Precision: 0.5333  Recall:1.0000  F1:0.6956  F2:0.8510 turk: 30 true: 16 match: 16 fp: 14 fn: 0
+[s1_c03_v02]  Precision: 0.4000  Recall:1.0000  F1:0.5714  F2:0.7692 turk: 30 true: 12 match: 12 fp: 18 fn: 0
+[s1_c03_v03]  Precision: 0.6400  Recall:1.0000  F1:0.7805  F2:0.8989 turk: 25 true: 16 match: 16 fp: 9 fn: 0
+[s1_c03_v04]  Precision: 0.3600  Recall:1.0000  F1:0.5294  F2:0.7377 turk: 25 true: 9 match: 9 fp: 16 fn: 0
+[s1_c03_v05]  Precision: 0.6923  Recall:1.0000  F1:0.8182  F2:0.9184 turk: 13 true: 9 match: 9 fp: 4 fn: 0
+[s1_c04_v01]  Precision: 0.6585  Recall:0.9310  F1:0.7714  F2:0.8598 turk: 41 true: 29 match: 27 fp: 14 fn: 2
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7000  Recall:0.8485  F1:0.7671  F2:0.8140 turk: 40 true: 33 match: 28 fp: 12 fn: 5
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4722  Recall:1.0000  F1:0.6415  F2:0.8173 turk: 36 true: 17 match: 17 fp: 19 fn: 0
+[s1_c05_v05]  Precision: 0.6000  Recall:0.8824  F1:0.7143  F2:0.8065 turk: 25 true: 17 match: 15 fp: 10 fn: 2
+=====================================
+eps: 0.18 GLOBAL Precision: 0.4586 Recall:0.9093  F1:0.6097  F2:0.7599
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5909  Recall:0.9286  F1:0.7222  F2:0.8333 turk: 22 true: 14 match: 13 fp: 9 fn: 1
+[s1_c01_v03]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 20 true: 10 match: 10 fp: 10 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3265  Recall:1.0000  F1:0.4923  F2:0.7079 turk: 49 true: 16 match: 16 fp: 33 fn: 0
+[s1_c02_v02]  Precision: 0.3793  Recall:0.5789  F1:0.4583  F2:0.5238 turk: 29 true: 19 match: 11 fp: 18 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5556  Recall:0.8824  F1:0.6819  F2:0.7895 turk: 27 true: 17 match: 15 fp: 12 fn: 2
+[s1_c02_v05]  Precision: 0.5200  Recall:0.9286  F1:0.6667  F2:0.8025 turk: 25 true: 14 match: 13 fp: 12 fn: 1
+[s1_c03_v01]  Precision: 0.5333  Recall:1.0000  F1:0.6956  F2:0.8510 turk: 30 true: 16 match: 16 fp: 14 fn: 0
+[s1_c03_v02]  Precision: 0.4138  Recall:1.0000  F1:0.5854  F2:0.7792 turk: 29 true: 12 match: 12 fp: 17 fn: 0
+[s1_c03_v03]  Precision: 0.6400  Recall:1.0000  F1:0.7805  F2:0.8989 turk: 25 true: 16 match: 16 fp: 9 fn: 0
+[s1_c03_v04]  Precision: 0.3600  Recall:1.0000  F1:0.5294  F2:0.7377 turk: 25 true: 9 match: 9 fp: 16 fn: 0
+[s1_c03_v05]  Precision: 0.6154  Recall:0.8889  F1:0.7273  F2:0.8163 turk: 13 true: 9 match: 8 fp: 5 fn: 1
+[s1_c04_v01]  Precision: 0.6585  Recall:0.9310  F1:0.7714  F2:0.8598 turk: 41 true: 29 match: 27 fp: 14 fn: 2
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7000  Recall:0.8485  F1:0.7671  F2:0.8140 turk: 40 true: 33 match: 28 fp: 12 fn: 5
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.4167  Recall:1.0000  F1:0.5883  F2:0.7813 turk: 24 true: 10 match: 10 fp: 14 fn: 0
+[s1_c05_v04]  Precision: 0.4722  Recall:1.0000  F1:0.6415  F2:0.8173 turk: 36 true: 17 match: 17 fp: 19 fn: 0
+[s1_c05_v05]  Precision: 0.6400  Recall:0.9412  F1:0.7619  F2:0.8602 turk: 25 true: 17 match: 16 fp: 9 fn: 1
+=====================================
+eps: 0.19 GLOBAL Precision: 0.4613 Recall:0.9122  F1:0.6127  F2:0.7630
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5909  Recall:0.9286  F1:0.7222  F2:0.8333 turk: 22 true: 14 match: 13 fp: 9 fn: 1
+[s1_c01_v03]  Precision: 0.5263  Recall:1.0000  F1:0.6896  F2:0.8474 turk: 19 true: 10 match: 10 fp: 9 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3265  Recall:1.0000  F1:0.4923  F2:0.7079 turk: 49 true: 16 match: 16 fp: 33 fn: 0
+[s1_c02_v02]  Precision: 0.3793  Recall:0.5789  F1:0.4583  F2:0.5238 turk: 29 true: 19 match: 11 fp: 18 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5556  Recall:0.8824  F1:0.6819  F2:0.7895 turk: 27 true: 17 match: 15 fp: 12 fn: 2
+[s1_c02_v05]  Precision: 0.5200  Recall:0.9286  F1:0.6667  F2:0.8025 turk: 25 true: 14 match: 13 fp: 12 fn: 1
+[s1_c03_v01]  Precision: 0.5333  Recall:1.0000  F1:0.6956  F2:0.8510 turk: 30 true: 16 match: 16 fp: 14 fn: 0
+[s1_c03_v02]  Precision: 0.4138  Recall:1.0000  F1:0.5854  F2:0.7792 turk: 29 true: 12 match: 12 fp: 17 fn: 0
+[s1_c03_v03]  Precision: 0.6400  Recall:1.0000  F1:0.7805  F2:0.8989 turk: 25 true: 16 match: 16 fp: 9 fn: 0
+[s1_c03_v04]  Precision: 0.3750  Recall:1.0000  F1:0.5455  F2:0.7500 turk: 24 true: 9 match: 9 fp: 15 fn: 0
+[s1_c03_v05]  Precision: 0.6154  Recall:0.8889  F1:0.7273  F2:0.8163 turk: 13 true: 9 match: 8 fp: 5 fn: 1
+[s1_c04_v01]  Precision: 0.6585  Recall:0.9310  F1:0.7714  F2:0.8598 turk: 41 true: 29 match: 27 fp: 14 fn: 2
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7000  Recall:0.8485  F1:0.7671  F2:0.8140 turk: 40 true: 33 match: 28 fp: 12 fn: 5
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4444  Recall:0.9412  F1:0.6037  F2:0.7692 turk: 36 true: 17 match: 16 fp: 20 fn: 1
+[s1_c05_v05]  Precision: 0.6400  Recall:0.9412  F1:0.7619  F2:0.8602 turk: 25 true: 17 match: 16 fp: 9 fn: 1
+=====================================
+eps: 0.2 GLOBAL Precision: 0.4598 Recall:0.9065  F1:0.6101  F2:0.7590
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5909  Recall:0.9286  F1:0.7222  F2:0.8333 turk: 22 true: 14 match: 13 fp: 9 fn: 1
+[s1_c01_v03]  Precision: 0.5263  Recall:1.0000  F1:0.6896  F2:0.8474 turk: 19 true: 10 match: 10 fp: 9 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3265  Recall:1.0000  F1:0.4923  F2:0.7079 turk: 49 true: 16 match: 16 fp: 33 fn: 0
+[s1_c02_v02]  Precision: 0.3929  Recall:0.5789  F1:0.4681  F2:0.5288 turk: 28 true: 19 match: 11 fp: 17 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5556  Recall:0.8824  F1:0.6819  F2:0.7895 turk: 27 true: 17 match: 15 fp: 12 fn: 2
+[s1_c02_v05]  Precision: 0.5417  Recall:0.9286  F1:0.6842  F2:0.8125 turk: 24 true: 14 match: 13 fp: 11 fn: 1
+[s1_c03_v01]  Precision: 0.5333  Recall:1.0000  F1:0.6956  F2:0.8510 turk: 30 true: 16 match: 16 fp: 14 fn: 0
+[s1_c03_v02]  Precision: 0.4138  Recall:1.0000  F1:0.5854  F2:0.7792 turk: 29 true: 12 match: 12 fp: 17 fn: 0
+[s1_c03_v03]  Precision: 0.6000  Recall:0.9375  F1:0.7317  F2:0.8427 turk: 25 true: 16 match: 15 fp: 10 fn: 1
+[s1_c03_v04]  Precision: 0.3913  Recall:1.0000  F1:0.5625  F2:0.7627 turk: 23 true: 9 match: 9 fp: 14 fn: 0
+[s1_c03_v05]  Precision: 0.6154  Recall:0.8889  F1:0.7273  F2:0.8163 turk: 13 true: 9 match: 8 fp: 5 fn: 1
+[s1_c04_v01]  Precision: 0.6500  Recall:0.8966  F1:0.7536  F2:0.8334 turk: 40 true: 29 match: 26 fp: 14 fn: 3
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7000  Recall:0.8485  F1:0.7671  F2:0.8140 turk: 40 true: 33 match: 28 fp: 12 fn: 5
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4722  Recall:1.0000  F1:0.6415  F2:0.8173 turk: 36 true: 17 match: 17 fp: 19 fn: 0
+[s1_c05_v05]  Precision: 0.6400  Recall:0.9412  F1:0.7619  F2:0.8602 turk: 25 true: 17 match: 16 fp: 9 fn: 1
+=====================================
+eps: 0.21 GLOBAL Precision: 0.4610 Recall:0.9037  F1:0.6105  F2:0.7581
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5909  Recall:0.9286  F1:0.7222  F2:0.8333 turk: 22 true: 14 match: 13 fp: 9 fn: 1
+[s1_c01_v03]  Precision: 0.5263  Recall:1.0000  F1:0.6896  F2:0.8474 turk: 19 true: 10 match: 10 fp: 9 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3125  Recall:0.9375  F1:0.4688  F2:0.6696 turk: 48 true: 16 match: 15 fp: 33 fn: 1
+[s1_c02_v02]  Precision: 0.3929  Recall:0.5789  F1:0.4681  F2:0.5288 turk: 28 true: 19 match: 11 fp: 17 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5556  Recall:0.8824  F1:0.6819  F2:0.7895 turk: 27 true: 17 match: 15 fp: 12 fn: 2
+[s1_c02_v05]  Precision: 0.5417  Recall:0.9286  F1:0.6842  F2:0.8125 turk: 24 true: 14 match: 13 fp: 11 fn: 1
+[s1_c03_v01]  Precision: 0.5333  Recall:1.0000  F1:0.6956  F2:0.8510 turk: 30 true: 16 match: 16 fp: 14 fn: 0
+[s1_c03_v02]  Precision: 0.4138  Recall:1.0000  F1:0.5854  F2:0.7792 turk: 29 true: 12 match: 12 fp: 17 fn: 0
+[s1_c03_v03]  Precision: 0.6400  Recall:1.0000  F1:0.7805  F2:0.8989 turk: 25 true: 16 match: 16 fp: 9 fn: 0
+[s1_c03_v04]  Precision: 0.3913  Recall:1.0000  F1:0.5625  F2:0.7627 turk: 23 true: 9 match: 9 fp: 14 fn: 0
+[s1_c03_v05]  Precision: 0.6154  Recall:0.8889  F1:0.7273  F2:0.8163 turk: 13 true: 9 match: 8 fp: 5 fn: 1
+[s1_c04_v01]  Precision: 0.6500  Recall:0.8966  F1:0.7536  F2:0.8334 turk: 40 true: 29 match: 26 fp: 14 fn: 3
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7000  Recall:0.8485  F1:0.7671  F2:0.8140 turk: 40 true: 33 match: 28 fp: 12 fn: 5
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4722  Recall:1.0000  F1:0.6415  F2:0.8173 turk: 36 true: 17 match: 17 fp: 19 fn: 0
+[s1_c05_v05]  Precision: 0.6400  Recall:0.9412  F1:0.7619  F2:0.8602 turk: 25 true: 17 match: 16 fp: 9 fn: 1
+=====================================
+eps: 0.22 GLOBAL Precision: 0.4616 Recall:0.9037  F1:0.6111  F2:0.7584
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5909  Recall:0.9286  F1:0.7222  F2:0.8333 turk: 22 true: 14 match: 13 fp: 9 fn: 1
+[s1_c01_v03]  Precision: 0.5263  Recall:1.0000  F1:0.6896  F2:0.8474 turk: 19 true: 10 match: 10 fp: 9 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3333  Recall:1.0000  F1:0.5000  F2:0.7143 turk: 48 true: 16 match: 16 fp: 32 fn: 0
+[s1_c02_v02]  Precision: 0.3929  Recall:0.5789  F1:0.4681  F2:0.5288 turk: 28 true: 19 match: 11 fp: 17 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5556  Recall:0.8824  F1:0.6819  F2:0.7895 turk: 27 true: 17 match: 15 fp: 12 fn: 2
+[s1_c02_v05]  Precision: 0.5417  Recall:0.9286  F1:0.6842  F2:0.8125 turk: 24 true: 14 match: 13 fp: 11 fn: 1
+[s1_c03_v01]  Precision: 0.5333  Recall:1.0000  F1:0.6956  F2:0.8510 turk: 30 true: 16 match: 16 fp: 14 fn: 0
+[s1_c03_v02]  Precision: 0.4138  Recall:1.0000  F1:0.5854  F2:0.7792 turk: 29 true: 12 match: 12 fp: 17 fn: 0
+[s1_c03_v03]  Precision: 0.6400  Recall:1.0000  F1:0.7805  F2:0.8989 turk: 25 true: 16 match: 16 fp: 9 fn: 0
+[s1_c03_v04]  Precision: 0.3913  Recall:1.0000  F1:0.5625  F2:0.7627 turk: 23 true: 9 match: 9 fp: 14 fn: 0
+[s1_c03_v05]  Precision: 0.6667  Recall:0.8889  F1:0.7619  F2:0.8334 turk: 12 true: 9 match: 8 fp: 4 fn: 1
+[s1_c04_v01]  Precision: 0.6500  Recall:0.8966  F1:0.7536  F2:0.8334 turk: 40 true: 29 match: 26 fp: 14 fn: 3
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7000  Recall:0.8485  F1:0.7671  F2:0.8140 turk: 40 true: 33 match: 28 fp: 12 fn: 5
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.4167  Recall:1.0000  F1:0.5883  F2:0.7813 turk: 24 true: 10 match: 10 fp: 14 fn: 0
+[s1_c05_v04]  Precision: 0.4722  Recall:1.0000  F1:0.6415  F2:0.8173 turk: 36 true: 17 match: 17 fp: 19 fn: 0
+[s1_c05_v05]  Precision: 0.6400  Recall:0.9412  F1:0.7619  F2:0.8602 turk: 25 true: 17 match: 16 fp: 9 fn: 1
+=====================================
+eps: 0.23 GLOBAL Precision: 0.4652 Recall:0.9093  F1:0.6155  F2:0.7635
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5909  Recall:0.9286  F1:0.7222  F2:0.8333 turk: 22 true: 14 match: 13 fp: 9 fn: 1
+[s1_c01_v03]  Precision: 0.5263  Recall:1.0000  F1:0.6896  F2:0.8474 turk: 19 true: 10 match: 10 fp: 9 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3333  Recall:1.0000  F1:0.5000  F2:0.7143 turk: 48 true: 16 match: 16 fp: 32 fn: 0
+[s1_c02_v02]  Precision: 0.3929  Recall:0.5789  F1:0.4681  F2:0.5288 turk: 28 true: 19 match: 11 fp: 17 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5556  Recall:0.8824  F1:0.6819  F2:0.7895 turk: 27 true: 17 match: 15 fp: 12 fn: 2
+[s1_c02_v05]  Precision: 0.5417  Recall:0.9286  F1:0.6842  F2:0.8125 turk: 24 true: 14 match: 13 fp: 11 fn: 1
+[s1_c03_v01]  Precision: 0.5517  Recall:1.0000  F1:0.7111  F2:0.8602 turk: 29 true: 16 match: 16 fp: 13 fn: 0
+[s1_c03_v02]  Precision: 0.4138  Recall:1.0000  F1:0.5854  F2:0.7792 turk: 29 true: 12 match: 12 fp: 17 fn: 0
+[s1_c03_v03]  Precision: 0.6400  Recall:1.0000  F1:0.7805  F2:0.8989 turk: 25 true: 16 match: 16 fp: 9 fn: 0
+[s1_c03_v04]  Precision: 0.3913  Recall:1.0000  F1:0.5625  F2:0.7627 turk: 23 true: 9 match: 9 fp: 14 fn: 0
+[s1_c03_v05]  Precision: 0.6667  Recall:0.8889  F1:0.7619  F2:0.8334 turk: 12 true: 9 match: 8 fp: 4 fn: 1
+[s1_c04_v01]  Precision: 0.6500  Recall:0.8966  F1:0.7536  F2:0.8334 turk: 40 true: 29 match: 26 fp: 14 fn: 3
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7000  Recall:0.8485  F1:0.7671  F2:0.8140 turk: 40 true: 33 match: 28 fp: 12 fn: 5
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4722  Recall:1.0000  F1:0.6415  F2:0.8173 turk: 36 true: 17 match: 17 fp: 19 fn: 0
+[s1_c05_v05]  Precision: 0.6400  Recall:0.9412  F1:0.7619  F2:0.8602 turk: 25 true: 17 match: 16 fp: 9 fn: 1
+=====================================
+eps: 0.24 GLOBAL Precision: 0.4644 Recall:0.9065  F1:0.6142  F2:0.7615
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5909  Recall:0.9286  F1:0.7222  F2:0.8333 turk: 22 true: 14 match: 13 fp: 9 fn: 1
+[s1_c01_v03]  Precision: 0.5263  Recall:1.0000  F1:0.6896  F2:0.8474 turk: 19 true: 10 match: 10 fp: 9 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3125  Recall:0.9375  F1:0.4688  F2:0.6696 turk: 48 true: 16 match: 15 fp: 33 fn: 1
+[s1_c02_v02]  Precision: 0.3929  Recall:0.5789  F1:0.4681  F2:0.5288 turk: 28 true: 19 match: 11 fp: 17 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5556  Recall:0.8824  F1:0.6819  F2:0.7895 turk: 27 true: 17 match: 15 fp: 12 fn: 2
+[s1_c02_v05]  Precision: 0.5417  Recall:0.9286  F1:0.6842  F2:0.8125 turk: 24 true: 14 match: 13 fp: 11 fn: 1
+[s1_c03_v01]  Precision: 0.5714  Recall:1.0000  F1:0.7272  F2:0.8696 turk: 28 true: 16 match: 16 fp: 12 fn: 0
+[s1_c03_v02]  Precision: 0.4138  Recall:1.0000  F1:0.5854  F2:0.7792 turk: 29 true: 12 match: 12 fp: 17 fn: 0
+[s1_c03_v03]  Precision: 0.6400  Recall:1.0000  F1:0.7805  F2:0.8989 turk: 25 true: 16 match: 16 fp: 9 fn: 0
+[s1_c03_v04]  Precision: 0.3913  Recall:1.0000  F1:0.5625  F2:0.7627 turk: 23 true: 9 match: 9 fp: 14 fn: 0
+[s1_c03_v05]  Precision: 0.7500  Recall:1.0000  F1:0.8571  F2:0.9375 turk: 12 true: 9 match: 9 fp: 3 fn: 0
+[s1_c04_v01]  Precision: 0.6500  Recall:0.8966  F1:0.7536  F2:0.8334 turk: 40 true: 29 match: 26 fp: 14 fn: 3
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7000  Recall:0.8485  F1:0.7671  F2:0.8140 turk: 40 true: 33 match: 28 fp: 12 fn: 5
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.4167  Recall:1.0000  F1:0.5883  F2:0.7813 turk: 24 true: 10 match: 10 fp: 14 fn: 0
+[s1_c05_v04]  Precision: 0.4722  Recall:1.0000  F1:0.6415  F2:0.8173 turk: 36 true: 17 match: 17 fp: 19 fn: 0
+[s1_c05_v05]  Precision: 0.6400  Recall:0.9412  F1:0.7619  F2:0.8602 turk: 25 true: 17 match: 16 fp: 9 fn: 1
+=====================================
+eps: 0.25 GLOBAL Precision: 0.4666 Recall:0.9093  F1:0.6167  F2:0.7643
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5909  Recall:0.9286  F1:0.7222  F2:0.8333 turk: 22 true: 14 match: 13 fp: 9 fn: 1
+[s1_c01_v03]  Precision: 0.5263  Recall:1.0000  F1:0.6896  F2:0.8474 turk: 19 true: 10 match: 10 fp: 9 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3191  Recall:0.9375  F1:0.4761  F2:0.6756 turk: 47 true: 16 match: 15 fp: 32 fn: 1
+[s1_c02_v02]  Precision: 0.3929  Recall:0.5789  F1:0.4681  F2:0.5288 turk: 28 true: 19 match: 11 fp: 17 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5185  Recall:0.8235  F1:0.6363  F2:0.7368 turk: 27 true: 17 match: 14 fp: 13 fn: 3
+[s1_c02_v05]  Precision: 0.5417  Recall:0.9286  F1:0.6842  F2:0.8125 turk: 24 true: 14 match: 13 fp: 11 fn: 1
+[s1_c03_v01]  Precision: 0.5714  Recall:1.0000  F1:0.7272  F2:0.8696 turk: 28 true: 16 match: 16 fp: 12 fn: 0
+[s1_c03_v02]  Precision: 0.4138  Recall:1.0000  F1:0.5854  F2:0.7792 turk: 29 true: 12 match: 12 fp: 17 fn: 0
+[s1_c03_v03]  Precision: 0.6000  Recall:0.9375  F1:0.7317  F2:0.8427 turk: 25 true: 16 match: 15 fp: 10 fn: 1
+[s1_c03_v04]  Precision: 0.3913  Recall:1.0000  F1:0.5625  F2:0.7627 turk: 23 true: 9 match: 9 fp: 14 fn: 0
+[s1_c03_v05]  Precision: 0.7500  Recall:1.0000  F1:0.8571  F2:0.9375 turk: 12 true: 9 match: 9 fp: 3 fn: 0
+[s1_c04_v01]  Precision: 0.6500  Recall:0.8966  F1:0.7536  F2:0.8334 turk: 40 true: 29 match: 26 fp: 14 fn: 3
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7000  Recall:0.8485  F1:0.7671  F2:0.8140 turk: 40 true: 33 match: 28 fp: 12 fn: 5
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4444  Recall:0.9412  F1:0.6037  F2:0.7692 turk: 36 true: 17 match: 16 fp: 20 fn: 1
+[s1_c05_v05]  Precision: 0.6400  Recall:0.9412  F1:0.7619  F2:0.8602 turk: 25 true: 17 match: 16 fp: 9 fn: 1
+=====================================
+eps: 0.26 GLOBAL Precision: 0.4614 Recall:0.8980  F1:0.6096  F2:0.7551
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5909  Recall:0.9286  F1:0.7222  F2:0.8333 turk: 22 true: 14 match: 13 fp: 9 fn: 1
+[s1_c01_v03]  Precision: 0.5556  Recall:1.0000  F1:0.7143  F2:0.8621 turk: 18 true: 10 match: 10 fp: 8 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3191  Recall:0.9375  F1:0.4761  F2:0.6756 turk: 47 true: 16 match: 15 fp: 32 fn: 1
+[s1_c02_v02]  Precision: 0.3929  Recall:0.5789  F1:0.4681  F2:0.5288 turk: 28 true: 19 match: 11 fp: 17 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5556  Recall:0.8824  F1:0.6819  F2:0.7895 turk: 27 true: 17 match: 15 fp: 12 fn: 2
+[s1_c02_v05]  Precision: 0.5417  Recall:0.9286  F1:0.6842  F2:0.8125 turk: 24 true: 14 match: 13 fp: 11 fn: 1
+[s1_c03_v01]  Precision: 0.5714  Recall:1.0000  F1:0.7272  F2:0.8696 turk: 28 true: 16 match: 16 fp: 12 fn: 0
+[s1_c03_v02]  Precision: 0.4138  Recall:1.0000  F1:0.5854  F2:0.7792 turk: 29 true: 12 match: 12 fp: 17 fn: 0
+[s1_c03_v03]  Precision: 0.6400  Recall:1.0000  F1:0.7805  F2:0.8989 turk: 25 true: 16 match: 16 fp: 9 fn: 0
+[s1_c03_v04]  Precision: 0.3913  Recall:1.0000  F1:0.5625  F2:0.7627 turk: 23 true: 9 match: 9 fp: 14 fn: 0
+[s1_c03_v05]  Precision: 0.6667  Recall:0.8889  F1:0.7619  F2:0.8334 turk: 12 true: 9 match: 8 fp: 4 fn: 1
+[s1_c04_v01]  Precision: 0.6500  Recall:0.8966  F1:0.7536  F2:0.8334 turk: 40 true: 29 match: 26 fp: 14 fn: 3
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7000  Recall:0.8485  F1:0.7671  F2:0.8140 turk: 40 true: 33 match: 28 fp: 12 fn: 5
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.4167  Recall:1.0000  F1:0.5883  F2:0.7813 turk: 24 true: 10 match: 10 fp: 14 fn: 0
+[s1_c05_v04]  Precision: 0.4722  Recall:1.0000  F1:0.6415  F2:0.8173 turk: 36 true: 17 match: 17 fp: 19 fn: 0
+[s1_c05_v05]  Precision: 0.6400  Recall:0.9412  F1:0.7619  F2:0.8602 turk: 25 true: 17 match: 16 fp: 9 fn: 1
+=====================================
+eps: 0.27 GLOBAL Precision: 0.4665 Recall:0.9065  F1:0.6160  F2:0.7626
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5909  Recall:0.9286  F1:0.7222  F2:0.8333 turk: 22 true: 14 match: 13 fp: 9 fn: 1
+[s1_c01_v03]  Precision: 0.5556  Recall:1.0000  F1:0.7143  F2:0.8621 turk: 18 true: 10 match: 10 fp: 8 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3191  Recall:0.9375  F1:0.4761  F2:0.6756 turk: 47 true: 16 match: 15 fp: 32 fn: 1
+[s1_c02_v02]  Precision: 0.3929  Recall:0.5789  F1:0.4681  F2:0.5288 turk: 28 true: 19 match: 11 fp: 17 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5556  Recall:0.8824  F1:0.6819  F2:0.7895 turk: 27 true: 17 match: 15 fp: 12 fn: 2
+[s1_c02_v05]  Precision: 0.5417  Recall:0.9286  F1:0.6842  F2:0.8125 turk: 24 true: 14 match: 13 fp: 11 fn: 1
+[s1_c03_v01]  Precision: 0.5714  Recall:1.0000  F1:0.7272  F2:0.8696 turk: 28 true: 16 match: 16 fp: 12 fn: 0
+[s1_c03_v02]  Precision: 0.4138  Recall:1.0000  F1:0.5854  F2:0.7792 turk: 29 true: 12 match: 12 fp: 17 fn: 0
+[s1_c03_v03]  Precision: 0.6000  Recall:0.9375  F1:0.7317  F2:0.8427 turk: 25 true: 16 match: 15 fp: 10 fn: 1
+[s1_c03_v04]  Precision: 0.3913  Recall:1.0000  F1:0.5625  F2:0.7627 turk: 23 true: 9 match: 9 fp: 14 fn: 0
+[s1_c03_v05]  Precision: 0.6667  Recall:0.8889  F1:0.7619  F2:0.8334 turk: 12 true: 9 match: 8 fp: 4 fn: 1
+[s1_c04_v01]  Precision: 0.6500  Recall:0.8966  F1:0.7536  F2:0.8334 turk: 40 true: 29 match: 26 fp: 14 fn: 3
+[s1_c04_v02]  Precision: 0.9231  Recall:0.5455  F1:0.6858  F2:0.5941 turk: 13 true: 22 match: 12 fp: 1 fn: 10
+[s1_c04_v03]  Precision: 0.7000  Recall:0.8485  F1:0.7671  F2:0.8140 turk: 40 true: 33 match: 28 fp: 12 fn: 5
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4722  Recall:1.0000  F1:0.6415  F2:0.8173 turk: 36 true: 17 match: 17 fp: 19 fn: 0
+[s1_c05_v05]  Precision: 0.6400  Recall:0.9412  F1:0.7619  F2:0.8602 turk: 25 true: 17 match: 16 fp: 9 fn: 1
+=====================================
+eps: 0.28 GLOBAL Precision: 0.4636 Recall:0.9008  F1:0.6122  F2:0.7579
+[s1_c01_v01]  Precision: 0.4667  Recall:1.0000  F1:0.6364  F2:0.8140 turk: 15 true: 7 match: 7 fp: 8 fn: 0
+[s1_c01_v02]  Precision: 0.5909  Recall:0.9286  F1:0.7222  F2:0.8333 turk: 22 true: 14 match: 13 fp: 9 fn: 1
+[s1_c01_v03]  Precision: 0.5556  Recall:1.0000  F1:0.7143  F2:0.8621 turk: 18 true: 10 match: 10 fp: 8 fn: 0
+[s1_c01_v04]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 10 true: 6 match: 6 fp: 4 fn: 0
+[s1_c01_v05]  Precision: 0.2500  Recall:1.0000  F1:0.4000  F2:0.6250 turk: 40 true: 10 match: 10 fp: 30 fn: 0
+[s1_c02_v01]  Precision: 0.3191  Recall:0.9375  F1:0.4761  F2:0.6756 turk: 47 true: 16 match: 15 fp: 32 fn: 1
+[s1_c02_v02]  Precision: 0.3929  Recall:0.5789  F1:0.4681  F2:0.5288 turk: 28 true: 19 match: 11 fp: 17 fn: 8
+[s1_c02_v03]  Precision: 0.2813  Recall:1.0000  F1:0.4391  F2:0.6618 turk: 32 true: 9 match: 9 fp: 23 fn: 0
+[s1_c02_v04]  Precision: 0.5185  Recall:0.8235  F1:0.6363  F2:0.7368 turk: 27 true: 17 match: 14 fp: 13 fn: 3
+[s1_c02_v05]  Precision: 0.5417  Recall:0.9286  F1:0.6842  F2:0.8125 turk: 24 true: 14 match: 13 fp: 11 fn: 1
+[s1_c03_v01]  Precision: 0.5714  Recall:1.0000  F1:0.7272  F2:0.8696 turk: 28 true: 16 match: 16 fp: 12 fn: 0
+[s1_c03_v02]  Precision: 0.4138  Recall:1.0000  F1:0.5854  F2:0.7792 turk: 29 true: 12 match: 12 fp: 17 fn: 0
+[s1_c03_v03]  Precision: 0.6000  Recall:0.9375  F1:0.7317  F2:0.8427 turk: 25 true: 16 match: 15 fp: 10 fn: 1
+[s1_c03_v04]  Precision: 0.4091  Recall:1.0000  F1:0.5807  F2:0.7759 turk: 22 true: 9 match: 9 fp: 13 fn: 0
+[s1_c03_v05]  Precision: 0.6667  Recall:0.8889  F1:0.7619  F2:0.8334 turk: 12 true: 9 match: 8 fp: 4 fn: 1
+[s1_c04_v01]  Precision: 0.6500  Recall:0.8966  F1:0.7536  F2:0.8334 turk: 40 true: 29 match: 26 fp: 14 fn: 3
+[s1_c04_v02]  Precision: 0.9167  Recall:0.5000  F1:0.6471  F2:0.5500 turk: 12 true: 22 match: 11 fp: 1 fn: 11
+[s1_c04_v03]  Precision: 0.7000  Recall:0.8485  F1:0.7671  F2:0.8140 turk: 40 true: 33 match: 28 fp: 12 fn: 5
+no matches for this video.
+[s1_c04_v05]  Precision: 0.4348  Recall:1.0000  F1:0.6061  F2:0.7937 turk: 46 true: 20 match: 20 fp: 26 fn: 0
+[s1_c05_v01]  Precision: 0.5217  Recall:1.0000  F1:0.6857  F2:0.8450 turk: 23 true: 12 match: 12 fp: 11 fn: 0
+[s1_c05_v02]  Precision: 0.4737  Recall:1.0000  F1:0.6429  F2:0.8182 turk: 19 true: 9 match: 9 fp: 10 fn: 0
+[s1_c05_v03]  Precision: 0.3750  Recall:0.9000  F1:0.5294  F2:0.7031 turk: 24 true: 10 match: 9 fp: 15 fn: 1
+[s1_c05_v04]  Precision: 0.4444  Recall:0.9412  F1:0.6037  F2:0.7692 turk: 36 true: 17 match: 16 fp: 20 fn: 1
+[s1_c05_v05]  Precision: 0.6400  Recall:0.9412  F1:0.7619  F2:0.8602 turk: 25 true: 17 match: 16 fp: 9 fn: 1
+=====================================
+eps: 0.29 GLOBAL Precision: 0.4605 Recall:0.8924  F1:0.6075  F2:0.7514

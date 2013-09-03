@@ -1,0 +1,382 @@
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 76/95, 2U0PDOBDDP8P88N52RZXPB3QE412D1
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 77/95, 25DR14IXKO2LYEKP1A1603YON7IABA
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 78/95, 26UGJ2D21O3WU9KB83GSL2KYPKO7DN
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 79/95, 2C2CJ011K2748JCVFAX1BN465SIACH
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 80/95, 21NUFJ51Y7QEDBI9F6SCVTMOQSTADG
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 81/95, 2ALDHJHP4BDD9S79X5JXCX3GE094X1
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 82/95, 21062NJQ2172OLC16K2KOCVEMP2WO9
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 83/95, 29E6NG1FS3NYCVE94F6ZVZL28M1ZLL
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 84/95, 2M5QYN5F3Q0J5HW9B13W1B49Q4UAE9
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 85/95, 2S9I8IUB2YU9XVK3IZ23O0FBU4K7J0
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 86/95, 2MJY7QEOZFYQHDF3I0FF0RDSFDEIF3
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 87/95, 2GH2MIKMN9U8EL1EX7NW0I3S5TKRA3
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 88/95, 229GNTBJ3MMDMHI0W1X2NHB9X8ZWAB
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 89/95, 2I2274J79KQWVDBYTKLXICD4GSEIG2
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 90/95, 2SOBFMFFOYYIIDWU4R7EVC0R8RRZMN
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 91/95, 21405BMJTUHYLEJ4ENIAAS5WXW8LGJ
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 92/95, 2162L92HECWAV969DQ3F3CP5VSRIH1
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 93/95, 28GNJ92NJKM0UNPUI88YZ2GT04TD8F
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 94/95, 27M5UUKQOYGN784YHMFG31073QIFX0
+[2013-05-27 14:29:45] INFO  (GetResults.java: 162) - Retrieved HIT 95/95, 2JAEIUUU00OQ9WDF7WJ8V2U2H32TT3
+[2013-05-27 14:29:45] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-05-27 14:29:45] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../real/s1_m_4/external_hit.results'.
+
+[2013-05-27 14:29:45] INFO  (GetResults.java: 134) - Assignments completed: 285/285 (100%)
+[2013-05-27 14:29:45] INFO  (GetResults.java: 139) -          Time elapsed: 16:07:13 (h:mm:ss)
+[2013-05-27 14:29:45] INFO  (GetResults.java: 142) -   Average submit time: 221.7 seconds
+[2013-05-27 14:46:02] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-05-27 14:46:02] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-05-27 14:46:02] INFO  (GetResults.java: 127) - Could not retrieve work successfully
+[2013-05-27 14:48:35] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-05-27 14:48:35] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 1/64, 2T5HMVHVKCJ0QDNDWIA7CKQWHWS64R
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 2/64, 2YZRRLFQ0ONNK3KC9VF9HGRBI17RIP
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 3/64, 22X395SW6NG1446YN1AB1F1FANJGUQ
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 4/64, 2ECLRGNTBJ3MBP0G43YN92KHM468U2
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 5/64, 21062NJQ2172OLC16K2KOCVEMPLOWK
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 6/64, 25XXRDS4IC1ENPQ88TD14A2I6TOWZU
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 7/64, 2U0PDOBDDP8P88N52RZXPB3QE4K2DK
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 8/64, 27MJ3NAB6BFM4RR9NWK1WJFDR9CGTZ
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 9/64, 2UZDM25L8I9NO89S3DXOH4QWIOSRHW
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 10/64, 2C914IXKO2L9RTHNLOXX6YOCNAKBCU
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 11/64, 292MT6YTWX4HST500I49CGI6TEAW14
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 12/64, 2MBYMNCWYB494LV3HVO14JON3OOQM2
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 13/64, 2CUNHMVHVKCJPD4VRLVJA9KQ71M53Q
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 14/64, 27IONNVRH1KHDLHRGPY6QV9LVRROXD
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 15/64, 248Q7Q67051Q9OQ2QGKQF1XMRDKDX5
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 16/64, 2YDWAVKI62NJFE4IRD09TH6BVGWRJ1
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 17/64, 217EIB9BAWLSB9S1U9OUG3MT2MSZ2E
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 18/64, 21MF0OHOVR1479NZRZ02KECWL1I54B
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 19/64, 2LW6AUBXHWSHWROKY92ZZDRL80SZ3P
+[2013-05-27 14:48:36] INFO  (GetResults.java: 162) - Retrieved HIT 20/64, 2P09NZW6HEZ6DQ71LLK899GUXXLOYJ
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 21/64, 2FILWSBRI8IU0E15YMAHVTLBEGL2ED
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 22/64, 2WGQS1CSTMOFM3G3TW31HYDN8EYQN2
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 23/64, 2DH9RNDWIOV1HJVYSRKGX13YOUSGVF
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 24/64, 218W618N46UX4OGFUB3EWNDSYO3QOH
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 25/64, 2LX0OHOVR14IMWRDANTHHCWAHSN65W
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 26/64, 2TEA6X3YOCCFPOSG9BGTLNII8TZQPY
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 27/64, 2MQB727M0IGF9TGCVC6SYF4VTJEDYB
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 28/64, 2ZSA2SEIUUU0P0TV9OVILS8SDPLQQP
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 29/64, 20JLY58B727MPUJQ9V419YFS6AOU9D
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 30/64, 2CIFK0COK2JEQYA09Y0LUW6OA5WRK0
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 31/64, 27JSNQQ7Q670UDTV11I15TQCCS6UAS
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 32/64, 2I8P6AUC26DGVJGCMHM0IK0CZFM3AT
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 33/64, 2DS6X3YOCCF0118VM3KIQIIX9BNQRQ
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 34/64, 2H1PPSI2KYEPA4SIUYCM9WJ3Z51RL3
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 35/64, 24VWIOV1S7SNSPWRJFUYGZ8NJMFZK1
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 36/64, 2XE40SPW1INM6S11TXUNDB6BQH02FV
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 37/64, 2WTNFSVGULF3YHV7V171IS3N9I3M8O
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 38/64, 2DG2AOO2GMME50RRF63M9IAADNY66C
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 39/64, 27L9Z0B6UTO6IGH6H7MRNGPW3RPOZA
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 40/64, 27QH88MQU6L5DNYN7FIX04AIUARUBN
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 41/64, 24BBJ3MMDX5FEJQHRY8BCMDXZDIDZ2
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 42/64, 2VMBLYHVI44OHENWJM4NHZSBLKOW2L
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 43/64, 24ASCXKNQY2R1VNHSDME6HR0VP2P00
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 44/64, 24C8LZ6R70G5GLBOXXUVH7WS3O87NN
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 45/64, 21K74J79KQW6QKQFV8OFFD4587YJHW
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 46/64, 25C3K4F0OHOVGD7TMYF2O92HP7G12S
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 47/64, 2EF2Q45UUKQONSQTLFESBOG0CVRUCU
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 48/64, 25KL92HECWA6MF1Z1Q60FP5K8KDJIP
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 49/64, 2PWR9Y8TNKIMO4PG9T8S5OM00BF8VR
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 50/64, 2XNR98D8J3VEW8V3I1PCJ3MCV3UGWP
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 51/64, 2GYKPEIB9BAWA4P8E4WV0UD3XOBX0W
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 52/64, 2FB3DHJHP4BD2WJFNMIS09X3RYOW3W
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 53/64, 2WIOHOVR14IX905WYG8EFWA68YI67B
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 54/64, 2IFERSQV66RLETL4SVMWDVKIHX73BO
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 55/64, 2P1VCNHMVHVK1V3CQYT77J79VLG133
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 56/64, 2I0NMHGYQ4J3CMEH0TDFIOYYTOLM9D
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 57/64, 230KMN9U8P9YSKW7LB93VUYIXV3UDU
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 58/64, 2ETNVP3TVOK5JRMGQCYQHOZF9LC14O
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 59/64, 2TX806UFBNFSKSXW4H05VW6NRW02GU
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 60/64, 2FK4E6AUBXHWHTAQAN0VEZWD2GHX1Z
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 61/64, 243VWJ5OPB0YKS2JN0NBAEP95YKW4H
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 62/64, 2WVEY5COW0LGGB6J156LF6VN5UFW5M
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 63/64, 21UJ011K274JWLN1LKS8Q46U8AWBDU
+[2013-05-27 14:48:37] INFO  (GetResults.java: 162) - Retrieved HIT 64/64, 25YQSCM6IAA2HQL5J8R0RQKKLZ2JJ1
+[2013-05-27 14:48:37] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-05-27 14:48:37] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../real/s1_m_4/external_hit.results'.
+
+[2013-05-27 14:48:37] INFO  (GetResults.java: 134) - Assignments completed: 61/64 (95%)
+[2013-05-27 14:48:37] INFO  (GetResults.java: 137) -          Time elapsed: 22:40:25 (h:mm:ss)
+[2013-05-27 14:48:37] INFO  (GetResults.java: 142) -   Average submit time: 166.2 seconds
+[2013-05-27 14:49:31] INFO  (DeleteHITs.java: 67) - --- Starting to delete HITs ---
+[2013-05-27 14:49:31] INFO  (AbstractCmd.java: 224) - You are about to delete 64 HITs.
+[2013-05-27 14:49:31] INFO  (AbstractCmd.java: 225) - To confirm this operation, please press ENTER (or press Ctrl+C to abort): 
+[2013-05-27 14:49:33] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-05-27 14:49:34] INFO  (DeleteHITs.java: 102) - [27MJ3NAB6BFM4RR9NWK1WJFDR9CGTZ] Successfully deleted HIT (1/64)
+[2013-05-27 14:49:34] INFO  (DeleteHITs.java: 102) - [22X395SW6NG1446YN1AB1F1FANJGUQ] Successfully deleted HIT (2/64)
+[2013-05-27 14:49:34] INFO  (DeleteHITs.java: 102) - [2U0PDOBDDP8P88N52RZXPB3QE4K2DK] Successfully deleted HIT (3/64)
+[2013-05-27 14:49:35] INFO  (DeleteHITs.java: 102) - [21062NJQ2172OLC16K2KOCVEMPLOWK] Successfully deleted HIT (4/64)
+[2013-05-27 14:49:35] INFO  (DeleteHITs.java: 102) - [2ECLRGNTBJ3MBP0G43YN92KHM468U2] Successfully deleted HIT (5/64)
+[2013-05-27 14:49:35] INFO  (DeleteHITs.java: 102) - [2UZDM25L8I9NO89S3DXOH4QWIOSRHW] Successfully deleted HIT (6/64)
+[2013-05-27 14:49:35] INFO  (DeleteHITs.java: 102) - [25XXRDS4IC1ENPQ88TD14A2I6TOWZU] Successfully deleted HIT (7/64)
+[2013-05-27 14:49:35] INFO  (DeleteHITs.java: 102) - [2T5HMVHVKCJ0QDNDWIA7CKQWHWS64R] Successfully deleted HIT (8/64)
+[2013-05-27 14:49:35] INFO  (DeleteHITs.java: 102) - [2YZRRLFQ0ONNK3KC9VF9HGRBI17RIP] Successfully deleted HIT (9/64)
+[2013-05-27 14:49:35] INFO  (DeleteHITs.java: 102) - [2C914IXKO2L9RTHNLOXX6YOCNAKBCU] Successfully deleted HIT (10/64)
+[2013-05-27 14:49:35] INFO  (DeleteHITs.java: 102) - [2MBYMNCWYB494LV3HVO14JON3OOQM2] Successfully deleted HIT (11/64)
+[2013-05-27 14:49:35] INFO  (DeleteHITs.java: 102) - [292MT6YTWX4HST500I49CGI6TEAW14] Successfully deleted HIT (12/64)
+[2013-05-27 14:49:35] INFO  (DeleteHITs.java: 102) - [2CUNHMVHVKCJPD4VRLVJA9KQ71M53Q] Successfully deleted HIT (13/64)
+[2013-05-27 14:49:35] INFO  (DeleteHITs.java: 102) - [248Q7Q67051Q9OQ2QGKQF1XMRDKDX5] Successfully deleted HIT (14/64)
+[2013-05-27 14:49:36] INFO  (DeleteHITs.java: 102) - [21MF0OHOVR1479NZRZ02KECWL1I54B] Successfully deleted HIT (15/64)
+[2013-05-27 14:49:36] INFO  (DeleteHITs.java: 102) - [2YDWAVKI62NJFE4IRD09TH6BVGWRJ1] Successfully deleted HIT (16/64)
+[2013-05-27 14:49:36] INFO  (DeleteHITs.java: 102) - [27IONNVRH1KHDLHRGPY6QV9LVRROXD] Successfully deleted HIT (17/64)
+[2013-05-27 14:49:36] INFO  (DeleteHITs.java: 102) - [217EIB9BAWLSB9S1U9OUG3MT2MSZ2E] Successfully deleted HIT (18/64)
+[2013-05-27 14:49:36] INFO  (DeleteHITs.java: 102) - [2LW6AUBXHWSHWROKY92ZZDRL80SZ3P] Successfully deleted HIT (19/64)
+[2013-05-27 14:49:36] INFO  (DeleteHITs.java: 102) - [2P09NZW6HEZ6DQ71LLK899GUXXLOYJ] Successfully deleted HIT (20/64)
+[2013-05-27 14:49:36] INFO  (DeleteHITs.java: 102) - [2WGQS1CSTMOFM3G3TW31HYDN8EYQN2] Successfully deleted HIT (21/64)
+[2013-05-27 14:49:36] INFO  (DeleteHITs.java: 102) - [2FILWSBRI8IU0E15YMAHVTLBEGL2ED] Successfully deleted HIT (22/64)
+[2013-05-27 14:49:36] INFO  (DeleteHITs.java: 102) - [2DH9RNDWIOV1HJVYSRKGX13YOUSGVF] Successfully deleted HIT (23/64)
+[2013-05-27 14:49:36] INFO  (DeleteHITs.java: 102) - [2ZSA2SEIUUU0P0TV9OVILS8SDPLQQP] Successfully deleted HIT (24/64)
+[2013-05-27 14:49:36] INFO  (DeleteHITs.java: 102) - [218W618N46UX4OGFUB3EWNDSYO3QOH] Successfully deleted HIT (25/64)
+[2013-05-27 14:49:37] INFO  (DeleteHITs.java: 102) - [2MQB727M0IGF9TGCVC6SYF4VTJEDYB] Successfully deleted HIT (26/64)
+[2013-05-27 14:49:37] INFO  (DeleteHITs.java: 102) - [2LX0OHOVR14IMWRDANTHHCWAHSN65W] Successfully deleted HIT (27/64)
+[2013-05-27 14:49:37] INFO  (DeleteHITs.java: 102) - [20JLY58B727MPUJQ9V419YFS6AOU9D] Successfully deleted HIT (28/64)
+[2013-05-27 14:49:37] INFO  (DeleteHITs.java: 102) - [2CIFK0COK2JEQYA09Y0LUW6OA5WRK0] Successfully deleted HIT (29/64)
+[2013-05-27 14:49:37] INFO  (DeleteHITs.java: 102) - [2I8P6AUC26DGVJGCMHM0IK0CZFM3AT] Successfully deleted HIT (30/64)
+[2013-05-27 14:49:37] INFO  (DeleteHITs.java: 102) - [2TEA6X3YOCCFPOSG9BGTLNII8TZQPY] Successfully deleted HIT (31/64)
+[2013-05-27 14:49:37] INFO  (DeleteHITs.java: 102) - [27JSNQQ7Q670UDTV11I15TQCCS6UAS] Successfully deleted HIT (32/64)
+[2013-05-27 14:49:37] INFO  (DeleteHITs.java: 102) - [2DS6X3YOCCF0118VM3KIQIIX9BNQRQ] Successfully deleted HIT (33/64)
+[2013-05-27 14:49:37] INFO  (DeleteHITs.java: 102) - [24VWIOV1S7SNSPWRJFUYGZ8NJMFZK1] Successfully deleted HIT (34/64)
+[2013-05-27 14:49:37] INFO  (DeleteHITs.java: 102) - [2H1PPSI2KYEPA4SIUYCM9WJ3Z51RL3] Successfully deleted HIT (35/64)
+[2013-05-27 14:49:37] INFO  (DeleteHITs.java: 102) - [2XE40SPW1INM6S11TXUNDB6BQH02FV] Successfully deleted HIT (36/64)
+[2013-05-27 14:49:37] INFO  (DeleteHITs.java: 102) - [24BBJ3MMDX5FEJQHRY8BCMDXZDIDZ2] Successfully deleted HIT (37/64)
+[2013-05-27 14:49:37] INFO  (DeleteHITs.java: 102) - [2WTNFSVGULF3YHV7V171IS3N9I3M8O] Successfully deleted HIT (38/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [2DG2AOO2GMME50RRF63M9IAADNY66C] Successfully deleted HIT (39/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [27L9Z0B6UTO6IGH6H7MRNGPW3RPOZA] Successfully deleted HIT (40/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [27QH88MQU6L5DNYN7FIX04AIUARUBN] Successfully deleted HIT (41/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [2VMBLYHVI44OHENWJM4NHZSBLKOW2L] Successfully deleted HIT (42/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [24ASCXKNQY2R1VNHSDME6HR0VP2P00] Successfully deleted HIT (43/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [24C8LZ6R70G5GLBOXXUVH7WS3O87NN] Successfully deleted HIT (44/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [21K74J79KQW6QKQFV8OFFD4587YJHW] Successfully deleted HIT (45/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [25C3K4F0OHOVGD7TMYF2O92HP7G12S] Successfully deleted HIT (46/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [2EF2Q45UUKQONSQTLFESBOG0CVRUCU] Successfully deleted HIT (47/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [25KL92HECWA6MF1Z1Q60FP5K8KDJIP] Successfully deleted HIT (48/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [2PWR9Y8TNKIMO4PG9T8S5OM00BF8VR] Successfully deleted HIT (49/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [2WIOHOVR14IX905WYG8EFWA68YI67B] Successfully deleted HIT (50/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [2XNR98D8J3VEW8V3I1PCJ3MCV3UGWP] Successfully deleted HIT (51/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [2GYKPEIB9BAWA4P8E4WV0UD3XOBX0W] Successfully deleted HIT (52/64)
+[2013-05-27 14:49:38] INFO  (DeleteHITs.java: 102) - [2FB3DHJHP4BD2WJFNMIS09X3RYOW3W] Successfully deleted HIT (53/64)
+[2013-05-27 14:49:39] INFO  (DeleteHITs.java: 102) - [2IFERSQV66RLETL4SVMWDVKIHX73BO] Successfully deleted HIT (54/64)
+[2013-05-27 14:49:39] INFO  (DeleteHITs.java: 102) - [2P1VCNHMVHVK1V3CQYT77J79VLG133] Successfully deleted HIT (55/64)
+[2013-05-27 14:49:39] INFO  (DeleteHITs.java: 102) - [2I0NMHGYQ4J3CMEH0TDFIOYYTOLM9D] Successfully deleted HIT (56/64)
+[2013-05-27 14:49:39] INFO  (DeleteHITs.java: 102) - [230KMN9U8P9YSKW7LB93VUYIXV3UDU] Successfully deleted HIT (57/64)
+[2013-05-27 14:49:39] INFO  (DeleteHITs.java: 102) - [2ETNVP3TVOK5JRMGQCYQHOZF9LC14O] Successfully deleted HIT (58/64)
+[2013-05-27 14:49:39] INFO  (DeleteHITs.java: 102) - [2WVEY5COW0LGGB6J156LF6VN5UFW5M] Successfully deleted HIT (59/64)
+[2013-05-27 14:49:39] INFO  (DeleteHITs.java: 102) - [2TX806UFBNFSKSXW4H05VW6NRW02GU] Successfully deleted HIT (60/64)
+[2013-05-27 14:49:39] INFO  (DeleteHITs.java: 102) - [2FK4E6AUBXHWHTAQAN0VEZWD2GHX1Z] Successfully deleted HIT (61/64)
+[2013-05-27 14:49:39] INFO  (DeleteHITs.java: 102) - [243VWJ5OPB0YKS2JN0NBAEP95YKW4H] Successfully deleted HIT (62/64)
+[2013-05-27 14:49:39] INFO  (DeleteHITs.java: 102) - [21UJ011K274JWLN1LKS8Q46U8AWBDU] Successfully deleted HIT (63/64)
+[2013-05-27 14:49:39] INFO  (DeleteHITs.java: 102) - [25YQSCM6IAA2HQL5J8R0RQKKLZ2JJ1] Successfully deleted HIT (64/64)
+[2013-05-27 14:49:39] INFO  (DeleteHITs.java: 74) - --- Finished to delete HITs ---
+[2013-05-27 14:49:39] INFO  (DeleteHITs.java: 75) -   64 HITs have been deleted or were deleted previously.
+[2013-05-27 14:49:39] INFO  (DeleteHITs.java: 76) -   0 errors occured.
+[2013-05-27 14:51:03] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-05-27 14:51:03] INFO  (LoadHITs.java: 194) -  Input: ../../real/s1_m_5/external_hit.input
+[2013-05-27 14:51:03] INFO  (LoadHITs.java: 195) -  Properties: ../../real/s1_m_5/external_hit.properties
+[2013-05-27 14:51:03] INFO  (LoadHITs.java: 196) -  Question File: ../../real/s1_m_5/external_hit.question
+[2013-05-27 14:51:03] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-05-27 14:51:04] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-05-27 14:51:04] INFO  (LoadHITs.java: 231) -   Start time: Mon May 27 14:51:04 EDT 2013
+[2013-05-27 14:51:04] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2YJXERSQV66RA1KTIH8VZAVKT1QA2T
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 2: HITId=2CZ8MZ9O9Z6KLG2XZD8HURLF1VCA1C
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 3: HITId=2VMBLYHVI44OHENWJM4NHZSBLKU2WX
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 4: HITId=2X7GSNTL0XULGSQ40XUMPDX5QKW0MK
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 5: HITId=25C3K4F0OHOVGD7TMYF2O92HP7K21X
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 6: HITId=2DDOX7H57DZKERHF3U4HGM25W36A09
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 7: HITId=2WAVGULF395SLIQRQTJ3QYNJMT3PBQ
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 8: HITId=27IONNVRH1KHDLHRGPY6QV9LVRVXOQ
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 9: HITId=27C8Y1THV8ERYAB4CY9M2SM5VA60NK
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 10: HITId=22T3L0FBJ9IO0VHUGSME8RPRDHNNZX
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 11: HITId=202M05BMJTUHN85RI30RD7S57HPKF2
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 12: HITId=2VTDPGFL6VCPLBC2CRNIRV1SINC5K5
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 13: HITId=2KR5SW6NG1FSSZ1Y8PPF4FZSAGPWI0
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 14: HITId=2K5AB6BFMFFONAL4Q7AFGGESNVEWJC
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 15: HITId=2PT727M0IGFK6P4HNTJVI4VIZPMZEK
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 16: HITId=2ZFKO2L92HECLM98SCFCFF0C008FGU
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 17: HITId=2C4EC1PC6SK9GVBGDD9ZHHMALK9O0L
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 18: HITId=2IJK274J79KQLI4JCIXU0FCDF0LFHT
+[2013-05-27 14:51:05] INFO  (RequesterService.java: 1548) - Created HIT 19: HITId=2PI6UFBNFSVGJXIEYJJW9NG1QNRI41
+[2013-05-27 14:51:06] INFO  (RequesterService.java: 1548) - Created HIT 20: HITId=2YATLB3L0FBJYURM8SARHVE52KEWKB
+[2013-05-27 14:51:06] INFO  (RequesterService.java: 1548) - Created HIT 21: HITId=2I8P6AUC26DGVJGCMHM0IK0CZFQA34
+[2013-05-27 14:51:06] INFO  (RequesterService.java: 1548) - Created HIT 22: HITId=2NA8SV7WGKCCKXOE1OU3PHAP1ZZR10
+[2013-05-27 14:51:06] INFO  (RequesterService.java: 1548) - Created HIT 23: HITId=2UY67D1X3V0F9CFZ9GAE4M7PVFXCJK
+[2013-05-27 14:51:06] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2UIGFL6VCPWZY3QOLWFV4S7SNGD7M2' here: 
+[2013-05-27 14:51:06] INFO  (RequesterService.java: 1593) - 
+  https://www.mturk.com/mturk/preview?groupId=2UIGFL6VCPWZY3QOLWFV4S7SNGD7M2
+
+[2013-05-27 14:51:06] INFO  (LoadHITs.java: 239) -   End time: Mon May 27 14:51:06 EDT 2013
+[2013-05-27 14:51:06] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-05-27 14:51:06] INFO  (LoadHITs.java: 241) -   Total load time: 1 seconds.
+[2013-05-27 14:51:06] INFO  (LoadHITs.java: 243) -   Successfully loaded 23 HITs.
+[2013-05-27 22:00:12] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-05-27 22:00:12] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 1/23, 2YJXERSQV66RA1KTIH8VZAVKT1QA2T
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 2/23, 2CZ8MZ9O9Z6KLG2XZD8HURLF1VCA1C
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 3/23, 2VMBLYHVI44OHENWJM4NHZSBLKU2WX
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 4/23, 2X7GSNTL0XULGSQ40XUMPDX5QKW0MK
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 5/23, 25C3K4F0OHOVGD7TMYF2O92HP7K21X
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 6/23, 2DDOX7H57DZKERHF3U4HGM25W36A09
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 7/23, 2WAVGULF395SLIQRQTJ3QYNJMT3PBQ
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 8/23, 27IONNVRH1KHDLHRGPY6QV9LVRVXOQ
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 9/23, 27C8Y1THV8ERYAB4CY9M2SM5VA60NK
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 10/23, 22T3L0FBJ9IO0VHUGSME8RPRDHNNZX
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 11/23, 202M05BMJTUHN85RI30RD7S57HPKF2
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 12/23, 2VTDPGFL6VCPLBC2CRNIRV1SINC5K5
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 13/23, 2KR5SW6NG1FSSZ1Y8PPF4FZSAGPWI0
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 14/23, 2K5AB6BFMFFONAL4Q7AFGGESNVEWJC
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 15/23, 2PT727M0IGFK6P4HNTJVI4VIZPMZEK
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 16/23, 2ZFKO2L92HECLM98SCFCFF0C008FGU
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 17/23, 2C4EC1PC6SK9GVBGDD9ZHHMALK9O0L
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 18/23, 2IJK274J79KQLI4JCIXU0FCDF0LFHT
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 19/23, 2PI6UFBNFSVGJXIEYJJW9NG1QNRI41
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 20/23, 2YATLB3L0FBJYURM8SARHVE52KEWKB
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 21/23, 2I8P6AUC26DGVJGCMHM0IK0CZFQA34
+[2013-05-27 22:00:14] INFO  (GetResults.java: 162) - Retrieved HIT 22/23, 2NA8SV7WGKCCKXOE1OU3PHAP1ZZR10
+[2013-05-27 22:00:15] INFO  (GetResults.java: 162) - Retrieved HIT 23/23, 2UY67D1X3V0F9CFZ9GAE4M7PVFXCJK
+[2013-05-27 22:00:15] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-05-27 22:00:15] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../real/s1_m_5/external_hit.results'.
+
+[2013-05-27 22:00:15] INFO  (GetResults.java: 134) - Assignments completed: 23/23 (100%)
+[2013-05-27 22:00:15] INFO  (GetResults.java: 139) -          Time elapsed: 3:43:47 (h:mm:ss)
+[2013-05-27 22:00:15] INFO  (GetResults.java: 142) -   Average submit time: 139.0 seconds
+[2013-05-27 22:00:22] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-05-27 22:00:22] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-05-27 22:00:23] INFO  (GetResults.java: 162) - Retrieved HIT 1/5, 2GRO9Z6KW4ZMZBKSG5CFT0ONYQG5EL
+[2013-05-27 22:00:23] INFO  (GetResults.java: 162) - Retrieved HIT 2/5, 21Z1Q6SVQ8H8XYT5VZWOEVCICML4N3
+[2013-05-27 22:00:23] INFO  (GetResults.java: 162) - Retrieved HIT 3/5, 2UCCF806UFBN44YRJZ63C5SWHI50EV
+[2013-05-27 22:00:23] INFO  (GetResults.java: 162) - Retrieved HIT 4/5, 29UGW40SPW1ICYKRN4VJ6NABH640D2
+[2013-05-27 22:00:23] INFO  (GetResults.java: 162) - Retrieved HIT 5/5, 23I5BMJTUHYWRSW0Y517V5WMC1XMH7
+[2013-05-27 22:00:23] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-05-27 22:00:23] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../real/s1_p_7/external_hit.results'.
+
+[2013-05-27 22:00:23] INFO  (GetResults.java: 134) - Assignments completed: 5/5 (100%)
+[2013-05-27 22:00:23] INFO  (GetResults.java: 139) -          Time elapsed: 6:14:23 (h:mm:ss)
+[2013-05-27 22:00:23] INFO  (GetResults.java: 142) -   Average submit time: 116.0 seconds
+[2013-05-28 19:05:48] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-05-28 19:05:48] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-05-28 19:05:51] INFO  (GetResults.java: 162) - Retrieved HIT 1/5, 2GRO9Z6KW4ZMZBKSG5CFT0ONYQG5EL
+[2013-05-28 19:05:51] INFO  (GetResults.java: 162) - Retrieved HIT 2/5, 21Z1Q6SVQ8H8XYT5VZWOEVCICML4N3
+[2013-05-28 19:05:51] INFO  (GetResults.java: 162) - Retrieved HIT 3/5, 2UCCF806UFBN44YRJZ63C5SWHI50EV
+[2013-05-28 19:05:51] INFO  (GetResults.java: 162) - Retrieved HIT 4/5, 29UGW40SPW1ICYKRN4VJ6NABH640D2
+[2013-05-28 19:05:51] INFO  (GetResults.java: 162) - Retrieved HIT 5/5, 23I5BMJTUHYWRSW0Y517V5WMC1XMH7
+[2013-05-28 19:05:51] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-05-28 19:05:51] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../real/s1_p_7/external_hit.results'.
+
+[2013-05-28 19:05:51] INFO  (GetResults.java: 134) - Assignments completed: 5/5 (100%)
+[2013-05-28 19:05:51] INFO  (GetResults.java: 139) -          Time elapsed: 6:14:23 (h:mm:ss)
+[2013-05-28 19:05:51] INFO  (GetResults.java: 142) -   Average submit time: 116.0 seconds
+[2013-05-28 19:05:57] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-05-28 19:05:57] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 1/23, 2YJXERSQV66RA1KTIH8VZAVKT1QA2T
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 2/23, 2CZ8MZ9O9Z6KLG2XZD8HURLF1VCA1C
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 3/23, 2VMBLYHVI44OHENWJM4NHZSBLKU2WX
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 4/23, 2X7GSNTL0XULGSQ40XUMPDX5QKW0MK
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 5/23, 25C3K4F0OHOVGD7TMYF2O92HP7K21X
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 6/23, 2DDOX7H57DZKERHF3U4HGM25W36A09
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 7/23, 2WAVGULF395SLIQRQTJ3QYNJMT3PBQ
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 8/23, 27IONNVRH1KHDLHRGPY6QV9LVRVXOQ
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 9/23, 27C8Y1THV8ERYAB4CY9M2SM5VA60NK
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 10/23, 22T3L0FBJ9IO0VHUGSME8RPRDHNNZX
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 11/23, 202M05BMJTUHN85RI30RD7S57HPKF2
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 12/23, 2VTDPGFL6VCPLBC2CRNIRV1SINC5K5
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 13/23, 2KR5SW6NG1FSSZ1Y8PPF4FZSAGPWI0
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 14/23, 2K5AB6BFMFFONAL4Q7AFGGESNVEWJC
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 15/23, 2PT727M0IGFK6P4HNTJVI4VIZPMZEK
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 16/23, 2ZFKO2L92HECLM98SCFCFF0C008FGU
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 17/23, 2C4EC1PC6SK9GVBGDD9ZHHMALK9O0L
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 18/23, 2IJK274J79KQLI4JCIXU0FCDF0LFHT
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 19/23, 2PI6UFBNFSVGJXIEYJJW9NG1QNRI41
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 20/23, 2YATLB3L0FBJYURM8SARHVE52KEWKB
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 21/23, 2I8P6AUC26DGVJGCMHM0IK0CZFQA34
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 22/23, 2NA8SV7WGKCCKXOE1OU3PHAP1ZZR10
+[2013-05-28 19:05:58] INFO  (GetResults.java: 162) - Retrieved HIT 23/23, 2UY67D1X3V0F9CFZ9GAE4M7PVFXCJK
+[2013-05-28 19:05:58] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-05-28 19:05:58] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../real/s1_m_5/external_hit.results'.
+
+[2013-05-28 19:05:58] INFO  (GetResults.java: 134) - Assignments completed: 23/23 (100%)
+[2013-05-28 19:05:58] INFO  (GetResults.java: 139) -          Time elapsed: 3:43:47 (h:mm:ss)
+[2013-05-28 19:05:58] INFO  (GetResults.java: 142) -   Average submit time: 139.0 seconds
+[2013-05-28 19:09:46] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-05-28 19:09:46] INFO  (LoadHITs.java: 194) -  Input: ../../real/s1_p_8/external_hit.input
+[2013-05-28 19:09:46] INFO  (LoadHITs.java: 195) -  Properties: ../../real/s1_p_8/external_hit.properties
+[2013-05-28 19:09:46] INFO  (LoadHITs.java: 196) -  Question File: ../../real/s1_p_8/external_hit.question
+[2013-05-28 19:09:46] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-05-28 19:09:46] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-05-28 19:09:46] INFO  (LoadHITs.java: 231) -   Start time: Tue May 28 19:09:46 EDT 2013
+[2013-05-28 19:09:47] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-05-28 19:09:47] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2MQB727M0IGF9TGCVC6SYF4VTJQDYN
+[2013-05-28 19:09:47] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '24N8LZ6R70G5GLBOXXUVH7WSS6N7N2' here: 
+[2013-05-28 19:09:47] INFO  (RequesterService.java: 1593) - 
+  https://www.mturk.com/mturk/preview?groupId=24N8LZ6R70G5GLBOXXUVH7WSS6N7N2
+
+[2013-05-28 19:09:47] INFO  (LoadHITs.java: 239) -   End time: Tue May 28 19:09:47 EDT 2013
+[2013-05-28 19:09:47] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-05-28 19:09:47] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-05-28 19:09:47] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-05-28 19:11:13] INFO  (LoadHITs.java: 193) - --[Initializing]----------
+[2013-05-28 19:11:13] INFO  (LoadHITs.java: 194) -  Input: ../../real/s1_m_6/external_hit.input
+[2013-05-28 19:11:13] INFO  (LoadHITs.java: 195) -  Properties: ../../real/s1_m_6/external_hit.properties
+[2013-05-28 19:11:13] INFO  (LoadHITs.java: 196) -  Question File: ../../real/s1_m_6/external_hit.question
+[2013-05-28 19:11:13] INFO  (LoadHITs.java: 202) -  Preview mode disabled
+[2013-05-28 19:11:14] INFO  (LoadHITs.java: 229) - --[Loading HITs]----------
+[2013-05-28 19:11:14] INFO  (LoadHITs.java: 231) -   Start time: Tue May 28 19:11:14 EDT 2013
+[2013-05-28 19:11:14] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-05-28 19:11:14] INFO  (RequesterService.java: 1548) - Created HIT 1: HITId=2L0XKO2L92HE18DHMHPOFCF0NK2FEM
+[2013-05-28 19:11:14] INFO  (RequesterService.java: 1592) - 
+You may see your HIT(s) with HITTypeId '2UIGFL6VCPWZY3QOLWFV4S7SNGD7M2' here: 
+[2013-05-28 19:11:14] INFO  (RequesterService.java: 1593) - 
+  https://www.mturk.com/mturk/preview?groupId=2UIGFL6VCPWZY3QOLWFV4S7SNGD7M2
+
+[2013-05-28 19:11:14] INFO  (LoadHITs.java: 239) -   End time: Tue May 28 19:11:14 EDT 2013
+[2013-05-28 19:11:14] INFO  (LoadHITs.java: 240) - --[Done Loading HITs]----------
+[2013-05-28 19:11:14] INFO  (LoadHITs.java: 241) -   Total load time: 0 seconds.
+[2013-05-28 19:11:14] INFO  (LoadHITs.java: 243) -   Successfully loaded 1 HITs.
+[2013-05-29 07:51:54] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-05-29 07:51:54] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-05-29 07:51:59] INFO  (GetResults.java: 162) - Retrieved HIT 1/1, 2L0XKO2L92HE18DHMHPOFCF0NK2FEM
+[2013-05-29 07:51:59] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-05-29 07:51:59] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../real/s1_m_6/external_hit.results'.
+
+[2013-05-29 07:51:59] INFO  (GetResults.java: 134) - Assignments completed: 2/2 (100%)
+[2013-05-29 07:51:59] INFO  (GetResults.java: 139) -          Time elapsed: 2:46:12 (h:mm:ss)
+[2013-05-29 07:51:59] INFO  (GetResults.java: 142) -   Average submit time: 212.0 seconds
+[2013-05-29 07:53:31] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-05-29 07:53:31] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-05-29 07:53:33] INFO  (GetResults.java: 162) - Retrieved HIT 1/1, 2MQB727M0IGF9TGCVC6SYF4VTJQDYN
+[2013-05-29 07:53:33] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-05-29 07:53:33] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../real/s1_p_8/external_hit.results'.
+
+[2013-05-29 07:53:33] INFO  (GetResults.java: 134) - Assignments completed: 1/3 (33%)
+[2013-05-29 07:53:33] INFO  (GetResults.java: 137) -          Time elapsed: 12:43:46 (h:mm:ss)
+[2013-05-29 07:53:33] INFO  (GetResults.java: 142) -   Average submit time: 253.0 seconds
+[2013-05-29 18:49:38] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-05-29 18:49:38] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-05-29 18:49:41] INFO  (GetResults.java: 162) - Retrieved HIT 1/1, 2L0XKO2L92HE18DHMHPOFCF0NK2FEM
+[2013-05-29 18:49:41] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-05-29 18:49:42] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../real/s1_m_6/external_hit.results'.
+
+[2013-05-29 18:49:42] INFO  (GetResults.java: 134) - Assignments completed: 2/2 (100%)
+[2013-05-29 18:49:42] INFO  (GetResults.java: 139) -          Time elapsed: 2:46:12 (h:mm:ss)
+[2013-05-29 18:49:42] INFO  (GetResults.java: 142) -   Average submit time: 212.0 seconds
+[2013-05-29 18:50:18] INFO  (GetResults.java: 119) - --[Retrieving Results]----------
+[2013-05-29 18:50:18] DEBUG (WorkQueue.java: 53) - Instantiating work queue with 10 threads
+[2013-05-29 18:50:20] INFO  (GetResults.java: 162) - Retrieved HIT 1/1, 2MQB727M0IGF9TGCVC6SYF4VTJQDYN
+[2013-05-29 18:50:20] INFO  (GetResults.java: 123) - --[Done Retrieving Results]----------
+[2013-05-29 18:50:20] INFO  (GetResults.java: 130) - 
+Results have been written to file '../../real/s1_p_8/external_hit.results'.
+
+[2013-05-29 18:50:20] INFO  (GetResults.java: 134) - Assignments completed: 3/3 (100%)
+[2013-05-29 18:50:20] INFO  (GetResults.java: 139) -          Time elapsed: 16:17:40 (h:mm:ss)
+[2013-05-29 18:50:20] INFO  (GetResults.java: 142) -   Average submit time: 249.0 seconds

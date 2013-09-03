@@ -1,5 +1,7 @@
 videos/
 *.mp4
+*.flv
 *.avi
 *.DS_Store
 *.zip
+Videos/

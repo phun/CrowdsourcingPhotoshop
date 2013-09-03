@@ -1,0 +1,25 @@
+1		s1_p01_v01		15@Layer > Duplicate Layer	22@Filter > Blur > Motion Blur	38@Eraser	
+2		s1_p01_v02		46@Polygonal Lasso	139@Select > Modify > Feather	145@Layer > New	164@Filter > Blur > Motion Blur	
+3		s1_p01_v03		53@Elliptical Marquee	79@Select > Transform Selection	102@Edit > Copy Merged	120@Edit > Paste	153@Edit > Free Transform	194@Filter > Blur > Radial Blur	235@Edit > Free Transform	271@Select > Deselect	
+4		s1_p01_v04		44@Filter > Blur > Motion Blur	70@Eraser	75@Layer > New	82@History Brush	115@opacity	134@Horizontal Type	
+5		s1_p01_v05		9@File > New	29@Horizontal Type	75@Layer > Duplicate Layer	95@Filter > Blur > Motion Blur	
+11		s1_p04_v01		171@Layer > New Adjustment Layer > Hue/Saturation	205@Layer > New Adjustment Layer > Curves	241@Layer > New Adjustment Layer > Levels	261@Layer > New Adjustment Layer > Curves	415@Rectangular Marquee	426@Image > Crop	440@File > Open	461@Edit > Free Transform	
+12		s1_p04_v02		20@Layer > New Fill Layer > Gradient	65@Layer > New Fill Layer > Solid Color	86@Layer > New Adjustment Layer > Curves	126@Layer > New Fill Layer > Gradient 186@Layer > Rasterize	188@Eraser	242@Layer > New	244@Edit > Paste	245@Edit > Free Transform	279@Layer > Group Layers	
+13		s1_p04_v03		58@Layer > Duplicate Layer	81@Layer > New	85@Window > Color	95@Paint Bucket	115@Layer > New Adjustment Layer > Curves	175@Layer > New	176@Layer > New Adjustment Layer > Levels	194@Layer > New	201@Layer > New Adjustment Layer > Photo Filter	228@Blur	
+14		s1_p04_v04		74@Layer > Duplicate Layer	85@Layer > New Adjustment Layer > Color Balance	155@Layer > New Adjustment Layer > Curves	
+15		s1_p04_v05		39@Layer > New Adjustment Layer > Hue/Saturation	91@Layer > Duplicate Layer	98@Filter > Blur > Gaussian Blur	115@Eraser	150@Layer > New	153@Rectangular Marquee	163@Filter > Render	172@Select > Deselect	175@Edit > Free Transform	201@blend mode	210@foreground color	215@Brush	241@Layer > New	245@Brush	
+22		s1_p02_v01		59@extract filter	106@History Brush	132@Eraser	197@Move	267@Move	274@Edit > Free Transform	297@Image > Crop	
+23		s1_p02_v02		33@extraction filter	
+24		s1_p02_v03		43@Layer > New > Layer	73@Window > Channels	160@	204@Select > Load Selection	245@Layer > Layer Mask > Reveal Selection	254@Layer > New Fill Layer > Solid Color	313@Image > Adjustments > Levels	
+25		s1_p02_v04		74@Magic Wand	120@Select > Deselect	126@Move	175@Edit > Transform > Scale	237@Zoom	267@Layer > Layer Style > Drop Shadow	
+26		s1_p02_v05		41@Select > Edit in Quick Mask Mode	43@Brush	85@Select > Deselect	104@Magic Eraser	148@Eraser	205@Edit > Free Transform	
+32		s1_p03_v01		52@Layer > New Adjustment Layer > Exposure	74@Layer > New Adjustment Layer > Curves	126@Gradient	196@Layer > Duplicate Layer	199@Paint Bucket 204@Rectangular Marquee	211@Edit > Clear	212@Select > Deselect	
+33		s1_p03_v02		80@Image > Adjustments > Curves	125@Layer > New Adjustment Layer > Gradient Map	144@	178@Window > Actions	181@new action	199@Layer > New Adjustment Layer > Curves	221@Layer > New Adjustment Layer > Gradient Map	253@overlay, opacity	258@action stop	271@action play	
+34		s1_p03_v03		30@Layer > New Adjustment Layer > Curves	79@Layer > New Adjustment Layer > Gradient Map	97@overlay, opacity	
+35		s1_p03_v04		110@Lasso	153@Select > Inverse	169@Layer > New Adjustment Layer > Levels	208@Layer > New Adjustment Layer > Curves	279@Layer > New > Layer	284@Edit > Fill 299@hue	311@opacity	323@Image > Mode > Lab Color	356@lightness channel	365@Filter > Sharpen > Unsharp Mask	385@Image > Mode > RGB Color	
+36		s1_p03_v05		28@Rectangular Marquee	48@Select > Inverse	59@Layer > New Adjustment Layer > Levels	103@Layer > Merge Layers	119@Layer > New Adjustment Layer > Curves 162@Layer > New > Layer	170@Paint Bucket	193@hue	201@opacity	236@Layer > Merge Visible	246@Image > Mode > Lab Color	260@lightness	267@Filter > Sharpen > Unsharp Mask 297@Image > Mode > RGB Color	
+42		s1_p05_v01		23@Image > Adjustments > Desaturate	29@Layer > Duplicate Layer	38@Image > Adjustments > Invert	56@color dodge	72@Filter > Other > Minimum	
+43		s1_p05_v02		20@File > Open	28@Layer > Duplicate Layer	39@Image > Adjustments > Desaturate	52@Image > Adjustments > Desaturate	66@Image > Adjustments > Invert	74@color dodge	85@Filter > Blur > Gaussian Blur	106@Burn	
+44		s1_p05_v03		6@File > Open	11@Layer > Duplicate Layer	14@Image > Adjustments > Desaturate	17@Layer > Duplicate Layer	18@Image > Adjustments > Invert	20@color dodge 23@Filter > Blur > Gaussian Blur	46@Burn	65@Select > All	65@Layer > Merge Visible	66@Edit > Copy	74@Edit > Paste	78@Edit > Free Transform	90@multiply	98@Eraser	126@opacity 131@Layer > Merge Visible	136@Image > Adjustments > Photo Filter	
+45		s1_p05_v04		70@Layer > Duplicate Layer	71@Layer > Duplicate Layer	72@color dodge	77@Image > Adjustments > Invert	84@Filter > Blur > Gaussian Blur	145@Layer > New Adjustment Layer > Hue/Saturation	
+46		s1_p05_v05		51@Layer > Duplicate Layer	63@Image > Adjustments > Desaturate	69@Layer > Duplicate Layer	83@color dodge	92@Image > Adjustments > Invert	108@Filter > Blur > Gaussian Blur	160@Layer > New Adjustment Layer > Levels	201@Brush	349@Image > Duplicate	376@Filter > Sharpen > Unsharp Mask	

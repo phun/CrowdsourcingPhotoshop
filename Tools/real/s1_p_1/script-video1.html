@@ -1,0 +1,102 @@
+<html>
+
+<head>
+<script type="text/javascript">
+function actOnEachLine(textareaId) {
+	var textarea = document.getElementById(textareaId);
+    var lines = textarea.value.replace(/\r\n/g, "\n").split("\n");
+    var newLines, newValue, i;
+
+    // Use the map() method of Array where available 
+    newLines = [];
+    i = lines.length;
+    while (i--) {
+    	var n = lines[i].split(/\s+/);
+    	console.log(n);
+        newLines[i] = script(n[0], n[1]);
+    }
+    textarea.value = newLines.join("\r\n");
+}
+
+var script = function(videosURL, indicesString) {;
+	var indices = indicesString.split(',');
+	var buffer = 1;
+	var labels = {
+		"videos/t1_1.mp4": [[49.87,38.78,44.43]],
+		"videos/t1_2.mp4": [],
+		"videos/t1_3.mp4": [29.06,44.65,58.53],
+		"videos/t1_4.mp4": [10.26,27.79,46.09],
+		"videos/t1_5.mp4": [38],
+		"videos/t1_6.mp4": [15.26,41.04,57.17],
+		"videos/t1_7.mp4": [4.38,21.92,26.76,47.04],
+		"videos/t1_8.mp4": [15.15,23.15,29.91,38.02,56.66],
+		"videos/t1_9.mp4": [18.04,55.29,59.08],
+		"videos/t1_10.mp4": [1.43,11.19]
+	};
+	var toolTimes = [];
+	var correct = 0;
+	var indicesNotAdded = 0;
+	var falseIndices = 0;
+	for (i = 0; i < labels[videosURL].length; i++) {
+		toolTimes.push({"time":labels[videosURL][i], "hit": false});
+
+	}
+	for (i = 0; i < indices.length; i++) {
+		var index = indices[i];
+		if (!isNaN(index) && ' \t\n\r\v'.indexOf(index) <= -1 && index != 0) {
+			if (toolTimes.length == 0) {
+				falseIndices += 1;
+			}
+			for (j = 0; j < toolTimes.length; j++) {
+				var toolTime = toolTimes[j];
+				var notDone = true;
+				if (toolTime["time"].length != undefined) {
+					for (k = 0; k < toolTime["time"].length; k++) {
+						if (notDone) {
+							var before = toolTime["time"][k] - buffer;
+							var after = toolTime["time"][k] + buffer;
+							if (index >= before && index <= after && toolTime["hit"] == false) {
+								correct += 1;
+								toolTimes[j]["hit"] = true;
+								break;
+								notDone = false;
+							}
+							if (j == toolTimes.length - 1) {
+								falseIndices += 1;
+								notDone = false;
+							}
+						}
+					}
+				} else {
+					var before = toolTime["time"] - buffer;
+					var after = toolTime["time"] + buffer;
+					if (index >= before && index <= after && toolTime["hit"] == false) {
+						correct += 1;
+						toolTimes[j]["hit"] = true;
+						break;
+						notDone = false;
+					}
+					if (j == toolTimes.length - 1) {
+						falseIndices += 1;
+						notDone = false;
+					}	
+				}
+			}
+		}
+	}
+	for (j = 0; j < toolTimes.length; j++) {
+		if (toolTimes[j]["hit"] == false) {
+			indicesNotAdded += 1;
+		}
+	}
+	console.log(toolTimes);
+	wrong = indicesNotAdded + falseIndices;
+	return correct + "\t" + indicesNotAdded + "\t" + falseIndices;
+}
+</script>
+</head>
+<body>
+	<textarea id="t"></textarea>
+	<button onclick="actOnEachLine('t')">eval</button>
+</body>
+</html>
