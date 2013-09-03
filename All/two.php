@@ -17,8 +17,8 @@ while($responses = $result->fetch_assoc()){
 	$raw_labels = $responses['all_labels'];
 	$time_index = $responses['det_label_index'];
 }
-
 $all_labels = unserialize($raw_labels);
+
 // echo print_r($all_labels);
 
 // define("DB_HOST", "50.116.6.114");	// MySQL host name
@@ -277,14 +277,34 @@ $video = $result->fetch_assoc();
 				}
 
 				// randomize array
-				labels.sort(function () { if (Math.random()<.5) return -1; else return 1; });
-				$("#order").val(labels);
-				console.log($("#order").val());
-				for (labelIndex in labels) {
-					var label = labels[labelIndex];
-					var inputString = '<input type="radio" name="labelRadios" value="' + label.toLowerCase() + '">&quot;' + label.toLowerCase() + '&quot;<br>';
+				var labelIndex, key;
+				var labels_obj = {};
+				var keys = [];
+				// turn into an object to store the randomize order,
+				// which helps track which item was selected by the user.
+				for (labelIndex in labels){
+					labels_obj[labelIndex] = labels[labelIndex];
+				}
+			    for(key in labels_obj){
+			        if(labels_obj.hasOwnProperty(key)){
+			            keys.push(key);
+			        }
+			    }			
+				keys.sort(function () { if (Math.random()<.5) return -1; else return 1; });
+				// console.log("after:", keys);
+				// labels.sort(function () { if (Math.random()<.5) return -1; else return 1; });
+				$("#order").val(keys);
+				for (labelIndex in keys) {
+					var key = keys[labelIndex];
+					var label = labels_obj[key];
+					var inputString = '<input type="radio" name="labelRadios" value="' + key + '">&quot;' + label.toLowerCase() + '&quot;<br>';
 					$("#labelSelection").append(inputString);					
 				}
+				// for (labelIndex in labels) {
+				// 	var label = labels[labelIndex];
+				// 	var inputString = '<input type="radio" name="labelRadios" value="' + label.toLowerCase() + '">&quot;' + label.toLowerCase() + '&quot;<br>';
+				// 	$("#labelSelection").append(inputString);					
+				// }
 
 				$("input[type=radio][name=labelRadios]").change(function() {
 					var labelVal = $(this).val();
@@ -393,8 +413,7 @@ $video = $result->fetch_assoc();
 				genre = vid.split('_')[1][0],	// c = Cooking, p = Photoshop, m = Makeup
 				video = null;
 				video = "<?php echo urldecode(stripslashes($video['url'])); ?>";
-			
-			// allLabels = ["a", "b", "c"];
+
 			//allLabels = allLabels.replace(/\"/g, "").split(',');
 			console.log(allLabels);
 			switch(genre) {
@@ -479,7 +498,7 @@ $video = $result->fetch_assoc();
 	<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
         <input type="hidden" name="assignmentId" id="assignmentId" value="">
 		<input type="hidden" name="video" id="video">
-		<input type="hidden" name="video" id="order">
+		<input type="hidden" name="order" id="order">
 		<input type="hidden" name="instruction" id="instruction">
 	<button id='taskSub' type="submit" class="btn btn-large btn-primary disabled" style="float:right" disabled="disabled">Submit</button>
 	When you are done, hit the submit button.

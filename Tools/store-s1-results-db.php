@@ -7,11 +7,16 @@ define("DB_USERNAME", "annotation-user");	// MySQL username
 define("DB_PASSWD", "3APGj4vGmdWcQ6fy");	// MySQL password
 define("DB_NAME", "HowtoAnnotation");	// MySQL database name. vt.sql uses the default video_learning name. So be careful.
 
+// Set the file to use.
+$data_file = "s1_c.data.0.07.final.json";
+
+
 $mysqli = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWD, DB_NAME);
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
 
+$id_list = array();
 
 function startsWith($haystack, $needle)
 {
@@ -23,6 +28,7 @@ function endsWith($haystack, $needle)
 }
 
 function storeInDB($mysqli, $video_id, $cluster_id, $det_label_index, $time_array, $desc_array){
+	global $id_list;
 	$video_id = $mysqli->escape_string($video_id);
 	$cluster_id = $mysqli->escape_string($cluster_id);
 	$det_label_index = $mysqli->escape_string($det_label_index);
@@ -31,13 +37,19 @@ function storeInDB($mysqli, $video_id, $cluster_id, $det_label_index, $time_arra
 	$all_label_indices = $mysqli->escape_string($all_label_indices);
 	$all_labels = $mysqli->escape_string($all_labels);
 
-	// $success = true;
-	// if (!$mysqli->query("INSERT INTO stage2_3(video_id, cluster_id, all_label_indices, det_label_index, all_labels) " . 
-	//   "VALUES('$video_id', '$cluster_id', '$all_label_indices', '$det_label_index', '$all_labels')"))
-	//   	$success = false;
-	// if ($mysqli->affected_rows != 1)
-	//   	$success = false;
-	// echo "=== $success<br><br>";
+	$success = true;
+
+	// Ignoring singletons in the available index for Turkers in stage 2.
+	if (count($desc_array) <= 1)
+		return;
+
+	if (!$mysqli->query("INSERT INTO stage2_3(video_id, cluster_id, all_label_indices, det_label_index, all_labels) " . 
+	  "VALUES('$video_id', '$cluster_id', '$all_label_indices', '$det_label_index', '$all_labels')"))
+	  	$success = false;
+	if ($mysqli->affected_rows != 1)
+	  	$success = false;
+	// echo $mysqli->insert_id . " " . mysqli_insert_id($mysqli) . " ". count($id_list) . " " . count($desc_array) . "]] ";
+	array_push($id_list, $mysqli->insert_id);
 }
 
 function get_video_name($video_id, $e_count){
@@ -48,12 +60,12 @@ function get_video_name($video_id, $e_count){
 }
 
 
-$string = file_get_contents("s1_c.data.0.07.final.json");
+$string = file_get_contents($data_file);
 $json = json_decode($string, TRUE);
 
-$jsonIterator = new RecursiveIteratorIterator(
-    new RecursiveArrayIterator($json),
-    RecursiveIteratorIterator::SELF_FIRST);
+// $jsonIterator = new RecursiveIteratorIterator(
+//     new RecursiveArrayIterator($json),
+//     RecursiveIteratorIterator::SELF_FIRST);
 
 // foreach ($jsonIterator as $key => $val) {
 //     if(is_array($val)) {
@@ -95,7 +107,7 @@ foreach ($json as $video_id => $video_val) {
     		}
     		$new_video_id = get_video_name($video_id, $e_count);
     		$new_video_id[1] = "2";
-    		echo $new_video_id . "\n\n";
+    		// echo $new_video_id . "\n\n";
     		// echo $cluster_id . "\n\n";
     		// echo $det_label_index . "\n\n";
     		// echo print_r($time_array) . "\n\n";
@@ -105,7 +117,7 @@ foreach ($json as $video_id => $video_val) {
     }
 }
 
-
+$mysqli->close();
 ?>
 <html>
 <head>
@@ -121,18 +133,12 @@ foreach ($json as $video_id => $video_val) {
 </script>
 </head>
 <body>
-	<table class="sortable" id="dataTable">
-		<tr>
-			<th class="sorttable_nosort">ID</th>
-			<th>Worker ID</th>
-			<th>Video</th>
-			<th>Response</th>
-		</tr>
-<?php
-
-
-
+	<ul>
+<?php 
+	foreach ($id_list as $value){
+		echo "<li>$value</li>";
+	}
 ?>
-	</table>
+	</ul>
 </body>
 </html>

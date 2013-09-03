@@ -5,174 +5,18 @@
             "points_turk": [
                 {
                     "cluster_id": "0.0",
-                    "desc": "overlap tomatoes",
-                    "time": 167.02,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                },
-                {
-                    "cluster_id": "0.0",
-                    "desc": "Overlap tomatoes",
-                    "time": 168.89,
-                    "workerid": "\"A2N9ONI4E555VM\""
-                }
-            ],
-            "time": 167.95499999999998
-        },
-        "0.0_R0": {
-            "cluster_id": "0.0_R0",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R0",
-                    "desc": "Add mozzarella cheese",
-                    "time": 177.84,
-                    "workerid": "\"A2N9ONI4E555VM\""
-                },
-                {
-                    "cluster_id": "0.0_R0",
-                    "desc": "Add Mozzarella",
-                    "time": 178.44,
-                    "workerid": "\"A5ZBDBZR9LSGM\""
-                },
-                {
-                    "cluster_id": "0.0_R0",
-                    "desc": "Add mozzarella to create an even circle ",
-                    "time": 183.39,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                }
-            ],
-            "time": 179.89
-        },
-        "0.0_R1": {
-            "cluster_id": "0.0_R1",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R1",
-                    "desc": "in a nice circle evenly around it",
-                    "time": 184.61,
-                    "workerid": "\"A5ZBDBZR9LSGM\""
-                },
-                {
-                    "cluster_id": "0.0_R1",
-                    "desc": "Add the cheese in a circle ",
-                    "time": 185.68,
-                    "workerid": "\"A2N9ONI4E555VM\""
-                },
-                {
-                    "cluster_id": "0.0_R1",
-                    "desc": "very very nice",
-                    "time": 189.55,
-                    "workerid": "\"A5Q34TT9WZT8S\""
-                }
-            ],
-            "time": 186.61333333333334
-        },
-        "0.0_R2": {
-            "cluster_id": "0.0_R2",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R2",
-                    "desc": "You can make pizza square if you want",
-                    "time": 199.85,
-                    "workerid": "\"A2N9ONI4E555VM\""
-                },
-                {
-                    "cluster_id": "0.0_R2",
-                    "desc": "Add basil on top of cheese",
-                    "time": 204.86,
-                    "workerid": "\"A5ZBDBZR9LSGM\""
-                },
-                {
-                    "cluster_id": "0.0_R2",
-                    "desc": "Add basil leaves on top",
-                    "time": 205.14,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                }
-            ],
-            "time": 203.28333333333333
-        },
-        "0.0_R3": {
-            "cluster_id": "0.0_R3",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R3",
-                    "desc": "Add  Basil the whole leafs can be used",
-                    "time": 218.0,
-                    "workerid": "\"A2N9ONI4E555VM\""
-                },
-                {
-                    "cluster_id": "0.0_R3",
-                    "desc": "Add basil",
-                    "time": 221.3,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                },
-                {
-                    "cluster_id": "0.0_R3",
-                    "desc": "add Basil",
-                    "time": 221.6,
-                    "workerid": "\"A1Z6JZLLG9GY8Y\""
-                },
-                {
-                    "cluster_id": "0.0_R3",
-                    "desc": "you can add more basil",
-                    "time": 221.71,
-                    "workerid": "\"A3O4IJTMCLCLIX\""
-                }
-            ],
-            "time": 220.6525
-        },
-        "0.0_R4": {
-            "cluster_id": "0.0_R4",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R4",
-                    "desc": "pizza in oven",
-                    "time": 236.78,
-                    "workerid": "\"A1Z6JZLLG9GY8Y\""
-                },
-                {
-                    "cluster_id": "0.0_R4",
-                    "desc": "take pizza out of the oven",
-                    "time": 237.8,
-                    "workerid": "\"A3O4IJTMCLCLIX\""
-                }
-            ],
-            "time": 237.29000000000002
-        },
-        "0.0_R5": {
-            "cluster_id": "0.0_R5",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R5",
-                    "desc": "can add basil at the end",
-                    "time": 254.47,
-                    "workerid": "\"A3O4IJTMCLCLIX\""
-                },
-                {
-                    "cluster_id": "0.0_R5",
-                    "desc": "add Basil at the end",
-                    "time": 254.56,
-                    "workerid": "\"A1Z6JZLLG9GY8Y\""
-                }
-            ],
-            "time": 254.515
-        },
-        "1.0": {
-            "cluster_id": "1.0",
-            "points_turk": [
-                {
-                    "cluster_id": "1.0",
                     "desc": "Crook the dough after you roll it out",
                     "time": 29.66,
                     "workerid": "\"A2OJQV3G5LR1VI\""
                 },
                 {
-                    "cluster_id": "1.0",
+                    "cluster_id": "0.0",
                     "desc": "Prick the dough with a fork after you roll it out",
                     "time": 30.02,
                     "workerid": "\"AJ5XS1V27H091\""
                 },
                 {
-                    "cluster_id": "1.0",
+                    "cluster_id": "0.0",
                     "desc": "Prick dough after rolling",
                     "time": 31.98,
                     "workerid": "\"A3D3ZUEHP1BLG8\""
@@ -180,23 +24,23 @@
             ],
             "time": 30.55333333333333
         },
-        "1.0_R0": {
-            "cluster_id": "1.0_R0",
+        "0.0_R0": {
+            "cluster_id": "0.0_R0",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R0",
+                    "cluster_id": "0.0_R0",
                     "desc": "Slice the fresh mozzarella",
                     "time": 37.57,
                     "workerid": "\"AJ5XS1V27H091\""
                 },
                 {
-                    "cluster_id": "1.0_R0",
+                    "cluster_id": "0.0_R0",
                     "desc": "Slice fresh mozzarella",
                     "time": 39.7,
                     "workerid": "\"A3D3ZUEHP1BLG8\""
                 },
                 {
-                    "cluster_id": "1.0_R0",
+                    "cluster_id": "0.0_R0",
                     "desc": "slice the fresh mozzerella",
                     "time": 39.87,
                     "workerid": "\"A2OJQV3G5LR1VI\""
@@ -204,29 +48,29 @@
             ],
             "time": 39.046666666666674
         },
-        "1.0_R1": {
-            "cluster_id": "1.0_R1",
+        "0.0_R1": {
+            "cluster_id": "0.0_R1",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R1",
+                    "cluster_id": "0.0_R1",
                     "desc": "Be careful when slicing mozzerella",
                     "time": 53.8,
                     "workerid": "\"A2OJQV3G5LR1VI\""
                 },
                 {
-                    "cluster_id": "1.0_R1",
+                    "cluster_id": "0.0_R1",
                     "desc": "Slice the mozzarella",
                     "time": 54.14,
                     "workerid": "\"AJ5XS1V27H091\""
                 },
                 {
-                    "cluster_id": "1.0_R1",
+                    "cluster_id": "0.0_R1",
                     "desc": "or you wont get these nice",
                     "time": 56.6,
                     "workerid": "\"AE627VT8OR8A6\""
                 },
                 {
-                    "cluster_id": "1.0_R1",
+                    "cluster_id": "0.0_R1",
                     "desc": "Be careful when slicing",
                     "time": 57.01,
                     "workerid": "\"A3D3ZUEHP1BLG8\""
@@ -234,23 +78,23 @@
             ],
             "time": 55.387499999999996
         },
-        "1.0_R2": {
-            "cluster_id": "1.0_R2",
+        "0.0_R2": {
+            "cluster_id": "0.0_R2",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R2",
+                    "cluster_id": "0.0_R2",
                     "desc": "Thinly slice tomatoes",
                     "time": 62.89,
                     "workerid": "\"AJ5XS1V27H091\""
                 },
                 {
-                    "cluster_id": "1.0_R2",
+                    "cluster_id": "0.0_R2",
                     "desc": "next you want to cut",
                     "time": 63.730000000000004,
                     "workerid": "\"AE627VT8OR8A6\""
                 },
                 {
-                    "cluster_id": "1.0_R2",
+                    "cluster_id": "0.0_R2",
                     "desc": "Cut tomatoes in thin slices",
                     "time": 66.9,
                     "workerid": "\"A3D3ZUEHP1BLG8\""
@@ -258,23 +102,23 @@
             ],
             "time": 64.50666666666667
         },
-        "1.0_R3": {
-            "cluster_id": "1.0_R3",
+        "0.0_R3": {
+            "cluster_id": "0.0_R3",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R3",
+                    "cluster_id": "0.0_R3",
                     "desc": "Add the sauce",
                     "time": 79.63,
                     "workerid": "\"A3D3ZUEHP1BLG8\""
                 },
                 {
-                    "cluster_id": "1.0_R3",
+                    "cluster_id": "0.0_R3",
                     "desc": "alright so now we",
                     "time": 79.82,
                     "workerid": "\"AE627VT8OR8A6\""
                 },
                 {
-                    "cluster_id": "1.0_R3",
+                    "cluster_id": "0.0_R3",
                     "desc": "Add sauce to pizza crust",
                     "time": 81.81,
                     "workerid": "\"AJ5XS1V27H091\""
@@ -282,23 +126,23 @@
             ],
             "time": 80.42
         },
-        "1.0_R4": {
-            "cluster_id": "1.0_R4",
+        "0.0_R4": {
+            "cluster_id": "0.0_R4",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R4",
+                    "cluster_id": "0.0_R4",
                     "desc": "Spread sauce around top of crust",
                     "time": 94.55,
                     "workerid": "\"AJ5XS1V27H091\""
                 },
                 {
-                    "cluster_id": "1.0_R4",
+                    "cluster_id": "0.0_R4",
                     "desc": "Spread sauce around",
                     "time": 94.62,
                     "workerid": "\"A3D3ZUEHP1BLG8\""
                 },
                 {
-                    "cluster_id": "1.0_R4",
+                    "cluster_id": "0.0_R4",
                     "desc": "put that on there and you",
                     "time": 95.34,
                     "workerid": "\"AE627VT8OR8A6\""
@@ -306,29 +150,29 @@
             ],
             "time": 94.83666666666666
         },
-        "1.0_R5": {
-            "cluster_id": "1.0_R5",
+        "0.0_R5": {
+            "cluster_id": "0.0_R5",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R5",
+                    "cluster_id": "0.0_R5",
                     "desc": "once that",
                     "time": 106.81,
                     "workerid": "\"AE627VT8OR8A6\""
                 },
                 {
-                    "cluster_id": "1.0_R5",
+                    "cluster_id": "0.0_R5",
                     "desc": "Add other ingredients after spreading sauce",
                     "time": 110.49000000000001,
                     "workerid": "\"A3D3ZUEHP1BLG8\""
                 },
                 {
-                    "cluster_id": "1.0_R5",
+                    "cluster_id": "0.0_R5",
                     "desc": "ingrediants ",
                     "time": 113.22,
                     "workerid": "\"A2QO6RVWGP6Z9Y\""
                 },
                 {
-                    "cluster_id": "1.0_R5",
+                    "cluster_id": "0.0_R5",
                     "desc": "Evenly lay tomatoes onto the crust and sauce",
                     "time": 129.8,
                     "workerid": "\"AJ5XS1V27H091\""
@@ -336,17 +180,173 @@
             ],
             "time": 115.08
         },
-        "1.0_R6": {
-            "cluster_id": "1.0_R6",
+        "0.0_R6": {
+            "cluster_id": "0.0_R6",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R6",
+                    "cluster_id": "0.0_R6",
                     "desc": "put tomato pieces",
                     "time": 133.84,
                     "workerid": "\"A2QO6RVWGP6Z9Y\""
                 }
             ],
             "time": 133.84
+        },
+        "1.0": {
+            "cluster_id": "1.0",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0",
+                    "desc": "overlap tomatoes",
+                    "time": 167.02,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                },
+                {
+                    "cluster_id": "1.0",
+                    "desc": "Overlap tomatoes",
+                    "time": 168.89,
+                    "workerid": "\"A2N9ONI4E555VM\""
+                }
+            ],
+            "time": 167.95499999999998
+        },
+        "1.0_R0": {
+            "cluster_id": "1.0_R0",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R0",
+                    "desc": "Add mozzarella cheese",
+                    "time": 177.84,
+                    "workerid": "\"A2N9ONI4E555VM\""
+                },
+                {
+                    "cluster_id": "1.0_R0",
+                    "desc": "Add Mozzarella",
+                    "time": 178.44,
+                    "workerid": "\"A5ZBDBZR9LSGM\""
+                },
+                {
+                    "cluster_id": "1.0_R0",
+                    "desc": "Add mozzarella to create an even circle ",
+                    "time": 183.39,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                }
+            ],
+            "time": 179.89
+        },
+        "1.0_R1": {
+            "cluster_id": "1.0_R1",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R1",
+                    "desc": "in a nice circle evenly around it",
+                    "time": 184.61,
+                    "workerid": "\"A5ZBDBZR9LSGM\""
+                },
+                {
+                    "cluster_id": "1.0_R1",
+                    "desc": "Add the cheese in a circle ",
+                    "time": 185.68,
+                    "workerid": "\"A2N9ONI4E555VM\""
+                },
+                {
+                    "cluster_id": "1.0_R1",
+                    "desc": "very very nice",
+                    "time": 189.55,
+                    "workerid": "\"A5Q34TT9WZT8S\""
+                }
+            ],
+            "time": 186.61333333333334
+        },
+        "1.0_R2": {
+            "cluster_id": "1.0_R2",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R2",
+                    "desc": "You can make pizza square if you want",
+                    "time": 199.85,
+                    "workerid": "\"A2N9ONI4E555VM\""
+                },
+                {
+                    "cluster_id": "1.0_R2",
+                    "desc": "Add basil on top of cheese",
+                    "time": 204.86,
+                    "workerid": "\"A5ZBDBZR9LSGM\""
+                },
+                {
+                    "cluster_id": "1.0_R2",
+                    "desc": "Add basil leaves on top",
+                    "time": 205.14,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                }
+            ],
+            "time": 203.28333333333333
+        },
+        "1.0_R3": {
+            "cluster_id": "1.0_R3",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R3",
+                    "desc": "Add  Basil the whole leafs can be used",
+                    "time": 218.0,
+                    "workerid": "\"A2N9ONI4E555VM\""
+                },
+                {
+                    "cluster_id": "1.0_R3",
+                    "desc": "Add basil",
+                    "time": 221.3,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                },
+                {
+                    "cluster_id": "1.0_R3",
+                    "desc": "add Basil",
+                    "time": 221.6,
+                    "workerid": "\"A1Z6JZLLG9GY8Y\""
+                },
+                {
+                    "cluster_id": "1.0_R3",
+                    "desc": "you can add more basil",
+                    "time": 221.71,
+                    "workerid": "\"A3O4IJTMCLCLIX\""
+                }
+            ],
+            "time": 220.6525
+        },
+        "1.0_R4": {
+            "cluster_id": "1.0_R4",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R4",
+                    "desc": "pizza in oven",
+                    "time": 236.78,
+                    "workerid": "\"A1Z6JZLLG9GY8Y\""
+                },
+                {
+                    "cluster_id": "1.0_R4",
+                    "desc": "take pizza out of the oven",
+                    "time": 237.8,
+                    "workerid": "\"A3O4IJTMCLCLIX\""
+                }
+            ],
+            "time": 237.29000000000002
+        },
+        "1.0_R5": {
+            "cluster_id": "1.0_R5",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R5",
+                    "desc": "can add basil at the end",
+                    "time": 254.47,
+                    "workerid": "\"A3O4IJTMCLCLIX\""
+                },
+                {
+                    "cluster_id": "1.0_R5",
+                    "desc": "add Basil at the end",
+                    "time": 254.56,
+                    "workerid": "\"A1Z6JZLLG9GY8Y\""
+                }
+            ],
+            "time": 254.515
         }
     },
     "s1_c01_v02": {
@@ -3649,438 +3649,6 @@
             "points_turk": [
                 {
                     "cluster_id": "0.0",
-                    "desc": "slow coco",
-                    "time": 15.4,
-                    "workerid": "\"A2M8SE4S7VW8SC\""
-                },
-                {
-                    "cluster_id": "0.0",
-                    "desc": "coco manichees",
-                    "time": 17.36,
-                    "workerid": "\"AISX1QHG42YCA\""
-                }
-            ],
-            "time": 16.38
-        },
-        "0.0_R0": {
-            "cluster_id": "0.0_R0",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R0",
-                    "desc": "for college students",
-                    "time": 21.54,
-                    "workerid": "\"A2M8SE4S7VW8SC\""
-                }
-            ],
-            "time": 21.54
-        },
-        "0.0_R1": {
-            "cluster_id": "0.0_R1",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R1",
-                    "desc": "easy to make",
-                    "time": 25.25,
-                    "workerid": "\"A2M8SE4S7VW8SC\""
-                }
-            ],
-            "time": 25.25
-        },
-        "0.0_R10": {
-            "cluster_id": "0.0_R10",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R10",
-                    "desc": "Add eight ounces of sour cream",
-                    "time": 125.9,
-                    "workerid": "\"AJ5XS1V27H091\""
-                },
-                {
-                    "cluster_id": "0.0_R10",
-                    "desc": "curd",
-                    "time": 130.91,
-                    "workerid": "\"AISX1QHG42YCA\""
-                },
-                {
-                    "cluster_id": "0.0_R10",
-                    "desc": "8 oz sour cream",
-                    "time": 135.25,
-                    "workerid": "\"A3BHA6S28BHVPT\""
-                },
-                {
-                    "cluster_id": "0.0_R10",
-                    "desc": "Add 8 Ounces of Sour Cream",
-                    "time": 135.88,
-                    "workerid": "\"A1Z6JZLLG9GY8Y\""
-                }
-            ],
-            "time": 131.985
-        },
-        "0.0_R11": {
-            "cluster_id": "0.0_R11",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R11",
-                    "desc": "Add 1 can Cheddar Cheese Soup",
-                    "time": 152.3,
-                    "workerid": "\"A1Z6JZLLG9GY8Y\""
-                },
-                {
-                    "cluster_id": "0.0_R11",
-                    "desc": "Add one can of cheddar cheese soup",
-                    "time": 153.05,
-                    "workerid": "\"AJ5XS1V27H091\""
-                },
-                {
-                    "cluster_id": "0.0_R11",
-                    "desc": "10 3/4 oz can of cheddar cheese soup",
-                    "time": 156.24,
-                    "workerid": "\"A3BHA6S28BHVPT\""
-                }
-            ],
-            "time": 153.86333333333334
-        },
-        "0.0_R12": {
-            "cluster_id": "0.0_R12",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R12",
-                    "desc": "Do Not Add Water!",
-                    "time": 161.72,
-                    "workerid": "\"A1Z6JZLLG9GY8Y\""
-                },
-                {
-                    "cluster_id": "0.0_R12",
-                    "desc": "Do not add water",
-                    "time": 162.41,
-                    "workerid": "\"A3BHA6S28BHVPT\""
-                },
-                {
-                    "cluster_id": "0.0_R12",
-                    "desc": "macroni",
-                    "time": 162.91,
-                    "workerid": "\"A1U95D7R56OJ2E\""
-                },
-                {
-                    "cluster_id": "0.0_R12",
-                    "desc": "ADD CHEESE",
-                    "time": 164.77,
-                    "workerid": "\"A1OSVWUU1NOQ84\""
-                },
-                {
-                    "cluster_id": "0.0_R12",
-                    "desc": "cheddar cheese",
-                    "time": 165.61,
-                    "workerid": "\"AISX1QHG42YCA\""
-                }
-            ],
-            "time": 163.48399999999998
-        },
-        "0.0_R13": {
-            "cluster_id": "0.0_R13",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R13",
-                    "desc": "cheddar cheese",
-                    "time": 179.12,
-                    "workerid": "\"AISX1QHG42YCA\""
-                }
-            ],
-            "time": 179.12
-        },
-        "0.0_R14": {
-            "cluster_id": "0.0_R14",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R14",
-                    "desc": "Added sugar",
-                    "time": 190.21,
-                    "workerid": "\"AISX1QHG42YCA\""
-                }
-            ],
-            "time": 190.21
-        },
-        "0.0_R15": {
-            "cluster_id": "0.0_R15",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R15",
-                    "desc": "curd macroni",
-                    "time": 211.43,
-                    "workerid": "\"AISX1QHG42YCA\""
-                }
-            ],
-            "time": 211.43
-        },
-        "0.0_R16": {
-            "cluster_id": "0.0_R16",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R16",
-                    "desc": "added corn",
-                    "time": 217.88,
-                    "workerid": "\"AISX1QHG42YCA\""
-                },
-                {
-                    "cluster_id": "0.0_R16",
-                    "desc": "after spoon",
-                    "time": 221.39,
-                    "workerid": "\"A5Q34TT9WZT8S\""
-                },
-                {
-                    "cluster_id": "0.0_R16",
-                    "desc": "Place the liner into the crockpot",
-                    "time": 227.51,
-                    "workerid": "\"AJ5XS1V27H091\""
-                },
-                {
-                    "cluster_id": "0.0_R16",
-                    "desc": "Place into crock pot",
-                    "time": 228.2,
-                    "workerid": "\"A3BHA6S28BHVPT\""
-                }
-            ],
-            "time": 223.745
-        },
-        "0.0_R17": {
-            "cluster_id": "0.0_R17",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R17",
-                    "desc": "Set the crockpot on low",
-                    "time": 232.07,
-                    "workerid": "\"AJ5XS1V27H091\""
-                },
-                {
-                    "cluster_id": "0.0_R17",
-                    "desc": "Place in crockpot and set to low",
-                    "time": 234.01,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                },
-                {
-                    "cluster_id": "0.0_R17",
-                    "desc": "Set to low",
-                    "time": 234.07999999999998,
-                    "workerid": "\"A3BHA6S28BHVPT\""
-                }
-            ],
-            "time": 233.38666666666666
-        },
-        "0.0_R18": {
-            "cluster_id": "0.0_R18",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R18",
-                    "desc": "Let cook covered for two hours",
-                    "time": 238.56,
-                    "workerid": "\"AJ5XS1V27H091\""
-                },
-                {
-                    "cluster_id": "0.0_R18",
-                    "desc": "Cook for 2 hours with lid on",
-                    "time": 241.02,
-                    "workerid": "\"A3BHA6S28BHVPT\""
-                },
-                {
-                    "cluster_id": "0.0_R18",
-                    "desc": "Cook for 2 hours",
-                    "time": 241.52,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                }
-            ],
-            "time": 240.36666666666667
-        },
-        "0.0_R2": {
-            "cluster_id": "0.0_R2",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R2",
-                    "desc": "economical",
-                    "time": 28.06,
-                    "workerid": "\"A2M8SE4S7VW8SC\""
-                },
-                {
-                    "cluster_id": "0.0_R2",
-                    "desc": "so what we do is start with",
-                    "time": 50.91,
-                    "workerid": "\"AE627VT8OR8A6\""
-                },
-                {
-                    "cluster_id": "0.0_R2",
-                    "desc": "make macron",
-                    "time": 54.45,
-                    "workerid": "\"AISX1QHG42YCA\""
-                }
-            ],
-            "time": 44.473333333333336
-        },
-        "0.0_R3": {
-            "cluster_id": "0.0_R3",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R3",
-                    "desc": "uncoocked",
-                    "time": 55.49,
-                    "workerid": "\"A2M8SE4S7VW8SC\""
-                }
-            ],
-            "time": 55.49
-        },
-        "0.0_R4": {
-            "cluster_id": "0.0_R4",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R4",
-                    "desc": "coco",
-                    "time": 55.67,
-                    "workerid": "\"A2M8SE4S7VW8SC\""
-                },
-                {
-                    "cluster_id": "0.0_R4",
-                    "desc": "this is uncooked",
-                    "time": 56.06,
-                    "workerid": "\"AE627VT8OR8A6\""
-                },
-                {
-                    "cluster_id": "0.0_R4",
-                    "desc": "cooked macrone",
-                    "time": 57.49,
-                    "workerid": "\"AISX1QHG42YCA\""
-                },
-                {
-                    "cluster_id": "0.0_R4",
-                    "desc": "Cook Macaroni",
-                    "time": 61.03,
-                    "workerid": "\"A13621J37H8XHD\""
-                },
-                {
-                    "cluster_id": "0.0_R4",
-                    "desc": "Use 1/2 tsp of salt in plenty of water",
-                    "time": 63.81,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                }
-            ],
-            "time": 58.812
-        },
-        "0.0_R5": {
-            "cluster_id": "0.0_R5",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R5",
-                    "desc": "Boil 8 to 10 minutes",
-                    "time": 71.91,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                }
-            ],
-            "time": 71.91
-        },
-        "0.0_R6": {
-            "cluster_id": "0.0_R6",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R6",
-                    "desc": "Taste to feel if it",
-                    "time": 78.77,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                },
-                {
-                    "cluster_id": "0.0_R6",
-                    "desc": "you want it chewy",
-                    "time": 81.27,
-                    "workerid": "\"AE627VT8OR8A6\""
-                }
-            ],
-            "time": 80.02
-        },
-        "0.0_R7": {
-            "cluster_id": "0.0_R7",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R7",
-                    "desc": "you can just go ahead",
-                    "time": 90.81,
-                    "workerid": "\"AE627VT8OR8A6\""
-                },
-                {
-                    "cluster_id": "0.0_R7",
-                    "desc": "Pour macaroni in your crockpot",
-                    "time": 91.82,
-                    "workerid": "\"A13621J37H8XHD\""
-                },
-                {
-                    "cluster_id": "0.0_R7",
-                    "desc": "Put macaroni in crockpot",
-                    "time": 92.0,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                }
-            ],
-            "time": 91.54333333333334
-        },
-        "0.0_R8": {
-            "cluster_id": "0.0_R8",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R8",
-                    "desc": "and then we",
-                    "time": 97.99000000000001,
-                    "workerid": "\"AE627VT8OR8A6\""
-                },
-                {
-                    "cluster_id": "0.0_R8",
-                    "desc": "Stir",
-                    "time": 98.84,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                },
-                {
-                    "cluster_id": "0.0_R8",
-                    "desc": "macronee",
-                    "time": 109.39,
-                    "workerid": "\"AISX1QHG42YCA\""
-                }
-            ],
-            "time": 102.07333333333334
-        },
-        "0.0_R9": {
-            "cluster_id": "0.0_R9",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R9",
-                    "desc": "you want to mix them up then",
-                    "time": 112.61,
-                    "workerid": "\"AE627VT8OR8A6\""
-                },
-                {
-                    "cluster_id": "0.0_R9",
-                    "desc": "Add 1 1/2 cup Sharp Cheddar Cheese",
-                    "time": 116.32,
-                    "workerid": "\"A1Z6JZLLG9GY8Y\""
-                },
-                {
-                    "cluster_id": "0.0_R9",
-                    "desc": "Add 1 1/2 c of shredded sharp cheddar",
-                    "time": 119.59,
-                    "workerid": "\"A3BHA6S28BHVPT\""
-                },
-                {
-                    "cluster_id": "0.0_R9",
-                    "desc": "Add one and a half cups of finely shredded cheddar",
-                    "time": 119.65,
-                    "workerid": "\"AJ5XS1V27H091\""
-                },
-                {
-                    "cluster_id": "0.0_R9",
-                    "desc": "cheese",
-                    "time": 119.83,
-                    "workerid": "\"AISX1QHG42YCA\""
-                }
-            ],
-            "time": 117.6
-        },
-        "1.0": {
-            "cluster_id": "1.0",
-            "points_turk": [
-                {
-                    "cluster_id": "1.0",
                     "desc": "Remove macaroni from crockpot",
                     "time": 272.31,
                     "workerid": "\"AJ5XS1V27H091\""
@@ -4088,23 +3656,23 @@
             ],
             "time": 272.31
         },
-        "1.0_R0": {
-            "cluster_id": "1.0_R0",
+        "0.0_R0": {
+            "cluster_id": "0.0_R0",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R0",
+                    "cluster_id": "0.0_R0",
                     "desc": "Stir it and add one cup of milk after one hour of cooking time",
                     "time": 280.47,
                     "workerid": "\"AJ5XS1V27H091\""
                 },
                 {
-                    "cluster_id": "1.0_R0",
+                    "cluster_id": "0.0_R0",
                     "desc": "Stir after 1 hour and add 1 C of milk",
                     "time": 285.69,
                     "workerid": "\"AK7LGB1QOGA1P\""
                 },
                 {
-                    "cluster_id": "1.0_R0",
+                    "cluster_id": "0.0_R0",
                     "desc": "milk",
                     "time": 286.2,
                     "workerid": "\"A2QO6RVWGP6Z9Y\""
@@ -4112,11 +3680,11 @@
             ],
             "time": 284.12000000000006
         },
-        "1.0_R1": {
-            "cluster_id": "1.0_R1",
+        "0.0_R1": {
+            "cluster_id": "0.0_R1",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R1",
+                    "cluster_id": "0.0_R1",
                     "desc": "creamy",
                     "time": 291.76,
                     "workerid": "\"A2QO6RVWGP6Z9Y\""
@@ -4124,11 +3692,11 @@
             ],
             "time": 291.76
         },
-        "1.0_R2": {
-            "cluster_id": "1.0_R2",
+        "0.0_R2": {
+            "cluster_id": "0.0_R2",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R2",
+                    "cluster_id": "0.0_R2",
                     "desc": "milk",
                     "time": 304.63,
                     "workerid": "\"A2QO6RVWGP6Z9Y\""
@@ -4136,11 +3704,11 @@
             ],
             "time": 304.63
         },
-        "1.0_R3": {
-            "cluster_id": "1.0_R3",
+        "0.0_R3": {
+            "cluster_id": "0.0_R3",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R3",
+                    "cluster_id": "0.0_R3",
                     "desc": "taste",
                     "time": 308.71,
                     "workerid": "\"A2QO6RVWGP6Z9Y\""
@@ -4148,11 +3716,11 @@
             ],
             "time": 308.71
         },
-        "1.0_R4": {
-            "cluster_id": "1.0_R4",
+        "0.0_R4": {
+            "cluster_id": "0.0_R4",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R4",
+                    "cluster_id": "0.0_R4",
                     "desc": "flavour",
                     "time": 324.73,
                     "workerid": "\"A2QO6RVWGP6Z9Y\""
@@ -4160,29 +3728,29 @@
             ],
             "time": 324.73
         },
-        "1.0_R5": {
-            "cluster_id": "1.0_R5",
+        "0.0_R5": {
+            "cluster_id": "0.0_R5",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R5",
+                    "cluster_id": "0.0_R5",
                     "desc": "more delicious",
                     "time": 326.06,
                     "workerid": "\"A2QO6RVWGP6Z9Y\""
                 },
                 {
-                    "cluster_id": "1.0_R5",
+                    "cluster_id": "0.0_R5",
                     "desc": "You can also put the macaroni and cheese in a buttered pan and bake until golden brown",
                     "time": 328.19,
                     "workerid": "\"AJ5XS1V27H091\""
                 },
                 {
-                    "cluster_id": "1.0_R5",
+                    "cluster_id": "0.0_R5",
                     "desc": "put it in a buttered pan",
                     "time": 328.49,
                     "workerid": "\"A3O4IJTMCLCLIX\""
                 },
                 {
-                    "cluster_id": "1.0_R5",
+                    "cluster_id": "0.0_R5",
                     "desc": "also if you prefer you an put it in a buttered pan",
                     "time": 328.56,
                     "workerid": "\"A1ZS8WMBJ0Y9K2\""
@@ -4190,17 +3758,17 @@
             ],
             "time": 327.825
         },
-        "1.0_R6": {
-            "cluster_id": "1.0_R6",
+        "0.0_R6": {
+            "cluster_id": "0.0_R6",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R6",
+                    "cluster_id": "0.0_R6",
                     "desc": "make it in the oven",
                     "time": 332.06,
                     "workerid": "\"A3O4IJTMCLCLIX\""
                 },
                 {
-                    "cluster_id": "1.0_R6",
+                    "cluster_id": "0.0_R6",
                     "desc": "and that will give you a nice crispy top",
                     "time": 334.52,
                     "workerid": "\"A1ZS8WMBJ0Y9K2\""
@@ -4208,17 +3776,17 @@
             ],
             "time": 333.28999999999996
         },
-        "1.0_R7": {
-            "cluster_id": "1.0_R7",
+        "0.0_R7": {
+            "cluster_id": "0.0_R7",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R7",
+                    "cluster_id": "0.0_R7",
                     "desc": "it has that twist of sour cream and i think you",
                     "time": 347.84,
                     "workerid": "\"A1ZS8WMBJ0Y9K2\""
                 },
                 {
-                    "cluster_id": "1.0_R7",
+                    "cluster_id": "0.0_R7",
                     "desc": "has twist of sour cream",
                     "time": 348.9,
                     "workerid": "\"A3O4IJTMCLCLIX\""
@@ -4226,17 +3794,449 @@
             ],
             "time": 348.37
         },
-        "1.0_R8": {
-            "cluster_id": "1.0_R8",
+        "0.0_R8": {
+            "cluster_id": "0.0_R8",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R8",
+                    "cluster_id": "0.0_R8",
                     "desc": "it",
                     "time": 359.40999999999997,
                     "workerid": "\"A1ZS8WMBJ0Y9K2\""
                 }
             ],
             "time": 359.40999999999997
+        },
+        "1.0": {
+            "cluster_id": "1.0",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0",
+                    "desc": "slow coco",
+                    "time": 15.4,
+                    "workerid": "\"A2M8SE4S7VW8SC\""
+                },
+                {
+                    "cluster_id": "1.0",
+                    "desc": "coco manichees",
+                    "time": 17.36,
+                    "workerid": "\"AISX1QHG42YCA\""
+                }
+            ],
+            "time": 16.38
+        },
+        "1.0_R0": {
+            "cluster_id": "1.0_R0",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R0",
+                    "desc": "for college students",
+                    "time": 21.54,
+                    "workerid": "\"A2M8SE4S7VW8SC\""
+                }
+            ],
+            "time": 21.54
+        },
+        "1.0_R1": {
+            "cluster_id": "1.0_R1",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R1",
+                    "desc": "easy to make",
+                    "time": 25.25,
+                    "workerid": "\"A2M8SE4S7VW8SC\""
+                }
+            ],
+            "time": 25.25
+        },
+        "1.0_R10": {
+            "cluster_id": "1.0_R10",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R10",
+                    "desc": "Add eight ounces of sour cream",
+                    "time": 125.9,
+                    "workerid": "\"AJ5XS1V27H091\""
+                },
+                {
+                    "cluster_id": "1.0_R10",
+                    "desc": "curd",
+                    "time": 130.91,
+                    "workerid": "\"AISX1QHG42YCA\""
+                },
+                {
+                    "cluster_id": "1.0_R10",
+                    "desc": "8 oz sour cream",
+                    "time": 135.25,
+                    "workerid": "\"A3BHA6S28BHVPT\""
+                },
+                {
+                    "cluster_id": "1.0_R10",
+                    "desc": "Add 8 Ounces of Sour Cream",
+                    "time": 135.88,
+                    "workerid": "\"A1Z6JZLLG9GY8Y\""
+                }
+            ],
+            "time": 131.985
+        },
+        "1.0_R11": {
+            "cluster_id": "1.0_R11",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R11",
+                    "desc": "Add 1 can Cheddar Cheese Soup",
+                    "time": 152.3,
+                    "workerid": "\"A1Z6JZLLG9GY8Y\""
+                },
+                {
+                    "cluster_id": "1.0_R11",
+                    "desc": "Add one can of cheddar cheese soup",
+                    "time": 153.05,
+                    "workerid": "\"AJ5XS1V27H091\""
+                },
+                {
+                    "cluster_id": "1.0_R11",
+                    "desc": "10 3/4 oz can of cheddar cheese soup",
+                    "time": 156.24,
+                    "workerid": "\"A3BHA6S28BHVPT\""
+                }
+            ],
+            "time": 153.86333333333334
+        },
+        "1.0_R12": {
+            "cluster_id": "1.0_R12",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R12",
+                    "desc": "Do Not Add Water!",
+                    "time": 161.72,
+                    "workerid": "\"A1Z6JZLLG9GY8Y\""
+                },
+                {
+                    "cluster_id": "1.0_R12",
+                    "desc": "Do not add water",
+                    "time": 162.41,
+                    "workerid": "\"A3BHA6S28BHVPT\""
+                },
+                {
+                    "cluster_id": "1.0_R12",
+                    "desc": "macroni",
+                    "time": 162.91,
+                    "workerid": "\"A1U95D7R56OJ2E\""
+                },
+                {
+                    "cluster_id": "1.0_R12",
+                    "desc": "ADD CHEESE",
+                    "time": 164.77,
+                    "workerid": "\"A1OSVWUU1NOQ84\""
+                },
+                {
+                    "cluster_id": "1.0_R12",
+                    "desc": "cheddar cheese",
+                    "time": 165.61,
+                    "workerid": "\"AISX1QHG42YCA\""
+                }
+            ],
+            "time": 163.48399999999998
+        },
+        "1.0_R13": {
+            "cluster_id": "1.0_R13",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R13",
+                    "desc": "cheddar cheese",
+                    "time": 179.12,
+                    "workerid": "\"AISX1QHG42YCA\""
+                }
+            ],
+            "time": 179.12
+        },
+        "1.0_R14": {
+            "cluster_id": "1.0_R14",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R14",
+                    "desc": "Added sugar",
+                    "time": 190.21,
+                    "workerid": "\"AISX1QHG42YCA\""
+                }
+            ],
+            "time": 190.21
+        },
+        "1.0_R15": {
+            "cluster_id": "1.0_R15",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R15",
+                    "desc": "curd macroni",
+                    "time": 211.43,
+                    "workerid": "\"AISX1QHG42YCA\""
+                }
+            ],
+            "time": 211.43
+        },
+        "1.0_R16": {
+            "cluster_id": "1.0_R16",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R16",
+                    "desc": "added corn",
+                    "time": 217.88,
+                    "workerid": "\"AISX1QHG42YCA\""
+                },
+                {
+                    "cluster_id": "1.0_R16",
+                    "desc": "after spoon",
+                    "time": 221.39,
+                    "workerid": "\"A5Q34TT9WZT8S\""
+                },
+                {
+                    "cluster_id": "1.0_R16",
+                    "desc": "Place the liner into the crockpot",
+                    "time": 227.51,
+                    "workerid": "\"AJ5XS1V27H091\""
+                },
+                {
+                    "cluster_id": "1.0_R16",
+                    "desc": "Place into crock pot",
+                    "time": 228.2,
+                    "workerid": "\"A3BHA6S28BHVPT\""
+                }
+            ],
+            "time": 223.745
+        },
+        "1.0_R17": {
+            "cluster_id": "1.0_R17",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R17",
+                    "desc": "Set the crockpot on low",
+                    "time": 232.07,
+                    "workerid": "\"AJ5XS1V27H091\""
+                },
+                {
+                    "cluster_id": "1.0_R17",
+                    "desc": "Place in crockpot and set to low",
+                    "time": 234.01,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                },
+                {
+                    "cluster_id": "1.0_R17",
+                    "desc": "Set to low",
+                    "time": 234.07999999999998,
+                    "workerid": "\"A3BHA6S28BHVPT\""
+                }
+            ],
+            "time": 233.38666666666666
+        },
+        "1.0_R18": {
+            "cluster_id": "1.0_R18",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R18",
+                    "desc": "Let cook covered for two hours",
+                    "time": 238.56,
+                    "workerid": "\"AJ5XS1V27H091\""
+                },
+                {
+                    "cluster_id": "1.0_R18",
+                    "desc": "Cook for 2 hours with lid on",
+                    "time": 241.02,
+                    "workerid": "\"A3BHA6S28BHVPT\""
+                },
+                {
+                    "cluster_id": "1.0_R18",
+                    "desc": "Cook for 2 hours",
+                    "time": 241.52,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                }
+            ],
+            "time": 240.36666666666667
+        },
+        "1.0_R2": {
+            "cluster_id": "1.0_R2",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R2",
+                    "desc": "economical",
+                    "time": 28.06,
+                    "workerid": "\"A2M8SE4S7VW8SC\""
+                },
+                {
+                    "cluster_id": "1.0_R2",
+                    "desc": "so what we do is start with",
+                    "time": 50.91,
+                    "workerid": "\"AE627VT8OR8A6\""
+                },
+                {
+                    "cluster_id": "1.0_R2",
+                    "desc": "make macron",
+                    "time": 54.45,
+                    "workerid": "\"AISX1QHG42YCA\""
+                }
+            ],
+            "time": 44.473333333333336
+        },
+        "1.0_R3": {
+            "cluster_id": "1.0_R3",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R3",
+                    "desc": "uncoocked",
+                    "time": 55.49,
+                    "workerid": "\"A2M8SE4S7VW8SC\""
+                }
+            ],
+            "time": 55.49
+        },
+        "1.0_R4": {
+            "cluster_id": "1.0_R4",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R4",
+                    "desc": "coco",
+                    "time": 55.67,
+                    "workerid": "\"A2M8SE4S7VW8SC\""
+                },
+                {
+                    "cluster_id": "1.0_R4",
+                    "desc": "this is uncooked",
+                    "time": 56.06,
+                    "workerid": "\"AE627VT8OR8A6\""
+                },
+                {
+                    "cluster_id": "1.0_R4",
+                    "desc": "cooked macrone",
+                    "time": 57.49,
+                    "workerid": "\"AISX1QHG42YCA\""
+                },
+                {
+                    "cluster_id": "1.0_R4",
+                    "desc": "Cook Macaroni",
+                    "time": 61.03,
+                    "workerid": "\"A13621J37H8XHD\""
+                },
+                {
+                    "cluster_id": "1.0_R4",
+                    "desc": "Use 1/2 tsp of salt in plenty of water",
+                    "time": 63.81,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                }
+            ],
+            "time": 58.812
+        },
+        "1.0_R5": {
+            "cluster_id": "1.0_R5",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R5",
+                    "desc": "Boil 8 to 10 minutes",
+                    "time": 71.91,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                }
+            ],
+            "time": 71.91
+        },
+        "1.0_R6": {
+            "cluster_id": "1.0_R6",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R6",
+                    "desc": "Taste to feel if it",
+                    "time": 78.77,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                },
+                {
+                    "cluster_id": "1.0_R6",
+                    "desc": "you want it chewy",
+                    "time": 81.27,
+                    "workerid": "\"AE627VT8OR8A6\""
+                }
+            ],
+            "time": 80.02
+        },
+        "1.0_R7": {
+            "cluster_id": "1.0_R7",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R7",
+                    "desc": "you can just go ahead",
+                    "time": 90.81,
+                    "workerid": "\"AE627VT8OR8A6\""
+                },
+                {
+                    "cluster_id": "1.0_R7",
+                    "desc": "Pour macaroni in your crockpot",
+                    "time": 91.82,
+                    "workerid": "\"A13621J37H8XHD\""
+                },
+                {
+                    "cluster_id": "1.0_R7",
+                    "desc": "Put macaroni in crockpot",
+                    "time": 92.0,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                }
+            ],
+            "time": 91.54333333333334
+        },
+        "1.0_R8": {
+            "cluster_id": "1.0_R8",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R8",
+                    "desc": "and then we",
+                    "time": 97.99000000000001,
+                    "workerid": "\"AE627VT8OR8A6\""
+                },
+                {
+                    "cluster_id": "1.0_R8",
+                    "desc": "Stir",
+                    "time": 98.84,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                },
+                {
+                    "cluster_id": "1.0_R8",
+                    "desc": "macronee",
+                    "time": 109.39,
+                    "workerid": "\"AISX1QHG42YCA\""
+                }
+            ],
+            "time": 102.07333333333334
+        },
+        "1.0_R9": {
+            "cluster_id": "1.0_R9",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R9",
+                    "desc": "you want to mix them up then",
+                    "time": 112.61,
+                    "workerid": "\"AE627VT8OR8A6\""
+                },
+                {
+                    "cluster_id": "1.0_R9",
+                    "desc": "Add 1 1/2 cup Sharp Cheddar Cheese",
+                    "time": 116.32,
+                    "workerid": "\"A1Z6JZLLG9GY8Y\""
+                },
+                {
+                    "cluster_id": "1.0_R9",
+                    "desc": "Add 1 1/2 c of shredded sharp cheddar",
+                    "time": 119.59,
+                    "workerid": "\"A3BHA6S28BHVPT\""
+                },
+                {
+                    "cluster_id": "1.0_R9",
+                    "desc": "Add one and a half cups of finely shredded cheddar",
+                    "time": 119.65,
+                    "workerid": "\"AJ5XS1V27H091\""
+                },
+                {
+                    "cluster_id": "1.0_R9",
+                    "desc": "cheese",
+                    "time": 119.83,
+                    "workerid": "\"AISX1QHG42YCA\""
+                }
+            ],
+            "time": 117.6
         },
         "2.0": {
             "cluster_id": "2.0",
@@ -4799,192 +4799,108 @@
             "points_turk": [
                 {
                     "cluster_id": "0.0",
-                    "desc": "boiled vegetables",
-                    "time": 6.7,
-                    "workerid": "\"AISX1QHG42YCA\""
+                    "desc": "Add 2 1/2 cups cooked broccoli",
+                    "time": 117.5,
+                    "workerid": "\"A5ZBDBZR9LSGM\""
+                },
+                {
+                    "cluster_id": "0.0",
+                    "desc": "2 1/2 C broccoli",
+                    "time": 118.19,
+                    "workerid": "\"AK7LGB1QOGA1P\""
                 }
             ],
-            "time": 6.7
+            "time": 117.845
         },
         "0.0_R0": {
             "cluster_id": "0.0_R0",
             "points_turk": [
                 {
                     "cluster_id": "0.0_R0",
-                    "desc": "add butter",
-                    "time": 9.63,
-                    "workerid": "\"AISX1QHG42YCA\""
+                    "desc": "Add 2 1/2 C broccoli",
+                    "time": 119.0,
+                    "workerid": "\"AK7LGB1QOGA1P\""
                 },
                 {
                     "cluster_id": "0.0_R0",
-                    "desc": "Sautee green onions",
-                    "time": 20.37,
-                    "workerid": "\"AK7LGB1QOGA1P\""
+                    "desc": "Add 1/2 cup sundried tomatoes",
+                    "time": 119.82,
+                    "workerid": "\"A5ZBDBZR9LSGM\""
                 }
             ],
-            "time": 15.0
+            "time": 119.41
         },
         "0.0_R1": {
             "cluster_id": "0.0_R1",
             "points_turk": [
                 {
                     "cluster_id": "0.0_R1",
-                    "desc": "Sautee onions",
-                    "time": 25.03,
+                    "desc": "Add 1/2 C sundried tomatoes",
+                    "time": 120.06,
                     "workerid": "\"AK7LGB1QOGA1P\""
-                },
-                {
-                    "cluster_id": "0.0_R1",
-                    "desc": "cut the spring onion and add it",
-                    "time": 31.28,
-                    "workerid": "\"AISX1QHG42YCA\""
                 }
             ],
-            "time": 28.155
-        },
-        "0.0_R10": {
-            "cluster_id": "0.0_R10",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R10",
-                    "desc": "while that",
-                    "time": 67.22,
-                    "workerid": "\"AE627VT8OR8A6\""
-                }
-            ],
-            "time": 67.22
+            "time": 120.06
         },
         "0.0_R2": {
             "cluster_id": "0.0_R2",
             "points_turk": [
                 {
                     "cluster_id": "0.0_R2",
-                    "desc": "Add 2 Tbsp flour to onions",
-                    "time": 33.17,
+                    "desc": "Add 1/2 C sundried tomatoes",
+                    "time": 120.35,
                     "workerid": "\"AK7LGB1QOGA1P\""
+                },
+                {
+                    "cluster_id": "0.0_R2",
+                    "desc": "Add macaroni",
+                    "time": 125.32,
+                    "workerid": "\"A5ZBDBZR9LSGM\""
                 }
             ],
-            "time": 33.17
+            "time": 122.835
         },
         "0.0_R3": {
             "cluster_id": "0.0_R3",
             "points_turk": [
                 {
                     "cluster_id": "0.0_R3",
-                    "desc": "Add 2 Tbsp of flour",
-                    "time": 33.2,
+                    "desc": "Combine Cheese in Saucepan",
+                    "time": 135.97,
+                    "workerid": "\"A5ZBDBZR9LSGM\""
+                },
+                {
+                    "cluster_id": "0.0_R3",
+                    "desc": "Bake in oven for 30 minutes at 350",
+                    "time": 144.9,
                     "workerid": "\"AK7LGB1QOGA1P\""
-                },
-                {
-                    "cluster_id": "0.0_R3",
-                    "desc": "add flour",
-                    "time": 35.58,
-                    "workerid": "\"AISX1QHG42YCA\""
-                },
-                {
-                    "cluster_id": "0.0_R3",
-                    "desc": "add two table spoons",
-                    "time": 41.51,
-                    "workerid": "\"A5Q34TT9WZT8S\""
                 }
             ],
-            "time": 36.76333333333333
+            "time": 140.435
         },
         "0.0_R4": {
             "cluster_id": "0.0_R4",
             "points_turk": [
                 {
                     "cluster_id": "0.0_R4",
-                    "desc": "Add 2 tsp cayenne pepper",
-                    "time": 45.16,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                }
-            ],
-            "time": 45.16
-        },
-        "0.0_R5": {
-            "cluster_id": "0.0_R5",
-            "points_turk": [
+                    "desc": "Put in oven for 30 minutes at 350 degrees",
+                    "time": 145.13,
+                    "workerid": "\"A5ZBDBZR9LSGM\""
+                },
                 {
-                    "cluster_id": "0.0_R5",
-                    "desc": "Add 2 tsp of Cayenne pepper",
-                    "time": 45.19,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                }
-            ],
-            "time": 45.19
-        },
-        "0.0_R6": {
-            "cluster_id": "0.0_R6",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R6",
-                    "desc": "Add 1 1/2 tsp of basil",
-                    "time": 52.56,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                }
-            ],
-            "time": 52.56
-        },
-        "0.0_R7": {
-            "cluster_id": "0.0_R7",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R7",
-                    "desc": "Add 1 1/2 tsp of basil ",
-                    "time": 52.63,
+                    "cluster_id": "0.0_R4",
+                    "desc": "Bake in oven at 350 for 30 minutes",
+                    "time": 145.15,
                     "workerid": "\"AK7LGB1QOGA1P\""
                 },
                 {
-                    "cluster_id": "0.0_R7",
-                    "desc": "add chilli powder and curry leaves",
-                    "time": 53.49,
-                    "workerid": "\"AISX1QHG42YCA\""
+                    "cluster_id": "0.0_R4",
+                    "desc": "we have to wait for 30 minutes",
+                    "time": 145.8,
+                    "workerid": "\"A5Q34TT9WZT8S\""
                 }
             ],
-            "time": 53.06
-        },
-        "0.0_R8": {
-            "cluster_id": "0.0_R8",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R8",
-                    "desc": "Add 1 tsp salt",
-                    "time": 53.98,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                }
-            ],
-            "time": 53.98
-        },
-        "0.0_R9": {
-            "cluster_id": "0.0_R9",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R9",
-                    "desc": "Add 1 tsp of salt",
-                    "time": 54.01,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                },
-                {
-                    "cluster_id": "0.0_R9",
-                    "desc": "carrot cheese",
-                    "time": 57.13,
-                    "workerid": "\"A1U95D7R56OJ2E\""
-                },
-                {
-                    "cluster_id": "0.0_R9",
-                    "desc": "add 1 3/4 cup milk",
-                    "time": 64.45,
-                    "workerid": "\"AE627VT8OR8A6\""
-                },
-                {
-                    "cluster_id": "0.0_R9",
-                    "desc": "put 3/4 of milk",
-                    "time": 65.95,
-                    "workerid": "\"A2QO6RVWGP6Z9Y\""
-                }
-            ],
-            "time": 60.385000000000005
+            "time": 145.35999999999999
         },
         "1.0": {
             "cluster_id": "1.0",
@@ -5045,108 +4961,192 @@
             "points_turk": [
                 {
                     "cluster_id": "2.0",
-                    "desc": "Add 2 1/2 cups cooked broccoli",
-                    "time": 117.5,
-                    "workerid": "\"A5ZBDBZR9LSGM\""
-                },
-                {
-                    "cluster_id": "2.0",
-                    "desc": "2 1/2 C broccoli",
-                    "time": 118.19,
-                    "workerid": "\"AK7LGB1QOGA1P\""
+                    "desc": "boiled vegetables",
+                    "time": 6.7,
+                    "workerid": "\"AISX1QHG42YCA\""
                 }
             ],
-            "time": 117.845
+            "time": 6.7
         },
         "2.0_R0": {
             "cluster_id": "2.0_R0",
             "points_turk": [
                 {
                     "cluster_id": "2.0_R0",
-                    "desc": "Add 2 1/2 C broccoli",
-                    "time": 119.0,
-                    "workerid": "\"AK7LGB1QOGA1P\""
+                    "desc": "add butter",
+                    "time": 9.63,
+                    "workerid": "\"AISX1QHG42YCA\""
                 },
                 {
                     "cluster_id": "2.0_R0",
-                    "desc": "Add 1/2 cup sundried tomatoes",
-                    "time": 119.82,
-                    "workerid": "\"A5ZBDBZR9LSGM\""
+                    "desc": "Sautee green onions",
+                    "time": 20.37,
+                    "workerid": "\"AK7LGB1QOGA1P\""
                 }
             ],
-            "time": 119.41
+            "time": 15.0
         },
         "2.0_R1": {
             "cluster_id": "2.0_R1",
             "points_turk": [
                 {
                     "cluster_id": "2.0_R1",
-                    "desc": "Add 1/2 C sundried tomatoes",
-                    "time": 120.06,
+                    "desc": "Sautee onions",
+                    "time": 25.03,
                     "workerid": "\"AK7LGB1QOGA1P\""
+                },
+                {
+                    "cluster_id": "2.0_R1",
+                    "desc": "cut the spring onion and add it",
+                    "time": 31.28,
+                    "workerid": "\"AISX1QHG42YCA\""
                 }
             ],
-            "time": 120.06
+            "time": 28.155
+        },
+        "2.0_R10": {
+            "cluster_id": "2.0_R10",
+            "points_turk": [
+                {
+                    "cluster_id": "2.0_R10",
+                    "desc": "while that",
+                    "time": 67.22,
+                    "workerid": "\"AE627VT8OR8A6\""
+                }
+            ],
+            "time": 67.22
         },
         "2.0_R2": {
             "cluster_id": "2.0_R2",
             "points_turk": [
                 {
                     "cluster_id": "2.0_R2",
-                    "desc": "Add 1/2 C sundried tomatoes",
-                    "time": 120.35,
+                    "desc": "Add 2 Tbsp flour to onions",
+                    "time": 33.17,
                     "workerid": "\"AK7LGB1QOGA1P\""
-                },
-                {
-                    "cluster_id": "2.0_R2",
-                    "desc": "Add macaroni",
-                    "time": 125.32,
-                    "workerid": "\"A5ZBDBZR9LSGM\""
                 }
             ],
-            "time": 122.835
+            "time": 33.17
         },
         "2.0_R3": {
             "cluster_id": "2.0_R3",
             "points_turk": [
                 {
                     "cluster_id": "2.0_R3",
-                    "desc": "Combine Cheese in Saucepan",
-                    "time": 135.97,
-                    "workerid": "\"A5ZBDBZR9LSGM\""
+                    "desc": "Add 2 Tbsp of flour",
+                    "time": 33.2,
+                    "workerid": "\"AK7LGB1QOGA1P\""
                 },
                 {
                     "cluster_id": "2.0_R3",
-                    "desc": "Bake in oven for 30 minutes at 350",
-                    "time": 144.9,
-                    "workerid": "\"AK7LGB1QOGA1P\""
+                    "desc": "add flour",
+                    "time": 35.58,
+                    "workerid": "\"AISX1QHG42YCA\""
+                },
+                {
+                    "cluster_id": "2.0_R3",
+                    "desc": "add two table spoons",
+                    "time": 41.51,
+                    "workerid": "\"A5Q34TT9WZT8S\""
                 }
             ],
-            "time": 140.435
+            "time": 36.76333333333333
         },
         "2.0_R4": {
             "cluster_id": "2.0_R4",
             "points_turk": [
                 {
                     "cluster_id": "2.0_R4",
-                    "desc": "Put in oven for 30 minutes at 350 degrees",
-                    "time": 145.13,
-                    "workerid": "\"A5ZBDBZR9LSGM\""
-                },
+                    "desc": "Add 2 tsp cayenne pepper",
+                    "time": 45.16,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                }
+            ],
+            "time": 45.16
+        },
+        "2.0_R5": {
+            "cluster_id": "2.0_R5",
+            "points_turk": [
                 {
-                    "cluster_id": "2.0_R4",
-                    "desc": "Bake in oven at 350 for 30 minutes",
-                    "time": 145.15,
+                    "cluster_id": "2.0_R5",
+                    "desc": "Add 2 tsp of Cayenne pepper",
+                    "time": 45.19,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                }
+            ],
+            "time": 45.19
+        },
+        "2.0_R6": {
+            "cluster_id": "2.0_R6",
+            "points_turk": [
+                {
+                    "cluster_id": "2.0_R6",
+                    "desc": "Add 1 1/2 tsp of basil",
+                    "time": 52.56,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                }
+            ],
+            "time": 52.56
+        },
+        "2.0_R7": {
+            "cluster_id": "2.0_R7",
+            "points_turk": [
+                {
+                    "cluster_id": "2.0_R7",
+                    "desc": "Add 1 1/2 tsp of basil ",
+                    "time": 52.63,
                     "workerid": "\"AK7LGB1QOGA1P\""
                 },
                 {
-                    "cluster_id": "2.0_R4",
-                    "desc": "we have to wait for 30 minutes",
-                    "time": 145.8,
-                    "workerid": "\"A5Q34TT9WZT8S\""
+                    "cluster_id": "2.0_R7",
+                    "desc": "add chilli powder and curry leaves",
+                    "time": 53.49,
+                    "workerid": "\"AISX1QHG42YCA\""
                 }
             ],
-            "time": 145.35999999999999
+            "time": 53.06
+        },
+        "2.0_R8": {
+            "cluster_id": "2.0_R8",
+            "points_turk": [
+                {
+                    "cluster_id": "2.0_R8",
+                    "desc": "Add 1 tsp salt",
+                    "time": 53.98,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                }
+            ],
+            "time": 53.98
+        },
+        "2.0_R9": {
+            "cluster_id": "2.0_R9",
+            "points_turk": [
+                {
+                    "cluster_id": "2.0_R9",
+                    "desc": "Add 1 tsp of salt",
+                    "time": 54.01,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                },
+                {
+                    "cluster_id": "2.0_R9",
+                    "desc": "carrot cheese",
+                    "time": 57.13,
+                    "workerid": "\"A1U95D7R56OJ2E\""
+                },
+                {
+                    "cluster_id": "2.0_R9",
+                    "desc": "add 1 3/4 cup milk",
+                    "time": 64.45,
+                    "workerid": "\"AE627VT8OR8A6\""
+                },
+                {
+                    "cluster_id": "2.0_R9",
+                    "desc": "put 3/4 of milk",
+                    "time": 65.95,
+                    "workerid": "\"A2QO6RVWGP6Z9Y\""
+                }
+            ],
+            "time": 60.385000000000005
         },
         "3.0": {
             "cluster_id": "3.0",
@@ -5727,150 +5727,6 @@
             "points_turk": [
                 {
                     "cluster_id": "0.0",
-                    "desc": "I also don",
-                    "time": 202.52,
-                    "workerid": "\"AE627VT8OR8A6\""
-                },
-                {
-                    "cluster_id": "0.0",
-                    "desc": "Add it to the guacamole",
-                    "time": 211.52,
-                    "workerid": "\"A13621J37H8XHD\""
-                }
-            ],
-            "time": 207.02
-        },
-        "0.0_R0": {
-            "cluster_id": "0.0_R0",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R0",
-                    "desc": "add it to the",
-                    "time": 212.89,
-                    "workerid": "\"AE627VT8OR8A6\""
-                },
-                {
-                    "cluster_id": "0.0_R0",
-                    "desc": "cut the tomatoes and onions and layer",
-                    "time": 219.37,
-                    "workerid": "\"ATIGCUKIPNWG0\""
-                },
-                {
-                    "cluster_id": "0.0_R0",
-                    "desc": "Add a pinch of salt",
-                    "time": 221.46,
-                    "workerid": "\"AJ5XS1V27H091\""
-                },
-                {
-                    "cluster_id": "0.0_R0",
-                    "desc": "Add a pinch of salt",
-                    "time": 222.54,
-                    "workerid": "\"AEUIVD2GCC2E\""
-                },
-                {
-                    "cluster_id": "0.0_R0",
-                    "desc": "arabian receipe",
-                    "time": 224.34,
-                    "workerid": "\"A1U95D7R56OJ2E\""
-                }
-            ],
-            "time": 220.11999999999998
-        },
-        "0.0_R1": {
-            "cluster_id": "0.0_R1",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R1",
-                    "desc": "Mash it up with a potato masher",
-                    "time": 225.62,
-                    "workerid": "\"AJ5XS1V27H091\""
-                },
-                {
-                    "cluster_id": "0.0_R1",
-                    "desc": "I",
-                    "time": 226.25,
-                    "workerid": "\"AEUIVD2GCC2E\""
-                }
-            ],
-            "time": 225.935
-        },
-        "0.0_R2": {
-            "cluster_id": "0.0_R2",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R2",
-                    "desc": "If you want to add hot sauce to the recipe feel free to do so.",
-                    "time": 244.44,
-                    "workerid": "\"AEUIVD2GCC2E\""
-                },
-                {
-                    "cluster_id": "0.0_R2",
-                    "desc": "Add hot sauce if you would like. This is optional.",
-                    "time": 246.52,
-                    "workerid": "\"AJ5XS1V27H091\""
-                }
-            ],
-            "time": 245.48000000000002
-        },
-        "0.0_R3": {
-            "cluster_id": "0.0_R3",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R3",
-                    "desc": "Taste the guacamole to see if it needs more salt",
-                    "time": 257.17,
-                    "workerid": "\"AJ5XS1V27H091\""
-                },
-                {
-                    "cluster_id": "0.0_R3",
-                    "desc": "I",
-                    "time": 259.22,
-                    "workerid": "\"AEUIVD2GCC2E\""
-                }
-            ],
-            "time": 258.19500000000005
-        },
-        "0.0_R4": {
-            "cluster_id": "0.0_R4",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R4",
-                    "desc": "Add more salt if needed",
-                    "time": 265.84000000000003,
-                    "workerid": "\"AJ5XS1V27H091\""
-                }
-            ],
-            "time": 265.84000000000003
-        },
-        "0.0_R5": {
-            "cluster_id": "0.0_R5",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R5",
-                    "desc": "If you added more salt stir and taste again",
-                    "time": 270.58,
-                    "workerid": "\"AJ5XS1V27H091\""
-                },
-                {
-                    "cluster_id": "0.0_R5",
-                    "desc": "stir it up again",
-                    "time": 271.42,
-                    "workerid": "\"A3O4IJTMCLCLIX\""
-                },
-                {
-                    "cluster_id": "0.0_R5",
-                    "desc": "stir it up",
-                    "time": 271.53,
-                    "workerid": "\"AE627VT8OR8A6\""
-                }
-            ],
-            "time": 271.1766666666667
-        },
-        "1.0": {
-            "cluster_id": "1.0",
-            "points_turk": [
-                {
-                    "cluster_id": "1.0",
                     "desc": "How to make guacamole ",
                     "time": 14.45,
                     "workerid": "\"A3JX3YSE0A07O2\""
@@ -5878,17 +5734,17 @@
             ],
             "time": 14.45
         },
-        "1.0_R0": {
-            "cluster_id": "1.0_R0",
+        "0.0_R0": {
+            "cluster_id": "0.0_R0",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R0",
+                    "cluster_id": "0.0_R0",
                     "desc": "ingredients ",
                     "time": 27.66,
                     "workerid": "\"A3JX3YSE0A07O2\""
                 },
                 {
-                    "cluster_id": "1.0_R0",
+                    "cluster_id": "0.0_R0",
                     "desc": "we",
                     "time": 29.92,
                     "workerid": "\"AE627VT8OR8A6\""
@@ -5896,17 +5752,17 @@
             ],
             "time": 28.79
         },
-        "1.0_R1": {
-            "cluster_id": "1.0_R1",
+        "0.0_R1": {
+            "cluster_id": "0.0_R1",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R1",
+                    "cluster_id": "0.0_R1",
                     "desc": "type of avocado  ",
                     "time": 30.78,
                     "workerid": "\"A3JX3YSE0A07O2\""
                 },
                 {
-                    "cluster_id": "1.0_R1",
+                    "cluster_id": "0.0_R1",
                     "desc": "there is another",
                     "time": 44.5,
                     "workerid": "\"AE627VT8OR8A6\""
@@ -5914,11 +5770,11 @@
             ],
             "time": 37.64
         },
-        "1.0_R10": {
-            "cluster_id": "1.0_R10",
+        "0.0_R10": {
+            "cluster_id": "0.0_R10",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R10",
+                    "cluster_id": "0.0_R10",
                     "desc": "Then squeeze it open.",
                     "time": 119.72,
                     "workerid": "\"A8028AFBBS29G\""
@@ -5926,17 +5782,17 @@
             ],
             "time": 119.72
         },
-        "1.0_R11": {
-            "cluster_id": "1.0_R11",
+        "0.0_R11": {
+            "cluster_id": "0.0_R11",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R11",
+                    "cluster_id": "0.0_R11",
                     "desc": "The safest way to remove the seed is to use your hand.",
                     "time": 132.85,
                     "workerid": "\"A8028AFBBS29G\""
                 },
                 {
-                    "cluster_id": "1.0_R11",
+                    "cluster_id": "0.0_R11",
                     "desc": "Take seed out of the avacado.",
                     "time": 132.92000000000002,
                     "workerid": "\"A1QCO4AIHDIO4V\""
@@ -5944,23 +5800,23 @@
             ],
             "time": 132.885
         },
-        "1.0_R12": {
-            "cluster_id": "1.0_R12",
+        "0.0_R12": {
+            "cluster_id": "0.0_R12",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R12",
+                    "cluster_id": "0.0_R12",
                     "desc": "Then use a spoon to remove the flesh",
                     "time": 136.74,
                     "workerid": "\"A8028AFBBS29G\""
                 },
                 {
-                    "cluster_id": "1.0_R12",
+                    "cluster_id": "0.0_R12",
                     "desc": "Scoop out the avacado flesh with a spoon into a bowl.",
                     "time": 140.2,
                     "workerid": "\"A1QCO4AIHDIO4V\""
                 },
                 {
-                    "cluster_id": "1.0_R12",
+                    "cluster_id": "0.0_R12",
                     "desc": "blackspots",
                     "time": 141.96,
                     "workerid": "\"A5Q34TT9WZT8S\""
@@ -5968,17 +5824,17 @@
             ],
             "time": 139.63333333333333
         },
-        "1.0_R13": {
-            "cluster_id": "1.0_R13",
+        "0.0_R13": {
+            "cluster_id": "0.0_R13",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R13",
+                    "cluster_id": "0.0_R13",
                     "desc": "Pick out the brown or black spots.",
                     "time": 145.48,
                     "workerid": "\"A8028AFBBS29G\""
                 },
                 {
-                    "cluster_id": "1.0_R13",
+                    "cluster_id": "0.0_R13",
                     "desc": "thin slices",
                     "time": 150.18,
                     "workerid": "\"A5Q34TT9WZT8S\""
@@ -5986,11 +5842,11 @@
             ],
             "time": 147.82999999999998
         },
-        "1.0_R14": {
-            "cluster_id": "1.0_R14",
+        "0.0_R14": {
+            "cluster_id": "0.0_R14",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R14",
+                    "cluster_id": "0.0_R14",
                     "desc": "slice up the tomato thin slices.",
                     "time": 151.54,
                     "workerid": "\"A8028AFBBS29G\""
@@ -5998,17 +5854,17 @@
             ],
             "time": 151.54
         },
-        "1.0_R15": {
-            "cluster_id": "1.0_R15",
+        "0.0_R15": {
+            "cluster_id": "0.0_R15",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R15",
+                    "cluster_id": "0.0_R15",
                     "desc": "then slice it in the other direction to make cubes",
                     "time": 159.8,
                     "workerid": "\"A8028AFBBS29G\""
                 },
                 {
-                    "cluster_id": "1.0_R15",
+                    "cluster_id": "0.0_R15",
                     "desc": "add a handful",
                     "time": 163.64,
                     "workerid": "\"AE627VT8OR8A6\""
@@ -6016,29 +5872,29 @@
             ],
             "time": 161.72
         },
-        "1.0_R16": {
-            "cluster_id": "1.0_R16",
+        "0.0_R16": {
+            "cluster_id": "0.0_R16",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R16",
+                    "cluster_id": "0.0_R16",
                     "desc": "add a handful of onion",
                     "time": 165.89,
                     "workerid": "\"A8028AFBBS29G\""
                 },
                 {
-                    "cluster_id": "1.0_R16",
+                    "cluster_id": "0.0_R16",
                     "desc": "Add onions",
                     "time": 166.02,
                     "workerid": "\"A13621J37H8XHD\""
                 },
                 {
-                    "cluster_id": "1.0_R16",
+                    "cluster_id": "0.0_R16",
                     "desc": "Slice up the tomato in tiny pieces and then add a handful on onion on top of them.",
                     "time": 166.36,
                     "workerid": "\"A1QCO4AIHDIO4V\""
                 },
                 {
-                    "cluster_id": "1.0_R16",
+                    "cluster_id": "0.0_R16",
                     "desc": "sprinkle that in",
                     "time": 168.74,
                     "workerid": "\"AE627VT8OR8A6\""
@@ -6046,17 +5902,17 @@
             ],
             "time": 166.7525
         },
-        "1.0_R17": {
-            "cluster_id": "1.0_R17",
+        "0.0_R17": {
+            "cluster_id": "0.0_R17",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R17",
+                    "cluster_id": "0.0_R17",
                     "desc": "add some chewy",
                     "time": 170.1,
                     "workerid": "\"AE627VT8OR8A6\""
                 },
                 {
-                    "cluster_id": "1.0_R17",
+                    "cluster_id": "0.0_R17",
                     "desc": "Add chili",
                     "time": 170.45,
                     "workerid": "\"A13621J37H8XHD\""
@@ -6064,17 +5920,17 @@
             ],
             "time": 170.27499999999998
         },
-        "1.0_R18": {
-            "cluster_id": "1.0_R18",
+        "0.0_R18": {
+            "cluster_id": "0.0_R18",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R18",
+                    "cluster_id": "0.0_R18",
                     "desc": "and I",
                     "time": 179.45,
                     "workerid": "\"AE627VT8OR8A6\""
                 },
                 {
-                    "cluster_id": "1.0_R18",
+                    "cluster_id": "0.0_R18",
                     "desc": "Chop them together",
                     "time": 179.57,
                     "workerid": "\"A13621J37H8XHD\""
@@ -6082,11 +5938,11 @@
             ],
             "time": 179.51
         },
-        "1.0_R19": {
-            "cluster_id": "1.0_R19",
+        "0.0_R19": {
+            "cluster_id": "0.0_R19",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R19",
+                    "cluster_id": "0.0_R19",
                     "desc": "want to make sure all the ingredients",
                     "time": 181.28,
                     "workerid": "\"AE627VT8OR8A6\""
@@ -6094,29 +5950,29 @@
             ],
             "time": 181.28
         },
-        "1.0_R2": {
-            "cluster_id": "1.0_R2",
+        "0.0_R2": {
+            "cluster_id": "0.0_R2",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R2",
+                    "cluster_id": "0.0_R2",
                     "desc": "Next ingredient ",
                     "time": 57.82,
                     "workerid": "\"A3JX3YSE0A07O2\""
                 },
                 {
-                    "cluster_id": "1.0_R2",
+                    "cluster_id": "0.0_R2",
                     "desc": "the next ingredient",
                     "time": 58.4,
                     "workerid": "\"AE627VT8OR8A6\""
                 },
                 {
-                    "cluster_id": "1.0_R2",
+                    "cluster_id": "0.0_R2",
                     "desc": "Get a tomato",
                     "time": 60.92,
                     "workerid": "\"ALGDYFRRU4BXE\""
                 },
                 {
-                    "cluster_id": "1.0_R2",
+                    "cluster_id": "0.0_R2",
                     "desc": "tomato",
                     "time": 62.78,
                     "workerid": "\"A2QO6RVWGP6Z9Y\""
@@ -6124,23 +5980,23 @@
             ],
             "time": 59.98
         },
-        "1.0_R3": {
-            "cluster_id": "1.0_R3",
+        "0.0_R3": {
+            "cluster_id": "0.0_R3",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R3",
+                    "cluster_id": "0.0_R3",
                     "desc": "Get a can of chilli ",
                     "time": 70.33,
                     "workerid": "\"ALGDYFRRU4BXE\""
                 },
                 {
-                    "cluster_id": "1.0_R3",
+                    "cluster_id": "0.0_R3",
                     "desc": "Dice onion",
                     "time": 78.78,
                     "workerid": "\"AJ5XS1V27H091\""
                 },
                 {
-                    "cluster_id": "1.0_R3",
+                    "cluster_id": "0.0_R3",
                     "desc": "put diced onian",
                     "time": 79.78,
                     "workerid": "\"A2QO6RVWGP6Z9Y\""
@@ -6148,11 +6004,11 @@
             ],
             "time": 76.29666666666667
         },
-        "1.0_R4": {
-            "cluster_id": "1.0_R4",
+        "0.0_R4": {
+            "cluster_id": "0.0_R4",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R4",
+                    "cluster_id": "0.0_R4",
                     "desc": "Get diced onion",
                     "time": 80.73,
                     "workerid": "\"ALGDYFRRU4BXE\""
@@ -6160,17 +6016,17 @@
             ],
             "time": 80.73
         },
-        "1.0_R5": {
-            "cluster_id": "1.0_R5",
+        "0.0_R5": {
+            "cluster_id": "0.0_R5",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R5",
+                    "cluster_id": "0.0_R5",
                     "desc": "Get salt",
                     "time": 83.27,
                     "workerid": "\"ALGDYFRRU4BXE\""
                 },
                 {
-                    "cluster_id": "1.0_R5",
+                    "cluster_id": "0.0_R5",
                     "desc": "Wash your hands",
                     "time": 85.14,
                     "workerid": "\"AJ5XS1V27H091\""
@@ -6178,17 +6034,17 @@
             ],
             "time": 84.205
         },
-        "1.0_R6": {
-            "cluster_id": "1.0_R6",
+        "0.0_R6": {
+            "cluster_id": "0.0_R6",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R6",
+                    "cluster_id": "0.0_R6",
                     "desc": "Wash your hands before cooking",
                     "time": 86.49000000000001,
                     "workerid": "\"ALGDYFRRU4BXE\""
                 },
                 {
-                    "cluster_id": "1.0_R6",
+                    "cluster_id": "0.0_R6",
                     "desc": "wash your hands",
                     "time": 86.59,
                     "workerid": "\"A2QO6RVWGP6Z9Y\""
@@ -6196,11 +6052,11 @@
             ],
             "time": 86.54
         },
-        "1.0_R7": {
-            "cluster_id": "1.0_R7",
+        "0.0_R7": {
+            "cluster_id": "0.0_R7",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R7",
+                    "cluster_id": "0.0_R7",
                     "desc": "take avacado",
                     "time": 93.83,
                     "workerid": "\"A2QO6RVWGP6Z9Y\""
@@ -6208,29 +6064,29 @@
             ],
             "time": 93.83
         },
-        "1.0_R8": {
-            "cluster_id": "1.0_R8",
+        "0.0_R8": {
+            "cluster_id": "0.0_R8",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R8",
+                    "cluster_id": "0.0_R8",
                     "desc": "squeese it",
                     "time": 102.46000000000001,
                     "workerid": "\"A2QO6RVWGP6Z9Y\""
                 },
                 {
-                    "cluster_id": "1.0_R8",
+                    "cluster_id": "0.0_R8",
                     "desc": "Slice your avocado in half length-wise",
                     "time": 108.78999999999999,
                     "workerid": "\"AJ5XS1V27H091\""
                 },
                 {
-                    "cluster_id": "1.0_R8",
+                    "cluster_id": "0.0_R8",
                     "desc": "Cut open avacado ",
                     "time": 109.47999999999999,
                     "workerid": "\"ALGDYFRRU4BXE\""
                 },
                 {
-                    "cluster_id": "1.0_R8",
+                    "cluster_id": "0.0_R8",
                     "desc": "When cutting open your avocado",
                     "time": 111.08,
                     "workerid": "\"A8028AFBBS29G\""
@@ -6238,23 +6094,167 @@
             ],
             "time": 107.9525
         },
-        "1.0_R9": {
-            "cluster_id": "1.0_R9",
+        "0.0_R9": {
+            "cluster_id": "0.0_R9",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R9",
+                    "cluster_id": "0.0_R9",
                     "desc": "Put the blade in and rotate the blade around it.",
                     "time": 115.65,
                     "workerid": "\"A8028AFBBS29G\""
                 },
                 {
-                    "cluster_id": "1.0_R9",
+                    "cluster_id": "0.0_R9",
                     "desc": "When cutting the avacado rotate your blade around it.",
                     "time": 117.53,
                     "workerid": "\"A1QCO4AIHDIO4V\""
                 }
             ],
             "time": 116.59
+        },
+        "1.0": {
+            "cluster_id": "1.0",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0",
+                    "desc": "I also don",
+                    "time": 202.52,
+                    "workerid": "\"AE627VT8OR8A6\""
+                },
+                {
+                    "cluster_id": "1.0",
+                    "desc": "Add it to the guacamole",
+                    "time": 211.52,
+                    "workerid": "\"A13621J37H8XHD\""
+                }
+            ],
+            "time": 207.02
+        },
+        "1.0_R0": {
+            "cluster_id": "1.0_R0",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R0",
+                    "desc": "add it to the",
+                    "time": 212.89,
+                    "workerid": "\"AE627VT8OR8A6\""
+                },
+                {
+                    "cluster_id": "1.0_R0",
+                    "desc": "cut the tomatoes and onions and layer",
+                    "time": 219.37,
+                    "workerid": "\"ATIGCUKIPNWG0\""
+                },
+                {
+                    "cluster_id": "1.0_R0",
+                    "desc": "Add a pinch of salt",
+                    "time": 221.46,
+                    "workerid": "\"AJ5XS1V27H091\""
+                },
+                {
+                    "cluster_id": "1.0_R0",
+                    "desc": "Add a pinch of salt",
+                    "time": 222.54,
+                    "workerid": "\"AEUIVD2GCC2E\""
+                },
+                {
+                    "cluster_id": "1.0_R0",
+                    "desc": "arabian receipe",
+                    "time": 224.34,
+                    "workerid": "\"A1U95D7R56OJ2E\""
+                }
+            ],
+            "time": 220.11999999999998
+        },
+        "1.0_R1": {
+            "cluster_id": "1.0_R1",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R1",
+                    "desc": "Mash it up with a potato masher",
+                    "time": 225.62,
+                    "workerid": "\"AJ5XS1V27H091\""
+                },
+                {
+                    "cluster_id": "1.0_R1",
+                    "desc": "I",
+                    "time": 226.25,
+                    "workerid": "\"AEUIVD2GCC2E\""
+                }
+            ],
+            "time": 225.935
+        },
+        "1.0_R2": {
+            "cluster_id": "1.0_R2",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R2",
+                    "desc": "If you want to add hot sauce to the recipe feel free to do so.",
+                    "time": 244.44,
+                    "workerid": "\"AEUIVD2GCC2E\""
+                },
+                {
+                    "cluster_id": "1.0_R2",
+                    "desc": "Add hot sauce if you would like. This is optional.",
+                    "time": 246.52,
+                    "workerid": "\"AJ5XS1V27H091\""
+                }
+            ],
+            "time": 245.48000000000002
+        },
+        "1.0_R3": {
+            "cluster_id": "1.0_R3",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R3",
+                    "desc": "Taste the guacamole to see if it needs more salt",
+                    "time": 257.17,
+                    "workerid": "\"AJ5XS1V27H091\""
+                },
+                {
+                    "cluster_id": "1.0_R3",
+                    "desc": "I",
+                    "time": 259.22,
+                    "workerid": "\"AEUIVD2GCC2E\""
+                }
+            ],
+            "time": 258.19500000000005
+        },
+        "1.0_R4": {
+            "cluster_id": "1.0_R4",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R4",
+                    "desc": "Add more salt if needed",
+                    "time": 265.84000000000003,
+                    "workerid": "\"AJ5XS1V27H091\""
+                }
+            ],
+            "time": 265.84000000000003
+        },
+        "1.0_R5": {
+            "cluster_id": "1.0_R5",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R5",
+                    "desc": "If you added more salt stir and taste again",
+                    "time": 270.58,
+                    "workerid": "\"AJ5XS1V27H091\""
+                },
+                {
+                    "cluster_id": "1.0_R5",
+                    "desc": "stir it up again",
+                    "time": 271.42,
+                    "workerid": "\"A3O4IJTMCLCLIX\""
+                },
+                {
+                    "cluster_id": "1.0_R5",
+                    "desc": "stir it up",
+                    "time": 271.53,
+                    "workerid": "\"AE627VT8OR8A6\""
+                }
+            ],
+            "time": 271.1766666666667
         }
     },
     "s1_c03_v03": {
@@ -7311,48 +7311,30 @@
             "points_turk": [
                 {
                     "cluster_id": "1.0",
-                    "desc": "Add more salt to mixture",
-                    "time": 107.66,
-                    "workerid": "\"AK7LGB1QOGA1P\""
+                    "desc": "add chopped cilantro",
+                    "time": 27.72,
+                    "workerid": "\"AJ5XS1V27H091\""
                 },
                 {
                     "cluster_id": "1.0",
-                    "desc": "need more salt",
-                    "time": 108.41,
-                    "workerid": "\"A3O4IJTMCLCLIX\""
+                    "desc": "this is celantro",
+                    "time": 27.9,
+                    "workerid": "\"AE627VT8OR8A6\""
                 }
             ],
-            "time": 108.035
+            "time": 27.81
         },
         "2.0": {
             "cluster_id": "2.0",
             "points_turk": [
                 {
                     "cluster_id": "2.0",
-                    "desc": "eight large avocados",
-                    "time": 4.91,
-                    "workerid": "\"AJ5XS1V27H091\""
-                },
-                {
-                    "cluster_id": "2.0",
-                    "desc": "8 large avacados",
-                    "time": 5.58,
-                    "workerid": "\"AE627VT8OR8A6\""
-                }
-            ],
-            "time": 5.245
-        },
-        "3.0": {
-            "cluster_id": "3.0",
-            "points_turk": [
-                {
-                    "cluster_id": "3.0",
                     "desc": "all these are in relation to what you like I add",
                     "time": 13.53,
                     "workerid": "\"AE627VT8OR8A6\""
                 },
                 {
-                    "cluster_id": "3.0",
+                    "cluster_id": "2.0",
                     "desc": "add chopped tomato and onions",
                     "time": 14.01,
                     "workerid": "\"AJ5XS1V27H091\""
@@ -7360,11 +7342,11 @@
             ],
             "time": 13.77
         },
-        "3.0_R0": {
-            "cluster_id": "3.0_R0",
+        "2.0_R0": {
+            "cluster_id": "2.0_R0",
             "points_turk": [
                 {
-                    "cluster_id": "3.0_R0",
+                    "cluster_id": "2.0_R0",
                     "desc": "so you use white onion",
                     "time": 18.22,
                     "workerid": "\"AE627VT8OR8A6\""
@@ -7372,23 +7354,41 @@
             ],
             "time": 18.22
         },
+        "3.0": {
+            "cluster_id": "3.0",
+            "points_turk": [
+                {
+                    "cluster_id": "3.0",
+                    "desc": "Add more salt to mixture",
+                    "time": 107.66,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                },
+                {
+                    "cluster_id": "3.0",
+                    "desc": "need more salt",
+                    "time": 108.41,
+                    "workerid": "\"A3O4IJTMCLCLIX\""
+                }
+            ],
+            "time": 108.035
+        },
         "4.0": {
             "cluster_id": "4.0",
             "points_turk": [
                 {
                     "cluster_id": "4.0",
-                    "desc": "add chopped cilantro",
-                    "time": 27.72,
+                    "desc": "eight large avocados",
+                    "time": 4.91,
                     "workerid": "\"AJ5XS1V27H091\""
                 },
                 {
                     "cluster_id": "4.0",
-                    "desc": "this is celantro",
-                    "time": 27.9,
+                    "desc": "8 large avacados",
+                    "time": 5.58,
                     "workerid": "\"AE627VT8OR8A6\""
                 }
             ],
-            "time": 27.81
+            "time": 5.245
         }
     },
     "s1_c04_v01": {
@@ -11183,36 +11183,6 @@
             "points_turk": [
                 {
                     "cluster_id": "1.0",
-                    "desc": "Add 2 Tbsp of sesame oil",
-                    "time": 89.31,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                }
-            ],
-            "time": 89.31
-        },
-        "1.0_R0": {
-            "cluster_id": "1.0_R0",
-            "points_turk": [
-                {
-                    "cluster_id": "1.0_R0",
-                    "desc": "Pour 2 Tbsp of Sesame Oil on to meat",
-                    "time": 89.47999999999999,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                },
-                {
-                    "cluster_id": "1.0_R0",
-                    "desc": "Add 2 Tablespoons Sesame Oil",
-                    "time": 89.57,
-                    "workerid": "\"A5ZBDBZR9LSGM\""
-                }
-            ],
-            "time": 89.52499999999999
-        },
-        "2.0": {
-            "cluster_id": "2.0",
-            "points_turk": [
-                {
-                    "cluster_id": "2.0",
                     "desc": "Add 1/4 C sugar",
                     "time": 105.00999999999999,
                     "workerid": "\"AK7LGB1QOGA1P\""
@@ -11220,23 +11190,23 @@
             ],
             "time": 105.00999999999999
         },
-        "2.0_R0": {
-            "cluster_id": "2.0_R0",
+        "1.0_R0": {
+            "cluster_id": "1.0_R0",
             "points_turk": [
                 {
-                    "cluster_id": "2.0_R0",
+                    "cluster_id": "1.0_R0",
                     "desc": "Add 1/4 C of sugar to meat",
                     "time": 105.05,
                     "workerid": "\"AK7LGB1QOGA1P\""
                 },
                 {
-                    "cluster_id": "2.0_R0",
+                    "cluster_id": "1.0_R0",
                     "desc": "Add 1/4 Cup Sugar",
                     "time": 105.25,
                     "workerid": "\"A5ZBDBZR9LSGM\""
                 },
                 {
-                    "cluster_id": "2.0_R0",
+                    "cluster_id": "1.0_R0",
                     "desc": "Pour soy sauce",
                     "time": 108.98,
                     "workerid": "\"A13621J37H8XHD\""
@@ -11244,17 +11214,17 @@
             ],
             "time": 106.42666666666668
         },
-        "2.0_R1": {
-            "cluster_id": "2.0_R1",
+        "1.0_R1": {
+            "cluster_id": "1.0_R1",
             "points_turk": [
                 {
-                    "cluster_id": "2.0_R1",
+                    "cluster_id": "1.0_R1",
                     "desc": "Add 1/2 C soy sauce",
                     "time": 109.21000000000001,
                     "workerid": "\"AK7LGB1QOGA1P\""
                 },
                 {
-                    "cluster_id": "2.0_R1",
+                    "cluster_id": "1.0_R1",
                     "desc": "Add 1/2 Cup Soy Sauce",
                     "time": 109.42,
                     "workerid": "\"A5ZBDBZR9LSGM\""
@@ -11262,17 +11232,17 @@
             ],
             "time": 109.315
         },
-        "2.0_R2": {
-            "cluster_id": "2.0_R2",
+        "1.0_R2": {
+            "cluster_id": "1.0_R2",
             "points_turk": [
                 {
-                    "cluster_id": "2.0_R2",
+                    "cluster_id": "1.0_R2",
                     "desc": "Add 1/2 C of soy sauce to meat",
                     "time": 109.5,
                     "workerid": "\"AK7LGB1QOGA1P\""
                 },
                 {
-                    "cluster_id": "2.0_R2",
+                    "cluster_id": "1.0_R2",
                     "desc": "pour soy sauce",
                     "time": 111.41,
                     "workerid": "\"A11J8J2VOXZK7A\""
@@ -11280,23 +11250,23 @@
             ],
             "time": 110.455
         },
-        "2.0_R3": {
-            "cluster_id": "2.0_R3",
+        "1.0_R3": {
+            "cluster_id": "1.0_R3",
             "points_turk": [
                 {
-                    "cluster_id": "2.0_R3",
+                    "cluster_id": "1.0_R3",
                     "desc": "mix",
                     "time": 120.33,
                     "workerid": "\"A11J8J2VOXZK7A\""
                 },
                 {
-                    "cluster_id": "2.0_R3",
+                    "cluster_id": "1.0_R3",
                     "desc": "Mix it up",
                     "time": 121.06,
                     "workerid": "\"A1I2U9LE5R8S6J\""
                 },
                 {
-                    "cluster_id": "2.0_R3",
+                    "cluster_id": "1.0_R3",
                     "desc": "Mix and let it sit for 3 hours",
                     "time": 126.08,
                     "workerid": "\"A13621J37H8XHD\""
@@ -11304,23 +11274,23 @@
             ],
             "time": 122.49
         },
-        "2.0_R4": {
-            "cluster_id": "2.0_R4",
+        "1.0_R4": {
+            "cluster_id": "1.0_R4",
             "points_turk": [
                 {
-                    "cluster_id": "2.0_R4",
+                    "cluster_id": "1.0_R4",
                     "desc": "let sit for 3 hours",
                     "time": 130.03,
                     "workerid": "\"A11J8J2VOXZK7A\""
                 },
                 {
-                    "cluster_id": "2.0_R4",
+                    "cluster_id": "1.0_R4",
                     "desc": "Let it sit for about 3 hours",
                     "time": 130.07,
                     "workerid": "\"A1I2U9LE5R8S6J\""
                 },
                 {
-                    "cluster_id": "2.0_R4",
+                    "cluster_id": "1.0_R4",
                     "desc": "Cook in a pan or wok",
                     "time": 134.89,
                     "workerid": "\"A13621J37H8XHD\""
@@ -11328,11 +11298,11 @@
             ],
             "time": 131.66333333333333
         },
-        "2.0_R5": {
-            "cluster_id": "2.0_R5",
+        "1.0_R5": {
+            "cluster_id": "1.0_R5",
             "points_turk": [
                 {
-                    "cluster_id": "2.0_R5",
+                    "cluster_id": "1.0_R5",
                     "desc": "dump into pan or wok",
                     "time": 140.8,
                     "workerid": "\"A11J8J2VOXZK7A\""
@@ -11340,23 +11310,53 @@
             ],
             "time": 140.8
         },
-        "2.0_R6": {
-            "cluster_id": "2.0_R6",
+        "1.0_R6": {
+            "cluster_id": "1.0_R6",
             "points_turk": [
                 {
-                    "cluster_id": "2.0_R6",
+                    "cluster_id": "1.0_R6",
                     "desc": "cook on high heat",
                     "time": 143.37,
                     "workerid": "\"A11J8J2VOXZK7A\""
                 },
                 {
-                    "cluster_id": "2.0_R6",
+                    "cluster_id": "1.0_R6",
                     "desc": "cook on high heat for a couple minutes",
                     "time": 147.38,
                     "workerid": "\"A1I2U9LE5R8S6J\""
                 }
             ],
             "time": 145.375
+        },
+        "2.0": {
+            "cluster_id": "2.0",
+            "points_turk": [
+                {
+                    "cluster_id": "2.0",
+                    "desc": "Add 2 Tbsp of sesame oil",
+                    "time": 89.31,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                }
+            ],
+            "time": 89.31
+        },
+        "2.0_R0": {
+            "cluster_id": "2.0_R0",
+            "points_turk": [
+                {
+                    "cluster_id": "2.0_R0",
+                    "desc": "Pour 2 Tbsp of Sesame Oil on to meat",
+                    "time": 89.47999999999999,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                },
+                {
+                    "cluster_id": "2.0_R0",
+                    "desc": "Add 2 Tablespoons Sesame Oil",
+                    "time": 89.57,
+                    "workerid": "\"A5ZBDBZR9LSGM\""
+                }
+            ],
+            "time": 89.52499999999999
         },
         "3.0": {
             "cluster_id": "3.0",
@@ -11407,210 +11407,6 @@
             "points_turk": [
                 {
                     "cluster_id": "0.0",
-                    "desc": "the ingredients",
-                    "time": 8.95,
-                    "workerid": "\"AE627VT8OR8A6\""
-                },
-                {
-                    "cluster_id": "0.0",
-                    "desc": "Gather ingredients",
-                    "time": 8.96,
-                    "workerid": "\"AJ5XS1V27H091\""
-                }
-            ],
-            "time": 8.955
-        },
-        "0.0_R0": {
-            "cluster_id": "0.0_R0",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R0",
-                    "desc": "mushrooms celery",
-                    "time": 11.92,
-                    "workerid": "\"AE627VT8OR8A6\""
-                },
-                {
-                    "cluster_id": "0.0_R0",
-                    "desc": " take mushrooms",
-                    "time": 17.5,
-                    "workerid": "\"A2QO6RVWGP6Z9Y\""
-                }
-            ],
-            "time": 14.71
-        },
-        "0.0_R1": {
-            "cluster_id": "0.0_R1",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R1",
-                    "desc": "crushed ginger",
-                    "time": 20.09,
-                    "workerid": "\"AE627VT8OR8A6\""
-                }
-            ],
-            "time": 20.09
-        },
-        "0.0_R10": {
-            "cluster_id": "0.0_R10",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R10",
-                    "desc": "soy sauce",
-                    "time": 43.2,
-                    "workerid": "\"AE627VT8OR8A6\""
-                }
-            ],
-            "time": 43.2
-        },
-        "0.0_R11": {
-            "cluster_id": "0.0_R11",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R11",
-                    "desc": "the steps",
-                    "time": 46.79,
-                    "workerid": "\"AE627VT8OR8A6\""
-                },
-                {
-                    "cluster_id": "0.0_R11",
-                    "desc": "preparing steps",
-                    "time": 47.2,
-                    "workerid": "\"A2QO6RVWGP6Z9Y\""
-                }
-            ],
-            "time": 46.995000000000005
-        },
-        "0.0_R12": {
-            "cluster_id": "0.0_R12",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R12",
-                    "desc": "marinate beef with ",
-                    "time": 50.64,
-                    "workerid": "\"AE627VT8OR8A6\""
-                },
-                {
-                    "cluster_id": "0.0_R12",
-                    "desc": "Marinate beef with soy sauce ginger oyster sauce garlic black pepper salt and sugar",
-                    "time": 51.79,
-                    "workerid": "\"AJ5XS1V27H091\""
-                },
-                {
-                    "cluster_id": "0.0_R12",
-                    "desc": "marinate beef with multiple ingredients",
-                    "time": 55.48,
-                    "workerid": "\"A3D3ZUEHP1BLG8\""
-                },
-                {
-                    "cluster_id": "0.0_R12",
-                    "desc": "Marinate beef with soy sauce oyster sauce garlic sauce black pepper",
-                    "time": 55.73,
-                    "workerid": "\"A2UME0TSE7N41G\""
-                }
-            ],
-            "time": 53.41
-        },
-        "0.0_R2": {
-            "cluster_id": "0.0_R2",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R2",
-                    "desc": "oyster sauce",
-                    "time": 22.98,
-                    "workerid": "\"AE627VT8OR8A6\""
-                }
-            ],
-            "time": 22.98
-        },
-        "0.0_R3": {
-            "cluster_id": "0.0_R3",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R3",
-                    "desc": "iodized salt",
-                    "time": 24.53,
-                    "workerid": "\"AE627VT8OR8A6\""
-                }
-            ],
-            "time": 24.53
-        },
-        "0.0_R4": {
-            "cluster_id": "0.0_R4",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R4",
-                    "desc": "butter",
-                    "time": 27.16,
-                    "workerid": "\"AE627VT8OR8A6\""
-                }
-            ],
-            "time": 27.16
-        },
-        "0.0_R5": {
-            "cluster_id": "0.0_R5",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R5",
-                    "desc": "seseeme seed",
-                    "time": 29.49,
-                    "workerid": "\"AE627VT8OR8A6\""
-                }
-            ],
-            "time": 29.49
-        },
-        "0.0_R6": {
-            "cluster_id": "0.0_R6",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R6",
-                    "desc": "olive oil",
-                    "time": 33.01,
-                    "workerid": "\"AE627VT8OR8A6\""
-                }
-            ],
-            "time": 33.01
-        },
-        "0.0_R7": {
-            "cluster_id": "0.0_R7",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R7",
-                    "desc": "ground black",
-                    "time": 34.68,
-                    "workerid": "\"AE627VT8OR8A6\""
-                }
-            ],
-            "time": 34.68
-        },
-        "0.0_R8": {
-            "cluster_id": "0.0_R8",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R8",
-                    "desc": "brown sugar",
-                    "time": 37.38,
-                    "workerid": "\"AE627VT8OR8A6\""
-                }
-            ],
-            "time": 37.38
-        },
-        "0.0_R9": {
-            "cluster_id": "0.0_R9",
-            "points_turk": [
-                {
-                    "cluster_id": "0.0_R9",
-                    "desc": "crushed garlic",
-                    "time": 39.97,
-                    "workerid": "\"AE627VT8OR8A6\""
-                }
-            ],
-            "time": 39.97
-        },
-        "1.0": {
-            "cluster_id": "1.0",
-            "points_turk": [
-                {
-                    "cluster_id": "1.0",
                     "desc": "Heat the wok",
                     "time": 97.97,
                     "workerid": "\"A3D3ZUEHP1BLG8\""
@@ -11618,29 +11414,29 @@
             ],
             "time": 97.97
         },
-        "1.0_R0": {
-            "cluster_id": "1.0_R0",
+        "0.0_R0": {
+            "cluster_id": "0.0_R0",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R0",
+                    "cluster_id": "0.0_R0",
                     "desc": "Melt the butter",
                     "time": 100.88,
                     "workerid": "\"A3D3ZUEHP1BLG8\""
                 },
                 {
-                    "cluster_id": "1.0_R0",
+                    "cluster_id": "0.0_R0",
                     "desc": "melt butter in pan",
                     "time": 104.11,
                     "workerid": "\"A2UME0TSE7N41G\""
                 },
                 {
-                    "cluster_id": "1.0_R0",
+                    "cluster_id": "0.0_R0",
                     "desc": "melt the butter",
                     "time": 105.19,
                     "workerid": "\"A2QO6RVWGP6Z9Y\""
                 },
                 {
-                    "cluster_id": "1.0_R0",
+                    "cluster_id": "0.0_R0",
                     "desc": "Add marinated beef to the hot pan",
                     "time": 112.65,
                     "workerid": "\"AJ5XS1V27H091\""
@@ -11648,29 +11444,29 @@
             ],
             "time": 105.70750000000001
         },
-        "1.0_R1": {
-            "cluster_id": "1.0_R1",
+        "0.0_R1": {
+            "cluster_id": "0.0_R1",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R1",
+                    "cluster_id": "0.0_R1",
                     "desc": "Add marinated beef",
                     "time": 112.89,
                     "workerid": "\"A3D3ZUEHP1BLG8\""
                 },
                 {
-                    "cluster_id": "1.0_R1",
+                    "cluster_id": "0.0_R1",
                     "desc": "add marinated",
                     "time": 112.9,
                     "workerid": "\"AE627VT8OR8A6\""
                 },
                 {
-                    "cluster_id": "1.0_R1",
+                    "cluster_id": "0.0_R1",
                     "desc": "add marinated beef",
                     "time": 113.82,
                     "workerid": "\"A2C27YTQSQ1GXS\""
                 },
                 {
-                    "cluster_id": "1.0_R1",
+                    "cluster_id": "0.0_R1",
                     "desc": "Cook the beef for eight minutes",
                     "time": 122.31,
                     "workerid": "\"AJ5XS1V27H091\""
@@ -11678,17 +11474,17 @@
             ],
             "time": 115.48
         },
-        "1.0_R2": {
-            "cluster_id": "1.0_R2",
+        "0.0_R2": {
+            "cluster_id": "0.0_R2",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R2",
+                    "cluster_id": "0.0_R2",
                     "desc": "cook beef for",
                     "time": 123.16,
                     "workerid": "\"AE627VT8OR8A6\""
                 },
                 {
-                    "cluster_id": "1.0_R2",
+                    "cluster_id": "0.0_R2",
                     "desc": "cook beef 8 minutes",
                     "time": 124.47,
                     "workerid": "\"A2C27YTQSQ1GXS\""
@@ -11696,23 +11492,23 @@
             ],
             "time": 123.815
         },
-        "1.0_R3": {
-            "cluster_id": "1.0_R3",
+        "0.0_R3": {
+            "cluster_id": "0.0_R3",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R3",
+                    "cluster_id": "0.0_R3",
                     "desc": "add seasoning &",
                     "time": 131.36,
                     "workerid": "\"AE627VT8OR8A6\""
                 },
                 {
-                    "cluster_id": "1.0_R3",
+                    "cluster_id": "0.0_R3",
                     "desc": "Add the seasoning and remove the beef from the heat",
                     "time": 131.57999999999998,
                     "workerid": "\"AJ5XS1V27H091\""
                 },
                 {
-                    "cluster_id": "1.0_R3",
+                    "cluster_id": "0.0_R3",
                     "desc": "add seasoning remove heat",
                     "time": 131.66,
                     "workerid": "\"A2C27YTQSQ1GXS\""
@@ -11720,23 +11516,23 @@
             ],
             "time": 131.53333333333333
         },
-        "1.0_R4": {
-            "cluster_id": "1.0_R4",
+        "0.0_R4": {
+            "cluster_id": "0.0_R4",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R4",
+                    "cluster_id": "0.0_R4",
                     "desc": "put mushroom",
                     "time": 137.37,
                     "workerid": "\"AE627VT8OR8A6\""
                 },
                 {
-                    "cluster_id": "1.0_R4",
+                    "cluster_id": "0.0_R4",
                     "desc": "put mushroom celery green pepper and onion",
                     "time": 138.87,
                     "workerid": "\"A2C27YTQSQ1GXS\""
                 },
                 {
-                    "cluster_id": "1.0_R4",
+                    "cluster_id": "0.0_R4",
                     "desc": "Add the vegetables (mushroom celery green peppers and onions into the remaining marinade",
                     "time": 141.71,
                     "workerid": "\"AJ5XS1V27H091\""
@@ -11744,29 +11540,233 @@
             ],
             "time": 139.3166666666667
         },
-        "1.0_R5": {
-            "cluster_id": "1.0_R5",
+        "0.0_R5": {
+            "cluster_id": "0.0_R5",
             "points_turk": [
                 {
-                    "cluster_id": "1.0_R5",
+                    "cluster_id": "0.0_R5",
                     "desc": "mix thourghly",
                     "time": 151.55,
                     "workerid": "\"AE627VT8OR8A6\""
                 },
                 {
-                    "cluster_id": "1.0_R5",
+                    "cluster_id": "0.0_R5",
                     "desc": "mix thoroughly",
                     "time": 152.0,
                     "workerid": "\"A2C27YTQSQ1GXS\""
                 },
                 {
-                    "cluster_id": "1.0_R5",
+                    "cluster_id": "0.0_R5",
                     "desc": "Mix thoroughly",
                     "time": 153.01,
                     "workerid": "\"AJ5XS1V27H091\""
                 }
             ],
             "time": 152.18666666666667
+        },
+        "1.0": {
+            "cluster_id": "1.0",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0",
+                    "desc": "the ingredients",
+                    "time": 8.95,
+                    "workerid": "\"AE627VT8OR8A6\""
+                },
+                {
+                    "cluster_id": "1.0",
+                    "desc": "Gather ingredients",
+                    "time": 8.96,
+                    "workerid": "\"AJ5XS1V27H091\""
+                }
+            ],
+            "time": 8.955
+        },
+        "1.0_R0": {
+            "cluster_id": "1.0_R0",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R0",
+                    "desc": "mushrooms celery",
+                    "time": 11.92,
+                    "workerid": "\"AE627VT8OR8A6\""
+                },
+                {
+                    "cluster_id": "1.0_R0",
+                    "desc": " take mushrooms",
+                    "time": 17.5,
+                    "workerid": "\"A2QO6RVWGP6Z9Y\""
+                }
+            ],
+            "time": 14.71
+        },
+        "1.0_R1": {
+            "cluster_id": "1.0_R1",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R1",
+                    "desc": "crushed ginger",
+                    "time": 20.09,
+                    "workerid": "\"AE627VT8OR8A6\""
+                }
+            ],
+            "time": 20.09
+        },
+        "1.0_R10": {
+            "cluster_id": "1.0_R10",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R10",
+                    "desc": "soy sauce",
+                    "time": 43.2,
+                    "workerid": "\"AE627VT8OR8A6\""
+                }
+            ],
+            "time": 43.2
+        },
+        "1.0_R11": {
+            "cluster_id": "1.0_R11",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R11",
+                    "desc": "the steps",
+                    "time": 46.79,
+                    "workerid": "\"AE627VT8OR8A6\""
+                },
+                {
+                    "cluster_id": "1.0_R11",
+                    "desc": "preparing steps",
+                    "time": 47.2,
+                    "workerid": "\"A2QO6RVWGP6Z9Y\""
+                }
+            ],
+            "time": 46.995000000000005
+        },
+        "1.0_R12": {
+            "cluster_id": "1.0_R12",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R12",
+                    "desc": "marinate beef with ",
+                    "time": 50.64,
+                    "workerid": "\"AE627VT8OR8A6\""
+                },
+                {
+                    "cluster_id": "1.0_R12",
+                    "desc": "Marinate beef with soy sauce ginger oyster sauce garlic black pepper salt and sugar",
+                    "time": 51.79,
+                    "workerid": "\"AJ5XS1V27H091\""
+                },
+                {
+                    "cluster_id": "1.0_R12",
+                    "desc": "marinate beef with multiple ingredients",
+                    "time": 55.48,
+                    "workerid": "\"A3D3ZUEHP1BLG8\""
+                },
+                {
+                    "cluster_id": "1.0_R12",
+                    "desc": "Marinate beef with soy sauce oyster sauce garlic sauce black pepper",
+                    "time": 55.73,
+                    "workerid": "\"A2UME0TSE7N41G\""
+                }
+            ],
+            "time": 53.41
+        },
+        "1.0_R2": {
+            "cluster_id": "1.0_R2",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R2",
+                    "desc": "oyster sauce",
+                    "time": 22.98,
+                    "workerid": "\"AE627VT8OR8A6\""
+                }
+            ],
+            "time": 22.98
+        },
+        "1.0_R3": {
+            "cluster_id": "1.0_R3",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R3",
+                    "desc": "iodized salt",
+                    "time": 24.53,
+                    "workerid": "\"AE627VT8OR8A6\""
+                }
+            ],
+            "time": 24.53
+        },
+        "1.0_R4": {
+            "cluster_id": "1.0_R4",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R4",
+                    "desc": "butter",
+                    "time": 27.16,
+                    "workerid": "\"AE627VT8OR8A6\""
+                }
+            ],
+            "time": 27.16
+        },
+        "1.0_R5": {
+            "cluster_id": "1.0_R5",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R5",
+                    "desc": "seseeme seed",
+                    "time": 29.49,
+                    "workerid": "\"AE627VT8OR8A6\""
+                }
+            ],
+            "time": 29.49
+        },
+        "1.0_R6": {
+            "cluster_id": "1.0_R6",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R6",
+                    "desc": "olive oil",
+                    "time": 33.01,
+                    "workerid": "\"AE627VT8OR8A6\""
+                }
+            ],
+            "time": 33.01
+        },
+        "1.0_R7": {
+            "cluster_id": "1.0_R7",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R7",
+                    "desc": "ground black",
+                    "time": 34.68,
+                    "workerid": "\"AE627VT8OR8A6\""
+                }
+            ],
+            "time": 34.68
+        },
+        "1.0_R8": {
+            "cluster_id": "1.0_R8",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R8",
+                    "desc": "brown sugar",
+                    "time": 37.38,
+                    "workerid": "\"AE627VT8OR8A6\""
+                }
+            ],
+            "time": 37.38
+        },
+        "1.0_R9": {
+            "cluster_id": "1.0_R9",
+            "points_turk": [
+                {
+                    "cluster_id": "1.0_R9",
+                    "desc": "crushed garlic",
+                    "time": 39.97,
+                    "workerid": "\"AE627VT8OR8A6\""
+                }
+            ],
+            "time": 39.97
         },
         "2.0": {
             "cluster_id": "2.0",
@@ -12833,60 +12833,18 @@
             "points_turk": [
                 {
                     "cluster_id": "1.0",
-                    "desc": "Cover with plastic wrap",
-                    "time": 245.44,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                },
-                {
-                    "cluster_id": "1.0",
-                    "desc": "keep in the refrigerator",
-                    "time": 247.23,
-                    "workerid": "\"A5Q34TT9WZT8S\""
-                }
-            ],
-            "time": 246.33499999999998
-        },
-        "1.0_R0": {
-            "cluster_id": "1.0_R0",
-            "points_turk": [
-                {
-                    "cluster_id": "1.0_R0",
-                    "desc": "Cover with plastic wrap and place in refrigerator for 12 hours",
-                    "time": 249.31,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                }
-            ],
-            "time": 249.31
-        },
-        "1.0_R1": {
-            "cluster_id": "1.0_R1",
-            "points_turk": [
-                {
-                    "cluster_id": "1.0_R1",
-                    "desc": "Refrigerate for 12 hours",
-                    "time": 249.35,
-                    "workerid": "\"AK7LGB1QOGA1P\""
-                }
-            ],
-            "time": 249.35
-        },
-        "2.0": {
-            "cluster_id": "2.0",
-            "points_turk": [
-                {
-                    "cluster_id": "2.0",
                     "desc": "Heat the Bulgogi in a pan until the beef is cooked",
                     "time": 272.1,
                     "workerid": "\"AJ5XS1V27H091\""
                 },
                 {
-                    "cluster_id": "2.0",
+                    "cluster_id": "1.0",
                     "desc": "bagogi in a heated pan",
                     "time": 272.79,
                     "workerid": "\"AE627VT8OR8A6\""
                 },
                 {
-                    "cluster_id": "2.0",
+                    "cluster_id": "1.0",
                     "desc": "Fry marinade until beef is cooked",
                     "time": 274.15999999999997,
                     "workerid": "\"AK7LGB1QOGA1P\""
@@ -12894,29 +12852,29 @@
             ],
             "time": 273.0166666666667
         },
-        "2.0_R0": {
-            "cluster_id": "2.0_R0",
+        "1.0_R0": {
+            "cluster_id": "1.0_R0",
             "points_turk": [
                 {
-                    "cluster_id": "2.0_R0",
+                    "cluster_id": "1.0_R0",
                     "desc": "Fry marinated bulgogi until beef is cooked",
                     "time": 274.22,
                     "workerid": "\"AK7LGB1QOGA1P\""
                 },
                 {
-                    "cluster_id": "2.0_R0",
+                    "cluster_id": "1.0_R0",
                     "desc": "Put the bulgulgi in a heated pan until the beef is cooked.",
                     "time": 275.1,
                     "workerid": "\"A16BCGH12AARL5\""
                 },
                 {
-                    "cluster_id": "2.0_R0",
+                    "cluster_id": "1.0_R0",
                     "desc": "Serve the Bulgogi with rice and vegetables",
                     "time": 295.19,
                     "workerid": "\"AJ5XS1V27H091\""
                 },
                 {
-                    "cluster_id": "2.0_R0",
+                    "cluster_id": "1.0_R0",
                     "desc": "serve this bagogi with",
                     "time": 296.36,
                     "workerid": "\"AE627VT8OR8A6\""
@@ -12924,17 +12882,59 @@
             ],
             "time": 285.2175
         },
-        "2.0_R1": {
-            "cluster_id": "2.0_R1",
+        "1.0_R1": {
+            "cluster_id": "1.0_R1",
             "points_turk": [
                 {
-                    "cluster_id": "2.0_R1",
+                    "cluster_id": "1.0_R1",
                     "desc": "Serve this bulgolgi with rice and different kinds of vegetables.",
                     "time": 299.35,
                     "workerid": "\"A16BCGH12AARL5\""
                 }
             ],
             "time": 299.35
+        },
+        "2.0": {
+            "cluster_id": "2.0",
+            "points_turk": [
+                {
+                    "cluster_id": "2.0",
+                    "desc": "Cover with plastic wrap",
+                    "time": 245.44,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                },
+                {
+                    "cluster_id": "2.0",
+                    "desc": "keep in the refrigerator",
+                    "time": 247.23,
+                    "workerid": "\"A5Q34TT9WZT8S\""
+                }
+            ],
+            "time": 246.33499999999998
+        },
+        "2.0_R0": {
+            "cluster_id": "2.0_R0",
+            "points_turk": [
+                {
+                    "cluster_id": "2.0_R0",
+                    "desc": "Cover with plastic wrap and place in refrigerator for 12 hours",
+                    "time": 249.31,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                }
+            ],
+            "time": 249.31
+        },
+        "2.0_R1": {
+            "cluster_id": "2.0_R1",
+            "points_turk": [
+                {
+                    "cluster_id": "2.0_R1",
+                    "desc": "Refrigerate for 12 hours",
+                    "time": 249.35,
+                    "workerid": "\"AK7LGB1QOGA1P\""
+                }
+            ],
+            "time": 249.35
         }
     }
 }
