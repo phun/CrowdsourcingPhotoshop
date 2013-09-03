@@ -1,0 +1,1007 @@
+{
+    "s1_p01_v01": {
+        "60": {
+            "desc": "Filter > Blur > Motion Blur", 
+            "label_id": "60", 
+            "time": "22"
+        }, 
+        "62": {
+            "desc": "Layer > Duplicate Layer", 
+            "label_id": "62", 
+            "time": "15"
+        }, 
+        "63": {
+            "desc": "Eraser", 
+            "label_id": "63", 
+            "time": "38"
+        }
+    }, 
+    "s1_p01_v02": {
+        "67": {
+            "desc": "Polygonal Lasso", 
+            "label_id": "67", 
+            "time": "46"
+        }, 
+        "69": {
+            "desc": "Select > Modify > Feather", 
+            "label_id": "69", 
+            "time": "139"
+        }, 
+        "70": {
+            "desc": "Layer > New", 
+            "label_id": "70", 
+            "time": "145"
+        }, 
+        "72": {
+            "desc": "Filter > Blur > Motion Blur", 
+            "label_id": "72", 
+            "time": "164"
+        }
+    }, 
+    "s1_p01_v03": {
+        "74": {
+            "desc": "Elliptical Marquee", 
+            "label_id": "74", 
+            "time": "53"
+        }, 
+        "75": {
+            "desc": "Select > Transform Selection", 
+            "label_id": "75", 
+            "time": "79"
+        }, 
+        "78": {
+            "desc": "Edit > Copy Merged", 
+            "label_id": "78", 
+            "time": "102"
+        }, 
+        "79": {
+            "desc": "Edit > Paste", 
+            "label_id": "79", 
+            "time": "120"
+        }, 
+        "80": {
+            "desc": "Edit > Free Transform", 
+            "label_id": "80", 
+            "time": "153"
+        }, 
+        "83": {
+            "desc": "Filter > Blur > Radial Blur", 
+            "label_id": "83", 
+            "time": "194"
+        }, 
+        "85": {
+            "desc": "Edit > Free Transform", 
+            "label_id": "85", 
+            "time": "235"
+        }, 
+        "87": {
+            "desc": "Select > Deselect", 
+            "label_id": "87", 
+            "time": "271"
+        }
+    }, 
+    "s1_p01_v04": {
+        "91": {
+            "desc": "Filter > Blur > Motion Blur", 
+            "label_id": "91", 
+            "time": "44"
+        }, 
+        "93": {
+            "desc": "Eraser", 
+            "label_id": "93", 
+            "time": "70"
+        }, 
+        "94": {
+            "desc": "Layer > New", 
+            "label_id": "94", 
+            "time": "75"
+        }, 
+        "96": {
+            "desc": "History Brush", 
+            "label_id": "96", 
+            "time": "82"
+        }, 
+        "98": {
+            "desc": "opacity", 
+            "label_id": "98", 
+            "time": "115"
+        }, 
+        "99": {
+            "desc": "Horizontal Type", 
+            "label_id": "99", 
+            "time": "134"
+        }
+    }, 
+    "s1_p01_v05": {
+        "101": {
+            "desc": "File > New", 
+            "label_id": "101", 
+            "time": "9"
+        }, 
+        "102": {
+            "desc": "Horizontal Type", 
+            "label_id": "102", 
+            "time": "29"
+        }, 
+        "105": {
+            "desc": "Layer > Duplicate Layer", 
+            "label_id": "105", 
+            "time": "75"
+        }, 
+        "107": {
+            "desc": "Filter > Blur > Motion Blur", 
+            "label_id": "107", 
+            "time": "95"
+        }
+    }, 
+    "s1_p02_v01": {
+        "580": {
+            "desc": "extract filter", 
+            "label_id": "580", 
+            "time": "59"
+        }, 
+        "582": {
+            "desc": "History Brush", 
+            "label_id": "582", 
+            "time": "106"
+        }, 
+        "584": {
+            "desc": "Eraser", 
+            "label_id": "584", 
+            "time": "132"
+        }, 
+        "586": {
+            "desc": "Move", 
+            "label_id": "586", 
+            "time": "197"
+        }, 
+        "588": {
+            "desc": "Move", 
+            "label_id": "588", 
+            "time": "267"
+        }, 
+        "590": {
+            "desc": "Edit > Free Transform", 
+            "label_id": "590", 
+            "time": "274"
+        }, 
+        "592": {
+            "desc": "Image > Crop", 
+            "label_id": "592", 
+            "time": "297"
+        }
+    }, 
+    "s1_p02_v02": {
+        "595": {
+            "desc": "extraction filter", 
+            "label_id": "595", 
+            "time": "33"
+        }
+    }, 
+    "s1_p02_v03": {
+        "598": {
+            "desc": "Layer > New > Layer", 
+            "label_id": "598", 
+            "time": "43"
+        }, 
+        "599": {
+            "desc": "Window > Channels", 
+            "label_id": "599", 
+            "time": "73"
+        }, 
+        "600": {
+            "desc": "", 
+            "label_id": "600", 
+            "time": "160"
+        }, 
+        "602": {
+            "desc": "Select > Load Selection", 
+            "label_id": "602", 
+            "time": "204"
+        }, 
+        "604": {
+            "desc": "Layer > Layer Mask > Reveal Selection", 
+            "label_id": "604", 
+            "time": "245"
+        }, 
+        "605": {
+            "desc": "Layer > New Fill Layer > Solid Color", 
+            "label_id": "605", 
+            "time": "254"
+        }, 
+        "607": {
+            "desc": "Image > Adjustments > Levels", 
+            "label_id": "607", 
+            "time": "313"
+        }
+    }, 
+    "s1_p02_v04": {
+        "610": {
+            "desc": "Magic Wand", 
+            "label_id": "610", 
+            "time": "74"
+        }, 
+        "613": {
+            "desc": "Select > Deselect", 
+            "label_id": "613", 
+            "time": "120"
+        }, 
+        "614": {
+            "desc": "Move", 
+            "label_id": "614", 
+            "time": "126"
+        }, 
+        "616": {
+            "desc": "Edit > Transform > Scale", 
+            "label_id": "616", 
+            "time": "175"
+        }, 
+        "618": {
+            "desc": "Zoom", 
+            "label_id": "618", 
+            "time": "237"
+        }, 
+        "619": {
+            "desc": "Layer > Layer Style > Drop Shadow", 
+            "label_id": "619", 
+            "time": "267"
+        }
+    }, 
+    "s1_p02_v05": {
+        "623": {
+            "desc": "Brush", 
+            "label_id": "623", 
+            "time": "43"
+        }, 
+        "625": {
+            "desc": "Select > Edit in Quick Mask Mode", 
+            "label_id": "625", 
+            "time": "41"
+        }, 
+        "626": {
+            "desc": "Select > Deselect", 
+            "label_id": "626", 
+            "time": "85"
+        }, 
+        "628": {
+            "desc": "Magic Eraser", 
+            "label_id": "628", 
+            "time": "104"
+        }, 
+        "631": {
+            "desc": "Eraser", 
+            "label_id": "631", 
+            "time": "148"
+        }, 
+        "633": {
+            "desc": "Edit > Free Transform", 
+            "label_id": "633", 
+            "time": "205"
+        }
+    }, 
+    "s1_p03_v01": {
+        "697": {
+            "desc": "Layer > New Adjustment Layer > Exposure", 
+            "label_id": "697", 
+            "time": "52"
+        }, 
+        "700": {
+            "desc": "Layer > New Adjustment Layer > Curves", 
+            "label_id": "700", 
+            "time": "74"
+        }, 
+        "702": {
+            "desc": "Gradient", 
+            "label_id": "702", 
+            "time": "126"
+        }, 
+        "704": {
+            "desc": "Layer > Duplicate Layer", 
+            "label_id": "704", 
+            "time": "196"
+        }, 
+        "705": {
+            "desc": "Paint Bucket", 
+            "label_id": "705", 
+            "time": "199"
+        }, 
+        "707": {
+            "desc": "Rectangular Marquee", 
+            "label_id": "707", 
+            "time": "204"
+        }, 
+        "708": {
+            "desc": "Edit > Clear", 
+            "label_id": "708", 
+            "time": "211"
+        }, 
+        "709": {
+            "desc": "Select > Deselect", 
+            "label_id": "709", 
+            "time": "212"
+        }
+    }, 
+    "s1_p03_v02": {
+        "712": {
+            "desc": "Image > Adjustments > Curves", 
+            "label_id": "712", 
+            "time": "80"
+        }, 
+        "714": {
+            "desc": "Layer > New Adjustment Layer > Gradient Map", 
+            "label_id": "714", 
+            "time": "125"
+        }, 
+        "715": {
+            "desc": "", 
+            "label_id": "715", 
+            "time": "144"
+        }, 
+        "717": {
+            "desc": "Window > Actions", 
+            "label_id": "717", 
+            "time": "178"
+        }, 
+        "718": {
+            "desc": "new action", 
+            "label_id": "718", 
+            "time": "181"
+        }, 
+        "719": {
+            "desc": "Layer > New Adjustment Layer > Curves", 
+            "label_id": "719", 
+            "time": "199"
+        }, 
+        "721": {
+            "desc": "Layer > New Adjustment Layer > Gradient Map", 
+            "label_id": "721", 
+            "time": "221"
+        }, 
+        "722": {
+            "desc": "overlay, opacity", 
+            "label_id": "722", 
+            "time": "253"
+        }, 
+        "723": {
+            "desc": "action stop", 
+            "label_id": "723", 
+            "time": "258"
+        }, 
+        "725": {
+            "desc": "action play", 
+            "label_id": "725", 
+            "time": "271"
+        }
+    }, 
+    "s1_p03_v03": {
+        "728": {
+            "desc": "Layer > New Adjustment Layer > Curves", 
+            "label_id": "728", 
+            "time": "30"
+        }, 
+        "730": {
+            "desc": "Layer > New Adjustment Layer > Gradient Map", 
+            "label_id": "730", 
+            "time": "79"
+        }, 
+        "731": {
+            "desc": "overlay, opacity", 
+            "label_id": "731", 
+            "time": "97"
+        }
+    }, 
+    "s1_p03_v04": {
+        "735": {
+            "desc": "Lasso", 
+            "label_id": "735", 
+            "time": "110"
+        }, 
+        "737": {
+            "desc": "Select > Inverse", 
+            "label_id": "737", 
+            "time": "153"
+        }, 
+        "738": {
+            "desc": "Layer > New Adjustment Layer > Levels", 
+            "label_id": "738", 
+            "time": "169"
+        }, 
+        "740": {
+            "desc": "Layer > New Adjustment Layer > Curves", 
+            "label_id": "740", 
+            "time": "208"
+        }, 
+        "742": {
+            "desc": "Layer > New > Layer", 
+            "label_id": "742", 
+            "time": "279"
+        }, 
+        "743": {
+            "desc": "Edit > Fill", 
+            "label_id": "743", 
+            "time": "284"
+        }, 
+        "745": {
+            "desc": "hue", 
+            "label_id": "745", 
+            "time": "299"
+        }, 
+        "747": {
+            "desc": "opacity", 
+            "label_id": "747", 
+            "time": "311"
+        }, 
+        "749": {
+            "desc": "Image > Mode > Lab Color", 
+            "label_id": "749", 
+            "time": "323"
+        }, 
+        "750": {
+            "desc": "lightness channel", 
+            "label_id": "750", 
+            "time": "356"
+        }, 
+        "751": {
+            "desc": "Filter > Sharpen > Unsharp Mask", 
+            "label_id": "751", 
+            "time": "365"
+        }, 
+        "753": {
+            "desc": "Image > Mode > RGB Color", 
+            "label_id": "753", 
+            "time": "385"
+        }
+    }, 
+    "s1_p03_v05": {
+        "756": {
+            "desc": "Rectangular Marquee", 
+            "label_id": "756", 
+            "time": "28"
+        }, 
+        "757": {
+            "desc": "Select > Inverse", 
+            "label_id": "757", 
+            "time": "48"
+        }, 
+        "758": {
+            "desc": "Layer > New Adjustment Layer > Levels", 
+            "label_id": "758", 
+            "time": "59"
+        }, 
+        "760": {
+            "desc": "Layer > Merge Layers", 
+            "label_id": "760", 
+            "time": "103"
+        }, 
+        "761": {
+            "desc": "Layer > New Adjustment Layer > Curves", 
+            "label_id": "761", 
+            "time": "119"
+        }, 
+        "763": {
+            "desc": "Layer > New > Layer", 
+            "label_id": "763", 
+            "time": "162"
+        }, 
+        "764": {
+            "desc": "Paint Bucket", 
+            "label_id": "764", 
+            "time": "170"
+        }, 
+        "766": {
+            "desc": "hue", 
+            "label_id": "766", 
+            "time": "193"
+        }, 
+        "767": {
+            "desc": "opacity", 
+            "label_id": "767", 
+            "time": "201"
+        }, 
+        "769": {
+            "desc": "Layer > Merge Visible", 
+            "label_id": "769", 
+            "time": "236"
+        }, 
+        "770": {
+            "desc": "Image > Mode > Lab Color", 
+            "label_id": "770", 
+            "time": "246"
+        }, 
+        "771": {
+            "desc": "lightness", 
+            "label_id": "771", 
+            "time": "260"
+        }, 
+        "773": {
+            "desc": "Filter > Sharpen > Unsharp Mask", 
+            "label_id": "773", 
+            "time": "267"
+        }, 
+        "775": {
+            "desc": "Image > Mode > RGB Color", 
+            "label_id": "775", 
+            "time": "297"
+        }
+    }, 
+    "s1_p04_v01": {
+        "186": {
+            "desc": "Layer > New Adjustment Layer > Hue/Saturation", 
+            "label_id": "186", 
+            "time": "171"
+        }, 
+        "188": {
+            "desc": "Layer > New Adjustment Layer > Curves", 
+            "label_id": "188", 
+            "time": "205"
+        }, 
+        "190": {
+            "desc": "Layer > New Adjustment Layer > Levels", 
+            "label_id": "190", 
+            "time": "241"
+        }, 
+        "192": {
+            "desc": "Layer > New Adjustment Layer > Curves", 
+            "label_id": "192", 
+            "time": "261"
+        }, 
+        "194": {
+            "desc": "Rectangular Marquee", 
+            "label_id": "194", 
+            "time": "415"
+        }, 
+        "196": {
+            "desc": "Image > Crop", 
+            "label_id": "196", 
+            "time": "426"
+        }, 
+        "198": {
+            "desc": "File > Open", 
+            "label_id": "198", 
+            "time": "440"
+        }, 
+        "200": {
+            "desc": "Edit > Free Transform", 
+            "label_id": "200", 
+            "time": "461"
+        }
+    }, 
+    "s1_p04_v02": {
+        "204": {
+            "desc": "Layer > New Fill Layer > Gradient", 
+            "label_id": "204", 
+            "time": "20"
+        }, 
+        "206": {
+            "desc": "Layer > New Fill Layer > Solid Color", 
+            "label_id": "206", 
+            "time": "65"
+        }, 
+        "208": {
+            "desc": "Layer > New Adjustment Layer > Curves", 
+            "label_id": "208", 
+            "time": "86"
+        }, 
+        "210": {
+            "desc": "Layer > New Fill Layer > Gradient", 
+            "label_id": "210", 
+            "time": "126"
+        }, 
+        "212": {
+            "desc": "Layer > Rasterize", 
+            "label_id": "212", 
+            "time": "186"
+        }, 
+        "213": {
+            "desc": "Eraser", 
+            "label_id": "213", 
+            "time": "188"
+        }, 
+        "215": {
+            "desc": "Layer > New", 
+            "label_id": "215", 
+            "time": "242"
+        }, 
+        "218": {
+            "desc": "Layer > Group Layers", 
+            "label_id": "218", 
+            "time": "279"
+        }, 
+        "410": {
+            "desc": "Edit > Paste", 
+            "label_id": "410", 
+            "time": "244"
+        }, 
+        "411": {
+            "desc": "Edit > Free Transform", 
+            "label_id": "411", 
+            "time": "245"
+        }
+    }, 
+    "s1_p04_v03": {
+        "222": {
+            "desc": "Layer > Duplicate Layer", 
+            "label_id": "222", 
+            "time": "58"
+        }, 
+        "226": {
+            "desc": "Layer > New", 
+            "label_id": "226", 
+            "time": "81"
+        }, 
+        "227": {
+            "desc": "Window > Color", 
+            "label_id": "227", 
+            "time": "85"
+        }, 
+        "228": {
+            "desc": "Paint Bucket", 
+            "label_id": "228", 
+            "time": "95"
+        }, 
+        "230": {
+            "desc": "Layer > New Adjustment Layer > Curves", 
+            "label_id": "230", 
+            "time": "115"
+        }, 
+        "232": {
+            "desc": "Layer > New", 
+            "label_id": "232", 
+            "time": "175"
+        }, 
+        "233": {
+            "desc": "Layer > New Adjustment Layer > Levels", 
+            "label_id": "233", 
+            "time": "176"
+        }, 
+        "235": {
+            "desc": "Layer > New", 
+            "label_id": "235", 
+            "time": "194"
+        }, 
+        "236": {
+            "desc": "Layer > New Adjustment Layer > Photo Filter", 
+            "label_id": "236", 
+            "time": "201"
+        }, 
+        "238": {
+            "desc": "Blur", 
+            "label_id": "238", 
+            "time": "228"
+        }
+    }, 
+    "s1_p04_v04": {
+        "241": {
+            "desc": "Layer > Duplicate Layer", 
+            "label_id": "241", 
+            "time": "74"
+        }, 
+        "242": {
+            "desc": "Layer > New Adjustment Layer > Color Balance", 
+            "label_id": "242", 
+            "time": "85"
+        }, 
+        "244": {
+            "desc": "Layer > New Adjustment Layer > Curves", 
+            "label_id": "244", 
+            "time": "155"
+        }
+    }, 
+    "s1_p04_v05": {
+        "249": {
+            "desc": "Layer > New Adjustment Layer > Hue/Saturation", 
+            "label_id": "249", 
+            "time": "39"
+        }, 
+        "251": {
+            "desc": "Layer > Duplicate Layer", 
+            "label_id": "251", 
+            "time": "91"
+        }, 
+        "252": {
+            "desc": "Filter > Blur > Gaussian Blur", 
+            "label_id": "252", 
+            "time": "98"
+        }, 
+        "254": {
+            "desc": "Eraser", 
+            "label_id": "254", 
+            "time": "115"
+        }, 
+        "256": {
+            "desc": "Layer > New", 
+            "label_id": "256", 
+            "time": "150"
+        }, 
+        "257": {
+            "desc": "Rectangular Marquee", 
+            "label_id": "257", 
+            "time": "153"
+        }, 
+        "259": {
+            "desc": "Filter > Render", 
+            "label_id": "259", 
+            "time": "163"
+        }, 
+        "261": {
+            "desc": "Select > Deselect", 
+            "label_id": "261", 
+            "time": "172"
+        }, 
+        "262": {
+            "desc": "Edit > Free Transform", 
+            "label_id": "262", 
+            "time": "175"
+        }, 
+        "264": {
+            "desc": "blend mode", 
+            "label_id": "264", 
+            "time": "201"
+        }, 
+        "266": {
+            "desc": "foreground color", 
+            "label_id": "266", 
+            "time": "210"
+        }, 
+        "267": {
+            "desc": "Brush", 
+            "label_id": "267", 
+            "time": "215"
+        }, 
+        "269": {
+            "desc": "Layer > New", 
+            "label_id": "269", 
+            "time": "241"
+        }, 
+        "270": {
+            "desc": "Brush", 
+            "label_id": "270", 
+            "time": "245"
+        }
+    }, 
+    "s1_p05_v01": {
+        "436": {
+            "desc": "Image > Adjustments > Desaturate", 
+            "label_id": "436", 
+            "time": "23"
+        }, 
+        "438": {
+            "desc": "Layer > Duplicate Layer", 
+            "label_id": "438", 
+            "time": "29"
+        }, 
+        "439": {
+            "desc": "Image > Adjustments > Invert", 
+            "label_id": "439", 
+            "time": "38"
+        }, 
+        "441": {
+            "desc": "color dodge", 
+            "label_id": "441", 
+            "time": "56"
+        }, 
+        "443": {
+            "desc": "Filter > Other > Minimum", 
+            "label_id": "443", 
+            "time": "72"
+        }
+    }, 
+    "s1_p05_v02": {
+        "445": {
+            "desc": "File > Open", 
+            "label_id": "445", 
+            "time": "20"
+        }, 
+        "447": {
+            "desc": "Layer > Duplicate Layer", 
+            "label_id": "447", 
+            "time": "28"
+        }, 
+        "448": {
+            "desc": "Image > Adjustments > Desaturate", 
+            "label_id": "448", 
+            "time": "39"
+        }, 
+        "450": {
+            "desc": "Image > Adjustments > Desaturate", 
+            "label_id": "450", 
+            "time": "52"
+        }, 
+        "451": {
+            "desc": "Image > Adjustments > Invert", 
+            "label_id": "451", 
+            "time": "66"
+        }, 
+        "453": {
+            "desc": "color dodge", 
+            "label_id": "453", 
+            "time": "74"
+        }, 
+        "455": {
+            "desc": "Filter > Blur > Gaussian Blur", 
+            "label_id": "455", 
+            "time": "85"
+        }, 
+        "457": {
+            "desc": "Burn", 
+            "label_id": "457", 
+            "time": "106"
+        }
+    }, 
+    "s1_p05_v03": {
+        "459": {
+            "desc": "File > Open", 
+            "label_id": "459", 
+            "time": "6"
+        }, 
+        "461": {
+            "desc": "Burn", 
+            "label_id": "461", 
+            "time": "46"
+        }, 
+        "463": {
+            "desc": "Edit > Paste", 
+            "label_id": "463", 
+            "time": "74"
+        }, 
+        "464": {
+            "desc": "Layer > Merge Visible", 
+            "label_id": "464", 
+            "time": "65"
+        }, 
+        "465": {
+            "desc": "Select > All", 
+            "label_id": "465", 
+            "time": "65"
+        }, 
+        "466": {
+            "desc": "Edit > Copy", 
+            "label_id": "466", 
+            "time": "66"
+        }, 
+        "467": {
+            "desc": "Edit > Free Transform", 
+            "label_id": "467", 
+            "time": "78"
+        }, 
+        "470": {
+            "desc": "multiply", 
+            "label_id": "470", 
+            "time": "90"
+        }, 
+        "472": {
+            "desc": "Eraser", 
+            "label_id": "472", 
+            "time": "98"
+        }, 
+        "474": {
+            "desc": "opacity", 
+            "label_id": "474", 
+            "time": "126"
+        }, 
+        "476": {
+            "desc": "Layer > Merge Visible", 
+            "label_id": "476", 
+            "time": "131"
+        }, 
+        "477": {
+            "desc": "Image > Adjustments > Photo Filter", 
+            "label_id": "477", 
+            "time": "136"
+        }, 
+        "480": {
+            "desc": "Layer > Duplicate Layer", 
+            "label_id": "480", 
+            "time": "11"
+        }, 
+        "481": {
+            "desc": "Image > Adjustments > Desaturate", 
+            "label_id": "481", 
+            "time": "14"
+        }, 
+        "483": {
+            "desc": "Layer > Duplicate Layer", 
+            "label_id": "483", 
+            "time": "17"
+        }, 
+        "484": {
+            "desc": "Image > Adjustments > Invert", 
+            "label_id": "484", 
+            "time": "18"
+        }, 
+        "486": {
+            "desc": "color dodge", 
+            "label_id": "486", 
+            "time": "20"
+        }, 
+        "488": {
+            "desc": "Filter > Blur > Gaussian Blur", 
+            "label_id": "488", 
+            "time": "23"
+        }
+    }, 
+    "s1_p05_v04": {
+        "490": {
+            "desc": "color dodge", 
+            "label_id": "490", 
+            "time": "72"
+        }, 
+        "491": {
+            "desc": "Layer > Duplicate Layer", 
+            "label_id": "491", 
+            "time": "70"
+        }, 
+        "492": {
+            "desc": "Layer > Duplicate Layer", 
+            "label_id": "492", 
+            "time": "71"
+        }, 
+        "494": {
+            "desc": "Image > Adjustments > Invert", 
+            "label_id": "494", 
+            "time": "77"
+        }, 
+        "496": {
+            "desc": "Filter > Blur > Gaussian Blur", 
+            "label_id": "496", 
+            "time": "84"
+        }, 
+        "498": {
+            "desc": "Layer > New Adjustment Layer > Hue/Saturation", 
+            "label_id": "498", 
+            "time": "145"
+        }
+    }, 
+    "s1_p05_v05": {
+        "501": {
+            "desc": "Layer > Duplicate Layer", 
+            "label_id": "501", 
+            "time": "51"
+        }, 
+        "502": {
+            "desc": "Image > Adjustments > Desaturate", 
+            "label_id": "502", 
+            "time": "63"
+        }, 
+        "504": {
+            "desc": "Layer > Duplicate Layer", 
+            "label_id": "504", 
+            "time": "69"
+        }, 
+        "505": {
+            "desc": "color dodge", 
+            "label_id": "505", 
+            "time": "83"
+        }, 
+        "507": {
+            "desc": "Image > Adjustments > Invert", 
+            "label_id": "507", 
+            "time": "92"
+        }, 
+        "509": {
+            "desc": "Filter > Blur > Gaussian Blur", 
+            "label_id": "509", 
+            "time": "108"
+        }, 
+        "511": {
+            "desc": "Layer > New Adjustment Layer > Levels", 
+            "label_id": "511", 
+            "time": "160"
+        }, 
+        "513": {
+            "desc": "Brush", 
+            "label_id": "513", 
+            "time": "201"
+        }, 
+        "515": {
+            "desc": "Image > Duplicate", 
+            "label_id": "515", 
+            "time": "349"
+        }, 
+        "516": {
+            "desc": "Filter > Sharpen > Unsharp Mask", 
+            "label_id": "516", 
+            "time": "376"
+        }
+    }
+}

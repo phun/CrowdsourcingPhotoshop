@@ -50,7 +50,7 @@ def read_truth_data(filename):
         for label in datum["labels"]:
             data[datum["vid"]].append(label)
     f.close()
-    print data
+    # print data
     return data
 
 ##############################################################################
@@ -109,7 +109,10 @@ def run_dbscan(labels_turk, label_turk_list, label_truth_list, epsilon):
     #       % metrics.adjusted_mutual_info_score(labels_truth, labels))
     # print("Silhouette Coefficient: %0.3f"
     #       % metrics.silhouette_score(X, labels))
-    return labels
+    # print labels
+    new_labels = [str(i) for i in labels]
+    # print new_labels
+    return new_labels
 
 ##############################################################################
 # Plot result
@@ -141,26 +144,42 @@ def plot_results(labels):
     #pl.show()
 
 
-
+# Get the representative time for a cluster
+# Consider using the minimum value not the mean
 def getClusterTime(cluster_data, cluster_id):
     total_time = 0
     count = 0
+    min_time = 1000000
     #print cluster_data
     for item in cluster_data:
         #print item
         if (cluster_id == item["cluster_id"]):
             total_time += item["time"]
             count = count + 1
+            if min_time > item["time"]:
+                min_time = item["time"]
     if count == 0:
         return -1
+
+    # the mean
     return total_time / count
+    # the minimum
+    # return min_time
 
 
+# Save JSON files of final clusters
+def save_files(final_data, eps):
+    import json
+    with open(sys.argv[1] + '.' + str(eps) + '.final.json', 'wb') as fp:
+        #json.dump(final_data, fp)
+        json.dump(final_data, fp, sort_keys=True, indent=4, separators=(',', ': '))
 
-''' Usage python dbscan.py [turk_filename] [truth_filename]
+
+''' Usage 
+        python dbscan.py [turk_filename] [truth_filename]
     Parameters
-    - turk_filename:
-    - truth_filename:
+    - turk_filename: e.g., s1_c.data
+    - truth_filename: e.g., s1_c.truth
 '''
 turk_filename = sys.argv[1]
 truth_filename = sys.argv[2]
@@ -170,6 +189,7 @@ truth = read_truth_data(truth_filename)
 vidlist = turk.keys()
 vidlist.sort()
 
+fp = open(turk_filename + ".parsed", 'wb')
 for i in range(1, 30):
     eps = i * 0.01
     final_data = {}
@@ -185,16 +205,16 @@ for i in range(1, 30):
         #     for label in sorted_turk:
         #         print label["time"], label["desc"]
 
-        print vid, "Turk:", len(turk[vid]), "Truth:", len(truth[vid])#, data[vid]
+        # print vid, "Turk:", len(turk[vid]), "Truth:", len(truth[vid])#, data[vid]
         # only grab time information from the data
         label_turk_list = []
         label_truth_list = []
         for label in turk[vid]:
             label_turk_list.append(label["time"])
-        for label in truth[vid]:
-            label_truth_list.append(label["time"])
+        # for label in truth[vid]:
+        #     label_truth_list.append(label["time"])
         label_turk_list.sort()
-        label_truth_list.sort()
+        # label_truth_list.sort()
         # format for DBSCAN
         
         labels_turk = format_data(label_turk_list)
@@ -203,35 +223,80 @@ for i in range(1, 30):
         clusters = run_dbscan(labels_turk, label_turk_list, label_truth_list, eps)
 
 
-        # if (vid == "s1_p03_v03"):
-        print "TRUE:"
-        for label in truth[vid]:
-            print label["time"], label["desc"]
-        print "==="
+        # "separate": Turn on/off clustering unclustered (id is -1) into time brackets
+        if True:
+            clone_clusters = list(clusters)
+            new_cluster_count = 0
+            tally = []
+            for (i, label) in enumerate(label_turk_list):
+                key = str(clone_clusters[i])
+                print i, key, label
+                if key == "-1.0":
+                    tally.append(label)
+                    new_cid = key + "_T" + str(new_cluster_count)
+                    clusters[i] = new_cid
+                else:
+                    if len(tally) > 0:
+                        new_cluster_count += 1
+                        # print "creating new cluster", tally
+                    tally = []
+            # if len(tally) > 0:
+            #     new_cluster_count += 1                
+            #     print "creating new cluster", tally
+            # tally = []
+
+        # "reclustering": Turn on/off reclustering within a cluster
+        if True:
+            # clone because original cluster names will be updated
+            clone_clusters = list(clusters)
+            current_cluster = "no cluster yet"
+            for (i, label) in enumerate(label_turk_list):
+                key = str(clone_clusters[i])
+
+                if current_cluster != key:  # new cluster beginning
+                    turkers = []
+                    new_cluster_count = 0
+                    current_cluster = key
+                # print key, current_cluster, new_cluster_count
+                tid = sorted_turk[i]["workerid"]
+                if tid in turkers:                    
+                    new_cid = current_cluster + "_R" + str(new_cluster_count)
+                    new_cluster_count += 1
+                    turkers = []
+                    # print "new cluster created", new_cid
+                    # update all upcoming labels in this cluster with new_cid
+                    for (j, label_inner) in enumerate(label_turk_list):
+                        if i <= j and clone_clusters[j] == current_cluster:
+                            clusters[j] = new_cid
+                            # sorted_turk[j]["new_cluster"] = new_cid
+
+                turkers.append(tid)
+                # print label, tid, key, sorted_turk[i]["desc"]
+
+        # if not vid.startswith("s1_c03"):
+        #     continue
+
+        print "===", vid, eps, "==="
+        fp.write("===" + vid + " " + str(eps) + "===\n")
         print "TURK:"
         cluster_data = {}
         for (i, label) in enumerate(label_turk_list):
             key = str(clusters[i])
             entry = {'cluster_id': key, 'time': label, 'workerid': sorted_turk[i]["workerid"], 'desc': sorted_turk[i]["desc"]}
-            if key in cluster_data:
-                cluster_data[key].append(entry)
-            else:
+            if key not in cluster_data:
                 cluster_data[key] = []
-            #print cluster_data[key]
-            print label, "(", int(clusters[i]), ")", sorted_turk[i]["workerid"], sorted_turk[i]["desc"]
+            cluster_data[key].append(entry)
+            line = str(label) + " (" + clusters[i] + ") " + sorted_turk[i]["workerid"] + " " + sorted_turk[i]["desc"]
+            fp.write(line + "\n")
+            print label, "(", clusters[i], ")", sorted_turk[i]["workerid"], sorted_turk[i]["desc"]
 
         final_data[vid] = {}
         for cid in cluster_data:
-            #print cid, cluster_data[cid]
             final_data[vid][cid] = {'cluster_id': cid, 'time': getClusterTime(cluster_data[cid], cid), 'points_turk': cluster_data[cid]}
-            print "---"
-            print final_data[vid][cid]
-        # for cluster in cluster_data:
-        #     final_data[vid] = {'cluster_id': cluster["cluster_id"], 'time': getClusterTime(cluster), 'points_turk': cluster}
+            # print "---"
+            # print final_data[vid][cid]
 
-        import json
-        with open(sys.argv[1] + '.' + str(eps) + '.final.json', 'wb') as fp:
-            json.dump(final_data, fp)
+        save_files(final_data, eps)
 
 
 

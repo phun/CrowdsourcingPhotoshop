@@ -18,7 +18,7 @@ if ($mysqli->connect_errno) {
 // }
 
 $entry_array = array();
-$domain = "p"; // "c", "m", "p"
+$domain = "c"; // "c", "m", "p"
 if ($domain == "c")
 	$entries = array_merge(file("real/s1_" . $domain . "_1/external_hit.results"), file("real/s1_" . $domain . "_2/external_hit.results"), file("real/s1_" . $domain . "_3/external_hit.results"), file("real/s1_" . $domain . "_4/external_hit.results"), file("real/s1_" . $domain . "_5/external_hit.results"), file("real/s1_" . $domain . "_6/external_hit.results"));
 else if ($domain == "m")

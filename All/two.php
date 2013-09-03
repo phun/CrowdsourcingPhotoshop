@@ -1,7 +1,5 @@
 <?php
 
-define("FFMPEG_PATH", "/opt/local/bin/ffmpeg");    // path of ffmpeg
-
 define("DB_HOST", "50.116.6.114");    // MySQL host name
 define("DB_USERNAME", "annotation-user");    // MySQL username
 define("DB_PASSWD", "3APGj4vGmdWcQ6fy");    // MySQL password
@@ -12,12 +10,61 @@ if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
 
-$video_id = $_GET["id"];
-$result = $mysqli->query("SELECT * FROM stage2_3 WHERE video_id = '$video_id'");
+$id = $_GET["id"];
+$result = $mysqli->query("SELECT * FROM stage2_3 WHERE id = '$id'");
 while($responses = $result->fetch_assoc()){
-		$all_labels = $responses['all_labels'];
+	$video_id = $responses['video_id'];
+	$raw_labels = $responses['all_labels'];
+	$time_index = $responses['det_label_index'];
 }
 
+$all_labels = unserialize($raw_labels);
+// echo print_r($all_labels);
+
+// define("DB_HOST", "50.116.6.114");	// MySQL host name
+// define("DB_USERNAME", "toolscape-user");	// MySQL username
+// define("DB_PASSWD", "G8hsDe5r4jDtFAYa");	// MySQL password
+// define("DB_NAME", "video_learning");	// MySQL database name. vt.sql uses the default video_learning name. So be careful.
+
+// from labeler/cscw-get-true-label.php
+$cid_list = array(56 => "c01_v01",57 => "c01_v02",58 => "c01_v03",59 => "c01_v04",60 => "c01_v05",
+				  61 => "c02_v01",62 => "c02_v02",63 => "c02_v03",64 => "c02_v04",65 => "c02_v05",
+				  66 => "c03_v01",67 => "c03_v02",68 => "c03_v03",69 => "c03_v04",70 => "c03_v05",
+				  71 => "c04_v01",72 => "c04_v02",73 => "c04_v03",74 => "c04_v04",75 => "c04_v05",
+				  76 => "c05_v01",77 => "c05_v02",78 => "c05_v03",79 => "c05_v04",80 => "c05_v05");
+$mid_list = array(81 => "m01_v01",82 => "m01_v02",83 => "m01_v03",84 => "m01_v04",85 => "m01_v05",
+				  86 => "m02_v01",87 => "m02_v02",88 => "m02_v03",89 => "m02_v04",90 => "m02_v05",
+				  91 => "m03_v01",92 => "m03_v02",93 => "m03_v03",94 => "m03_v04",95 => "m03_v05",
+				  96 => "m04_v01",97 => "m04_v02",98 => "m04_v03",99 => "m04_v04",100 => "m04_v05",
+				  101 => "m05_v01",102 => "m05_v02",103 => "m05_v03",104 => "m05_v04",105 => "m05_v05");
+$pid_list = array(1  => "p01_v01",2  => "p01_v02",3  => "p01_v03",4  => "p01_v04",5  => "p01_v05",
+				  22 => "p02_v01",23 => "p02_v02",24 => "p02_v03",25 => "p02_v04",26 => "p02_v05",
+				  32 => "p03_v01",33 => "p03_v02",34 => "p03_v03",35 => "p03_v04",36 => "p03_v05",
+				  11 => "p04_v01",12 => "p04_v02",13 => "p04_v03",14 => "p04_v04",15 => "p04_v05",
+				  42 => "p05_v01",43 => "p05_v02",44 => "p05_v03",45 => "p05_v04",46 => "p05_v05");
+
+// echo substr($video_id, 3, 7);
+if ($video_id[3] == "c")
+	$list = $cid_list;
+else if ($video_id[3] == "m")
+	$list = $mid_list;
+else if ($video_id[3] == "p")
+	$list = $pid_list;
+
+$key = array_search(substr($video_id, 3, 7), $list);
+// echo $key;
+
+$mysqli = new mysqli(DB_HOST, "toolscape-user", "G8hsDe5r4jDtFAYa", "video_learning");
+if ($mysqli->connect_errno) {
+    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+}
+
+$result = $mysqli->query("SELECT * FROM videos WHERE id='$key'");
+if ($result->num_rows != 1)
+	echo "query error";
+$video = $result->fetch_assoc();
+
+// echo print_r($video);
 ?>
 
 <html>
@@ -83,7 +130,9 @@ while($responses = $result->fetch_assoc()){
       			$("#video").val(video);
       			var infoDes;
       			var num = tasks.length + 1;
-      			var start = 100; // TODO: from database. (target time - 10)
+      			// starting time retrieved from database. (target time - 10)
+      			var start = <?php echo json_encode($time_index); ?> - 10;
+      			console.log(start);
 
       			var ht = '<div class="section task">' +
       					// '<h2> Video </h2>' +
@@ -95,11 +144,11 @@ while($responses = $result->fetch_assoc()){
 						'</div>' + 
 						'<div class="info"><div>' +
 							'<h3> Which best describes the instruction around the 10 second time mark? </h3>' +
-							'<div>Select multiple ONLY if there are more than one instructions in this video.</div>' +
-							'<div id="selection-good-examples"></div>' +
-							'<div id="selection-bad-examples"></div>' +
+							// '<div>Select multiple ONLY if there are more than one instructions in this video.</div>' +
+							'<div><strong>GOOD: concrete and actionable.</strong> <span class="good-examples"></span></div>' +
+							'<div><strong>BAD: too generic and not actionable.</strong> <span class="bad-examples"></span></div>' +
 							'<div id="labelSelection"></div>' +
-							'<input type="checkbox" name="labelRadios" value="@">' + '<i>None of these </i>' +
+							'<input type="radio" name="labelRadios" value="@">' + '<i>None of these </i>' +
 
 							'<div id="otherLabel" style="display:none"><h4>Please write an alternative label: </h4>' +
 								'<input type="text" id="otherLabelText"></div>' +
@@ -109,17 +158,30 @@ while($responses = $result->fetch_assoc()){
 				$("#tasks").append(ht);
 				switch(genre) {
 					case 'c':
-						$("#selection-good-examples").html("<strong>GOOD</strong>: cut tomatoes in slices AND add basil (different instructions, pick both)");
-						$("#selection-bad-examples").html("<strong>BAD</strong> : thinly slice tomatoes AND cut tomatoes in thin slices (too similar, pick only one)");
+
+						$(".good-examples").html("(e.g., add olive oil, put dough in flour)");
+						$(".bad-examples").html("(e.g., make a pizza, it is important not to mix)");
 						break;
 					case 'm':
-						$("#selection-good-examples").html("<strong>GOOD</strong>: apply concealer AND blend with fingertips (different instrutions, pick both)");
-						$("#selection-bad-examples").html("<strong>BAD</strong> : apply concealer AND use concealer (too similar, pick only one)");
+						$(".good-examples").html("(e.g., apply eye shadow, use damp brush)");
+						$(".bad-examples").html("(e.g., make pretty, lips)");
 						break;
 					case 'p':
-						$("#selection-good-examples").html("<strong>GOOD</strong>: add new layer AND click color dodge (different instrutions, pick both)");
-						$("#selection-bad-examples").html("<strong>BAD</strong> : add new layer AND insert new layer (too similar, pick only one)");
-						break;
+						$(".good-examples").html("(e.g., select Gaussian Blur, duplicate a layer)");
+						$(".bad-examples").html("(e.g., make bright, finish up)");
+
+					// case 'c':
+					// 	$("#selection-good-examples").html("<strong>GOOD</strong>: cut tomatoes in slices AND add basil (different instructions, pick both)");
+					// 	$("#selection-bad-examples").html("<strong>BAD</strong> : thinly slice tomatoes AND cut tomatoes in thin slices (too similar, pick only one)");
+					// 	break;
+					// case 'm':
+					// 	$("#selection-good-examples").html("<strong>GOOD</strong>: apply concealer AND blend with fingertips (different instrutions, pick both)");
+					// 	$("#selection-bad-examples").html("<strong>BAD</strong> : apply concealer AND use concealer (too similar, pick only one)");
+					// 	break;
+					// case 'p':
+					// 	$("#selection-good-examples").html("<strong>GOOD</strong>: add new layer AND click color dodge (different instrutions, pick both)");
+					// 	$("#selection-bad-examples").html("<strong>BAD</strong> : add new layer AND insert new layer (too similar, pick only one)");
+					// 	break;
 					default:
 						console.log('ERROR: Genre type not found.')
 				}
@@ -128,34 +190,47 @@ while($responses = $result->fetch_assoc()){
 				labels.sort(function () { if (Math.random()<.5) return -1; else return 1; });
 				for (labelIndex in labels) {
 					var label = labels[labelIndex];
-					var inputString = '<input type="checkbox" name="labelRadios" value="' + label.toLowerCase() + '">' + label.toLowerCase() + '<br>';
+					var inputString = '<input type="radio" name="labelRadios" value="' + label.toLowerCase() + '">' + label.toLowerCase() + '<br>';
 					$("#labelSelection").append(inputString);					
 				}
 
-				$("input[type=checkbox][name=labelRadios]").change(function() {
+				$("input[type=radio][name=labelRadios]").change(function() {
 					var labelVal = $(this).val();
 					if (labelVal == '@') {
-						if ($("input[type=checkbox][value='@']").is(':checked')){
-							$("input[type=checkbox][value!='@']").each(function(){
-								if ($(this).is(':checked')){
-									$(this).trigger('click');
-								}	
-							});						
-						}
-						$('#otherLabel').toggle();
+						$('#otherLabel').show();
 					} else {
-						if ($(this).is(':checked')){
-							if ($("input[type=checkbox][value='@']").is(':checked')){
-								$("input[type=checkbox][value='@']").trigger('click');
-							}							
-						}
-						
+						$('#otherLabel').hide();
 						$('#instruction').val(labelVal);
 						if (videoPlayed) {
 							$("#taskSub").removeClass('disabled').removeAttr('disabled');
 						}
 					}
 				});
+
+				// $("input[type=checkbox][name=labelRadios]").change(function() {
+				// 	var labelVal = $(this).val();
+				// 	if (labelVal == '@') {
+				// 		if ($("input[type=checkbox][value='@']").is(':checked')){
+				// 			$("input[type=checkbox][value!='@']").each(function(){
+				// 				if ($(this).is(':checked')){
+				// 					$(this).trigger('click');
+				// 				}	
+				// 			});						
+				// 		}
+				// 		$('#otherLabel').toggle();
+				// 	} else {
+				// 		if ($(this).is(':checked')){
+				// 			if ($("input[type=checkbox][value='@']").is(':checked')){
+				// 				$("input[type=checkbox][value='@']").trigger('click');
+				// 			}							
+				// 		}
+						
+				// 		$('#instruction').val(labelVal);
+				// 		if (videoPlayed) {
+				// 			$("#taskSub").removeClass('disabled').removeAttr('disabled');
+				// 		}
+				// 	}
+				// });
 
 				$('#otherLabelText').keyup(function() {
 					$("#instruction").val($(this).val());
@@ -169,8 +244,8 @@ while($responses = $result->fetch_assoc()){
 				jwplayer("mediaplayer-" + num).setup({
 					flashplayer: "js/libs/jwplayer/player.swf",
 					controlbar: "bottom",
-					//file: video,
-					file: "http://www.youtube.com/watch?v=iTXnpGe7a1A",
+					file: video,
+					// file: "http://www.youtube.com/watch?v=iTXnpGe7a1A",
 					start: start,					
 					events: {
 						onTime: function(event) {
@@ -193,6 +268,7 @@ while($responses = $result->fetch_assoc()){
 								 if ($("#instruction").val() != "") {
 								 	$("#taskSub").removeClass('disabled').removeAttr('disabled');
 								 }
+								 jwplayer().pause();
 							}, 20000);
           				}
 					}
@@ -224,34 +300,39 @@ while($responses = $result->fetch_assoc()){
 				allLabels = <?php echo json_encode($all_labels); ?>,
 				genre = vid.split('_')[1][0],	// c = Cooking, p = Photoshop, m = Makeup
 				video = null;
+				// video = "<?php echo urldecode(stripslashes($video['url'])); ?>";
 			
-			allLabels = ["a", "b", "c"];
+			// allLabels = ["a", "b", "c"];
 			//allLabels = allLabels.replace(/\"/g, "").split(',');
 			console.log(allLabels);
-
 			switch(genre) {
 				case 'c':
-					video = 'http://juhokim.com/annotation/Cooking/videos/' + vid + '.mp4';
+					// video = 'http://juhokim.com/annotation/Cooking/videos/' + vid + '.mp4';
+					video = "http://people.csail.mit.edu/juhokim/annotation-videos/<?=$video['task_id'];?>/<?=$video['filename'];?>";
 					$(".genreText").each(function() { $(this).text("cooking") });
-					$("#good-examples").text("(e.g., add olive oil, put dough in flour)");
-					$("#bad-examples").text("(e.g., make a pizza, it is important not to mix)");
+					$(".good-examples").text("(e.g., add olive oil, put dough in flour)");
+					$(".bad-examples").text("(e.g., make a pizza, it is important not to mix)");
 					break;
 				case 'm':
-					video = 'http://juhokim.com/annotation/Makeup/videos/' + vid + '.mp4';
+					// video = 'http://juhokim.com/annotation/Makeup/videos/' + vid + '.mp4';
+					video = "http://people.csail.mit.edu/juhokim/annotation-videos/<?=$video['task_id'];?>/<?=$video['filename'];?>";
 					$(".genreText").each(function() { $(this).text("makeup") });
-					$("#good-examples").text("(e.g., apply eye shadow, use damp brush)");
-					$("#bad-examples").text("(e.g., make pretty, lips)");
+					$(".good-examples").text("(e.g., apply eye shadow, use damp brush)");
+					$(".bad-examples").text("(e.g., make pretty, lips)");
 					break;
 				case 'p':
-					video = 'http://juhokim.com/annotation/Photoshop/videos/' + vid + '.mp4';
+					// video = 'http://juhokim.com/annotation/Photoshop/videos/' + vid + '.mp4';
+					video = "http://juhokim.com/toolscape/photoshop-video/video/1P6ctvQEikw.flv";
+					// video = "http://juhokim.com/toolscape/photoshop-video/video/<?=$video['filename'];?>";
 					$(".genreText").each(function() { $(this).text("Photoshop") });
-					$("#good-examples").text("(e.g., select Gaussian Blur, duplicate a layer)");
-					$("#bad-examples").text("(e.g., make bright, finish up)");
+					$(".good-examples").text("(e.g., select Gaussian Blur, duplicate a layer)");
+					$(".bad-examples").text("(e.g., make bright, finish up)");
 					break;
 				default:
 					console.log('ERROR: Genre type not found.')
 			}
-
+			video = "http://juhokim.com/toolscape/photoshop-video/video/1P6ctvQEikw.flv";
+			console.log(genre, video);
       		makeTask(video, allLabels, genre);
 
 
@@ -281,8 +362,8 @@ while($responses = $result->fetch_assoc()){
 		<li> <font color="red"><strong> Please have your audio on! </strong> </font></li>
 		<li> Watch the video clip and focus on the instruction around the <strong>10 second mark</strong>. </li>
 		<li> From the list of options, choose what you think best describes the instruction. </li>
-		<li> Good instructions: <strong>concrete and actionable</strong>. <span id="good-examples"></span></li>
-		<li> Bad instructions: <strong>generic and not actionable</strong>. <span id="bad-examples"></span></li>
+		<li> Good instructions: <strong>concrete and actionable</strong>. <span class="good-examples"></span></li>
+		<li> Bad instructions: <strong>too generic and not actionable</strong>. <span class="bad-examples"></span></li>
 		<!-- <li> Describe in a short sentence, what the <span class="genreText"></span> instruction was. </li> -->
 		<!-- <li> <strong> IGNORE instructions that are <u>NOT</u> happening at the 10 second mark. </strong> </li> -->
 	</ol>

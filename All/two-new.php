@@ -138,7 +138,8 @@ while($responses = $result->fetch_assoc()){
 					flashplayer: "js/libs/jwplayer/player.swf",
 					controlbar: "bottom",
 					//file: video,
-					file: "http://www.youtube.com/watch?v=YE7VzlLtp-4",
+					//file: "http://www.youtube.com/watch?v=YE7VzlLtp-4",
+					file: "http://www.youtube.com/watch?v=dhqa3jTxYUU",
 					start: 100,
 					events: {
 						onTime: function(event) {
@@ -245,7 +246,8 @@ while($responses = $result->fetch_assoc()){
       // 4. The API will call this function when the video player is ready.
       function onPlayerReady(event) {
         //event.target.playVideo();
-	  player.cueVideoById({'videoId': 'bHQqvYy5KYo', 'startSeconds': 50, 'endSeconds': 60});
+	  player.cueVideoById({'videoId': 'dhqa3jTxYUU', 'startSeconds': 50, 'endSeconds': 60});
+	  //player.cueVideoById({'videoId': 'bHQqvYy5KYo', 'startSeconds': 50, 'endSeconds': 60});
 
       }
 
@@ -295,7 +297,7 @@ while($responses = $result->fetch_assoc()){
 <div id="tasks" >
 	
 	<iframe id="ytplayer" type="text/html" width="640" height="390"
-  src="https://www.youtube.com/embed/iTXnpGe7a1A?enablejsapi=1" frameborder="0"></iframe>
+  src="https://www.youtube.com/embed/dhqa3jTxYUU?enablejsapi=1" frameborder="0"></iframe>
 </div>
 <div class='cleaner'>&nbsp;</div>
 <h2> Finish </h2>
