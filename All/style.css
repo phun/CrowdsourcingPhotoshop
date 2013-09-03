@@ -117,7 +117,19 @@ ol {
 
 #timelineHolder {
 	position: relative;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
+}
+
+#errorMsg {
+	display: none;
+	background: yellow;
+	padding: 10px;
+	font-weight: bold;
+	
+}
+
+#tipLabel {
+	margin-bottom: 10px;
 }
 
 .tname {
