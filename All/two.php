@@ -300,7 +300,7 @@ $video = $result->fetch_assoc();
 				allLabels = <?php echo json_encode($all_labels); ?>,
 				genre = vid.split('_')[1][0],	// c = Cooking, p = Photoshop, m = Makeup
 				video = null;
-				// video = "<?php echo urldecode(stripslashes($video['url'])); ?>";
+				video = "<?php echo urldecode(stripslashes($video['url'])); ?>";
 			
 			// allLabels = ["a", "b", "c"];
 			//allLabels = allLabels.replace(/\"/g, "").split(',');
@@ -308,21 +308,21 @@ $video = $result->fetch_assoc();
 			switch(genre) {
 				case 'c':
 					// video = 'http://juhokim.com/annotation/Cooking/videos/' + vid + '.mp4';
-					video = "http://people.csail.mit.edu/juhokim/annotation-videos/<?=$video['task_id'];?>/<?=$video['filename'];?>";
+					// video = "http://people.csail.mit.edu/juhokim/annotation-videos/<?=$video['task_id'];?>/<?=$video['filename'];?>";
 					$(".genreText").each(function() { $(this).text("cooking") });
 					$(".good-examples").text("(e.g., add olive oil, put dough in flour)");
 					$(".bad-examples").text("(e.g., make a pizza, it is important not to mix)");
 					break;
 				case 'm':
 					// video = 'http://juhokim.com/annotation/Makeup/videos/' + vid + '.mp4';
-					video = "http://people.csail.mit.edu/juhokim/annotation-videos/<?=$video['task_id'];?>/<?=$video['filename'];?>";
+					// video = "http://people.csail.mit.edu/juhokim/annotation-videos/<?=$video['task_id'];?>/<?=$video['filename'];?>";
 					$(".genreText").each(function() { $(this).text("makeup") });
 					$(".good-examples").text("(e.g., apply eye shadow, use damp brush)");
 					$(".bad-examples").text("(e.g., make pretty, lips)");
 					break;
 				case 'p':
 					// video = 'http://juhokim.com/annotation/Photoshop/videos/' + vid + '.mp4';
-					video = "http://juhokim.com/toolscape/photoshop-video/video/1P6ctvQEikw.flv";
+					// video = "http://juhokim.com/toolscape/photoshop-video/video/1P6ctvQEikw.flv";
 					// video = "http://juhokim.com/toolscape/photoshop-video/video/<?=$video['filename'];?>";
 					$(".genreText").each(function() { $(this).text("Photoshop") });
 					$(".good-examples").text("(e.g., select Gaussian Blur, duplicate a layer)");
@@ -331,7 +331,6 @@ $video = $result->fetch_assoc();
 				default:
 					console.log('ERROR: Genre type not found.')
 			}
-			video = "http://juhokim.com/toolscape/photoshop-video/video/1P6ctvQEikw.flv";
 			console.log(genre, video);
       		makeTask(video, allLabels, genre);
 
