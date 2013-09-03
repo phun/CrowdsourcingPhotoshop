@@ -129,7 +129,6 @@ $video = $result->fetch_assoc();
 			      player.addEventListener("onStateChange", "onPlayerStateChange");
 			      player.loadVideoById({'videoId': '<?php echo $video['slug']; ?>', 'startSeconds': start, 'endSeconds': start+20});
 			      setInterval(updateytplayerInfo, 600);
-			      addInformation();
 			      updateytplayerInfo();
 			}		      
 
@@ -145,7 +144,7 @@ $video = $result->fetch_assoc();
 	            	$("#timeline").slider('value', offset);		    
 				}							
 			}
-
+			/*
 		      // 4. The API will call this function when the video player is ready.
 		      function onPlayerReady(event) {
 			    console.log("onPlayerReady", start, start+20);
@@ -154,32 +153,28 @@ $video = $result->fetch_assoc();
 				//player.cueVideoById({'videoId': 'bHQqvYy5KYo', 'startSeconds': 50, 'endSeconds': 60});
 
 		      }
-
+		    */
 		      // 5. The API calls this function when the player's state changes.
 		      //    The function indicates that when playing a video (state=1),
 		      //    the player should play for six seconds and then stop.
 		      var done = false;
 		      function onPlayerStateChange(state) {
-		      	console.log("CHANGE", state, state == -1, state == "-1");
+		      	console.log("CHANGE", state);
 		      	if (state == -1){
-		      		console.log("hello");
-				    setInterval( function() { 
-				    	console.log("checking");
+				    setTimeout( function() { 
 				  		if (player.getPlayerState() == -1){
 							$("#errorMsg").show()
 								.html("Cannot see the video? Please open <a target='_blank' href='<?php echo urldecode(stripslashes($video['url'])); ?>&t=" +
 									parseInt(start) + "s'>this link</a>, watch the video for 20 seconds, and answer the question below.");
-					     	setTimeout( function() { 
-								videoPlayed = true;
-								if ($("#instruction").val() != "") {
+							setTimeout( function() { 
+								 videoPlayed = true;
+								 if ($("#instruction").val() != "") {
 								 	$("#taskSub").removeClass('disabled').removeAttr('disabled');
-								}
+								 }
 							}, 20000);
 						}
 					}, 5000);		      		
-		      	}
-		        if (state == YT.PlayerState.PLAYING && !done) {
-		            // setTimeout(stopVideo, 6000);
+		      	} else if (state == 1 && !done) {
 				    setTimeout( function() { 
 						 videoPlayed = true;
 						 if ($("#instruction").val() != "") {
@@ -208,7 +203,7 @@ $video = $result->fetch_assoc();
 	    		// On hover add "Click to remove"
 	    		i.qtip({
 					content: {
-						text: 'Instruction Here'
+						text: 'Instruction Here<br/>(10 sec mark)'
 					},
 					position: {
 						my: 'top center', // Use the corner...
@@ -227,10 +222,7 @@ $video = $result->fetch_assoc();
 	    	};
 
       		var makeTask = function(video, labels, genre) {
-
-      			$("#video").val(video);
       			var infoDes;
-
       			var ht = '<div class="section task">' +
       					// '<h2> Video </h2>' +
 						// '<div class="video">' +
@@ -242,7 +234,7 @@ $video = $result->fetch_assoc();
 						'</div>' + 
 						'<div class="info"><div>' +
 							'<h3> Which best describes the instruction around the 10 second time mark? </h3>' +
-							'<div id="tipLabel"><strong>Tip: Pick a concrete and actionable instruction.</strong></div>' +
+							'<div id="tipLabel"><strong>Tip: Pick the most concrete and actionable instruction.</strong></div>' +
 							// '<div>Select multiple ONLY if there are more than one instructions in this video.</div>' +
 							// '<div><strong>GOOD: concrete and actionable.</strong> <span class="good-examples"></span></div>' +
 							// '<div><strong>BAD: too generic and not actionable.</strong> <span class="bad-examples"></span></div>' +
@@ -286,6 +278,8 @@ $video = $result->fetch_assoc();
 
 				// randomize array
 				labels.sort(function () { if (Math.random()<.5) return -1; else return 1; });
+				$("#order").val(labels);
+				console.log($("#order").val());
 				for (labelIndex in labels) {
 					var label = labels[labelIndex];
 					var inputString = '<input type="radio" name="labelRadios" value="' + label.toLowerCase() + '">&quot;' + label.toLowerCase() + '&quot;<br>';
@@ -390,9 +384,9 @@ $video = $result->fetch_assoc();
       		};
 
 			if (params['assignmentId'])
-			{
 				$("#assignmentId").val(params['assignmentId']);
-			}
+			if (params['id'])
+				$("#video").val(params['id']);
 
 			var vid = <?php echo json_encode($video_id); ?>,
 				allLabels = <?php echo json_encode($all_labels); ?>,
@@ -441,7 +435,7 @@ $video = $result->fetch_assoc();
       		var enableRead = function() {
 				$('#readBtn').removeClass('disabled').removeAttr('disabled');
       		}
-      		setTimeout(enableRead, 50); // TODO: change back to 5000
+      		setTimeout(enableRead, 5000);
    		
 		});
 	</script>
@@ -466,7 +460,7 @@ $video = $result->fetch_assoc();
 		<!-- <li> <strong> IGNORE instructions that are <u>NOT</u> happening at the 10 second mark. </strong> </li> -->
 	</ol>
 
-	<button id='readBtn' class="btn btn-large btn-primary disabled" disabled='disabled'> I have read the information. </button> 
+	<button id='readBtn' class="btn btn-large btn-primary disabled" disabled='disabled'> I have read the information </button> 
 
 	<div class='cleaner'>&nbsp;</div>
 </div>
@@ -484,8 +478,9 @@ $video = $result->fetch_assoc();
 <div class="section">
 	<!-- <form action="http://www.mturk.com/mturk/externalSubmit"> -->
         <input type="hidden" name="assignmentId" id="assignmentId" value="">
-		<input type="text" name="video" id="video">
-		<input type="text" name="instruction" id="instruction">
+		<input type="hidden" name="video" id="video">
+		<input type="hidden" name="video" id="order">
+		<input type="hidden" name="instruction" id="instruction">
 	<button id='taskSub' type="submit" class="btn btn-large btn-primary disabled" style="float:right" disabled="disabled">Submit</button>
 	When you are done, hit the submit button.
 </div>
