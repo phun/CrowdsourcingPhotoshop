@@ -1,0 +1,29 @@
+body {
+	margin: 0 20px;
+}
+
+.goal {  
+	width: 100%; 
+	margin: 10px;
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+.task-list {
+	margin-left: 20px;
+}
+
+.task { 
+	background-color: #DDD; 
+	cursor: move; 
+	padding: 5px;
+	margin: 10px;
+}
+
+.goal input { 
+	width: 100px; 
+}
+
+
+
+
