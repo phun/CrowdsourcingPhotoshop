@@ -1,5 +1,8 @@
 <?php
 
+/*
+	For videos that are available on YouTube: YouTube API is used.
+*/
 define("DB_HOST", "50.116.6.114");    // MySQL host name
 define("DB_USERNAME", "annotation-user");    // MySQL username
 define("DB_PASSWD", "3APGj4vGmdWcQ6fy");    // MySQL password

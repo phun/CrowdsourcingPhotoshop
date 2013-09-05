@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Subgoal Labeling</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/vendor/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/vendor/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+<body>
+  <h1>Cooking Fried Rice</h1>
+  <div class="row">
+    <div class="col-md-6">
+        <h3>How to Make Fried Rice - Shrimp Fried Rice</h3>
+        <div id="ytplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
+    </div>    
+    <div class="col-md-6">
+        <button href="#" class="btn btn-primary" data-bind="click: addGoal">Add Goal</button>
+        <div id="main" data-bind="template: {name: 'goalTmpl', foreach: goalList, as: 'goal'}, sortableList: goalList">
+<!--             <hr />
+            <h2>Trash</h2>
+            <div class="container trash" data-bind="sortableList: trash"></div> -->        
+        </div>   
+
+        <script id="goalTmpl" type="text/html">
+            <div class="goal">
+                <a href="#" data-bind="text: name, click: function() { viewModel.selectGoal(goal); }, visible: goal !== viewModel.selectedGoal()"></a>
+                <input data-bind="value: name, visibleAndSelect: goal === viewModel.selectedGoal(), event: { blur: function() { viewModel.selectGoal(''); } }" />  
+            </div>
+            <div class="task-list" data-bind="template: { name: 'taskTmpl', foreach: goal.taskList, as: 'task'}, sortableList: goal.taskList"> 
+            </div>
+        </script>    
+        
+        <script id="taskTmpl" type="text/html">
+            <div class="task" data-bind="text: name, sortableItem: { item: task, parentList: task.parentList() }" >
+            <!--
+                <a href="#" data-bind="text: name, click: function() { viewModel.selectTask(task); }, visible: task !== viewModel.selectedTask()"></a>
+                <input data-bind="value: name, visibleAndSelect: task === viewModel.selectedTask(), event: { blur: function() { viewModel.selectTask(''); } }" />
+            -->
+            </div>
+        </script>
+            <!--<script id="taskTmpl" type="text/html">
+                <div class="item" data-bind="sortableItem: { item: $data, parentList: $item.parentList }" >
+                    <a href="#" data-bind="text: name, click: function() { viewModel.selectTask($data); }, visible: $data !== viewModel.selectedTask()"></a>
+                    <input data-bind="value: name, visibleAndSelect: $data === viewModel.selectedTask(), event: { blur: function() { viewModel.selectTask(''); } }" />
+                </div>
+            </script>        -->
+    </div>
+  </div>
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="js/vendor/jquery-ui.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/knockout-2.3.0.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+    <script src="js/subgoal.js"></script>
+    <script>
+            var player;
+            var vidParams = { allowScriptAccess: "always" };
+            var atts = { id: "ytplayer" };
+            swfobject.embedSWF("https://www.youtube.com/v/4vY4P0jb1Ts?enablejsapi=1&playerapiid=ytplayer&version=3",
+                       "ytplayer", "100%", "360", "8", null, null, vidParams, atts);
+
+            function onYouTubePlayerReady(playerId) {
+                  player = document.getElementById("ytplayer");
+                  player.addEventListener("onStateChange", "onPlayerStateChange");
+                  // player.loadVideoById({'videoId': '4vY4P0jb1Ts', 'startSeconds': start, 'endSeconds': start+20});
+                  player.loadVideoById({'videoId': '4vY4P0jb1Ts'});
+                  setInterval(updateytplayerInfo, 600);
+                  updateytplayerInfo();
+            }             
+
+            function updateytplayerInfo(){
+                // TODO: check steps and highlight the current (most recent) step
+                if (player) {
+                    var position = player.getCurrentTime();    
+                }                           
+            }
+            /*
+              // 4. The API will call this function when the video player is ready.
+              function onPlayerReady(event) {
+                console.log("onPlayerReady", start, start+20);
+                //event.target.playVideo();
+                player.cueVideoById({'videoId': '<?php echo $video['slug']; ?>', 'startSeconds': start, 'endSeconds': start+20});
+                //player.cueVideoById({'videoId': 'bHQqvYy5KYo', 'startSeconds': 50, 'endSeconds': 60});
+
+              }
+            */
+              // 5. The API calls this function when the player's state changes.
+              //    The function indicates that when playing a video (state=1),
+              //    the player should play for six seconds and then stop.
+              var done = false;
+              var videoPlayed = false;
+              function onPlayerStateChange(state) {
+                console.log("CHANGE", state);
+                if (state == -1){
+                    setTimeout( function() { 
+                        if (player.getPlayerState() == -1){
+                            // $("#errorMsg").show()
+                            //     .html("Cannot see the video? Please open <a target='_blank' href='<?php echo urldecode(stripslashes($video['url'])); ?>&t=" +
+                            //         parseInt(start) + "s'>this link</a>, watch the video for 20 seconds, and answer the question below.");
+                            setTimeout( function() { 
+                                 videoPlayed = true;
+                                 if ($("#instruction").val() != "") {
+                                    $("#taskSub").removeClass('disabled').removeAttr('disabled');
+                                 }
+                            }, 20000);
+                        }
+                    }, 5000);                   
+                } else if (state == 1 && !done) {
+                    setTimeout( function() { 
+                         videoPlayed = true;
+                         if ($("#instruction").val() != "") {
+                            $("#taskSub").removeClass('disabled').removeAttr('disabled');
+                         }
+                    }, 20000);
+                    done = true;
+                }
+              }
+
+              function stopVideo() {
+                player.stopVideo();
+              }       
+    </script>
+</body>
+</html>
+
+
+
+
+
+
