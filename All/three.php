@@ -69,19 +69,53 @@ $video = $result->fetch_assoc();
 
 <html>
 <head>
-	<title>Amazon Turk Stage 2</title>
+	<title>Amazon Turk Stage 3</title>
 	<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.22.custom.css" type="text/css" />
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-	<link rel="stylesheet" href="js/libs/chosen.css" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script src="js/libs/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="js/libs/jquery-ui-1.8.22.custom.min.js"></script> 
 	<script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script>
-	<script type="text/javascript" src="js/libs/chosen.jquery.js"></script>
 	<link rel="stylesheet" type="text/css" href="js/jquery.qtip.min.css" />
 	<script type="text/javascript" src="js/jquery.qtip.min.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
 	<script type="text/javascript">
+
+	// for the given video and time (in second), 
+	// get the storyboard image file.
+	function getStoryBoard(slug, second){
+		var url = "http://juhokim.com/annotation/videos/storyboard/" + 
+			slug + "/M" + sheet_index;
+		var index = second / 2;
+		var sheet_index = index / 25;
+		var thumb_index = index % 25;
+	}
+
+	// from the 5x5 storyboard, find the position of the given item
+	function getThumbnailPosition(storyboard, index){
+
+		if (index % 5)
+	}
+
+	// for the given storyboard, set the background coordinate to show the selected one.
+	function setThumbnailPosition(storyboard, x, y){
+
+	}
+
+	// controlling storyboard display
+	function display(){
+		var second;
+		var slug = "<?php echo $video['slug']; ?>";
+		var position = []; // [x, y]
+		for (second = start - 10; second <= start + 10; second++){
+			getStoryBoard(slug, second);
+			// once image successfully loaded,
+			position = getThumbnailPosition(storyboard, second);
+			setThumbnailPosition(storyboard, position[0], position[1]);
+		}
+
+	}
+
 
 		var videoPlayed = false;
 

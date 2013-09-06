@@ -244,10 +244,11 @@ $video = $result->fetch_assoc();
 							// '<div><strong>GOOD: concrete and actionable.</strong> <span class="good-examples"></span></div>' +
 							// '<div><strong>BAD: too generic and not actionable.</strong> <span class="bad-examples"></span></div>' +
 							'<div id="labelSelection"></div>' +
-							'<input type="radio" name="labelRadios" value="@">' + '<i>None of these </i>' +
+							'<input type="radio" name="labelRadios" value="@">' + '<i>I have a better description.</i><br/>' +
 
 							'<div id="otherLabel" style="display:none"><h4>Please write an alternative label: </h4>' +
 								'<input type="text" id="otherLabelText"></div>' +
+							'<input type="radio" name="labelRadios" value="noop">' + '<i>There is no instruction in the video.</i>' +
 						'</div>' +
 					'</div>';
 
@@ -382,8 +383,8 @@ $video = $result->fetch_assoc();
 								$("#timerDisplay").text("0:0" + offset);
 							else
 								$("#timerDisplay").text("0:" + offset);
-							// if (event.position > 120)
-							// 	jwplayer().pause();
+							if (event.position > parseInt(start + 21))
+								jwplayer().pause();
 							//$("#timeline").slider( "option", "max", jwplayer().getDuration());
 							//$("#timeline").slider('value', event.position);
 							$("#timeline").slider( "option", "max", 20);
