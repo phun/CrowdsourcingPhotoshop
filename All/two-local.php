@@ -368,7 +368,7 @@ $video = $result->fetch_assoc();
 					controlbar: "bottom",
 					file: video,
 					start: start,		
-					startparam: "start",			
+					startparam: "starttime", // stattime, start
 					events: {
 						onReady: function(event) {
 							// jwplayer().getPlugin('controlbar').hide();

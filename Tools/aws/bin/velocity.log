@@ -361,3 +361,384 @@
 2013-09-03 12:05:37,369 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
 2013-09-03 12:05:37,369 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
 2013-09-03 12:05:37,369 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:30,583 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-05 19:19:30,584 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-05 19:19:30,584 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-05 19:19:30,584 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-05 19:19:30,585 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.app.VelocityEngine.init(VelocityEngine.java:144)
+	at com.amazonaws.mturk.addon.HITQuestion.<init>(HITQuestion.java:69)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:185)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 15 more
+2013-09-05 19:19:30,586 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-05 19:19:30,586 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-05 19:19:30,589 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-05 19:19:30,593 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-05 19:19:30,594 - Do unicode file recognition:  false
+2013-09-05 19:19:30,594 - FileResourceLoader : adding path '../../real/s2_2'
+2013-09-05 19:19:30,625 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-05 19:19:30,626 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-05 19:19:30,627 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-05 19:19:30,629 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-05 19:19:30,630 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-05 19:19:30,630 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-05 19:19:30,657 - Created '20' parsers.
+2013-09-05 19:19:30,664 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-05 19:19:30,664 - Velocimacro : Default library not found.
+2013-09-05 19:19:30,664 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-05 19:19:30,664 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-05 19:19:30,664 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-05 19:19:30,664 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-05 19:19:30,677 - ResourceManager : found external_hit.question with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-05 19:19:30,686 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-05 19:19:30,686 - Log4JLogChute initialized using file 'velocity.log'
+2013-09-05 19:19:30,686 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-05 19:19:30,686 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2013-09-05 19:19:30,686 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-05 19:19:30,686 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2013-09-05 19:19:30,686 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-05 19:19:30,686 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2013-09-05 19:19:30,686 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:113)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:83)
+	at com.amazonaws.mturk.util.VelocityUtil.doMerge(VelocityUtil.java:34)
+	at com.amazonaws.mturk.addon.HITProperties.getMaxAssignments(HITProperties.java:268)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:226)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 16 more
+2013-09-05 19:19:30,686 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:113)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:83)
+	at com.amazonaws.mturk.util.VelocityUtil.doMerge(VelocityUtil.java:34)
+	at com.amazonaws.mturk.addon.HITProperties.getMaxAssignments(HITProperties.java:268)
+	at com.amazonaws.mturk.cmd.LoadHITs.loadHITs(LoadHITs.java:226)
+	at com.amazonaws.mturk.cmd.LoadHITs.runCommand(LoadHITs.java:120)
+	at com.amazonaws.mturk.cmd.AbstractCmd.run(AbstractCmd.java:148)
+	at com.amazonaws.mturk.cmd.LoadHITs.main(LoadHITs.java:55)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 16 more
+2013-09-05 19:19:30,687 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-05 19:19:30,687 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-05 19:19:30,687 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-05 19:19:30,687 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2013-09-05 19:19:30,687 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-05 19:19:30,687 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-09-05 19:19:30,687 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-05 19:19:30,687 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-09-05 19:19:30,687 - Do unicode file recognition:  false
+2013-09-05 19:19:30,687 - Do unicode file recognition:  false
+2013-09-05 19:19:30,687 - FileResourceLoader : adding path '.'
+2013-09-05 19:19:30,687 - FileResourceLoader : adding path '.'
+2013-09-05 19:19:30,688 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-05 19:19:30,688 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2013-09-05 19:19:30,688 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-05 19:19:30,688 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-09-05 19:19:30,688 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-05 19:19:30,688 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-09-05 19:19:30,688 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-05 19:19:30,688 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-09-05 19:19:30,688 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-05 19:19:30,688 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-09-05 19:19:30,688 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-05 19:19:30,688 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-09-05 19:19:30,690 - Created '20' parsers.
+2013-09-05 19:19:30,690 - Created '20' parsers.
+2013-09-05 19:19:30,690 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-05 19:19:30,690 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-09-05 19:19:30,690 - Velocimacro : Default library not found.
+2013-09-05 19:19:30,690 - Velocimacro : Default library not found.
+2013-09-05 19:19:30,690 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-05 19:19:30,690 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-09-05 19:19:30,690 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-05 19:19:30,690 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-09-05 19:19:30,690 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-05 19:19:30,690 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-09-05 19:19:30,690 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-05 19:19:30,690 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-09-05 19:19:32,540 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,540 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,564 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,564 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,565 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,565 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,566 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,566 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,566 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,566 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,567 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,567 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,568 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,568 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,568 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,568 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,569 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,569 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,570 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,570 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,570 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,570 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,571 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,571 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,571 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,571 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,572 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,572 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,572 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,572 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,572 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,572 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,573 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,573 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,574 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,574 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,574 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,574 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,575 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,575 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,575 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,575 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,576 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,576 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,576 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,576 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,577 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,577 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,577 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,577 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,578 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,578 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,578 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,578 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,579 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,579 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,579 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,579 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,580 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,580 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,580 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,580 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,581 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,581 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,581 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,581 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,586 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,586 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,589 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,589 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,590 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,590 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,590 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,590 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,591 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,591 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,591 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,591 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,593 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,593 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,595 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,595 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,602 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,602 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,609 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,609 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,611 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,611 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,612 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,612 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,612 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,612 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,613 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,613 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,613 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,613 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,614 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,614 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,614 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,614 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,615 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,615 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,615 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,615 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,616 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,616 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,616 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,616 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,619 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,619 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,623 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,623 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,623 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,623 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,624 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,624 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,624 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,624 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,627 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,627 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,628 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,628 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,629 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,629 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,630 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,630 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,630 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,630 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,631 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,631 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,635 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,635 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,635 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,635 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,636 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,636 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,636 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,636 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,637 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,637 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,637 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,637 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,638 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,638 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,639 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,639 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,639 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,639 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,640 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,640 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,640 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,640 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,640 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,640 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,641 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,641 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,641 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,641 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,642 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,642 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,659 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,659 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,661 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,661 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,662 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,662 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,662 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,662 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,663 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,663 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,663 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,663 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,664 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,664 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,664 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,664 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,665 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,665 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,665 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,665 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,666 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,666 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,667 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,667 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,667 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,667 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,668 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,668 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,668 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,668 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,669 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,669 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,669 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,669 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,670 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,670 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,670 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,670 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,671 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,671 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,671 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,671 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,672 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,672 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,672 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,672 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,673 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,673 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,673 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,673 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,674 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,674 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,674 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,674 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,675 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,675 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,675 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,675 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,676 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,676 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,676 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,676 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,677 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,677 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,677 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,677 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,678 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,678 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,678 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,678 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,679 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,679 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,679 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
+2013-09-05 19:19:32,679 - Null reference [template 'external_hit.question', line 2, column 32] : $urls cannot be resolved.
