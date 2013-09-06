@@ -77,42 +77,81 @@ $video = $result->fetch_assoc();
 	<script type="text/javascript" src="js/libs/jquery-ui-1.8.22.custom.min.js"></script> 
 	<script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script>
 	<link rel="stylesheet" type="text/css" href="js/jquery.qtip.min.css" />
+	<style>
+	.sb-option{
+		width: 150px;
+		height: 150px;
+		float: left;
+	}
+	.sb{
+		width: 120px;
+		height: 90px;
+	}
+	</style>
 	<script type="text/javascript" src="js/jquery.qtip.min.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
 	<script type="text/javascript">
 
 	// for the given video and time (in second), 
 	// get the storyboard image file.
-	function getStoryBoard(slug, second){
+	function getStoryBoard(slug, index){
+		var sheet_index = Math.floor(index / 25);
 		var url = "http://juhokim.com/annotation/videos/storyboard/" + 
-			slug + "/M" + sheet_index;
-		var index = second / 2;
-		var sheet_index = index / 25;
-		var thumb_index = index % 25;
+			slug + "/M" + sheet_index + ".jpg";
+		return url;
 	}
 
 	// from the 5x5 storyboard, find the position of the given item
-	function getThumbnailPosition(storyboard, index){
-
-		if (index % 5)
-	}
-
-	// for the given storyboard, set the background coordinate to show the selected one.
-	function setThumbnailPosition(storyboard, x, y){
-
+	function getThumbnailPosition(img, index, image_url, second){
+		var thumb_index = index % 25;
+		// var $img = $(img[0]);
+		// var thumb_width = Math.floor($img.width() / 5);
+		// var thumb_height = Math.floor($img.height() / 5);
+		var thumb_width = 120; //Math.floor(img.width / 5);
+		var thumb_height = 90; //Math.floor(img.height / 5);
+		var position = [];
+		position[0] = (-1) * thumb_width * (thumb_index % 5) + "px";
+		position[1] = (-1) * thumb_height * Math.floor(thumb_index / 5) + "px";
+		var $div = $("<div/>").addClass("sb sb-" + second)
+				// .attr("src", image_url)
+				.css("background", "transparent url(" + image_url + ") " + position[0] + " " + position[1])
+				// .css("background-size", thumb_width + "px " + thumb_height + "px ")
+				.css("background-size", "600px 450px")
+				.css("background-repeat", "no-repeat");
+		$(".sb").css("width", thumb_width).css("height", thumb_height);
+		console.log(index, img, thumb_width, thumb_height, position[0], position[1]);
+		return $div;
 	}
 
 	// controlling storyboard display
-	function display(){
+	function displayChoices(start_int, second){
 		var second;
 		var slug = "<?php echo $video['slug']; ?>";
 		var position = []; // [x, y]
-		for (second = start - 10; second <= start + 10; second++){
-			getStoryBoard(slug, second);
-			// once image successfully loaded,
-			position = getThumbnailPosition(storyboard, second);
-			setThumbnailPosition(storyboard, position[0], position[1]);
-		}
+		var image_url = "";
+		var index;
+		var $choice;
+		var $img;
+		var dummy_img; // placeholder to compute image width and height
+		// var start_int = start);
+		// for (second = start_int; second <= start_int + 20; second++){
+			index = Math.floor(second / 5); // because storyboards are sampled every 2 second
+			console.log(start_int, second, index);
+			image_url = getStoryBoard(slug, index);
+			dummy_img = new Image();
+			dummy_img.onload = function(){
+				$img = getThumbnailPosition(dummy_img, index, image_url, second);
+				$choice = $("<div/>").addClass("sb-option").append($img);
+				// once image successfully loaded,
+				if (second <= start_int + 10)
+					$("#choices-before").append($choice);
+				else
+					$("#choices-after").append($choice);
+				if (second <= start_int + 20)
+					displayChoices(start_int, second + 1);
+			}
+			dummy_img.src = image_url;
+		// }
 
 	}
 
@@ -267,16 +306,19 @@ $video = $result->fetch_assoc();
 						'<div id="timeline"></div>' + 
 						'</div>' + 
 						'<div class="info"><div>' +
-							'<h3> Which best describes the instruction around the 10 second time mark? </h3>' +
-							'<div id="tipLabel"><strong>Tip: Pick the most concrete and actionable instruction.</strong></div>' +
+							'<h3> Which best shows the <span class="canvasText"/> before &quot;<span class="tname"/>&quot;?</h3>' +
+							'<div id="tipLabel"><strong>Tip: Pick the most visible and clear image.</strong></div>' +
 							// '<div>Select multiple ONLY if there are more than one instructions in this video.</div>' +
 							// '<div><strong>GOOD: concrete and actionable.</strong> <span class="good-examples"></span></div>' +
 							// '<div><strong>BAD: too generic and not actionable.</strong> <span class="bad-examples"></span></div>' +
-							'<div id="labelSelection"></div>' +
-							'<input type="radio" name="labelRadios" value="@">' + '<i>None of these </i>' +
-
-							'<div id="otherLabel" style="display:none"><h4>Please write an alternative label: </h4>' +
-								'<input type="text" id="otherLabelText"></div>' +
+							'<div id="choices-before"></div>' +
+							'<p style="clear:both"></p>' +
+							'<h3> Which best shows the <span class="canvasText"/> after &quot;<span class="tname"/>&quot;?</h3>' +
+							'<div id="choices-after"></div>' +
+							'<p style="clear:both"></p>' +
+							// '<input type="radio" name="labelRadios" value="@">' + '<i>None of these </i>' +
+							// '<div id="otherLabel" style="display:none"><h4>Please write an alternative label: </h4>' +
+							// 	'<input type="text" id="otherLabelText"></div>' +
 						'</div>' +
 					'</div>';
 
@@ -339,6 +381,8 @@ $video = $result->fetch_assoc();
 				// 	var inputString = '<input type="radio" name="labelRadios" value="' + label.toLowerCase() + '">&quot;' + label.toLowerCase() + '&quot;<br>';
 				// 	$("#labelSelection").append(inputString);					
 				// }
+
+      			displayChoices(parseInt(start), parseInt(start));
 
 				$("input[type=radio][name=labelRadios]").change(function() {
 					var labelVal = $(this).val();
@@ -445,9 +489,9 @@ $video = $result->fetch_assoc();
 			var vid = <?php echo json_encode($video_id); ?>,
 				allLabels = <?php echo json_encode($all_labels); ?>,
 				genre = vid.split('_')[1][0],	// c = Cooking, p = Photoshop, m = Makeup
-				video = null;
+				// video = null;
 				video = "<?php echo urldecode(stripslashes($video['url'])); ?>";
-
+			
 			//allLabels = allLabels.replace(/\"/g, "").split(',');
 			console.log(allLabels);
 			switch(genre) {
@@ -481,7 +525,6 @@ $video = $result->fetch_assoc();
 			}
 			console.log(genre, video);
       		makeTask(video, allLabels, genre);
-
 
       		$('#readBtn').click(function() {
       				$('#task').show();
