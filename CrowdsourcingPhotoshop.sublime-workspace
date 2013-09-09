@@ -1,0 +1,513 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"SERVER",
+				"_SERVER"
+			],
+			[
+				"video",
+				"videos_array"
+			],
+			[
+				"formatt",
+				"formatted_item"
+			],
+			[
+				"local",
+				"local_num_tools"
+			],
+			[
+				"local_",
+				"local_num_tools"
+			],
+			[
+				"ds",
+				"dsOursPostQuestions  (variable)"
+			],
+			[
+				"interfa",
+				"interface_id"
+			],
+			[
+				"done",
+				"domxml_new_doc"
+			],
+			[
+				"timeline-",
+				"timeline-bottom"
+			],
+			[
+				"num_",
+				"num_videos"
+			],
+			[
+				"int",
+				"interface_id"
+			],
+			[
+				"la",
+				"labels_array"
+			],
+			[
+				"label",
+				"labels_array"
+			],
+			[
+				"lab",
+				"labels_array"
+			],
+			[
+				"edit-",
+				"edit-label-link"
+			],
+			[
+				"num",
+				"num_rows"
+			],
+			[
+				"ta",
+				"tabs4_html"
+			],
+			[
+				"thum",
+				"thumb_html"
+			],
+			[
+				"time",
+				"timeline-bottom"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"icon",
+				"icon-chevron-up"
+			],
+			[
+				"toggle",
+				"playlist-toggle"
+			],
+			[
+				"select-",
+				"select-image"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/labeler/save-video-metadata.php",
+		"/Applications/MAMP/htdocs/labeler/list.php",
+		"/Applications/MAMP/htdocs/labeler/css/style.css",
+		"/Applications/MAMP/htdocs/labeler/analyze-videos.php",
+		"/Applications/MAMP/htdocs/labeler/subgoal.html",
+		"/Applications/MAMP/htdocs/labeler/toolscape-learner.html",
+		"/Applications/MAMP/htdocs/labeler/conn.php",
+		"/Applications/MAMP/htdocs/labeler/delete-label.php",
+		"/Applications/MAMP/htdocs/labeler/vs-process.php",
+		"/Applications/MAMP/htdocs/labeler/vs-list.php",
+		"/Applications/MAMP/htdocs/labeler/js/script.js",
+		"/Applications/MAMP/htdocs/labeler/analyze-data.php",
+		"/Applications/MAMP/htdocs/labeler/analyze-logs.php",
+		"/Applications/MAMP/htdocs/labeler/browse.php",
+		"/Applications/MAMP/htdocs/labeler/utils.php",
+		"/Applications/MAMP/htdocs/labeler/update-label.php",
+		"/Applications/MAMP/htdocs/labeler/make-thumbnail.php",
+		"/Applications/MAMP/htdocs/labeler/ajax-make-thumbnail.php",
+		"/Applications/MAMP/htdocs/labeler/add-label.php",
+		"/Applications/MAMP/htdocs/labeler/label.php",
+		"/Applications/MAMP/htdocs/labeler/v2-list.php",
+		"/Applications/MAMP/htdocs/labeler/vs-post-questionnaire.php",
+		"/Applications/MAMP/htdocs/labeler/get-video-duration.php",
+		"/Applications/MAMP/htdocs/labeler/header.php",
+		"/Applications/MAMP/htdocs/labeler/phu-label-list.php",
+		"/Applications/MAMP/htdocs/labeler/phu-label.php",
+		"/Applications/MAMP/htdocs/labeler/v2-header.php",
+		"/Applications/MAMP/htdocs/labeler/crop-icons.sh",
+		"/Applications/MAMP/htdocs/labeler/study-conditions.php",
+		"/Applications/MAMP/htdocs/labeler/conn.default.php",
+		"/Applications/MAMP/htdocs/labeler/apple-touch-icon-114x114-precomposed.png",
+		"/Applications/MAMP/htdocs/labeler/autocomplete.php",
+		"/Users/juhokim/Desktop/vs-post.csv",
+		"/Applications/MAMP/htdocs/labeler/js/libs/log4javascript.js",
+		"/Applications/MAMP/htdocs/labeler/.gitignore",
+		"/Applications/MAMP/htdocs/labeler/index.php",
+		"/Applications/MAMP/htdocs/labeler/v2-label.php",
+		"/Applications/MAMP/htdocs/labeler/v2-browse.php",
+		"/Applications/MAMP/htdocs/labeler/check-login.php",
+		"/Applications/MAMP/htdocs/labeler/test-browse.php",
+		"/Applications/MAMP/htdocs/labeler/test-list.php",
+		"/Applications/MAMP/htdocs/labeler/README.markdown",
+		"/Applications/MAMP/htdocs/labeler/vs-done.php",
+		"/Applications/MAMP/htdocs/labeler/intro.php",
+		"/Applications/MAMP/htdocs/labeler/README",
+		"/Applications/MAMP/htdocs/labeler/design-intro.php",
+		"/Applications/MAMP/htdocs/labeler/ajax-add-log.php",
+		"/Applications/MAMP/htdocs/labeler/vt.sql",
+		"/Applications/MAMP/htdocs/labeler/vs-intro.php",
+		"/Applications/MAMP/htdocs/labeler/test2.php",
+		"/Applications/MAMP/htdocs/labeler/create-summary.php",
+		"/Applications/MAMP/htdocs/labeler/analyze-comments.php",
+		"/Applications/MAMP/htdocs/labeler/untitled.html",
+		"/Users/juhokim/Desktop/data.csv",
+		"/Applications/MAMP/htdocs/labeler/vs-watch.php",
+		"/Applications/MAMP/htdocs/labeler/logout.php",
+		"/Applications/MAMP/htdocs/labeler/vs-intro-t.php",
+		"/Applications/MAMP/htdocs/labeler/intro-task.php",
+		"/Applications/MAMP/htdocs/labeler/manage.php",
+		"/Applications/MAMP/htdocs/labeler/done.php",
+		"/Applications/MAMP/htdocs/labeler/vs-intro-i.php",
+		"/Applications/MAMP/htdocs/labeler/tutorial.php",
+		"/Applications/MAMP/htdocs/labeler/postq.php",
+		"/Users/juhokim/Documents/패치 정보.txt",
+		"/Applications/MAMP/htdocs/labeler/js/libs/jcview/jquery.vt.jcview.js",
+		"/Applications/MAMP/htdocs/labeler/test.php",
+		"/Applications/MAMP/htdocs/labeler/video/sc/sc.sh",
+		"/Applications/MAMP/htdocs/labeler/preq.php",
+		"/Applications/MAMP/htdocs/labeler/menus.json",
+		"/Users/juhokim/Library/Application Support/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Applications/MAMP/htdocs/labeler/img/tasks/retro.jpg",
+		"/Applications/MAMP/htdocs/labeler/finish.php",
+		"/Applications/MAMP/htdocs/labeler/video/ff/ff.sh",
+		"/Applications/MAMP/htdocs/labeler/tools.json",
+		"/Applications/MAMP/htdocs/labeler/video/7z5YKi5cizA.flv.info.json",
+		"/Applications/MAMP/htdocs/labeler/js/libs/lightbox/jquery.lightbox-0.5.js",
+		"/Applications/MAMP/htdocs/labeler/css/lightbox/jquery.lightbox-0.5.css",
+		"/Applications/MAMP/htdocs/labeler/footer.php",
+		"/Applications/MAMP/htdocs/labeler/js/libs/bootstrap/bootstrap.js",
+		"/Applications/MAMP/htdocs/labeler/list-commands.php",
+		"/Applications/MAMP/htdocs/labeler/js/libs/jcview/jquery.jcview.css",
+		"/Applications/MAMP/htdocs/odk2/header.php",
+		"/Applications/MAMP/htdocs/labeler/js/script.labeler.js",
+		"/Applications/MAMP/htdocs/labeler/labeler.php",
+		"/Applications/MAMP/htdocs/labeler/browser.php",
+		"/Applications/MAMP/htdocs/labeler/jcrop.php",
+		"/Users/juhokim/Music/Swings - Punchline King III 2012/Punchline King III Official Mixtape.txt",
+		"/Users/juhokim/Music/Swings - Punchline King III 2012/Lyrics/¡¯¬• ∏⁄¿Ô¿Ã feat. Wutan, Deepflow.txt",
+		"/Applications/MAMP/htdocs/labeler/log.php",
+		"/Applications/MAMP/htdocs/labeler/test.html",
+		"/Applications/MAMP/htdocs/labeler/js/libs/jcview/jquery.jcview.js",
+		"/Applications/MAMP/htdocs/labeler/js/libs/jcview/jquery-jcview-0.0.1.min.js",
+		"/Applications/MAMP/htdocs/labeler/index.html",
+		"/Applications/MAMP/htdocs/odk2/css/custom.css",
+		"/Applications/MAMP/htdocs/odk2/hot.php",
+		"/Applications/MAMP/htdocs/odk2/schedule.php",
+		"/Applications/MAMP/htdocs/odk2/doongji.php",
+		"/Applications/MAMP/htdocs/odk2/scene.php",
+		"/Applications/MAMP/htdocs/odk2/star.php",
+		"/Applications/MAMP/htdocs/odk2/drama.php",
+		"/Applications/MAMP/htdocs/odk2/24tv.php",
+		"/Applications/MAMP/htdocs/odk2/account.php",
+		"/Applications/MAMP/htdocs/odk2/_social.php",
+		"/Applications/MAMP/htdocs/odk2/_rating.php",
+		"/Applications/MAMP/htdocs/odk2/playlist.php",
+		"/Applications/MAMP/htdocs/odk2/login.php",
+		"/Applications/MAMP/htdocs/odk2/js/script.js",
+		"/Applications/MAMP/htdocs/odk2/_recent.php",
+		"/Applications/MAMP/htdocs/odk2/_realtime.php",
+		"/Applications/MAMP/htdocs/odk2/_news.php",
+		"/Applications/MAMP/htdocs/odk2/index.php",
+		"/Applications/MAMP/htdocs/odk2/mask.php",
+		"/Applications/MAMP/htdocs/odk2/footer.php",
+		"/Applications/MAMP/htdocs/odk2/juwon.php",
+		"/Applications/MAMP/htdocs/odk2/css/style.css",
+		"/Applications/MAMP/htdocs/labeler/css/jcarousel/skins/tango/skin.css",
+		"/Applications/MAMP/htdocs/labeler/js/jcarousel/examples/static_controls.html",
+		"/Applications/MAMP/htdocs/labeler/css/jcarouosel/style.css",
+		"/Applications/MAMP/htdocs/labeler/video/85WjLBsJVjc.flv.info.json",
+		"/Users/juhokim/Downloads/initializr-verekia-3.0/css/style.css",
+		"/Users/juhokim/Downloads/initializr-verekia-3.0/js/script.js",
+		"/Applications/MAMP/htdocs/labeler/motionblur.php",
+		"/Applications/MAMP/htdocs/odk2/join.php",
+		"/Users/juhokim/Sites/odk2/drama.html",
+		"/Users/juhokim/Sites/odk2/scene.html",
+		"/Users/juhokim/Sites/odk2/css/custom.css",
+		"/Users/juhokim/Sites/odk2/mask.html",
+		"/Users/juhokim/Sites/odk2/js/script.js"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"is_admin",
+			"nextButton",
+			"myForm",
+			"DONE",
+			"done with",
+			"DONE",
+			"done with",
+			"log",
+			"var",
+			"interface_id",
+			"domain",
+			"task",
+			"labels_array",
+			"video_filename",
+			"task_id",
+			"json_file",
+			"video_filename",
+			"serialize",
+			"serealize",
+			"select",
+			"file_get_contents",
+			"views",
+			"view-option",
+			"autocomplete",
+			"log4javascript",
+			"edit-save-link",
+			"live",
+			"getLabelHTML",
+			"browse",
+			"label.php",
+			"task_id",
+			"part",
+			"cond",
+			"part",
+			"step",
+			"cond",
+			"bar",
+			"progress",
+			"filters",
+			"browse.php",
+			"simple-view",
+			"radio",
+			"all-view",
+			"num_videos",
+			"meta_array",
+			"getIDisplay",
+			"index",
+			"<?",
+			"mediaplayer",
+			"html2",
+			"video_id",
+			"lightbox",
+			"seek",
+			"seek(",
+			"jwplayer",
+			"popover-click-image",
+			"marker-image",
+			"timeline",
+			"popover-tool-bo",
+			"popover-click",
+			"dues",
+			"mycarousel",
+			"date",
+			"filters",
+			"list.php",
+			".alert",
+			"video_filename",
+			"result2",
+			"active",
+			"lightbox",
+			"lightBox",
+			"duplicate",
+			"labels",
+			"$json",
+			"images",
+			"getLikertQuestionHTML",
+			"task_id",
+			"The provided video summary",
+			"File > New",
+			"edit-save-link",
+			"edit-cancel-link",
+			"selector",
+			"popover",
+			"slider",
+			"jwplayer",
+			"popover-click-image",
+			"footer",
+			"jcrop",
+			"videos_array",
+			"result1",
+			"seek",
+			"mycarousel_initCallback",
+			"control_width",
+			"width",
+			"duration",
+			"interface_id",
+			"tools_array",
+			"user_id",
+			"#tm",
+			"select-other",
+			"select-image",
+			"select-other",
+			"id=\"select-other\"",
+			"id=\"select-menu\"",
+			"id=\"select-tool\"",
+			"id=\"select-image\"",
+			"capture-tool",
+			"select-image",
+			"checked",
+			"selection",
+			"select-image",
+			"capture-tool",
+			"checked",
+			"select-tool",
+			"pull-right",
+			"play-button",
+			"tool-id",
+			"carousel",
+			"user_id",
+			"labeler",
+			"browser",
+			"$row",
+			"Repousse",
+			"Adjustments",
+			"<?",
+			"video_id",
+			"getLabelByID",
+			"getEditHTML"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"conn",
+				"conn.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true
+}
