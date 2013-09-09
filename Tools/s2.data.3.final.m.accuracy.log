@@ -1,0 +1,76 @@
+None
+no ground truth available s1_c01_v01
+no ground truth available s1_c01_v02
+no ground truth available s1_c01_v03
+no ground truth available s1_c01_v04
+no ground truth available s1_c01_v05
+no ground truth available s1_c02_v01
+no ground truth available s1_c02_v02
+no ground truth available s1_c02_v03
+no ground truth available s1_c02_v04
+no ground truth available s1_c02_v05
+no ground truth available s1_c03_v01
+no ground truth available s1_c03_v02
+no ground truth available s1_c03_v03
+no ground truth available s1_c03_v04
+no ground truth available s1_c03_v05
+no ground truth available s1_c04_v01
+no ground truth available s1_c04_v02
+no ground truth available s1_c04_v03
+no ground truth available s1_c04_v04
+no ground truth available s1_c04_v05
+no ground truth available s1_c05_v01
+no ground truth available s1_c05_v02
+no ground truth available s1_c05_v03
+no ground truth available s1_c05_v04
+no ground truth available s1_c05_v05
+[s1_m01_v01]  Precision: 0.6316  Recall:1.0000  F1:0.7742  F2:0.8955 turk: 20 true: 12 match: 12 fp: 7 fn: 0
+[s1_m01_v02]  Precision: 0.5333  Recall:0.7273  F1:0.6154  F2:0.6780 turk: 17 true: 11 match: 8 fp: 7 fn: 3
+[s1_m01_v03]  Precision: 0.7647  Recall:0.9286  F1:0.8387  F2:0.8904 turk: 17 true: 14 match: 13 fp: 4 fn: 1
+no matches for this video.
+[s1_m01_v05]  Precision: 0.8261  Recall:0.7037  F1:0.7600  F2:0.7252 turk: 23 true: 27 match: 19 fp: 4 fn: 8
+[s1_m02_v01]  Precision: 0.4286  Recall:0.7500  F1:0.5455  F2:0.6522 turk: 7 true: 4 match: 3 fp: 4 fn: 1
+[s1_m02_v02]  Precision: 0.6667  Recall:0.5000  F1:0.5714  F2:0.5263 turk: 13 true: 16 match: 8 fp: 4 fn: 8
+[s1_m02_v03]  Precision: 0.7500  Recall:0.6000  F1:0.6667  F2:0.6250 turk: 9 true: 10 match: 6 fp: 2 fn: 4
+[s1_m02_v04]  Precision: 0.5714  Recall:1.0000  F1:0.7272  F2:0.8696 turk: 7 true: 4 match: 4 fp: 3 fn: 0
+[s1_m02_v05]  Precision: 0.6667  Recall:0.5714  F1:0.6154  F2:0.5882 turk: 6 true: 7 match: 4 fp: 2 fn: 3
+[s1_m03_v01]  Precision: 0.7000  Recall:0.5385  F1:0.6087  F2:0.5645 turk: 11 true: 13 match: 7 fp: 3 fn: 6
+[s1_m03_v02]  Precision: 0.1333  Recall:0.4000  F1:0.2000  F2:0.2857 turk: 15 true: 5 match: 2 fp: 13 fn: 3
+no matches for this video.
+[s1_m03_v04]  Precision: 0.6875  Recall:0.8462  F1:0.7586  F2:0.8089 turk: 16 true: 13 match: 11 fp: 5 fn: 2
+[s1_m03_v05]  Precision: 0.6923  Recall:0.9000  F1:0.7826  F2:0.8491 turk: 14 true: 10 match: 9 fp: 4 fn: 1
+[s1_m04_v01]  Precision: 0.3750  Recall:1.0000  F1:0.5455  F2:0.7500 turk: 9 true: 3 match: 3 fp: 5 fn: 0
+no matches for this video.
+no matches for this video.
+no matches for this video.
+no matches for this video.
+no matches for this video.
+no matches for this video.
+no matches for this video.
+no matches for this video.
+no ground truth available s1_p01_v01
+no ground truth available s1_p01_v02
+no ground truth available s1_p01_v03
+no ground truth available s1_p01_v04
+no ground truth available s1_p01_v05
+no ground truth available s1_p02_v01
+no ground truth available s1_p02_v02
+no ground truth available s1_p02_v03
+no ground truth available s1_p02_v04
+no ground truth available s1_p02_v05
+no ground truth available s1_p03_v01
+no ground truth available s1_p03_v02
+no ground truth available s1_p03_v03
+no ground truth available s1_p03_v04
+no ground truth available s1_p03_v05
+no ground truth available s1_p04_v02
+no ground truth available s1_p04_v03
+no ground truth available s1_p04_v04
+no ground truth available s1_p04_v05
+no ground truth available s1_p05_v01
+no ground truth available s1_p05_v02
+no ground truth available s1_p05_v03
+no ground truth available s1_p05_v04
+no ground truth available s1_p05_v05
+=====================================
+GLOBAL Precision: 0.2978 Recall:0.7315  F1:0.4233  F2:0.5665
