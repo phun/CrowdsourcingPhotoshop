@@ -101,6 +101,9 @@ $video = $result->fetch_assoc();
 	.sb.selected{
 		border: 5px solid red;
 	}
+	.sb:hover{
+		border: 5px solid red;
+	}
 	</style>
 	<script type="text/javascript" src="js/jquery.qtip.min.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
@@ -415,15 +418,16 @@ $video = $result->fetch_assoc();
 						'<div id="timeline"></div>' + 
 						'</div>' + 
 						'<div class="info"><div>' +
-							'<h3> Which best shows the <span class="canvasText"/> before &quot;<span class="tname"/>&quot;?</h3>' +
-							'<div id="tipLabel"><strong>Click the most visible and clear image.</strong></div>' +
-							// '<div>Select multiple ONLY if there are more than one instructions in this video.</div>' +
-							// '<div><strong>GOOD: concrete and actionable.</strong> <span class="good-examples"></span></div>' +
-							// '<div><strong>BAD: too generic and not actionable.</strong> <span class="bad-examples"></span></div>' +
+							'<h3> Which best shows the <span class="canvasText"/> <u>before</u> &quot;<span class="tname"/>&quot;?</h3>' +
+							'<div id="tipLabel"><strong>Click the most visible and clear image.</strong> ' +
+							'<span class="pull-right"><input type="checkbox" name="before-noop">There is no good image available.</input></span>' + 
+							'</div>' +
 							'<div id="choices-before" class="choices"></div>' +
 							'<p style="clear:both"></p>' +
-							'<h3> Which best shows the <span class="canvasText"/> after &quot;<span class="tname"/>&quot;?</h3>' +
-							'<div id="tipLabel"><strong>Click the most visible and clear image.</strong></div>' +
+							'<h3> Which best shows the <span class="canvasText"/> <u>after</u> &quot;<span class="tname"/>&quot;?</h3>' +
+							'<div id="tipLabel"><strong>Click the most visible and clear image.</strong> ' +
+							'<span class="pull-right"><input type="checkbox" name="after-noop">There is no good image available.</input></span>' + 
+							'</div>' +
 							'<div id="choices-after" class="choices"></div>' +
 							'<p style="clear:both"></p>' +
 							// '<input type="radio" name="labelRadios" value="@">' + '<i>None of these </i>' +
@@ -597,7 +601,13 @@ $video = $result->fetch_assoc();
 					}
 	      		});
 
-
+				$(document).on("hover", ".sb", 
+					function(){
+						$(this).addClass("mouse-over");
+					}, 
+					function(){
+						$(this).removeClass("mouse-over");
+					});
 	      		$(document).on("click", ".sb", function(event, mode){
 	      			// do nothing for manual trigger. only used to remove the selection marker
 	      			if (mode == "manual")
@@ -664,9 +674,10 @@ $video = $result->fetch_assoc();
 
 <div class="section">
 <br />
-	In this 20-second <span class="genreText"></span> how-to video, the instructor is going to give an instruction around <strong>the 10 second time mark</strong>. 
-	<br />Instruction: "<span class="tname"></span>"
-	<br />We would like images of the <span class="canvasText"></span> <strong>before</strong> and <strong>after</strong> the instruction.
+	This 20-second <span class="genreText"></span> how-to video shows an instruction: "<span class="tname"></span>".
+	<br/>
+	The instructor is going to give an instruction around <strong>the 10 second time mark</strong>. 
+	<br/>We would like images of the <span class="canvasText"></span> <strong>before</strong> and <strong>after</strong> the instruction.
 
 	<h3>HIT Information</h3>
 	<ol>
@@ -675,11 +686,11 @@ $video = $result->fetch_assoc();
 		<li>Click an image that best shows the <span class="canvasText"></span> <strong>before</strong> the instruction.</li>
 		<li>Click an image that best shows the <span class="canvasText"></span> <strong>after</strong> the instruction.</li>
 		<li>
-			GOOD: <strong>clear difference, visible <span class="canvasText"></span></strong>. 
+			Pick images that show a <strong>clear and visible difference</strong> in the <span class="canvasText"></span>. 
 			<br/><span class="good-examples"><img class='inst' src='images/example-c-before.png'></span>
 	    </li>
 		<br/>
-		<li>BAD: <strong>no <span class="canvasText"></span> captured, no visible difference</strong>. 
+		<li>Avoid images that have <strong>no <span class="canvasText"></span> captured</strong>. 
 	</ol>
 
 	<button id='readBtn' class="btn btn-large btn-primary disabled" disabled='disabled'> I read the information </button> 
