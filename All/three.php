@@ -686,7 +686,7 @@ $video = $result->fetch_assoc();
 		<li>Click an image that best shows the <span class="canvasText"></span> <strong>before</strong> the instruction.</li>
 		<li>Click an image that best shows the <span class="canvasText"></span> <strong>after</strong> the instruction.</li>
 		<li>
-			Pick images that show a <strong>clear and visible difference</strong> in the <span class="canvasText"></span>. 
+			Pick images that show a <strong>clear and visible difference</strong> in the <span class="canvasText"></span>. For example, 
 			<br/><span class="good-examples"><img class='inst' src='images/example-c-before.png'></span>
 	    </li>
 		<br/>
