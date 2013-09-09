@@ -12,9 +12,8 @@ if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
 
-
-$entries = file("real/s2_c_1/external_hit.results");
-
+// $entries = array_merge(file("real/s2_1/external_hit.results"), file("real/s2_2/external_hit.results"));
+$entries = array_merge(file("real/s2_3/external_hit.results"), file("real/s2_6/external_hit.results"));
 echo "total: " . sizeof($entries) . " entries<br>";
 ?>
 <html>
@@ -43,16 +42,33 @@ echo "total: " . sizeof($entries) . " entries<br>";
 			<th>Labels</th>
 		</tr>
 <?php
+	$vids = array();
+	$labels = array();
+	$result = $mysqli->query("SELECT * FROM stage2_3");
+	while($responses = $result->fetch_assoc()){
+		$labels = implode("====", unserialize($responses["all_labels"]));
+		$vids[$responses["id"]] = array(
+			"vid" => $responses["video_id"],
+			"labels" => $labels,
+			"time" => $responses["det_label_index"]
+			);
+		// $vid = $responses["video_id"];
+		// echo "<td>" . $vid . "</td>";
+		// echo "<td>" . $labels . "</td>";
+	}
+
 
 $count = 0;
 foreach($entries as $i => $entry) {	
-	if ($i == 0) // ignore the header
-		continue;
 	// $data[29]: video ID
 	// $data[31]: answer
 	// $data[32]: order of options presented
 	$output_string = "";
 	$data = explode("\t", $entry);
+	if ($data[19] == "\"workerid\"") // ignore header
+		continue;
+
+	$count = $count + 1;
 	// filter wrong results. skip if rere
 	// if ($data[19] == "\"workerid\"" || $data[28] == "\"y\"" || $data[19] == "" || in_array($data[19], $blackList))
 	// 	continue;
@@ -67,16 +83,12 @@ foreach($entries as $i => $entry) {
 	// } else
 	// 	$entry_array[$vid]["count"] = $entry_array[$vid]["count"] + 1;	
 
-	echo "<tr><td>{$i}</td><td>{$data[19]}</td><td>" . intval($data[29]) . "</td><td>{$data[31]}</td><td>{$data[32]}</td>";
-
-	$result = $mysqli->query("SELECT * FROM stage2_3 WHERE id=$data[29]");
-	while($responses = $result->fetch_assoc()){
-		echo "<td>" . $responses["video_id"] . "</td>";
-		echo "<td>" . implode("====", unserialize($responses["all_labels"])) . "</td>";
-	}
+	echo "<tr><td>{$count}</td><td>{$data[19]}</td><td>" . intval($data[29]) . "</td><td>{$data[31]}</td><td>{$data[32]}</td>";	
 	echo "</tr>";
-	// $output_string = $count . "\t\t" . $data[19] . "\t\t" . $vid . "\t\t" . $labels_result_file . "\n";
-	// file_put_contents("s2_.data", $output_string, FILE_APPEND);
+
+	$data[32] = trim(preg_replace('/\s+/', ' ', $data[32]));
+	$output_string = $count . "\t\t" . substr($data[19], 1, -1) . "\t\t" . intval($data[29]) . "\t\t" . substr($data[30], 1, -1) . "\t\t" . substr($data[31], 1, -1) . "\t\t" . substr($data[32], 1, -1) . "\t\t" . $vids[$data[29]]["vid"] . "\t\t" . $vids[$data[29]]["time"] . "\t\t" . $vids[$data[29]]["labels"] . "\n";
+	file_put_contents("s2.data", $output_string, FILE_APPEND);
 }
 
 ?>
