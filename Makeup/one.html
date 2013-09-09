@@ -71,8 +71,8 @@ VERSION: Gather Tools Clicked
 		}
 
 		// Set up video url
-		video = "videos/t1_"+ vid + ".mp4";
-		if (half) { video = "videos/t1_"+ vid + "_h.mp4" };
+		video = "videos/"+ vid + ".mp4";
+		if (half) { video = "videos/"+ vid + "_h.mp4" };
 
 		var randomInt = Math.floor((Math.random()*4)+1);
 		var audioStr;
@@ -143,7 +143,10 @@ VERSION: Gather Tools Clicked
 		};
 
 		$(document).ready(function() {
-
+			if ($.browser.msie){
+				$("#ie-hint").show();
+				$("#ie-hint span").text(ans);
+			}
 			// Tell us what assigmentID is
 			if (params['assignmentId']) { $("#assignmentId").val(params['assignmentId']) };
 
@@ -151,6 +154,7 @@ VERSION: Gather Tools Clicked
 
 			jwplayer("mediaplayer").setup({
 				flashplayer: "js/libs/jwplayer/player.swf",
+				stretching: "none",
 				controlbar: "bottom",
 				file: video,
 				events: {
@@ -184,7 +188,9 @@ VERSION: Gather Tools Clicked
 			jwplayer("audioplayer").setup({
 				flashplayer: "js/libs/jwplayer/player.swf",
 				file: audioStr,
-				controlbar: 'bottom'
+				controlbar: "bottom",
+				width: 300,
+				height: 30
 			});
 
 			$("#playButton").click(function() {
@@ -289,7 +295,8 @@ VERSION: Gather Tools Clicked
 		<div id='audioplayer' style='display: none'></div>
 		<img id='playButton' src='images/play_button.png' style='float: left; height: 70px'>
 		<h4> Please have your audio on. Click on the play button and type what you hear.</h4>
-		<input type='text' id='audioText'></input> <button id='audioSubmit' class="btn btn-small btn-primary" style='vertical-align: top'>Submit </button>
+		<input type='text' id='audioText'> <button id='audioSubmit' class="btn btn-small btn-primary" style='vertical-align: top'>Submit </button>
+		<div id="ie-hint">If your audio is on but the play button doesn't work, type in "<span></span>"</div>
 		<div style='clear:both;'></div>
 		<h4 id='incorrect-audio' style="display:none; color: red"> Incorrect Message. Please Listen and try again. </h4>
 	</div>

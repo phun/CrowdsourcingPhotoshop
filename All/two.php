@@ -246,8 +246,7 @@ $video = $result->fetch_assoc();
 
 							'<div id="otherLabel" style="display:none"><h4>Please write an alternative label: </h4>' +
 								'<input type="text" id="otherLabelText"></div>' +
-							'<input type="radio" name="labelRadios" value="noop">' + '<i>There is no instruction in the video.</i>' +
-
+							'<input type="radio" name="labelRadios" value="noop">' + '<i>There is no instruction around the 10 second mark.</i>' +
 						'</div>' +
 					'</div>';
 

@@ -191,5 +191,9 @@ ol {
 }
 
 #audioplayer {
+	display: none !important;
+}
+
+#ie-hint {
 	display: none;
 }
