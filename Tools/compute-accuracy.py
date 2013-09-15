@@ -112,7 +112,7 @@ def get_cost_matrix(vid, turk, truth, turk_sorted_lidlist, truth_sorted_lidlist,
 window_size = int(sys.argv[3])
 
 for i in range(1, 2):
-    eps = i * 0.07
+    eps = i * 0.25
     global_match = 0
     global_fp = 0
     global_fn = 0
@@ -178,33 +178,51 @@ for i in range(1, 2):
         if True:
             for index in turk_to_truth:
                 found = 0
-                valid_turk_count += 1
                 # print index, turk_to_truth[index]
                 # non-existing entries added to Turk labels, skip
                 if len(turk_sorted_lidlist) <= index:
                     # print "[fn]"
                     continue
                 else:
+                    valid_turk_count += 1
                     turk_lid = turk_sorted_lidlist[index]
                     turk_label = turk[vid][turk_lid]
                     if len(truth_sorted_lidlist) <= turk_to_truth[index]:
-                        print "[fp]", turk_label["time"]
-                        false_positive += 1
-                        for t in turk_label["points_turk"]: 
-                            print "    Turk:", t["time"], t["desc"].encode("utf-8")
+                        pass
+                        # print "[fp]", turk_label["time"]
+                        # false_positive += 1
+                        # for t in turk_label["points_turk"]: 
+                        #     print "    Turk:", t["time"], t["desc"].encode("utf-8")
                     else:
                         true_lid = truth_sorted_lidlist[turk_to_truth[index]]
                         true_label = truth[vid][true_lid]
                         distance = math.fabs(float(turk_label["time"]) - float(true_label["time"]))
                         if found is not 1 and "matched_new" not in true_label and distance <= window_size:
-                            found += 1
+                            
                             true_label["matched_new"] = True
+                            vals = []
                             print "[m ]", turk_label["time"], true_label["time"], "[", distance, "]", true_label["desc"]
                             for t in turk_label["points_turk"]: 
+                                vals.append(t["time"])
                                 print "    Turk:", t["time"], t["desc"].encode("utf-8")
+                            radius = max(vals) - min(vals)
+                            print "  Radius", radius
+                            if radius <= 20:
+                                found += 1
                 if found == 1:
                     match += 1
-
+                elif found > 1:
+                    print "not possible"                    
+                elif found == 0:
+                    print "[fp]", turk_label["time"]
+                    
+                    vals = []
+                    for t in turk_label["points_turk"]: 
+                        vals.append(t["time"])
+                        print "    Turk:", t["time"], t["desc"].encode("utf-8")
+                    radius = max(vals) - min(vals)
+                    if radius <= 20:
+                        false_positive += 1
             for true_id in truth_sorted_lidlist:
                 if "matched_new" not in truth[vid][true_id]:
                     false_negative += 1

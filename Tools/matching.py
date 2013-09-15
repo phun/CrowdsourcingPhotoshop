@@ -1,43 +1,10 @@
-# def permute(a, results):
-#     if len(a) == 1:
-#         results.insert(len(results), a)
-
-#     else:
-#         for i in range(0, len(a)):
-#             element = a[i]
-#             a_copy = [a[j] for j in range(0, len(a)) if j != i]
-#             subresults = []
-#             permute(a_copy, subresults)
-#             for subresult in subresults:
-#                 result = [element] + subresult
-#                 results.insert(len(results), result)
-
-
-# def compute(matrix):
-#     n = len(matrix)
-#     import sys
-#     minval = sys.maxint
-#     for row in range(n):
-#         cost = 0
-#         for col in range(n):
-#             cost += matrix[row][col]
-#         minval = min(cost, minval)
-#     print minval
-
-
-# results = []
-# matrix = [[10, 20, 0], [9, 21, 0], [0, 0, 5]]
-# permute(range(len(matrix)), results) # [0, 1, 2] for a 3x3 matrix
-# print results
-# compute(matrix)
-
-
 #!/usr/bin/python
 # ecole polytechnique - c.durr - 2009
 
 # Kuhn-Munkres, The hungarian algorithm.  Complexity O(n^3)
 # Computes a max weight perfect matching in a bipartite graph
 # for min weight matching, simply negate the weights.
+# https://github.com/xtof-durr/makeSimple/blob/master/Munkres/kuhnMunkres.py
 
 """ Global variables:
        n = number of vertices on each side
@@ -133,8 +100,7 @@ def maxWeightMatching(weights):
     val = sum(lu)+sum(lv)
     return (Mu, Mv, val)
   
-#  a small example 
-
+# a small example 
 #print maxWeightMatching([[1,2,3,4],[2,4,6,8],[3,6,9,12],[4,8,12,16]])
 
 # read from standard input a line with n

@@ -430,7 +430,9 @@ $video = $result->fetch_assoc();
 
 			//allLabels = allLabels.replace(/\"/g, "").split(',');
 			console.log(allLabels);
-			video = "http://juhokim.com/annotation/videos/<?=$video['filename'];?>";
+			// TODO: what if not mp4?
+			video = "http://juhokim.com/annotation/videos/v_<?=$video['slug'];?>.mp4";
+			// video = "http://juhokim.com/annotation/videos/<?=$video['filename'];?>";
 			// video = 'http://juhokim.com/annotation/videos/' + vid + '.mp4';
 			// video = "http://people.csail.mit.edu/juhokim/annotation-videos/<?=$video['task_id'];?>/<?=$video['filename'];?>";
 			switch(genre) {

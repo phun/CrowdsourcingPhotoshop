@@ -329,6 +329,16 @@ def get_cluster_centroid(key, clusters, label_turk_list):
     return np.mean(vals)
 
 
+# remove clusters that are too big: currently set to (max-min) > 20
+def get_cluster_radius(entry_list):
+    vals = []
+    for (i, label) in enumerate(entry_list):
+        vals.append(label["time"])
+    radius = max(vals) - min(vals)
+    # print radius
+    return radius
+
+
 # "neighbor": Check neighbors' text labels to adjust clusters
 def merge_neighbors(clusters, label_turk_list, label_turk_list_desc, sorted_turk):
     threshold = 10 # only consider neighbor labels within 10 second distance
@@ -440,7 +450,7 @@ def getClusterTime(cluster_data, cluster_id):
 # Save JSON files of final clusters
 def save_files(turk_filename, final_data, eps):
     import json
-    with open("./data/" + turk_filename + '.new.merge.w' + weight + '.' + str(eps) + '.final.json', 'wb') as fp:
+    with open("./data/" + turk_filename + '.chi2014.w' + weight + '.' + str(eps) + '.final.json', 'wb') as fp:
         #json.dump(final_data, fp)
         json.dump(final_data, fp, sort_keys=True, indent=4, separators=(',', ': '))
 
@@ -461,8 +471,8 @@ turk = read_turk_data(turk_filename)
 vidlist = turk.keys()
 vidlist.sort()
 
-for i in range(1, 2):
-    eps = i * 0.07
+for i in range(1, 30):
+    eps = i * 0.01
     final_data = {}
     for vid in vidlist:
         # if vid != "s1_c05_v05": #"s1_c05_v03" "s1_c03_v01": #
@@ -516,7 +526,6 @@ for i in range(1, 2):
         #     print i, label, "(", clusters[i], ")", sorted_turk[i]["workerid"], sorted_turk[i]["desc"]        
 
 
-
         # Print results and store them in a file for each eps
         header = "=== " + vid + " eps=" + str(eps) + " w_time=" + str(weight) + " ===\n"
         fp = open("./data/" + turk_filename + '.w' + weight + '.parsed', 'a+b')
@@ -536,7 +545,12 @@ for i in range(1, 2):
         final_data[vid] = {}
         for (i, label) in enumerate(label_turk_list):
             cid = str(clusters[i])
-            final_data[vid][cid] = {'cluster_id': cid, 'time': getClusterTime(cluster_data[cid], cid), 'points_turk': cluster_data[cid]}
+            # ignore too big clusters
+            if get_cluster_radius(cluster_data[cid]) > 20:
+                # print "cluster", cid, "radius too big. skipping."
+                pass
+            else:
+                final_data[vid][cid] = {'cluster_id': cid, 'time': getClusterTime(cluster_data[cid], cid), 'points_turk': cluster_data[cid]}
 
         save_files(turk_filename, final_data, eps)
 
