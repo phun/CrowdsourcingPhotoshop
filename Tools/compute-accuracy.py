@@ -7,10 +7,14 @@ from pprint import pprint
 ##############################################################################
 # Read Turker data file
 def read_data(filename):
-    json_data=open(filename)
-    data = json.load(json_data)
-    # pprint(data)
-    json_data.close()
+    try:
+        json_data=open(filename)
+        data = json.load(json_data)
+        # pprint(data)
+        json_data.close()
+    except IOError:
+        "file not found"
+        data = []
     return data
 
 ##############################################################################
@@ -49,6 +53,56 @@ def compute_f_score(precision, recall, beta=1):
     return round(score, 4)
 
 
+
+def get_cost_matrix(vid, turk, truth, turk_sorted_lidlist, truth_sorted_lidlist, window_size):
+    matrix = []
+
+    if len(turk_sorted_lidlist) > len(truth_sorted_lidlist):
+        for turk_id in turk_sorted_lidlist:
+            row = []
+            turk_label = turk[vid][turk_id]
+            for index in range(0, len(turk_sorted_lidlist)):
+                if index < len(truth_sorted_lidlist):
+                    true_id = truth_sorted_lidlist[index]
+                    true_label = truth[vid][true_id]
+                    distance = math.fabs(float(turk_label["time"]) - float(true_label["time"])) * 100
+                    if distance > window_size * 100:
+                        distance = 1000000
+                else:  # fill with max distance
+                    true_id = "null"
+                    distance = 1000000
+                # print turk_id, true_id, (-1 * int(distance))
+                # invert the value because we're optimizing for maximum weight, not minimum
+                row.append(-1 * int(distance))
+            matrix.append(row)
+    else:
+        # for turk_id in turk_sorted_lidlist:
+        for i in range(0, len(truth_sorted_lidlist)):
+            row = []
+            if i < len(turk_sorted_lidlist):
+                turk_id = turk_sorted_lidlist[i]
+                turk_label = turk[vid][turk_id]
+                for j in range(0, len(truth_sorted_lidlist)):
+                    true_id = truth_sorted_lidlist[j]
+                    true_label = truth[vid][true_id]
+                    distance = math.fabs(float(turk_label["time"]) - float(true_label["time"])) * 100
+                    if distance > window_size * 100:
+                        distance = 1000000
+                    # print turk_id, true_id, (-1 * distance)
+                    # invert the value because we're optimizing for maximum weight, not minimum
+                    row.append(-1 * int(distance))
+            else:
+                for j in range(0, len(truth_sorted_lidlist)):
+                    turk_id = "null"
+                    true_id = truth_sorted_lidlist[j]
+                    distance = 1000000
+                    # print turk_id, true_id, (-1 * int(distance))
+                    row.append(-1 * int(distance))
+            matrix.append(row)        
+    # print matrix
+    return matrix
+
+
 '''
     Parameters
     turk_filename: without the epsilon part (e.g., s1_p.data)
@@ -57,8 +111,8 @@ def compute_f_score(precision, recall, beta=1):
 # how far away can the labels in turk and truth data be, to be considered correct?
 window_size = int(sys.argv[3])
 
-for i in range(1, 30):
-    eps = i * 0.01
+for i in range(1, 2):
+    eps = i * 0.07
     global_match = 0
     global_fp = 0
     global_fn = 0
@@ -72,6 +126,8 @@ for i in range(1, 30):
     turk = read_data(turk_filename)
     truth = read_data(truth_filename)
 
+    if turk == [] or truth == []:
+        continue
     # for each turk input, compare against ground truth and compute measures
 
     vidlist = turk.keys()
@@ -81,51 +137,127 @@ for i in range(1, 30):
         false_positive = 0
         false_negative = 0
         match = 0
+        valid_turk_count = 0
+
         if vid not in truth:
             print "no ground truth available"
             continue
 
+       # create lid list sorted by time
+        lidlist = []
         for lid in turk[vid]:
-            label = turk[vid][lid]
-            found = 0
-
             # 1) ignore_singletons
-            if len(label["points_turk"]) < 2:
+            if len(turk[vid][lid]["points_turk"]) < 2:
+                # print "singleton skipped"
                 continue
             # 2) ignore_unclustered
             # if label["cluster_id"].startswith("-1.0"):
             #     continue
             # 3) ignore_singleton_unclustered
             # if label["cluster_id"].startswith("-1.0") and len(label["points_turk"]) < 2:
-            #     continue
+            #     continue   
+            lidlist.append({'lid': lid, 'time': turk[vid][lid]["time"]})         
+        lidlist = sorted(lidlist, key=lambda k: k["time"])
+        turk_sorted_lidlist = [item["lid"] for item in lidlist]
+
+        lidlist = []
+        for lid in truth[vid]:
+            lidlist.append({'lid': lid, 'time': truth[vid][lid]["time"]})
+        lidlist = sorted(lidlist, key=lambda k: k["time"])
+        truth_sorted_lidlist = [item["lid"] for item in lidlist]
+
+        # get pairwise cost matrix between turk and truth
+        cost_matrix = get_cost_matrix(vid, turk, truth, turk_sorted_lidlist, truth_sorted_lidlist, window_size)
+
+        import matching
+        matches = matching.maxWeightMatching(cost_matrix)
+        print matches
+        turk_to_truth = matches[0]
+        truth_to_turk = matches[1]
+
+        if True:
+            for index in turk_to_truth:
+                found = 0
+                valid_turk_count += 1
+                # print index, turk_to_truth[index]
+                # non-existing entries added to Turk labels, skip
+                if len(turk_sorted_lidlist) <= index:
+                    # print "[fn]"
+                    continue
+                else:
+                    turk_lid = turk_sorted_lidlist[index]
+                    turk_label = turk[vid][turk_lid]
+                    if len(truth_sorted_lidlist) <= turk_to_truth[index]:
+                        print "[fp]", turk_label["time"]
+                        false_positive += 1
+                        for t in turk_label["points_turk"]: 
+                            print "    Turk:", t["time"], t["desc"].encode("utf-8")
+                    else:
+                        true_lid = truth_sorted_lidlist[turk_to_truth[index]]
+                        true_label = truth[vid][true_lid]
+                        distance = math.fabs(float(turk_label["time"]) - float(true_label["time"]))
+                        if found is not 1 and "matched_new" not in true_label and distance <= window_size:
+                            found += 1
+                            true_label["matched_new"] = True
+                            print "[m ]", turk_label["time"], true_label["time"], "[", distance, "]", true_label["desc"]
+                            for t in turk_label["points_turk"]: 
+                                print "    Turk:", t["time"], t["desc"].encode("utf-8")
+                if found == 1:
+                    match += 1
+
+            for true_id in truth_sorted_lidlist:
+                if "matched_new" not in truth[vid][true_id]:
+                    false_negative += 1
+                    print "[fn]", truth[vid][true_id]["time"], truth[vid][true_id]["desc"]
 
 
-            # Find a match between ground truth and turker input
+        if False:
+            print "==="
+            # for lid in turk[vid]:
+            for lid in turk_sorted_lidlist:
+                label = turk[vid][lid]
+                found = 0
+                valid_turk_count += 1
+
+                # Find a closest match between ground truth and turker input
+                # candidates = []
+                # distances = []
+                # for true_id in truth[vid]:
+                for true_id in truth_sorted_lidlist:
+                    # print truth[vid]
+                    true_label = truth[vid][true_id]
+                    #print math.fabs(float(label["time"]) - float(true_label["time"]))
+                    distance = math.fabs(float(label["time"]) - float(true_label["time"]))
+                    if found is not 1 and "matched" not in true_label and distance <= window_size:
+                        found += 1
+                        true_label["matched"] = True
+                        print "[m ]", label["time"], true_label["time"], true_label["desc"]
+                        # for turk_label in label["points_turk"]: 
+                        #     print "Turk:", turk_label["time"], turk_label["desc"].encode("utf-8")
+
+                #         candidates.append(true_label)
+                #         distances.append(distance)
+                # if len(distances) > 0:
+                #     import operator
+                #     matching_index, matching_value = min(enumerate(distances), key=operator.itemgetter(1))
+                #     matching_label = candidates[matching_index]
+
+                if found == 1:
+                    match += 1
+                elif found > 1:
+                    print "not possible"
+                elif found == 0:   # no match found for this label in the truth
+                    false_positive += 1
+                    print "[fp]", label["time"]
+                    # for turk_label in label["points_turk"]: 
+                    #     print "Turk:", turk_label["time"], turk_label["desc"].encode("utf-8")
+
             for true_id in truth[vid]:
-                #print truth[vid]
-                true_label = truth[vid][true_id]
-                #print math.fabs(float(label["time"]) - float(true_label["time"]))
-                if found is not 1 and "matched" not in true_label and math.fabs(float(label["time"]) - float(true_label["time"])) <= window_size:
-                    found += 1
-                    true_label["matched"] = True
-                    # correct += 1
-                    if eps == 0.07 and vid == "s1_c01_v04":
-                        print label["time"], true_label["time"]
-                        print "Truth ", true_label["desc"]
-                        for turk_label in label["points_turk"]: 
-                            print "Turker", turk_label["desc"].encode("utf-8")
+                if "matched" not in truth[vid][true_id]:
+                    false_negative += 1
+                    print "[fn]", truth[vid][true_id]["time"], truth[vid][true_id]["desc"]
 
-            if found == 1:
-                match += 1
-            elif found > 1:
-                print "not possible"
-            elif found == 0:   # no match found for this label in the truth
-                false_positive += 1
 
-        for true_id in truth[vid]:
-            if "matched" not in truth[vid][true_id]:
-                false_negative += 1
-        
         if match + false_positive == 0 or match + false_negative == 0:
             print "no matches for this video."
         else:    
@@ -134,7 +266,7 @@ for i in range(1, 30):
             recall = compute_recall(match, false_negative)
             f1 = compute_f_score(precision, recall, 1)
             f2 = compute_f_score(precision, recall, 2)
-            print "[%s]  Precision: %.4f  Recall:%.4f  F1:%.4f  F2:%.4f" % (vid, precision, recall, f1, f2), "turk:", len(turk[vid]), "true:", len(truth[vid]), "match:", match, "fp:", false_positive, "fn:", false_negative
+            print "[%s]  Precision: %.4f  Recall:%.4f  F1:%.4f  F2:%.4f" % (vid, precision, recall, f1, f2), "turk:", valid_turk_count, "true:", len(truth[vid]), "match:", match, "fp:", false_positive, "fn:", false_negative
         global_match += match
         global_fp += false_positive
         global_fn += false_negative
@@ -212,7 +344,4 @@ for i in range(1, 30):
 #     import json
 #     with open(sys.argv[2] + '.final.json', 'wb') as fp:
 #         json.dump(final_data, fp)
-
-
-
 

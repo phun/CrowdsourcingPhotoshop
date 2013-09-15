@@ -27,3 +27,14 @@ body {
 
 
 
+#task-list {
+	margin-left: 20px;
+}
+
+.task .det_label_index {
+	margin-right: 10px;
+}
+
+.task .thumbnail {
+	width: 200px;
+}

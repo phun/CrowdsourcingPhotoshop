@@ -15,36 +15,37 @@
   </head>
 
 <body>
-  <!-- <h1>Task Name</h1> -->
+  <h1>Cooking Fried Rice</h1>
   <div class="row">
     <div class="col-md-6">
-        <h3 class="video-title"></h3>
+        <h3>How to Make Fried Rice - Shrimp Fried Rice</h3>
         <div id="ytplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
     </div>    
     <div class="col-md-6">
         <button href="#" class="btn btn-primary" data-bind="click: addGoal">Add Goal</button>
-        <div id="main">
+        <div id="main" data-bind="template: {name: 'goalTmpl', foreach: goalList, as: 'goal'}, sortableList: goalList">
 <!--             <hr />
             <h2>Trash</h2>
             <div class="container trash" data-bind="sortableList: trash"></div> -->        
-        <!-- </div>    -->
+        </div>   
 
-
+        <script id="goalTmpl" type="text/html">
             <div class="goal">
-                <a href="#"></a>
-                <!-- <input type="text"/>   -->
+                <a href="#" data-bind="text: name, click: function() { viewModel.selectGoal(goal); }, visible: goal !== viewModel.selectedGoal()"></a>
+                <input data-bind="value: name, visibleAndSelect: goal === viewModel.selectedGoal(), event: { blur: function() { viewModel.selectGoal(''); } }" />  
             </div>
-            <div id="task-list"> 
+            <div class="task-list" data-bind="template: { name: 'taskTmpl', foreach: goal.taskList, as: 'task'}, sortableList: goal.taskList"> 
             </div>
-
+        </script>    
         
-
+        <script id="taskTmpl" type="text/html">
+            <div class="task" data-bind="text: name, sortableItem: { item: task, parentList: task.parentList() }" >
             <!--
                 <a href="#" data-bind="text: name, click: function() { viewModel.selectTask(task); }, visible: task !== viewModel.selectedTask()"></a>
                 <input data-bind="value: name, visibleAndSelect: task === viewModel.selectedTask(), event: { blur: function() { viewModel.selectTask(''); } }" />
             -->
-            <!-- </div> -->
-
+            </div>
+        </script>
             <!--<script id="taskTmpl" type="text/html">
                 <div class="item" data-bind="sortableItem: { item: $data, parentList: $item.parentList }" >
                     <a href="#" data-bind="text: name, click: function() { viewModel.selectTask($data); }, visible: $data !== viewModel.selectedTask()"></a>
@@ -58,12 +59,44 @@
     <script src="js/vendor/bootstrap.min.js"></script>
     <!-- // <script src="js/vendor/knockout-2.3.0.js"></script> -->
     <script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
-    <!-- <script src="js/subgoal.js"></script> -->
+    // <!-- <script src="js/subgoal.js"></script> -->
     <script>
       $(document).ready(function() {
-       });
+        var prmstr = window.location.search.substr(1);
+        var prmarr = prmstr.split ("&");
+        var params = {};
+        for ( var i = 0; i < prmarr.length; i++) {
+          var tmparr = prmarr[i].split("=");
+          params[tmparr[0]] = tmparr[1];
+        }
 
+        $.getJSON("get_data.php?vid=" + params["vid"], function(data) {
+          var items = [];
+         
+          $.each(data, function(key, val) {
+            items.push('<li id="' + key + '">' + val + '</li>');
+          });
+         
+          $('<ul/>', {
+            'class': 'my-new-list',
+            html: items.join('')
+          }).appendTo('body');
+        });
 
+        $.getJSON("get_labels.php?vid=" + params["vid"], function(data) {
+          var items = [];
+         
+          $.each(data, function(key, val) {
+            items.push('<li id="' + key + '">' + val + '</li>');
+          });
+         
+          $('<ul/>', {
+            'class': 'my-new-list',
+            html: items.join('')
+          }).appendTo('body');
+        });
+
+      });
             var player;
             var vidParams = { allowScriptAccess: "always" };
             var atts = { id: "ytplayer" };
@@ -74,8 +107,7 @@
                   player = document.getElementById("ytplayer");
                   player.addEventListener("onStateChange", "onPlayerStateChange");
                   // player.loadVideoById({'videoId': '4vY4P0jb1Ts', 'startSeconds': start, 'endSeconds': start+20});
-                  // player.loadVideoById({'videoId': '4vY4P0jb1Ts'});
-                  load_data(player);               
+                  player.loadVideoById({'videoId': '4vY4P0jb1Ts'});
                   setInterval(updateytplayerInfo, 600);
                   updateytplayerInfo();
             }             
@@ -130,62 +162,7 @@
 
               function stopVideo() {
                 player.stopVideo();
-              
-              }
-
-        var prmstr = window.location.search.substr(1);
-        var prmarr = prmstr.split ("&");
-        var params = {};
-        for ( var i = 0; i < prmarr.length; i++) {
-          var tmparr = prmarr[i].split("=");
-          params[tmparr[0]] = tmparr[1];
-        }
-
-  Number.prototype.pad = function(n) {
-      return ('0000000000' + this).slice((n || 2) * -1);
-  }
-        function load_labels(slug){
-                $.getJSON("get_labels.php?vid=" + params["vid"], function(data) {
-                    var items = [];
-                    console.log(data);
-                    $.each(data, function(key, val) {
-                      console.log(key, val["id"], val["det_label"]);
-                         
-                        items.push('<div class="task" id="' + val["id"] + '"><span class="thumbnail"><img src="http://juhokim.com/annotation/videos/thumbs/v_' + slug + '_' + Math.round(val["det_label_index"]).pad(3) + '.jpg"/></span><span class="det_label_index">' + Math.round(val["det_label_index"]) + '</span><span class="det_label">' + val["det_label"] + '</span></div>');                          
-
-                      // $.each(val, function(k,v){
-                      //   console.log(k, v);
-                      // });
-                      
-                    });
-                   
-                    $('<ul/>', {
-                      'class': 'my-new-list',
-                      html: items.join('')
-                    }).appendTo('#task-list');
-                });             
-        }
-          function load_data(player){
-                  $.getJSON("get_data.php?vid=" + params["vid"], function(data) {
-                    var items = [];
-                    console.log(data);
-                    $(".video-title").html(data["title"]);
-                    player.loadVideoById({'videoId': data["slug"]});
-
-                    $.each(data, function(key, val) {
-                      console.log(key, val);
-                      // items.push('<li id="' + key + '">' + val + '</li>');
-                    });
-                    load_labels(data["slug"]);
-                    // $('<ul/>', {
-                    //   'class': 'my-new-list',
-                    //   html: items.join('')
-                    // }).appendTo('body');
-                  });
-
-
-          }
-       
+              }       
     </script>
 </body>
 </html>

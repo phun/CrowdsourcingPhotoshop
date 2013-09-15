@@ -1,0 +1,68 @@
+0.9 time 0.1 string
+"separate True", "reclustering True"
+
+/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools > python compute-accuracy.py s1_m.data_w0.9_ s1_m.truth.json 10| grep 'GLOBAL'
+eps: 0.01 GLOBAL Precision: 0.2936 Recall:0.7114  F1:0.4157  F2:0.5538
+eps: 0.02 GLOBAL Precision: 0.2936 Recall:0.7114  F1:0.4157  F2:0.5538
+eps: 0.03 GLOBAL Precision: 0.2936 Recall:0.7114  F1:0.4157  F2:0.5538
+eps: 0.04 GLOBAL Precision: 0.2936 Recall:0.7114  F1:0.4157  F2:0.5538
+eps: 0.05 GLOBAL Precision: 0.2936 Recall:0.7114  F1:0.4157  F2:0.5538
+eps: 0.06 GLOBAL Precision: 0.2936 Recall:0.7114  F1:0.4157  F2:0.5538
+eps: 0.07 GLOBAL Precision: 0.2936 Recall:0.7114  F1:0.4157  F2:0.5538
+eps: 0.08 GLOBAL Precision: 0.2944 Recall:0.7114  F1:0.4165  F2:0.5544
+eps: 0.09 GLOBAL Precision: 0.2944 Recall:0.7114  F1:0.4165  F2:0.5544
+eps: 0.1 GLOBAL Precision: 0.2928 Recall:0.7114  F1:0.4149  F2:0.5532
+eps: 0.11 GLOBAL Precision: 0.2920 Recall:0.7114  F1:0.4140  F2:0.5526
+eps: 0.12 GLOBAL Precision: 0.2956 Recall:0.7181  F1:0.4188  F2:0.5585
+eps: 0.13 GLOBAL Precision: 0.2967 Recall:0.7248  F1:0.4210  F2:0.5625
+eps: 0.14 GLOBAL Precision: 0.2951 Recall:0.7248  F1:0.4194  F2:0.5613
+eps: 0.15 GLOBAL Precision: 0.2978 Recall:0.7315  F1:0.4233  F2:0.5665
+eps: 0.16 GLOBAL Precision: 0.2919 Recall:0.7248  F1:0.4162  F2:0.5590
+eps: 0.17 GLOBAL Precision: 0.2895 Recall:0.7248  F1:0.4137  F2:0.5572
+eps: 0.18 GLOBAL Precision: 0.2887 Recall:0.7383  F1:0.4151  F2:0.5630
+eps: 0.19 GLOBAL Precision: 0.2846 Recall:0.7315  F1:0.4098  F2:0.5567
+eps: 0.2 GLOBAL Precision: 0.2842 Recall:0.7383  F1:0.4104  F2:0.5595
+eps: 0.21 GLOBAL Precision: 0.2857 Recall:0.7517  F1:0.4140  F2:0.5668
+eps: 0.22 GLOBAL Precision: 0.2817 Recall:0.7450  F1:0.4088  F2:0.5606
+eps: 0.23 GLOBAL Precision: 0.2810 Recall:0.7450  F1:0.4081  F2:0.5600
+eps: 0.24 GLOBAL Precision: 0.2789 Recall:0.7450  F1:0.4059  F2:0.5584
+eps: 0.25 GLOBAL Precision: 0.2687 Recall:0.7248  F1:0.3921  F2:0.5411
+eps: 0.26 GLOBAL Precision: 0.2786 Recall:0.7517  F1:0.4065  F2:0.5611
+eps: 0.27 GLOBAL Precision: 0.2786 Recall:0.7517  F1:0.4065  F2:0.5611
+eps: 0.28 GLOBAL Precision: 0.2797 Recall:0.7584  F1:0.4087  F2:0.5650
+eps: 0.29 GLOBAL Precision: 0.2786 Recall:0.7517  F1:0.4065  F2:0.5611
+
+
+0.9 time 0.1 string
+"separate True", "reclustering True"
+updated labels 9/10
+/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools > python compute-accuracy.py s1_m.data_w0.9_ s1_m.v2.truth.json 10| grep 'GLOBAL'
+eps: 0.01 GLOBAL Precision: 0.4515 Recall:0.7376  F1:0.5601  F2:0.6546
+eps: 0.02 GLOBAL Precision: 0.4515 Recall:0.7376  F1:0.5601  F2:0.6546
+eps: 0.03 GLOBAL Precision: 0.4515 Recall:0.7376  F1:0.5601  F2:0.6546
+eps: 0.04 GLOBAL Precision: 0.4515 Recall:0.7376  F1:0.5601  F2:0.6546
+eps: 0.05 GLOBAL Precision: 0.4515 Recall:0.7376  F1:0.5601  F2:0.6546
+eps: 0.06 GLOBAL Precision: 0.4515 Recall:0.7376  F1:0.5601  F2:0.6546
+eps: 0.07 GLOBAL Precision: 0.4515 Recall:0.7376  F1:0.5601  F2:0.6546
+eps: 0.08 GLOBAL Precision: 0.4528 Recall:0.7376  F1:0.5611  F2:0.6552
+eps: 0.09 GLOBAL Precision: 0.4528 Recall:0.7376  F1:0.5611  F2:0.6552
+eps: 0.1 GLOBAL Precision: 0.4503 Recall:0.7376  F1:0.5592  F2:0.6541
+eps: 0.11 GLOBAL Precision: 0.4490 Recall:0.7376  F1:0.5582  F2:0.6536
+eps: 0.12 GLOBAL Precision: 0.4503 Recall:0.7376  F1:0.5592  F2:0.6541
+eps: 0.13 GLOBAL Precision: 0.4505 Recall:0.7421  F1:0.5607  F2:0.6570
+eps: 0.14 GLOBAL Precision: 0.4481 Recall:0.7421  F1:0.5588  F2:0.6560
+eps: 0.15 GLOBAL Precision: 0.4536 Recall:0.7511  F1:0.5656  F2:0.6640
+eps: 0.16 GLOBAL Precision: 0.4432 Recall:0.7421  F1:0.5550  F2:0.6539
+eps: 0.17 GLOBAL Precision: 0.4370 Recall:0.7376  F1:0.5488  F2:0.6484
+eps: 0.18 GLOBAL Precision: 0.4331 Recall:0.7466  F1:0.5482  F2:0.6522
+eps: 0.19 GLOBAL Precision: 0.4334 Recall:0.7511  F1:0.5496  F2:0.6551
+eps: 0.2 GLOBAL Precision: 0.4315 Recall:0.7557  F1:0.5493  F2:0.6570
+eps: 0.21 GLOBAL Precision: 0.4311 Recall:0.7647  F1:0.5514  F2:0.6622
+eps: 0.22 GLOBAL Precision: 0.4289 Recall:0.7647  F1:0.5496  F2:0.6612
+eps: 0.23 GLOBAL Precision: 0.4278 Recall:0.7647  F1:0.5487  F2:0.6606
+eps: 0.24 GLOBAL Precision: 0.4246 Recall:0.7647  F1:0.5460  F2:0.6591
+eps: 0.25 GLOBAL Precision: 0.4179 Recall:0.7602  F1:0.5393  F2:0.6532
+eps: 0.26 GLOBAL Precision: 0.4279 Recall:0.7783  F1:0.5522  F2:0.6688
+eps: 0.27 GLOBAL Precision: 0.4279 Recall:0.7783  F1:0.5522  F2:0.6688
+eps: 0.28 GLOBAL Precision: 0.4233 Recall:0.7738  F1:0.5472  F2:0.6639
+eps: 0.29 GLOBAL Precision: 0.4229 Recall:0.7692  F1:0.5458  F2:0.6610

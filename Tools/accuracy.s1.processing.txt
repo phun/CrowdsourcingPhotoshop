@@ -1,0 +1,206 @@
+
+
+DBSCAN
+0 8.95 ( 4.0 ) "AE627VT8OR8A6" the ingredients
+1 8.96 ( 4.0 ) "AJ5XS1V27H091" Gather ingredients
+2 11.92 ( -1.0 ) "AE627VT8OR8A6" mushrooms celery
+3 17.5 ( -1.0 ) "A2QO6RVWGP6Z9Y"  take mushrooms
+4 20.09 ( -1.0 ) "AE627VT8OR8A6" crushed ginger
+5 22.98 ( -1.0 ) "AE627VT8OR8A6" oyster sauce
+6 24.53 ( -1.0 ) "AE627VT8OR8A6" iodized salt
+7 27.16 ( -1.0 ) "AE627VT8OR8A6" butter
+8 29.49 ( -1.0 ) "AE627VT8OR8A6" seseeme seed
+9 33.01 ( -1.0 ) "AE627VT8OR8A6" olive oil
+10 34.68 ( -1.0 ) "AE627VT8OR8A6" ground black
+11 37.38 ( -1.0 ) "AE627VT8OR8A6" brown sugar
+12 39.97 ( -1.0 ) "AE627VT8OR8A6" crushed garlic
+13 43.2 ( -1.0 ) "AE627VT8OR8A6" soy sauce
+14 46.79 ( 5.0 ) "AE627VT8OR8A6" the steps
+15 47.2 ( 5.0 ) "A2QO6RVWGP6Z9Y" preparing steps
+16 50.64 ( -1.0 ) "AE627VT8OR8A6" marinate beef with 
+17 51.79 ( -1.0 ) "AJ5XS1V27H091" Marinate beef with soy sauce ginger oyster sauce garlic black pepper salt and sugar
+18 55.48 ( 1.0 ) "A3D3ZUEHP1BLG8" marinate beef with multiple ingredients
+19 55.73 ( 1.0 ) "A2UME0TSE7N41G" Marinate beef with soy sauce oyster sauce garlic sauce black pepper
+20 79.34 ( -1.0 ) "A2QO6RVWGP6Z9Y" marinate
+21 97.97 ( -1.0 ) "A3D3ZUEHP1BLG8" Heat the wok
+22 100.88 ( -1.0 ) "A3D3ZUEHP1BLG8" Melt the butter
+23 104.11 ( -1.0 ) "A2UME0TSE7N41G" melt butter in pan
+24 105.19 ( -1.0 ) "A2QO6RVWGP6Z9Y" melt the butter
+25 112.65 ( 0.0 ) "AJ5XS1V27H091" Add marinated beef to the hot pan
+26 112.89 ( 0.0 ) "A3D3ZUEHP1BLG8" Add marinated beef
+27 112.9 ( 0.0 ) "AE627VT8OR8A6" add marinated
+28 113.82 ( -1.0 ) "A2C27YTQSQ1GXS" add marinated beef
+29 122.31 ( -1.0 ) "AJ5XS1V27H091" Cook the beef for eight minutes
+30 123.16 ( -1.0 ) "AE627VT8OR8A6" cook beef for
+31 124.47 ( -1.0 ) "A2C27YTQSQ1GXS" cook beef 8 minutes
+32 131.36 ( 2.0 ) "AE627VT8OR8A6" add seasoning &
+33 131.58 ( 2.0 ) "AJ5XS1V27H091" Add the seasoning and remove the beef from the heat
+34 131.66 ( 2.0 ) "A2C27YTQSQ1GXS" add seasoning remove heat
+35 137.37 ( -1.0 ) "AE627VT8OR8A6" put mushroom
+36 138.87 ( -1.0 ) "A2C27YTQSQ1GXS" put mushroom celery green pepper and onion
+37 141.71 ( -1.0 ) "AJ5XS1V27H091" Add the vegetables (mushroom celery green peppers and onions into the remaining marinade
+38 151.55 ( -1.0 ) "AE627VT8OR8A6" mix thourghly
+39 152.0 ( -1.0 ) "A2C27YTQSQ1GXS" mix thoroughly
+40 153.01 ( -1.0 ) "AJ5XS1V27H091" Mix thoroughly
+41 170.65 ( 3.0 ) "A348AN33V5P6LD" heat same wok with olive oil
+42 170.75 ( 3.0 ) "AE627VT8OR8A6" heat same wok
+43 174.26 ( -1.0 ) "A3O4IJTMCLCLIX" heat wok with olive oil
+44 182.84 ( -1.0 ) "A348AN33V5P6LD" stir fry marinated veggies until half
+45 183.4 ( -1.0 ) "AE627VT8OR8A6" stir fry marinated
+46 184.49 ( -1.0 ) "A3O4IJTMCLCLIX" stir fry marinated veggies
+
+
+
+GROUP 
+0 8.95 ( 4.0 ) "AE627VT8OR8A6" the ingredients
+1 8.96 ( 4.0 ) "AJ5XS1V27H091" Gather ingredients
+2 11.92 ( -1.0_T0 ) "AE627VT8OR8A6" mushrooms celery
+3 17.5 ( -1.0_T0 ) "A2QO6RVWGP6Z9Y"  take mushrooms
+4 20.09 ( -1.0_T0 ) "AE627VT8OR8A6" crushed ginger
+5 22.98 ( -1.0_T0 ) "AE627VT8OR8A6" oyster sauce
+6 24.53 ( -1.0_T0 ) "AE627VT8OR8A6" iodized salt
+7 27.16 ( -1.0_T0 ) "AE627VT8OR8A6" butter
+8 29.49 ( -1.0_T0 ) "AE627VT8OR8A6" seseeme seed
+9 33.01 ( -1.0_T0 ) "AE627VT8OR8A6" olive oil
+10 34.68 ( -1.0_T0 ) "AE627VT8OR8A6" ground black
+11 37.38 ( -1.0_T0 ) "AE627VT8OR8A6" brown sugar
+12 39.97 ( -1.0_T0 ) "AE627VT8OR8A6" crushed garlic
+13 43.2 ( -1.0_T0 ) "AE627VT8OR8A6" soy sauce
+14 46.79 ( 5.0 ) "AE627VT8OR8A6" the steps
+15 47.2 ( 5.0 ) "A2QO6RVWGP6Z9Y" preparing steps
+16 50.64 ( -1.0_T1 ) "AE627VT8OR8A6" marinate beef with 
+17 51.79 ( -1.0_T1 ) "AJ5XS1V27H091" Marinate beef with soy sauce ginger oyster sauce garlic black pepper salt and sugar
+18 55.48 ( 1.0 ) "A3D3ZUEHP1BLG8" marinate beef with multiple ingredients
+19 55.73 ( 1.0 ) "A2UME0TSE7N41G" Marinate beef with soy sauce oyster sauce garlic sauce black pepper
+20 79.34 ( -1.0_T2 ) "A2QO6RVWGP6Z9Y" marinate
+21 97.97 ( -1.0_T2 ) "A3D3ZUEHP1BLG8" Heat the wok
+22 100.88 ( -1.0_T2 ) "A3D3ZUEHP1BLG8" Melt the butter
+23 104.11 ( -1.0_T2 ) "A2UME0TSE7N41G" melt butter in pan
+24 105.19 ( -1.0_T2 ) "A2QO6RVWGP6Z9Y" melt the butter
+25 112.65 ( 0.0 ) "AJ5XS1V27H091" Add marinated beef to the hot pan
+26 112.89 ( 0.0 ) "A3D3ZUEHP1BLG8" Add marinated beef
+27 112.9 ( 0.0 ) "AE627VT8OR8A6" add marinated
+28 113.82 ( -1.0_T3 ) "A2C27YTQSQ1GXS" add marinated beef
+29 122.31 ( -1.0_T3 ) "AJ5XS1V27H091" Cook the beef for eight minutes
+30 123.16 ( -1.0_T3 ) "AE627VT8OR8A6" cook beef for
+31 124.47 ( -1.0_T3 ) "A2C27YTQSQ1GXS" cook beef 8 minutes
+32 131.36 ( 2.0 ) "AE627VT8OR8A6" add seasoning &
+33 131.58 ( 2.0 ) "AJ5XS1V27H091" Add the seasoning and remove the beef from the heat
+34 131.66 ( 2.0 ) "A2C27YTQSQ1GXS" add seasoning remove heat
+35 137.37 ( -1.0_T4 ) "AE627VT8OR8A6" put mushroom
+36 138.87 ( -1.0_T4 ) "A2C27YTQSQ1GXS" put mushroom celery green pepper and onion
+37 141.71 ( -1.0_T4 ) "AJ5XS1V27H091" Add the vegetables (mushroom celery green peppers and onions into the remaining marinade
+38 151.55 ( -1.0_T4 ) "AE627VT8OR8A6" mix thourghly
+39 152.0 ( -1.0_T4 ) "A2C27YTQSQ1GXS" mix thoroughly
+40 153.01 ( -1.0_T4 ) "AJ5XS1V27H091" Mix thoroughly
+41 170.65 ( 3.0 ) "A348AN33V5P6LD" heat same wok with olive oil
+42 170.75 ( 3.0 ) "AE627VT8OR8A6" heat same wok
+43 174.26 ( -1.0_T5 ) "A3O4IJTMCLCLIX" heat wok with olive oil
+44 182.84 ( -1.0_T5 ) "A348AN33V5P6LD" stir fry marinated veggies until half
+45 183.4 ( -1.0_T5 ) "AE627VT8OR8A6" stir fry marinated
+46 184.49 ( -1.0_T5 ) "A3O4IJTMCLCLIX" stir fry marinated veggies
+
+
+
+RECLUS
+0 8.95 ( 4.0 ) "AE627VT8OR8A6" the ingredients
+1 8.96 ( 4.0 ) "AJ5XS1V27H091" Gather ingredients
+2 11.92 ( -1.0_T0 ) "AE627VT8OR8A6" mushrooms celery
+3 17.5 ( -1.0_T0 ) "A2QO6RVWGP6Z9Y"  take mushrooms
+4 20.09 ( -1.0_T0_R0 ) "AE627VT8OR8A6" crushed ginger
+5 22.98 ( -1.0_T0_R1 ) "AE627VT8OR8A6" oyster sauce
+6 24.53 ( -1.0_T0_R2 ) "AE627VT8OR8A6" iodized salt
+7 27.16 ( -1.0_T0_R3 ) "AE627VT8OR8A6" butter
+8 29.49 ( -1.0_T0_R4 ) "AE627VT8OR8A6" seseeme seed
+9 33.01 ( -1.0_T0_R5 ) "AE627VT8OR8A6" olive oil
+10 34.68 ( -1.0_T0_R6 ) "AE627VT8OR8A6" ground black
+11 37.38 ( -1.0_T0_R7 ) "AE627VT8OR8A6" brown sugar
+12 39.97 ( -1.0_T0_R8 ) "AE627VT8OR8A6" crushed garlic
+13 43.2 ( -1.0_T0_R9 ) "AE627VT8OR8A6" soy sauce
+14 46.79 ( 5.0 ) "AE627VT8OR8A6" the steps
+15 47.2 ( 5.0 ) "A2QO6RVWGP6Z9Y" preparing steps
+16 50.64 ( -1.0_T1 ) "AE627VT8OR8A6" marinate beef with 
+17 51.79 ( -1.0_T1 ) "AJ5XS1V27H091" Marinate beef with soy sauce ginger oyster sauce garlic black pepper salt and sugar
+18 55.48 ( 1.0 ) "A3D3ZUEHP1BLG8" marinate beef with multiple ingredients
+19 55.73 ( 1.0 ) "A2UME0TSE7N41G" Marinate beef with soy sauce oyster sauce garlic sauce black pepper
+20 79.34 ( -1.0_T2 ) "A2QO6RVWGP6Z9Y" marinate
+21 97.97 ( -1.0_T2 ) "A3D3ZUEHP1BLG8" Heat the wok
+22 100.88 ( -1.0_T2_R0 ) "A3D3ZUEHP1BLG8" Melt the butter
+23 104.11 ( -1.0_T2_R0 ) "A2UME0TSE7N41G" melt butter in pan
+24 105.19 ( -1.0_T2_R0 ) "A2QO6RVWGP6Z9Y" melt the butter
+25 112.65 ( 0.0 ) "AJ5XS1V27H091" Add marinated beef to the hot pan
+26 112.89 ( 0.0 ) "A3D3ZUEHP1BLG8" Add marinated beef
+27 112.9 ( 0.0 ) "AE627VT8OR8A6" add marinated
+28 113.82 ( -1.0_T3 ) "A2C27YTQSQ1GXS" add marinated beef
+29 122.31 ( -1.0_T3 ) "AJ5XS1V27H091" Cook the beef for eight minutes
+30 123.16 ( -1.0_T3 ) "AE627VT8OR8A6" cook beef for
+31 124.47 ( -1.0_T3_R0 ) "A2C27YTQSQ1GXS" cook beef 8 minutes
+32 131.36 ( 2.0 ) "AE627VT8OR8A6" add seasoning &
+33 131.58 ( 2.0 ) "AJ5XS1V27H091" Add the seasoning and remove the beef from the heat
+34 131.66 ( 2.0 ) "A2C27YTQSQ1GXS" add seasoning remove heat
+35 137.37 ( -1.0_T4 ) "AE627VT8OR8A6" put mushroom
+36 138.87 ( -1.0_T4 ) "A2C27YTQSQ1GXS" put mushroom celery green pepper and onion
+37 141.71 ( -1.0_T4 ) "AJ5XS1V27H091" Add the vegetables (mushroom celery green peppers and onions into the remaining marinade
+38 151.55 ( -1.0_T4_R0 ) "AE627VT8OR8A6" mix thourghly
+39 152.0 ( -1.0_T4_R0 ) "A2C27YTQSQ1GXS" mix thoroughly
+40 153.01 ( -1.0_T4_R0 ) "AJ5XS1V27H091" Mix thoroughly
+41 170.65 ( 3.0 ) "A348AN33V5P6LD" heat same wok with olive oil
+42 170.75 ( 3.0 ) "AE627VT8OR8A6" heat same wok
+43 174.26 ( -1.0_T5 ) "A3O4IJTMCLCLIX" heat wok with olive oil
+44 182.84 ( -1.0_T5 ) "A348AN33V5P6LD" stir fry marinated veggies until half
+45 183.4 ( -1.0_T5 ) "AE627VT8OR8A6" stir fry marinated
+46 184.49 ( -1.0_T5_R0 ) "A3O4IJTMCLCLIX" stir fry marinated veggies
+
+
+
+MERGE 
+0 8.95 ( 1.0 ) "AE627VT8OR8A6" the ingredients
+1 8.96 ( 1.0 ) "AJ5XS1V27H091" Gather ingredients
+2 11.92 ( -1.0_T0 ) "AE627VT8OR8A6" mushrooms celery
+3 17.5 ( -1.0_T0 ) "A2QO6RVWGP6Z9Y"  take mushrooms
+4 20.09 ( -1.0_T0_R0 ) "AE627VT8OR8A6" crushed ginger
+5 22.98 ( -1.0_T0_R1 ) "AE627VT8OR8A6" oyster sauce
+6 24.53 ( -1.0_T0_R2 ) "AE627VT8OR8A6" iodized salt
+7 27.16 ( -1.0_T0_R3 ) "AE627VT8OR8A6" butter
+8 29.49 ( -1.0_T0_R4 ) "AE627VT8OR8A6" seseeme seed
+9 33.01 ( -1.0_T0_R5 ) "AE627VT8OR8A6" olive oil
+10 34.68 ( -1.0_T0_R6 ) "AE627VT8OR8A6" ground black
+11 37.38 ( -1.0_T0_R7 ) "AE627VT8OR8A6" brown sugar
+12 39.97 ( -1.0_T0_R8 ) "AE627VT8OR8A6" crushed garlic
+13 43.2 ( -1.0_T0_R9 ) "AE627VT8OR8A6" soy sauce
+14 46.79 ( 2.0 ) "AE627VT8OR8A6" the steps
+15 47.2 ( 2.0 ) "A2QO6RVWGP6Z9Y" preparing steps
+16 50.64 ( -1.0_T1 ) "AE627VT8OR8A6" marinate beef with 
+17 51.79 ( -1.0_T1 ) "AJ5XS1V27H091" Marinate beef with soy sauce ginger oyster sauce garlic black pepper salt and sugar
+18 55.48 ( 5.0 ) "A3D3ZUEHP1BLG8" marinate beef with multiple ingredients
+19 55.73 ( 5.0 ) "A2UME0TSE7N41G" Marinate beef with soy sauce oyster sauce garlic sauce black pepper
+20 79.34 ( -1.0_T2 ) "A2QO6RVWGP6Z9Y" marinate
+21 97.97 ( -1.0_T2 ) "A3D3ZUEHP1BLG8" Heat the wok
+22 100.88 ( -1.0_T2_R0 ) "A3D3ZUEHP1BLG8" Melt the butter
+23 104.11 ( -1.0_T2_R0 ) "A2UME0TSE7N41G" melt butter in pan
+24 105.19 ( -1.0_T2_R0 ) "A2QO6RVWGP6Z9Y" melt the butter
+25 112.65 ( 4.0 ) "AJ5XS1V27H091" Add marinated beef to the hot pan
+26 112.89 ( 4.0 ) "A3D3ZUEHP1BLG8" Add marinated beef
+27 112.9 ( 4.0 ) "AE627VT8OR8A6" add marinated
+28 113.82 ( 4.0 ) "A2C27YTQSQ1GXS" add marinated beef
+29 122.31 ( -1.0_T3 ) "AJ5XS1V27H091" Cook the beef for eight minutes
+30 123.16 ( -1.0_T3 ) "AE627VT8OR8A6" cook beef for
+31 124.47 ( -1.0_T3 ) "A2C27YTQSQ1GXS" cook beef 8 minutes
+32 131.36 ( 0.0 ) "AE627VT8OR8A6" add seasoning &
+33 131.58 ( 0.0 ) "AJ5XS1V27H091" Add the seasoning and remove the beef from the heat
+34 131.66 ( 0.0 ) "A2C27YTQSQ1GXS" add seasoning remove heat
+35 137.37 ( -1.0_T4 ) "AE627VT8OR8A6" put mushroom
+36 138.87 ( -1.0_T4 ) "A2C27YTQSQ1GXS" put mushroom celery green pepper and onion
+37 141.71 ( -1.0_T4 ) "AJ5XS1V27H091" Add the vegetables (mushroom celery green peppers and onions into the remaining marinade
+38 151.55 ( -1.0_T4_R0 ) "AE627VT8OR8A6" mix thourghly
+39 152.0 ( -1.0_T4_R0 ) "A2C27YTQSQ1GXS" mix thoroughly
+40 153.01 ( -1.0_T4_R0 ) "AJ5XS1V27H091" Mix thoroughly
+41 170.65 ( 3.0 ) "A348AN33V5P6LD" heat same wok with olive oil
+42 170.75 ( 3.0 ) "AE627VT8OR8A6" heat same wok
+43 174.26 ( 3.0 ) "A3O4IJTMCLCLIX" heat wok with olive oil
+44 182.84 ( -1.0_T5 ) "A348AN33V5P6LD" stir fry marinated veggies until half
+45 183.4 ( -1.0_T5 ) "AE627VT8OR8A6" stir fry marinated
+46 184.49 ( -1.0_T5 ) "A3O4IJTMCLCLIX" stir fry marinated veggies
+
+
+

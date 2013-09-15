@@ -1,0 +1,2048 @@
+None
+[m ] 30.5533333333 37 Slice the Fresh Mozzerella
+Turk: 29.66 Crook the dough after you roll it out
+Turk: 30.02 Prick the dough with a fork after you roll it out
+Turk: 31.98 Prick dough after rolling
+[fp] 39.785
+Turk: 39.7 Slice fresh mozzarella
+Turk: 39.87 slice the fresh mozzerella
+[fp] 53.97
+Turk: 53.8 Be careful when slicing mozzerella
+Turk: 54.14 Slice the mozzarella
+[m ] 56.805 64 Cut the Tomato In Thin Slices
+Turk: 56.6 or you wont get these nice
+Turk: 57.01 Be careful when slicing
+[fp] 64.5066666667
+Turk: 62.89 Thinly slice tomatoes
+Turk: 63.73 next you want to cut
+Turk: 66.9 Cut tomatoes in thin slices
+[m ] 79.725 80 Add Sauce to the Pizza
+Turk: 79.63 Add the sauce
+Turk: 79.82 alright so now we
+[fp] 94.585
+Turk: 94.55 Spread sauce around top of crust
+Turk: 94.62 Spread sauce around
+[fp] 115.08
+Turk: 106.81 once that
+Turk: 110.49 Add other ingredients after spreading sauce
+Turk: 113.22 ingrediants 
+Turk: 129.8 Evenly lay tomatoes onto the crust and sauce
+[fp] 156.583333333
+Turk: 133.84 put tomato pieces
+Turk: 167.02 overlap tomatoes
+Turk: 168.89 Overlap tomatoes
+[m ] 179.89 178 Add Mozzerella
+Turk: 177.84 Add mozzarella cheese
+Turk: 178.44 Add Mozzarella
+Turk: 183.39 Add mozzarella to create an even circle 
+[fp] 186.613333333
+Turk: 184.61 in a nice circle evenly around it
+Turk: 185.68 Add the cheese in a circle 
+Turk: 189.55 very very nice
+[m ] 205.0 203 Add Basil on Top
+Turk: 204.86 Add basil on top of cheese
+Turk: 205.14 Add basil leaves on top
+[fp] 221.536666667
+Turk: 221.3 Add basil
+Turk: 221.6 add Basil
+Turk: 221.71 you can add more basil
+[m ] 237.29 236 Put Pizza In the Oven
+Turk: 236.78 pizza in oven
+Turk: 237.8 take pizza out of the oven
+[fp] 254.515
+Turk: 254.47 can add basil at the end
+Turk: 254.56 add Basil at the end
+[fn] 128 Add Sliced Tomatoes to Pizza
+[s1_c01_v01]  Precision: 0.4000  Recall:0.8571  F1:0.5454  F2:0.6977 turk: 15 true: 7 match: 6 fp: 9 fn: 1
+[fp] 33.065
+Turk: 32.51 let
+Turk: 33.62 Gather ingredients
+[fp] 43.19
+Turk: 42.03 about 3 1/2 cups
+Turk: 44.35 Pizza dough made with 10 cups of flour
+[fp] 45.51
+Turk: 45.38 31/2 cups tomato puree
+Turk: 45.64 1 1/4 lbs of
+[fp] 50.005
+Turk: 49.05 some basil
+Turk: 50.96 some basil leaves
+[fp] 51.86
+Turk: 51.5 and some extra virgin
+Turk: 52.22 3 1/2 cups of tomato puree
+[m ] 59.836 68 Season the Puree
+Turk: 53.56 salt and a pan that
+Turk: 55.94 1 1/2 lbs Mozarella cheese
+Turk: 59.75 how to make pizza margaretha
+Turk: 64.33 Cut the mozzarella into cubes
+Turk: 65.6 First cut mozzarella to cubes.
+[m ] 71.04 79 Add a Bit of Olive Oil to Puree
+Turk: 69.65 Season puree.
+Turk: 72.43 If the puree is watery let it stand in a cloth-lined colander over a bowl
+[m ] 80.64 88 Stir Together
+Turk: 80.38 Add olive oil
+Turk: 80.9 Add some olive oil to the puree
+[m ] 85.6566666667 93 Spread a bit of oil over the pan
+Turk: 84.52 Add a pinch of salt
+Turk: 85.34 Add good pinch of salt
+Turk: 87.11 Stir the ingredients together
+[m ] 90.835 98 Take a quarter of pizza dough
+Turk: 89.56 stir together
+Turk: 92.11 Cover the pan in oil
+[m ] 98.1566666667 104 Form a ball
+Turk: 95.85 Spread oil on pan so entirely covered
+Turk: 97.5 Take a quarter of your pizza dough and form a ball
+Turk: 101.12 put quarter of the dough into the plate
+[m ] 106.335 110 Spread dough evenly onto pan
+Turk: 106.13 Flatten into a disk on your pan with your hands
+Turk: 106.54 Take 1/4 of pizza dough and flatten
+[fp] 110.753333333
+Turk: 109.73 spread dough evenly
+Turk: 110.43 and begin to spread
+Turk: 112.1 Begin to spread it out evenly at the bottom of the pan.
+[m ] 121.246666667 121 Add puree sauce
+Turk: 119.34 now that the dough is well
+Turk: 120.62 Now that the dough is well spread out it is time for the sauce.
+Turk: 123.78 add a couple of sauce
+[m ] 133.355 138 Add mozzerella
+Turk: 128.16 Add a couple of spoonfuls or more depending on your taste.
+Turk: 138.55 and after you can
+[m ] 147.305 157 Optionally, add a turn of olive oil to top
+Turk: 139.21 And after you can add the mozzarella.
+Turk: 155.4 if you
+[m ] 162.2425 167 Bake Pizza 15-20 minutes at 400 F
+Turk: 157.71 If you
+Turk: 162.6 Bake for 15 to 20 minutes in a 480 degree Farenheit oven
+Turk: 163.91 and our pizza is ready to be baked
+Turk: 164.75 Bake for 15 to 20 minutes in a 480 degree Farenheit oven
+[m ] 173.435 181 Lay Few Basil Leaves in the center of Pizza
+Turk: 166.22 And our pizza is ready to be baked for 15 - 20 minutes at 480 degrees
+Turk: 167.96 ready to be baked for about 15-20 minutes at 480F
+Turk: 179.39 Add a few fresh basil leaves to the pizza
+Turk: 180.17 Lay a few Basil leaves in the center of the pizza
+[fp] 184.28
+Turk: 182.51 Lay a few Basil leaves in center of pie
+Turk: 186.05 You could also add anchovies to the top to make a pizza neapolitana
+[fn] 64 Cut Mozzarella Into Cubes
+[fn] 83 Add a pinch of salt
+[s1_c01_v02]  Precision: 0.6316  Recall:0.8571  F1:0.7273  F2:0.8000 turk: 19 true: 14 match: 12 fp: 7 fn: 2
+[m ] 43.4033333333 43 Get out Pizza Dough
+Turk: 42.53 margherita pizza making
+Turk: 43.33 Get the pizza dough out
+Turk: 44.35 margherita pizza
+[m ] 49.655 51 Put Dough in Flour
+Turk: 47.52 Dip the pizza dough in flour
+Turk: 51.79 pizza dough
+[fp] 67.3933333333
+Turk: 54.87 Flatten the dough out with your hands
+Turk: 63.57 Add more flour to the dough as necessary
+Turk: 83.74 get a board and put
+[m ] 86.025 87 And Add a little corn meal
+Turk: 85.79 Get a board(pizza peel) and add a little flour and cornmeal
+Turk: 86.26 get a board and put flour on it
+[m ] 88.155 82 Get a board and put flour on it
+Turk: 87.95 and a little
+Turk: 88.36 add corn meal
+[fp] 108.74
+Turk: 107.22 place dough on board
+Turk: 107.54 Put the flattened dough on the board (pizza peel)
+Turk: 111.46 round the mashed flour
+[m ] 127.25 132 Add Fresh Plum Tomatoes
+Turk: 126.09 MAKE CHAPATHI
+Turk: 128.41 now were gonna use fresh
+[fp] 137.013333333
+Turk: 131.73 ADD PLUM AND TOMATO SAUCE
+Turk: 135.34 fresh plum tomato sause
+Turk: 143.97 how important is it to put
+[m ] 156.26 155 Add bit of salt and pepper
+Turk: 153.47 put the right amount on
+Turk: 156.73 we
+Turk: 158.58 ADD SALT AND PEPPER
+[m ] 179.1225 184 Add fresh mozzerella
+Turk: 160.57 add salt and pepper
+Turk: 180.75 Put sliced mozzarella on the pizza
+Turk: 186.29 Add Sliced Mozarella
+Turk: 188.88 put mozarella
+[m ] 209.216666667 208 Add fresh basil
+Turk: 207.58 Add fresh basil to the pizza
+Turk: 209.22 Add Fresh Basil
+Turk: 210.85 add fresh basil
+[m ] 219.195 226 Add a little olive oil
+Turk: 218.96 add basil
+Turk: 219.43 chicken barsala is ready
+[fp] 225.433333333
+Turk: 225.08 most delicious
+Turk: 225.49 add a little olive oil
+Turk: 225.73 add olive oil
+[fp] 265.954
+Turk: 239.8 Put in oven for 7-8 minutes
+Turk: 240.96 cook for 7 to 8 mins
+Turk: 280.78 When it is done remove it from the oven
+Turk: 281.81 Remove pizza from oven when done
+Turk: 286.42 when your eyes seem
+[fn] 285 Take Pizza out of oven
+[s1_c01_v03]  Precision: 0.6429  Recall:0.9000  F1:0.7500  F2:0.8333 turk: 14 true: 10 match: 9 fp: 5 fn: 1
+[fp] 6.035
+Turk: 0.16 making pizza
+Turk: 11.91 making of neapolitan pizza
+[m ] 34.745 38 Add sauce
+Turk: 34.63 Spread dough by hand.  No rolling pin may be used.
+Turk: 34.86 no rolling pin may be used
+[m ] 40.0 48 Add cheese
+Turk: 39.88 No rolling pin 
+Turk: 40.12 pizza
+[fp] 46.215
+Turk: 42.71 Add sauce
+Turk: 49.72 ADD BUTTER 
+[m ] 54.8066666667 62 Add basil leaves
+Turk: 50.54 Add the cheese
+Turk: 55.29 add flour
+Turk: 58.59 make neopolitan pizza
+[m ] 75.474 68 add olive oil
+Turk: 68.85 add oil
+Turk: 70.62 put oil on the dove
+Turk: 73.15 add basil leaves and oil
+Turk: 81.78 pizza
+Turk: 82.97 Pizza is ready to be baked.
+[fp] 95.8533333333
+Turk: 94.22 transfer into hot stone oven
+Turk: 96.0 place it in brick oven
+Turk: 97.34 Keep it in the oven.
+[fp] 105.4625
+Turk: 100.95 check pizza crust
+Turk: 104.38 spin it and place it back in
+Turk: 108.07 Check whether cooked by taking it out and rotating.
+Turk: 108.45 fire 485 c 60 second
+[fp] 109.183333333
+Turk: 108.81 485 Celsius for 60 seconds
+Turk: 109.12 neapolitan pizza fire 485 
+Turk: 109.62 authentic neapolitan
+[fp] 120.77
+Turk: 120.57 Take it out and rotate it.
+Turk: 120.97 check pizza crust
+[fp] 135.126666667
+Turk: 133.29 place pizza in hot stone oven
+Turk: 134.16 rule and baked the pizza
+Turk: 137.93 Repeat the procedure 2-3 times.
+[m ] 153.535 153 Pull Pizza out of oven
+Turk: 150.7 place pizza on plate
+Turk: 151.49 Serve it in the plate.
+Turk: 153.52 again role the pizza and put the plate 
+Turk: 158.43 pizza
+[fn] 19 Flatten Dough
+[s1_c01_v04]  Precision: 0.4167  Recall:0.8333  F1:0.5556  F2:0.6944 turk: 12 true: 6 match: 5 fp: 7 fn: 1
+[fp] 7.06
+Turk: 0.26 ingredients to the pizza
+Turk: 13.86 ADD CANNED TOMATO
+[fp] 34.4275
+Turk: 26.21 ADD BASIL LEAVES
+Turk: 32.77 Gather ingredients
+Turk: 39.13 2 lb of all-purpose flour
+Turk: 39.6 To prepare 6 pizzas gather two pounds of flour one ounce of fresh yeast two cups water and one teaspoon of salt
+[fp] 46.85
+Turk: 45.73 1 lb of Mozzarella Cheese
+Turk: 47.97 For the toppings we need six tablespoons EVOO one pound mozzarella tomato puree some basil leaves (fresh) salt
+[m ] 53.855 61 start making dough with flour, yeast and salt
+Turk: 52.92 Pinch of salt
+Turk: 54.79 To make the dough dump flour on the pizza bench
+[fp] 56.95
+Turk: 56.93 Start with flour
+Turk: 56.97 so when need the flour
+[fp] 57.3566666667
+Turk: 57.19 Pour the flour on the work table
+Turk: 57.24 we need to kneed our pizza dough so we need our flour
+Turk: 57.64 Knead the Pizza Dough
+[m ] 62.8725 68 Add Water
+Turk: 61.59 we have the yeast salt and water
+Turk: 61.88 we need to add flour and a little yeast to it 
+Turk: 63.62 place on our bench we have yeast salt and water
+Turk: 64.4 We need the flour yeast and salt.
+[fp] 65.21
+Turk: 65.13 it is important not to mix
+Turk: 65.29 Its important not to mix directly with salt and yeast.
+[fp] 65.995
+Turk: 65.97 it
+Turk: 66.02 Add yeast salt and water.  Do not mix yeast and salt directly
+[fp] 69.555
+Turk: 68.39 we add the water
+Turk: 70.72 we have water
+[m ] 74.525 80 Mix Dough for 15-20 minutes
+Turk: 74.42 Add water.
+Turk: 74.63 now add the water till it mixes up with the flour
+[fp] 76.7
+Turk: 75.91 start to kneed
+Turk: 76.28 Begin kneading 
+Turk: 77.91 wand we start to kneed
+[fp] 80.45
+Turk: 80.03 Knead dough for 15 - 20 minutes
+Turk: 80.1 need dough for at least 15-20 minutes
+Turk: 81.22 Start to knead for about 15-20 minutes.
+[fp] 86.85
+Turk: 85.02 kneed until smooth texture very nice dough
+Turk: 85.69 knead it to dough
+Turk: 89.84 making rotti flour
+[fp] 92.75
+Turk: 90.65 you can kneed using a kitchenaid
+Turk: 94.85 when you finish with the dough
+[m ] 98.735 105 Put dough into a ball
+Turk: 98.49 finish kneeding if it
+Turk: 98.98 Its not sticky any more with a nice texture.
+[m ] 107.005 111 Cover dough and let it dry for a couple hours
+Turk: 106.97 When dough has nice texture roll in to ball
+Turk: 107.04 you place in a batch and make a nice
+[fp] 108.25
+Turk: 108.11 place on the bench make a ball
+Turk: 108.3 making rotti
+Turk: 108.34 cover the dough with the glass bowl
+[fp] 108.785
+Turk: 108.75 Make a nice ball.
+Turk: 108.82 we start flouring one dough and we make a flat piece out of the dough
+[fp] 109.945
+Turk: 109.05 you cover the dough
+Turk: 110.84 Cover dough to avoid crusting
+[fp] 111.18
+Turk: 111.08 Cover the dough
+Turk: 111.28 Cover dough to avoid crusting
+[fp] 112.076666667
+Turk: 111.99 Cover the dough and let it rise for 3 to 4 hours at room temperature
+Turk: 112.03 Cover the dough.
+Turk: 112.21 cover dough to avoid crusting and let rise
+[fp] 114.855
+Turk: 114.43 Let it rise at room temp for 3-4 hours
+Turk: 114.61 Let rise for 3-4 hours
+Turk: 114.62 we cover the dough and let it rise for 3 to 4 hours
+Turk: 115.76 You can also put the dough in a warm place and let it rise for one hour
+[fp] 118.29
+Turk: 118.2 Or place in warm place 1 hour
+Turk: 118.31 or you can place in a warm place for one hour
+Turk: 118.36 Keep it covered for 3-4 hrs or place it in a warm place for 1 hr.
+[fp] 125.128
+Turk: 124.77 Cut dough in to six sections
+Turk: 124.84 Almost 2x volume make 6 small balls
+Turk: 125.02 MAKE 6 SMALL BALLS
+Turk: 125.27 Make 6 small balls.
+Turk: 125.74 once our dough is almost double its volume we make six balls
+[fp] 129.31
+Turk: 128.78 Make sure the balls are in a nice round shape
+Turk: 129.84 Each ball about 9 oz
+[fp] 131.956666667
+Turk: 131.84 the ball should be nine ounce weight so we make nice round shape
+Turk: 131.97 Make a nice round shape
+Turk: 132.06 Roll up dough in to smooth ball
+[fp] 135.23
+Turk: 134.91 Cover again to avoid the dough crusting.
+Turk: 135.11 Cover dough with film
+Turk: 135.67 Cover with film
+[fp] 139.91
+Turk: 139.65 Leave at room temperature for couple hours
+Turk: 139.89 we cover again with thin layer and leave for couple of hours in room temperature
+Turk: 140.19 Leave at room temperature for  couple of hours.
+[fp] 143.396666667
+Turk: 143.33 or you can place in a warm place for 45 minutes
+Turk: 143.42 or place it in a warm place for 45 min.
+Turk: 143.44 Or warm place for 45 minutes
+[fp] 148.27
+Turk: 147.96 add salt and olive oil to the tomato
+Turk: 148.11 Season the tomato.
+Turk: 148.74 Season tomato
+[m ] 149.51 159 Flour up the dough
+Turk: 149.51 Add pinch of salt
+Turk: 149.51 Season tomato with pinch of salt
+[fp] 151.3
+Turk: 151.26 Olive oil
+Turk: 151.34 TOMATO PINCH OF SALT WITH OLIVE OIL
+[m ] 158.4 162 Make dough flat with hands
+Turk: 157.06 we start giving shape to our pizza
+Turk: 157.3 Flour one of the dough balls
+Turk: 159.43 Flour one piece of dough
+Turk: 159.81 Flour 1 piece of dough
+[fp] 163.025
+Turk: 163.01 Flatten with hands
+Turk: 163.04 Flatten the dough with your hands
+[fp] 168.45
+Turk: 168.3 regular round shape
+Turk: 168.6 Try to make a regular round shape.
+[fp] 171.016666667
+Turk: 170.69 Make a 14"" circle with pizza dough
+Turk: 170.87 roll pie with hands retain regular round shape of around 14 inches
+Turk: 171.49 Around 14 inches.
+[m ] 177.585 186 Add basil leaves
+Turk: 175.93 add tomato
+Turk: 176.28 Spread tomato sauce over dough
+Turk: 178.41 Spread tomato sauce over pizza dough
+Turk: 179.72 Spread the tomato all over the pizza dough.
+[m ] 182.33 182 Add mozzerella cheese
+Turk: 182.29 Add Mozerella cheese
+Turk: 182.37 add cheese
+[fp] 184.79
+Turk: 183.63 Add shredded mozzarella cheese
+Turk: 185.95 Spread the mozerella cheese.
+[fp] 188.73
+Turk: 187.28 Add basil on top of cheese
+Turk: 188.14 Add little basil
+Turk: 190.77 add basil
+[fp] 195.575
+Turk: 193.37 ready to be baked
+Turk: 197.78 Pizza is ready to be baked.
+[fp] 208.9
+Turk: 208.82 Bake pizza at 750 degrees F for 90 seconds
+Turk: 208.98 Bake pizza at 750F for 90 seconds
+[m ] 225.123333333 224 Add fresh basil and olive oil
+Turk: 224.13 finish our pizza with basil and fresh
+Turk: 225.14 Add fresh basil and olive oil to finished pizza
+Turk: 226.1 Add fresh basil and olive oil
+[s1_c01_v05]  Precision: 0.2273  Recall:1.0000  F1:0.3704  F2:0.5953 turk: 44 true: 10 match: 10 fp: 34 fn: 0
+[fp] 18.13
+Turk: 4.99 macroniun cheese
+Turk: 24.24 melt butter
+Turk: 25.16 Melt butter in saucepan on medium heat
+[m ] 30.2266666667 40 cook on medium heat for 3-4 minutes
+Turk: 25.84 and medium heat
+Turk: 30.07 add flour and whisk together
+Turk: 34.77 When butter ""sings"" add flour
+[m ] 41.0433333333 48 add some thyme, chyan, and white pepper
+Turk: 40.94 about 3 to 4 minutes
+Turk: 41.08 Cook on medium for 3-4 minutes
+Turk: 41.11 cook on medium for 3 to 4 minutes
+[fp] 46.395
+Turk: 46.33 Add cayenne
+Turk: 46.46 add thyme cayenne and white pepper
+[m ] 65.695 74 add two more cups of milk
+Turk: 65.52 Cook for one more minute
+Turk: 65.87 pour in one cup of milk
+[fp] 66.76
+Turk: 66.69 ADD CUP OF MILK
+Turk: 66.83 Pour in 1 C milk
+[fp] 68.085
+Turk: 68.04 Whisk milk in quickly
+Turk: 68.13 whisk milk in quickly
+[m ] 74.78 79 bring to a simmer on medium heat
+Turk: 73.27 Add two more cups of milk
+Turk: 74.84 Add 2 C milk
+Turk: 76.23 ADD BASIC WHITE SAUCE
+[m ] 78.035 86 grade some nutmeg
+Turk: 77.04 Turn to medium heat and bring to a simmer
+Turk: 79.03 Bring to simmer on medium heat
+[fp] 83.0666666667
+Turk: 79.7 while coming up to a simmer grate in nutmeg
+Turk: 82.94 Grate in fresh nutmeg
+Turk: 86.56 ADD FRESH NUT
+[m ] 94.08 96 add a couple drips of worchestshire sauce
+Turk: 92.48 add a couple drips of worchestershire sauce
+Turk: 95.68 Add a couple of drips of worcestershire sauce
+[m ] 99.175 102 put in a teaspoon of salt
+Turk: 98.97 add a teaspoon of salt
+Turk: 99.38 ADD SOYA SAUCE
+[m ] 103.346666667 110 stir often
+Turk: 101.12 1 TSP OF SALT
+Turk: 102.28 Add 1 tsp salt
+Turk: 106.64 let simmer on medium low for eight minutes
+[fp] 108.835
+Turk: 108.64 Reduce heat to med-low.
+Turk: 109.03 reduce heat
+[fp] 110.79
+Turk: 110.75 Stir often
+Turk: 110.76 grate your cheese
+Turk: 110.86 Stir often
+[fp] 111.425
+Turk: 111.34 Grate cheese
+Turk: 111.51 Grate three cups of cheese
+[fp] 121.96
+Turk: 121.43 Turn off heat.
+Turk: 122.02 Turn off the heat
+Turk: 122.43 turn off the heat
+[fp] 125.765
+Turk: 125.01 Add your cheese saving three-quarters of a cup
+Turk: 126.52 add cheese
+[fp] 137.775
+Turk: 133.82 mix well
+Turk: 141.73 Stir the cheese in until melted
+[m ] 162.753333333 158 boil macaroni in salted water
+Turk: 162.54 rich and gooey 8 ounces 
+Turk: 162.63 Cook the pasta
+Turk: 163.09 POur a whole box of elbow macaroni into boiling water
+[fp] 174.676666667
+Turk: 174.6 Drain the pasta once cooked
+Turk: 174.67 You can use less elbow macaroni if you want the dish to be cheesier
+Turk: 174.76 Add 16 oz Macaroni to boiling water
+[m ] 184.346666667 185 dump macaroni in dish and pour sauce
+Turk: 183.13 Put the pasta in a casserole dish and add the cheese sauce
+Turk: 183.66 Dump well drained pasta into a casserole dish and pour your cheese sauce on top
+Turk: 186.25 Drain pasta
+[m ] 193.286666667 189 pour the rest of the cheese
+Turk: 193.09 Pour in cheese sauce
+Turk: 193.34 Mix well to distribute the cheese sauce into the elbow macaroni
+Turk: 193.43 Mix to distribute the cheese sauce evenly throughout the pasta
+[fp] 194.895
+Turk: 194.09 added macron
+Turk: 195.7 Sprinkle the rest of the cheese over the top
+[fp] 196.89
+Turk: 196.87 Sprinkle on the rest of the cheese
+Turk: 196.91 Stir and add more cheese
+[m ] 212.246666667 207 add half a cup of japanese pancro breadcrumbs
+Turk: 207.99 Then mix half a cup of Japanese panko bread crumbs with a tablespoon of butter
+Turk: 210.53 Add a tablespoon of butter to a half cup of Japanese panko breadcrumbs
+Turk: 218.22 mix it up
+[m ] 219.205 217 add table spoon of butter and mix
+Turk: 219.15 Sprinkle the butter and breadcrumb mixture over the macaroni
+Turk: 219.26 Sprinkle breadcrumb and butter mixture on top of the macaroni and cheese
+[m ] 220.24 220 put crumbs on top
+Turk: 220.08 added cheese 
+Turk: 220.23 Mix 1 tablespoon butter with 1/2 Cup Panko Bread Crumbs
+Turk: 220.41 put it on top
+[fp] 225.68
+Turk: 225.17 get the best crust ever
+Turk: 226.19 Put into a 400 degree Farenheit oven
+[fp] 228.785
+Turk: 226.98 put in oven at 400 degerees
+Turk: 230.59 bake at 400 degree F
+[fp] 233.135
+Turk: 232.98 about 20 minutes
+Turk: 233.29 bake for 20 minutes
+[fp] 244.295
+Turk: 242.78 Remove from oven after cooking for 20 minutes
+Turk: 245.81 watch it. when brown take it out
+[fp] 250.605
+Turk: 250.11 Let the macaroni and cheese cool
+Turk: 251.1 let cool just a little
+[fp] 288.59
+Turk: 271.96 8oz version will have lots of cheese sauce
+Turk: 288.7 Fought for our right to put as much maccoroni as we damn well please
+Turk: 296.22 Go to website for ingredient list
+Turk: 297.48 Go to the site and get the ingredients
+[fn] 30 add some flour
+[fn] 148 Teaspon of mustard
+[s1_c02_v01]  Precision: 0.4118  Recall:0.8750  F1:0.5600  F2:0.7143 turk: 34 true: 16 match: 14 fp: 20 fn: 2
+[fp] 45.04
+Turk: 30.27 Gather ingredients
+Turk: 41.98 7 Cheeses that will be used: muenster mild cheddar sharp cheddar monterey jack mozzarella provolone and velveeta
+Turk: 62.87 WASHING HANDS
+[m ] 77.755 78 take off the ring
+Turk: 77.61 Start by removing any rings from your fingers
+Turk: 77.9 Take off the bling bling!
+[m ] 91.33 92 get the gloves on
+Turk: 89.99 Put on latex gloves (optional)
+Turk: 92.67 Put on gloves if using hands
+[m ] 117.42 117 add 1 pound of cooked elbow macaroni
+Turk: 117.34 Add macaroni to a baking dish
+Turk: 117.5 boil
+[m ] 128.4 128 put 1/2 cup of shredded Muenster cheese
+Turk: 128.39 Add the cheeses to the macaroni
+Turk: 128.41 put chese in
+[m ] 157.595 156 mix it all together
+Turk: 157.31 Mix it
+Turk: 157.88 Mix it with your hands
+[m ] 164.46 160 add 1 cup Velveeta, cut into cubes
+Turk: 160.02 Put in velveeta last
+Turk: 165.96 Put the Velveeta over the top of the mixture
+Turk: 167.4 when it bubbles the velveeta is pretty
+[m ] 172.416666667 179 add 1/2 pound of steamed chopped lobster
+Turk: 171.85 Add velveeta to the top and distribute evenly
+Turk: 172.07 you can use as much
+Turk: 173.33 Use as much cheese as you want
+[m ] 180.045 184 add 1/2 lb sauteed chopped shrimp
+Turk: 180.04 but I don
+Turk: 180.05 Add the lobster
+[fp] 185.65
+Turk: 184.78 and this is the shrimp
+Turk: 185.06 Add sauteed not raw shrimp
+Turk: 187.11 sautee shrip before adding it in
+[m ] 196.76 196 steam the lobster
+Turk: 196.69 steam your lobster 
+Turk: 196.83 steam lobster and dice
+[m ] 199.703333333 206 add 2 large eggs, lightly beaten
+Turk: 198.56 this is the butter
+Turk: 199.31 Drizzle one tablespoon of melted butter on the top
+Turk: 201.24 add in 1tsp butter
+[m ] 206.366666667 214 add 1/4 teaspoon of seasoned salt
+Turk: 205.84 this is the egg
+Turk: 206.32 Pour two eggs slightly beaten over the top making sure it
+Turk: 206.94 add in 2 large eggs beaten
+[m ] 216.376666667 223 2 cups of half and half
+Turk: 215.13 this is the season salt
+Turk: 216.35 add 1.4 tsp season salt
+Turk: 217.65 Going to mix it up
+[fp] 219.42
+Turk: 219.35 Mix it up
+Turk: 219.49 and it
+[fp] 222.865
+Turk: 222.75 Pour 2 cups half and half over the macaroni
+Turk: 222.98 This is half & half
+[m ] 244.955 241 more mixing
+Turk: 242.32 Mix everything together with your hands
+Turk: 247.59 Add paprika to top
+[m ] 248.225 247 add 1 tsp paprika
+Turk: 248.21 Add paprika on top
+Turk: 248.24 Sprinkle one tablespoon of paprika over the top
+[m ] 262.92 272 add cayenne pepper
+Turk: 253.88 Cheese will pull like pizza
+Turk: 262.78 Pour paprika on top
+Turk: 272.1 Add cayenne pepper if you would like
+[fp] 275.335
+Turk: 273.63 You can put cayenne pepper on top
+Turk: 274.28 Put cayenne pepper on top if you want
+Turk: 275.39 If you want to put cayenne pepper on top you can.
+Turk: 278.04 For hot and spicy add cayenne pepper on top
+[m ] 292.37 302 check if it's brown
+Turk: 283.98 Clean edges for appealing service
+Turk: 295.68 at 325
+Turk: 297.45 Bake in an oven at 325 Farenheit for 45 minutes or until golden brown
+[m ] 298.51 296 Bake in oven at 325 for 45 minutes or until golden brown
+Turk: 298.33 Bake at 325 for 45 minutes
+Turk: 298.69 Put into the oven at 325 for about 45 minutes
+[fp] 303.795
+Turk: 302.35 Or you can open the oven every now and then to see if it is brown.
+Turk: 305.24 Remove from oven when brown
+[fp] 317.665
+Turk: 309.23 Don
+Turk: 326.1 put it in with brisket
+[m ] 331.98 332 check from now and then
+Turk: 331.93 Periodically check macaroni & cheese
+Turk: 332.03 check mac and cheese
+[m ] 335.396666667 344 place in the oven
+Turk: 335.37 check it every 20 mins
+Turk: 335.38 check every 20 minutes
+Turk: 335.44 Check dish every 20 minutes for browning
+[fp] 341.21
+Turk: 338.14 Last 20 minutes should be done
+Turk: 344.28 Place dish in oven
+[fp] 349.555
+Turk: 344.78 Place it in the oven
+Turk: 354.33 Place it in the oven
+[fn] 3 test instruction
+[fn] 141 add 1/4 cup Mozzarella cheese
+[fn] 139 add 1/2 cup of shredded Monterey Jack
+[fn] 143 add 1/4 cup Provolone
+[fn] 132 put 1/2 cup of shredded mild cheddar cheese
+[fn] 135 add 1/2 cup of shredded sharp cheddar cheese
+[s1_c02_v02]  Precision: 0.6786  Recall:0.7600  F1:0.7170  F2:0.7422 turk: 28 true: 25 match: 19 fp: 9 fn: 6
+[fp] 16.38
+Turk: 15.4 slow coco
+Turk: 17.36 coco manichees
+[m ] 44.4733333333 52 get 8 ounces of cooked macaroni
+Turk: 28.06 economical
+Turk: 50.91 so what we do is start with
+Turk: 54.45 make macron
+[fp] 55.865
+Turk: 55.67 coco
+Turk: 56.06 this is uncooked
+[fp] 60.7766666667
+Turk: 57.49 cooked macrone
+Turk: 61.03 Cook Macaroni
+Turk: 63.81 Use 1/2 tsp of salt in plenty of water
+[fp] 80.02
+Turk: 78.77 Taste to feel if it
+Turk: 81.27 you want it chewy
+[m ] 91.91 92 put macaroni in croc pot
+Turk: 91.82 Pour macaroni in your crockpot
+Turk: 92.0 Put macaroni in crockpot
+[fp] 102.073333333
+Turk: 97.99 and then we
+Turk: 98.84 Stir
+Turk: 109.39 macronee
+[m ] 114.465 118 Add 1 1/2 cup of sharp cheddar cheese
+Turk: 112.61 you want to mix them up then
+Turk: 116.32 Add 1 1/2 cup Sharp Cheddar Cheese
+[fp] 119.69
+Turk: 119.59 Add 1 1/2 c of shredded sharp cheddar
+Turk: 119.65 Add one and a half cups of finely shredded cheddar
+Turk: 119.83 cheese
+[m ] 131.985 134 add 8 ounces of sour cream
+Turk: 125.9 Add eight ounces of sour cream
+Turk: 130.91 curd
+Turk: 135.25 8 oz sour cream
+Turk: 135.88 Add 8 Ounces of Sour Cream
+[m ] 153.863333333 152 add a can of cheddar cheese soup
+Turk: 152.3 Add 1 can Cheddar Cheese Soup
+Turk: 153.05 Add one can of cheddar cheese soup
+Turk: 156.24 10 3/4 oz can of cheddar cheese soup
+[fp] 162.66
+Turk: 162.41 Do not add water
+Turk: 162.91 macroni
+[fp] 169.833333333
+Turk: 164.77 ADD CHEESE
+Turk: 165.61 cheddar cheese
+Turk: 179.12 cheddar cheese
+[m ] 223.745 230 place pot into the crock pot
+Turk: 217.88 added corn
+Turk: 221.39 after spoon
+Turk: 227.51 Place the liner into the crockpot
+Turk: 228.2 Place into crock pot
+[m ] 234.045 234 set crock pot on low
+Turk: 234.01 Place in crockpot and set to low
+Turk: 234.08 Set to low
+[fp] 241.27
+Turk: 241.02 Cook for 2 hours with lid on
+Turk: 241.52 Cook for 2 hours
+[m ] 285.945 280 She did stir it after 1 hour and add 1 cup of milk
+Turk: 285.69 Stir after 1 hour and add 1 C of milk
+Turk: 286.2 milk
+[fp] 328.413333333
+Turk: 328.19 You can also put the macaroni and cheese in a buttered pan and bake until golden brown
+Turk: 328.49 put it in a buttered pan
+Turk: 328.56 also if you prefer you an put it in a buttered pan
+[fp] 333.29
+Turk: 332.06 make it in the oven
+Turk: 334.52 and that will give you a nice crispy top
+[fp] 348.37
+Turk: 347.84 it has that twist of sour cream and i think you
+Turk: 348.9 has twist of sour cream
+[fp] 383.17
+Turk: 359.41 it
+Turk: 406.93 Go to website for discount
+[fn] 180 use a large spoon and stir it
+[s1_c02_v03]  Precision: 0.3810  Recall:0.8889  F1:0.5334  F2:0.7018 turk: 21 true: 9 match: 8 fp: 13 fn: 1
+[m ] 20.5666666667 27 Get 4 cups of cooked elbow macaroni
+Turk: 17.36 Ingredients needed for Recipe
+Turk: 18.99 macaroni and cheese
+Turk: 25.35 Cook your elbow macaroni noodles
+[fp] 33.7666666667
+Turk: 26.0 Cook Elbow Maccoroni
+Turk: 28.84 4 cups cooked elbow macaroni
+Turk: 46.46 no more than two cups
+[m ] 56.6533333333 64 add 4 tablespoons of butter
+Turk: 49.98 No more than 2 cups of raw pasta
+Turk: 57.73 I
+Turk: 62.25 start with butter
+[m ] 71.14 76 mix everything together
+Turk: 68.24 a little salt
+Turk: 68.9 a little salt
+Turk: 76.28 am just can make
+[fp] 78.22
+Turk: 78.15 mix butter in
+Turk: 78.29 I
+[m ] 94.765 96 cut buncha' hoop cheese into cubes
+Turk: 94.69 I
+Turk: 94.84 cut cheese in cubes
+[m ] 109.11 108 add a couple more bags of cheese
+Turk: 109.02 Now I
+Turk: 109.05 add grated cheese
+Turk: 109.26 couple more bags of
+[m ] 133.516666667 132 beat 3 eggs together
+Turk: 132.58 take 3 eggs
+Turk: 132.91 3 eggs beaten
+Turk: 135.06 beat 3 eggs
+[fp] 143.76
+Turk: 143.6 secret ingredient is
+Turk: 143.92 1/2 cup sour cream
+[m ] 152.585 156 add the mixture into the pot
+Turk: 151.91 add half a cup of sour cream
+Turk: 153.26 mix that in with
+[m ] 162.023333333 169 stir it completely
+Turk: 156.56 mix with eggs then add to pasta
+Turk: 163.73 im gonna cook this
+Turk: 165.78 1 cup milk
+[m ] 167.766666667 164 add 1/2 cups of milk
+Turk: 166.59 and then I
+Turk: 167.23 1 cup milk and stir
+Turk: 169.48 add 1 cup of milk and stir completely
+[fp] 180.27
+Turk: 175.96 make a judgement call whether it needs more milk
+Turk: 184.58 Spray pan with cooking spray
+[m ] 190.03 199 put it in the oven at 350 degrees for 40-45 minutes
+Turk: 187.21 spray pan with cooking spray
+Turk: 188.41 some other different receipes
+Turk: 194.47 Pour into baking dish
+[m ] 199.56 193 pour everything into a pan
+Turk: 198.68 oven set at 350 degrees
+Turk: 200.44 Into the oven at 350 for 40-45 minutes
+[m ] 225.833333333 234 rotate the pan and let it cook for 5 more minutes
+Turk: 202.8 let it bake for 40-45 minutes
+Turk: 236.65 Rotate the pan in the oven 
+Turk: 238.05 rotate the pan
+[fp] 240.265
+Turk: 239.9 Bake 5 more minutes
+Turk: 240.63 5 more minutes
+[m ] 253.735 252 top it with more cheese
+Turk: 253.7 what we want to do right now is top it with cheese
+Turk: 253.77 Top macaroni with more cheese
+[fp] 276.206666667
+Turk: 263.34 Bake for 5 more minutes
+Turk: 264.66 5 more minutes
+Turk: 273.61 macroni cheese
+Turk: 283.98 Take it out
+Turk: 284.52 baked cake 
+Turk: 287.13 lets take it out
+[fp] 299.99
+Turk: 298.66 Let
+Turk: 299.77 lets dig in
+Turk: 301.54 amazon pies
+[fn] 68 add a little salt 1/2 teaspoon
+[fn] 96 cut buncha' hoop cheese into cubes
+[fn] 263 let it cook for 5 more minutes
+[fn] 98 throw the cheese into the pot
+[s1_c02_v04]  Precision: 0.6500  Recall:0.7647  F1:0.7027  F2:0.7386 turk: 20 true: 17 match: 13 fp: 7 fn: 4
+[m ] 4.385 8 butter up the pot
+Turk: 2.07 adding the ingredients to make macronni
+Turk: 6.7 boiled vegetables
+[m ] 13.6525 20 Add small onions
+Turk: 9.63 add butter
+Turk: 11.39 ADD CHEESE
+Turk: 13.22 cut the cheese and heat it.
+Turk: 20.37 Sautee green onions
+[fp] 25.64
+Turk: 22.48 ADD BEANS
+Turk: 23.77 add chillies to the mix.
+Turk: 25.03 Sautee onions
+Turk: 31.28 cut the spring onion and add it
+[m ] 33.2666666667 42 Add 2 tablespoons of Cayenne pepper
+Turk: 33.17 Add 2 Tbsp flour to onions
+Turk: 33.2 Add 2 Tbsp of flour
+Turk: 33.43 2 TBS OF FLOUR
+[fp] 37.8833333333
+Turk: 35.58 add flour
+Turk: 36.56 add flour to it.
+Turk: 41.51 add two table spoons
+[m ] 45.175 49 Add 1 1/2 teaspoon of basil
+Turk: 45.16 Add 2 tsp cayenne pepper
+Turk: 45.19 Add 2 tsp of Cayenne pepper
+[m ] 52.595 54 Add 1 teaspoon of salt
+Turk: 52.56 Add 1 1/2 tsp of basil
+Turk: 52.63 Add 1 1/2 tsp of basil 
+[m ] 53.995 63 add 1 3/4 cup of whole milk
+Turk: 53.98 Add 1 tsp salt
+Turk: 54.01 Add 1 tsp of salt
+[m ] 61.1925 67 Chop up sun dried tomatoes
+Turk: 57.13 carrot cheese
+Turk: 58.3 2TBS OF SALT
+Turk: 64.45 add 1 3/4 cup milk
+Turk: 64.89 making macronni
+[fp] 66.115
+Turk: 65.95 put 3/4 of milk
+Turk: 66.28 Add 1 3/4 cup of whole milk.
+[fp] 76.555
+Turk: 67.22 while that
+Turk: 85.89 put cheese
+[m ] 91.865 91 Stir the pot constantly
+Turk: 89.56 and then two I
+Turk: 94.17 Stir them constantly.
+[m ] 109.7675 119 Add the 1/2 cup of sundried tomatoes
+Turk: 99.97 now speaking about the cheeses again
+Turk: 103.41 You could be really creative with whatever you had.
+Turk: 117.5 Add 2 1/2 cups cooked broccoli
+Turk: 118.19 2 1/2 C broccoli
+[m ] 118.87 127 Add the types of cheeses into the cooking pot
+Turk: 118.74 brocoli
+Turk: 119.0 Add 2 1/2 C broccoli
+[m ] 120.3325 117 Put 2 1/2 cups of cooked broccoli in a bowl
+Turk: 119.82 Add 1/2 cup sundried tomatoes
+Turk: 120.06 Add 1/2 C sundried tomatoes
+Turk: 120.35 Add 1/2 C sundried tomatoes
+Turk: 121.1 sundried tomatoes
+[m ] 145.245 136 Pour the sauce into the bowl
+Turk: 144.9 Bake in oven for 30 minutes at 350
+Turk: 145.13 Put in oven for 30 minutes at 350 degrees
+Turk: 145.15 Bake in oven at 350 for 30 minutes
+Turk: 145.8 we have to wait for 30 minutes
+[fp] 168.43
+Turk: 168.25 how fast was that?
+Turk: 168.61 That is like so easy to do.
+[fp] 177.585
+Turk: 176.46 we won
+Turk: 178.71 a surprise for you.
+[fp] 187.04
+Turk: 183.83 did you steal that
+Turk: 186.7 Subscribe to Hungry
+Turk: 190.59 making of macronni
+[fn] 142 Put the pan in the oven for 30 minutes at 350 degrees
+[fn] 139 Pour everything into a pan
+[s1_c02_v05]  Precision: 0.6316  Recall:0.8571  F1:0.7273  F2:0.8000 turk: 19 true: 14 match: 12 fp: 7 fn: 2
+[m ] 18.6766666667 20 Get avocados
+Turk: 10.87 prepare guacamole
+Turk: 21.47 Put avocados in a bowl
+Turk: 23.69 Place soft avacados in to bowl
+[m ] 27.115 27 Add some lime juice
+Turk: 26.72 Add fresh lime juice
+Turk: 27.51 Squeeze lime juice over avacados
+[m ] 34.0633333333 41 Add tomatoes
+Turk: 33.71 Sprinkle coarsley chopped cilantro over avacados
+Turk: 33.83 Add coarsely chopped cilantro
+Turk: 34.65 put avocado lime juice & cilantro
+[m ] 41.4933333333 32 Add coarsely chopped Cilantro
+Turk: 40.03 Add chopped tomatoes
+Turk: 41.13 Add chopped tomatoes to mixture
+Turk: 43.32 put tomatoes
+[m ] 54.295 53 Add green onions (or white or yellow)
+Turk: 53.61 Add chopped onions
+Turk: 54.98 Add minced onions to bowl
+[fp] 55.8033333333
+Turk: 55.59 Add onions to the mixture in the bowl
+Turk: 55.86 put onions
+Turk: 55.96 Add in chopped onions (green white or yellow)
+[m ] 58.835 66 Add jalepenos
+Turk: 58.12 Green onions (or white/yellow)
+Turk: 59.55 Add minced onions (green white or yellow)
+[m ] 66.26 76 Add black pepper
+Turk: 66.03 Jalepeno
+Turk: 66.11 Add jalapeno to the guacamole mixture
+Turk: 66.64 Add jalapeno to the mixture
+[m ] 75.16 81 Add cumin
+Turk: 73.02 Add minced jalapeno
+Turk: 77.3 Add cracked black pepper
+[m ] 78.4633333333 87 Add salt (coarsely ground is recommended)
+Turk: 78.37 Add ground black pepper
+Turk: 78.43 Ground pepper
+Turk: 78.59 Sprinkle ground pepper over mix
+[fp] 81.82
+Turk: 81.57 Add cumin
+Turk: 81.68 Cumin
+Turk: 81.84 Add cumin
+Turk: 82.19 Add cumin
+[m ] 87.0025 92 Add sriracha sauce
+Turk: 86.95 Add salt
+Turk: 87.01 Add salt coarsely ground is preferred but any will work
+Turk: 87.02 Pinch of salt
+Turk: 87.03 Salt
+[fp] 92.475
+Turk: 92.43 Add sriracha
+Turk: 92.52 Add sriracha
+[m ] 98.78 104 Add more lime juice to top it off
+Turk: 93.11 Squeeze in sriracha
+Turk: 104.45 Squeeze in fresh lime juice
+[m ] 105.233333333 103 Add garlic
+Turk: 105.01 Lime juice
+Turk: 105.16 Squeeze in fresh lime juice
+Turk: 105.53 Squeeze lime juice over mixture
+[m ] 115.052 118 Use a potato masher, and mash each half of an avocado
+Turk: 106.56 Use potato masher to blend
+Turk: 109.57 Potato masher or fork to combine
+Turk: 110.15 secret ingredient
+Turk: 120.97 Use a potato masher to mash each individual avocado half
+Turk: 128.01 mashed vegetables and egg
+[m ] 134.255 135 NOTE: Don't over mix!
+Turk: 132.54 Mash any bigger chunks one more time.
+Turk: 135.97 don
+[m ] 153.51 151 You can add more lime juice
+Turk: 152.66 Add  fresh lime juice salt pepper sriracha
+Turk: 154.36 add lime juice 
+[fp] 169.265
+Turk: 159.15 Mix it up with a spoon
+Turk: 162.61 mixed and eat with snacks 
+Turk: 165.5 everything is mixed up but there are chunks of avacado
+Turk: 189.8 Healthy snack
+[fp] 195.81
+Turk: 192.02 breakfast lunch dinner
+Turk: 199.6 subscribe like or comment on the video
+[fn] 159 Mix it up 
+[s1_c03_v01]  Precision: 0.7500  Recall:0.9375  F1:0.8333  F2:0.8929 turk: 20 true: 16 match: 15 fp: 5 fn: 1
+[fp] 28.79
+Turk: 27.66 ingredients 
+Turk: 29.92 we
+[fp] 37.64
+Turk: 30.78 type of avocado  
+Turk: 44.5 there is another
+[fp] 59.98
+Turk: 57.82 Next ingredient 
+Turk: 58.4 the next ingredient
+Turk: 60.92 Get a tomato
+Turk: 62.78 tomato
+[m ] 76.2966666667 86 Wash Your hands
+Turk: 70.33 Get a can of chilli 
+Turk: 78.78 Dice onion
+Turk: 79.78 put diced onian
+[fp] 84.205
+Turk: 83.27 Get salt
+Turk: 85.14 Wash your hands
+[fp] 86.54
+Turk: 86.49 Wash your hands before cooking
+Turk: 86.59 wash your hands
+[m ] 107.9525 108 Cut open your avocado, by using your blade around the avocado an
+Turk: 102.46 squeese it
+Turk: 108.79 Slice your avocado in half length-wise
+Turk: 109.48 Cut open avacado 
+Turk: 111.08 When cutting open your avocado
+[m ] 116.59 121 Remove the seed using your hands
+Turk: 115.65 Put the blade in and rotate the blade around it.
+Turk: 117.53 When cutting the avacado rotate your blade around it.
+[m ] 132.885 133 Scoop out the flesh using a spoon
+Turk: 132.85 The safest way to remove the seed is to use your hand.
+Turk: 132.92 Take seed out of the avacado.
+[m ] 139.633333333 148 Slice tomatoes in both directions
+Turk: 136.74 Then use a spoon to remove the flesh
+Turk: 140.2 Scoop out the avacado flesh with a spoon into a bowl.
+Turk: 141.96 blackspots
+[fp] 147.83
+Turk: 145.48 Pick out the brown or black spots.
+Turk: 150.18 thin slices
+[m ] 161.72 169 Add some chili ortegas (2)
+Turk: 159.8 then slice it in the other direction to make cubes
+Turk: 163.64 add a handful
+[m ] 166.09 164 Add handful of diced onions
+Turk: 165.89 add a handful of onion
+Turk: 166.02 Add onions
+Turk: 166.36 Slice up the tomato in tiny pieces and then add a handful on onion on top of them.
+[m ] 170.275 177 Chop up everything
+Turk: 170.1 add some chewy
+Turk: 170.45 Add chili
+[fp] 179.51
+Turk: 179.45 and I
+Turk: 179.57 Chop them together
+[m ] 207.02 212 Add everything to the gaucumole
+Turk: 202.52 I also don
+Turk: 211.52 Add it to the guacamole
+[m ] 220.12 228 Mash everything using a potato masher
+Turk: 212.89 add it to the
+Turk: 219.37 cut the tomatoes and onions and layer
+Turk: 221.46 Add a pinch of salt
+Turk: 222.54 Add a pinch of salt
+Turk: 224.34 arabian receipe
+[m ] 225.935 222 Add a pinch of salt
+Turk: 225.62 Mash it up with a potato masher
+Turk: 226.25 I
+[m ] 245.48 241 Optionally, add hot sauce.
+Turk: 244.44 If you want to add hot sauce to the recipe feel free to do so.
+Turk: 246.52 Add hot sauce if you would like. This is optional.
+[fp] 258.195
+Turk: 257.17 Taste the guacamole to see if it needs more salt
+Turk: 259.22 I
+[fp] 271.475
+Turk: 271.42 stir it up again
+Turk: 271.53 stir it up
+[s1_c03_v02]  Precision: 0.5714  Recall:1.0000  F1:0.7272  F2:0.8696 turk: 21 true: 12 match: 12 fp: 9 fn: 0
+[m ] 52.135 61 Cut them cup
+Turk: 52.03 2 tortillas
+Turk: 52.24 Take two tortillas
+[m ] 55.335 57 Stack them together
+Turk: 55.29 Spray two tortillas with cooking spray
+Turk: 55.38 Cover tortillas with cooking spray
+[m ] 58.2233333333 51 Cover 2 Tortillas with Cooking Spray
+Turk: 57.98 Stack the tortillas
+Turk: 58.18 Stack tortillas
+Turk: 58.51 Stack tortillas
+[fp] 60.01
+Turk: 58.91 Stack two tortillas
+Turk: 59.6 Stack the tortillas
+Turk: 61.52 Slice the tortillas into wedges
+[m ] 64.195 73 Spray cooking spray on a cooking sheet and Lay the tortillas out
+Turk: 62.82 Cut up the tortillas into small strips or wedges
+Turk: 65.57 stack tortillas
+[m ] 73.81 83 Put it in the oven
+Turk: 73.67 Lay the tortillas out on a cooking sheet that has been sprayed with cooking spray
+Turk: 73.95 Lay tortilla strips out on a cooking sheet that has been sprayed with cooking spray
+[m ] 87.2866666667 95 Cooking them for 15 minutes at 400 degrees F
+Turk: 86.53 lay out evenly
+Turk: 86.87 Put the tortilla wedges in the oven
+Turk: 88.46 Put them in the oven
+[m ] 93.8533333333 101 Cut open avocados
+Turk: 91.43 Cook the tortilla chips for 15 minutes at 400 degrees farenheit
+Turk: 93.4 Cook the tortilla chips in the oven for 15 minutes at 400 degrees Farenheit
+Turk: 96.73 cook chips in 15 minutes in oven at 400 celsius
+[m ] 115.05 123 Remove skin if possible
+Turk: 104.39 Cut the avocados in half length-wise
+Turk: 108.7 cut open guacamolo
+Turk: 122.76 Remove the skin from the avocado
+Turk: 124.35 remove skin
+[m ] 135.433333333 134 Mash them up a little
+Turk: 133.86 Mash the avocado up
+Turk: 135.94 Mash it up a little bit.
+Turk: 136.5 mash it up
+[m ] 169.96 171 Add jalapeno peppers
+Turk: 169.62 Add the tomato
+Turk: 169.96 ingredients with tomato
+Turk: 170.3 Add tomato
+[m ] 172.205 169 Throw in some tomatoes
+Turk: 172.03 Add jalapeno pepper
+Turk: 172.38 Add the jalapeno pepper
+[m ] 176.03 185 Put some cumin
+Turk: 174.95 Add green onions
+Turk: 177.11 Add scallions (green onions)
+[m ] 179.855 174 Add onions
+Turk: 179.84 Add salt
+Turk: 179.87 Add salt
+[m ] 181.37 188 Mash it all up
+Turk: 181.11 Add pepper
+Turk: 181.63 Add pepper
+[m ] 186.34 181 Put some pepper
+Turk: 184.73 Add cumin
+Turk: 185.75 Add cumin
+Turk: 188.54 now it smashed over
+[fp] 190.355
+Turk: 189.6 Mash together
+Turk: 191.11 Mash it all up together
+[fp] 217.695
+Turk: 201.81 Keep mashing it
+Turk: 216.72 the recipe I
+Turk: 221.45 chill for 15 minutes
+Turk: 230.8 chill 15 minutes
+[fp] 246.23
+Turk: 243.49 plate with chips
+Turk: 248.97 after chill to serve 
+[fn] 179 Put some salt
+[s1_c03_v03]  Precision: 0.7895  Recall:0.9375  F1:0.8572  F2:0.9036 turk: 19 true: 16 match: 15 fp: 4 fn: 1
+[m ] 32.735 37 Add avocados
+Turk: 28.38 Cilantro
+Turk: 37.09 so basically all you gotta do
+[fp] 43.47
+Turk: 41.67 Mix ingredients together
+Turk: 45.27 Put ripe avocado into the bowl
+[fp] 58.12
+Turk: 49.36 Add ripe avocados
+Turk: 61.89 and then begin to
+Turk: 63.11 Add ingredients
+[m ] 71.5566666667 71 Add avenero peppers
+Turk: 71.31 her for this
+Turk: 71.37 Add habanero peppers
+Turk: 71.99 Habanero peppers
+[m ] 74.5366666667 73 Add garlic
+Turk: 74.45 garlic
+Turk: 74.49 Add garlic
+Turk: 74.67 Garlic
+[m ] 79.515 77 Add white onions
+Turk: 79.43 White onions
+Turk: 79.6 Add white onions
+[m ] 89.715 89 Add Cilantro
+Turk: 89.67 Cilantro
+Turk: 89.76 and of course
+[m ] 92.835 93 Add lemon juice
+Turk: 90.3 Add cilantro
+Turk: 95.37 gonna go ahead and add
+[fp] 99.3166666667
+Turk: 96.57 Squeeze lemon juice over mixture
+Turk: 98.14 Add lemon juice (one whole lemon)
+Turk: 103.24 I usually put a whole
+[m ] 108.13 118 Mix everything together
+Turk: 108.11 1 1/2 avocados
+Turk: 108.15 Use whole lemon for juice and 1 1/2 avacados for mix
+[m ] 119.923333333 116 Add pinch of salt
+Turk: 116.83 Add a pinch of salt
+Turk: 119.23 ADD PINCH OF SALT
+Turk: 123.71 Mix everything together
+[fp] 128.86
+Turk: 124.66 MIX EVERYTHING
+Turk: 133.06 You can add more lemon
+[fp] 136.356666667
+Turk: 133.83 ADD LEMON
+Turk: 137.36 You can add salt or any other ingredient to taste
+Turk: 137.88 you can add lemon and salt
+[fp] 149.385
+Turk: 146.92 MASH IT
+Turk: 151.85 Mix and mash it a little
+[m ] 157.445 163 Add a bit more salt
+Turk: 152.72 DON
+Turk: 162.17 Mix for lots of texture
+[fp] 166.505
+Turk: 165.85 Add a little salt
+Turk: 167.16 ADD MORE SALT
+[s1_c03_v04]  Precision: 0.5625  Recall:1.0000  F1:0.7200  F2:0.8654 turk: 16 true: 9 match: 9 fp: 7 fn: 0
+[m ] 5.245 5 Add 8 large avocados
+Turk: 4.91 eight large avocados
+Turk: 5.58 8 large avacados
+[m ] 13.77 17 Add white onions
+Turk: 13.53 all these are in relation to what you like I add
+Turk: 14.01 add chopped tomato and onions
+[m ] 27.81 26 Add finely cut cilantro
+Turk: 27.72 add chopped cilantro
+Turk: 27.9 this is celantro
+[m ] 39.2366666667 37 Add cerano peppers
+Turk: 36.81 add chopped serrano pepper
+Turk: 39.66 add tomatoes white onion
+Turk: 41.24 this is serano peppers
+[m ] 45.7433333333 55 Add 8-9 lemon juices
+Turk: 43.95 add lemon
+Turk: 46.47 lemon juice
+Turk: 46.81 and no lemon of course
+[fp] 58.598
+Turk: 50.48 mix together
+Turk: 57.48 Juice of 8-9 lemons
+Turk: 61.21 Add juice of 8-9 lemons
+Turk: 61.52 Add lemon juice to your guacamole mix little by little
+Turk: 62.3 Add juice of 8-9 lemons in to bowl a little at a time
+[m ] 63.6566666667 71 Mix everything together
+Turk: 62.93 Add little by little
+Turk: 63.41 Pour in little by little
+Turk: 64.63 Pour it in little by little
+[m ] 70.695 72 Add some salt
+Turk: 70.68 Mix ingredients in bowl
+Turk: 70.71 Mix in the lemon juice and add salt
+[fp] 72.94
+Turk: 72.61 Mix it in salt
+Turk: 72.8 Mix it and salt
+Turk: 73.41 Add salt
+[fp] 98.5
+Turk: 89.34 can use lime juice instead
+Turk: 107.66 Add more salt to mixture
+[fn] 83 Mix it more together
+[fn] 11 Add tomatoes
+[s1_c03_v05]  Precision: 0.7000  Recall:0.7778  F1:0.7369  F2:0.7609 turk: 10 true: 9 match: 7 fp: 3 fn: 2
+[m ] 28.08 34 Add 1 cup of wheat flour
+Turk: 21.71 onion samosa
+Turk: 34.45 Add one cup of wheat flour to a large bowl
+[m ] 40.175 41 Add 1 tablespoon of oil
+Turk: 40.14 Add one cup of all purpose flour
+Turk: 40.21 all par flour and oil 
+[m ] 45.83 37 All 1 cup of all purpose flour
+Turk: 45.3 Add water to the mixture until it becomes a soft dough
+Turk: 46.36 add salt and water
+[m ] 50.04 60 Use same quantity of pressed rice
+Turk: 47.81 Knead the dough
+Turk: 52.27 mashed flour
+[m ] 54.43 64 Mix them together
+Turk: 53.39 Let the dough rest for at least 15 minutes
+Turk: 55.47 about 15 minutes after which
+[m ] 56.8 66 Add chili powder
+Turk: 56.47 cut the anion 
+Turk: 56.72 Make the stuffing for the samossas
+Turk: 57.21 now lets make the stuffing
+[m ] 66.1166666667 75 Add cumin powder
+Turk: 61.97 and the same quantity of 
+Turk: 63.01 Same quantity of pressed rice
+Turk: 73.37 onion woozes out little bit of moisture
+[m ] 74.665 79 Add a bit of chopped marsala
+Turk: 74.58 Add chili powder
+Turk: 74.75 add chili powder
+[m ] 76.295 86 Mix everything together
+Turk: 76.29 Cumin powder
+Turk: 76.3 cumin powder
+[m ] 77.895 77 Add chopped green chilis
+Turk: 77.84 chopped green chilles
+Turk: 77.95 Chopped green chiles
+[m ] 79.49 79 Add koreanda
+Turk: 79.36 coreandoe
+Turk: 79.62 Coriander
+[fp] 85.7633333333
+Turk: 84.21 you can also substitute
+Turk: 85.03 Charred masala or lemon juice
+Turk: 88.05 use Lemon juice as what the flavour you like
+[fp] 89.905
+Turk: 89.88 Mix together
+Turk: 89.93 and then just mix
+[m ] 108.086666667 102 Flatten the dough
+Turk: 106.37 just sprinkle little bit of
+Turk: 108.23 Sprinkle a little bit of flour
+Turk: 109.66 now we
+[m ] 110.765 106 Sprinkle a bit of flour on both sides
+Turk: 110.63 Rest the dough for 15-20 mins
+Turk: 110.9 I have let this dough rest for
+[m ] 122.84 128 Cut them into thin sheet
+Turk: 121.07 Heat both sides of chapati
+Turk: 124.61 slightly heat it on one side
+[m ] 129.793333333 139 Apply the mixture on the side of one sheet
+Turk: 126.59 do not let it cook do not let it
+Turk: 130.83 Cut it into samosa sheets
+Turk: 131.96 can use spring roll sheets
+[m ] 144.79 153 Apply more of the paste onto the sheet
+Turk: 141.64 take a sheet and take a ltille
+Turk: 147.94 Make a triangle and put mixture in
+[m ] 166.845 166 Make more of these triangles by repeating the steps
+Turk: 161.6 and then seal it up
+Turk: 162.3 Seal it
+Turk: 170.94 apply a little bit of
+Turk: 172.54 spreak little bit of mydha
+[m ] 178.725 176 Put it in medium hot oil, don't fry them too much
+Turk: 177.26 put it in a medium
+Turk: 180.19 use Medium hot oil to fry samoza
+[fp] 185.605
+Turk: 184.54 make sure you
+Turk: 186.67 cook samoza in low flame
+[m ] 212.53 205 Note: Make 6 per person
+Turk: 208.81 when you bite
+Turk: 216.25 Fry the samossas once until half done (not quite golden brown)
+[m ] 224.44 217 Fry them once, then wait for 5 minutes, and then fry them again 
+Turk: 220.87 Remove from heat and wait five minutes then fry until golden brown.
+Turk: 224.62 get a a knife and cut the cucumber into pcs
+Turk: 227.83 hyderabad samosa making
+[fn] 149 Add in the stuffing
+[fn] 156 Close it into a triangle
+[fn] 121 Slightly heat one side and then heat the other side
+[fn] 145 Roll the sheet into a triangle
+[fn] 50 Mix and make sure the dough is soft
+[fn] 53 Let dough rest for at least 15 minutes
+[fn] 42 All salt
+[fn] 44 Add water to make it soft dough
+[fn] 56 Start making stuffing by getting cut onions
+[s1_c04_v01]  Precision: 0.8696  Recall:0.6897  F1:0.7693  F2:0.7195 turk: 23 true: 29 match: 20 fp: 3 fn: 9
+[fp] 8.255
+Turk: 0.27 cutting the vegetables
+Turk: 16.24 Today
+[m ] 34.0875 42 Chop up pumpkin
+Turk: 24.15 This is super easy super simple and super delicious.
+Turk: 36.65 cut the pamkin 
+Turk: 37.29 Chop up a sweet potato
+Turk: 38.26 chop up sweet potato
+[m ] 40.42 47 Put all of them into a pot
+Turk: 39.77 cut the potato
+Turk: 40.42 Chop up regular potatoes
+Turk: 41.07 chop up plain potato
+[m ] 44.0633333333 48 Cover them with water
+Turk: 43.84 Chop up some pumpkin
+Turk: 43.99 chop up some pumpkin
+Turk: 44.36 Chop up some sweet potatoes some plain potatoes and some pumpkin.
+[m ] 49.275 57 Mash them using a potato masher
+Turk: 48.94 Put them into a pot and cover with cold water
+Turk: 49.61 put them into a pot
+[m ] 50.98 51 Boil until they are nice and soft
+Turk: 50.64 cover with water
+Turk: 50.93 Cover them with water
+Turk: 51.37 Boil until nice and soft
+[fp] 51.975
+Turk: 51.97 boil until soft
+Turk: 51.98 boiled the vegetables 
+[m ] 55.5433333333 65 Add Garra masala
+Turk: 54.17 BOIL POTATO PUMPKIN WITH SALT
+Turk: 54.43 making samosa
+Turk: 55.05 Drain vegetables and mash them making sure the texture stays chunky.
+Turk: 56.18 When they are ready drain them and give them a mash.
+Turk: 56.56 Drain them and mash them but leave a little chunky
+Turk: 56.87 drain them and mash them
+[m ] 58.735 63 Add cumin
+Turk: 58.62 SMASH THE BOILED POTATO PUMPKIN
+Turk: 58.85 mashed the vegetables 
+[m ] 66.16 74 Add in peas
+Turk: 63.03 Add in the garam masala cumin and curry powder.
+Turk: 66.29 ADD GARAM MASALA
+Turk: 69.16 add to suite your taste
+[m ] 70.12 70 Mix everything until they are well combined
+Turk: 69.58 Mix until well combined.
+Turk: 70.66 ADD CURRY POWDER
+[m ] 75.85 80 Let it cool down
+Turk: 74.53 Add in the peas and mix until well combined.
+Turk: 77.17 ADD BEANS
+[m ] 98.0 103 Pinch down the ends
+Turk: 96.4 Fold by pinching the edges together.
+Turk: 99.6 FOLDING THE CORNERS 
+[m ] 107.4175 114 Put them on a baking tray and brush them with a beated egg
+Turk: 102.88 Pinch down the ends and across the folds until you have a parcel.
+Turk: 106.6 pinch down the ends of samoza so the mixture doesn
+Turk: 107.92 fold it to triangles if you prefer
+Turk: 112.27 until you have a little
+[m ] 119.1625 122 Put the tray in the oven for 20-25 minutes at 190 celsius
+Turk: 117.18 you
+Turk: 118.92 Place on  to baking tray and lightly brush with beaten egg
+Turk: 119.79 Put them in the baking tray and brush them up with beaten egg.
+Turk: 120.76 "" Cut the cucumber""
+[m ] 123.6 128 Sprinkle a little peprica
+Turk: 121.89 you
+Turk: 125.31 Bake for 20-25 minutes at 190 celcius or until golden brown
+[fp] 126.37
+Turk: 126.27 Put them in the oven for 20-25 min untill they are golden brown.
+Turk: 126.47 bake 190 degree celsius
+[fp] 129.465
+Turk: 129.46 sprinkle with a little
+Turk: 129.47 Sprinkle with paprika
+[fp] 133.21
+Turk: 132.01 Sprinkle with a litle pepper.
+Turk: 134.41 Serve alone or with favorite condiment
+[fn] 39 Chop up plain potatoes
+[fn] 35 Chop up some sweet potatoes
+[fn] 65 Add curry powder
+[fn] 96 Fold it in by grab opposite corners and pinching in the middle
+[fn] 92 Add spoonful of the mixer
+[fn] 84 Once the mixer is cool, cut our pastry into quarters
+[fn] 76 Mix it one more time
+[fn] 98 Do it to the other side too
+[s1_c04_v02]  Precision: 0.7368  Recall:0.6364  F1:0.6829  F2:0.6542 turk: 19 true: 22 match: 14 fp: 5 fn: 8
+[m ] 31.31 34 Add 4 tsp of vegetable oil
+Turk: 30.54 Sift 1 1/2 Cup Flour
+Turk: 32.08 sift 1 1/2 cups flour into a bowl
+[m ] 34.99 42 Mix this all together
+Turk: 34.35 Pinch of Salt
+Turk: 35.63 pinch of salt
+[m ] 37.845 37 Add half a cup of water
+Turk: 37.32 4 teaspoons of vegetable oil
+Turk: 38.37 4 teaspons vegetable oil
+[m ] 52.445 51 Knead the dough on a lightly floured surfaced for 2-3 minutes
+Turk: 44.01 mix this all together
+Turk: 54.57 knead dough for 2 to 3 minutes
+Turk: 55.04 Kneed the dough
+Turk: 56.16 for two to three 
+[m ] 58.04 63 Leave the dough to rest for 5-10 minutes
+Turk: 56.9 knead dough on a lightly flowered surface
+Turk: 59.18 after 2 to 3 minutes
+[m ] 64.245 73 Get 30g of Frozen Peas
+Turk: 64.07 Let the dough rest for 5 to 10 minutes
+Turk: 64.42 just leave it to 
+[m ] 68.41 70 Get 1/4 of a finely chopped onions
+Turk: 67.33 Gather samossa filling ingredients
+Turk: 69.49 for simosa filling I
+[m ] 93.805 91 Get 1 teaspoon of garlic and ginger paste
+Turk: 92.62 and a teaspoon of garlic
+Turk: 94.99 Mix all the ingredients into the mashed potatoes
+[m ] 107.51 110 Break a gold ball size of the dough
+Turk: 105.68 when it
+Turk: 109.34 Break off a golf ball sized piece of dough
+[m ] 112.45 115 Roll the dough in between your hands into a ball and then into a
+Turk: 112.37 After dough is rested break off golf ball size piece
+Turk: 112.48 Break off a golf ball size piece of dough
+Turk: 112.5 Break off golf ball size dough
+[m ] 115.185 122 Roll the dough into a rectangle
+Turk: 115.18 Roll dough in your hands
+Turk: 115.19 Roll between hands
+[fp] 118.776666667
+Turk: 117.78 Roll dough into ball
+Turk: 118.74 Poll dough into a sausage shape
+Turk: 119.81 Roll in to sausage shape
+[fp] 124.466666667
+Turk: 124.32 With rolling pin roll in to rectangle
+Turk: 124.49 Use rolling pin to roll dough into a rectangle
+Turk: 124.59 Roll dough into sausage shape then rectangle
+[m ] 139.855 138 Grab a 8 in by 4 in plate and put it on top of the dough so you 
+Turk: 139.83 Take an 8 inch by 4 inch template and place it on the rolled out dough
+Turk: 139.88 8x4 or 10x20 template to cut rectangle dough
+[fp] 145.24
+Turk: 145.09 Cut around the template to make a rectangle
+Turk: 145.39 Use template to cut in to rectangle
+[m ] 157.34 160 Add a teaspoon of the mixture into one corner
+Turk: 154.69 Keep spare pastry for another pastry
+Turk: 159.99 Put a heaped teaspoon of pastry onto one corner of the dough
+[m ] 165.3675 166 Wet two of the edges
+Turk: 162.78 Heaped teaspoon of filling
+Turk: 164.75 Add 1 heaped tsp filling in to one corner of pastry
+Turk: 166.31 Bring in to one column
+Turk: 167.63 Wet the two edges
+[m ] 171.085 172 Fold one corner over
+Turk: 168.47 Wet the two edges here.
+Turk: 173.7 Fold corner over
+[m ] 181.21 185 Press the dough down
+Turk: 175.84 fold this corner over in to the edge
+Turk: 186.58 Press down
+[m ] 190.205 193 Spread the filling out a bit
+Turk: 188.48 just press it down though it breaks it is not a problem
+Turk: 191.93 Spread the filling evenly
+[m ] 195.96 202 Fold the samosa over to the wetted edge
+Turk: 195.41 Spread the filling and wet this edge
+Turk: 196.51 Wet the other two edges
+[m ] 203.416666667 213 Wet the remaining flap
+Turk: 202.66 Fold over
+Turk: 203.32 fold samoza over
+Turk: 204.27 and fold it over
+[m ] 208.345 207 Press the edge down like previously
+Turk: 207.7 Press down
+Turk: 208.99 press it down seal it
+[m ] 213.75 216 Fold the flap over to complete the triangle
+Turk: 213.2 and finally wet this flap
+Turk: 214.3 Wet the remaining part
+[fp] 218.26
+Turk: 217.53 Fold it over the samosa
+Turk: 218.99 over to complete
+[fp] 219.505
+Turk: 219.46 Fold over to make a triangle
+Turk: 219.55 and fold it over to complete the triangle. 
+[fp] 224.7
+Turk: 222.43 smooth it out
+Turk: 222.98 Smooth out any air bubbles
+Turk: 228.69 Samosa Make
+[fp] 229.69
+Turk: 229.55 pop it onto a
+Turk: 229.83 Place on to floured tray
+[m ] 244.235 254 OR shallow fry them for 3 minutes on each side
+Turk: 244.16 For deep frying oil at 180 for six minutes
+Turk: 244.31 now you have a choice
+[fp] 256.66
+Turk: 256.56 Frying in skillet 3 minutes each side
+Turk: 256.76 or shallow fry
+[m ] 273.9 271 OR put them on a baking tray, glaze them with milk, and bake the
+Turk: 273.89 Put samossas onto a greased baking tray and brush with milk
+Turk: 273.91 or for a healthier option
+[fp] 277.935
+Turk: 277.74 brush with milk
+Turk: 278.13 On a greased baking tray brush them with milk
+[fp] 283.093333333
+Turk: 281.98 Bake in the oven at 200 degrees Celcius for 25 to 30 minutes
+Turk: 283.11 Bake them at 200 degrees celsius for 30 minutes
+Turk: 284.19 bake at 200 degrees celsius for about 30 minutes
+[fp] 303.93
+Turk: 303.85 Go make some samosas!
+Turk: 304.01 go make some samosas
+[fn] 243 Either deep fry them in oil at 180 C for 6 minutes
+[fn] 75 Get 1 teaspoon of Coriander powder
+[fn] 83 Get a 1/4 teaspoon Chilli, Garam Masala, Salt, and mustard seeds
+[fn] 79 Get 1/2 teaspoon of Cumin powder
+[fn] 68 For samosa filling, we got 300 g of mashed potatoes
+[fn] 195 Wet the other edge
+[fn] 88 Get 2 Chopped Chillis
+[fn] 96 Mix everything together in the bowl
+[fn] 26 Get 1 1/2 cups of plain flour
+[fn] 32 add a pinch of salt
+[s1_c04_v03]  Precision: 0.6765  Recall:0.6970  F1:0.6866  F2:0.6928 turk: 34 true: 33 match: 23 fp: 11 fn: 10
+[m ] 5.865 14 prepare ingredients: ajwain, salt, margarine
+Turk: 5.47 samose
+Turk: 6.26 samose making recipe
+[fp] 16.3333333333
+Turk: 14.21 new instruction
+Turk: 16.18 3/4th teaspoon
+Turk: 18.61 put ajwain & salt
+[fp] 24.555
+Turk: 23.64 new instruction
+Turk: 25.47 put margarine
+[m ] 58.08 49 mix everything
+Turk: 47.0 new instruction
+Turk: 52.51 mix all
+Turk: 63.96 mix flour
+Turk: 68.85 new instruction
+[m ] 79.665 81 mix flour and water until it gets tight
+Turk: 76.44 new instruction
+Turk: 82.89 mix flour with water until the flour gets tight
+[m ] 90.375 96 prepare cumin seeds and other ingredients
+Turk: 86.4 new instruction
+Turk: 94.35 3/4 teaspoon of cummin seeds
+[fp] 142.688
+Turk: 109.37 1 teasppon of chrushed chillies
+Turk: 118.1 use three medium size potato to boil
+Turk: 130.75 three medium size potato
+Turk: 174.17 Aalu
+Turk: 181.05 TAKE SMASHED POTOTO
+[m ] 190.39 198 add coriander powder
+Turk: 190.14 Chrushed chillies
+Turk: 190.64 ADD CRUSHED CHILLIS
+[m ] 194.685 193 add pomegranate seeds
+Turk: 194.67 Salt
+Turk: 194.7 POMEGRANATE SEEDS
+[m ] 197.595 189 add salt
+Turk: 197.3 CORIANDER POWDER
+Turk: 197.89 Coriander
+[fp] 214.565
+Turk: 210.51 Samosa Pastry
+Turk: 218.62 new insturction
+[m ] 229.82 232 flatten roti
+Turk: 225.69 new instruction
+Turk: 233.95 roti making
+[m ] 238.885 242 heat thava
+Turk: 238.3 new instruction
+Turk: 239.47 rotty
+[fp] 241.435
+Turk: 241.11 tawa
+Turk: 241.76 thava in gas
+[m ] 258.385 255 continue heating for 30-40 seconds
+Turk: 255.67 40 second
+Turk: 261.1 new instruction
+[m ] 272.744 269 cut the roti in half
+Turk: 266.71 dry
+Turk: 269.59 new instruction
+Turk: 272.7 bajias cooking
+Turk: 275.96 Cut it into half
+Turk: 278.76 Cut in Half
+[m ] 293.455 290 fold roti corners and make a cone
+Turk: 292.77 Fold corners inward to make a cone
+Turk: 294.14 Make a cone
+[m ] 307.095 313 paste the roti and crimp edges with fingers
+Turk: 306.67 Add ingredients
+Turk: 307.52 Place the filling
+[fp] 316.646666667
+Turk: 310.16 Paste the top and crimp edges with fingers
+Turk: 313.07 Press to close the cone
+Turk: 326.71 new instruction
+[m ] 330.806666667 330 fry the rotis
+Turk: 328.59 Now fry them
+Turk: 330.59 new instruction
+Turk: 333.24 Drop into oil
+[m ] 350.935 350 turn the rotis around
+Turk: 349.68 Turn
+Turk: 352.19 TRY DIFFERENT SHAPES
+[m ] 360.805 362 take out when brown enough
+Turk: 360.72 Take out when brown
+Turk: 360.89 new instruction
+[fp] 368.635
+Turk: 364.64 Place onto paper towel to absorb oil
+Turk: 372.63 new instruction
+[fn] 173 collect smashed potatoes
+[fn] 304 add the fillings
+[fn] 334 drop the rotis into oil
+[s1_c04_v04]  Precision: 0.6957  Recall:0.8421  F1:0.7619  F2:0.8081 turk: 23 true: 19 match: 16 fp: 7 fn: 3
+[fp] 19.0166666667
+Turk: 17.8 to make chicken samosa
+Turk: 19.08 Gather ingredients
+Turk: 20.17 250 grams chicken mince
+[fp] 21.84
+Turk: 20.92 8 samosa strips
+Turk: 22.76 1 somosa strips
+[fp] 23.555
+Turk: 23.08 one large onion
+Turk: 24.03 1 onion finely chopped
+[fp] 25.295
+Turk: 25.17 1 cup finely chopped coriander leaves
+Turk: 25.42 one full cup
+[fp] 28.21
+Turk: 28.11 2 teaspoons of
+Turk: 28.31 2 tsp ginger garlic
+[fp] 30.235
+Turk: 30.17 a pinch of
+Turk: 30.3 pinch of turmeric
+[fp] 32.5
+Turk: 32.24 1/2 teaspoon of
+Turk: 32.76 � tsp red chili powder
+[fp] 34.6
+Turk: 34.16 2 green chilles
+Turk: 35.04 2 green chilies finely chopped
+[fp] 36.555
+Turk: 36.24 2 teaspoons of
+Turk: 36.87 2 tsp lemon juice
+[m ] 38.45 47 Put 250g of chicken mince in a bowl
+Turk: 37.88 1 teaspoon of
+Turk: 39.02 1 tsp garam masala powder
+[fp] 40.625
+Turk: 40.19 1 teaspoon of
+Turk: 41.06 1 tsp chaat masala
+[m ] 42.97 51 Add 1 large finely chopped onion
+Turk: 42.73 salt as per your
+Turk: 43.21 salt to taste
+[m ] 44.74 54 Add 2 finely chopped green chillies
+Turk: 44.55 oil to deep fry
+Turk: 44.93 oil to deep fry
+[m ] 47.16 57 Add 2 teaspoons of ginger garlic paste
+Turk: 46.48 to make the filling of the
+Turk: 47.84 Add minced chicken to a large bowl
+[m ] 52.53 62 Add 1 teaspoon of garam masala powder
+Turk: 52.51 to this we
+Turk: 52.55 Add one finely chopped onion
+[m ] 54.315 59 Add a pinch of turmeric powder
+Turk: 54.23 add onion to bowl
+Turk: 54.4 Add two finely chopped green chiles
+[m ] 55.43 55 Add 1/4 cup of finely chopped Coriander leaves
+Turk: 55.14 add green chilis
+Turk: 55.72 Add finely chopped fresh coriander leaves
+[m ] 56.345 65 Add salt to taste
+Turk: 56.06 � cup corriander leaves to bowl
+Turk: 56.63 add fresh coriander leaves
+[m ] 57.91 67 Add 2 teaspoons of lemon juice
+Turk: 57.29 add ginger garlic paste
+Turk: 58.02 Add the ginger garlic paste
+Turk: 58.42 add ginger garlic paste and turmeric powder
+[m ] 64.225 73 Take a samosa strop, and apply water to the edges
+Turk: 64.03 add garam masala powder
+Turk: 64.42 mix coriander leaves ginger garlic paste turmeric powder chat masala garam masala lemon juice salt to taste
+[m ] 68.235 68 mix everything together
+Turk: 67.64 add lemon juice
+Turk: 68.83 Mix everything
+[m ] 74.0166666667 82 Put a portion of the stuffing onto a corner
+Turk: 69.68 mix everything together
+Turk: 74.87 take samosa strip
+Turk: 77.5 apply water to samosa strip
+[m ] 80.3733333333 87 Fold it again and pinch the edge
+Turk: 79.21 place samosa strip on chopping board and apply water on sides
+Turk: 80.56 place a portion of the stuffing on the strip
+Turk: 81.35 apply water on the sides of the samosa strip
+[m ] 84.16 85 Folder it, and apply water on one of the edges
+Turk: 83.37 add stuffing
+Turk: 84.95 fold the strip with the stuffing into little triangles
+[fp] 86.18
+Turk: 86.17 apply water
+Turk: 86.19 fold over and apply water
+[m ] 89.265 99 Continue folding it up the samosa paper
+Turk: 87.64 fold
+Turk: 90.89 fold again 
+[fp] 94.88
+Turk: 94.85 seal the edges as you fold
+Turk: 94.91 seal the edges
+[m ] 109.15 112 Used some refined flour to seal the samosa together
+Turk: 108.05 to seal the samossa
+Turk: 109.26 how to make samosa
+Turk: 110.14 Add 2 Tbsp refined flour
+[fp] 112.853333333
+Turk: 112.15 use paste of refine flour
+Turk: 112.9 mix flour and water to make a paste
+Turk: 113.51 Make paste by adding water
+[m ] 113.92 123 Put the samosa in deep frying oil on a low heat
+Turk: 113.84 use water
+Turk: 114.0 2 tbsp refined flour
+[fp] 117.68
+Turk: 117.19 Combine flour with water to make paste
+Turk: 118.17 using the water and flour make the paste out of it
+[fp] 123.723333333
+Turk: 121.47 use the paste to stick the samosa strips
+Turk: 123.57 Oil to deep fry
+Turk: 126.13 Add oil to deep fry
+[fp] 131.443333333
+Turk: 129.41 make the kadai with oil and keep boil the oil the put the samosa strip ready
+Turk: 130.02 Add to simosas to oil
+Turk: 134.9 Medium hot flame
+[fp] 139.535
+Turk: 136.74 Flame should be medium high
+Turk: 142.33 keep the boil temperature medium if the oil is more hot the outside of the samosa only cooked the rest of inside samosa not cooked
+[fp] 152.735
+Turk: 147.22 keep the flame in medium level
+Turk: 158.25 Flip
+[m ] 166.59 168 Remove the samosas and put them onto absorbant paper
+Turk: 166.58 when the samosa looks golden color turn off the gas
+Turk: 166.6 Turn off burner when golden brown
+[fp] 171.036666667
+Turk: 169.79 Remove onto paper towel to drain
+Turk: 170.96 Place simosas on paper to drain
+Turk: 172.36 oil obsorb tissue paper will obsorb the excess oil
+[fp] 176.626666667
+Turk: 176.49 now the chicken samosa ready and prepare chutney of our choice
+Turk: 176.64 Serve with chutney of your choice
+Turk: 176.75 Serve with chutney
+[fn] 61 Add 1 teaspoon of Chaat masala
+[fn] 60 Add 1/2 teaspoon of red chilli powder
+[s1_c04_v05]  Precision: 0.4737  Recall:0.9000  F1:0.6207  F2:0.7627 turk: 38 true: 20 match: 18 fp: 20 fn: 2
+[m ] 48.06 49 Use thinly sliced beef, and put them into the bowl to marinate
+Turk: 36.53 stir fried with vegetables
+Turk: 49.58 Put thinly sliced beef into a bowl
+Turk: 51.27 Put beef in bowl to marinade
+Turk: 54.86 put the sliced beef into the bowl
+[m ] 57.505 57 Pour 4 tablespoons of pear juice and 3 tablespoons of refined wh
+Turk: 56.63 Add pear juice and refined white wine
+Turk: 58.38 Pour 3 Tbsp refined white wine
+[m ] 60.275 69 Leave it for about 20 minutes to make beef tender
+Turk: 58.65 Pour 4 Tbsp pear juice
+Turk: 58.93 Pour pear juice white wine
+Turk: 59.32 put beef in bowl
+Turk: 64.2 add 4 spoon pear juice
+[fp] 68.39
+Turk: 67.24 add pear juice and white wine
+Turk: 69.54 add refined white wine
+[m ] 71.74 79 Slice the carrots, onions, and green onions
+Turk: 70.69 leave 20 minutes
+Turk: 71.98 Leave it for 15-20 minutes
+Turk: 72.55 tasty
+[m ] 84.6433333333 87 Prepare 6 tablespoons of soy sauce, 1 tablespoon, of oyster sauc
+Turk: 81.66 slice carrots onions
+Turk: 84.56 slice the carrot and green onion 
+Turk: 87.71 Prepare Vegetables
+[m ] 92.1766666667 95 Add 2 tablespoons of finely chopped green onion, 2 tablespoons o
+Turk: 89.68 prepare soy sauce oyster sauce alcohol
+Turk: 92.07 Make Sauce
+Turk: 94.78 soya sauces 
+[m ] 97.035 103 Add 1 tablespoon of sugar, a few drops of giner juice, 1 tablesp
+Turk: 96.54 chopped green onion garlic ginger juice 
+Turk: 97.53 add garlic
+[m ] 107.815 113 Mix it together and por it onto the beef to marinate the beef.
+Turk: 107.02 add sugar ginger oil
+Turk: 108.61 Add 1 Tbsp of sugar
+[fp] 109.975
+Turk: 109.58 Add dash of black pepper
+Turk: 110.37 1 tablespoon of
+[m ] 122.465 121 May add sliced vegetables and marinate together with the beef.
+Turk: 122.42 now you add the
+Turk: 122.51 Add sliced vegetables
+[m ] 126.04 124 Pour about 1 tablespoon of oil and fry the beef
+Turk: 125.74 Pour 1 Tbsp oil and fry beef
+Turk: 126.34 now you may stir
+[m ] 137.755 135 Add mushrooms when the beef is almost cooked.
+Turk: 136.51 Add mushrooms when beef is almost cooked
+Turk: 139.0 and the mushrooms
+[m ] 141.87 141 Place it on the plate and it's ready to eat.
+Turk: 139.96 now the bulger
+Turk: 141.39 Place bulgogi on plate
+Turk: 144.26 Cooking beef stir fry
+[s1_c05_v01]  Precision: 0.8571  Recall:1.0000  F1:0.9231  F2:0.9677 turk: 14 true: 12 match: 12 fp: 2 fn: 0
+[m ] 8.24333333333 4 Chop 2 sticks of green onions and half of a regular onion
+Turk: 5.46 how to make bolugie - a Korean dish
+Turk: 8.96 cut the beans
+Turk: 10.31 cut spring onion
+[fp] 10.825
+Turk: 10.82 chop up 2 stalks of green onion
+Turk: 10.83 Chop up two green onions
+[fp] 21.445
+Turk: 14.1 chop up half of an onion
+Turk: 21.49 cut the white onion
+Turk: 24.48 Chop up one half of a white onion
+Turk: 25.71 cut onion
+[m ] 35.5833333333 35 Slice sirloin beef thinly
+Turk: 28.53 Onions cut don
+Turk: 36.71 ofcourse the main ingredients 
+Turk: 41.51 cut meat
+[fp] 55.0633333333
+Turk: 50.58 cut thin slices of beef sirloin
+Turk: 57.06 Cut in to slices
+Turk: 57.55 cut in to little slices
+[fp] 58.9125
+Turk: 57.98 Thinly slice sirloin
+Turk: 58.02 cut beef into slices
+Turk: 58.66 slice and cut the meat
+Turk: 60.99 Cut it into Strips
+[m ] 76.7166666667 86 Add 2 tablespoons of sesame oil
+Turk: 76.53 Pour 2 Tbsp of rice wine on to meat
+Turk: 76.65 Add 2 Tbsp of rice wine
+Turk: 76.97 Add 2 Tablespoons Rice Wine
+[fp] 89.4533333333
+Turk: 89.31 Add 2 Tbsp of sesame oil
+Turk: 89.48 Pour 2 Tbsp of Sesame Oil on to meat
+Turk: 89.57 Add 2 Tablespoons Sesame Oil
+[m ] 105.103333333 102 Add a quart cup of sugar
+Turk: 105.01 Add 1/4 C sugar
+Turk: 105.05 Add 1/4 C of sugar to meat
+Turk: 105.25 Add 1/4 Cup Sugar
+[m ] 109.704 119 Mix everything together
+Turk: 108.98 Pour soy sauce
+Turk: 109.21 Add 1/2 C soy sauce
+Turk: 109.42 Add 1/2 Cup Soy Sauce
+Turk: 109.5 Add 1/2 C of soy sauce to meat
+Turk: 111.41 pour soy sauce
+[m ] 122.49 132 Let it sit for 3 hours
+Turk: 120.33 mix
+Turk: 121.06 Mix it up
+Turk: 126.08 Mix and let it sit for 3 hours
+[m ] 130.05 140 Dump everything into a pan and cook it on high heat for a couple
+Turk: 130.03 let sit for 3 hours
+Turk: 130.07 Let it sit for about 3 hours
+[fp] 137.845
+Turk: 134.89 Cook in a pan or wok
+Turk: 140.8 dump into pan or wok
+[fp] 145.375
+Turk: 143.37 cook on high heat
+Turk: 147.38 cook on high heat for a couple minutes
+[fn] 108 Add 1/2 cup of soy sauce 
+[fn] 74 Put everything into a bowl, and add 2 tablespoons of rice wine
+[s1_c05_v02]  Precision: 0.5000  Recall:0.7778  F1:0.6087  F2:0.7000 turk: 14 true: 9 match: 7 fp: 7 fn: 2
+[m ] 8.955 9 gather ingredients
+Turk: 8.95 the ingredients
+Turk: 8.96 Gather ingredients
+[fp] 14.71
+Turk: 11.92 mushrooms celery
+Turk: 17.5  take mushrooms
+[m ] 46.995 48 Marinate beef with soysauce, oyster sauce, garlic, ginger, black
+Turk: 46.79 the steps
+Turk: 47.2 preparing steps
+[fp] 51.215
+Turk: 50.64 marinate beef with 
+Turk: 51.79 Marinate beef with soy sauce ginger oyster sauce garlic black pepper salt and sugar
+[fp] 55.605
+Turk: 55.48 marinate beef with multiple ingredients
+Turk: 55.73 Marinate beef with soy sauce oyster sauce garlic sauce black pepper
+[m ] 88.655 97 Heat the wok
+Turk: 79.34 marinate
+Turk: 97.97 Heat the wok
+[m ] 103.393333333 112 Add marinated beef while leaving the marination mix in the bowl
+Turk: 100.88 Melt the butter
+Turk: 104.11 melt butter in pan
+Turk: 105.19 melt the butter
+[m ] 113.065 123 Cook beef for 8 minutes
+Turk: 112.65 Add marinated beef to the hot pan
+Turk: 112.89 Add marinated beef
+Turk: 112.9 add marinated
+Turk: 113.82 add marinated beef
+[m ] 123.313333333 130 Add searoning and remove from heat
+Turk: 122.31 Cook the beef for eight minutes
+Turk: 123.16 cook beef for
+Turk: 124.47 cook beef 8 minutes
+[m ] 131.533333333 137 Put mushroom, celery, green pepper, and onion in the remaining m
+Turk: 131.36 add seasoning &
+Turk: 131.58 Add the seasoning and remove the beef from the heat
+Turk: 131.66 add seasoning remove heat
+[fp] 139.316666667
+Turk: 137.37 put mushroom
+Turk: 138.87 put mushroom celery green pepper and onion
+Turk: 141.71 Add the vegetables (mushroom celery green peppers and onions into the remaining marinade
+[m ] 152.186666667 150 Mix thouroughly
+Turk: 151.55 mix thourghly
+Turk: 152.0 mix thoroughly
+Turk: 153.01 Mix thoroughly
+[m ] 171.886666667 167 Heat same wok with olive oil
+Turk: 170.65 heat same wok with olive oil
+Turk: 170.75 heat same wok
+Turk: 174.26 heat wok with olive oil
+[m ] 183.576666667 182 Stir fry marinated veggies until half done
+Turk: 182.84 stir fry marinated veggies until half
+Turk: 183.4 stir fry marinated
+Turk: 184.49 stir fry marinated veggies
+[fn] 100 Melt the butter
+[s1_c05_v03]  Precision: 0.7143  Recall:0.9091  F1:0.8000  F2:0.8621 turk: 14 true: 11 match: 10 fp: 4 fn: 1
+[fp] 51.08
+Turk: 36.92 Whether you are 17 or 70 everyone loves bulgogi.
+Turk: 54.3 ingredients to make meat dish
+Turk: 62.02 We
+[m ] 65.625 73 Half a carrot
+Turk: 63.74 I
+Turk: 67.51 a pound of thinly
+[m ] 76.355 86 Get 2 Table spoons of sesame oil
+Turk: 76.04 1 tablespoon of garlic
+Turk: 76.67 Thinly sliced beef one piece of green onion half an onion half a carrot.
+[m ] 98.89 103 slice one green onion
+Turk: 96.1 3 table spoon of
+Turk: 99.42 1 tbsp of garlic 1 tbsp of sugar 1 tbsp of honey 2 tbsp of sesame oil 3 tbsp of soy sauce and 3 tbsp of lettuce juice.
+Turk: 101.15 slice one green onion half an onion and half a carrot
+[m ] 103.21 108 slice thinly
+Turk: 102.89 first slice one green
+Turk: 103.53 Slice one green onion
+[m ] 105.445 106 slice half an onion and half a carrot
+Turk: 105.41 First slice one green onion half an onion and half a crrot.
+Turk: 105.48 half an onion
+[m ] 106.435 112 Next prepare in a big bowl, all of the ingredients except the ve
+Turk: 106.34 Slice half an onion and half a carrot
+Turk: 106.53 and half a carrot
+[m ] 109.78 102 Slice thinly, the green onion, carrot, and onion
+Turk: 108.75 Slice thinly
+Turk: 109.76 remember slice thinly
+Turk: 110.83 slice thinly so it is easy for you to eat
+[m ] 112.2875 121 make sure everything is well mixed
+Turk: 111.9 Prepare a big bowl
+Turk: 112.03 Add all the ingredients except the sliced vegetables to a big bowl
+Turk: 112.27 Slice thinly.
+Turk: 112.95 onion reacipe
+[fp] 117.41
+Turk: 117.35 Next prepare a big bowl and mix all the ingredients except for the vegetables
+Turk: 117.47 Next prepared the bowl
+[fp] 124.4
+Turk: 119.93 Make sure everything is well mixed
+Turk: 120.76 make sure the everything
+Turk: 121.93 make sure that every thing is well mixed
+Turk: 134.98 Then mix all the ingredients
+[m ] 148.0025 145 add soy sauce
+Turk: 147.23 sugar
+Turk: 147.42 Add sugar to the soy sauce and beef
+Turk: 148.12 upon the beef add sugar soy sauce citrus juice garlic honey
+Turk: 149.24 Sugar
+[m ] 159.436666667 154 add lettuce juice
+Turk: 159.38 Honey
+Turk: 159.43 adding ingredients to meat
+Turk: 159.5 Add the honey
+[m ] 165.608333333 159 add honey
+Turk: 164.9 Garlic
+Turk: 165.35 Add garlic to the bowl
+Turk: 165.58 Add the garlic
+Turk: 165.7 Add garlic
+Turk: 165.75 ADD GARLIC
+Turk: 166.37 peal the potato
+[m ] 169.296666667 165 add garlic
+Turk: 169.16 Add sesame oil
+Turk: 169.29 put garlic sesame
+Turk: 169.44 Add sesame oil
+[m ] 175.35 169 add sesame oil
+Turk: 174.41 Mix the ingredients well
+Turk: 176.29 Make sure well mixed
+[m ] 189.756666667 184 After mixing, put the vegetables in
+Turk: 186.03 Add the vegetables
+Turk: 188.07 Add sliced vegetables
+Turk: 195.17 put chopped carrot
+[m ] 214.433333333 218 add some cooking oil
+Turk: 212.92 Heat a pan
+Turk: 214.37 Wait till pan gets hot
+Turk: 216.01 ADD CARROT
+[m ] 216.823333333 214 heat the pan
+Turk: 216.6 how did prepare food
+Turk: 216.77 cooking the meat
+Turk: 217.1 Add cooking oil to the skillet
+[fp] 217.68
+Turk: 217.65 Add cooking oil
+Turk: 217.68 put cooking oil
+Turk: 217.71 Put cooking oil in the pan
+[fp] 218.62
+Turk: 218.4 Put some cooking oil.
+Turk: 218.84 put some cooking oil
+[m ] 229.82 232 put the meat in the pan
+Turk: 223.03 Cook the meat over medium-high heat
+Turk: 223.52 The cook the meat in medium heat.
+Turk: 231.82 COOK THE MEAT IN MEDIUM HIGH HEAT
+Turk: 234.23 Prawn Fry
+Turk: 236.5 put it in the frying pan
+[m ] 274.106666667 265 Move meat onto a nice dish and serve
+Turk: 268.16 Move the meat to a nice dish and serve
+Turk: 269.79 Move the meat to a nice dish and serve.
+Turk: 284.37 Bulgogi is usually served for 2 or more people.
+[m ] 295.685 298 take a lettuce leaf
+Turk: 293.02 Bulgogi can be enjoyed with rice.
+Turk: 298.35 Take a lettuce leaf
+[m ] 300.03 308 add a bit of bulgogi
+Turk: 298.84 First take lettuce leaves.
+Turk: 301.22 take cab leave
+[fp] 304.535
+Turk: 302.46 Various leaves can be used and so take your pick.
+Turk: 306.61 Put a bit of Bulgogi on top of the lettuce leaf
+[m ] 314.873333333 318 add ssamjang
+Turk: 311.86 Be careful. Don
+Turk: 313.83 added meat
+Turk: 318.93 Add ssamjang to the top
+[fp] 325.46
+Turk: 322.77 add tomato saues
+Turk: 325.61 when you order
+Turk: 328.0 It is this orange looking thing.
+[m ] 338.725 345 close the wrap carefully
+Turk: 338.64 Carefully fold the lettuce leaf to close the wrap
+Turk: 338.81 then 
+[m ] 342.045 352 take a bite and enjoy!
+Turk: 341.84 close it up carefully
+Turk: 342.25 close up carefully so that you don
+[fp] 357.23
+Turk: 347.81 so this is the fun part
+Turk: 353.7 take a bite
+Turk: 370.18 In a Korean restaurant just say bulgogi please.
+[fp] 382.13
+Turk: 378.72 Make your stomach happy.
+Turk: 385.54 stuffing
+[fn] 147 add sugar
+[fn] 231 Cook everything on a med-high heat until completed
+[fn] 75 Get 1 tablespoon of garlic
+[fn] 77 get 1 tablespoon of sugar
+[fn] 81 1 tablespoon of honey
+[fn] 66 Get a pound of thinly sliced beef
+[fn] 69 Get 1 piece of green onion
+[fn] 71 Half an onion
+[fn] 175 Make sure that everything is well mixed
+[fn] 95 get 3 table spoon of lettic juice
+[fn] 90 Get 3 tablespoons of soysauce
+[s1_c05_v04]  Precision: 0.7188  Recall:0.6765  F1:0.6970  F2:0.6846 turk: 32 true: 34 match: 23 fp: 9 fn: 11
+[fp] 19.935
+Turk: 19.68 Ingredients list
+Turk: 20.19 Gather ingredients
+[m ] 35.34 31 Cut 3 cups of beef, thinly
+Turk: 32.68 Thinly slice sirloin beef
+Turk: 35.56 Cut 3 cups of beef
+Turk: 37.78 cut the beef 
+[m ] 50.6566666667 51 Slice 1 onion
+Turk: 43.37 slice the beef in to small pieces
+Turk: 53.24 Slice one onion
+Turk: 55.36 Slice one onion
+[fp] 56.145
+Turk: 56.04 Slice the onion
+Turk: 56.25 slice one onion in to small pieces
+[m ] 79.965 73 Slice one carrot
+Turk: 75.43 Julienne half a carrot
+Turk: 84.5 half carrot
+[m ] 99.9366666667 97 Add 6 tablespoons of soy sauce into a bowl
+Turk: 98.61 Put 6 tablespoons soy sauce in a bowl
+Turk: 99.84 ADD 2 TABLE SPOON OLIVE OIL
+Turk: 101.36 Add six TBSP soy sauce 
+[m ] 109.803333333 107 Add 3 tablespoons of cooking wine
+Turk: 109.69 3 tbsp cooking wine
+Turk: 109.85 Add 3 TBSP cooking wine
+Turk: 109.87 three tablespoons of
+[m ] 118.415 124 1 tablespoon of sesame oil
+Turk: 118.28 three tablespoons
+Turk: 118.55 3 tbsp pear juice
+[m ] 126.28 136 Add 3 tablespoons of chopped green onions
+Turk: 125.79 1 tablespoon
+Turk: 126.77 1 tbsp sesame oil
+[m ] 138.81 145 Add 1 1/2 minced garlic
+Turk: 138.26 3 tablespoon
+Turk: 139.36 3 tbsp chopped green onions
+[m ] 149.695 154 1 tablespoon of sesame seed
+Turk: 149.66 1 and half mixed
+Turk: 149.73 mix vineger and spring onions and ginger pieces  and honey in soya sauce
+[m ] 151.34 160 add 1 pinch of ginger powder and 1 teaspoon of black pepper
+Turk: 150.83 one and a half garlic cloves minced
+Turk: 151.85 1 tablespoon
+[m ] 161.07 169 Add 3 tablespoons of sugar
+Turk: 157.09 1 tbsp sesame seed
+Turk: 162.65 Add ginger powder and black pepper to the mix
+Turk: 163.47 1 pinch
+[m ] 164.47 173 Mix well
+Turk: 164.42 Add one pinch of ginger powder
+Turk: 164.52 One pinch ginger powder
+[fp] 166.58
+Turk: 166.49 1/4 tsp black pepper
+Turk: 166.67 Add 1 full tsp of black pepper
+[fp] 171.06
+Turk: 170.62 Add sugar to the mix
+Turk: 171.5 Add 3 Tbsp sugar
+[fp] 174.495
+Turk: 174.49 Mix well
+Turk: 174.5 Mix well
+[m ] 187.01 185 In a large bowl, combine beef, onions, and carrots
+Turk: 184.98 Combine beef onion and carrot in a large bowl
+Turk: 189.04 In large bowl combine beef onion and carrot
+[m ] 203.36 201 Pour the mixed sauce into the bowl and mix well
+Turk: 202.01 Pour the marinade over the beef and vegetables
+Turk: 204.71 Pour mixed sauce in to beef
+[fp] 226.01
+Turk: 205.27 Mix well
+Turk: 206.1 Mix well
+Turk: 245.44 Cover with plastic wrap
+Turk: 247.23 keep in the refrigerator
+[m ] 249.33 243 Cover bowl with plastic wrap and put bowl in refrigerator for ha
+Turk: 249.31 Cover with plastic wrap and place in refrigerator for 12 hours
+Turk: 249.35 Refrigerate for 12 hours
+[m ] 272.445 267 Fry the marinated bulgogi on a heated pan until the beef is cook
+Turk: 272.1 Heat the Bulgogi in a pan until the beef is cooked
+Turk: 272.79 bagogi in a heated pan
+[fp] 274.493333333
+Turk: 274.16 Fry marinade until beef is cooked
+Turk: 274.22 Fry marinated bulgogi until beef is cooked
+Turk: 275.1 Put the bulgulgi in a heated pan until the beef is cooked.
+[fp] 296.966666667
+Turk: 295.19 Serve the Bulgogi with rice and vegetables
+Turk: 296.36 serve this bagogi with
+Turk: 299.35 Serve this bulgolgi with rice and different kinds of vegetables.
+[fn] 115 Add 3 tablespoons of pear juice
+[s1_c05_v05]  Precision: 0.6667  Recall:0.9412  F1:0.7805  F2:0.8696 turk: 24 true: 17 match: 16 fp: 8 fn: 1
+=====================================
+eps: 0.07 GLOBAL Precision: 0.5941 Recall:0.8207  F1:0.6893  F2:0.7625

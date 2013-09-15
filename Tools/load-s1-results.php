@@ -18,13 +18,13 @@ if ($mysqli->connect_errno) {
 // }
 
 $entry_array = array();
-$domain = "m"; // "c", "m", "p"
+$domain = "p"; // "c", "m", "p"
 if ($domain == "c")
-	$entries = array_merge(file("real/s1_" . $domain . "_1/external_hit.results"), file("real/s1_" . $domain . "_2/external_hit.results"), file("real/s1_" . $domain . "_3/external_hit.results"), file("real/s1_" . $domain . "_4/external_hit.results"), file("real/s1_" . $domain . "_5/external_hit.results"), file("real/s1_" . $domain . "_6/external_hit.results"));
+	$entries = array_merge(file("real/s1_" . $domain . "_11/external_hit.results"), file("real/s1_" . $domain . "_1/external_hit.results"), file("real/s1_" . $domain . "_2/external_hit.results"), file("real/s1_" . $domain . "_3/external_hit.results"), file("real/s1_" . $domain . "_4/external_hit.results"), file("real/s1_" . $domain . "_5/external_hit.results"), file("real/s1_" . $domain . "_6/external_hit.results"));
 else if ($domain == "m")
-	$entries = array_merge(file("real/s1_" . $domain . "_1/external_hit.results"), file("real/s1_" . $domain . "_2/external_hit.results"), file("real/s1_" . $domain . "_3/external_hit.results"), file("real/s1_" . $domain . "_4/external_hit.results"), file("real/s1_" . $domain . "_5/external_hit.results"), file("real/s1_" . $domain . "_6/external_hit.results"));
+	$entries = array_merge(file("real/s1_" . $domain . "_11/external_hit.results"), file("real/s1_" . $domain . "_1/external_hit.results"), file("real/s1_" . $domain . "_2/external_hit.results"), file("real/s1_" . $domain . "_3/external_hit.results"), file("real/s1_" . $domain . "_4/external_hit.results"), file("real/s1_" . $domain . "_5/external_hit.results"), file("real/s1_" . $domain . "_6/external_hit.results"));
 else if ($domain == "p")
-	$entries = array_merge(file("real/s1_" . $domain . "_1/external_hit.results"), file("real/s1_" . $domain . "_2/external_hit.results"), file("real/s1_" . $domain . "_3/external_hit.results"), file("real/s1_" . $domain . "_4/external_hit.results"), file("real/s1_" . $domain . "_5/external_hit.results"), file("real/s1_" . $domain . "_6/external_hit.results"), file("real/s1_" . $domain . "_7/external_hit.results"), file("real/s1_" . $domain . "_8/external_hit.results"));
+	$entries = array_merge(file("real/s1_" . $domain . "_11/external_hit.results"), file("real/s1_" . $domain . "_1/external_hit.results"), file("real/s1_" . $domain . "_2/external_hit.results"), file("real/s1_" . $domain . "_3/external_hit.results"), file("real/s1_" . $domain . "_4/external_hit.results"), file("real/s1_" . $domain . "_5/external_hit.results"), file("real/s1_" . $domain . "_6/external_hit.results"), file("real/s1_" . $domain . "_7/external_hit.results"), file("real/s1_" . $domain . "_8/external_hit.results"));
 
 //$entries = file("real/s1_" . $domain . "_5/external_hit.results");
 
@@ -95,7 +95,7 @@ foreach($entries as $i => $entry) {
 		}
 	}
 	echo "<tr><td>{$count}</td><td>{$data[19]}</td><td>" . htmlspecialchars($vid) . "</td><td>" . $labels_result . "</td></tr>";
-	$output_string = $count . "\t\t" . $data[19] . "\t\t" . $vid . "\t\t" . $labels_result_file . "\n";
+	$output_string = $count . "\t\t" . $data[19] . "_" . $count . "\t\t" . $vid . "\t\t" . $labels_result_file . "\n";
 	file_put_contents("s1_" . $domain . ".data", $output_string, FILE_APPEND);
 }
 

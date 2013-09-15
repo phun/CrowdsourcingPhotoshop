@@ -1,0 +1,222 @@
+[s1_c03_v01]  Precision: 0.7895  Recall:0.9375  F1:0.8572  F2:0.9036 turk: 29 true: 16 match: 15 fp: 4 fn: 1
+[s1_c03_v01]  Precision: 0.7778  Recall:0.8750  F1:0.8235  F2:0.8537 turk: 23 true: 16 match: 14 fp: 4 fn: 2
+
+[s1_c02_v05]  Precision: 0.8000  Recall:0.5714  F1:0.6666  F2:0.6060 turk: 25 true: 14 match: 8 fp: 2 fn: 6
+[s1_c02_v05]  Precision: 0.7273  Recall:0.5714  F1:0.6400  F2:0.5970 turk: 21 true: 14 match: 8 fp: 3 fn: 6
+
+[s1_c03_v03]  Precision: 0.8421  Recall:1.0000  F1:0.9143  F2:0.9639 turk: 27 true: 16 match: 16 fp: 3 fn: 0
+[s1_c03_v03]  Precision: 0.7500  Recall:0.9375  F1:0.8333  F2:0.8929 turk: 21 true: 16 match: 15 fp: 5 fn: 1
+
+[s1_c05_v05]  Precision: 0.7619  Recall:0.9412  F1:0.8421  F2:0.8989 turk: 25 true: 17 match: 16 fp: 5 fn: 1
+[s1_c05_v05]  Precision: 0.7143  Recall:0.8824  F1:0.7895  F2:0.8427 turk: 22 true: 17 match: 15 fp: 6 fn: 2
+
+
+
+/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools > python compute-accuracy.py data/s1_c.data.org.w1 s1_c.v2.truth.json 10
+None
+[s1_c01_v01]  Precision: 0.4000  Recall:0.8571  F1:0.5454  F2:0.6977 turk: 19 true: 7 match: 6 fp: 9 fn: 1
+[s1_c01_v02]  Precision: 0.6842  Recall:0.9286  F1:0.7879  F2:0.8667 turk: 21 true: 14 match: 13 fp: 6 fn: 1
+[s1_c01_v03]  Precision: 0.6429  Recall:0.9000  F1:0.7500  F2:0.8333 turk: 19 true: 10 match: 9 fp: 5 fn: 1
+[s1_c01_v04]  Precision: 0.5714  Recall:0.6667  F1:0.6154  F2:0.6452 turk: 12 true: 6 match: 4 fp: 3 fn: 2
+[s1_c01_v05]  Precision: 0.2857  Recall:1.0000  F1:0.4444  F2:0.6667 turk: 54 true: 10 match: 10 fp: 25 fn: 0
+[s1_c02_v01]  Precision: 0.4688  Recall:0.9375  F1:0.6250  F2:0.7813 turk: 51 true: 16 match: 15 fp: 17 fn: 1
+[s1_c02_v02]  Precision: 0.6923  Recall:0.7200  F1:0.7059  F2:0.7143 turk: 33 true: 25 match: 18 fp: 8 fn: 7
+[s1_c02_v03]  Precision: 0.3478  Recall:0.8889  F1:0.5000  F2:0.6780 turk: 41 true: 9 match: 8 fp: 15 fn: 1
+[s1_c02_v04]  Precision: 0.6818  Recall:0.8824  F1:0.7692  F2:0.8334 turk: 29 true: 17 match: 15 fp: 7 fn: 2
+[s1_c02_v05]  Precision: 0.7500  Recall:0.6429  F1:0.6923  F2:0.6618 turk: 24 true: 14 match: 9 fp: 3 fn: 5
+[s1_c03_v01]  Precision: 0.7778  Recall:0.8750  F1:0.8235  F2:0.8537 turk: 29 true: 16 match: 14 fp: 4 fn: 2
+[s1_c03_v02]  Precision: 0.5455  Recall:1.0000  F1:0.7059  F2:0.8572 turk: 32 true: 12 match: 12 fp: 10 fn: 0
+[s1_c03_v03]  Precision: 0.8421  Recall:1.0000  F1:0.9143  F2:0.9639 turk: 29 true: 16 match: 16 fp: 3 fn: 0
+[s1_c03_v04]  Precision: 0.5294  Recall:1.0000  F1:0.6923  F2:0.8491 turk: 24 true: 9 match: 9 fp: 8 fn: 0
+[s1_c03_v05]  Precision: 0.6364  Recall:0.7778  F1:0.7000  F2:0.7447 turk: 15 true: 9 match: 7 fp: 4 fn: 2
+[s1_c04_v01]  Precision: 0.8800  Recall:0.7586  F1:0.8148  F2:0.7801 turk: 42 true: 29 match: 22 fp: 3 fn: 7
+[s1_c04_v02]  Precision: 0.9167  Recall:0.5000  F1:0.6471  F2:0.5500 turk: 13 true: 22 match: 11 fp: 1 fn: 11
+[s1_c04_v03]  Precision: 0.6970  Recall:0.6970  F1:0.6970  F2:0.6970 turk: 47 true: 33 match: 23 fp: 10 fn: 10
+[s1_c04_v04]  Precision: 0.6667  Recall:0.8421  F1:0.7442  F2:0.8000 turk: 40 true: 19 match: 16 fp: 8 fn: 3
+[s1_c04_v05]  Precision: 0.4444  Recall:0.8000  F1:0.5714  F2:0.6896 turk: 50 true: 20 match: 16 fp: 20 fn: 4
+[s1_c05_v01]  Precision: 0.8333  Recall:0.8333  F1:0.8333  F2:0.8333 turk: 27 true: 12 match: 10 fp: 2 fn: 2
+[s1_c05_v02]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 19 true: 9 match: 9 fp: 6 fn: 0
+[s1_c05_v03]  Precision: 0.7857  Recall:1.0000  F1:0.8800  F2:0.9483 turk: 24 true: 11 match: 11 fp: 3 fn: 0
+[s1_c05_v04]  Precision: 0.8095  Recall:0.5000  F1:0.6182  F2:0.5414 turk: 37 true: 34 match: 17 fp: 4 fn: 17
+[s1_c05_v05]  Precision: 0.7727  Recall:1.0000  F1:0.8718  F2:0.9444 turk: 29 true: 17 match: 17 fp: 5 fn: 0
+=====================================
+eps: 0.1 GLOBAL Precision: 0.6265 Recall:0.8005  F1:0.7029  F2:0.7584
+
+
+s1_c.data.w1
+[s1_c01_v01]  Precision: 0.4000  Recall:0.8571  F1:0.5454  F2:0.6977 turk: 19 true: 7 match: 6 fp: 9 fn: 1
+[s1_c01_v02]  Precision: 0.6842  Recall:0.9286  F1:0.7879  F2:0.8667 turk: 21 true: 14 match: 13 fp: 6 fn: 1
+[s1_c01_v03]  Precision: 0.6429  Recall:0.9000  F1:0.7500  F2:0.8333 turk: 19 true: 10 match: 9 fp: 5 fn: 1
+[s1_c01_v04]  Precision: 0.5714  Recall:0.6667  F1:0.6154  F2:0.6452 turk: 12 true: 6 match: 4 fp: 3 fn: 2
+[s1_c01_v05]  Precision: 0.2941  Recall:1.0000  F1:0.4545  F2:0.6757 turk: 54 true: 10 match: 10 fp: 24 fn: 0
+[s1_c02_v01]  Precision: 0.4118  Recall:0.8750  F1:0.5600  F2:0.7143 turk: 45 true: 16 match: 14 fp: 20 fn: 2
+[s1_c02_v02]  Precision: 0.6923  Recall:0.7200  F1:0.7059  F2:0.7143 turk: 33 true: 25 match: 18 fp: 8 fn: 7
+[s1_c02_v03]  Precision: 0.3478  Recall:0.8889  F1:0.5000  F2:0.6780 turk: 41 true: 9 match: 8 fp: 15 fn: 1
+[s1_c02_v04]  Precision: 0.6818  Recall:0.8824  F1:0.7692  F2:0.8334 turk: 29 true: 17 match: 15 fp: 7 fn: 2
+[s1_c02_v05]  Precision: 0.7273  Recall:0.5714  F1:0.6400  F2:0.5970 turk: 20 true: 14 match: 8 fp: 3 fn: 6
+[s1_c03_v01]  Precision: 0.7368  Recall:0.8750  F1:0.8000  F2:0.8434 turk: 25 true: 16 match: 14 fp: 5 fn: 2
+[s1_c03_v02]  Precision: 0.5455  Recall:1.0000  F1:0.7059  F2:0.8572 turk: 32 true: 12 match: 12 fp: 10 fn: 0
+[s1_c03_v03]  Precision: 0.7500  Recall:0.9375  F1:0.8333  F2:0.8929 turk: 23 true: 16 match: 15 fp: 5 fn: 1
+[s1_c03_v04]  Precision: 0.5294  Recall:1.0000  F1:0.6923  F2:0.8491 turk: 24 true: 9 match: 9 fp: 8 fn: 0
+[s1_c03_v05]  Precision: 0.6364  Recall:0.7778  F1:0.7000  F2:0.7447 turk: 15 true: 9 match: 7 fp: 4 fn: 2
+[s1_c04_v01]  Precision: 0.8400  Recall:0.7241  F1:0.7778  F2:0.7446 turk: 42 true: 29 match: 21 fp: 4 fn: 8
+[s1_c04_v02]  Precision: 0.9167  Recall:0.5000  F1:0.6471  F2:0.5500 turk: 13 true: 22 match: 11 fp: 1 fn: 11
+[s1_c04_v03]  Precision: 0.7273  Recall:0.7273  F1:0.7273  F2:0.7273 turk: 47 true: 33 match: 24 fp: 9 fn: 9
+[s1_c04_v04]  Precision: 0.7500  Recall:0.9474  F1:0.8372  F2:0.9000 turk: 40 true: 19 match: 18 fp: 6 fn: 1
+[s1_c04_v05]  Precision: 0.4444  Recall:0.8000  F1:0.5714  F2:0.6896 turk: 50 true: 20 match: 16 fp: 20 fn: 4
+[s1_c05_v01]  Precision: 0.8333  Recall:0.8333  F1:0.8333  F2:0.8333 turk: 27 true: 12 match: 10 fp: 2 fn: 2
+[s1_c05_v02]  Precision: 0.5000  Recall:0.7778  F1:0.6087  F2:0.7000 turk: 15 true: 9 match: 7 fp: 7 fn: 2
+[s1_c05_v03]  Precision: 0.7857  Recall:1.0000  F1:0.8800  F2:0.9483 turk: 24 true: 11 match: 11 fp: 3 fn: 0
+[s1_c05_v04]  Precision: 0.8095  Recall:0.5000  F1:0.6182  F2:0.5414 turk: 37 true: 34 match: 17 fp: 4 fn: 17
+[s1_c05_v05]  Precision: 0.7083  Recall:1.0000  F1:0.8292  F2:0.9239 turk: 26 true: 17 match: 17 fp: 7 fn: 0
+=====================================
+eps: 0.1 GLOBAL Precision: 0.6169 Recall:0.7929  F1:0.6939  F2:0.7501
+
+
+s1_c.data.sep (separating same Turkers across multiple segments)
+[s1_c01_v01]  Precision: 0.4000  Recall:0.8571  F1:0.5454  F2:0.6977 turk: 19 true: 7 match: 6 fp: 9 fn: 1
+[s1_c01_v02]  Precision: 0.6842  Recall:0.9286  F1:0.7879  F2:0.8667 turk: 19 true: 14 match: 13 fp: 6 fn: 1
+[s1_c01_v03]  Precision: 0.6429  Recall:0.9000  F1:0.7500  F2:0.8333 turk: 18 true: 10 match: 9 fp: 5 fn: 1
+[s1_c01_v04]  Precision: 0.5714  Recall:0.6667  F1:0.6154  F2:0.6452 turk: 12 true: 6 match: 4 fp: 3 fn: 2
+[s1_c01_v05]  Precision: 0.2941  Recall:1.0000  F1:0.4545  F2:0.6757 turk: 53 true: 10 match: 10 fp: 24 fn: 0
+[s1_c02_v01]  Precision: 0.4118  Recall:0.8750  F1:0.5600  F2:0.7143 turk: 45 true: 16 match: 14 fp: 20 fn: 2
+[s1_c02_v02]  Precision: 0.6923  Recall:0.7200  F1:0.7059  F2:0.7143 turk: 32 true: 25 match: 18 fp: 8 fn: 7
+[s1_c02_v03]  Precision: 0.3478  Recall:0.8889  F1:0.5000  F2:0.6780 turk: 41 true: 9 match: 8 fp: 15 fn: 1
+[s1_c02_v04]  Precision: 0.6364  Recall:0.8235  F1:0.7180  F2:0.7778 turk: 28 true: 17 match: 14 fp: 8 fn: 3
+[s1_c02_v05]  Precision: 0.7273  Recall:0.5714  F1:0.6400  F2:0.5970 turk: 20 true: 14 match: 8 fp: 3 fn: 6
+[s1_c03_v01]  Precision: 0.7000  Recall:0.8750  F1:0.7778  F2:0.8333 turk: 24 true: 16 match: 14 fp: 6 fn: 2
+[s1_c03_v02]  Precision: 0.5455  Recall:1.0000  F1:0.7059  F2:0.8572 turk: 32 true: 12 match: 12 fp: 10 fn: 0
+[s1_c03_v03]  Precision: 0.8333  Recall:0.9375  F1:0.8823  F2:0.9146 turk: 21 true: 16 match: 15 fp: 3 fn: 1
+[s1_c03_v04]  Precision: 0.5625  Recall:1.0000  F1:0.7200  F2:0.8654 turk: 24 true: 9 match: 9 fp: 7 fn: 0
+[s1_c03_v05]  Precision: 0.6364  Recall:0.7778  F1:0.7000  F2:0.7447 turk: 15 true: 9 match: 7 fp: 4 fn: 2
+[s1_c04_v01]  Precision: 0.9167  Recall:0.7586  F1:0.8302  F2:0.7857 turk: 40 true: 29 match: 22 fp: 2 fn: 7
+[s1_c04_v02]  Precision: 0.9167  Recall:0.5000  F1:0.6471  F2:0.5500 turk: 13 true: 22 match: 11 fp: 1 fn: 11
+[s1_c04_v03]  Precision: 0.7273  Recall:0.7273  F1:0.7273  F2:0.7273 turk: 47 true: 33 match: 24 fp: 9 fn: 9
+[s1_c04_v04]  Precision: 0.6957  Recall:0.8421  F1:0.7619  F2:0.8081 turk: 38 true: 19 match: 16 fp: 7 fn: 3
+[s1_c04_v05]  Precision: 0.4444  Recall:0.8000  F1:0.5714  F2:0.6896 turk: 49 true: 20 match: 16 fp: 20 fn: 4
+[s1_c05_v01]  Precision: 0.8333  Recall:0.8333  F1:0.8333  F2:0.8333 turk: 27 true: 12 match: 10 fp: 2 fn: 2
+[s1_c05_v02]  Precision: 0.5000  Recall:0.7778  F1:0.6087  F2:0.7000 turk: 15 true: 9 match: 7 fp: 7 fn: 2
+[s1_c05_v03]  Precision: 0.7143  Recall:0.9091  F1:0.8000  F2:0.8621 turk: 24 true: 11 match: 10 fp: 4 fn: 1
+[s1_c05_v04]  Precision: 0.9000  Recall:0.5294  F1:0.6667  F2:0.5769 turk: 35 true: 34 match: 18 fp: 2 fn: 16
+[s1_c05_v05]  Precision: 0.7083  Recall:1.0000  F1:0.8292  F2:0.9239 turk: 26 true: 17 match: 17 fp: 7 fn: 0
+=====================================
+eps: 0.1 GLOBAL Precision: 0.6190 Recall:0.7879  F1:0.6933  F2:0.7471
+
+
+
+/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools > python compute-accuracy.py data/s1_m.data.w1 s1_m.v2.truth.json 10
+None
+[s1_m01_v01]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 29 true: 12 match: 12 fp: 8 fn: 0
+[s1_m01_v02]  Precision: 0.5000  Recall:0.7273  F1:0.5926  F2:0.6667 turk: 29 true: 11 match: 8 fp: 8 fn: 3
+[s1_m01_v03]  Precision: 0.6667  Recall:0.8571  F1:0.7500  F2:0.8108 turk: 27 true: 14 match: 12 fp: 6 fn: 2
+no matches for this video.
+[s1_m01_v05]  Precision: 0.7200  Recall:0.6667  F1:0.6923  F2:0.6767 turk: 31 true: 27 match: 18 fp: 7 fn: 9
+[s1_m02_v01]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 11 true: 4 match: 4 fp: 4 fn: 0
+[s1_m02_v02]  Precision: 0.7333  Recall:0.6875  F1:0.7097  F2:0.6962 turk: 25 true: 16 match: 11 fp: 4 fn: 5
+[s1_m02_v03]  Precision: 0.7778  Recall:0.7000  F1:0.7369  F2:0.7143 turk: 18 true: 10 match: 7 fp: 2 fn: 3
+[s1_m02_v04]  Precision: 0.8000  Recall:1.0000  F1:0.8889  F2:0.9524 turk: 7 true: 4 match: 4 fp: 1 fn: 0
+[s1_m02_v05]  Precision: 0.5714  Recall:0.5714  F1:0.5714  F2:0.5714 turk: 8 true: 7 match: 4 fp: 3 fn: 3
+[s1_m03_v01]  Precision: 0.7000  Recall:0.5385  F1:0.6087  F2:0.5645 turk: 16 true: 13 match: 7 fp: 3 fn: 6
+[s1_m03_v02]  Precision: 0.1053  Recall:0.4000  F1:0.1667  F2:0.2565 turk: 30 true: 5 match: 2 fp: 17 fn: 3
+no matches for this video.
+[s1_m03_v04]  Precision: 0.7692  Recall:0.7692  F1:0.7692  F2:0.7692 turk: 21 true: 13 match: 10 fp: 3 fn: 3
+[s1_m03_v05]  Precision: 0.5625  Recall:0.9000  F1:0.6923  F2:0.8036 turk: 20 true: 10 match: 9 fp: 7 fn: 1
+[s1_m04_v01]  Precision: 0.1429  Recall:0.3333  F1:0.2000  F2:0.2632 turk: 11 true: 3 match: 1 fp: 6 fn: 2
+[s1_m04_v02]  Precision: 0.8750  Recall:1.0000  F1:0.9333  F2:0.9722 turk: 12 true: 7 match: 7 fp: 1 fn: 0
+[s1_m04_v03]  Precision: 0.7391  Recall:0.8500  F1:0.7907  F2:0.8252 turk: 34 true: 20 match: 17 fp: 6 fn: 3
+[s1_m04_v04]  Precision: 0.8125  Recall:0.6190  F1:0.7027  F2:0.6500 turk: 30 true: 21 match: 13 fp: 3 fn: 8
+[s1_m04_v05]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 11 true: 3 match: 3 fp: 3 fn: 0
+[s1_m05_v01]  Precision: 0.6316  Recall:0.8571  F1:0.7273  F2:0.8000 turk: 25 true: 14 match: 12 fp: 7 fn: 2
+[s1_m05_v02]  Precision: 0.1935  Recall:0.8571  F1:0.3157  F2:0.5084 turk: 40 true: 7 match: 6 fp: 25 fn: 1
+no matches for this video.
+no matches for this video.
+=====================================
+eps: 0.1 GLOBAL Precision: 0.4293 Recall:0.7557  F1:0.5475  F2:0.6560
+
+/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools > python compute-accuracy.py data/s1_m.sep.data.w1 s1_m.v2.truth.json 10
+None
+[s1_m01_v01]  Precision: 0.6000  Recall:1.0000  F1:0.7500  F2:0.8824 turk: 29 true: 12 match: 12 fp: 8 fn: 0
+[s1_m01_v02]  Precision: 0.4375  Recall:0.6364  F1:0.5185  F2:0.5834 turk: 29 true: 11 match: 7 fp: 9 fn: 4
+[s1_m01_v03]  Precision: 0.6667  Recall:0.8571  F1:0.7500  F2:0.8108 turk: 27 true: 14 match: 12 fp: 6 fn: 2
+no matches for this video.
+[s1_m01_v05]  Precision: 0.7200  Recall:0.6667  F1:0.6923  F2:0.6767 turk: 31 true: 27 match: 18 fp: 7 fn: 9
+[s1_m02_v01]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 11 true: 4 match: 4 fp: 4 fn: 0
+[s1_m02_v02]  Precision: 0.6667  Recall:0.6250  F1:0.6452  F2:0.6329 turk: 24 true: 16 match: 10 fp: 5 fn: 6
+[s1_m02_v03]  Precision: 0.7778  Recall:0.7000  F1:0.7369  F2:0.7143 turk: 18 true: 10 match: 7 fp: 2 fn: 3
+[s1_m02_v04]  Precision: 0.8000  Recall:1.0000  F1:0.8889  F2:0.9524 turk: 7 true: 4 match: 4 fp: 1 fn: 0
+[s1_m02_v05]  Precision: 0.5714  Recall:0.5714  F1:0.5714  F2:0.5714 turk: 8 true: 7 match: 4 fp: 3 fn: 3
+[s1_m03_v01]  Precision: 0.7000  Recall:0.5385  F1:0.6087  F2:0.5645 turk: 16 true: 13 match: 7 fp: 3 fn: 6
+[s1_m03_v02]  Precision: 0.1053  Recall:0.4000  F1:0.1667  F2:0.2565 turk: 29 true: 5 match: 2 fp: 17 fn: 3
+no matches for this video.
+[s1_m03_v04]  Precision: 0.7692  Recall:0.7692  F1:0.7692  F2:0.7692 turk: 21 true: 13 match: 10 fp: 3 fn: 3
+[s1_m03_v05]  Precision: 0.5625  Recall:0.9000  F1:0.6923  F2:0.8036 turk: 20 true: 10 match: 9 fp: 7 fn: 1
+[s1_m04_v01]  Precision: 0.1429  Recall:0.3333  F1:0.2000  F2:0.2632 turk: 10 true: 3 match: 1 fp: 6 fn: 2
+[s1_m04_v02]  Precision: 0.8750  Recall:1.0000  F1:0.9333  F2:0.9722 turk: 12 true: 7 match: 7 fp: 1 fn: 0
+[s1_m04_v03]  Precision: 0.7391  Recall:0.8500  F1:0.7907  F2:0.8252 turk: 33 true: 20 match: 17 fp: 6 fn: 3
+[s1_m04_v04]  Precision: 0.7778  Recall:0.6667  F1:0.7180  F2:0.6863 turk: 27 true: 21 match: 14 fp: 4 fn: 7
+[s1_m04_v05]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 11 true: 3 match: 3 fp: 3 fn: 0
+[s1_m05_v01]  Precision: 0.6667  Recall:0.8571  F1:0.7500  F2:0.8108 turk: 25 true: 14 match: 12 fp: 6 fn: 2
+[s1_m05_v02]  Precision: 0.1935  Recall:0.8571  F1:0.3157  F2:0.5084 turk: 40 true: 7 match: 6 fp: 25 fn: 1
+no matches for this video.
+no matches for this video.
+=====================================
+eps: 0.1 GLOBAL Precision: 0.4256 Recall:0.7511  F1:0.5433  F2:0.6515
+
+
+/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools > python compute-accuracy.py data/s1_p.data.w1 s1_p.v2.truth.json 10
+None
+[s1_p01_v01]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 10 true: 3 match: 3 fp: 3 fn: 0
+[s1_p01_v02]  Precision: 0.2000  Recall:0.5000  F1:0.2857  F2:0.3846 turk: 17 true: 4 match: 2 fp: 8 fn: 2
+[s1_p01_v03]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 27 true: 8 match: 8 fp: 8 fn: 0
+[s1_p01_v04]  Precision: 0.8182  Recall:0.7500  F1:0.7826  F2:0.7627 turk: 17 true: 12 match: 9 fp: 2 fn: 3
+[s1_p01_v05]  Precision: 0.8125  Recall:1.0000  F1:0.8966  F2:0.9559 turk: 21 true: 13 match: 13 fp: 3 fn: 0
+[s1_p02_v01]  Precision: 0.5455  Recall:0.8571  F1:0.6667  F2:0.7692 turk: 20 true: 7 match: 6 fp: 5 fn: 1
+[s1_p02_v02]  Precision: 0.6667  Recall:0.3333  F1:0.4444  F2:0.3703 turk: 5 true: 6 match: 2 fp: 1 fn: 4
+[s1_p02_v03]  Precision: 0.3750  Recall:0.8571  F1:0.5217  F2:0.6818 turk: 27 true: 7 match: 6 fp: 10 fn: 1
+[s1_p02_v04]  Precision: 0.3636  Recall:0.6667  F1:0.4706  F2:0.5714 turk: 18 true: 6 match: 4 fp: 7 fn: 2
+[s1_p02_v05]  Precision: 0.4286  Recall:0.5000  F1:0.4616  F2:0.4839 turk: 8 true: 6 match: 3 fp: 4 fn: 3
+[s1_p03_v01]  Precision: 0.5000  Recall:0.8750  F1:0.6364  F2:0.7609 turk: 18 true: 8 match: 7 fp: 7 fn: 1
+[s1_p03_v02]  Precision: 0.5833  Recall:0.7000  F1:0.6363  F2:0.6731 turk: 31 true: 10 match: 7 fp: 5 fn: 3
+[s1_p03_v03]  Precision: 0.3750  Recall:1.0000  F1:0.5455  F2:0.7500 turk: 9 true: 3 match: 3 fp: 5 fn: 0
+[s1_p03_v04]  Precision: 0.4348  Recall:0.8333  F1:0.5714  F2:0.7042 turk: 50 true: 12 match: 10 fp: 13 fn: 2
+[s1_p03_v05]  Precision: 0.6364  Recall:0.4375  F1:0.5185  F2:0.4667 turk: 19 true: 16 match: 7 fp: 4 fn: 9
+[s1_p04_v02]  Precision: 0.5000  Recall:0.8000  F1:0.6154  F2:0.7143 turk: 26 true: 10 match: 8 fp: 8 fn: 2
+[s1_p04_v03]  Precision: 0.4118  Recall:0.7000  F1:0.5185  F2:0.6141 turk: 33 true: 10 match: 7 fp: 10 fn: 3
+[s1_p04_v04]  Precision: 0.5714  Recall:1.0000  F1:0.7272  F2:0.8696 turk: 30 true: 8 match: 8 fp: 6 fn: 0
+[s1_p04_v05]  Precision: 0.6875  Recall:0.7857  F1:0.7333  F2:0.7639 turk: 28 true: 14 match: 11 fp: 5 fn: 3
+[s1_p05_v01]  Precision: 0.8333  Recall:0.7143  F1:0.7692  F2:0.7353 turk: 14 true: 7 match: 5 fp: 1 fn: 2
+[s1_p05_v02]  Precision: 1.0000  Recall:0.6250  F1:0.7692  F2:0.6757 turk: 8 true: 8 match: 5 fp: 0 fn: 3
+[s1_p05_v03]  Precision: 0.9000  Recall:0.4500  F1:0.6000  F2:0.5000 turk: 17 true: 20 match: 9 fp: 1 fn: 11
+[s1_p05_v04]  Precision: 0.6667  Recall:1.0000  F1:0.8000  F2:0.9091 turk: 19 true: 8 match: 8 fp: 4 fn: 0
+[s1_p05_v05]  Precision: 0.7222  Recall:0.8125  F1:0.7647  F2:0.7927 turk: 31 true: 16 match: 13 fp: 5 fn: 3
+=====================================
+eps: 0.1 GLOBAL Precision: 0.5675 Recall:0.7387  F1:0.6419  F2:0.6967
+/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools > python compute-accuracy.py data/s1_p.sep.data.w1 s1_p.v2.truth.json 10
+None
+[s1_p01_v01]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 10 true: 3 match: 3 fp: 3 fn: 0
+[s1_p01_v02]  Precision: 0.2000  Recall:0.5000  F1:0.2857  F2:0.3846 turk: 17 true: 4 match: 2 fp: 8 fn: 2
+[s1_p01_v03]  Precision: 0.5000  Recall:1.0000  F1:0.6667  F2:0.8333 turk: 24 true: 8 match: 8 fp: 8 fn: 0
+[s1_p01_v04]  Precision: 0.7273  Recall:0.6667  F1:0.6957  F2:0.6780 turk: 15 true: 12 match: 8 fp: 3 fn: 4
+[s1_p01_v05]  Precision: 0.8667  Recall:1.0000  F1:0.9286  F2:0.9702 turk: 20 true: 13 match: 13 fp: 2 fn: 0
+[s1_p02_v01]  Precision: 0.5455  Recall:0.8571  F1:0.6667  F2:0.7692 turk: 19 true: 7 match: 6 fp: 5 fn: 1
+[s1_p02_v02]  Precision: 0.6667  Recall:0.3333  F1:0.4444  F2:0.3703 turk: 4 true: 6 match: 2 fp: 1 fn: 4
+[s1_p02_v03]  Precision: 0.4000  Recall:0.8571  F1:0.5454  F2:0.6977 turk: 26 true: 7 match: 6 fp: 9 fn: 1
+[s1_p02_v04]  Precision: 0.4000  Recall:0.6667  F1:0.5000  F2:0.5883 turk: 17 true: 6 match: 4 fp: 6 fn: 2
+[s1_p02_v05]  Precision: 0.4286  Recall:0.5000  F1:0.4616  F2:0.4839 turk: 8 true: 6 match: 3 fp: 4 fn: 3
+[s1_p03_v01]  Precision: 0.5000  Recall:0.8750  F1:0.6364  F2:0.7609 turk: 18 true: 8 match: 7 fp: 7 fn: 1
+[s1_p03_v02]  Precision: 0.5714  Recall:0.8000  F1:0.6666  F2:0.7407 turk: 28 true: 10 match: 8 fp: 6 fn: 2
+[s1_p03_v03]  Precision: 0.3750  Recall:1.0000  F1:0.5455  F2:0.7500 turk: 8 true: 3 match: 3 fp: 5 fn: 0
+[s1_p03_v04]  Precision: 0.4400  Recall:0.9167  F1:0.5946  F2:0.7534 turk: 44 true: 12 match: 11 fp: 14 fn: 1
+[s1_p03_v05]  Precision: 0.7273  Recall:0.5000  F1:0.5926  F2:0.5333 turk: 17 true: 16 match: 8 fp: 3 fn: 8
+[s1_p04_v02]  Precision: 0.5000  Recall:0.8000  F1:0.6154  F2:0.7143 turk: 26 true: 10 match: 8 fp: 8 fn: 2
+[s1_p04_v03]  Precision: 0.4118  Recall:0.7000  F1:0.5185  F2:0.6141 turk: 31 true: 10 match: 7 fp: 10 fn: 3
+[s1_p04_v04]  Precision: 0.5714  Recall:1.0000  F1:0.7272  F2:0.8696 turk: 28 true: 8 match: 8 fp: 6 fn: 0
+[s1_p04_v05]  Precision: 0.6471  Recall:0.7857  F1:0.7097  F2:0.7534 turk: 22 true: 14 match: 11 fp: 6 fn: 3
+[s1_p05_v01]  Precision: 0.8571  Recall:0.8571  F1:0.8571  F2:0.8571 turk: 12 true: 7 match: 6 fp: 1 fn: 1
+[s1_p05_v02]  Precision: 1.0000  Recall:0.5000  F1:0.6667  F2:0.5556 turk: 5 true: 8 match: 4 fp: 0 fn: 4
+[s1_p05_v03]  Precision: 1.0000  Recall:0.5500  F1:0.7097  F2:0.6044 turk: 16 true: 20 match: 11 fp: 0 fn: 9
+[s1_p05_v04]  Precision: 0.6667  Recall:1.0000  F1:0.8000  F2:0.9091 turk: 19 true: 8 match: 8 fp: 4 fn: 0
+[s1_p05_v05]  Precision: 0.7222  Recall:0.8125  F1:0.7647  F2:0.7927 turk: 30 true: 16 match: 13 fp: 5 fn: 3
+=====================================
+eps: 0.1 GLOBAL Precision: 0.5753 Recall:0.7568  F1:0.6537  F2:0.7119
+
