@@ -158,12 +158,12 @@ for cid in cluster_list:
         else:
             # let's use the longest string if we cannot resolve
             final_label = max([getLabel(l1), getLabel(l2), getLabel(l3)], key=len)
-            # print "no match", l1["answer"], l2["answer"], l3["answer"]
             # final_label = "noop"
 
         if l1["answer"] == "noop" or l2["answer"] == "noop" or l3["answer"] == "noop":
             count_diverse_noop_included += 1
-            final_label = "noop"
+            final_label = max([getLabel(l1), getLabel(l2), getLabel(l3)], key=len)
+            # final_label = "noop"
         
         count_diverse += 1
     else:
@@ -212,31 +212,31 @@ for cid in cluster_list:
     #     # print "---"
     #     # print final_data[vid][cid]
 
+do_merging = True
+if do_merging:
+    vidlist = final_data.keys()
+    vidlist.sort()
+    window_size = 5
+    for vid in vidlist:
+        print vid
+        sorted_labels = []
+        for lid in final_data[vid]:
+            sorted_labels.append({'lid': lid, 'time': final_data[vid][lid]["time"]})         
+        sorted_labels = sorted(sorted_labels, key=lambda k: float(k["time"]))
+        sorted_lidlist = [item["lid"] for item in sorted_labels]    
 
-
-vidlist = final_data.keys()
-vidlist.sort()
-window_size = 5
-for vid in vidlist:
-    print vid
-    sorted_labels = []
-    for lid in final_data[vid]:
-        sorted_labels.append({'lid': lid, 'time': final_data[vid][lid]["time"]})         
-    sorted_labels = sorted(sorted_labels, key=lambda k: float(k["time"]))
-    sorted_lidlist = [item["lid"] for item in sorted_labels]    
-
-    prev_label = {}
-    for lid in sorted_lidlist:
-        cur_label = final_data[vid][lid]
-        print "  ", lid, cur_label["time"], cur_label["label"]
-        # look for potential merge, if label is same and time is close enough
-        if prev_label:
-            distance = math.fabs(float(prev_label["time"]) - float(cur_label["time"]))
-            text_sim = is_same_label(prev_label["label"], cur_label["label"])
-            if distance <= window_size and text_sim[3] > 0.8:
-                print " [merging]", text_sim[3], prev_label["time"], cur_label["time"], prev_label["label"], cur_label["label"]
-                del final_data[vid][lid]
-        prev_label = cur_label
+        prev_label = {}
+        for lid in sorted_lidlist:
+            cur_label = final_data[vid][lid]
+            print "  ", lid, cur_label["time"], cur_label["label"]
+            # look for potential merge, if label is same and time is close enough
+            if prev_label:
+                distance = math.fabs(float(prev_label["time"]) - float(cur_label["time"]))
+                text_sim = is_same_label(prev_label["label"], cur_label["label"])
+                if distance <= window_size and text_sim[3] > 0.8:
+                    print " [merging]", text_sim[3], prev_label["time"], cur_label["time"], prev_label["label"], cur_label["label"]
+                    del final_data[vid][lid]
+            prev_label = cur_label
 
 save_files(final_data)
 

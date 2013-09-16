@@ -1,270 +1,180 @@
-1		s2_c01_v01_e02		64.5066666667				0		228		on				
-2		s2_c01_v01_e02		64.5066666667				220		220						
-3		s2_c01_v01_e02		64.5066666667				0		228		on				
-4		s2_c01_v01_e05		179.89				60		74						
-5		s2_c01_v01_e05		179.89				60		72				on		
-6		s2_c01_v01_e05		179.89				56		0				on		
-7		s2_c01_v01_e06		186.613333333				110		0				on		
-8		s2_c01_v01_e06		186.613333333				104		114						
-9		s2_c01_v01_e06		186.613333333				100		112						
-10		s2_c01_v01_e09		237.29				0		34		on				
-11		s2_c01_v01_e09		237.29				22		32						
-12		s2_c01_v01_e09		237.29				30		32						
-13		s2_c01_v01_e10		39.785				159		169						
-14		s2_c01_v01_e10		39.785				0		173		on				
-15		s2_c01_v01_e10		39.785				161		173						
-16		s2_c01_v01_e11		79.725				169		189						
-17		s2_c01_v01_e11		79.725				177		189						
-18		s2_c01_v01_e11		79.725				179		185						
-19		s2_c01_v01_e12		254.515				178		194						
-20		s2_c01_v01_e12		254.515				186		194						
-21		s2_c01_v01_e12		254.515				182		196		on				
-22		s2_c01_v01_e13		221.536666667				231		239						
-23		s2_c01_v01_e13		221.536666667				227		247						
-24		s2_c01_v01_e13		221.536666667				233		247						
-25		s2_c01_v01_e14		53.97				47		55						
-26		s2_c01_v01_e14		53.97				53		63						
-27		s2_c01_v01_e14		53.97				45		57						
-28		s2_c01_v01_e15		94.585				72		86						
-29		s2_c01_v01_e15		94.585				72		84						
-30		s2_c01_v01_e15		94.585				80		0				on		
-31		s2_m01_v01_e16		328.313333333				228		246						
-32		s2_m01_v01_e16		328.313333333				232		238						
-33		s2_m01_v01_e16		328.313333333				228		246						
-34		s2_m01_v01_e17		350.75				304		314						
-35		s2_m01_v01_e17		350.75				306		316						
-36		s2_m01_v01_e17		350.75				312		320						
-37		s2_m01_v01_e19		284.79				317		331						
-38		s2_m01_v01_e19		284.79				315		331						
-39		s2_m01_v01_e19		284.79				315		333						
-40		s2_m01_v01_e20		166.386666667				290		300						
-41		s2_m01_v01_e20		166.386666667				290		304						
-42		s2_m01_v01_e20		166.386666667				288		304						
-43		s2_m01_v01_e21		138.453333333				99		101						
-44		s2_m01_v01_e21		138.453333333				91		105						
-45		s2_m01_v01_e21		138.453333333				97		103						
-46		s2_m01_v01_e24		454.96				358		372						
-47		s2_m01_v01_e24		454.96				358		370						
-48		s2_m01_v01_e24		454.96				352		370						
-49		s2_m01_v01_e25		228.715				20		24						
-50		s2_m01_v01_e25		228.715				18		30						
-51		s2_m01_v01_e25		228.715				22		30						
-52		s2_m01_v01_e26		373.38				259		271						
-53		s2_m01_v01_e26		373.38				265		271						
-54		s2_m01_v01_e26		373.38				267		271						
-55		s2_m01_v02_e01		138.101666667				271		283				on		
-56		s2_m01_v02_e01		138.101666667				269		275						
-57		s2_m01_v02_e01		138.101666667				263		279						
-58		s2_m01_v02_e02		147.57				36		46						
-59		s2_m01_v02_e02		147.57				30		42						
-60		s2_m01_v02_e02		147.57				28		42						
-61		s2_p02_v01_e17		273.2				45		0						
-62		s2_p02_v01_e17		273.2				0		0		on		on		
-63		s2_p02_v01_e17		273.2				51		55						
-64		s2_p02_v01_e18		244.265				196		206						
-65		s2_p02_v01_e18		244.265				196		208						
-66		s2_p02_v01_e18		244.265				196		216						
-67		s2_p02_v01_e19		107.59				204		224						
-68		s2_p02_v01_e19		107.59				214		220						
-69		s2_p02_v01_e19		107.59				204		224						
-70		s2_p02_v01_e20		66.965				229		243						
-71		s2_p02_v01_e20		66.965				231		237						
-72		s2_p02_v01_e20		66.965				233		239						
-73		s2_p02_v03_e02		38.52				314		334				on		
-74		s2_p02_v03_e02		38.52				324		324						
-75		s2_p02_v03_e02		38.52				324		328						
-76		s2_p02_v03_e04		59.67				273		283						
-77		s2_p02_v03_e04		59.67				265		281						
-78		s2_p02_v03_e04		59.67				271		279						
-79		s2_p02_v03_e05		69.13				276		294						
-80		s2_p02_v03_e05		69.13				286		290						
-81		s2_p02_v03_e05		69.13				278		296						
-82		s2_p02_v03_e09		200.18				357		369						
-83		s2_p02_v03_e09		200.18				349		363		on				
-84		s2_p02_v03_e09		200.18				355		369						
-85		s2_p02_v03_e10		206.15				381		389		on				
-86		s2_p02_v03_e10		206.15				373		387						
-87		s2_p02_v03_e10		206.15				373		391						
-88		s2_p02_v03_e11		248.606666667				387		389						
-89		s2_p02_v03_e11		248.606666667				381		391						
-90		s2_p02_v03_e11		248.606666667				379		397						
-1		s2_c01_v01_e02		64.5066666667				0		228		on				
-2		s2_c01_v01_e02		64.5066666667				220		220						
-3		s2_c01_v01_e02		64.5066666667				0		228		on				
-4		s2_c01_v01_e05		179.89				60		74						
-5		s2_c01_v01_e05		179.89				60		72				on		
-6		s2_c01_v01_e05		179.89				56		0				on		
-7		s2_c01_v01_e06		186.613333333				110		0				on		
-8		s2_c01_v01_e06		186.613333333				104		114						
-9		s2_c01_v01_e06		186.613333333				100		112						
-10		s2_c01_v01_e09		237.29				0		34		on				
-11		s2_c01_v01_e09		237.29				22		32						
-12		s2_c01_v01_e09		237.29				30		32						
-13		s2_c01_v01_e10		39.785				159		169						
-14		s2_c01_v01_e10		39.785				0		173		on				
-15		s2_c01_v01_e10		39.785				161		173						
-16		s2_c01_v01_e11		79.725				169		189						
-17		s2_c01_v01_e11		79.725				177		189						
-18		s2_c01_v01_e11		79.725				179		185						
-19		s2_c01_v01_e12		254.515				178		194						
-20		s2_c01_v01_e12		254.515				186		194						
-21		s2_c01_v01_e12		254.515				182		196		on				
-22		s2_c01_v01_e13		221.536666667				231		239						
-23		s2_c01_v01_e13		221.536666667				227		247						
-24		s2_c01_v01_e13		221.536666667				233		247						
-25		s2_c01_v01_e14		53.97				47		55						
-26		s2_c01_v01_e14		53.97				53		63						
-27		s2_c01_v01_e14		53.97				45		57						
-28		s2_c01_v01_e15		94.585				72		86						
-29		s2_c01_v01_e15		94.585				72		84						
-30		s2_c01_v01_e15		94.585				80		0				on		
-31		s2_m01_v01_e16		328.313333333				228		246						
-32		s2_m01_v01_e16		328.313333333				232		238						
-33		s2_m01_v01_e16		328.313333333				228		246						
-34		s2_m01_v01_e17		350.75				304		314						
-35		s2_m01_v01_e17		350.75				306		316						
-36		s2_m01_v01_e17		350.75				312		320						
-37		s2_m01_v01_e19		284.79				317		331						
-38		s2_m01_v01_e19		284.79				315		331						
-39		s2_m01_v01_e19		284.79				315		333						
-40		s2_m01_v01_e20		166.386666667				290		300						
-41		s2_m01_v01_e20		166.386666667				290		304						
-42		s2_m01_v01_e20		166.386666667				288		304						
-43		s2_m01_v01_e21		138.453333333				99		101						
-44		s2_m01_v01_e21		138.453333333				91		105						
-45		s2_m01_v01_e21		138.453333333				97		103						
-46		s2_m01_v01_e24		454.96				358		372						
-47		s2_m01_v01_e24		454.96				358		370						
-48		s2_m01_v01_e24		454.96				352		370						
-49		s2_m01_v01_e25		228.715				20		24						
-50		s2_m01_v01_e25		228.715				18		30						
-51		s2_m01_v01_e25		228.715				22		30						
-52		s2_m01_v01_e26		373.38				259		271						
-53		s2_m01_v01_e26		373.38				265		271						
-54		s2_m01_v01_e26		373.38				267		271						
-55		s2_m01_v02_e01		138.101666667				271		283				on		
-56		s2_m01_v02_e01		138.101666667				269		275						
-57		s2_m01_v02_e01		138.101666667				263		279						
-58		s2_m01_v02_e02		147.57				36		46						
-59		s2_m01_v02_e02		147.57				30		42						
-60		s2_m01_v02_e02		147.57				28		42						
-61		s2_p02_v01_e17		273.2				45		0						
-62		s2_p02_v01_e17		273.2				0		0		on		on		
-63		s2_p02_v01_e17		273.2				51		55						
-64		s2_p02_v01_e18		244.265				196		206						
-65		s2_p02_v01_e18		244.265				196		208						
-66		s2_p02_v01_e18		244.265				196		216						
-67		s2_p02_v01_e19		107.59				204		224						
-68		s2_p02_v01_e19		107.59				214		220						
-69		s2_p02_v01_e19		107.59				204		224						
-70		s2_p02_v01_e20		66.965				229		243						
-71		s2_p02_v01_e20		66.965				231		237						
-72		s2_p02_v01_e20		66.965				233		239						
-73		s2_p02_v03_e02		38.52				314		334				on		
-74		s2_p02_v03_e02		38.52				324		324						
-75		s2_p02_v03_e02		38.52				324		328						
-76		s2_p02_v03_e04		59.67				273		283						
-77		s2_p02_v03_e04		59.67				265		281						
-78		s2_p02_v03_e04		59.67				271		279						
-79		s2_p02_v03_e05		69.13				276		294						
-80		s2_p02_v03_e05		69.13				286		290						
-81		s2_p02_v03_e05		69.13				278		296						
-82		s2_p02_v03_e09		200.18				357		369						
-83		s2_p02_v03_e09		200.18				349		363		on				
-84		s2_p02_v03_e09		200.18				355		369						
-85		s2_p02_v03_e10		206.15				381		389		on				
-86		s2_p02_v03_e10		206.15				373		387						
-87		s2_p02_v03_e10		206.15				373		391						
-88		s2_p02_v03_e11		248.606666667				387		389						
-89		s2_p02_v03_e11		248.606666667				381		391						
-90		s2_p02_v03_e11		248.606666667				379		397						
-1		s2_c01_v01_e02		64.5066666667				0		228		on				
-2		s2_c01_v01_e02		64.5066666667				220		220						
-3		s2_c01_v01_e02		64.5066666667				0		228		on				
-4		s2_c01_v01_e05		179.89				60		74						
-5		s2_c01_v01_e05		179.89				60		72				on		
-6		s2_c01_v01_e05		179.89				56		0				on		
-7		s2_c01_v01_e06		186.613333333				110		0				on		
-8		s2_c01_v01_e06		186.613333333				104		114						
-9		s2_c01_v01_e06		186.613333333				100		112						
-10		s2_c01_v01_e09		237.29				0		34		on				
-11		s2_c01_v01_e09		237.29				22		32						
-12		s2_c01_v01_e09		237.29				30		32						
-13		s2_c01_v01_e10		39.785				159		169						
-14		s2_c01_v01_e10		39.785				0		173		on				
-15		s2_c01_v01_e10		39.785				161		173						
-16		s2_c01_v01_e11		79.725				169		189						
-17		s2_c01_v01_e11		79.725				177		189						
-18		s2_c01_v01_e11		79.725				179		185						
-19		s2_c01_v01_e12		254.515				178		194						
-20		s2_c01_v01_e12		254.515				186		194						
-21		s2_c01_v01_e12		254.515				182		196		on				
-22		s2_c01_v01_e13		221.536666667				231		239						
-23		s2_c01_v01_e13		221.536666667				227		247						
-24		s2_c01_v01_e13		221.536666667				233		247						
-25		s2_c01_v01_e14		53.97				47		55						
-26		s2_c01_v01_e14		53.97				53		63						
-27		s2_c01_v01_e14		53.97				45		57						
-28		s2_c01_v01_e15		94.585				72		86						
-29		s2_c01_v01_e15		94.585				72		84						
-30		s2_c01_v01_e15		94.585				80		0				on		
-31		s2_m01_v01_e16		328.313333333				228		246						
-32		s2_m01_v01_e16		328.313333333				232		238						
-33		s2_m01_v01_e16		328.313333333				228		246						
-34		s2_m01_v01_e17		350.75				304		314						
-35		s2_m01_v01_e17		350.75				306		316						
-36		s2_m01_v01_e17		350.75				312		320						
-37		s2_m01_v01_e19		284.79				317		331						
-38		s2_m01_v01_e19		284.79				315		331						
-39		s2_m01_v01_e19		284.79				315		333						
-40		s2_m01_v01_e20		166.386666667				290		300						
-41		s2_m01_v01_e20		166.386666667				290		304						
-42		s2_m01_v01_e20		166.386666667				288		304						
-43		s2_m01_v01_e21		138.453333333				99		101						
-44		s2_m01_v01_e21		138.453333333				91		105						
-45		s2_m01_v01_e21		138.453333333				97		103						
-46		s2_m01_v01_e24		454.96				358		372						
-47		s2_m01_v01_e24		454.96				358		370						
-48		s2_m01_v01_e24		454.96				352		370						
-49		s2_m01_v01_e25		228.715				20		24						
-50		s2_m01_v01_e25		228.715				18		30						
-51		s2_m01_v01_e25		228.715				22		30						
-52		s2_m01_v01_e26		373.38				259		271						
-53		s2_m01_v01_e26		373.38				265		271						
-54		s2_m01_v01_e26		373.38				267		271						
-55		s2_m01_v02_e01		138.101666667				271		283				on		
-56		s2_m01_v02_e01		138.101666667				269		275						
-57		s2_m01_v02_e01		138.101666667				263		279						
-58		s2_m01_v02_e02		147.57				36		46						
-59		s2_m01_v02_e02		147.57				30		42						
-60		s2_m01_v02_e02		147.57				28		42						
-61		s2_p02_v01_e17		273.2				45		0						
-62		s2_p02_v01_e17		273.2				0		0		on		on		
-63		s2_p02_v01_e17		273.2				51		55						
-64		s2_p02_v01_e18		244.265				196		206						
-65		s2_p02_v01_e18		244.265				196		208						
-66		s2_p02_v01_e18		244.265				196		216						
-67		s2_p02_v01_e19		107.59				204		224						
-68		s2_p02_v01_e19		107.59				214		220						
-69		s2_p02_v01_e19		107.59				204		224						
-70		s2_p02_v01_e20		66.965				229		243						
-71		s2_p02_v01_e20		66.965				231		237						
-72		s2_p02_v01_e20		66.965				233		239						
-73		s2_p02_v03_e02		38.52				314		334				on		
-74		s2_p02_v03_e02		38.52				324		324						
-75		s2_p02_v03_e02		38.52				324		328						
-76		s2_p02_v03_e04		59.67				273		283						
-77		s2_p02_v03_e04		59.67				265		281						
-78		s2_p02_v03_e04		59.67				271		279						
-79		s2_p02_v03_e05		69.13				276		294						
-80		s2_p02_v03_e05		69.13				286		290						
-81		s2_p02_v03_e05		69.13				278		296						
-82		s2_p02_v03_e09		200.18				357		369						
-83		s2_p02_v03_e09		200.18				349		363		on				
-84		s2_p02_v03_e09		200.18				355		369						
-85		s2_p02_v03_e10		206.15				381		389		on				
-86		s2_p02_v03_e10		206.15				373		387						
-87		s2_p02_v03_e10		206.15				373		391						
-88		s2_p02_v03_e11		248.606666667				387		389						
-89		s2_p02_v03_e11		248.606666667				381		391						
-90		s2_p02_v03_e11		248.606666667				379		397						
+1		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		1		s2_c01_v01_e02		64.5066666667				0		228		on				
+2		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		1		s2_c01_v01_e02		64.5066666667				220		220						
+3		"A3RGYT0JTEHAOK"		c01_v01		C6CzJjnxFQ0		1		s2_c01_v01_e02		64.5066666667				0		228		on				
+4		"A3RGYT0JTEHAOK"		c01_v01		C6CzJjnxFQ0		2		s2_c01_v01_e05		179.89				60		74						
+5		"A3AYR3H2AYYT5G"		c01_v01		C6CzJjnxFQ0		2		s2_c01_v01_e05		179.89				60		72				on		
+6		"A1D08ZZ9KCTPQS"		c01_v01		C6CzJjnxFQ0		2		s2_c01_v01_e05		179.89				56		0				on		
+7		"A3RZ9X81J6R2AR"		c01_v01		C6CzJjnxFQ0		3		s2_c01_v01_e06		186.613333333				110		0				on		
+8		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		3		s2_c01_v01_e06		186.613333333				104		114						
+9		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		3		s2_c01_v01_e06		186.613333333				100		112						
+10		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		4		s2_c01_v01_e09		237.29				0		34		on				
+11		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		4		s2_c01_v01_e09		237.29				22		32						
+12		"A3FPQGM967TJER"		c01_v01		C6CzJjnxFQ0		4		s2_c01_v01_e09		237.29				30		32						
+13		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		5		s2_c01_v01_e10		39.785				159		169						
+14		"A3RGYT0JTEHAOK"		c01_v01		C6CzJjnxFQ0		5		s2_c01_v01_e10		39.785				0		173		on				
+15		"A3AYR3H2AYYT5G"		c01_v01		C6CzJjnxFQ0		5		s2_c01_v01_e10		39.785				161		173						
+16		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		6		s2_c01_v01_e11		79.725				169		189						
+17		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		6		s2_c01_v01_e11		79.725				177		189						
+18		"A3RGYT0JTEHAOK"		c01_v01		C6CzJjnxFQ0		6		s2_c01_v01_e11		79.725				179		185						
+19		"A3RQQWMUZJUWJ1"		c01_v01		C6CzJjnxFQ0		7		s2_c01_v01_e12		254.515				178		194						
+20		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		7		s2_c01_v01_e12		254.515				186		194						
+21		"A3AYR3H2AYYT5G"		c01_v01		C6CzJjnxFQ0		7		s2_c01_v01_e12		254.515				182		196		on				
+22		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		8		s2_c01_v01_e13		221.536666667				231		239						
+23		"A3DHYTZ1GPN0T8"		c01_v01		C6CzJjnxFQ0		8		s2_c01_v01_e13		221.536666667				227		247						
+24		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		8		s2_c01_v01_e13		221.536666667				233		247						
+25		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		9		s2_c01_v01_e14		53.97				47		55						
+26		"A2PYHO7795COYH"		c01_v01		C6CzJjnxFQ0		9		s2_c01_v01_e14		53.97				53		63						
+27		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		9		s2_c01_v01_e14		53.97				45		57						
+28		"A3FPQGM967TJER"		c01_v01		C6CzJjnxFQ0		10		s2_c01_v01_e15		94.585				72		86						
+29		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		10		s2_c01_v01_e15		94.585				72		84						
+30		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		10		s2_c01_v01_e15		94.585				80		0				on		
+31		"AT5RZ3VFUC9BH"		m01_v01		iTXnpGe7a1A		537		s2_m01_v01_e16		328.313333333				228		246						
+32		"A3AYR3H2AYYT5G"		m01_v01		iTXnpGe7a1A		537		s2_m01_v01_e16		328.313333333				232		238						
+33		"A1D08ZZ9KCTPQS"		m01_v01		iTXnpGe7a1A		537		s2_m01_v01_e16		328.313333333				228		246						
+34		"A2Y5A2VKUNMAR2"		m01_v01		iTXnpGe7a1A		538		s2_m01_v01_e17		350.75				304		314						
+35		"AT5RZ3VFUC9BH"		m01_v01		iTXnpGe7a1A		538		s2_m01_v01_e17		350.75				306		316						
+36		"A3RGYT0JTEHAOK"		m01_v01		iTXnpGe7a1A		538		s2_m01_v01_e17		350.75				312		320						
+37		"A2Y5A2VKUNMAR2"		m01_v01		iTXnpGe7a1A		539		s2_m01_v01_e19		284.79				317		331						
+38		"AT5RZ3VFUC9BH"		m01_v01		iTXnpGe7a1A		539		s2_m01_v01_e19		284.79				315		331						
+39		"A3AYR3H2AYYT5G"		m01_v01		iTXnpGe7a1A		539		s2_m01_v01_e19		284.79				315		333						
+40		"A1JJ85MMSJW969"		m01_v01		iTXnpGe7a1A		540		s2_m01_v01_e20		166.386666667				290		300						
+41		"A8Y8LUQJQ8OU4"		m01_v01		iTXnpGe7a1A		540		s2_m01_v01_e20		166.386666667				290		304						
+42		"A3AYR3H2AYYT5G"		m01_v01		iTXnpGe7a1A		540		s2_m01_v01_e20		166.386666667				288		304						
+43		"A2Y5A2VKUNMAR2"		m01_v01		iTXnpGe7a1A		541		s2_m01_v01_e21		138.453333333				99		101						
+44		"AT5RZ3VFUC9BH"		m01_v01		iTXnpGe7a1A		541		s2_m01_v01_e21		138.453333333				91		105						
+45		"A3RGYT0JTEHAOK"		m01_v01		iTXnpGe7a1A		541		s2_m01_v01_e21		138.453333333				97		103						
+46		"AT5RZ3VFUC9BH"		m01_v01		iTXnpGe7a1A		542		s2_m01_v01_e24		454.96				358		372						
+47		"A3RQQWMUZJUWJ1"		m01_v01		iTXnpGe7a1A		542		s2_m01_v01_e24		454.96				358		370						
+48		"A1D08ZZ9KCTPQS"		m01_v01		iTXnpGe7a1A		542		s2_m01_v01_e24		454.96				352		370						
+49		"A2Y5A2VKUNMAR2"		m01_v01		iTXnpGe7a1A		543		s2_m01_v01_e25		228.715				20		24						
+50		"A3RGYT0JTEHAOK"		m01_v01		iTXnpGe7a1A		543		s2_m01_v01_e25		228.715				18		30						
+51		"AT5RZ3VFUC9BH"		m01_v01		iTXnpGe7a1A		543		s2_m01_v01_e25		228.715				22		30						
+52		"A2Y5A2VKUNMAR2"		m01_v01		iTXnpGe7a1A		544		s2_m01_v01_e26		373.38				259		271						
+53		"AT5RZ3VFUC9BH"		m01_v01		iTXnpGe7a1A		544		s2_m01_v01_e26		373.38				265		271						
+54		"A3RGYT0JTEHAOK"		m01_v01		iTXnpGe7a1A		544		s2_m01_v01_e26		373.38				267		271						
+55		"AT5RZ3VFUC9BH"		m01_v02		PAZGPorV66A		545		s2_m01_v02_e01		138.101666667				271		283				on		
+56		"A2Y5A2VKUNMAR2"		m01_v02		PAZGPorV66A		545		s2_m01_v02_e01		138.101666667				269		275						
+57		"A12IM8RZQMWBJL"		m01_v02		PAZGPorV66A		545		s2_m01_v02_e01		138.101666667				263		279						
+58		"A3FPQGM967TJER"		m01_v02		PAZGPorV66A		546		s2_m01_v02_e02		147.57				36		46						
+59		"A2Y5A2VKUNMAR2"		m01_v02		PAZGPorV66A		546		s2_m01_v02_e02		147.57				30		42						
+60		"A3RQQWMUZJUWJ1"		m01_v02		PAZGPorV66A		546		s2_m01_v02_e02		147.57				28		42						
+61		"A1WUZOLVPEXOLE"		p02_v01		uPk9L_MhK9k		1003		s2_p02_v01_e17		273.2				45		0						
+62		"AT5RZ3VFUC9BH"		p02_v01		uPk9L_MhK9k		1003		s2_p02_v01_e17		273.2				0		0		on		on		
+63		"A2Y5A2VKUNMAR2"		p02_v01		uPk9L_MhK9k		1003		s2_p02_v01_e17		273.2				51		55						
+64		"A2Y5A2VKUNMAR2"		p02_v01		uPk9L_MhK9k		1004		s2_p02_v01_e18		244.265				196		206						
+65		"AT5RZ3VFUC9BH"		p02_v01		uPk9L_MhK9k		1004		s2_p02_v01_e18		244.265				196		208						
+66		"A3DHYTZ1GPN0T8"		p02_v01		uPk9L_MhK9k		1004		s2_p02_v01_e18		244.265				196		216						
+67		"AT5RZ3VFUC9BH"		p02_v01		uPk9L_MhK9k		1005		s2_p02_v01_e19		107.59				204		224						
+68		"A3RGYT0JTEHAOK"		p02_v01		uPk9L_MhK9k		1005		s2_p02_v01_e19		107.59				214		220						
+69		"A3AYR3H2AYYT5G"		p02_v01		uPk9L_MhK9k		1005		s2_p02_v01_e19		107.59				204		224						
+70		"AT5RZ3VFUC9BH"		p02_v01		uPk9L_MhK9k		1006		s2_p02_v01_e20		66.965				229		243						
+71		"A2Y5A2VKUNMAR2"		p02_v01		uPk9L_MhK9k		1006		s2_p02_v01_e20		66.965				231		237						
+72		"A3RGYT0JTEHAOK"		p02_v01		uPk9L_MhK9k		1006		s2_p02_v01_e20		66.965				233		239						
+73		"AT5RZ3VFUC9BH"		p02_v03		cDrwzOa6e74		1007		s2_p02_v03_e02		38.52				314		334				on		
+74		"A2Y5A2VKUNMAR2"		p02_v03		cDrwzOa6e74		1007		s2_p02_v03_e02		38.52				324		324						
+75		"A3RGYT0JTEHAOK"		p02_v03		cDrwzOa6e74		1007		s2_p02_v03_e02		38.52				324		328						
+76		"A2Y5A2VKUNMAR2"		p02_v03		cDrwzOa6e74		1008		s2_p02_v03_e04		59.67				273		283						
+77		"A3FPQGM967TJER"		p02_v03		cDrwzOa6e74		1008		s2_p02_v03_e04		59.67				265		281						
+78		"A3RGYT0JTEHAOK"		p02_v03		cDrwzOa6e74		1008		s2_p02_v03_e04		59.67				271		279						
+79		"AT5RZ3VFUC9BH"		p02_v03		cDrwzOa6e74		1009		s2_p02_v03_e05		69.13				276		294						
+80		"A3RGYT0JTEHAOK"		p02_v03		cDrwzOa6e74		1009		s2_p02_v03_e05		69.13				286		290						
+81		"A3AYR3H2AYYT5G"		p02_v03		cDrwzOa6e74		1009		s2_p02_v03_e05		69.13				278		296						
+82		"A2Y5A2VKUNMAR2"		p02_v03		cDrwzOa6e74		1010		s2_p02_v03_e09		200.18				357		369						
+83		"AT5RZ3VFUC9BH"		p02_v03		cDrwzOa6e74		1010		s2_p02_v03_e09		200.18				349		363		on				
+84		"A3AYR3H2AYYT5G"		p02_v03		cDrwzOa6e74		1010		s2_p02_v03_e09		200.18				355		369						
+85		"AT5RZ3VFUC9BH"		p02_v03		cDrwzOa6e74		1011		s2_p02_v03_e10		206.15				381		389		on				
+86		"A2Y5A2VKUNMAR2"		p02_v03		cDrwzOa6e74		1011		s2_p02_v03_e10		206.15				373		387						
+87		"A3RQQWMUZJUWJ1"		p02_v03		cDrwzOa6e74		1011		s2_p02_v03_e10		206.15				373		391						
+88		"A2Y5A2VKUNMAR2"		p02_v03		cDrwzOa6e74		1012		s2_p02_v03_e11		248.606666667				387		389						
+89		"AT5RZ3VFUC9BH"		p02_v03		cDrwzOa6e74		1012		s2_p02_v03_e11		248.606666667				381		391						
+90		"A3AYR3H2AYYT5G"		p02_v03		cDrwzOa6e74		1012		s2_p02_v03_e11		248.606666667				379		397						
+1		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		1		s2_c01_v01_e02		64.5066666667		Cut tomatoes in thin slices		0		228		on				
+2		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		1		s2_c01_v01_e02		64.5066666667		Cut tomatoes in thin slices		220		220						
+3		"A3RGYT0JTEHAOK"		c01_v01		C6CzJjnxFQ0		1		s2_c01_v01_e02		64.5066666667		Cut tomatoes in thin slices		0		228		on				
+4		"A3RGYT0JTEHAOK"		c01_v01		C6CzJjnxFQ0		2		s2_c01_v01_e05		179.89		Add Mozzarella		60		74						
+5		"A3AYR3H2AYYT5G"		c01_v01		C6CzJjnxFQ0		2		s2_c01_v01_e05		179.89		Add Mozzarella		60		72				on		
+6		"A1D08ZZ9KCTPQS"		c01_v01		C6CzJjnxFQ0		2		s2_c01_v01_e05		179.89		Add Mozzarella		56		0				on		
+7		"A3RZ9X81J6R2AR"		c01_v01		C6CzJjnxFQ0		3		s2_c01_v01_e06		186.613333333		in a nice circle evenly around it		110		0				on		
+8		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		3		s2_c01_v01_e06		186.613333333		in a nice circle evenly around it		104		114						
+9		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		3		s2_c01_v01_e06		186.613333333		in a nice circle evenly around it		100		112						
+10		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		4		s2_c01_v01_e09		237.29		take pizza out of the oven		0		34		on				
+11		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		4		s2_c01_v01_e09		237.29		take pizza out of the oven		22		32						
+12		"A3FPQGM967TJER"		c01_v01		C6CzJjnxFQ0		4		s2_c01_v01_e09		237.29		take pizza out of the oven		30		32						
+13		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		5		s2_c01_v01_e10		39.785		slice the fresh mozzerella		159		169						
+14		"A3RGYT0JTEHAOK"		c01_v01		C6CzJjnxFQ0		5		s2_c01_v01_e10		39.785		slice the fresh mozzerella		0		173		on				
+15		"A3AYR3H2AYYT5G"		c01_v01		C6CzJjnxFQ0		5		s2_c01_v01_e10		39.785		slice the fresh mozzerella		161		173						
+16		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		6		s2_c01_v01_e11		79.725		Add the sauce		169		189						
+17		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		6		s2_c01_v01_e11		79.725		Add the sauce		177		189						
+18		"A3RGYT0JTEHAOK"		c01_v01		C6CzJjnxFQ0		6		s2_c01_v01_e11		79.725		Add the sauce		179		185						
+19		"A3RQQWMUZJUWJ1"		c01_v01		C6CzJjnxFQ0		7		s2_c01_v01_e12		254.515		add Basil at the end		178		194						
+20		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		7		s2_c01_v01_e12		254.515		add Basil at the end		186		194						
+21		"A3AYR3H2AYYT5G"		c01_v01		C6CzJjnxFQ0		7		s2_c01_v01_e12		254.515		add Basil at the end		182		196		on				
+22		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		8		s2_c01_v01_e13		221.536666667		you can add more basil		231		239						
+23		"A3DHYTZ1GPN0T8"		c01_v01		C6CzJjnxFQ0		8		s2_c01_v01_e13		221.536666667		you can add more basil		227		247						
+24		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		8		s2_c01_v01_e13		221.536666667		you can add more basil		233		247						
+25		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		9		s2_c01_v01_e14		53.97		Slice the mozzarella		47		55						
+26		"A2PYHO7795COYH"		c01_v01		C6CzJjnxFQ0		9		s2_c01_v01_e14		53.97		Slice the mozzarella		53		63						
+27		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		9		s2_c01_v01_e14		53.97		Slice the mozzarella		45		57						
+28		"A3FPQGM967TJER"		c01_v01		C6CzJjnxFQ0		10		s2_c01_v01_e15		94.585		Spread sauce around		72		86						
+29		"A2Y5A2VKUNMAR2"		c01_v01		C6CzJjnxFQ0		10		s2_c01_v01_e15		94.585		Spread sauce around		72		84						
+30		"AT5RZ3VFUC9BH"		c01_v01		C6CzJjnxFQ0		10		s2_c01_v01_e15		94.585		Spread sauce around		80		0				on		
+31		"AT5RZ3VFUC9BH"		m01_v01		iTXnpGe7a1A		537		s2_m01_v01_e16		328.313333333		take flat brush and wet it		228		246						
+32		"A3AYR3H2AYYT5G"		m01_v01		iTXnpGe7a1A		537		s2_m01_v01_e16		328.313333333		take flat brush and wet it		232		238						
+33		"A1D08ZZ9KCTPQS"		m01_v01		iTXnpGe7a1A		537		s2_m01_v01_e16		328.313333333		take flat brush and wet it		228		246						
+34		"A2Y5A2VKUNMAR2"		m01_v01		iTXnpGe7a1A		538		s2_m01_v01_e17		350.75		put one drop of this		304		314						
+35		"AT5RZ3VFUC9BH"		m01_v01		iTXnpGe7a1A		538		s2_m01_v01_e17		350.75		put one drop of this		306		316						
+36		"A3RGYT0JTEHAOK"		m01_v01		iTXnpGe7a1A		538		s2_m01_v01_e17		350.75		put one drop of this		312		320						
+37		"A2Y5A2VKUNMAR2"		m01_v01		iTXnpGe7a1A		539		s2_m01_v01_e19		284.79		focus putting more pressure on inner quad		317		331						
+38		"AT5RZ3VFUC9BH"		m01_v01		iTXnpGe7a1A		539		s2_m01_v01_e19		284.79		focus putting more pressure on inner quad		315		331						
+39		"A3AYR3H2AYYT5G"		m01_v01		iTXnpGe7a1A		539		s2_m01_v01_e19		284.79		focus putting more pressure on inner quad		315		333						
+40		"A1JJ85MMSJW969"		m01_v01		iTXnpGe7a1A		540		s2_m01_v01_e20		166.386666667		so that have any harh lines.		290		300						
+41		"A8Y8LUQJQ8OU4"		m01_v01		iTXnpGe7a1A		540		s2_m01_v01_e20		166.386666667		so that have any harh lines.		290		304						
+42		"A3AYR3H2AYYT5G"		m01_v01		iTXnpGe7a1A		540		s2_m01_v01_e20		166.386666667		so that have any harh lines.		288		304						
+43		"A2Y5A2VKUNMAR2"		m01_v01		iTXnpGe7a1A		541		s2_m01_v01_e21		138.453333333		apply on lid		99		101						
+44		"AT5RZ3VFUC9BH"		m01_v01		iTXnpGe7a1A		541		s2_m01_v01_e21		138.453333333		apply on lid		91		105						
+45		"A3RGYT0JTEHAOK"		m01_v01		iTXnpGe7a1A		541		s2_m01_v01_e21		138.453333333		apply on lid		97		103						
+46		"AT5RZ3VFUC9BH"		m01_v01		iTXnpGe7a1A		542		s2_m01_v01_e24		454.96		give it a try		358		372						
+47		"A3RQQWMUZJUWJ1"		m01_v01		iTXnpGe7a1A		542		s2_m01_v01_e24		454.96		give it a try		358		370						
+48		"A1D08ZZ9KCTPQS"		m01_v01		iTXnpGe7a1A		542		s2_m01_v01_e24		454.96		give it a try		352		370						
+49		"A2Y5A2VKUNMAR2"		m01_v01		iTXnpGe7a1A		543		s2_m01_v01_e25		228.715		apply pink colour in the breeze area of the eye		20		24						
+50		"A3RGYT0JTEHAOK"		m01_v01		iTXnpGe7a1A		543		s2_m01_v01_e25		228.715		apply pink colour in the breeze area of the eye		18		30						
+51		"AT5RZ3VFUC9BH"		m01_v01		iTXnpGe7a1A		543		s2_m01_v01_e25		228.715		apply pink colour in the breeze area of the eye		22		30						
+52		"A2Y5A2VKUNMAR2"		m01_v01		iTXnpGe7a1A		544		s2_m01_v01_e26		373.38		nice eyebrow eye liner improve beauty		259		271						
+53		"AT5RZ3VFUC9BH"		m01_v01		iTXnpGe7a1A		544		s2_m01_v01_e26		373.38		nice eyebrow eye liner improve beauty		265		271						
+54		"A3RGYT0JTEHAOK"		m01_v01		iTXnpGe7a1A		544		s2_m01_v01_e26		373.38		nice eyebrow eye liner improve beauty		267		271						
+55		"AT5RZ3VFUC9BH"		m01_v02		PAZGPorV66A		545		s2_m01_v02_e01		138.101666667		eyebrows		271		283				on		
+56		"A2Y5A2VKUNMAR2"		m01_v02		PAZGPorV66A		545		s2_m01_v02_e01		138.101666667		eyebrows		269		275						
+57		"A12IM8RZQMWBJL"		m01_v02		PAZGPorV66A		545		s2_m01_v02_e01		138.101666667		eyebrows		263		279						
+58		"A3FPQGM967TJER"		m01_v02		PAZGPorV66A		546		s2_m01_v02_e02		147.57		noop		36		46						
+59		"A2Y5A2VKUNMAR2"		m01_v02		PAZGPorV66A		546		s2_m01_v02_e02		147.57		noop		30		42						
+60		"A3RQQWMUZJUWJ1"		m01_v02		PAZGPorV66A		546		s2_m01_v02_e02		147.57		noop		28		42						
+61		"A1WUZOLVPEXOLE"		p02_v01		uPk9L_MhK9k		1003		s2_p02_v01_e17		273.2		""resize to fit""		45		0						
+62		"AT5RZ3VFUC9BH"		p02_v01		uPk9L_MhK9k		1003		s2_p02_v01_e17		273.2		""resize to fit""		0		0		on		on		
+63		"A2Y5A2VKUNMAR2"		p02_v01		uPk9L_MhK9k		1003		s2_p02_v01_e17		273.2		""resize to fit""		51		55						
+64		"A2Y5A2VKUNMAR2"		p02_v01		uPk9L_MhK9k		1004		s2_p02_v01_e18		244.265		bring up the image you would like for your background		196		206						
+65		"AT5RZ3VFUC9BH"		p02_v01		uPk9L_MhK9k		1004		s2_p02_v01_e18		244.265		bring up the image you would like for your background		196		208						
+66		"A3DHYTZ1GPN0T8"		p02_v01		uPk9L_MhK9k		1004		s2_p02_v01_e18		244.265		bring up the image you would like for your background		196		216						
+67		"AT5RZ3VFUC9BH"		p02_v01		uPk9L_MhK9k		1005		s2_p02_v01_e19		107.59		click on Paint History Brush tool		204		224						
+68		"A3RGYT0JTEHAOK"		p02_v01		uPk9L_MhK9k		1005		s2_p02_v01_e19		107.59		click on Paint History Brush tool		214		220						
+69		"A3AYR3H2AYYT5G"		p02_v01		uPk9L_MhK9k		1005		s2_p02_v01_e19		107.59		click on Paint History Brush tool		204		224						
+70		"AT5RZ3VFUC9BH"		p02_v01		uPk9L_MhK9k		1006		s2_p02_v01_e20		66.965		trace around		229		243						
+71		"A2Y5A2VKUNMAR2"		p02_v01		uPk9L_MhK9k		1006		s2_p02_v01_e20		66.965		trace around		231		237						
+72		"A3RGYT0JTEHAOK"		p02_v01		uPk9L_MhK9k		1006		s2_p02_v01_e20		66.965		trace around		233		239						
+73		"AT5RZ3VFUC9BH"		p02_v03		cDrwzOa6e74		1007		s2_p02_v03_e02		38.52		turn photo transparent 		314		334				on		
+74		"A2Y5A2VKUNMAR2"		p02_v03		cDrwzOa6e74		1007		s2_p02_v03_e02		38.52		turn photo transparent 		324		324						
+75		"A3RGYT0JTEHAOK"		p02_v03		cDrwzOa6e74		1007		s2_p02_v03_e02		38.52		turn photo transparent 		324		328						
+76		"A2Y5A2VKUNMAR2"		p02_v03		cDrwzOa6e74		1008		s2_p02_v03_e04		59.67		so who inside the square washmachine		273		283						
+77		"A3FPQGM967TJER"		p02_v03		cDrwzOa6e74		1008		s2_p02_v03_e04		59.67		so who inside the square washmachine		265		281						
+78		"A3RGYT0JTEHAOK"		p02_v03		cDrwzOa6e74		1008		s2_p02_v03_e04		59.67		so who inside the square washmachine		271		279						
+79		"AT5RZ3VFUC9BH"		p02_v03		cDrwzOa6e74		1009		s2_p02_v03_e05		69.13		click the layer image		276		294						
+80		"A3RGYT0JTEHAOK"		p02_v03		cDrwzOa6e74		1009		s2_p02_v03_e05		69.13		click the layer image		286		290						
+81		"A3AYR3H2AYYT5G"		p02_v03		cDrwzOa6e74		1009		s2_p02_v03_e05		69.13		click the layer image		278		296						
+82		"A2Y5A2VKUNMAR2"		p02_v03		cDrwzOa6e74		1010		s2_p02_v03_e09		200.18		dotted lines tell if we have a selection		357		369						
+83		"AT5RZ3VFUC9BH"		p02_v03		cDrwzOa6e74		1010		s2_p02_v03_e09		200.18		dotted lines tell if we have a selection		349		363		on				
+84		"A3AYR3H2AYYT5G"		p02_v03		cDrwzOa6e74		1010		s2_p02_v03_e09		200.18		dotted lines tell if we have a selection		355		369						
+85		"AT5RZ3VFUC9BH"		p02_v03		cDrwzOa6e74		1011		s2_p02_v03_e10		206.15		Select->Load Selection-> Invert channel		381		389		on				
+86		"A2Y5A2VKUNMAR2"		p02_v03		cDrwzOa6e74		1011		s2_p02_v03_e10		206.15		Select->Load Selection-> Invert channel		373		387						
+87		"A3RQQWMUZJUWJ1"		p02_v03		cDrwzOa6e74		1011		s2_p02_v03_e10		206.15		Select->Load Selection-> Invert channel		373		391						
+88		"A2Y5A2VKUNMAR2"		p02_v03		cDrwzOa6e74		1012		s2_p02_v03_e11		248.606666667		selection settings in a layer of the image		387		389						
+89		"AT5RZ3VFUC9BH"		p02_v03		cDrwzOa6e74		1012		s2_p02_v03_e11		248.606666667		selection settings in a layer of the image		381		391						
+90		"A3AYR3H2AYYT5G"		p02_v03		cDrwzOa6e74		1012		s2_p02_v03_e11		248.606666667		selection settings in a layer of the image		379		397						

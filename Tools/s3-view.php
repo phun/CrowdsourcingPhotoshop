@@ -41,7 +41,7 @@ while($responses = $result->fetch_assoc()){
 
 // $video_id = $vids[$id]["video_id"];
 
-$entries = array_merge(file("real/s3_1/external_hit.results"));
+$entries = array_merge(file("real/s3_test/external_hit.results"));
 
 $count = 0;
 $turk_data = array();
@@ -420,6 +420,7 @@ while($responses = $result->fetch_assoc()){
 						}
 					}, 5000);		      		
 		      	} else if (state == 1 && !done) {
+		      		stopVideo();
 				    setTimeout( function() { 
 						 videoPlayed = true;
 						 if ($("#instruction").val() != "") {
@@ -449,27 +450,27 @@ while($responses = $result->fetch_assoc()){
 
 		$(document).ready(function() {
 
-			$(document).on("click", "#submit-button", function(){
-				console.log("collect all clicks and submit");
-				var results = [];
-				$(".s3-final-input").each(function(){
-					var b_selected = $(this).find(".before-image .sb").hasClass("selected");
-					var a_selected = $(this).find(".after-image .sb").hasClass("selected")
-					console.log($(this).attr("id"), b_selected, a_selected);
-					results.push({"cid": $(this).attr("id"), "before": b_selected, "after": a_selected});
-				});
-				console.log(results);
-				$.ajax({
-				  type: "POST",
-				  url: "s3-verify-ajax-record.php",
-				  data: { 
-				  	"vid": vid,
-				  	"results": results }
-				}).done(function( msg ) {
-				  alert( "Data Saved: " + msg );
-				  window.location.href = "s3-verify-list.html";
-				});
-			});
+			// $(document).on("click", "#submit-button", function(){
+			// 	console.log("collect all clicks and submit");
+			// 	var results = [];
+			// 	$(".s3-final-input").each(function(){
+			// 		var b_selected = $(this).find(".before-image").hasClass("selected");
+			// 		var a_selected = $(this).find(".after-image").hasClass("selected")
+			// 		console.log($(this).attr("id"), b_selected, a_selected);
+			// 		results.push({"cid": $(this).attr("id"), "before": b_selected, "after": a_selected});
+			// 	});
+			// 	console.log(results);
+			// 	$.ajax({
+			// 	  type: "POST",
+			// 	  url: "s3-verify-ajax-record.php",
+			// 	  data: { 
+			// 	  	"vid": vid,
+			// 	  	"results": results }
+			// 	}).done(function( msg ) {
+			// 	  alert( "Data Saved: " + msg );
+			// 	  window.location.href = "s3-verify-list.html";
+			// 	});
+			// });
       		var makeTask = function(video, tname, genre) {
     //   			var infoDes;
     //   			var ht = '<div class="section task">' +
@@ -540,7 +541,7 @@ while($responses = $result->fetch_assoc()){
 	      			// 		// removeSelectionMarker($(this).closest(".sb-option"), false);
 	      			// 	}				
 	      			// }
-	      			// console.log("b_idx", $("#beforeIndex").val(), "a_idx", $("#afterIndex").val())
+	      			console.log("b_idx", $("#beforeIndex").val(), "a_idx", $("#afterIndex").val())
 	      		});
       		};
 
@@ -549,36 +550,8 @@ while($responses = $result->fetch_assoc()){
 			if (params['id'])
 				$("#video").val(params['id']);
 
-			console.log(genre, vid, tname, turk_data, s23_data, video);		
+			console.log(genre, vid, turk_data, s23_data, video);		
       		makeTask(video, tname, genre);
-
-      	/* Version that displays all final S3 images */
-      		// for (var cid in s23_data){
-      		// 	console.log(cid, turk_data[cid], s23_data[cid]);
-      		// 	// var short_vid = s23_data[cid]["video_id"].substr(3, 7);
-      		// 	var slug = video_data[vid]["slug"];
-      		// 	console.log(vid, slug, s23_data[cid]["label"]);
-      		// 	$("#task").append("<h4>[" + cid + "] &quot;" + s23_data[cid]["label"] + "&quot; (" + s23_data[cid]["video_id"] + ")</h4>");
-
-      		// 		var label = s23_data[cid];
-      		// 		console.log(label["before_index"], label["after_index"]);
-      		// 		var dom_id = cid;
-      		// 		var $el = $("<div/>").attr("id", dom_id).addClass("s3-final-input")
-      		// 					.append("<div>" + label["worker_id"] + "</div>")
-      		// 					.append("<div class='before-image'>&nbsp;</div>")
-      		// 					.append("<div class='after-image'>&nbsp;</div>");
-
-      		// 		if (label["before_index"] != "\"" && label["before_index"] != "")
-      		// 			displaySingleChoice(slug, label["before_index"], $el.find('.before-image'));
-      		// 		else
-      		// 			console.log(label["before_index"], label["before_index"] == "\"");
-      		// 		if (label["after_index"] != "\"" && label["after_index"] != "")
-      		// 			displaySingleChoice(slug, label["after_index"], $el.find('.after-image'));
-      		// 		else
-      		// 			console.log(label["after_index"], label["after_index"] == "\"");
-      		// 		$el.appendTo("#task");
-      			
-      		// }
 
       	/* Version that displays all Turker input */
 
@@ -587,8 +560,7 @@ while($responses = $result->fetch_assoc()){
       				// console.log(cid, "not for this video");
       				continue;
       			}
-      			console.log(cid, turk_data, s23_data[cid]);
-      			// var short_vid = s23_data[cid]["video_id"].substr(3, 7);
+      			console.log(cid, turk_data[cid], s23_data[cid]);
       			var slug = video_data[vid]["slug"];
       			console.log(vid, slug, s23_data[cid]["label"]);
       			$("#task").append("<h4>[" + cid + "] &quot;" + s23_data[cid]["label"] + "&quot; (" + s23_data[cid]["video_id"] + ")</h4>");
@@ -630,9 +602,9 @@ while($responses = $result->fetch_assoc()){
 	  frameborder="0"></iframe> -->
 <div class='cleaner'>&nbsp;</div>
 </div>
-<div>
+<!-- <div>
 	<button id="submit-button" class="btn btn-primary btn-xxlarge">Submit Results</button>
-</div>
+</div> -->
 </body>
 
 </html>

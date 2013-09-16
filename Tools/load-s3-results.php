@@ -14,6 +14,7 @@ if ($mysqli->connect_errno) {
 
 $entries = array_merge(file("real/s3_test/external_hit.results"));
 echo "total: " . sizeof($entries) . " entries<br>";
+
 ?>
 <html>
 <head>
@@ -34,6 +35,8 @@ echo "total: " . sizeof($entries) . " entries<br>";
 		<tr>
 			<th class="sorttable_nosort">ID</th>
 			<th>Worker ID</th>
+			<th>Video ID</th>
+			<th>Video Slug</th>
 			<th>Cluster ID</th>
 			<th>Bef Index</th>
 			<th>Aft Index</th>
@@ -56,9 +59,35 @@ echo "total: " . sizeof($entries) . " entries<br>";
 	}
 
 
+
+
+$mysqli = new mysqli(DB_HOST, "toolscape-user", "G8hsDe5r4jDtFAYa", "video_learning");
+if ($mysqli->connect_errno) {
+    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+}
+
+$video_data = array();
+$result = $mysqli->query("SELECT * FROM videos WHERE in_chi2014_set<>''");
+// if ($result->num_rows != 1)
+// 	echo "query error";
+// $video = $result->fetch_assoc();
+while($responses = $result->fetch_assoc()){
+	$video_data[$responses["in_chi2014_set"]] = array(
+		"video_id" => $responses["in_chi2014_set"],
+		"slug" => $responses["slug"],
+		"duration" => $responses["duration"],
+		"title" => $responses["title"],
+		"url" => $responses["url"]
+	);
+	// $vid = $responses["video_id"];
+	// echo "<td>" . $vid . "</td>";
+	// echo "<td>" . $labels . "</td>";
+}
+
+
 $count = 0;
 foreach($entries as $i => $entry) {	
-	// 30: video ID
+	// 30: cluster ID
 	// 31 Answer.allAfterIndices	NOT USED
 	// 32 Answer.allBeforeIndices	NOT USED
 	// 33 Answer.before-noop	
@@ -86,14 +115,14 @@ foreach($entries as $i => $entry) {
 	// $labels = explode(",", substr($data[30], 1, -2)); // getting rid of quotes and split
 	// $labels_result = "";
 	// $labels_result_file = "";
-	// $vid = substr($data[29], 8, -5);
+	$video_id = substr($vids[$data[30]]["vid"], 3, 7);
+	// echo $video_id;
 	// if (!isset ($entry_array[$vid])){
 	// 	$entry_array[$vid] = array();
 	// 	$entry_array[$vid]["count"] = 1;
 	// } else
 	// 	$entry_array[$vid]["count"] = $entry_array[$vid]["count"] + 1;	
-
-	echo "<tr><td>{$count}</td><td>{$data[19]}</td>" .
+	echo "<tr><td>{$count}</td><td>{$data[19]}</td><td>{$video_id}</td><td>{$video_data[$video_id]['slug']}</td>" .
 		"<td>{$data[30]}</td>" .
 		"<td>" . intval($data[34]) . "</td>" .
 		"<td>" . intval($data[29]) . "</td>" .
@@ -103,6 +132,10 @@ foreach($entries as $i => $entry) {
 
 	// $data[32] = trim(preg_replace('/\s+/', ' ', $data[32]));
 	$output_string = $count . "\t\t" . 
+					$data[19] . "\t\t" .
+					$video_id . "\t\t" .
+					$video_data[$video_id]['slug'] . "\t\t" .
+					$data[30] . "\t\t" .
 					$vids[$data[30]]["vid"] . "\t\t" . 
 					$vids[$data[30]]["time"] . "\t\t" . 
 					$vids[$data[30]]["label"] . "\t\t" .

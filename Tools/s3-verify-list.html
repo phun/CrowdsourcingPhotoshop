@@ -1,0 +1,37 @@
+<html>
+<body>
+	<h2>Verify Before and After images for a how-to video</h2>
+	<h3>Cooking</h3>
+	<div id="cooking-list"></div>
+	<h3>Makeup</h3>
+	<div id="makeup-list"></div>
+	<h3>Photoshop</h3>
+	<div id="photoshop-list"></div>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			for (var i=1; i<=5; i++){
+				for (var j=1; j<=5; j++){
+					var vid = "c0" + i + "_v0" + j;
+					var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid).text(vid);
+					$("#cooking-list").append($item).append("<br/>");
+				}
+			}
+			for (var i=1; i<=5; i++){
+				for (var j=1; j<=5; j++){
+					var vid = "m0" + i + "_v0" + j;
+					var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid).text(vid);
+					$("#makeup-list").append($item).append("<br/>");
+				}
+			}
+			for (var i=1; i<=5; i++){
+				for (var j=1; j<=5; j++){
+					var vid = "p0" + i + "_v0" + j;
+					var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid).text(vid);
+					$("#photoshop-list").append($item).append("<br/>");
+				}
+			}						
+		});
+	</script>
+</body>
+</html>

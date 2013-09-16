@@ -135,6 +135,7 @@ for vid in vidlist:
                     if found is not 1 and "matched_new" not in true_label and distance <= window_size: 
                         match_result = is_same_label(true_label["desc"], turk_label["label"])
                         if match_result[0]:
+                        # if True:
                             true_label["matched_new"] = True
                             # print "[m ]", match_result[3], turk_label["time"], true_label["time"], "[", distance, "]"
                             # print "    True:", true_label["desc"]

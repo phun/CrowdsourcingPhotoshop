@@ -47,3 +47,5 @@ def is_same_label(label1, label2):
         return [True, final_label, "sim", sim_score]
     # print "diff", sim_score, l1, "===", l2
     return [False, "", "", sim_score]
+
+

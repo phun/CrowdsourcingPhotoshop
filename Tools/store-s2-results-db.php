@@ -8,7 +8,7 @@ define("DB_PASSWD", "3APGj4vGmdWcQ6fy");	// MySQL password
 define("DB_NAME", "HowtoAnnotation");	// MySQL database name. vt.sql uses the default video_learning name. So be careful.
 
 // Set the file to use.
-$data_file = "s2.data.1.final.json";
+$data_file = "s2.data.final.json";
 $success_count = 0;
 
 $mysqli = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWD, DB_NAME);
