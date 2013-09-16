@@ -9,25 +9,34 @@
 	<div id="photoshop-list"></div>
 	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
 	<script>
+		var prmstr = window.location.search.substr(1);
+		var prmarr = prmstr.split ("&");	
+		var params = {};
+		for ( var i = 0; i < prmarr.length; i++) {
+			var tmparr = prmarr[i].split("=");
+			params[tmparr[0]] = tmparr[1];
+		}
+		var user = params["user"];
+
 		$(document).ready(function(){
 			for (var i=1; i<=5; i++){
 				for (var j=1; j<=5; j++){
 					var vid = "c0" + i + "_v0" + j;
-					var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid).text(vid);
+					var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid + "&user=" + user).text(vid);
 					$("#cooking-list").append($item).append("<br/>");
 				}
 			}
 			for (var i=1; i<=5; i++){
 				for (var j=1; j<=5; j++){
 					var vid = "m0" + i + "_v0" + j;
-					var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid).text(vid);
+					var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid + "&user=" + user).text(vid);
 					$("#makeup-list").append($item).append("<br/>");
 				}
 			}
 			for (var i=1; i<=5; i++){
 				for (var j=1; j<=5; j++){
 					var vid = "p0" + i + "_v0" + j;
-					var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid).text(vid);
+					var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid + "&user=" + user).text(vid);
 					$("#photoshop-list").append($item).append("<br/>");
 				}
 			}						

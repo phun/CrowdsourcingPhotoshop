@@ -483,7 +483,7 @@ while($responses = $result->fetch_assoc()){
 				  	"results": JSON.stringify(results) }
 				}).done(function( msg ) {
 				  alert( "Data Saved");
-				  window.location.href = "s3-verify-list.html";
+				  window.location.href = "s3-verify-list.html?user=" + user;
 				});
 			});
       		var makeTask = function(video, tname, genre) {
