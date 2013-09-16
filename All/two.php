@@ -1,5 +1,4 @@
 <?php
-
 /*
 	For videos that are available on YouTube: YouTube API is used.
 */
@@ -75,12 +74,10 @@ $video = $result->fetch_assoc();
 	<title>Amazon Turk Stage 2</title>
 	<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.22.custom.css" type="text/css" />
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-	<link rel="stylesheet" href="js/libs/chosen.css" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script src="js/libs/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="js/libs/jquery-ui-1.8.22.custom.min.js"></script> 
 	<script type="text/javascript" src="js/libs/jwplayer/jwplayer.js"></script>
-	<script type="text/javascript" src="js/libs/chosen.jquery.js"></script>
 	<link rel="stylesheet" type="text/css" href="js/jquery.qtip.min.css" />
 	<script type="text/javascript" src="js/jquery.qtip.min.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
@@ -422,23 +419,16 @@ $video = $result->fetch_assoc();
 			console.log(allLabels);
 			switch(genre) {
 				case 'c':
-					// video = 'http://juhokim.com/annotation/Cooking/videos/' + vid + '.mp4';
-					// video = "http://people.csail.mit.edu/juhokim/annotation-videos/<?=$video['task_id'];?>/<?=$video['filename'];?>";
 					$(".genreText").each(function() { $(this).text("cooking") });
 					$(".good-examples").text("(e.g., add olive oil, put dough in flour)");
 					$(".bad-examples").text("(e.g., make a pizza, it is important not to mix)");
 					break;
 				case 'm':
-					// video = 'http://juhokim.com/annotation/Makeup/videos/' + vid + '.mp4';
-					// video = "http://people.csail.mit.edu/juhokim/annotation-videos/<?=$video['task_id'];?>/<?=$video['filename'];?>";
 					$(".genreText").each(function() { $(this).text("makeup") });
 					$(".good-examples").text("(e.g., apply eye shadow, use damp brush)");
 					$(".bad-examples").text("(e.g., make pretty, lips)");
 					break;
 				case 'p':
-					// video = 'http://juhokim.com/annotation/Photoshop/videos/' + vid + '.mp4';
-					// video = "http://juhokim.com/toolscape/photoshop-video/video/1P6ctvQEikw.flv";
-					// video = "http://juhokim.com/toolscape/photoshop-video/video/<?=$video['filename'];?>";
 					$(".genreText").each(function() { $(this).text("Photoshop") });
 					$(".good-examples").text("(e.g., select Gaussian Blur, duplicate a layer)");
 					$(".bad-examples").text("(e.g., make bright, finish up)");

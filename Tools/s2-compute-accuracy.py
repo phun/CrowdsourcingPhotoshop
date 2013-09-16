@@ -3,6 +3,7 @@ import sys
 import json
 import math
 from pprint import pprint
+from matching_text import is_same_label
 
 ##############################################################################
 # Read Turker data file
@@ -81,41 +82,112 @@ for vid in vidlist:
     false_positive = 0
     false_negative = 0
     match = 0
+    valid_turk_count = 0
+
     # make the stage prefix match
     if vid not in truth:
-        print "no ground truth available", vid
+        print "no ground truth available"
         continue
 
-    for cid in turk[vid]:
-        label = turk[vid][cid]
-        found = 0
-        # consider noops now
-        # if label["label"] == "noop":
-        #     continue
-        # Find a match between ground truth and turker input
-        for true_id in truth[vid]:
-            #print truth[vid]
-            true_label = truth[vid][true_id]
-            #print math.fabs(float(label["time"]) - float(true_label["time"]))
-            if found is not 1 and "matched" not in true_label and math.fabs(float(label["time"]) - float(true_label["time"])) <= window_size:
-                found += 1
-                true_label["matched"] = True
-                # correct += 1
-                if vid == "s1_c01_v04":
-                    print label["time"], true_label["time"]
-                    print "Truth ", true_label["desc"]
-                    print "Turker", label["label"].encode("utf-8")
+   # create lid list sorted by time
+    lidlist = []
+    for lid in turk[vid]:
+        lidlist.append({'lid': lid, 'time': turk[vid][lid]["time"]})         
+    lidlist = sorted(lidlist, key=lambda k: k["time"])
+    turk_sorted_lidlist = [item["lid"] for item in lidlist]
 
-        if found == 1:
-            match += 1
-        elif found > 1:
-            print "not possible"
-        elif found == 0:   # no match found for this label in the truth
-            false_positive += 1
+    lidlist = []
+    for lid in truth[vid]:
+        lidlist.append({'lid': lid, 'time': truth[vid][lid]["time"]})
+    lidlist = sorted(lidlist, key=lambda k: k["time"])
+    truth_sorted_lidlist = [item["lid"] for item in lidlist]
 
-    for true_id in truth[vid]:
-        if "matched" not in truth[vid][true_id]:
-            false_negative += 1
+    # get pairwise cost matrix between turk and truth
+    import matching
+    cost_matrix = matching.get_cost_matrix(vid, turk, truth, turk_sorted_lidlist, truth_sorted_lidlist, window_size)
+    matches = matching.maxWeightMatching(cost_matrix)
+    # print matches
+    turk_to_truth = matches[0]
+    truth_to_turk = matches[1]
+
+    if True:
+        for index in turk_to_truth:
+            found = 0
+            # print index, turk_to_truth[index]
+            # non-existing entries added to Turk labels, skip
+            if len(turk_sorted_lidlist) <= index:
+                # print "[fn]"
+                continue
+            else:
+                valid_turk_count += 1
+                turk_lid = turk_sorted_lidlist[index]
+                turk_label = turk[vid][turk_lid]
+                if len(truth_sorted_lidlist) <= turk_to_truth[index]:
+                    pass
+                    # print "[fp]", turk_label["time"]
+                    # false_positive += 1
+                    # for t in turk_label["points_turk"]: 
+                    #     print "    Turk:", t["time"], t["desc"].encode("utf-8")
+                else:
+                    true_lid = truth_sorted_lidlist[turk_to_truth[index]]
+                    true_label = truth[vid][true_lid]
+                    distance = math.fabs(float(turk_label["time"]) - float(true_label["time"]))
+                    if found is not 1 and "matched_new" not in true_label and distance <= window_size: 
+                        match_result = is_same_label(true_label["desc"], turk_label["label"])
+                        if match_result[0]:
+                            true_label["matched_new"] = True
+                            # print "[m ]", match_result[3], turk_label["time"], true_label["time"], "[", distance, "]"
+                            # print "    True:", true_label["desc"]
+                            # print "    Turk:", turk_label["label"].encode("utf-8")
+                            found += 1                        
+                        else:
+                            print match_result[3] 
+                            print "    True:", true_label["desc"]
+                            print "    Turk:", turk_label["label"].encode("utf-8")
+
+            if found == 1:
+                match += 1
+            elif found > 1:
+                print "not possible"                    
+            elif found == 0:
+                # print "[fp] Turk", turk_label["time"], turk_label["label"].encode("utf-8")
+                false_positive += 1
+        for true_id in truth_sorted_lidlist:
+            if "matched_new" not in truth[vid][true_id]:
+                false_negative += 1
+                # print "[fn] True", truth[vid][true_id]["time"], truth[vid][true_id]["desc"]
+
+
+    # for cid in turk[vid]:
+    #     label = turk[vid][cid]
+    #     found = 0
+    #     # consider noops now
+    #     # if label["label"] == "noop":
+    #     #     continue
+    #     # Find a match between ground truth and turker input
+    #     for true_id in truth[vid]:
+    #         #print truth[vid]
+    #         true_label = truth[vid][true_id]
+    #         #print math.fabs(float(label["time"]) - float(true_label["time"]))
+    #         if found is not 1 and "matched" not in true_label and math.fabs(float(label["time"]) - float(true_label["time"])) <= window_size:
+    #             found += 1
+    #             true_label["matched"] = True
+    #             # correct += 1
+    #             if vid == "s1_c01_v04":
+    #                 print label["time"], true_label["time"]
+    #                 print "Truth ", true_label["desc"]
+    #                 print "Turker", label["label"].encode("utf-8")
+
+    #     if found == 1:
+    #         match += 1
+    #     elif found > 1:
+    #         print "not possible"
+    #     elif found == 0:   # no match found for this label in the truth
+    #         false_positive += 1
+
+    # for true_id in truth[vid]:
+    #     if "matched" not in truth[vid][true_id]:
+    #         false_negative += 1
     
     if match + false_positive == 0 or match + false_negative == 0:
         print "no matches for this video."

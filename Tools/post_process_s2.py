@@ -1,10 +1,6 @@
-print(__doc__)
 import sys
-
-# stop words list from http://norm.al/2009/04/14/list-of-english-stop-words/
-stop_words_list = [
-"a", "about", "above", "above", "across", "after", "afterwards", "again", "against", "all", "almost", "alone", "along", "already", "also","although","always","am","among", "amongst", "amoungst", "amount",  "an", "and", "another", "any","anyhow","anyone","anything","anyway", "anywhere", "are", "around", "as",  "at", "back","be","became", "because","become","becomes", "becoming", "been", "before", "beforehand", "behind", "being", "below", "beside", "besides", "between", "beyond", "bill", "both", "bottom","but", "by", "call", "can", "cannot", "cant", "co", "con", "could", "couldnt", "cry", "de", "describe", "detail", "do", "done", "down", "due", "during", "each", "eg", "eight", "either", "eleven","else", "elsewhere", "empty", "enough", "etc", "even", "ever", "every", "everyone", "everything", "everywhere", "except", "few", "fifteen", "fify", "fill", "find", "fire", "first", "five", "for", "former", "formerly", "forty", "found", "four", "from", "front", "full", "further", "get", "give", "go", "had", "has", "hasnt", "have", "he", "hence", "her", "here", "hereafter", "hereby", "herein", "hereupon", "hers", "herself", "him", "himself", "his", "how", "however", "hundred", "ie", "if", "in", "inc", "indeed", "interest", "into", "is", "it", "its", "itself", "keep", "last", "latter", "latterly", "least", "less", "ltd", "made", "many", "may", "me", "meanwhile", "might", "mill", "mine", "more", "moreover", "most", "mostly", "move", "much", "must", "my", "myself", "name", "namely", "neither", "never", "nevertheless", "next", "nine", "no", "nobody", "none", "noone", "nor", "not", "nothing", "now", "nowhere", "of", "off", "often", "on", "once", "one", "only", "onto", "or", "other", "others", "otherwise", "our", "ours", "ourselves", "out", "over", "own","part", "per", "perhaps", "please", "put", "rather", "re", "same", "see", "seem", "seemed", "seeming", "seems", "serious", "several", "she", "should", "show", "side", "since", "sincere", "six", "sixty", "so", "some", "somehow", "someone", "something", "sometime", "sometimes", "somewhere", "still", "such", "system", "take", "ten", "than", "that", "the", "their", "them", "themselves", "then", "thence", "there", "thereafter", "thereby", "therefore", "therein", "thereupon", "these", "they", "thickv", "thin", "third", "this", "those", "though", "three", "through", "throughout", "thru", "thus", "to", "together", "too", "top", "toward", "towards", "twelve", "twenty", "two", "un", "under", "until", "up", "upon", "us", "very", "via", "was", "we", "well", "were", "what", "whatever", "when", "whence", "whenever", "where", "whereafter", "whereas", "whereby", "wherein", "whereupon", "wherever", "whether", "which", "while", "whither", "who", "whoever", "whole", "whom", "whose", "why", "will", "with", "within", "without", "would", "yet", "you", "your", "yours", "yourself", "yourselves", "the"
-]
+import math
+from matching_text import is_same_label
 
 ##############################################################################
 # Read Turker data file
@@ -45,44 +41,6 @@ def save_files(final_data):
     with open(sys.argv[1] + '.final.json', 'wb') as fp:
         #json.dump(final_data, fp)
         json.dump(final_data, fp, sort_keys=True, indent=4, separators=(',', ': '))
-
-
-def get_filtered_label(line):
-    word_list = [word for word in line.split()]
-    final_list = []
-    for word in word_list:
-        if word not in stop_words_list:
-            final_list.append(word)
-    return " ".join(final_list)
-
-
-# check if two labels should be considered identical
-def is_same_label(label1, label2):
-    # noop cannot be same with non-noop
-    if (label1 == "noop" and label2 != "noop") or (label1 != "noop" and label2 == "noop"):
-        return [False, "", "noop"]
-    if label1 == label2:
-        return [True, label1, "identical"]
-    l1 = label1.lower()
-    l2 = label2.lower()
-    if l1 == l2:
-        return [True, l1, "case"]
-    fl1 = get_filtered_label(l1)
-    fl2 = get_filtered_label(l2)
-    if get_filtered_label(l1) == get_filtered_label(l2):
-        return [True, get_filtered_label(l1), "stopword"]
-    # TODO: string comparison, sentence analysis
-    # import difflib
-    # sim_score = difflib.SequenceMatcher(None, fl1,fl2).ratio()
-    import jellyfish
-    sim_score = jellyfish.jaro_winkler(fl1, fl2)
-    if sim_score >= 0.9:
-        # print "fuzzy", sim_score,
-        # print l1, "===", l2  # fl1, "===", fl2, "|||",
-        final_label = max([l1, l2], key=len)
-        return [True, final_label, "sim"]
-    # print "diff", sim_score, l1, "===", l2
-    return [False, "", ""]
 
 
 def compare_int_keys(x, y):
@@ -199,9 +157,9 @@ for cid in cluster_list:
             final_label = s31[1]
         else:
             # let's use the longest string if we cannot resolve
-            # final_label = max([getLabel(l1), getLabel(l2), getLabel(l3)], key=len)
-            print "no match", l1["answer"], l2["answer"], l3["answer"]
-            final_label = "noop"
+            final_label = max([getLabel(l1), getLabel(l2), getLabel(l3)], key=len)
+            # print "no match", l1["answer"], l2["answer"], l3["answer"]
+            # final_label = "noop"
 
         if l1["answer"] == "noop" or l2["answer"] == "noop" or l3["answer"] == "noop":
             count_diverse_noop_included += 1
@@ -254,7 +212,34 @@ for cid in cluster_list:
     #     # print "---"
     #     # print final_data[vid][cid]
 
+
+
+vidlist = final_data.keys()
+vidlist.sort()
+window_size = 5
+for vid in vidlist:
+    print vid
+    sorted_labels = []
+    for lid in final_data[vid]:
+        sorted_labels.append({'lid': lid, 'time': final_data[vid][lid]["time"]})         
+    sorted_labels = sorted(sorted_labels, key=lambda k: float(k["time"]))
+    sorted_lidlist = [item["lid"] for item in sorted_labels]    
+
+    prev_label = {}
+    for lid in sorted_lidlist:
+        cur_label = final_data[vid][lid]
+        print "  ", lid, cur_label["time"], cur_label["label"]
+        # look for potential merge, if label is same and time is close enough
+        if prev_label:
+            distance = math.fabs(float(prev_label["time"]) - float(cur_label["time"]))
+            text_sim = is_same_label(prev_label["label"], cur_label["label"])
+            if distance <= window_size and text_sim[3] > 0.8:
+                print " [merging]", text_sim[3], prev_label["time"], cur_label["time"], prev_label["label"], cur_label["label"]
+                del final_data[vid][lid]
+        prev_label = cur_label
+
 save_files(final_data)
+
 # print final_data
 # print len(final_data)
 print "STATS"

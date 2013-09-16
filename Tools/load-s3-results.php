@@ -12,9 +12,7 @@ if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
 
-// $entries = array_merge(file("real/s2_1/external_hit.results"), file("real/s2_2/external_hit.results"));
-// $entries = array_merge(file("real/s2_3/external_hit.results"), file("real/s2_6/external_hit.results"));
-$entries = array_merge(file("real/s2_11/external_hit.results"), file("real/s2_12/external_hit.results"));
+$entries = array_merge(file("real/s3_test/external_hit.results"));
 echo "total: " . sizeof($entries) . " entries<br>";
 ?>
 <html>
@@ -37,20 +35,19 @@ echo "total: " . sizeof($entries) . " entries<br>";
 			<th class="sorttable_nosort">ID</th>
 			<th>Worker ID</th>
 			<th>Cluster ID</th>
-			<th>Instruction</th>
-			<th>Order</th>
-			<th>Video ID</th>
-			<th>Labels</th>
+			<th>Bef Index</th>
+			<th>Aft Index</th>
+			<th>Bef noop</th>
+			<th>Aft noop</th>
 		</tr>
 <?php
 	$vids = array();
 	$labels = array();
 	$result = $mysqli->query("SELECT * FROM stage2_3");
 	while($responses = $result->fetch_assoc()){
-		$labels = implode("====", unserialize($responses["all_labels"]));
 		$vids[$responses["id"]] = array(
 			"vid" => $responses["video_id"],
-			"labels" => $labels,
+			"label" => $responses["det_label"],
 			"time" => $responses["det_label_index"]
 			);
 		// $vid = $responses["video_id"];
@@ -61,9 +58,15 @@ echo "total: " . sizeof($entries) . " entries<br>";
 
 $count = 0;
 foreach($entries as $i => $entry) {	
-	// $data[29]: video ID
-	// $data[31]: answer
-	// $data[32]: order of options presented
+	// 30: video ID
+	// 31 Answer.allAfterIndices	NOT USED
+	// 32 Answer.allBeforeIndices	NOT USED
+	// 33 Answer.before-noop	
+	// 34 Answer.beforeIndex	
+	// 29 Answer.afterIndex	
+	// 35 Answer.after-noop
+
+
 	$output_string = "";
 	$data = explode("\t", $entry);
 	if ($data[19] == "\"workerid\"") // ignore header
@@ -73,7 +76,13 @@ foreach($entries as $i => $entry) {
 	// filter wrong results. skip if rere
 	// if ($data[19] == "\"workerid\"" || $data[28] == "\"y\"" || $data[19] == "" || in_array($data[19], $blackList))
 	// 	continue;
+	// removing quotes
+	$data[30] = substr($data[30], 1, -1);
+	$data[34] = substr($data[34], 1, -1);
 	$data[29] = substr($data[29], 1, -1);
+	$data[33] = substr($data[33], 1, -1);
+	$data[35] = substr($data[35], 1, -2);
+
 	// $labels = explode(",", substr($data[30], 1, -2)); // getting rid of quotes and split
 	// $labels_result = "";
 	// $labels_result_file = "";
@@ -84,12 +93,25 @@ foreach($entries as $i => $entry) {
 	// } else
 	// 	$entry_array[$vid]["count"] = $entry_array[$vid]["count"] + 1;	
 
-	echo "<tr><td>{$count}</td><td>{$data[19]}</td><td>" . intval($data[29]) . "</td><td>{$data[31]}</td><td>{$data[32]}</td>";	
+	echo "<tr><td>{$count}</td><td>{$data[19]}</td>" .
+		"<td>{$data[30]}</td>" .
+		"<td>" . intval($data[34]) . "</td>" .
+		"<td>" . intval($data[29]) . "</td>" .
+		"<td>{$data[33]}</td>" .
+		"<td>{$data[35]}</td>";	
 	echo "</tr>";
 
-	$data[32] = trim(preg_replace('/\s+/', ' ', $data[32]));
-	$output_string = $count . "\t\t" . substr($data[19], 1, -1) . "\t\t" . intval($data[29]) . "\t\t" . substr($data[30], 1, -1) . "\t\t" . substr($data[31], 1, -1) . "\t\t" . substr($data[32], 1, -1) . "\t\t" . $vids[$data[29]]["vid"] . "\t\t" . $vids[$data[29]]["time"] . "\t\t" . $vids[$data[29]]["labels"] . "\n";
-	file_put_contents("s2.data", $output_string, FILE_APPEND);
+	// $data[32] = trim(preg_replace('/\s+/', ' ', $data[32]));
+	$output_string = $count . "\t\t" . 
+					$vids[$data[30]]["vid"] . "\t\t" . 
+					$vids[$data[30]]["time"] . "\t\t" . 
+					$vids[$data[30]]["label"] . "\t\t" .
+					intval($data[34]) . "\t\t" .
+					intval($data[29]) . "\t\t" .
+					$data[33] . "\t\t" .
+					$data[35] . "\t\t" .
+					"\n";
+	file_put_contents("s3.temp.data", $output_string, FILE_APPEND);
 }
 
 ?>

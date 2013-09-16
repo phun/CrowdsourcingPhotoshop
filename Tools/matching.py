@@ -99,7 +99,58 @@ def maxWeightMatching(weights):
     #                                    val. of matching is total edge weight
     val = sum(lu)+sum(lv)
     return (Mu, Mv, val)
-  
+
+
+import math
+def get_cost_matrix(vid, turk, truth, turk_sorted_lidlist, truth_sorted_lidlist, window_size):
+    matrix = []
+
+    if len(turk_sorted_lidlist) > len(truth_sorted_lidlist):
+        for turk_id in turk_sorted_lidlist:
+            row = []
+            turk_label = turk[vid][turk_id]
+            for index in range(0, len(turk_sorted_lidlist)):
+                if index < len(truth_sorted_lidlist):
+                    true_id = truth_sorted_lidlist[index]
+                    true_label = truth[vid][true_id]
+                    distance = math.fabs(float(turk_label["time"]) - float(true_label["time"])) * 100
+                    if distance > window_size * 100:
+                        distance = 1000000
+                else:  # fill with max distance
+                    true_id = "null"
+                    distance = 1000000
+                # print turk_id, true_id, (-1 * int(distance))
+                # invert the value because we're optimizing for maximum weight, not minimum
+                row.append(-1 * int(distance))
+            matrix.append(row)
+    else:
+        # for turk_id in turk_sorted_lidlist:
+        for i in range(0, len(truth_sorted_lidlist)):
+            row = []
+            if i < len(turk_sorted_lidlist):
+                turk_id = turk_sorted_lidlist[i]
+                turk_label = turk[vid][turk_id]
+                for j in range(0, len(truth_sorted_lidlist)):
+                    true_id = truth_sorted_lidlist[j]
+                    true_label = truth[vid][true_id]
+                    distance = math.fabs(float(turk_label["time"]) - float(true_label["time"])) * 100
+                    if distance > window_size * 100:
+                        distance = 1000000
+                    # print turk_id, true_id, (-1 * distance)
+                    # invert the value because we're optimizing for maximum weight, not minimum
+                    row.append(-1 * int(distance))
+            else:
+                for j in range(0, len(truth_sorted_lidlist)):
+                    turk_id = "null"
+                    true_id = truth_sorted_lidlist[j]
+                    distance = 1000000
+                    # print turk_id, true_id, (-1 * int(distance))
+                    row.append(-1 * int(distance))
+            matrix.append(row)        
+    # print matrix
+    return matrix
+
+
 # a small example 
 #print maxWeightMatching([[1,2,3,4],[2,4,6,8],[3,6,9,12],[4,8,12,16]])
 
