@@ -482,8 +482,8 @@ while($responses = $result->fetch_assoc()){
 				  	"vid": vid,
 				  	"results": JSON.stringify(results) }
 				}).done(function( msg ) {
-				  alert( "Data Saved: " + msg );
-				  // window.location.href = "s3-verify-list.html";
+				  alert( "Data Saved");
+				  window.location.href = "s3-verify-list.html";
 				});
 			});
       		var makeTask = function(video, tname, genre) {

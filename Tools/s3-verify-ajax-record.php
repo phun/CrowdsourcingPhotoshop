@@ -49,7 +49,7 @@
   $date = date('Y/m/d H:i:s');
   $output_string = $user . "\t\t" . $video_id . "\t\t" . $date . "\t\t" . $results . "\n";
 
-  file_put_contents("s3.verify." . $user, $output_string, FILE_APPEND);
+  file_put_contents("s3_verifications/s3.verify." . $user, $output_string, FILE_APPEND);
 ?>
 
 
