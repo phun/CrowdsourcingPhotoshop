@@ -48,12 +48,20 @@ $turk_data = array();
 foreach($entries as $i => $entry) {	
 	// 30: video ID
 	// 31 Answer.allAfterIndices	NOT USED
+	// 33 Answer.allBeforeIndices	NOT USED
+	// 35 Answer.before-noop	
+	// 32 Answer.beforeIndex	
+	// 29 Answer.afterIndex	
+	// 34 Answer.after-noop
+
+	// deprecated!!! 
+	// 30: video ID
+	// 31 Answer.allAfterIndices	NOT USED
 	// 32 Answer.allBeforeIndices	NOT USED
 	// 33 Answer.before-noop	
 	// 34 Answer.beforeIndex	
 	// 29 Answer.afterIndex	
 	// 35 Answer.after-noop
-
 
 	$output_string = "";
 	$data = explode("\t", $entry);
@@ -69,10 +77,10 @@ foreach($entries as $i => $entry) {
 	$item = array(
 		"cluster_id" => $cluster_id,
 		"worker_id" => substr($data[19], 1, -1),
-		"before_index" => intval(substr($data[34], 1, -1)),
+		"before_index" => intval(substr($data[32], 1, -1)),
 		"after_index" => intval(substr($data[29], 1, -1)),
-		"before_noop" => substr($data[33], 1, -1),
-		"after_noop" => substr($data[35], 1, -2)
+		"before_noop" => substr($data[35], 1, -1),
+		"after_noop" => substr($data[34], 1, -2)
 	);
 	if (!isset($turk_data[$cluster_id]))
 		$turk_data[$cluster_id] = array();

@@ -48,12 +48,20 @@ $turk_data = array();
 foreach($entries as $i => $entry) {	
 	// 30: video ID
 	// 31 Answer.allAfterIndices	NOT USED
+	// 33 Answer.allBeforeIndices	NOT USED
+	// 35 Answer.before-noop	
+	// 32 Answer.beforeIndex	
+	// 29 Answer.afterIndex	
+	// 34 Answer.after-noop
+
+	// deprecated!!! 
+	// 30: video ID
+	// 31 Answer.allAfterIndices	NOT USED
 	// 32 Answer.allBeforeIndices	NOT USED
 	// 33 Answer.before-noop	
 	// 34 Answer.beforeIndex	
 	// 29 Answer.afterIndex	
 	// 35 Answer.after-noop
-
 
 	$output_string = "";
 	$data = explode("\t", $entry);
@@ -69,10 +77,10 @@ foreach($entries as $i => $entry) {
 	$item = array(
 		"cluster_id" => $cluster_id,
 		"worker_id" => substr($data[19], 1, -1),
-		"before_index" => intval(substr($data[34], 1, -1)),
+		"before_index" => intval(substr($data[32], 1, -1)),
 		"after_index" => intval(substr($data[29], 1, -1)),
-		"before_noop" => substr($data[33], 1, -1),
-		"after_noop" => substr($data[35], 1, -2)
+		"before_noop" => substr($data[35], 1, -1),
+		"after_noop" => substr($data[34], 1, -2)
 	);
 	if (!isset($turk_data[$cluster_id]))
 		$turk_data[$cluster_id] = array();
@@ -142,7 +150,7 @@ while($responses = $result->fetch_assoc()){
 
 <html>
 <head>
-	<title>Amazon Turk Stage 3</title>
+	<title>Verify Stage 3</title>
 	<link rel="stylesheet" href="../All/css/ui-lightness/jquery-ui-1.8.22.custom.css" type="text/css" />
 	<link rel="stylesheet" href="../All/css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="../All/style.css" />
@@ -162,7 +170,7 @@ while($responses = $result->fetch_assoc()){
 		/*width: 120px;
 		height: 90px;*/
 		cursor: pointer;
-		border: 5px solid white;
+		border: 10px solid white;
 		-webkit-touch-callout: none;
 		-webkit-user-select: none;
 		-khtml-user-select: none;
@@ -170,11 +178,14 @@ while($responses = $result->fetch_assoc()){
 		-ms-user-select: none;
 		user-select: none;		
 	}
+	.sb-label{
+		text-align: center;
+	}
 	.sb.selected{
-		border: 5px solid red;
+		border: 10px solid #0E6870;
 	}
 	.sb:hover{
-		border: 5px solid red;
+		border: 10px solid #0E6870;
 	}
 	.s3-turker-input, .s3-final-input{
 		width: 100%;
@@ -308,12 +319,13 @@ while($responses = $result->fetch_assoc()){
 
 
 	// controlling storyboard display
-	function displaySingleChoice(slug, second, $el){
+	function displaySingleChoice(slug, second, $el, mode){
 		var position = []; // [x, y]
 		var image_url = "";
 		var index;
 		var $choice;
 		var $img;
+		var $label;
 		var dummy_img; // placeholder to compute image width and height
 		index = Math.floor(second); // divide by the sampling rate if not 1
 		// console.log(second, index, index.pad(3), parseInt(second).pad(3), typeof second, typeof index);
@@ -321,8 +333,9 @@ while($responses = $result->fetch_assoc()){
 		console.log(image_url);
 		dummy_img = new Image();
 		dummy_img.onload = function(){
+			$label = $("<div/>").addClass("sb-label").text(mode);
 			$img = $("<img/>").addClass("sb").attr("data-index", index).attr("src", image_url);
-			$choice = $("<div/>").addClass("sb-option").append($img);
+			$choice = $("<div/>").addClass("sb-option").append($label).append($img);
 			$el.append($choice);
 		}
 		dummy_img.src = image_url;
@@ -338,7 +351,7 @@ while($responses = $result->fetch_assoc()){
 			var tmparr = prmarr[i].split("=");
 			params[tmparr[0]] = tmparr[1];
 		}
-
+		var user = params["user"];
 		// starting time retrieved from database. (target time - 10)
 		var start = 0;
 		console.log(start);		
@@ -366,7 +379,7 @@ while($responses = $result->fetch_assoc()){
     		var vidParams = { allowScriptAccess: "always" };
     		var atts = { id: "ytplayer" };
     		swfobject.embedSWF("http://www.youtube.com/v/<?php echo $video_data[$video_id]['slug']; ?>?enablejsapi=1&playerapiid=ytplayer&version=3",
-                       "ytplayer", "100%", "360", "8", null, null, vidParams, atts);
+                       "ytplayer", "640", "360", "8", null, null, vidParams, atts);
 
 			function onYouTubePlayerReady(playerId) {
 			      player = document.getElementById("ytplayer");
@@ -420,13 +433,15 @@ while($responses = $result->fetch_assoc()){
 						}
 					}, 5000);		      		
 		      	} else if (state == 1 && !done) {
-				    setTimeout( function() { 
-						 videoPlayed = true;
-						 if ($("#instruction").val() != "") {
-						 	$("#taskSub").removeClass('disabled').removeAttr('disabled');
-						 }
-					}, 20000);
-		            done = true;
+		      		stopVideo();
+		      		done = true;
+				 //    setTimeout( function() { 
+					// 	 videoPlayed = true;
+					// 	 if ($("#instruction").val() != "") {
+					// 	 	$("#taskSub").removeClass('disabled').removeAttr('disabled');
+					// 	 }
+					// }, 20000);
+		   //          done = true;
 		        }
 		      }
 
@@ -458,42 +473,43 @@ while($responses = $result->fetch_assoc()){
 					console.log($(this).attr("id"), b_selected, a_selected);
 					results.push({"cid": $(this).attr("id"), "before": b_selected, "after": a_selected});
 				});
-				console.log(results);
+				console.log(user, vid, results);
 				$.ajax({
 				  type: "POST",
 				  url: "s3-verify-ajax-record.php",
 				  data: { 
+				  	"user": user,
 				  	"vid": vid,
-				  	"results": results }
+				  	"results": JSON.stringify(results) }
 				}).done(function( msg ) {
 				  alert( "Data Saved: " + msg );
-				  window.location.href = "s3-verify-list.html";
+				  // window.location.href = "s3-verify-list.html";
 				});
 			});
       		var makeTask = function(video, tname, genre) {
     //   			var infoDes;
-    //   			var ht = '<div class="section task">' +
-    //   					// '<h2> Video </h2>' +
-				// 		// '<div class="video">' +
-				// 		// 	'<div id="mediaplayer" width="100%" height="400">JW Player goes here</div>' + 
-				// 		// '</div>' +
-				// 		'<div id="errorMsg"></div>' +						
-				// 		'<div class="info"><div>' +
-				// 			'<h3> Which best shows the <span class="canvasText"/> <u>before</u> &quot;<span class="tname"/>&quot;?</h3>' +
-				// 			'<div id="tipLabel"><strong>Click the most visible and clear image.</strong> ' +
-				// 			'<span class="pull-right"><input type="checkbox" name="before-noop">There is no good image available.</input></span>' + 
-				// 			'</div>' +
-				// 			'<div id="choices-before" class="choices"></div>' +
-				// 			'<p style="clear:both"></p>' +
-				// 			'<h3> Which best shows the <span class="canvasText"/> <u>after</u> &quot;<span class="tname"/>&quot;?</h3>' +
-				// 			'<div id="tipLabel"><strong>Click the most visible and clear image.</strong> ' +
-				// 			'<span class="pull-right"><input type="checkbox" name="after-noop">There is no good image available.</input></span>' + 
-				// 			'</div>' +
-				// 			'<div id="choices-after" class="choices"></div>' +
-				// 			'<p style="clear:both"></p>' +
-				// 			// '<input type="radio" name="labelRadios" value="@">' + '<i>None of these </i>' +
-				// 			// '<div id="otherLabel" style="display:none"><h4>Please write an alternative label: </h4>' +
-				// 			// 	'<input type="text" id="otherLabelText"></div>' +
+      			// var ht = '<div class="section task">' +
+      					// '<h2> Video </h2>' +
+						// '<div class="video">' +
+						// 	'<div id="mediaplayer" width="100%" height="400">JW Player goes here</div>' + 
+						// '</div>' +
+						// '<div id="errorMsg"></div>' +						
+						// '<div class="info"><div>' +
+						// 	'<h3>For each image, click if it correctly represents before/after effects of the given step.</h3>' +
+							// '<div id="tipLabel"><strong>Click the most visible and clear image.</strong> ' +
+							// '<span class="pull-right"><input type="checkbox" name="before-noop">There is no good image available.</input></span>' + 
+							// '</div>' +
+							// '<div id="choices-before" class="choices"></div>' +
+							// '<p style="clear:both"></p>' +
+							// '<h3> Which best shows the <span class="canvasText"/> <u>after</u> &quot;<span class="tname"/>&quot;?</h3>' +
+							// '<div id="tipLabel"><strong>Click the most visible and clear image.</strong> ' +
+							// '<span class="pull-right"><input type="checkbox" name="after-noop">There is no good image available.</input></span>' + 
+							// '</div>' +
+							// '<div id="choices-after" class="choices"></div>' +
+							// '<p style="clear:both"></p>' +
+							// '<input type="radio" name="labelRadios" value="@">' + '<i>None of these </i>' +
+							// '<div id="otherLabel" style="display:none"><h4>Please write an alternative label: </h4>' +
+							// 	'<input type="text" id="otherLabelText"></div>' +
 				// 		'</div>' +
 				// 	'</div>';
 
@@ -558,7 +574,8 @@ while($responses = $result->fetch_assoc()){
       		// 	// var short_vid = s23_data[cid]["video_id"].substr(3, 7);
       		// 	var slug = video_data[vid]["slug"];
       		// 	console.log(vid, slug, s23_data[cid]["label"]);
-      		// 	$("#task").append("<h4>[" + cid + "] &quot;" + s23_data[cid]["label"] + "&quot; (" + s23_data[cid]["video_id"] + ")</h4>");
+      		// 	$("#task").append("<h4>[" + cid + "] &quot;" + s23_data[cid]["label"] + "&quot; <small>(" + s23_data[cid]["video_id"] + ")</small></h4>");
+
 
       		// 		var label = s23_data[cid];
       		// 		console.log(label["before_index"], label["after_index"]);
@@ -569,16 +586,22 @@ while($responses = $result->fetch_assoc()){
       		// 					.append("<div class='after-image'>&nbsp;</div>");
 
       		// 		if (label["before_index"] != "\"" && label["before_index"] != "")
-      		// 			displaySingleChoice(slug, label["before_index"], $el.find('.before-image'));
+      		// 			displaySingleChoice(slug, label["before_index"], $el.find('.before-image'), "before");
       		// 		else
       		// 			console.log(label["before_index"], label["before_index"] == "\"");
       		// 		if (label["after_index"] != "\"" && label["after_index"] != "")
-      		// 			displaySingleChoice(slug, label["after_index"], $el.find('.after-image'));
+      		// 			displaySingleChoice(slug, label["after_index"], $el.find('.after-image'), "after");
       		// 		else
       		// 			console.log(label["after_index"], label["after_index"] == "\"");
       		// 		$el.appendTo("#task");
       			
       		// }
+
+      		$(document).on("click", ".play-button", function(){
+      			player.seekTo($(this).attr("data-index"));
+      			player.playVideo();
+      			return false;
+      		});
 
       	/* Version that displays all Turker input */
 
@@ -591,22 +614,25 @@ while($responses = $result->fetch_assoc()){
       			// var short_vid = s23_data[cid]["video_id"].substr(3, 7);
       			var slug = video_data[vid]["slug"];
       			console.log(vid, slug, s23_data[cid]["label"]);
-      			$("#task").append("<h4>[" + cid + "] &quot;" + s23_data[cid]["label"] + "&quot; (" + s23_data[cid]["video_id"] + ")</h4>");
+      			$("#task").append("<h4>[" + cid + "] &quot;" 
+      				+ s23_data[cid]["label"] + "&quot; (" 
+      				+ s23_data[cid]["video_id"] + ")"
+      				+ " <span><a href='#' class='play-button' data-index='" + s23_data[cid]["time"] + "'>Play</a></span></h4>");
       			for (var i in turk_data[cid]){
       				var label = turk_data[cid][i];
       				console.log(label["before_index"], label["after_index"]);
       				var dom_id = cid + "-" + i;
-      				var $el = $("<div/>").attr("id", dom_id).addClass("s3-turker-input")
+      				var $el = $("<div/>").attr("id", dom_id).addClass("s3-final-input")
       							.append("<div>" + label["worker_id"] + "</div>")
-      							.append("<div class='before-image'>&nbsp;</div>")
-      							.append("<div class='after-image'>&nbsp;</div>");
+      							.append("<div class='before-image'></div>")
+      							.append("<div class='after-image'></div>");
 
       				if (label["before_index"] != "\"" && label["before_index"] != "")
-      					displaySingleChoice(slug, label["before_index"], $el.find('.before-image'));
+      					displaySingleChoice(slug, label["before_index"], $el.find('.before-image'), "before");
       				else
       					console.log(label["before_index"], label["before_index"] == "\"");
       				if (label["after_index"] != "\"" && label["after_index"] != "")
-      					displaySingleChoice(slug, label["after_index"], $el.find('.after-image'));
+      					displaySingleChoice(slug, label["after_index"], $el.find('.after-image'), "after");
       				else
       					console.log(label["after_index"], label["after_index"] == "\"");
       				$el.appendTo("#task");
@@ -619,7 +645,6 @@ while($responses = $result->fetch_assoc()){
 <body>
 <div id="title">
 	<h3><?php echo $video_data[$video_id]["title"]; ?></h3>
-	<h4>Click on an image if it <strong>DOES NOT</strong> correctly represent before/after effects of the given step description.</h4>
 </div>
 
 
@@ -628,7 +653,11 @@ while($responses = $result->fetch_assoc()){
 		<!-- <iframe id="ytplayer" type="text/html" width="640" height="390"
 	  src="https://www.youtube.com/v/<?php echo $video['slug']; ?>?enablejsapi=1&version=3"
 	  frameborder="0"></iframe> -->
-<div class='cleaner'>&nbsp;</div>
+	<div id="errorMsg"></div>	
+	<div class='cleaner'>&nbsp;</div>
+	<div class="info">
+		<h4>For each image, click if it correctly represents before/after effects of the given step.</h4>
+	</div>
 </div>
 <div>
 	<button id="submit-button" class="btn btn-primary btn-xxlarge">Submit Results</button>
