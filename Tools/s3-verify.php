@@ -387,9 +387,14 @@ while($responses = $result->fetch_assoc()){
 		      	if (state == -1){
 				    setTimeout( function() { 
 				  		if (player.getPlayerState() == -1){
+							var video_url = "s3-verify-player.html?vid=http://juhokim.com/annotation/videos/v_<?php echo $video_data[$video_id]['slug']; ?>.";
 							$("#errorMsg").show()
-								.html("Cannot see the video? Please open <a target='_blank' href='http://www.youtube.com/v/<?php echo $video_data[$video_id]['slug']; ?>&t=" +
-									parseInt(start) + "s'>this link</a> to watch it.");
+								//.html("Cannot see the video? Please open <a target='_blank' href='http://www.youtube.com/v/<?php echo $video_data[$video_id]['slug']; ?>&t=" +
+								//	parseInt(start) + "s'>this link</a> to watch it.");
+								.html("Cannot see the video? Please open " + 
+									"<a target='_blank' href='" + video_url + "mp4'>this link</a>" +
+									" or if that does not work either try <a target='_blank' href='" + video_url + "flv'>this link</a>");
+							$(".cleaner").hide();
 							setTimeout( function() { 
 								 videoPlayed = true;
 								 if ($("#instruction").val() != "") {
