@@ -23,14 +23,15 @@ $video_id = $_GET["vid"];
 
 $query_vid = "s2_" . $video_id . "%";
 $s23_data = array();
-$result = $mysqli->query("SELECT * FROM stage2_3_v1 WHERE video_id LIKE '$query_vid'");
+// make sure not to load noop and NULL
+$result = $mysqli->query("SELECT * FROM stage2_3 WHERE video_id LIKE '$query_vid' AND det_before_index is not NULL");
 while($responses = $result->fetch_assoc()){
 	$s23_data[$responses["id"]] = array(
 		"video_id" => $responses["video_id"],
 		"label" => $responses["det_label"],
 		"time" => $responses["det_label_index"],
-		"all_before_indices" => $responses["all_before_indices"],
-		"all_after_indices" => $responses["all_after_indices"],
+		// "all_before_indices" => $responses["all_before_indices"],
+		// "all_after_indices" => $responses["all_after_indices"],
 		"before_index" => $responses["det_before_index"],
 		"after_index" => $responses["det_after_index"],
 		);
@@ -40,54 +41,6 @@ while($responses = $result->fetch_assoc()){
 }
 
 // $video_id = $vids[$id]["video_id"];
-
-$entries = array_merge(file("real/s3_1/external_hit.results"));
-
-$count = 0;
-$turk_data = array();
-foreach($entries as $i => $entry) {	
-	// 30: video ID
-	// 31 Answer.allAfterIndices	NOT USED
-	// 33 Answer.allBeforeIndices	NOT USED
-	// 35 Answer.before-noop	
-	// 32 Answer.beforeIndex	
-	// 29 Answer.afterIndex	
-	// 34 Answer.after-noop
-
-	// deprecated!!! 
-	// 30: video ID
-	// 31 Answer.allAfterIndices	NOT USED
-	// 32 Answer.allBeforeIndices	NOT USED
-	// 33 Answer.before-noop	
-	// 34 Answer.beforeIndex	
-	// 29 Answer.afterIndex	
-	// 35 Answer.after-noop
-
-	$output_string = "";
-	$data = explode("\t", $entry);
-	if ($data[19] == "\"workerid\"") // ignore header
-		continue;
-
-	$count = $count + 1;
-	// filter wrong results. skip if rere
-	// if ($data[19] == "\"workerid\"" || $data[28] == "\"y\"" || $data[19] == "" || in_array($data[19], $blackList))
-	// 	continue;
-	// removing quotes
-	$cluster_id = substr($data[30], 1, -1);
-	$item = array(
-		"cluster_id" => $cluster_id,
-		"worker_id" => substr($data[19], 1, -1),
-		"before_index" => intval(substr($data[32], 1, -1)),
-		"after_index" => intval(substr($data[29], 1, -1)),
-		"before_noop" => substr($data[35], 1, -1),
-		"after_noop" => substr($data[34], 1, -2)
-	);
-	if (!isset($turk_data[$cluster_id]))
-		$turk_data[$cluster_id] = array();
-	array_push($turk_data[$cluster_id], $item);
-}
-
-// echo print_r($all_labels);
 
 // define("DB_HOST", "50.116.6.114");	// MySQL host name
 // define("DB_USERNAME", "toolscape-user");	// MySQL username
@@ -159,6 +112,19 @@ while($responses = $result->fetch_assoc()){
 	<script type="text/javascript" src="../All/js/libs/jwplayer/jwplayer.js"></script>
 	<link rel="stylesheet" type="text/css" href="../All/js/jquery.qtip.min.css" />
 	<style>
+	#header{
+		position: fixed;
+		z-index: 100;
+		height:430px;
+		top: 0;
+		background-color: #ddd;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100%;
+	}
+	#task{
+		margin-top: 430px;
+	}
 	.sb-option{
 		width: 250px;
 		height: 180px;
@@ -379,7 +345,7 @@ while($responses = $result->fetch_assoc()){
     		var vidParams = { allowScriptAccess: "always" };
     		var atts = { id: "ytplayer" };
     		swfobject.embedSWF("http://www.youtube.com/v/<?php echo $video_data[$video_id]['slug']; ?>?enablejsapi=1&playerapiid=ytplayer&version=3",
-                       "ytplayer", "640", "360", "8", null, null, vidParams, atts);
+                       "ytplayer", "560", "315", "8", null, null, vidParams, atts);
 
 			function onYouTubePlayerReady(playerId) {
 			      player = document.getElementById("ytplayer");
@@ -454,7 +420,7 @@ while($responses = $result->fetch_assoc()){
 			s23_data = <?php echo json_encode($s23_data); ?>,
 			video_data = <?php echo json_encode($video_data); ?>,
 			tname = <?php echo json_encode($s23_data[$video_id]["label"]); ?>,
-			turk_data = <?php echo json_encode($turk_data); ?>,
+			// turk_data = <?php echo json_encode($turk_data); ?>,
 			// cluster_id = params['id'],
 			// allLabels = <?php echo json_encode($all_labels); ?>,
 			genre = vid[0],	// c = Cooking, p = Photoshop, m = Makeup
@@ -565,25 +531,93 @@ while($responses = $result->fetch_assoc()){
 			if (params['id'])
 				$("#video").val(params['id']);
 
-			console.log(genre, vid, tname, turk_data, s23_data, video);		
+			console.log(genre, vid, tname, s23_data, video);		
       		makeTask(video, tname, genre);
 
       	/* Version that displays all final S3 images */
+
+		function sortNumber(a,b) {
+		    return a - b;
+		}
+      	sort_obj = {};
+      	for (var cid in s23_data){
+		    sort_obj[s23_data[cid]["time"]] = cid;
+		}
+		console.log(sort_obj);
+		keys = Object.keys(sort_obj);
+		keys.sort(sortNumber);
+		console.log(keys);
+		var len = keys.length;
+		var i;
+		for (i=0; i<len; i++){
+			var k = keys[i]
+			var cid = sort_obj[k]
+			console.log(cid);
+
+
       		// for (var cid in s23_data){
-      		// 	console.log(cid, turk_data[cid], s23_data[cid]);
+      			console.log(cid, s23_data[cid]);
+      			// var short_vid = s23_data[cid]["video_id"].substr(3, 7);
+      			var slug = video_data[vid]["slug"];
+      			console.log(vid, slug, s23_data[cid]["label"]);
+      			$("#task").append("<h4>[" + parseInt(s23_data[cid]["time"]) + "] &quot;" + 
+      			s23_data[cid]["label"] + 
+	      		"&quot; <small>(" + s23_data[cid]["video_id"] + " | " + cid + ")</small>" +
+	      		" <span><a href='#' class='play-button' data-index='" + s23_data[cid]["time"] + "'>Play</a></span></h4>");
+
+      				var label = s23_data[cid];
+      				console.log(label["before_index"], label["after_index"]);
+      				var dom_id = cid;
+      				var $el = $("<div/>").attr("id", dom_id).addClass("s3-final-input")
+      							// .append("<div>" + label["worker_id"] + "</div>")
+      							.append("<div class='before-image'>&nbsp;</div>")
+      							.append("<div class='after-image'>&nbsp;</div>");
+
+      				if (label["before_index"] == "noop")
+      					$el.find(".before-image").append('<div class="sb-option"><div class="sb-label">before</div><div class="sb" style="height:130px">Turkers think there is no operation visible</div></div>');
+      				else if (label["before_index"] != "\"" && label["before_index"] != "")
+      					displaySingleChoice(slug, label["before_index"], $el.find('.before-image'), "before");
+      				else
+      					console.log(label["before_index"], label["before_index"] == "\"");
+
+      				if (label["after_index"] == "noop")
+      					$el.find(".after-image").append('<div class="sb-option"><div class="sb-label">after</div><div class="sb" style="height:130px">Turkers think there is no operation visible</div></div>');      				
+      				else if (label["after_index"] != "\"" && label["after_index"] != "")
+      					displaySingleChoice(slug, label["after_index"], $el.find('.after-image'), "after");
+      				else
+      					console.log(label["after_index"], label["after_index"] == "\"");
+      				$el.appendTo("#task");
+      			
+      		// }
+		}
+      		$(document).on("click", ".play-button", function(){
+      			player.seekTo($(this).attr("data-index") - 10);
+      			player.playVideo();
+      			return false;
+      		});
+
+      	/* Version that displays all Turker input */
+      		// for (var cid in turk_data){
+      		// 	if (!(cid in s23_data)){
+      		// 		// console.log(cid, "not for this video");
+      		// 		continue;
+      		// 	}
+      		// 	console.log(cid, turk_data, s23_data[cid]);
       		// 	// var short_vid = s23_data[cid]["video_id"].substr(3, 7);
       		// 	var slug = video_data[vid]["slug"];
       		// 	console.log(vid, slug, s23_data[cid]["label"]);
-      		// 	$("#task").append("<h4>[" + cid + "] &quot;" + s23_data[cid]["label"] + "&quot; <small>(" + s23_data[cid]["video_id"] + ")</small></h4>");
-
-
-      		// 		var label = s23_data[cid];
+      		// 	$("#task").append("<h4>[" + cid + "] &quot;" 
+      		// 		+ s23_data[cid]["label"] + "&quot; <span> @ " + parseInt(s23_data[cid]["time"]) + "</span> <small>(" 
+      		// 		+ s23_data[cid]["video_id"] + ")</small>"
+      		// 		+ " <span><a href='#' class='play-button' data-index='" + s23_data[cid]["time"] + "'>Play</a></span></h4>");
+      		// 	for (var i in turk_data[cid]){
+      		// 		var label = turk_data[cid][i];
       		// 		console.log(label["before_index"], label["after_index"]);
-      		// 		var dom_id = cid;
+      		// 		var dom_id = cid + "-" + i;
       		// 		var $el = $("<div/>").attr("id", dom_id).addClass("s3-final-input")
       		// 					.append("<div>" + label["worker_id"] + "</div>")
-      		// 					.append("<div class='before-image'>&nbsp;</div>")
-      		// 					.append("<div class='after-image'>&nbsp;</div>");
+      		// 					.append("<div class='before-image'></div>")
+      		// 					.append("<div class='after-image'></div>");
 
       		// 		if (label["before_index"] != "\"" && label["before_index"] != "")
       		// 			displaySingleChoice(slug, label["before_index"], $el.find('.before-image'), "before");
@@ -594,61 +628,18 @@ while($responses = $result->fetch_assoc()){
       		// 		else
       		// 			console.log(label["after_index"], label["after_index"] == "\"");
       		// 		$el.appendTo("#task");
-      			
+      		// 	}
       		// }
-
-      		$(document).on("click", ".play-button", function(){
-      			player.seekTo($(this).attr("data-index"));
-      			player.playVideo();
-      			return false;
-      		});
-
-      	/* Version that displays all Turker input */
-
-      		for (var cid in turk_data){
-      			if (!(cid in s23_data)){
-      				// console.log(cid, "not for this video");
-      				continue;
-      			}
-      			console.log(cid, turk_data, s23_data[cid]);
-      			// var short_vid = s23_data[cid]["video_id"].substr(3, 7);
-      			var slug = video_data[vid]["slug"];
-      			console.log(vid, slug, s23_data[cid]["label"]);
-      			$("#task").append("<h4>[" + cid + "] &quot;" 
-      				+ s23_data[cid]["label"] + "&quot; (" 
-      				+ s23_data[cid]["video_id"] + ")"
-      				+ " <span><a href='#' class='play-button' data-index='" + s23_data[cid]["time"] + "'>Play</a></span></h4>");
-      			for (var i in turk_data[cid]){
-      				var label = turk_data[cid][i];
-      				console.log(label["before_index"], label["after_index"]);
-      				var dom_id = cid + "-" + i;
-      				var $el = $("<div/>").attr("id", dom_id).addClass("s3-final-input")
-      							.append("<div>" + label["worker_id"] + "</div>")
-      							.append("<div class='before-image'></div>")
-      							.append("<div class='after-image'></div>");
-
-      				if (label["before_index"] != "\"" && label["before_index"] != "")
-      					displaySingleChoice(slug, label["before_index"], $el.find('.before-image'), "before");
-      				else
-      					console.log(label["before_index"], label["before_index"] == "\"");
-      				if (label["after_index"] != "\"" && label["after_index"] != "")
-      					displaySingleChoice(slug, label["after_index"], $el.find('.after-image'), "after");
-      				else
-      					console.log(label["after_index"], label["after_index"] == "\"");
-      				$el.appendTo("#task");
-      			}
-      		}
 
 		});
 	</script>
 </head>
 <body>
-<div id="title">
-	<h3><?php echo $video_data[$video_id]["title"]; ?></h3>
-</div>
 
-
-<div id="task">
+<div id="header">
+	<div id="title">
+	<h4><?php echo $video_data[$video_id]["title"]; ?></h4>
+	</div>
 		<div id="ytplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
 		<!-- <iframe id="ytplayer" type="text/html" width="640" height="390"
 	  src="https://www.youtube.com/v/<?php echo $video['slug']; ?>?enablejsapi=1&version=3"
@@ -658,6 +649,8 @@ while($responses = $result->fetch_assoc()){
 	<div class="info">
 		<h4>For each image, click if it correctly represents before/after effects of the given step.</h4>
 	</div>
+</div>
+<div id="task">	
 </div>
 <div>
 	<button id="submit-button" class="btn btn-primary btn-xxlarge">Submit Results</button>

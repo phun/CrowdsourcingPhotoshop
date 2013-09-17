@@ -12,7 +12,7 @@ if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
 
-$entries = array_merge(file("real/s3_test/external_hit.results"));
+$entries = array_merge(file("real/s3_1/external_hit.results"), file("real/s3_2/external_hit.results"));
 echo "total: " . sizeof($entries) . " entries<br>";
 
 ?>
@@ -87,6 +87,15 @@ while($responses = $result->fetch_assoc()){
 
 $count = 0;
 foreach($entries as $i => $entry) {	
+	// 30: video ID
+	// 31 Answer.allAfterIndices	NOT USED
+	// 33 Answer.allBeforeIndices	NOT USED
+	// 35 Answer.before-noop	
+	// 32 Answer.beforeIndex	
+	// 29 Answer.afterIndex	
+	// 34 Answer.after-noop
+
+	// Deprecated!	
 	// 30: cluster ID
 	// 31 Answer.allAfterIndices	NOT USED
 	// 32 Answer.allBeforeIndices	NOT USED
@@ -106,45 +115,50 @@ foreach($entries as $i => $entry) {
 	// if ($data[19] == "\"workerid\"" || $data[28] == "\"y\"" || $data[19] == "" || in_array($data[19], $blackList))
 	// 	continue;
 	// removing quotes
-	$data[30] = substr($data[30], 1, -1);
-	$data[34] = substr($data[34], 1, -1);
-	$data[29] = substr($data[29], 1, -1);
-	$data[33] = substr($data[33], 1, -1);
-	$data[35] = substr($data[35], 1, -2);
+	$worker_id = substr($data[19], 1, -1);
+	$cluster_id = substr($data[30], 1, -1);
+	$after_index = substr($data[29], 1, -1);
+	$before_index = substr($data[32], 1, -1);
+	$after_noop = substr($data[34], 1, -1);
+	$before_noop = substr($data[35], 1, -2);
 
 	// $labels = explode(",", substr($data[30], 1, -2)); // getting rid of quotes and split
 	// $labels_result = "";
 	// $labels_result_file = "";
-	$video_id = substr($vids[$data[30]]["vid"], 3, 7);
+	$video_id = substr($vids[$cluster_id]["vid"], 3, 7);
 	// echo $video_id;
 	// if (!isset ($entry_array[$vid])){
 	// 	$entry_array[$vid] = array();
 	// 	$entry_array[$vid]["count"] = 1;
 	// } else
 	// 	$entry_array[$vid]["count"] = $entry_array[$vid]["count"] + 1;	
-	echo "<tr><td>{$count}</td><td>{$data[19]}</td><td>{$video_id}</td><td>{$video_data[$video_id]['slug']}</td>" .
-		"<td>{$data[30]}</td>" .
-		"<td>" . intval($data[34]) . "</td>" .
-		"<td>" . intval($data[29]) . "</td>" .
-		"<td>{$data[33]}</td>" .
-		"<td>{$data[35]}</td>";	
+	echo "<tr><td>{$count}</td><td>{$worker_id}</td><td>{$video_id}</td><td>{$video_data[$video_id]['slug']}</td>" .
+		"<td>{$cluster_id}</td>" .
+		"<td>" . intval($before_index) . "</td>" .
+		"<td>" . intval($after_index) . "</td>" .
+		"<td>{$before_noop}</td>" .
+		"<td>{$after_noop}</td>";	
 	echo "</tr>";
 
+	if ($before_noop != "on")
+		$before_noop = "off";
+	if ($after_noop != "on")
+		$after_noop = "off";
 	// $data[32] = trim(preg_replace('/\s+/', ' ', $data[32]));
 	$output_string = $count . "\t\t" . 
-					$data[19] . "\t\t" .
+					$worker_id . "\t\t" .
 					$video_id . "\t\t" .
 					$video_data[$video_id]['slug'] . "\t\t" .
-					$data[30] . "\t\t" .
-					$vids[$data[30]]["vid"] . "\t\t" . 
-					$vids[$data[30]]["time"] . "\t\t" . 
-					$vids[$data[30]]["label"] . "\t\t" .
-					intval($data[34]) . "\t\t" .
-					intval($data[29]) . "\t\t" .
-					$data[33] . "\t\t" .
-					$data[35] . "\t\t" .
+					$cluster_id . "\t\t" .
+					$vids[$cluster_id]["vid"] . "\t\t" . 
+					$vids[$cluster_id]["time"] . "\t\t" . 
+					$vids[$cluster_id]["label"] . "\t\t" .
+					intval($before_index) . "\t\t" .
+					intval($after_index) . "\t\t" .
+					$before_noop . "\t\t" .
+					$after_noop . "\t\t" .
 					"\n";
-	file_put_contents("s3.temp.data", $output_string, FILE_APPEND);
+	file_put_contents("s3.data", $output_string, FILE_APPEND);
 }
 
 ?>

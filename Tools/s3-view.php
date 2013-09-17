@@ -23,7 +23,7 @@ $video_id = $_GET["vid"];
 
 $query_vid = "s2_" . $video_id . "%";
 $s23_data = array();
-$result = $mysqli->query("SELECT * FROM stage2_3_v1 WHERE video_id LIKE '$query_vid'");
+$result = $mysqli->query("SELECT * FROM stage2_3 WHERE video_id LIKE '$query_vid'");
 while($responses = $result->fetch_assoc()){
 	$s23_data[$responses["id"]] = array(
 		"video_id" => $responses["video_id"],
@@ -41,7 +41,7 @@ while($responses = $result->fetch_assoc()){
 
 // $video_id = $vids[$id]["video_id"];
 
-$entries = array_merge(file("real/s3_test/external_hit.results"));
+$entries = array_merge(file("real/s3_1/external_hit.results"), file("real/s3_2/external_hit.results"));
 
 $count = 0;
 $turk_data = array();
@@ -150,7 +150,7 @@ while($responses = $result->fetch_assoc()){
 
 <html>
 <head>
-	<title>Amazon Turk Stage 3</title>
+	<title>Verify Stage 3</title>
 	<link rel="stylesheet" href="../All/css/ui-lightness/jquery-ui-1.8.22.custom.css" type="text/css" />
 	<link rel="stylesheet" href="../All/css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="../All/style.css" />
@@ -159,6 +159,19 @@ while($responses = $result->fetch_assoc()){
 	<script type="text/javascript" src="../All/js/libs/jwplayer/jwplayer.js"></script>
 	<link rel="stylesheet" type="text/css" href="../All/js/jquery.qtip.min.css" />
 	<style>
+	#header{
+		position: fixed;
+		z-index: 100;
+		height:430px;
+		top: 0;
+		background-color: #ddd;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100%;
+	}
+	#task{
+		margin-top: 430px;
+	}
 	.sb-option{
 		width: 250px;
 		height: 180px;
@@ -170,7 +183,7 @@ while($responses = $result->fetch_assoc()){
 		/*width: 120px;
 		height: 90px;*/
 		cursor: pointer;
-		border: 5px solid white;
+		border: 10px solid white;
 		-webkit-touch-callout: none;
 		-webkit-user-select: none;
 		-khtml-user-select: none;
@@ -178,11 +191,14 @@ while($responses = $result->fetch_assoc()){
 		-ms-user-select: none;
 		user-select: none;		
 	}
+	.sb-label{
+		text-align: center;
+	}
 	.sb.selected{
-		border: 5px solid red;
+		border: 10px solid #0E6870;
 	}
 	.sb:hover{
-		border: 5px solid red;
+		border: 10px solid #0E6870;
 	}
 	.s3-turker-input, .s3-final-input{
 		width: 100%;
@@ -316,12 +332,13 @@ while($responses = $result->fetch_assoc()){
 
 
 	// controlling storyboard display
-	function displaySingleChoice(slug, second, $el){
+	function displaySingleChoice(slug, second, $el, mode){
 		var position = []; // [x, y]
 		var image_url = "";
 		var index;
 		var $choice;
 		var $img;
+		var $label;
 		var dummy_img; // placeholder to compute image width and height
 		index = Math.floor(second); // divide by the sampling rate if not 1
 		// console.log(second, index, index.pad(3), parseInt(second).pad(3), typeof second, typeof index);
@@ -329,8 +346,9 @@ while($responses = $result->fetch_assoc()){
 		console.log(image_url);
 		dummy_img = new Image();
 		dummy_img.onload = function(){
+			$label = $("<div/>").addClass("sb-label").text(mode);
 			$img = $("<img/>").addClass("sb").attr("data-index", index).attr("src", image_url);
-			$choice = $("<div/>").addClass("sb-option").append($img);
+			$choice = $("<div/>").addClass("sb-option").append($label).append($img);
 			$el.append($choice);
 		}
 		dummy_img.src = image_url;
@@ -346,7 +364,7 @@ while($responses = $result->fetch_assoc()){
 			var tmparr = prmarr[i].split("=");
 			params[tmparr[0]] = tmparr[1];
 		}
-
+		var user = params["user"];
 		// starting time retrieved from database. (target time - 10)
 		var start = 0;
 		console.log(start);		
@@ -374,7 +392,7 @@ while($responses = $result->fetch_assoc()){
     		var vidParams = { allowScriptAccess: "always" };
     		var atts = { id: "ytplayer" };
     		swfobject.embedSWF("http://www.youtube.com/v/<?php echo $video_data[$video_id]['slug']; ?>?enablejsapi=1&playerapiid=ytplayer&version=3",
-                       "ytplayer", "100%", "360", "8", null, null, vidParams, atts);
+                       "ytplayer", "560", "315", "8", null, null, vidParams, atts);
 
 			function onYouTubePlayerReady(playerId) {
 			      player = document.getElementById("ytplayer");
@@ -429,13 +447,14 @@ while($responses = $result->fetch_assoc()){
 					}, 5000);		      		
 		      	} else if (state == 1 && !done) {
 		      		stopVideo();
-				    setTimeout( function() { 
-						 videoPlayed = true;
-						 if ($("#instruction").val() != "") {
-						 	$("#taskSub").removeClass('disabled').removeAttr('disabled');
-						 }
-					}, 20000);
-		            done = true;
+		      		done = true;
+				 //    setTimeout( function() { 
+					// 	 videoPlayed = true;
+					// 	 if ($("#instruction").val() != "") {
+					// 	 	$("#taskSub").removeClass('disabled').removeAttr('disabled');
+					// 	 }
+					// }, 20000);
+		   //          done = true;
 		        }
 		      }
 
@@ -458,51 +477,52 @@ while($responses = $result->fetch_assoc()){
 
 		$(document).ready(function() {
 
-			// $(document).on("click", "#submit-button", function(){
-			// 	console.log("collect all clicks and submit");
-			// 	var results = [];
-			// 	$(".s3-final-input").each(function(){
-			// 		var b_selected = $(this).find(".before-image").hasClass("selected");
-			// 		var a_selected = $(this).find(".after-image").hasClass("selected")
-			// 		console.log($(this).attr("id"), b_selected, a_selected);
-			// 		results.push({"cid": $(this).attr("id"), "before": b_selected, "after": a_selected});
-			// 	});
-			// 	console.log(results);
-			// 	$.ajax({
-			// 	  type: "POST",
-			// 	  url: "s3-verify-ajax-record.php",
-			// 	  data: { 
-			// 	  	"vid": vid,
-			// 	  	"results": results }
-			// 	}).done(function( msg ) {
-			// 	  alert( "Data Saved: " + msg );
-			// 	  window.location.href = "s3-verify-list.html";
-			// 	});
-			// });
+			$(document).on("click", "#submit-button", function(){
+				console.log("collect all clicks and submit");
+				var results = [];
+				$(".s3-final-input").each(function(){
+					var b_selected = $(this).find(".before-image .sb").hasClass("selected");
+					var a_selected = $(this).find(".after-image .sb").hasClass("selected")
+					console.log($(this).attr("id"), b_selected, a_selected);
+					results.push({"cid": $(this).attr("id"), "before": b_selected, "after": a_selected});
+				});
+				console.log(user, vid, results);
+				$.ajax({
+				  type: "POST",
+				  url: "s3-verify-ajax-record.php",
+				  data: { 
+				  	"user": user,
+				  	"vid": vid,
+				  	"results": JSON.stringify(results) }
+				}).done(function( msg ) {
+				  alert( "Data Saved");
+				  window.location.href = "s3-verify-list.html?user=" + user;
+				});
+			});
       		var makeTask = function(video, tname, genre) {
     //   			var infoDes;
-    //   			var ht = '<div class="section task">' +
-    //   					// '<h2> Video </h2>' +
-				// 		// '<div class="video">' +
-				// 		// 	'<div id="mediaplayer" width="100%" height="400">JW Player goes here</div>' + 
-				// 		// '</div>' +
-				// 		'<div id="errorMsg"></div>' +						
-				// 		'<div class="info"><div>' +
-				// 			'<h3> Which best shows the <span class="canvasText"/> <u>before</u> &quot;<span class="tname"/>&quot;?</h3>' +
-				// 			'<div id="tipLabel"><strong>Click the most visible and clear image.</strong> ' +
-				// 			'<span class="pull-right"><input type="checkbox" name="before-noop">There is no good image available.</input></span>' + 
-				// 			'</div>' +
-				// 			'<div id="choices-before" class="choices"></div>' +
-				// 			'<p style="clear:both"></p>' +
-				// 			'<h3> Which best shows the <span class="canvasText"/> <u>after</u> &quot;<span class="tname"/>&quot;?</h3>' +
-				// 			'<div id="tipLabel"><strong>Click the most visible and clear image.</strong> ' +
-				// 			'<span class="pull-right"><input type="checkbox" name="after-noop">There is no good image available.</input></span>' + 
-				// 			'</div>' +
-				// 			'<div id="choices-after" class="choices"></div>' +
-				// 			'<p style="clear:both"></p>' +
-				// 			// '<input type="radio" name="labelRadios" value="@">' + '<i>None of these </i>' +
-				// 			// '<div id="otherLabel" style="display:none"><h4>Please write an alternative label: </h4>' +
-				// 			// 	'<input type="text" id="otherLabelText"></div>' +
+      			// var ht = '<div class="section task">' +
+      					// '<h2> Video </h2>' +
+						// '<div class="video">' +
+						// 	'<div id="mediaplayer" width="100%" height="400">JW Player goes here</div>' + 
+						// '</div>' +
+						// '<div id="errorMsg"></div>' +						
+						// '<div class="info"><div>' +
+						// 	'<h3>For each image, click if it correctly represents before/after effects of the given step.</h3>' +
+							// '<div id="tipLabel"><strong>Click the most visible and clear image.</strong> ' +
+							// '<span class="pull-right"><input type="checkbox" name="before-noop">There is no good image available.</input></span>' + 
+							// '</div>' +
+							// '<div id="choices-before" class="choices"></div>' +
+							// '<p style="clear:both"></p>' +
+							// '<h3> Which best shows the <span class="canvasText"/> <u>after</u> &quot;<span class="tname"/>&quot;?</h3>' +
+							// '<div id="tipLabel"><strong>Click the most visible and clear image.</strong> ' +
+							// '<span class="pull-right"><input type="checkbox" name="after-noop">There is no good image available.</input></span>' + 
+							// '</div>' +
+							// '<div id="choices-after" class="choices"></div>' +
+							// '<p style="clear:both"></p>' +
+							// '<input type="radio" name="labelRadios" value="@">' + '<i>None of these </i>' +
+							// '<div id="otherLabel" style="display:none"><h4>Please write an alternative label: </h4>' +
+							// 	'<input type="text" id="otherLabelText"></div>' +
 				// 		'</div>' +
 				// 	'</div>';
 
@@ -549,7 +569,7 @@ while($responses = $result->fetch_assoc()){
 	      			// 		// removeSelectionMarker($(this).closest(".sb-option"), false);
 	      			// 	}				
 	      			// }
-	      			console.log("b_idx", $("#beforeIndex").val(), "a_idx", $("#afterIndex").val())
+	      			// console.log("b_idx", $("#beforeIndex").val(), "a_idx", $("#afterIndex").val())
 	      		});
       		};
 
@@ -558,35 +578,78 @@ while($responses = $result->fetch_assoc()){
 			if (params['id'])
 				$("#video").val(params['id']);
 
-			console.log(genre, vid, turk_data, s23_data, video);		
+			console.log(genre, vid, tname, turk_data, s23_data, video);		
       		makeTask(video, tname, genre);
 
-      	/* Version that displays all Turker input */
+      	/* Version that displays all final S3 images */
+      		// for (var cid in s23_data){
+      		// 	console.log(cid, turk_data[cid], s23_data[cid]);
+      		// 	// var short_vid = s23_data[cid]["video_id"].substr(3, 7);
+      		// 	var slug = video_data[vid]["slug"];
+      		// 	console.log(vid, slug, s23_data[cid]["label"]);
+      		// 	$("#task").append("<h4>[" + cid + "] &quot;" + 
+      		// 	s23_data[cid]["label"] + 
+      		// "&quot; <span> @ " + parseInt(s23_data[cid]["time"]) + "</span> <small>(" + 
+      		// 	s23_data[cid]["video_id"] + 
+      		// ")</small>" +
+      		// " <span><a href='#' class='play-button' data-index='" + s23_data[cid]["time"] + "'>Play</a></span></h4>");
 
+
+      		// 		var label = s23_data[cid];
+      		// 		console.log(label["before_index"], label["after_index"]);
+      		// 		var dom_id = cid;
+      		// 		var $el = $("<div/>").attr("id", dom_id).addClass("s3-final-input")
+      		// 					.append("<div>" + label["worker_id"] + "</div>")
+      		// 					.append("<div class='before-image'>&nbsp;</div>")
+      		// 					.append("<div class='after-image'>&nbsp;</div>");
+
+      		// 		if (label["before_index"] != "\"" && label["before_index"] != "")
+      		// 			displaySingleChoice(slug, label["before_index"], $el.find('.before-image'), "before");
+      		// 		else
+      		// 			console.log(label["before_index"], label["before_index"] == "\"");
+      		// 		if (label["after_index"] != "\"" && label["after_index"] != "")
+      		// 			displaySingleChoice(slug, label["after_index"], $el.find('.after-image'), "after");
+      		// 		else
+      		// 			console.log(label["after_index"], label["after_index"] == "\"");
+      		// 		$el.appendTo("#task");
+      			
+      		// }
+
+      		$(document).on("click", ".play-button", function(){
+      			player.seekTo($(this).attr("data-index") - 10);
+      			player.playVideo();
+      			return false;
+      		});
+
+      	/* Version that displays all Turker input */
       		for (var cid in turk_data){
       			if (!(cid in s23_data)){
       				// console.log(cid, "not for this video");
       				continue;
       			}
-      			console.log(cid, turk_data[cid], s23_data[cid]);
+      			console.log(cid, turk_data, s23_data[cid]);
+      			// var short_vid = s23_data[cid]["video_id"].substr(3, 7);
       			var slug = video_data[vid]["slug"];
       			console.log(vid, slug, s23_data[cid]["label"]);
-      			$("#task").append("<h4>[" + cid + "] &quot;" + s23_data[cid]["label"] + "&quot; (" + s23_data[cid]["video_id"] + ")</h4>");
+      			$("#task").append("<h4>[" + cid + "] &quot;" 
+      				+ s23_data[cid]["label"] + "&quot; <span> @ " + parseInt(s23_data[cid]["time"]) + "</span> <small>(" 
+      				+ s23_data[cid]["video_id"] + ")</small>"
+      				+ " <span><a href='#' class='play-button' data-index='" + s23_data[cid]["time"] + "'>Play</a></span></h4>");
       			for (var i in turk_data[cid]){
       				var label = turk_data[cid][i];
       				console.log(label["before_index"], label["after_index"]);
       				var dom_id = cid + "-" + i;
-      				var $el = $("<div/>").attr("id", dom_id).addClass("s3-turker-input")
+      				var $el = $("<div/>").attr("id", dom_id).addClass("s3-final-input")
       							.append("<div>" + label["worker_id"] + "</div>")
-      							.append("<div class='before-image'>&nbsp;</div>")
-      							.append("<div class='after-image'>&nbsp;</div>");
+      							.append("<div class='before-image'></div>")
+      							.append("<div class='after-image'></div>");
 
       				if (label["before_index"] != "\"" && label["before_index"] != "")
-      					displaySingleChoice(slug, label["before_index"], $el.find('.before-image'));
+      					displaySingleChoice(slug, label["before_index"], $el.find('.before-image'), "before");
       				else
       					console.log(label["before_index"], label["before_index"] == "\"");
       				if (label["after_index"] != "\"" && label["after_index"] != "")
-      					displaySingleChoice(slug, label["after_index"], $el.find('.after-image'));
+      					displaySingleChoice(slug, label["after_index"], $el.find('.after-image'), "after");
       				else
       					console.log(label["after_index"], label["after_index"] == "\"");
       				$el.appendTo("#task");
@@ -597,22 +660,26 @@ while($responses = $result->fetch_assoc()){
 	</script>
 </head>
 <body>
-<div id="title">
-	<h3><?php echo $video_data[$video_id]["title"]; ?></h3>
-	<h4>Click on an image if it <strong>DOES NOT</strong> correctly represent before/after effects of the given step description.</h4>
-</div>
 
-
-<div id="task">
+<div id="header">
+	<div id="title">
+	<h4><?php echo $video_data[$video_id]["title"]; ?></h4>
+	</div>
 		<div id="ytplayer">You need Flash player 8+ and JavaScript enabled to view this video.</div>
 		<!-- <iframe id="ytplayer" type="text/html" width="640" height="390"
 	  src="https://www.youtube.com/v/<?php echo $video['slug']; ?>?enablejsapi=1&version=3"
 	  frameborder="0"></iframe> -->
-<div class='cleaner'>&nbsp;</div>
+	<div id="errorMsg"></div>	
+	<div class='cleaner'>&nbsp;</div>
+	<div class="info">
+		<h4>For each image, click if it correctly represents before/after effects of the given step.</h4>
+	</div>
 </div>
-<!-- <div>
+<div id="task">	
+</div>
+<div>
 	<button id="submit-button" class="btn btn-primary btn-xxlarge">Submit Results</button>
-</div> -->
+</div>
 </body>
 
 </html>

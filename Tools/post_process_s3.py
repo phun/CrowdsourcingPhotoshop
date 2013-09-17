@@ -83,37 +83,78 @@ def analyze_data(mode, l1, l2, l3):
     global count_else
 
     final_label = ""
-    try:
-        # print l1["vid"], cid
-        if l1[mode + "_noop"] == "on" and l2[mode + "_noop"] == "on" and l3[mode + "_noop"] == "on":
+
+    # print mode, l1[mode], l2[mode], l3[mode], l1[mode + "_noop"], l2[mode + "_noop"], l3[mode + "_noop"]
+
+    if l1[mode] == l2[mode] == l3[mode]:
+        # print "[unanimous]", getImage(l1, mode)
+        if int(l1[mode]) is 0:
             final_label = "noop"
-            count_unanimous += 1
             count_unanimous_noop_included += 1
-        elif l1[mode] == l2[mode] == l3[mode]:
-            # print "[unanimous]", getImage(l1, mode)
+        else:
             final_label = l1[mode]
-            count_unanimous += 1
-        elif (l1[mode + "_noop"] == "on" and l2[mode + "_noop"] == "on") or (l2[mode + "_noop"] == "on" and l3[mode + "_noop"] == "on") or (l3[mode + "_noop"] == "on" and l1[mode + "_noop"] == "on"):
+        count_unanimous += 1
+
+    # elif (l1[mode + "_noop"] == "on" and l2[mode + "_noop"] == "on") or (l2[mode + "_noop"] == "on" and l3[mode + "_noop"] == "on") or (l3[mode + "_noop"] == "on" and l1[mode + "_noop"] == "on"):
+    #     final_label = "noop"
+    #     count_majority_noop_included += 1
+    #     count_majority += 1
+    elif (l1[mode] == l2[mode]) or (l2[mode] == l3[mode]) or (l3[mode] == l1[mode]):
+        is_noop = False
+        if l1[mode] == l2[mode]:
+            if int(l1[mode]) is 0:
+                is_noop = True
+                count_majority_noop_included += 1
+            elif int(l3[mode]) is 0:
+                count_majority_noop_included += 1
+            elif is_same_image(getImage(l1, mode), getImage(l3, mode))[0]:
+                count_majority_dup_string += 1
+            answer_label = l1
+        elif l2[mode] == l3[mode]:
+            if int(l2[mode]) is 0:
+                is_noop = True
+                count_majority_noop_included += 1
+            elif int(l1[mode]) is 0:
+                count_majority_noop_included += 1           
+            elif is_same_image(getImage(l2, mode), getImage(l1, mode))[0]:
+                count_majority_dup_string += 1            
+            answer_label = l2   
+        elif l3[mode] == l1[mode]:
+            if int(l3[mode]) is 0:
+                is_noop = True
+                count_majority_noop_included += 1
+            elif int(l2[mode]) is 0:
+                count_majority_noop_included += 1           
+            elif is_same_image(getImage(l3, mode), getImage(l2, mode))[0]:
+                count_majority_dup_string += 1
+            answer_label = l3
+        # print "[majority]", getImage(answer_label, mode)
+        if is_noop:
             final_label = "noop"
-            count_majority_noop_included += 1
-            count_majority += 1
-        elif (l1[mode] == l2[mode]) or (l2[mode] == l3[mode]) or (l3[mode] == l1[mode]):
-            if l1[mode] == l2[mode]:
-                if is_same_image(getImage(l1, mode), getImage(l3, mode))[0]:
-                    count_majority_dup_string += 1
-                answer_label = l1
-            elif l2[mode] == l3[mode]:
-                if is_same_image(getImage(l2, mode), getImage(l1, mode))[0]:
-                    count_majority_dup_string += 1            
-                answer_label = l2   
-            elif l3[mode] == l1[mode]:
-                if is_same_image(getImage(l3, mode), getImage(l2, mode))[0]:
-                    count_majority_dup_string += 1
-                answer_label = l3
-            # print "[majority]", getImage(answer_label, mode)
+        else:
             final_label = answer_label[mode]
-            count_majority += 1
-        elif (l1[mode] != l2[mode]) and (l2[mode] != l3[mode]) and (l3[mode] != l1[mode]):
+        count_majority += 1
+    elif (l1[mode] != l2[mode]) and (l2[mode] != l3[mode]) and (l3[mode] != l1[mode]):
+        if int(l1[mode]) is 0 or int(l2[mode]) is 0 or int(l3[mode]) is 0:
+            count_diverse_noop_included += 1
+            # todo: test with noop
+            # final_label = "noop"
+            if int(l1[mode]) is 0:
+                s23 = is_same_image(getImage(l2, mode), getImage(l3, mode))    
+                if s23[0]:
+                    count_diverse_dup_string += 1                
+                final_label = l2[mode]
+            elif int(l2[mode]) is 0:
+                s31 = is_same_image(getImage(l3, mode), getImage(l1, mode))    
+                if s31[0]:
+                    count_diverse_dup_string += 1                
+                final_label = l3[mode]
+            elif int(l3[mode]) is 0:
+                s12 = is_same_image(getImage(l1, mode), getImage(l2, mode))    
+                if s12[0]:
+                    count_diverse_dup_string += 1                
+                final_label = l1[mode]                                    
+        else:       
             # print "[diverse]", getImage(l1, mode), "==", getImage(l2, mode), "==", getImage(l3, mode)   
             s12 = is_same_image(getImage(l1, mode), getImage(l2, mode))
             s23 = is_same_image(getImage(l2, mode), getImage(l3, mode))
@@ -126,28 +167,17 @@ def analyze_data(mode, l1, l2, l3):
                 final_label = l2[mode]
             elif s31[0]:
                 count_diverse_dup_string += 1
-                final_label = l3[mode]
-            else:
-                if l1[mode + "_noop"] == "on" or l2[mode + "_noop"] == "on" or l3[mode + "_noop"] == "on":
-                    count_diverse_noop_included += 1
-                    # todo: test with noop
-                    # final_label = "noop"
-                    if l1[mode + "_noop"] == "on":
-                        final_label = l2[mode]
-                    if l2[mode + "_noop"] == "on":
-                        final_label = l3[mode]
-                    if l3[mode + "_noop"] == "on":
-                        final_label = l1[mode]                                                
-                # let's use the longest string if we cannot resolve
-                # final_label = max([getImage(l1, mode), getImage(l2, mode), getImage(l3, mode)], key=len)
-                # print "no match", l1[mode], l2[mode], l3[mode]
-                # final_label = "noop"
-            count_diverse += 1
-        else:
-            print "something else"
-            count_else += 1
-    except IOError:
-        print "file does not exist"
+                final_label = l3[mode]                           
+            # let's use the longest string if we cannot resolve
+            # final_label = max([getImage(l1, mode), getImage(l2, mode), getImage(l3, mode)], key=len)
+            # print "no match", l1[mode], l2[mode], l3[mode]
+            # final_label = "noop"
+            # random one
+            final_label = l1[mode]
+        count_diverse += 1
+    else:
+        print "something else"
+        count_else += 1
 
     return final_label
 
@@ -155,7 +185,7 @@ def analyze_data(mode, l1, l2, l3):
 ''' 
     Post-Process stage 2 results
     Usage 
-        python dbscan.py [turk_filename]
+        python post_process_s3.py [turk_filename]
     Parameters
     - turk_filename: e.g., "s3.data"
 '''
@@ -260,7 +290,7 @@ for cid in cluster_list:
 #                 del final_data[vid][lid]
 #         prev_label = cur_label
 
-# save_files(final_data)
+save_files(final_data)
 
 # print final_data
 # print len(final_data)
@@ -272,3 +302,117 @@ print "noop:", count_noop
 
 
 
+
+
+# ''' analyze before and after data. 
+#     mode is either "before" or "after"
+# '''
+# def analyze_data(mode, l1, l2, l3):
+#     global count_noop
+#     global count_unanimous
+#     global count_unanimous_noop_included
+#     global count_majority
+#     global count_majority_noop_included 
+#     global count_majority_dup_string
+#     global count_diverse
+#     global count_diverse_noop_included 
+#     global count_diverse_dup_string 
+#     global count_else
+
+#     final_label = ""
+
+#     print mode, l1[mode], l2[mode], l3[mode], l1[mode + "_noop"], l2[mode + "_noop"], l3[mode + "_noop"]
+#     # print l1["vid"], cid
+#     if l1[mode + "_noop"] == "on" and l2[mode + "_noop"] == "on" and l3[mode + "_noop"] == "on":
+#         final_label = "noop"
+#         count_unanimous += 1
+#         count_unanimous_noop_included += 1
+#     elif l1[mode] == l2[mode] == l3[mode]:
+#         # print "[unanimous]", getImage(l1, mode)
+#         final_label = l1[mode]
+#         count_unanimous += 1
+#     elif (l1[mode + "_noop"] == "on" and l2[mode + "_noop"] == "on") or (l2[mode + "_noop"] == "on" and l3[mode + "_noop"] == "on") or (l3[mode + "_noop"] == "on" and l1[mode + "_noop"] == "on"):
+#         final_label = "noop"
+#         count_majority_noop_included += 1
+#         count_majority += 1
+#     elif (l1[mode] == l2[mode]) or (l2[mode] == l3[mode]) or (l3[mode] == l1[mode]):
+#         is_noop = False
+#         if l1[mode] == l2[mode]:
+#             if l1[mode] == 0:
+#                 is_noop = True
+#                 count_majority_noop_included += 1
+#             if is_same_image(getImage(l1, mode), getImage(l3, mode))[0]:
+#                 count_majority_dup_string += 1
+#             answer_label = l1
+#         elif l2[mode] == l3[mode]:
+#             if l2[mode] == 0:
+#                 is_noop = True
+#                 count_majority_noop_included += 1            
+#             if is_same_image(getImage(l2, mode), getImage(l1, mode))[0]:
+#                 count_majority_dup_string += 1            
+#             answer_label = l2   
+#         elif l3[mode] == l1[mode]:
+#             if l3[mode] == 0:
+#                 is_noop = True
+#                 count_majority_noop_included += 1            
+#             if is_same_image(getImage(l3, mode), getImage(l2, mode))[0]:
+#                 count_majority_dup_string += 1
+#             answer_label = l3
+#         # print "[majority]", getImage(answer_label, mode)
+#         if is_noop:
+#             final_label = "noop"
+#         else:
+#             final_label = answer_label[mode]
+#         count_majority += 1
+#     elif (l1[mode] != l2[mode]) and (l2[mode] != l3[mode]) and (l3[mode] != l1[mode]):
+#         if l1[mode + "_noop"] == "on" or l2[mode + "_noop"] == "on" or l3[mode + "_noop"] == "on":
+#             count_diverse_noop_included += 1
+#             # todo: test with noop
+#             # final_label = "noop"
+#             if l1[mode + "_noop"] == "on":
+#                 final_label = l2[mode]
+#             if l2[mode + "_noop"] == "on":
+#                 final_label = l3[mode]
+#             if l3[mode + "_noop"] == "on":
+#                 final_label = l1[mode]   
+#         # 0 without specifying noop
+#         elif int(l1[mode]) == 0 or int(l2[mode]) == 0 or int(l3[mode]) == 0:
+#             if int(l1[mode]) == 0:
+#                 s23 = is_same_image(getImage(l2, mode), getImage(l3, mode))    
+#                 if s23[0]:
+#                     count_diverse_dup_string += 1
+#                 final_label = l2[mode]      
+#             elif int(l2[mode]) == 0:
+#                 s31 = is_same_image(getImage(l3, mode), getImage(l1, mode))    
+#                 if s31[0]:
+#                     count_diverse_dup_string += 1
+#                 final_label = l3[mode]  
+#             elif int(l3[mode]) == 0:
+#                 s12 = is_same_image(getImage(l1, mode), getImage(l2, mode))    
+#                 if s12[0]:
+#                     count_diverse_dup_string += 1
+#                 final_label = l1[mode]                                     
+#         else:       
+#             # print "[diverse]", getImage(l1, mode), "==", getImage(l2, mode), "==", getImage(l3, mode)   
+#             s12 = is_same_image(getImage(l1, mode), getImage(l2, mode))
+#             s23 = is_same_image(getImage(l2, mode), getImage(l3, mode))
+#             s31 = is_same_image(getImage(l3, mode), getImage(l1, mode))
+#             if s12[0]:
+#                 count_diverse_dup_string += 1
+#                 final_label = l1[mode]  # pick any for image
+#             elif s23[0]:
+#                 count_diverse_dup_string += 1
+#                 final_label = l2[mode]
+#             elif s31[0]:
+#                 count_diverse_dup_string += 1
+#                 final_label = l3[mode]                           
+#             # let's use the longest string if we cannot resolve
+#             # final_label = max([getImage(l1, mode), getImage(l2, mode), getImage(l3, mode)], key=len)
+#             # print "no match", l1[mode], l2[mode], l3[mode]
+#             # final_label = "noop"
+#         count_diverse += 1
+#     else:
+#         print "something else"
+#         count_else += 1
+
+#     return final_label
