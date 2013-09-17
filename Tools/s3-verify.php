@@ -388,7 +388,7 @@ while($responses = $result->fetch_assoc()){
 				    setTimeout( function() { 
 				  		if (player.getPlayerState() == -1){
 							$("#errorMsg").show()
-								.html("Cannot see the video? Please open <a target='_blank' href='<?php echo urldecode(stripslashes($video['url'])); ?>&t=" +
+								.html("Cannot see the video? Please open <a target='_blank' href='http://www.youtube.com/v/<?php echo $video_data[$video_id]['slug']; ?>&t=" +
 									parseInt(start) + "s'>this link</a> to watch it.");
 							setTimeout( function() { 
 								 videoPlayed = true;

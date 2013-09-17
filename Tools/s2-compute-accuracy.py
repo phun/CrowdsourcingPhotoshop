@@ -74,6 +74,8 @@ truth = read_data(truth_filename)
 
 vidlist = turk.keys()
 vidlist.sort()
+# vidlist = sorted(vidlist, key=lambda item: (int(item.partition(' ')[0])
+#                                if item[0].isdigit() else float('inf'), item))
 # for index, vid in enumerate(vidlist):
 #     vid = vid[:1] + "1" + vid[2:] # make the stage prefix match
 #     vidlist[index] = vid[:1] + "1" + vid[2:]
@@ -92,7 +94,10 @@ for vid in vidlist:
    # create lid list sorted by time
     lidlist = []
     for lid in turk[vid]:
-        lidlist.append({'lid': lid, 'time': turk[vid][lid]["time"]})         
+        if turk[vid][lid]["label"] == "noop":
+            print "noop skipping"
+            continue    
+        lidlist.append({'lid': lid, 'time': float(turk[vid][lid]["time"])})         
     lidlist = sorted(lidlist, key=lambda k: k["time"])
     turk_sorted_lidlist = [item["lid"] for item in lidlist]
 
@@ -121,7 +126,7 @@ for vid in vidlist:
             else:
                 valid_turk_count += 1
                 turk_lid = turk_sorted_lidlist[index]
-                turk_label = turk[vid][turk_lid]
+                turk_label = turk[vid][turk_lid]        
                 if len(truth_sorted_lidlist) <= turk_to_truth[index]:
                     pass
                     # print "[fp]", turk_label["time"]
@@ -137,9 +142,9 @@ for vid in vidlist:
                         if match_result[0]:
                         # if True:
                             true_label["matched_new"] = True
-                            # print "[m ]", match_result[3], turk_label["time"], true_label["time"], "[", distance, "]"
-                            # print "    True:", true_label["desc"]
-                            # print "    Turk:", turk_label["label"].encode("utf-8")
+                            print "[m ]", '{:3.2f}'.format(float(match_result[3])),  '{:3.2f}'.format(float(turk_label["time"])), true_label["time"], "[", distance, "]"
+                            print "    True:", true_label["desc"]
+                            print "    Turk:", turk_label["label"].encode("utf-8")
                             found += 1                        
                         else:
                             print match_result[3] 
@@ -151,12 +156,12 @@ for vid in vidlist:
             elif found > 1:
                 print "not possible"                    
             elif found == 0:
-                # print "[fp] Turk", turk_label["time"], turk_label["label"].encode("utf-8")
+                print "[fp] Turk", turk_label["time"], turk_label["label"].encode("utf-8")
                 false_positive += 1
         for true_id in truth_sorted_lidlist:
             if "matched_new" not in truth[vid][true_id]:
                 false_negative += 1
-                # print "[fn] True", truth[vid][true_id]["time"], truth[vid][true_id]["desc"]
+                print "[fn] True", truth[vid][true_id]["time"], truth[vid][true_id]["desc"]
 
 
     # for cid in turk[vid]:
