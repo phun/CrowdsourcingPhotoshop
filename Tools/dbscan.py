@@ -6,7 +6,7 @@ from sklearn import metrics
 from sklearn.datasets.samples_generator import make_blobs
 from sklearn.preprocessing import StandardScaler
 from scipy.spatial import distance
-from matching_text import is_same_label
+from matching_text import is_same_label, get_filtered_label
 
 ##############################################################################
 # Read Turker data file
@@ -14,6 +14,7 @@ def read_turk_data(filename):
     data = {}
     f = open(filename)
     lines = f.readlines()
+    label_count = 0
     for line in lines:
         split_str = line.split('\t\t')
         #print split_str
@@ -22,11 +23,13 @@ def read_turk_data(filename):
         datum["workerid"] = split_str[1]
         datum["vid"] = split_str[2][:-4] # e.g., "s1_c02_v02" and "s04" from "s1_c02_v02_s04"
         datum["labels"] = parse_labels(datum["workerid"], int(split_str[2][-2:]), split_str[3].rstrip('\n'))
+        label_count += len(datum["labels"])
         if datum["vid"] not in data:
             data[datum["vid"]] = []
         for label in datum["labels"]:
             data[datum["vid"]].append(label)
     f.close()
+    print "label count", label_count
     return data
 
 ##############################################################################
@@ -433,8 +436,8 @@ turk = read_turk_data(turk_filename)
 vidlist = turk.keys()
 vidlist.sort()
 
-for i in range(1, 30):
-    eps = i * 0.01
+for i in range(1, 2):
+    eps = i * 0.07
     final_data = {}
     for vid in vidlist:
         # if vid != "s1_c05_v05": #"s1_c05_v03" "s1_c03_v01": #
@@ -514,5 +517,5 @@ for i in range(1, 30):
             else:
                 final_data[vid][cid] = {'cluster_id': cid, 'time': getClusterTime(cluster_data[cid], cid), 'points_turk': cluster_data[cid]}
 
-        save_files(turk_filename, final_data, eps)
+        # save_files(turk_filename, final_data, eps)
 

@@ -38,7 +38,7 @@ def read_turk_data(filename):
 # Save JSON files of final clusters
 def save_files(final_data):
     import json
-    with open(sys.argv[1] + '.final.json', 'wb') as fp:
+    with open(sys.argv[1] + '.nomerge.test.final.json', 'wb') as fp:
         #json.dump(final_data, fp)
         json.dump(final_data, fp, sort_keys=True, indent=4, separators=(',', ': '))
 

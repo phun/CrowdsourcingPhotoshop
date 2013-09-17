@@ -219,7 +219,7 @@ global_precision = compute_precision(global_match, global_fp)
 global_recall = compute_recall(global_match, global_fn)
 global_f1 = compute_f_score(global_precision, global_recall, 1)
 global_f2 = compute_f_score(global_precision, global_recall, 2)
-print "GLOBAL Precision: %.4f Recall:%.4f  F1:%.4f  F2:%.4f" % (global_precision, global_recall, global_f1, global_f2)
+print "GLOBAL Precision: %.4f Recall:%.4f  F1:%.4f  F2:%.4f  m:%d  fp:%d  fn:%d" % (global_precision, global_recall, global_f1, global_f2, global_match, global_fp, global_fn)
 
 
 
