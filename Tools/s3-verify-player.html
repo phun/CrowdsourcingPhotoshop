@@ -1,0 +1,30 @@
+<html>
+<head>
+    <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+    <script src="http://vjs.zencdn.net/c/video.js"></script>
+</head>
+<body>
+    <video id="video1" class="video-js vjs-default-skin" width="640" height="480"
+        data-setup='{"controls" : true, "autoplay" : true, "preload" : "auto"}'>
+        <source src="" type="video/x-flv">
+    </video>
+    <script>
+	
+		var prmstr = window.location.search.substr(1);
+		var prmarr = prmstr.split ("&");
+		var params = {};
+		for ( var i = 0; i < prmarr.length; i++) {
+			var tmparr = prmarr[i].split("=");
+			params[tmparr[0]] = tmparr[1];
+		}
+		var video_url = params["vid"];
+		console.log(video_url, video_url.substr(-3))
+                document.querySelector("#video1 > source").src = video_url;
+		if (video_url.substr(-3) == "mp4")
+                	document.querySelector("#video1 > source").type = "video/mp4";
+		else
+                	document.querySelector("#video1 > source").type = "video/x-flv";
+		
+    </script>
+</body>
+</html>

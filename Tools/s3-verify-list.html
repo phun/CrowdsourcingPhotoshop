@@ -19,27 +19,34 @@
 		var user = params["user"];
 
 		$(document).ready(function(){
-			for (var i=1; i<=5; i++){
-				for (var j=1; j<=5; j++){
-					var vid = "c0" + i + "_v0" + j;
-					var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid + "&user=" + user).text(vid);
-					$("#cooking-list").append($item).append("<br/>");
+			if (user == "rob" || user == "elena")
+				for (var i=1; i<=5; i++){	
+					for (var j=1; j<=5; j++){
+						if (i==1 && j==2) continue;
+						else if (i!=1 && j==1) continue;
+						var vid = "c0" + i + "_v0" + j;
+						var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid + "&user=" + user).text(vid);
+						$("#cooking-list").append($item).append("<br/>");
+					}
 				}
-			}
-			for (var i=1; i<=5; i++){
-				for (var j=1; j<=5; j++){
-					var vid = "m0" + i + "_v0" + j;
-					var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid + "&user=" + user).text(vid);
-					$("#makeup-list").append($item).append("<br/>");
+			if (user == "jihee" || user == "sarah")
+				for (var i=1; i<=5; i++){	
+					for (var j=1; j<=5; j++){
+						if (j==1) continue;
+						var vid = "m0" + i + "_v0" + j;
+						var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid + "&user=" + user).text(vid);
+						$("#makeup-list").append($item).append("<br/>");
+					}
 				}
-			}
-			for (var i=1; i<=5; i++){
-				for (var j=1; j<=5; j++){
-					var vid = "p0" + i + "_v0" + j;
-					var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid + "&user=" + user).text(vid);
-					$("#photoshop-list").append($item).append("<br/>");
-				}
-			}						
+			if (user == "philip" || user == "kyle")
+				for (var i=1; i<=5; i++){
+					for (var j=1; j<=5; j++){
+						if (j==1) continue;
+						var vid = "p0" + i + "_v0" + j;
+						var $item = $("<a/>").attr("href", "s3-verify.php?vid=" + vid + "&user=" + user).text(vid);
+						$("#photoshop-list").append($item).append("<br/>");
+					}
+				}						
 		});
 	</script>
 </body>
