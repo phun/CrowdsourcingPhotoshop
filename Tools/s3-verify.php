@@ -389,7 +389,7 @@ while($responses = $result->fetch_assoc()){
 				  		if (player.getPlayerState() == -1){
 							$("#errorMsg").show()
 								.html("Cannot see the video? Please open <a target='_blank' href='<?php echo urldecode(stripslashes($video['url'])); ?>&t=" +
-									parseInt(start) + "s'>this link</a>, watch the video for 20 seconds, and answer the question below.");
+									parseInt(start) + "s'>this link</a> to watch it.");
 							setTimeout( function() { 
 								 videoPlayed = true;
 								 if ($("#instruction").val() != "") {
