@@ -4,6 +4,90 @@
 		"selected_items":
 		[
 			[
+				"tur",
+				"turker-input"
+			],
+			[
+				"disp",
+				"displaySingleChoice"
+			],
+			[
+				"is",
+				"is_same_label"
+			],
+			[
+				"turk",
+				"turk_sorted_lidlist"
+			],
+			[
+				"truth",
+				"truth_sorted_lidlist"
+			],
+			[
+				"prev_",
+				"prev_is_singleton"
+			],
+			[
+				"sorted",
+				"sorted_turk"
+			],
+			[
+				"s1_c",
+				"s1_c02_v02"
+			],
+			[
+				"count_div",
+				"count_diverse_noop_included"
+			],
+			[
+				"count_maj",
+				"count_majority_noop_included"
+			],
+			[
+				"count_una",
+				"count_unanimous_noop_included"
+			],
+			[
+				"count_un",
+				"count_unanimous_custom_included"
+			],
+			[
+				"stop",
+				"stop_words_list"
+			],
+			[
+				"cou",
+				"count_diverse"
+			],
+			[
+				"count",
+				"count_majority"
+			],
+			[
+				"before",
+				"choices-before"
+			],
+			[
+				"displ",
+				"displayChoices"
+			],
+			[
+				"canva",
+				"canvasText"
+			],
+			[
+				"s1_",
+				"s1_p03_v03"
+			],
+			[
+				"compu",
+				"compute_f_score"
+			],
+			[
+				"comput",
+				"compute_precision"
+			],
+			[
 				"SERVER",
 				"_SERVER"
 			],
@@ -99,6 +183,127 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Tools/compute-accuracy.py",
+			"settings":
+			{
+				"buffer_size": 12644,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Tools/post_process_s2.py",
+			"settings":
+			{
+				"buffer_size": 9512,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Tools/post_process_s3.py",
+			"settings":
+			{
+				"buffer_size": 16434,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Tools/matching.py",
+			"settings":
+			{
+				"buffer_size": 6629,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Tools/matching_text.py",
+			"settings":
+			{
+				"buffer_size": 4566,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Tools/matching_image.py",
+			"settings":
+			{
+				"buffer_size": 2098,
+				"line_ending": "Unix",
+				"name": "from scipy.misc import imread"
+			}
+		},
+		{
+			"file": "Tools/s3-verify.php",
+			"settings":
+			{
+				"buffer_size": 26915,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Tools/analysis.php",
+			"settings":
+			{
+				"buffer_size": 26741,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Tools/s3-verify-list.html",
+			"settings":
+			{
+				"buffer_size": 1683,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Tools/s3.data",
+			"settings":
+			{
+				"buffer_size": 452658,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Tools/load-s1-results.php",
+			"settings":
+			{
+				"buffer_size": 5680,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Tools/store-s1-results-db.php",
+			"settings":
+			{
+				"buffer_size": 4467,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Tools/dist_c.txt",
+			"settings":
+			{
+				"buffer_size": 11383,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Tools/dist_m.txt",
+			"settings":
+			{
+				"buffer_size": 8581,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Tools/dist_p.txt",
+			"settings":
+			{
+				"buffer_size": 7053,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -152,138 +357,138 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/labeler/save-video-metadata.php",
-		"/Applications/MAMP/htdocs/labeler/list.php",
-		"/Applications/MAMP/htdocs/labeler/css/style.css",
-		"/Applications/MAMP/htdocs/labeler/analyze-videos.php",
-		"/Applications/MAMP/htdocs/labeler/subgoal.html",
-		"/Applications/MAMP/htdocs/labeler/toolscape-learner.html",
-		"/Applications/MAMP/htdocs/labeler/conn.php",
-		"/Applications/MAMP/htdocs/labeler/delete-label.php",
-		"/Applications/MAMP/htdocs/labeler/vs-process.php",
-		"/Applications/MAMP/htdocs/labeler/vs-list.php",
-		"/Applications/MAMP/htdocs/labeler/js/script.js",
-		"/Applications/MAMP/htdocs/labeler/analyze-data.php",
-		"/Applications/MAMP/htdocs/labeler/analyze-logs.php",
-		"/Applications/MAMP/htdocs/labeler/browse.php",
-		"/Applications/MAMP/htdocs/labeler/utils.php",
-		"/Applications/MAMP/htdocs/labeler/update-label.php",
-		"/Applications/MAMP/htdocs/labeler/make-thumbnail.php",
-		"/Applications/MAMP/htdocs/labeler/ajax-make-thumbnail.php",
-		"/Applications/MAMP/htdocs/labeler/add-label.php",
-		"/Applications/MAMP/htdocs/labeler/label.php",
-		"/Applications/MAMP/htdocs/labeler/v2-list.php",
-		"/Applications/MAMP/htdocs/labeler/vs-post-questionnaire.php",
-		"/Applications/MAMP/htdocs/labeler/get-video-duration.php",
-		"/Applications/MAMP/htdocs/labeler/header.php",
-		"/Applications/MAMP/htdocs/labeler/phu-label-list.php",
-		"/Applications/MAMP/htdocs/labeler/phu-label.php",
-		"/Applications/MAMP/htdocs/labeler/v2-header.php",
-		"/Applications/MAMP/htdocs/labeler/crop-icons.sh",
-		"/Applications/MAMP/htdocs/labeler/study-conditions.php",
-		"/Applications/MAMP/htdocs/labeler/conn.default.php",
-		"/Applications/MAMP/htdocs/labeler/apple-touch-icon-114x114-precomposed.png",
-		"/Applications/MAMP/htdocs/labeler/autocomplete.php",
-		"/Users/juhokim/Desktop/vs-post.csv",
-		"/Applications/MAMP/htdocs/labeler/js/libs/log4javascript.js",
-		"/Applications/MAMP/htdocs/labeler/.gitignore",
-		"/Applications/MAMP/htdocs/labeler/index.php",
-		"/Applications/MAMP/htdocs/labeler/v2-label.php",
-		"/Applications/MAMP/htdocs/labeler/v2-browse.php",
-		"/Applications/MAMP/htdocs/labeler/check-login.php",
-		"/Applications/MAMP/htdocs/labeler/test-browse.php",
-		"/Applications/MAMP/htdocs/labeler/test-list.php",
-		"/Applications/MAMP/htdocs/labeler/README.markdown",
-		"/Applications/MAMP/htdocs/labeler/vs-done.php",
-		"/Applications/MAMP/htdocs/labeler/intro.php",
-		"/Applications/MAMP/htdocs/labeler/README",
-		"/Applications/MAMP/htdocs/labeler/design-intro.php",
-		"/Applications/MAMP/htdocs/labeler/ajax-add-log.php",
-		"/Applications/MAMP/htdocs/labeler/vt.sql",
-		"/Applications/MAMP/htdocs/labeler/vs-intro.php",
-		"/Applications/MAMP/htdocs/labeler/test2.php",
-		"/Applications/MAMP/htdocs/labeler/create-summary.php",
-		"/Applications/MAMP/htdocs/labeler/analyze-comments.php",
-		"/Applications/MAMP/htdocs/labeler/untitled.html",
-		"/Users/juhokim/Desktop/data.csv",
-		"/Applications/MAMP/htdocs/labeler/vs-watch.php",
-		"/Applications/MAMP/htdocs/labeler/logout.php",
-		"/Applications/MAMP/htdocs/labeler/vs-intro-t.php",
-		"/Applications/MAMP/htdocs/labeler/intro-task.php",
-		"/Applications/MAMP/htdocs/labeler/manage.php",
-		"/Applications/MAMP/htdocs/labeler/done.php",
-		"/Applications/MAMP/htdocs/labeler/vs-intro-i.php",
-		"/Applications/MAMP/htdocs/labeler/tutorial.php",
-		"/Applications/MAMP/htdocs/labeler/postq.php",
-		"/Users/juhokim/Documents/패치 정보.txt",
-		"/Applications/MAMP/htdocs/labeler/js/libs/jcview/jquery.vt.jcview.js",
-		"/Applications/MAMP/htdocs/labeler/test.php",
-		"/Applications/MAMP/htdocs/labeler/video/sc/sc.sh",
-		"/Applications/MAMP/htdocs/labeler/preq.php",
-		"/Applications/MAMP/htdocs/labeler/menus.json",
-		"/Users/juhokim/Library/Application Support/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
-		"/Applications/MAMP/htdocs/labeler/img/tasks/retro.jpg",
-		"/Applications/MAMP/htdocs/labeler/finish.php",
-		"/Applications/MAMP/htdocs/labeler/video/ff/ff.sh",
-		"/Applications/MAMP/htdocs/labeler/tools.json",
-		"/Applications/MAMP/htdocs/labeler/video/7z5YKi5cizA.flv.info.json",
-		"/Applications/MAMP/htdocs/labeler/js/libs/lightbox/jquery.lightbox-0.5.js",
-		"/Applications/MAMP/htdocs/labeler/css/lightbox/jquery.lightbox-0.5.css",
-		"/Applications/MAMP/htdocs/labeler/footer.php",
-		"/Applications/MAMP/htdocs/labeler/js/libs/bootstrap/bootstrap.js",
-		"/Applications/MAMP/htdocs/labeler/list-commands.php",
-		"/Applications/MAMP/htdocs/labeler/js/libs/jcview/jquery.jcview.css",
-		"/Applications/MAMP/htdocs/odk2/header.php",
-		"/Applications/MAMP/htdocs/labeler/js/script.labeler.js",
-		"/Applications/MAMP/htdocs/labeler/labeler.php",
-		"/Applications/MAMP/htdocs/labeler/browser.php",
-		"/Applications/MAMP/htdocs/labeler/jcrop.php",
-		"/Users/juhokim/Music/Swings - Punchline King III 2012/Punchline King III Official Mixtape.txt",
-		"/Users/juhokim/Music/Swings - Punchline King III 2012/Lyrics/¡¯¬• ∏⁄¿Ô¿Ã feat. Wutan, Deepflow.txt",
-		"/Applications/MAMP/htdocs/labeler/log.php",
-		"/Applications/MAMP/htdocs/labeler/test.html",
-		"/Applications/MAMP/htdocs/labeler/js/libs/jcview/jquery.jcview.js",
-		"/Applications/MAMP/htdocs/labeler/js/libs/jcview/jquery-jcview-0.0.1.min.js",
-		"/Applications/MAMP/htdocs/labeler/index.html",
-		"/Applications/MAMP/htdocs/odk2/css/custom.css",
-		"/Applications/MAMP/htdocs/odk2/hot.php",
-		"/Applications/MAMP/htdocs/odk2/schedule.php",
-		"/Applications/MAMP/htdocs/odk2/doongji.php",
-		"/Applications/MAMP/htdocs/odk2/scene.php",
-		"/Applications/MAMP/htdocs/odk2/star.php",
-		"/Applications/MAMP/htdocs/odk2/drama.php",
-		"/Applications/MAMP/htdocs/odk2/24tv.php",
-		"/Applications/MAMP/htdocs/odk2/account.php",
-		"/Applications/MAMP/htdocs/odk2/_social.php",
-		"/Applications/MAMP/htdocs/odk2/_rating.php",
-		"/Applications/MAMP/htdocs/odk2/playlist.php",
-		"/Applications/MAMP/htdocs/odk2/login.php",
-		"/Applications/MAMP/htdocs/odk2/js/script.js",
-		"/Applications/MAMP/htdocs/odk2/_recent.php",
-		"/Applications/MAMP/htdocs/odk2/_realtime.php",
-		"/Applications/MAMP/htdocs/odk2/_news.php",
-		"/Applications/MAMP/htdocs/odk2/index.php",
-		"/Applications/MAMP/htdocs/odk2/mask.php",
-		"/Applications/MAMP/htdocs/odk2/footer.php",
-		"/Applications/MAMP/htdocs/odk2/juwon.php",
-		"/Applications/MAMP/htdocs/odk2/css/style.css",
-		"/Applications/MAMP/htdocs/labeler/css/jcarousel/skins/tango/skin.css",
-		"/Applications/MAMP/htdocs/labeler/js/jcarousel/examples/static_controls.html",
-		"/Applications/MAMP/htdocs/labeler/css/jcarouosel/style.css",
-		"/Applications/MAMP/htdocs/labeler/video/85WjLBsJVjc.flv.info.json",
-		"/Users/juhokim/Downloads/initializr-verekia-3.0/css/style.css",
-		"/Users/juhokim/Downloads/initializr-verekia-3.0/js/script.js",
-		"/Applications/MAMP/htdocs/labeler/motionblur.php",
-		"/Applications/MAMP/htdocs/odk2/join.php",
-		"/Users/juhokim/Sites/odk2/drama.html",
-		"/Users/juhokim/Sites/odk2/scene.html",
-		"/Users/juhokim/Sites/odk2/css/custom.css",
-		"/Users/juhokim/Sites/odk2/mask.html",
-		"/Users/juhokim/Sites/odk2/js/script.js"
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/dbscan.py",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s2-compute-accuracy.py",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/All/three.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/All/two.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/All/css/style.css",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/All/style.css",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s2.accuracy.log",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/store-s3-results-db.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/store-s2-results-db.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s3-verify-ajax-record.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/load-s3-results.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s3.data.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/compute-window.sh",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_p.data",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.truth.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.truth",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.data",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s3.log",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_m.v3.truth.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s3-view.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/load-s2-results.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/load-s1-results.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s3-view-list.html",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s2.data.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s2.temp.data",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s3.temp.data",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/All/two-local.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/All/three-local.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s3_2/external_hit.question",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s3_2/external_hit.properties",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s3_1/external_hit.input",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s3_2/external_hit.input",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s3_1/external_hit.properties",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s2_12/external_hit.input",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.v3.truth.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/matching_text.py",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s2.v2.data",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s2.data",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Subgoal/index.html",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s3-verify-list.html",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/se-verify-list.html",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Subgoal/get_labels.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Subgoal/ba.html",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/All/s3-verify.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/data/s2.data.v1.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s2-compute.sh",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.v2.truth.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/data/s1_c.data.new.merge.w1.0.07.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/analysis.c.txt",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/matching.py",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/accuracy.v3.txt",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/accuracy.v3.no_big_clusters.txt",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_p.v3.truth.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/store-s1-results-db.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s2_11/external_hit.input",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Makeup/one.html",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_p.data.org",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_m.data.org",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.data.org",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.data.parsed",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_p.data.parsed",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_p.data.0.07.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.data.0.07.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.data_w0.5_.0.01.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.data_w0.0_.0.07.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.data_w1_.0.07.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/data/s1_c.data.w1.0.1.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/data/s1_c.data_w1_.0.1.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_m.v2.truth.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_p.v2.truth.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_p.truth",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/All/one.html",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s2_2/external_hit.input",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Subgoal/get_data.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Subgoal/js/subgoal.js",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/All/three-old.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Subgoal/css/style.css",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Subgoal/index-knockout.html",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s2.data.5.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s2.v1.data",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s3_test/external_hit.properties",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s3_test/external_hit.question",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s2_6/external_hit.input",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s3_test/external_hit.input",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/storyboard/load-youtube-results",
+		"/Users/juhokim/nltk_data/corpora/brown/ca01",
+		"/Users/juhokim/nltk_data/corpora/ptb/allcats.txt",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s2_3/external_hit.results",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s2_4/external_hit.input",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s2_4/external_hit.question",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s2_1/external_hit.input",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/storyboard/url-storyboard-list",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/storyboard/download-storyboard.sh",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/storyboard/load-youtube.js",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s2_c_1/external_hit.results",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/storyboard/youtube-storyboard.js",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/All/js/modernizr-video.js",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/All/two-special.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/storyboard/url-list",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/js/youtube-storyboard.js",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/js/load-youtube.js",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/js/url-list",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/js/README.md",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/js/make-bookmarklet.pl",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/js/youtube-storyboard-min.js",
+		"/Users/juhokim/Downloads/phantomjs-1.9.1-macosx/README.md",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/js/untitled.pl",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s2_c_1/external_hit.input",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Subgoal/js/vendor/knockout-2.3.0.js",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Subgoal/js",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s2_c_1/s2_p.input",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s2_c_1/s2_m.input",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s2_c_1/s2_c.input",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.pretty.truth.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/All/two-new.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_m.truth.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/add-results-db.php",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_m.data.2",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.data.0.1.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.10.sep_rec.ignore_singleton2",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.10.sep.ignore_singleton",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_c.10.sep_rec",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_m.data",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_m.data.0.01.final.json",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/real/s2/s2_c.id_list",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/timeline_view.html",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_p.10.sep_rec.ignore_singleton_unclustered",
+		"/Applications/MAMP/htdocs/CrowdsourcingPhotoshop/Tools/s1_p.10.sep.ignore_singleton"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -295,137 +500,137 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
-			"is_admin",
-			"nextButton",
-			"myForm",
-			"DONE",
-			"done with",
-			"DONE",
-			"done with",
-			"log",
-			"var",
-			"interface_id",
-			"domain",
-			"task",
-			"labels_array",
-			"video_filename",
-			"task_id",
-			"json_file",
-			"video_filename",
-			"serialize",
-			"serealize",
-			"select",
-			"file_get_contents",
-			"views",
-			"view-option",
-			"autocomplete",
-			"log4javascript",
-			"edit-save-link",
-			"live",
-			"getLabelHTML",
-			"browse",
-			"label.php",
-			"task_id",
-			"part",
-			"cond",
-			"part",
-			"step",
-			"cond",
-			"bar",
-			"progress",
-			"filters",
-			"browse.php",
-			"simple-view",
-			"radio",
-			"all-view",
-			"num_videos",
-			"meta_array",
-			"getIDisplay",
-			"index",
-			"<?",
-			"mediaplayer",
-			"html2",
-			"video_id",
-			"lightbox",
-			"seek",
-			"seek(",
-			"jwplayer",
-			"popover-click-image",
-			"marker-image",
-			"timeline",
-			"popover-tool-bo",
-			"popover-click",
-			"dues",
-			"mycarousel",
-			"date",
-			"filters",
-			"list.php",
-			".alert",
-			"video_filename",
-			"result2",
-			"active",
-			"lightbox",
-			"lightBox",
-			"duplicate",
-			"labels",
-			"$json",
-			"images",
-			"getLikertQuestionHTML",
-			"task_id",
-			"The provided video summary",
-			"File > New",
-			"edit-save-link",
-			"edit-cancel-link",
-			"selector",
-			"popover",
-			"slider",
-			"jwplayer",
-			"popover-click-image",
-			"footer",
-			"jcrop",
-			"videos_array",
-			"result1",
-			"seek",
-			"mycarousel_initCallback",
-			"control_width",
-			"width",
-			"duration",
-			"interface_id",
-			"tools_array",
-			"user_id",
-			"#tm",
-			"select-other",
-			"select-image",
-			"select-other",
-			"id=\"select-other\"",
-			"id=\"select-menu\"",
-			"id=\"select-tool\"",
-			"id=\"select-image\"",
-			"capture-tool",
-			"select-image",
-			"checked",
-			"selection",
-			"select-image",
-			"capture-tool",
-			"checked",
-			"select-tool",
-			"pull-right",
+			"stopVideo",
+			"errorMsg",
+			"beforeIndex",
+			"val",
+			"json",
+			"onYouTubePlayerReady",
+			"s23_data",
+			"GLOBAL ",
+			"s2.data.final.json window",
+			"get_filtered_label",
+			"parse_labels",
+			"select * from labels",
+			"noop",
+			"sort",
+			"turk_data",
 			"play-button",
-			"tool-id",
-			"carousel",
-			"user_id",
-			"labeler",
-			"browser",
-			"$row",
-			"Repousse",
-			"Adjustments",
-			"<?",
+			"deprecated!",
+			"#task",
+			"prmarr",
+			"params",
+			"html",
+			"true",
+			"param",
+			"ajax",
+			"final",
+			"submit",
+			"ytplayer",
+			"nbsp",
+			"displaySingleChoice",
+			"sb-option",
+			"errorMsg",
+			"1038",
+			"noop",
+			"window_size",
+			"is_same_image",
+			"modeswer",
+			"getImage(",
+			"getLabel",
+			"\"answer\"",
+			"is_same_label",
+			"selected",
+			"s3-final-input",
+			"s3-turker-input",
+			"s3-final-input",
+			"results",
+			"ready",
+			"verify",
+			"ytplayer",
+			"cluster_id",
+			"displaySingleChoice",
+			"tasks",
+			"displaySingleChoice",
+			"makeTask",
+			"tasks",
+			"displaySingleChoice",
+			"image_url",
+			"displaySingleChoice",
+			"vids_data",
+			"$vids",
+			"labels",
 			"video_id",
-			"getLabelByID",
-			"getEditHTML"
+			"time_index",
+			"det_label",
+			"choices-before",
+			"window_size",
+			"stop_words_list",
+			"text_similarity",
+			"is_same_label",
+			"global_label_list",
+			"compare_int_keys",
+			"get_filtered_label",
+			"valid_turk_count",
+			"v_",
+			"$video",
+			"data_file",
+			"server the bulgogi",
+			"sorted_lidlist",
+			"true_label",
+			"c01_v05_s03",
+			"global_turk_labels",
+			"sorted",
+			"get_cluster_centroid",
+			"nomerge",
+			"video",
+			"_1",
+			"c03_v01_s02",
+			"_1",
+			"s1_c02_v02_s01",
+			"s1_c02_v01_s04",
+			"turk_filename",
+			"open",
+			"sys.argv[1]",
+			"turk_filename",
+			"print",
+			"format_data",
+			"read_turk_data",
+			"clusters",
+			"clone_clusters",
+			"fp",
+			"next_similarity",
+			"X",
+			"labels_turk",
+			"core_samples",
+			"label_truth_list",
+			"truth",
+			"sorted_turk",
+			"fp",
+			"parsed",
+			"format_data",
+			"p04_v01",
+			"s1_p01_v05",
+			"s1_p05_v05",
+			"audio",
+			"p05_v03",
+			"s1_p05_v03",
+			"p05_v02",
+			"c04_v02",
+			"pad",
+			"save_files",
+			"juhokim.com",
+			"ready",
+			"1003",
+			"537",
+			"removeSelectionMarker",
+			"toolTick",
+			"sb-option{",
+			"bootstrap",
+			"addToolTick"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -443,8 +648,1463 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Tools/compute-accuracy.py",
+					"settings":
+					{
+						"buffer_size": 12644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8220,
+								8220
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"origin_encoding": "ASCII",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Tools/post_process_s2.py",
+					"settings":
+					{
+						"buffer_size": 9512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3718,
+								3718
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"origin_encoding": "ASCII",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2845.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Tools/post_process_s3.py",
+					"settings":
+					{
+						"buffer_size": 16434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10863,
+								10863
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"origin_encoding": "ASCII",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3735.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Tools/matching.py",
+					"settings":
+					{
+						"buffer_size": 6629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2913,
+								2913
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"origin_encoding": "ASCII",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 415.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Tools/matching_text.py",
+					"settings":
+					{
+						"buffer_size": 4566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3028,
+								3028
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"origin_encoding": "ASCII",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Tools/matching_image.py",
+					"settings":
+					{
+						"buffer_size": 2098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								680,
+								680
+							]
+						],
+						"settings":
+						{
+							"auto_name": "from scipy.misc import imread",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"origin_encoding": "ASCII",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Tools/s3-verify.php",
+					"settings":
+					{
+						"buffer_size": 26915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"origin_encoding": "ASCII",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Tools/analysis.php",
+					"settings":
+					{
+						"buffer_size": 26741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1040,
+								1040
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"is_preview": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Tools/s3-verify-list.html",
+					"settings":
+					{
+						"buffer_size": 1683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								387,
+								387
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"origin_encoding": "ASCII",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Tools/s3.data",
+					"settings":
+					{
+						"buffer_size": 452658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								450448,
+								450448
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"origin_encoding": "ASCII",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 104940.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Tools/load-s1-results.php",
+					"settings":
+					{
+						"buffer_size": 5680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "Tools/store-s1-results-db.php",
+					"settings":
+					{
+						"buffer_size": 4467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								536,
+								578
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "Tools/dist_c.txt",
+					"settings":
+					{
+						"buffer_size": 11383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "Tools/dist_m.txt",
+					"settings":
+					{
+						"buffer_size": 8581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "Tools/dist_p.txt",
+					"settings":
+					{
+						"buffer_size": 7053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								773,
+								773
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -479,6 +2139,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"replace":
 	{
 		"height": 0.0
@@ -508,6 +2172,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 219.0,
+	"side_bar_width": 244.0,
 	"status_bar_visible": true
 }

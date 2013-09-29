@@ -88,14 +88,14 @@ for vid in vidlist:
 
     # make the stage prefix match
     if vid not in truth:
-        print "no ground truth available"
+        # print "no ground truth available"
         continue
 
    # create lid list sorted by time
     lidlist = []
     for lid in turk[vid]:
         if turk[vid][lid]["label"] == "noop":
-            print "noop skipping"
+            # print "noop skipping"
             continue    
         lidlist.append({'lid': lid, 'time': float(turk[vid][lid]["time"])})         
     lidlist = sorted(lidlist, key=lambda k: k["time"])
@@ -137,31 +137,33 @@ for vid in vidlist:
                     true_lid = truth_sorted_lidlist[turk_to_truth[index]]
                     true_label = truth[vid][true_lid]
                     distance = math.fabs(float(turk_label["time"]) - float(true_label["time"]))
+                    signed_distance = float(turk_label["time"]) - float(true_label["time"])
                     if found is not 1 and "matched_new" not in true_label and distance <= window_size: 
                         match_result = is_same_label(true_label["desc"], turk_label["label"])
                         if match_result[0]:
                         # if True:
                             true_label["matched_new"] = True
-                            print "[m ]", '{:3.2f}'.format(float(match_result[3])),  '{:3.2f}'.format(float(turk_label["time"])), true_label["time"], "[", distance, "]"
-                            print "    True:", true_label["desc"]
-                            print "    Turk:", turk_label["label"].encode("utf-8")
+                            # print "[m ]", '{:3.2f}'.format(float(match_result[3])),  '{:3.2f}'.format(float(turk_label["time"])), true_label["time"], distance, signed_distance""
+                            print "[m ]", '{:3.2f}'.format(float(turk_label["time"])), true_label["time"], distance, signed_distance
+                            # print "    True:", true_label["desc"]
+                            # print "    Turk:", turk_label["label"].encode("utf-8")
                             found += 1                        
-                        else:
-                            print match_result[3] 
-                            print "    True:", true_label["desc"]
-                            print "    Turk:", turk_label["label"].encode("utf-8")
+                        # else:
+                        #     print match_result[3] 
+                        #     print "    True:", true_label["desc"]
+                        #     print "    Turk:", turk_label["label"].encode("utf-8")
 
             if found == 1:
                 match += 1
             elif found > 1:
                 print "not possible"                    
             elif found == 0:
-                print "[fp] Turk", turk_label["time"], turk_label["label"].encode("utf-8")
+                # print "[fp] Turk", turk_label["time"], turk_label["label"].encode("utf-8")
                 false_positive += 1
         for true_id in truth_sorted_lidlist:
             if "matched_new" not in truth[vid][true_id]:
                 false_negative += 1
-                print "[fn] True", truth[vid][true_id]["time"], truth[vid][true_id]["desc"]
+                # print "[fn] True", truth[vid][true_id]["time"], truth[vid][true_id]["desc"]
 
 
     # for cid in turk[vid]:
@@ -203,7 +205,7 @@ for vid in vidlist:
         recall = compute_recall(match, false_negative)
         f1 = compute_f_score(precision, recall, 1)
         f2 = compute_f_score(precision, recall, 2)
-        print "[%s]  Precision: %.4f  Recall:%.4f  F1:%.4f  F2:%.4f" % (vid, precision, recall, f1, f2), "turk:", len(turk[vid]), "true:", len(truth[vid]), "match:", match, "fp:", false_positive, "fn:", false_negative
+        # print "[%s]  Precision: %.4f  Recall:%.4f  F1:%.4f  F2:%.4f" % (vid, precision, recall, f1, f2), "turk:", len(turk[vid]), "true:", len(truth[vid]), "match:", match, "fp:", false_positive, "fn:", false_negative
     global_match += match
     global_fp += false_positive
     global_fn += false_negative

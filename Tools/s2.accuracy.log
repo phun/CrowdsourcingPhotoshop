@@ -1,0 +1,120 @@
+s2.data.final.json window 1 cooking
+GLOBAL Precision: 0.2854 Recall:0.3103  F1:0.2973  F2:0.3050  m:139  fp:348  fn:309
+s2.data.final.json window 2 cooking
+GLOBAL Precision: 0.4723 Recall:0.5134  F1:0.4920  F2:0.5046  m:230  fp:257  fn:218
+s2.data.final.json window 3 cooking
+GLOBAL Precision: 0.5996 Recall:0.6518  F1:0.6246  F2:0.6406  m:292  fp:195  fn:156
+s2.data.final.json window 4 cooking
+GLOBAL Precision: 0.6694 Recall:0.7277  F1:0.6973  F2:0.7152  m:326  fp:161  fn:122
+s2.data.final.json window 5 cooking
+GLOBAL Precision: 0.7146 Recall:0.7768  F1:0.7444  F2:0.7635  m:348  fp:139  fn:100
+s2.data.final.json window 6 cooking
+GLOBAL Precision: 0.7351 Recall:0.7991  F1:0.7658  F2:0.7854  m:358  fp:129  fn:90
+s2.data.final.json window 7 cooking
+GLOBAL Precision: 0.7515 Recall:0.8170  F1:0.7829  F2:0.8030  m:366  fp:121  fn:82
+s2.data.final.json window 8 cooking
+GLOBAL Precision: 0.7618 Recall:0.8281  F1:0.7936  F2:0.8139  m:371  fp:116  fn:77
+s2.data.final.json window 9 cooking
+GLOBAL Precision: 0.7659 Recall:0.8326  F1:0.7979  F2:0.8183  m:373  fp:114  fn:75
+s2.data.final.json window 10 cooking
+GLOBAL Precision: 0.7741 Recall:0.8415  F1:0.8064  F2:0.8271  m:377  fp:110  fn:71
+s2.data.final.json window 11 cooking
+GLOBAL Precision: 0.7803 Recall:0.8482  F1:0.8128  F2:0.8337  m:380  fp:107  fn:68
+s2.data.final.json window 12 cooking
+GLOBAL Precision: 0.7823 Recall:0.8504  F1:0.8149  F2:0.8358  m:381  fp:106  fn:67
+s2.data.final.json window 13 cooking
+GLOBAL Precision: 0.7906 Recall:0.8594  F1:0.8236  F2:0.8447  m:385  fp:102  fn:63
+s2.data.final.json window 14 cooking
+GLOBAL Precision: 0.7947 Recall:0.8638  F1:0.8278  F2:0.8490  m:387  fp:100  fn:61
+s2.data.final.json window 15 cooking
+GLOBAL Precision: 0.7967 Recall:0.8661  F1:0.8300  F2:0.8513  m:388  fp:99  fn:60
+s2.data.final.json window 16 cooking
+GLOBAL Precision: 0.8008 Recall:0.8705  F1:0.8342  F2:0.8556  m:390  fp:97  fn:58
+s2.data.final.json window 17 cooking
+GLOBAL Precision: 0.8070 Recall:0.8772  F1:0.8406  F2:0.8622  m:393  fp:94  fn:55
+s2.data.final.json window 18 cooking
+GLOBAL Precision: 0.8152 Recall:0.8862  F1:0.8492  F2:0.8710  m:397  fp:90  fn:51
+s2.data.final.json window 19 cooking
+GLOBAL Precision: 0.8131 Recall:0.8839  F1:0.8470  F2:0.8688  m:396  fp:91  fn:52
+s2.data.final.json window 20 cooking
+GLOBAL Precision: 0.8131 Recall:0.8839  F1:0.8470  F2:0.8688  m:396  fp:91  fn:52
+s2.data.final.json window 1 makeup
+GLOBAL Precision: 0.1279 Recall:0.1328  F1:0.1303  F2:0.1318  m:49  fp:334  fn:320
+s2.data.final.json window 2 makeup
+GLOBAL Precision: 0.2663 Recall:0.2764  F1:0.2713  F2:0.2743  m:102  fp:281  fn:267
+s2.data.final.json window 3 makeup
+GLOBAL Precision: 0.3943 Recall:0.4092  F1:0.4016  F2:0.4061  m:151  fp:232  fn:218
+s2.data.final.json window 4 makeup
+GLOBAL Precision: 0.5039 Recall:0.5230  F1:0.5133  F2:0.5191  m:193  fp:190  fn:176
+s2.data.final.json window 5 makeup
+GLOBAL Precision: 0.5692 Recall:0.5908  F1:0.5798  F2:0.5863  m:218  fp:165  fn:151
+s2.data.final.json window 6 makeup
+GLOBAL Precision: 0.6319 Recall:0.6558  F1:0.6436  F2:0.6509  m:242  fp:141  fn:127
+s2.data.final.json window 7 makeup
+GLOBAL Precision: 0.6867 Recall:0.7127  F1:0.6995  F2:0.7073  m:263  fp:120  fn:106
+s2.data.final.json window 8 makeup
+GLOBAL Precision: 0.7128 Recall:0.7398  F1:0.7260  F2:0.7342  m:273  fp:110  fn:96
+s2.data.final.json window 9 makeup
+GLOBAL Precision: 0.7285 Recall:0.7561  F1:0.7420  F2:0.7504  m:279  fp:104  fn:90
+s2.data.final.json window 10 makeup
+GLOBAL Precision: 0.7441 Recall:0.7724  F1:0.7580  F2:0.7666  m:285  fp:98  fn:84
+s2.data.final.json window 11 makeup
+GLOBAL Precision: 0.7493 Recall:0.7778  F1:0.7633  F2:0.7719  m:287  fp:96  fn:82
+s2.data.final.json window 12 makeup
+GLOBAL Precision: 0.7598 Recall:0.7886  F1:0.7739  F2:0.7827  m:291  fp:92  fn:78
+s2.data.final.json window 13 makeup
+GLOBAL Precision: 0.7702 Recall:0.7995  F1:0.7846  F2:0.7935  m:295  fp:88  fn:74
+s2.data.final.json window 14 makeup
+GLOBAL Precision: 0.7781 Recall:0.8076  F1:0.7926  F2:0.8015  m:298  fp:85  fn:71
+s2.data.final.json window 15 makeup
+GLOBAL Precision: 0.7833 Recall:0.8130  F1:0.7979  F2:0.8069  m:300  fp:83  fn:69
+s2.data.final.json window 16 makeup
+GLOBAL Precision: 0.7911 Recall:0.8211  F1:0.8058  F2:0.8149  m:303  fp:80  fn:66
+s2.data.final.json window 17 makeup
+GLOBAL Precision: 0.7937 Recall:0.8238  F1:0.8085  F2:0.8176  m:304  fp:79  fn:65
+s2.data.final.json window 18 makeup
+GLOBAL Precision: 0.8016 Recall:0.8320  F1:0.8165  F2:0.8257  m:307  fp:76  fn:62
+s2.data.final.json window 19 makeup
+GLOBAL Precision: 0.8042 Recall:0.8347  F1:0.8192  F2:0.8284  m:308  fp:75  fn:61
+s2.data.final.json window 20 makeup
+GLOBAL Precision: 0.8120 Recall:0.8428  F1:0.8271  F2:0.8365  m:311  fp:72  fn:58
+s2.data.final.json window 1 photoshop
+GLOBAL Precision: 0.2557 Recall:0.2574  F1:0.2565  F2:0.2571  m:78  fp:227  fn:225
+s2.data.final.json window 2 photoshop
+GLOBAL Precision: 0.4230 Recall:0.4257  F1:0.4243  F2:0.4252  m:129  fp:176  fn:174
+s2.data.final.json window 3 photoshop
+GLOBAL Precision: 0.5410 Recall:0.5446  F1:0.5428  F2:0.5439  m:165  fp:140  fn:138
+s2.data.final.json window 4 photoshop
+GLOBAL Precision: 0.6164 Recall:0.6205  F1:0.6184  F2:0.6197  m:188  fp:117  fn:115
+s2.data.final.json window 5 photoshop
+GLOBAL Precision: 0.6721 Recall:0.6766  F1:0.6743  F2:0.6757  m:205  fp:100  fn:98
+s2.data.final.json window 6 photoshop
+GLOBAL Precision: 0.7180 Recall:0.7228  F1:0.7204  F2:0.7218  m:219  fp:86  fn:84
+s2.data.final.json window 7 photoshop
+GLOBAL Precision: 0.7410 Recall:0.7459  F1:0.7434  F2:0.7449  m:226  fp:79  fn:77
+s2.data.final.json window 8 photoshop
+GLOBAL Precision: 0.7607 Recall:0.7657  F1:0.7632  F2:0.7647  m:232  fp:73  fn:71
+s2.data.final.json window 9 photoshop
+GLOBAL Precision: 0.7836 Recall:0.7888  F1:0.7862  F2:0.7878  m:239  fp:66  fn:64
+s2.data.final.json window 10 photoshop
+GLOBAL Precision: 0.7869 Recall:0.7921  F1:0.7895  F2:0.7911  m:240  fp:65  fn:63
+s2.data.final.json window 11 photoshop
+GLOBAL Precision: 0.7902 Recall:0.7954  F1:0.7928  F2:0.7944  m:241  fp:64  fn:62
+s2.data.final.json window 12 photoshop
+GLOBAL Precision: 0.7902 Recall:0.7954  F1:0.7928  F2:0.7944  m:241  fp:64  fn:62
+s2.data.final.json window 13 photoshop
+GLOBAL Precision: 0.7902 Recall:0.7954  F1:0.7928  F2:0.7944  m:241  fp:64  fn:62
+s2.data.final.json window 14 photoshop
+GLOBAL Precision: 0.7934 Recall:0.7987  F1:0.7960  F2:0.7976  m:242  fp:63  fn:61
+s2.data.final.json window 15 photoshop
+GLOBAL Precision: 0.7934 Recall:0.7987  F1:0.7960  F2:0.7976  m:242  fp:63  fn:61
+s2.data.final.json window 16 photoshop
+GLOBAL Precision: 0.8033 Recall:0.8086  F1:0.8059  F2:0.8075  m:245  fp:60  fn:58
+s2.data.final.json window 17 photoshop
+GLOBAL Precision: 0.8066 Recall:0.8119  F1:0.8092  F2:0.8108  m:246  fp:59  fn:57
+s2.data.final.json window 18 photoshop
+GLOBAL Precision: 0.8066 Recall:0.8119  F1:0.8092  F2:0.8108  m:246  fp:59  fn:57
+s2.data.final.json window 19 photoshop
+GLOBAL Precision: 0.8066 Recall:0.8119  F1:0.8092  F2:0.8108  m:246  fp:59  fn:57
+s2.data.final.json window 20 photoshop
+GLOBAL Precision: 0.8066 Recall:0.8119  F1:0.8092  F2:0.8108  m:246  fp:59  fn:57

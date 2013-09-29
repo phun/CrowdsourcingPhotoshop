@@ -1,0 +1,6395 @@
+{
+    "s1_c01_v01": {
+        "1": {
+            "cluster_id": "1",
+            "label": "Cut tomatoes in thin slices",
+            "time": "64.5066666667"
+        },
+        "10": {
+            "cluster_id": "10",
+            "label": "Spread sauce around",
+            "time": "94.585"
+        },
+        "11": {
+            "cluster_id": "11",
+            "label": "noop",
+            "time": "30.5533333333"
+        },
+        "12": {
+            "cluster_id": "12",
+            "label": "Add basil on top of cheese",
+            "time": "205"
+        },
+        "13": {
+            "cluster_id": "13",
+            "label": "Be careful when slicing",
+            "time": "56.805"
+        },
+        "2": {
+            "cluster_id": "2",
+            "label": "Add Mozzarella",
+            "time": "179.89"
+        },
+        "3": {
+            "cluster_id": "3",
+            "label": "in a nice circle evenly around it",
+            "time": "186.613333333"
+        },
+        "4": {
+            "cluster_id": "4",
+            "label": "take pizza out of the oven",
+            "time": "237.29"
+        },
+        "5": {
+            "cluster_id": "5",
+            "label": "slice the fresh mozzerella",
+            "time": "39.785"
+        },
+        "6": {
+            "cluster_id": "6",
+            "label": "Add the sauce",
+            "time": "79.725"
+        },
+        "7": {
+            "cluster_id": "7",
+            "label": "add Basil at the end",
+            "time": "254.515"
+        },
+        "8": {
+            "cluster_id": "8",
+            "label": "you can add more basil",
+            "time": "221.536666667"
+        },
+        "9": {
+            "cluster_id": "9",
+            "label": "Slice the mozzarella",
+            "time": "53.97"
+        }
+    },
+    "s1_c01_v02": {
+        "14": {
+            "cluster_id": "14",
+            "label": "Gather ingredients",
+            "time": "33.065"
+        },
+        "15": {
+            "cluster_id": "15",
+            "label": "about 3 1/2 cups",
+            "time": "43.19"
+        },
+        "16": {
+            "cluster_id": "16",
+            "label": "some basil leaves",
+            "time": "50.005"
+        },
+        "17": {
+            "cluster_id": "17",
+            "label": "and some extra virgin",
+            "time": "51.86"
+        },
+        "18": {
+            "cluster_id": "18",
+            "label": "Cut the mozzarella into cubes",
+            "time": "59.836"
+        },
+        "19": {
+            "cluster_id": "19",
+            "label": "If the puree is watery let it stand in a cloth-lined colander over a bowl",
+            "time": "71.04"
+        },
+        "20": {
+            "cluster_id": "20",
+            "label": "Add olive oil",
+            "time": "80.64"
+        },
+        "21": {
+            "cluster_id": "21",
+            "label": "add good pinch of salt",
+            "time": "85.6566666667"
+        },
+        "22": {
+            "cluster_id": "22",
+            "label": "stir together",
+            "time": "90.835"
+        },
+        "23": {
+            "cluster_id": "23",
+            "label": "Take a quarter of your pizza dough and form a ball",
+            "time": "98.1566666667"
+        },
+        "24": {
+            "cluster_id": "24",
+            "label": "Take 1/4 of pizza dough and flatten",
+            "time": "106.335"
+        },
+        "25": {
+            "cluster_id": "25",
+            "label": "Begin to spread it out evenly at the bottom of the pan.",
+            "time": "110.753333333"
+        },
+        "26": {
+            "cluster_id": "26",
+            "label": "Now that the dough is well spread out it is time for the sauce.",
+            "time": "121.246666667"
+        },
+        "27": {
+            "cluster_id": "27",
+            "label": "Add a couple of spoonfuls or more depending on your taste.",
+            "time": "133.355"
+        },
+        "28": {
+            "cluster_id": "28",
+            "label": "And after you can add the mozzarella.",
+            "time": "147.305"
+        },
+        "29": {
+            "cluster_id": "29",
+            "label": "bake for 15 to 20 minutes in a 480 degree farenheit oven",
+            "time": "162.2425"
+        },
+        "30": {
+            "cluster_id": "30",
+            "label": "ready to be baked for about 15-20 minutes at 480F",
+            "time": "173.435"
+        },
+        "31": {
+            "cluster_id": "31",
+            "label": "You could also add anchovies to the top to make a pizza neapolitana",
+            "time": "184.28"
+        },
+        "32": {
+            "cluster_id": "32",
+            "label": "1 1/4 lbs of",
+            "time": "45.51"
+        }
+    },
+    "s1_c01_v03": {
+        "33": {
+            "cluster_id": "33",
+            "label": "margherita pizza",
+            "time": "43.4033333333"
+        },
+        "34": {
+            "cluster_id": "34",
+            "label": "Dip the pizza dough in flour",
+            "time": "49.655"
+        },
+        "35": {
+            "cluster_id": "35",
+            "label": "Add fresh plum tomato sauce and spread it over.",
+            "time": "127.25"
+        },
+        "36": {
+            "cluster_id": "36",
+            "label": "how important is it to put",
+            "time": "137.013333333"
+        },
+        "37": {
+            "cluster_id": "37",
+            "label": "ADD SALT AND PEPPER",
+            "time": "156.26"
+        },
+        "38": {
+            "cluster_id": "38",
+            "label": "add fresh basil to the pizza",
+            "time": "209.216666667"
+        },
+        "39": {
+            "cluster_id": "39",
+            "label": "add corn meal",
+            "time": "88.155"
+        },
+        "40": {
+            "cluster_id": "40",
+            "label": "Put the flattened dough on the board (pizza peel)",
+            "time": "108.74"
+        },
+        "41": {
+            "cluster_id": "41",
+            "label": "noop",
+            "time": "219.195"
+        },
+        "42": {
+            "cluster_id": "42",
+            "label": "add a little olive oil",
+            "time": "225.433333333"
+        },
+        "43": {
+            "cluster_id": "43",
+            "label": "get a board and put flour on it",
+            "time": "86.025"
+        }
+    },
+    "s1_c01_v04": {
+        "44": {
+            "cluster_id": "44",
+            "label": "making of neapolitan pizza",
+            "time": "6.035"
+        },
+        "45": {
+            "cluster_id": "45",
+            "label": "Add sauce",
+            "time": "46.215"
+        },
+        "46": {
+            "cluster_id": "46",
+            "label": "spread with sauce, cheese, and flour ",
+            "time": "54.8066666667"
+        },
+        "47": {
+            "cluster_id": "47",
+            "label": "add basil leaves and oil",
+            "time": "75.474"
+        },
+        "48": {
+            "cluster_id": "48",
+            "label": "transfer into hot stone oven",
+            "time": "95.8533333333"
+        },
+        "49": {
+            "cluster_id": "49",
+            "label": "spin it and place it back in",
+            "time": "105.4625"
+        },
+        "50": {
+            "cluster_id": "50",
+            "label": "noop",
+            "time": "120.77"
+        },
+        "51": {
+            "cluster_id": "51",
+            "label": "place pizza in hot stone oven",
+            "time": "135.126666667"
+        },
+        "52": {
+            "cluster_id": "52",
+            "label": "Serve it in the plate.",
+            "time": "153.535"
+        },
+        "53": {
+            "cluster_id": "53",
+            "label": "No rolling pin ",
+            "time": "40"
+        },
+        "54": {
+            "cluster_id": "54",
+            "label": "485 Celsius for 60 seconds",
+            "time": "109.183333333"
+        },
+        "55": {
+            "cluster_id": "55",
+            "label": "Spread dough by hand.  No rolling pin may be used.",
+            "time": "34.745"
+        }
+    },
+    "s1_c01_v05": {
+        "56": {
+            "cluster_id": "56",
+            "label": "ADD CANNED TOMATO",
+            "time": "7.06"
+        },
+        "57": {
+            "cluster_id": "57",
+            "label": "To prepare 6 pizzas gather two pounds of flour one ounce of fresh yeast two cups water and one teaspoon of salt",
+            "time": "34.4275"
+        },
+        "58": {
+            "cluster_id": "58",
+            "label": "1 lb of Mozzarella Cheese",
+            "time": "46.85"
+        },
+        "59": {
+            "cluster_id": "59",
+            "label": "to make the dough dump flour on the pizza bench",
+            "time": "53.855"
+        },
+        "60": {
+            "cluster_id": "60",
+            "label": "It is important not to directly mix the salt and yeast.",
+            "time": "62.8725"
+        },
+        "61": {
+            "cluster_id": "61",
+            "label": "Leave at room temperature for couple hours",
+            "time": "139.91"
+        },
+        "62": {
+            "cluster_id": "62",
+            "label": "Flour one piece of dough",
+            "time": "158.4"
+        },
+        "63": {
+            "cluster_id": "63",
+            "label": "try to make a regular round shape.",
+            "time": "168.45"
+        },
+        "64": {
+            "cluster_id": "64",
+            "label": "Spread the tomato all over the pizza dough.",
+            "time": "177.585"
+        },
+        "65": {
+            "cluster_id": "65",
+            "label": "Spread the mozerella cheese.",
+            "time": "184.79"
+        },
+        "66": {
+            "cluster_id": "66",
+            "label": "Add little basil",
+            "time": "188.73"
+        },
+        "67": {
+            "cluster_id": "67",
+            "label": "Pizza is ready to be baked.",
+            "time": "195.575"
+        },
+        "68": {
+            "cluster_id": "68",
+            "label": "finish our pizza with basil and fresh",
+            "time": "225.123333333"
+        },
+        "69": {
+            "cluster_id": "69",
+            "label": "we add the water",
+            "time": "69.555"
+        },
+        "70": {
+            "cluster_id": "70",
+            "label": "wand we start to kneed",
+            "time": "76.7"
+        },
+        "71": {
+            "cluster_id": "71",
+            "label": "knead it to dough",
+            "time": "86.85"
+        },
+        "72": {
+            "cluster_id": "72",
+            "label": "you can kneed using a kitchenaid",
+            "time": "92.75"
+        },
+        "73": {
+            "cluster_id": "73",
+            "label": "Its not sticky any more with a nice texture.",
+            "time": "98.735"
+        },
+        "74": {
+            "cluster_id": "74",
+            "label": "Cover dough to avoid crusting",
+            "time": "109.945"
+        },
+        "75": {
+            "cluster_id": "75",
+            "label": "Each ball about 9 oz",
+            "time": "129.31"
+        },
+        "76": {
+            "cluster_id": "76",
+            "label": "You can also put the dough in a warm place and let it rise for one hour",
+            "time": "114.855"
+        },
+        "77": {
+            "cluster_id": "77",
+            "label": "Add yeast salt and water.  Do not mix yeast and salt directly",
+            "time": "65.995"
+        },
+        "78": {
+            "cluster_id": "78",
+            "label": "Make 6 small balls.",
+            "time": "125.128"
+        },
+        "79": {
+            "cluster_id": "79",
+            "label": "make 14\"\" circle with pizza dough and spread tomato sauce",
+            "time": "171.016666667"
+        },
+        "80": {
+            "cluster_id": "80",
+            "label": "need the dough for at least 15-20 minutes, until we have a nice texture",
+            "time": "80.45"
+        },
+        "81": {
+            "cluster_id": "81",
+            "label": "When dough has nice texture roll in to ball",
+            "time": "107.005"
+        },
+        "82": {
+            "cluster_id": "82",
+            "label": "Season the tomato.",
+            "time": "148.27"
+        },
+        "83": {
+            "cluster_id": "83",
+            "label": "Olive oil",
+            "time": "151.3"
+        },
+        "84": {
+            "cluster_id": "84",
+            "label": "Or place in warm place 1 hour",
+            "time": "118.29"
+        },
+        "85": {
+            "cluster_id": "85",
+            "label": "or you can place in a warm place for 45 minutes",
+            "time": "143.396666667"
+        },
+        "86": {
+            "cluster_id": "86",
+            "label": "Make a nice ball.",
+            "time": "108.785"
+        },
+        "87": {
+            "cluster_id": "87",
+            "label": "Add Mozerella cheese",
+            "time": "182.33"
+        },
+        "88": {
+            "cluster_id": "88",
+            "label": "Flatten the dough with your hands",
+            "time": "163.025"
+        },
+        "89": {
+            "cluster_id": "89",
+            "label": "now add the water till it mixes up with the flour",
+            "time": "74.525"
+        },
+        "90": {
+            "cluster_id": "90",
+            "label": "Cover dough to avoid crusting",
+            "time": "111.18"
+        },
+        "91": {
+            "cluster_id": "91",
+            "label": "Cover again to avoid the dough crusting.",
+            "time": "135.23"
+        },
+        "92": {
+            "cluster_id": "92",
+            "label": "Its important not to mix directly with salt and yeast.",
+            "time": "65.21"
+        },
+        "93": {
+            "cluster_id": "93",
+            "label": "first, knead the pizza dough.",
+            "time": "56.95"
+        },
+        "94": {
+            "cluster_id": "94",
+            "label": "we need to kneed our pizza dough so we need our flour",
+            "time": "57.3566666667"
+        },
+        "95": {
+            "cluster_id": "95",
+            "label": "Cover the dough and let it rise for 3 to 4 hours at room temperature",
+            "time": "112.076666667"
+        },
+        "96": {
+            "cluster_id": "96",
+            "label": "Bake pizza at 750 degrees F for 90 seconds",
+            "time": "208.9"
+        },
+        "97": {
+            "cluster_id": "97",
+            "label": "cover the dough with the glass bowl",
+            "time": "108.25"
+        },
+        "98": {
+            "cluster_id": "98",
+            "label": "Make a nice round shape",
+            "time": "131.956666667"
+        },
+        "99": {
+            "cluster_id": "99",
+            "label": "Add pinch of salt",
+            "time": "149.51"
+        }
+    },
+    "s1_c02_v01": {
+        "100": {
+            "cluster_id": "100",
+            "label": "When butter \"\"sings\"\" add flour",
+            "time": "30.2266666667"
+        },
+        "101": {
+            "cluster_id": "101",
+            "label": "Put into a 400 degree Farenheit oven",
+            "time": "225.68"
+        },
+        "102": {
+            "cluster_id": "102",
+            "label": "put in oven at 400 degerees",
+            "time": "228.785"
+        },
+        "103": {
+            "cluster_id": "103",
+            "label": "Remove from oven after cooking for 20 minutes",
+            "time": "244.295"
+        },
+        "104": {
+            "cluster_id": "104",
+            "label": "let cool just a little",
+            "time": "250.605"
+        },
+        "105": {
+            "cluster_id": "105",
+            "label": "Add two more cups of milk",
+            "time": "74.78"
+        },
+        "106": {
+            "cluster_id": "106",
+            "label": "Bring to simmer on medium heat",
+            "time": "78.035"
+        },
+        "107": {
+            "cluster_id": "107",
+            "label": "Grate in fresh nutmeg",
+            "time": "83.0666666667"
+        },
+        "108": {
+            "cluster_id": "108",
+            "label": "add a couple drips of worchestershire sauce",
+            "time": "94.08"
+        },
+        "109": {
+            "cluster_id": "109",
+            "label": "add a teaspoon of salt",
+            "time": "99.175"
+        },
+        "110": {
+            "cluster_id": "110",
+            "label": "let simmer on medium low for eight minutes",
+            "time": "103.346666667"
+        },
+        "111": {
+            "cluster_id": "111",
+            "label": "turn off the heat",
+            "time": "121.96"
+        },
+        "112": {
+            "cluster_id": "112",
+            "label": "Add your cheese saving three-quarters of a cup",
+            "time": "125.765"
+        },
+        "113": {
+            "cluster_id": "113",
+            "label": "Stir the cheese in until melted",
+            "time": "137.775"
+        },
+        "114": {
+            "cluster_id": "114",
+            "label": "Dump well drained pasta into a casserole dish and pour your cheese sauce on top",
+            "time": "184.346666667"
+        },
+        "115": {
+            "cluster_id": "115",
+            "label": "Sprinkle the rest of the cheese over the top",
+            "time": "194.895"
+        },
+        "116": {
+            "cluster_id": "116",
+            "label": "mix it up",
+            "time": "212.246666667"
+        },
+        "117": {
+            "cluster_id": "117",
+            "label": "Reduce heat to med-low.",
+            "time": "108.835"
+        },
+        "118": {
+            "cluster_id": "118",
+            "label": "Sprinkle breadcrumb and butter mixture on top of the macaroni and cheese",
+            "time": "219.205"
+        },
+        "119": {
+            "cluster_id": "119",
+            "label": "Grate cheese",
+            "time": "111.425"
+        },
+        "120": {
+            "cluster_id": "120",
+            "label": "put it on top",
+            "time": "220.24"
+        },
+        "121": {
+            "cluster_id": "121",
+            "label": "Sprinkle on the rest of the cheese",
+            "time": "196.89"
+        },
+        "122": {
+            "cluster_id": "122",
+            "label": "Stir often",
+            "time": "110.79"
+        },
+        "123": {
+            "cluster_id": "123",
+            "label": "pour in one cup of milk",
+            "time": "65.695"
+        },
+        "124": {
+            "cluster_id": "124",
+            "label": "Add 16 oz Macaroni to boiling water",
+            "time": "174.676666667"
+        },
+        "125": {
+            "cluster_id": "125",
+            "label": "add thyme cayenne and white pepper",
+            "time": "46.395"
+        },
+        "126": {
+            "cluster_id": "126",
+            "label": "bake for 20 minutes",
+            "time": "233.135"
+        },
+        "127": {
+            "cluster_id": "127",
+            "label": "rich and gooey 8 ounces ",
+            "time": "162.753333333"
+        },
+        "128": {
+            "cluster_id": "128",
+            "label": "Mix to distribute the cheese sauce evenly throughout the pasta",
+            "time": "193.286666667"
+        },
+        "129": {
+            "cluster_id": "129",
+            "label": "Whisk milk in quickly",
+            "time": "68.085"
+        },
+        "130": {
+            "cluster_id": "130",
+            "label": "cook on medium for 3 to 4 minutes",
+            "time": "41.0433333333"
+        },
+        "131": {
+            "cluster_id": "131",
+            "label": "\"\"pour in a cup of milk\"\"",
+            "time": "66.76"
+        }
+    },
+    "s1_c02_v02": {
+        "132": {
+            "cluster_id": "132",
+            "label": "Put on gloves if using hands",
+            "time": "91.33"
+        },
+        "133": {
+            "cluster_id": "133",
+            "label": "Pour paprika on top",
+            "time": "262.92"
+        },
+        "134": {
+            "cluster_id": "134",
+            "label": "For hot and spicy add cayenne pepper on top",
+            "time": "275.335"
+        },
+        "135": {
+            "cluster_id": "135",
+            "label": "Bake in an oven at 325 Farenheit for 45 minutes or until golden brown",
+            "time": "292.37"
+        },
+        "136": {
+            "cluster_id": "136",
+            "label": "Remove from oven when brown",
+            "time": "303.795"
+        },
+        "137": {
+            "cluster_id": "137",
+            "label": "noop",
+            "time": "317.665"
+        },
+        "138": {
+            "cluster_id": "138",
+            "label": "Last 20 minutes should be done",
+            "time": "341.21"
+        },
+        "139": {
+            "cluster_id": "139",
+            "label": "Place it in the oven",
+            "time": "349.555"
+        },
+        "140": {
+            "cluster_id": "140",
+            "label": "Mix it with your hands",
+            "time": "157.595"
+        },
+        "141": {
+            "cluster_id": "141",
+            "label": "when it bubbles the velveeta is pretty",
+            "time": "164.46"
+        },
+        "142": {
+            "cluster_id": "142",
+            "label": "this is the butter",
+            "time": "199.703333333"
+        },
+        "143": {
+            "cluster_id": "143",
+            "label": "add in 2 large eggs beaten",
+            "time": "206.366666667"
+        },
+        "144": {
+            "cluster_id": "144",
+            "label": "this is the season salt",
+            "time": "216.376666667"
+        },
+        "145": {
+            "cluster_id": "145",
+            "label": "add paprika",
+            "time": "244.955"
+        },
+        "146": {
+            "cluster_id": "146",
+            "label": "Add macaroni to a baking dish",
+            "time": "117.42"
+        },
+        "147": {
+            "cluster_id": "147",
+            "label": "Put into the oven at 325 for about 45 minutes",
+            "time": "298.51"
+        },
+        "148": {
+            "cluster_id": "148",
+            "label": "check mac and cheese",
+            "time": "331.98"
+        },
+        "149": {
+            "cluster_id": "149",
+            "label": "add 1/2 lb. sauteed, not raw, chopped shrimp",
+            "time": "185.65"
+        },
+        "150": {
+            "cluster_id": "150",
+            "label": "Start by removing any rings from your fingers",
+            "time": "77.755"
+        },
+        "151": {
+            "cluster_id": "151",
+            "label": "steam lobster and dice",
+            "time": "196.76"
+        },
+        "152": {
+            "cluster_id": "152",
+            "label": "Mix it up",
+            "time": "219.42"
+        },
+        "153": {
+            "cluster_id": "153",
+            "label": "Add paprika on top",
+            "time": "248.225"
+        },
+        "154": {
+            "cluster_id": "154",
+            "label": "Add the lobster",
+            "time": "180.045"
+        },
+        "155": {
+            "cluster_id": "155",
+            "label": "Add velveeta to the top and distribute evenly",
+            "time": "172.416666667"
+        },
+        "156": {
+            "cluster_id": "156",
+            "label": "add the cheeses to the macaroni",
+            "time": "128.4"
+        },
+        "157": {
+            "cluster_id": "157",
+            "label": "Pour 2 cups half and half over the macaroni",
+            "time": "222.865"
+        },
+        "158": {
+            "cluster_id": "158",
+            "label": "check every 20 minutes",
+            "time": "335.396666667"
+        }
+    },
+    "s1_c02_v03": {
+        "159": {
+            "cluster_id": "159",
+            "label": "coco manichees",
+            "time": "16.38"
+        },
+        "160": {
+            "cluster_id": "160",
+            "label": "Use 1/2 tsp of salt in plenty of water",
+            "time": "60.7766666667"
+        },
+        "161": {
+            "cluster_id": "161",
+            "label": "you want it chewy",
+            "time": "80.02"
+        },
+        "162": {
+            "cluster_id": "162",
+            "label": "mix macaroni with the ingredients.",
+            "time": "102.073333333"
+        },
+        "163": {
+            "cluster_id": "163",
+            "label": "you want to mix them up then",
+            "time": "114.465"
+        },
+        "164": {
+            "cluster_id": "164",
+            "label": "Add 8 Ounces of Sour Cream",
+            "time": "131.985"
+        },
+        "165": {
+            "cluster_id": "165",
+            "label": "Add one can of cheddar cheese soup",
+            "time": "153.863333333"
+        },
+        "166": {
+            "cluster_id": "166",
+            "label": "cheddar cheese",
+            "time": "169.833333333"
+        },
+        "167": {
+            "cluster_id": "167",
+            "label": "after spoon",
+            "time": "223.745"
+        },
+        "168": {
+            "cluster_id": "168",
+            "label": "nice crispy",
+            "time": "333.29"
+        },
+        "169": {
+            "cluster_id": "169",
+            "label": "it has that twist of sour cream and i think you",
+            "time": "348.37"
+        },
+        "170": {
+            "cluster_id": "170",
+            "label": "Put macaroni in crockpot",
+            "time": "91.91"
+        },
+        "171": {
+            "cluster_id": "171",
+            "label": "also if you prefer you an put it in a buttered pan",
+            "time": "328.413333333"
+        },
+        "172": {
+            "cluster_id": "172",
+            "label": "stir after 1 hour and add 1 c of milk",
+            "time": "285.945"
+        },
+        "173": {
+            "cluster_id": "173",
+            "label": "this is uncooked",
+            "time": "55.865"
+        },
+        "174": {
+            "cluster_id": "174",
+            "label": "Do not add water",
+            "time": "162.66"
+        },
+        "175": {
+            "cluster_id": "175",
+            "label": "add one and a half cups of finely shredded cheddar",
+            "time": "119.69"
+        },
+        "176": {
+            "cluster_id": "176",
+            "label": "Cook for 2 hours with lid on",
+            "time": "241.27"
+        },
+        "177": {
+            "cluster_id": "177",
+            "label": "Place in crockpot and set to low",
+            "time": "234.045"
+        }
+    },
+    "s1_c02_v04": {
+        "178": {
+            "cluster_id": "178",
+            "label": "Ingredients needed for Recipe",
+            "time": "20.5666666667"
+        },
+        "179": {
+            "cluster_id": "179",
+            "label": "start with butter",
+            "time": "56.6533333333"
+        },
+        "180": {
+            "cluster_id": "180",
+            "label": "little salt",
+            "time": "71.14"
+        },
+        "181": {
+            "cluster_id": "181",
+            "label": "mix that in with",
+            "time": "152.585"
+        },
+        "182": {
+            "cluster_id": "182",
+            "label": "mix with eggs then add to pasta",
+            "time": "162.023333333"
+        },
+        "183": {
+            "cluster_id": "183",
+            "label": "add 1 cup of milk and stir completely",
+            "time": "167.766666667"
+        },
+        "184": {
+            "cluster_id": "184",
+            "label": "make a judgement call whether it needs more milk",
+            "time": "180.27"
+        },
+        "185": {
+            "cluster_id": "185",
+            "label": "spray pan with cooking spray",
+            "time": "190.03"
+        },
+        "186": {
+            "cluster_id": "186",
+            "label": "Into the oven at 350 for 40-45 minutes",
+            "time": "199.56"
+        },
+        "187": {
+            "cluster_id": "187",
+            "label": "Bake 5 more minutes",
+            "time": "240.265"
+        },
+        "188": {
+            "cluster_id": "188",
+            "label": "noop",
+            "time": "299.99"
+        },
+        "189": {
+            "cluster_id": "189",
+            "label": "Top macaroni with more cheese",
+            "time": "253.735"
+        },
+        "190": {
+            "cluster_id": "190",
+            "label": "add grated cheese",
+            "time": "109.11"
+        },
+        "191": {
+            "cluster_id": "191",
+            "label": "beat 3 eggs",
+            "time": "133.516666667"
+        },
+        "192": {
+            "cluster_id": "192",
+            "label": "1/2 cup sour cream",
+            "time": "143.76"
+        },
+        "193": {
+            "cluster_id": "193",
+            "label": "mix butter in",
+            "time": "78.22"
+        },
+        "194": {
+            "cluster_id": "194",
+            "label": "cut cheese in cubes",
+            "time": "94.765"
+        }
+    },
+    "s1_c02_v05": {
+        "195": {
+            "cluster_id": "195",
+            "label": "noop",
+            "time": "4.385"
+        },
+        "196": {
+            "cluster_id": "196",
+            "label": "cut the cheese and heat it.",
+            "time": "13.6525"
+        },
+        "197": {
+            "cluster_id": "197",
+            "label": "cut the spring onion and add it",
+            "time": "25.64"
+        },
+        "198": {
+            "cluster_id": "198",
+            "label": "add two table spoons",
+            "time": "37.8833333333"
+        },
+        "199": {
+            "cluster_id": "199",
+            "label": "add 1 3/4 cup milk",
+            "time": "61.1925"
+        },
+        "200": {
+            "cluster_id": "200",
+            "label": "noop",
+            "time": "76.555"
+        },
+        "201": {
+            "cluster_id": "201",
+            "label": "Stir them constantly.",
+            "time": "91.865"
+        },
+        "202": {
+            "cluster_id": "202",
+            "label": "you could be really creative with whatever you had.",
+            "time": "109.7675"
+        },
+        "203": {
+            "cluster_id": "203",
+            "label": "a surprise for you.",
+            "time": "177.585"
+        },
+        "204": {
+            "cluster_id": "204",
+            "label": "Subscribe to Hungry",
+            "time": "187.04"
+        },
+        "205": {
+            "cluster_id": "205",
+            "label": "Add 1 1/2 tsp of basil",
+            "time": "52.595"
+        },
+        "206": {
+            "cluster_id": "206",
+            "label": "Add 2 tsp of Cayenne pepper",
+            "time": "45.175"
+        },
+        "207": {
+            "cluster_id": "207",
+            "label": "That is like so easy to do.",
+            "time": "168.43"
+        },
+        "208": {
+            "cluster_id": "208",
+            "label": "Add 1 tsp of salt",
+            "time": "53.995"
+        },
+        "209": {
+            "cluster_id": "209",
+            "label": "brocoli",
+            "time": "118.87"
+        },
+        "210": {
+            "cluster_id": "210",
+            "label": "Add 1 3/4 cup of whole milk.",
+            "time": "66.115"
+        },
+        "211": {
+            "cluster_id": "211",
+            "label": "Add 2 Tbsp of flour",
+            "time": "33.2666666667"
+        },
+        "212": {
+            "cluster_id": "212",
+            "label": "sundried tomatoes",
+            "time": "120.3325"
+        },
+        "213": {
+            "cluster_id": "213",
+            "label": "Put in oven for 30 minutes at 350 degrees",
+            "time": "145.245"
+        }
+    },
+    "s1_c03_v01": {
+        "214": {
+            "cluster_id": "214",
+            "label": "Place soft avacados in to bowl",
+            "time": "18.6766666667"
+        },
+        "215": {
+            "cluster_id": "215",
+            "label": "Squeeze lime juice over avacados",
+            "time": "27.115"
+        },
+        "216": {
+            "cluster_id": "216",
+            "label": "Add chopped tomatoes to mixture",
+            "time": "41.4933333333"
+        },
+        "217": {
+            "cluster_id": "217",
+            "label": "add minced onions to bowl",
+            "time": "54.295"
+        },
+        "218": {
+            "cluster_id": "218",
+            "label": "Green onions (or white/yellow)",
+            "time": "58.835"
+        },
+        "219": {
+            "cluster_id": "219",
+            "label": "Add cracked black pepper",
+            "time": "75.16"
+        },
+        "220": {
+            "cluster_id": "220",
+            "label": "Squeeze in fresh lime juice",
+            "time": "98.78"
+        },
+        "221": {
+            "cluster_id": "221",
+            "label": "Mash any bigger chunks one more time.",
+            "time": "134.255"
+        },
+        "222": {
+            "cluster_id": "222",
+            "label": "add  fresh lime juice salt pepper sriracha",
+            "time": "153.51"
+        },
+        "223": {
+            "cluster_id": "223",
+            "label": "subscribe like or comment on the video",
+            "time": "195.81"
+        },
+        "224": {
+            "cluster_id": "224",
+            "label": "Add salt coarsely ground is preferred but any will work",
+            "time": "87.0025"
+        },
+        "225": {
+            "cluster_id": "225",
+            "label": "Add coarsely chopped cilantro",
+            "time": "34.0633333333"
+        },
+        "226": {
+            "cluster_id": "226",
+            "label": "Add in chopped onions (green white or yellow)",
+            "time": "55.8033333333"
+        },
+        "227": {
+            "cluster_id": "227",
+            "label": "Add sriracha",
+            "time": "92.475"
+        },
+        "228": {
+            "cluster_id": "228",
+            "label": "Add ground black pepper",
+            "time": "78.4633333333"
+        },
+        "229": {
+            "cluster_id": "229",
+            "label": "add jalapeno to the mixture",
+            "time": "66.26"
+        },
+        "230": {
+            "cluster_id": "230",
+            "label": "Squeeze in fresh lime juice",
+            "time": "105.233333333"
+        },
+        "231": {
+            "cluster_id": "231",
+            "label": "add jalepeno, black pepper, cumin, salt and sriracha sauce",
+            "time": "81.82"
+        }
+    },
+    "s1_c03_v02": {
+        "232": {
+            "cluster_id": "232",
+            "label": "ingredients ",
+            "time": "28.79"
+        },
+        "233": {
+            "cluster_id": "233",
+            "label": "type of avocado  ",
+            "time": "37.64"
+        },
+        "234": {
+            "cluster_id": "234",
+            "label": "tomato",
+            "time": "59.98"
+        },
+        "235": {
+            "cluster_id": "235",
+            "label": "Get a can of chilli ",
+            "time": "76.2966666667"
+        },
+        "236": {
+            "cluster_id": "236",
+            "label": "Wash your hands",
+            "time": "84.205"
+        },
+        "237": {
+            "cluster_id": "237",
+            "label": "slice your avacodo and move the avacodo around the blade",
+            "time": "107.9525"
+        },
+        "238": {
+            "cluster_id": "238",
+            "label": "When cutting the avacado rotate your blade around it.",
+            "time": "116.59"
+        },
+        "239": {
+            "cluster_id": "239",
+            "label": "scoop out the avacado flesh with a spoon into a bowl.",
+            "time": "139.633333333"
+        },
+        "240": {
+            "cluster_id": "240",
+            "label": "pick out the brown or black spots.",
+            "time": "147.83"
+        },
+        "241": {
+            "cluster_id": "241",
+            "label": "then slice it in the other direction to make cubes",
+            "time": "161.72"
+        },
+        "242": {
+            "cluster_id": "242",
+            "label": "noop",
+            "time": "207.02"
+        },
+        "243": {
+            "cluster_id": "243",
+            "label": "add it to the",
+            "time": "220.12"
+        },
+        "244": {
+            "cluster_id": "244",
+            "label": "Mash it up with a potato masher",
+            "time": "225.935"
+        },
+        "245": {
+            "cluster_id": "245",
+            "label": "If you want to add hot sauce to the recipe feel free to do so.",
+            "time": "245.48"
+        },
+        "246": {
+            "cluster_id": "246",
+            "label": "Taste the guacamole to see if it needs more salt",
+            "time": "258.195"
+        },
+        "247": {
+            "cluster_id": "247",
+            "label": "wash your hands before cooking",
+            "time": "86.54"
+        },
+        "248": {
+            "cluster_id": "248",
+            "label": "add a handful of onion",
+            "time": "166.09"
+        },
+        "249": {
+            "cluster_id": "249",
+            "label": "stir it up again",
+            "time": "271.475"
+        },
+        "250": {
+            "cluster_id": "250",
+            "label": "add onions, chili, chewy and chopped well.",
+            "time": "170.275"
+        },
+        "251": {
+            "cluster_id": "251",
+            "label": "Take seed out of the avacado.",
+            "time": "132.885"
+        },
+        "252": {
+            "cluster_id": "252",
+            "label": "Chop them together",
+            "time": "179.51"
+        }
+    },
+    "s1_c03_v03": {
+        "253": {
+            "cluster_id": "253",
+            "label": "stack the two tortillas and cut them into pieces",
+            "time": "60.01"
+        },
+        "254": {
+            "cluster_id": "254",
+            "label": "Cut up the tortillas into small strips or wedges",
+            "time": "64.195"
+        },
+        "255": {
+            "cluster_id": "255",
+            "label": "Cook the tortilla chips in the oven for 15 minutes at 400 degrees Farenheit",
+            "time": "93.8533333333"
+        },
+        "256": {
+            "cluster_id": "256",
+            "label": "noop",
+            "time": "115.05"
+        },
+        "257": {
+            "cluster_id": "257",
+            "label": "Mash it up a little bit.",
+            "time": "135.433333333"
+        },
+        "258": {
+            "cluster_id": "258",
+            "label": "add tomato, jalapeno pepper, scallions (green onions), salt, pepper, and cumin",
+            "time": "176.03"
+        },
+        "259": {
+            "cluster_id": "259",
+            "label": "add tomato,onions pepper,cumin,and scallons.",
+            "time": "181.37"
+        },
+        "260": {
+            "cluster_id": "260",
+            "label": "Add cumin",
+            "time": "186.34"
+        },
+        "261": {
+            "cluster_id": "261",
+            "label": "Mash it all up together",
+            "time": "190.355"
+        },
+        "262": {
+            "cluster_id": "262",
+            "label": "after chill to serve ",
+            "time": "246.23"
+        },
+        "263": {
+            "cluster_id": "263",
+            "label": "Add jalapeno pepper",
+            "time": "172.205"
+        },
+        "264": {
+            "cluster_id": "264",
+            "label": "Stack tortillas",
+            "time": "58.2233333333"
+        },
+        "265": {
+            "cluster_id": "265",
+            "label": "Cover tortillas with cooking spray",
+            "time": "55.335"
+        },
+        "266": {
+            "cluster_id": "266",
+            "label": "Put them in the oven",
+            "time": "87.2866666667"
+        },
+        "267": {
+            "cluster_id": "267",
+            "label": "Take two tortillas",
+            "time": "52.135"
+        },
+        "268": {
+            "cluster_id": "268",
+            "label": "Add salt",
+            "time": "179.855"
+        },
+        "269": {
+            "cluster_id": "269",
+            "label": "Add tomato",
+            "time": "169.96"
+        },
+        "270": {
+            "cluster_id": "270",
+            "label": "Lay the tortillas out on a cooking sheet that has been sprayed with cooking spray",
+            "time": "73.81"
+        }
+    },
+    "s1_c03_v04": {
+        "271": {
+            "cluster_id": "271",
+            "label": "so basically all you gotta do",
+            "time": "32.735"
+        },
+        "272": {
+            "cluster_id": "272",
+            "label": "Put ripe avocado into the bowl",
+            "time": "43.47"
+        },
+        "273": {
+            "cluster_id": "273",
+            "label": "Add ripe avocados",
+            "time": "58.12"
+        },
+        "274": {
+            "cluster_id": "274",
+            "label": "gonna go ahead and add",
+            "time": "92.835"
+        },
+        "275": {
+            "cluster_id": "275",
+            "label": "Add lemon juice (one whole lemon)",
+            "time": "99.3166666667"
+        },
+        "276": {
+            "cluster_id": "276",
+            "label": "Add a pinch of salt",
+            "time": "119.923333333"
+        },
+        "277": {
+            "cluster_id": "277",
+            "label": "You can add more lemon",
+            "time": "128.86"
+        },
+        "278": {
+            "cluster_id": "278",
+            "label": "You can add salt or any other ingredient to taste",
+            "time": "136.356666667"
+        },
+        "279": {
+            "cluster_id": "279",
+            "label": "mix and mash it a little",
+            "time": "149.385"
+        },
+        "280": {
+            "cluster_id": "280",
+            "label": "Mix for lots of texture",
+            "time": "157.445"
+        },
+        "281": {
+            "cluster_id": "281",
+            "label": "Add a little salt",
+            "time": "166.505"
+        },
+        "282": {
+            "cluster_id": "282",
+            "label": "Habanero peppers",
+            "time": "71.5566666667"
+        },
+        "283": {
+            "cluster_id": "283",
+            "label": "Use whole lemon for juice and 1 1/2 avacados for mix",
+            "time": "108.13"
+        },
+        "284": {
+            "cluster_id": "284",
+            "label": "add garlic",
+            "time": "74.5366666667"
+        },
+        "285": {
+            "cluster_id": "285",
+            "label": "Cilantro",
+            "time": "89.715"
+        },
+        "286": {
+            "cluster_id": "286",
+            "label": "White onions",
+            "time": "79.515"
+        }
+    },
+    "s1_c03_v05": {
+        "287": {
+            "cluster_id": "287",
+            "label": "8 large avacados",
+            "time": "5.245"
+        },
+        "288": {
+            "cluster_id": "288",
+            "label": "add chopped tomato and onions",
+            "time": "13.77"
+        },
+        "289": {
+            "cluster_id": "289",
+            "label": "add chopped serrano pepper",
+            "time": "39.2366666667"
+        },
+        "290": {
+            "cluster_id": "290",
+            "label": "and no lemon of course",
+            "time": "45.7433333333"
+        },
+        "291": {
+            "cluster_id": "291",
+            "label": "Add juice of 8-9 lemons",
+            "time": "58.598"
+        },
+        "292": {
+            "cluster_id": "292",
+            "label": "Pour it in little by little",
+            "time": "63.6566666667"
+        },
+        "293": {
+            "cluster_id": "293",
+            "label": "can use lime juice instead",
+            "time": "98.5"
+        },
+        "294": {
+            "cluster_id": "294",
+            "label": "Mix it and salt",
+            "time": "72.94"
+        },
+        "295": {
+            "cluster_id": "295",
+            "label": "mix in and add salt",
+            "time": "70.695"
+        },
+        "296": {
+            "cluster_id": "296",
+            "label": "this is cilantro, you have to cut it up really fine",
+            "time": "27.81"
+        }
+    },
+    "s1_c04_v01": {
+        "297": {
+            "cluster_id": "297",
+            "label": "Add one cup of wheat flour to a large bowl",
+            "time": "28.08"
+        },
+        "298": {
+            "cluster_id": "298",
+            "label": "Add water to the mixture until it becomes a soft dough",
+            "time": "45.83"
+        },
+        "299": {
+            "cluster_id": "299",
+            "label": "Knead the dough",
+            "time": "50.04"
+        },
+        "300": {
+            "cluster_id": "300",
+            "label": "Let the dough rest for at least 15 minutes",
+            "time": "54.43"
+        },
+        "301": {
+            "cluster_id": "301",
+            "label": "Same quantity of pressed rice",
+            "time": "66.1166666667"
+        },
+        "302": {
+            "cluster_id": "302",
+            "label": "Charred masala or lemon juice",
+            "time": "85.7633333333"
+        },
+        "303": {
+            "cluster_id": "303",
+            "label": "Sprinkle a little bit of flour",
+            "time": "108.086666667"
+        },
+        "304": {
+            "cluster_id": "304",
+            "label": "slightly heat it on one side",
+            "time": "122.84"
+        },
+        "305": {
+            "cluster_id": "305",
+            "label": "do not let it cook do not let it",
+            "time": "129.793333333"
+        },
+        "306": {
+            "cluster_id": "306",
+            "label": "make sure you",
+            "time": "185.605"
+        },
+        "307": {
+            "cluster_id": "307",
+            "label": "Fry the samossas once until half done (not quite golden brown)",
+            "time": "212.53"
+        },
+        "308": {
+            "cluster_id": "308",
+            "label": "Remove from heat and wait five minutes then fry until golden brown.",
+            "time": "224.44"
+        },
+        "309": {
+            "cluster_id": "309",
+            "label": "Make a triangle and put mixture in",
+            "time": "144.79"
+        },
+        "310": {
+            "cluster_id": "310",
+            "label": "Seal it",
+            "time": "166.845"
+        },
+        "311": {
+            "cluster_id": "311",
+            "label": "use medium hot oil to fry samoza",
+            "time": "178.725"
+        },
+        "312": {
+            "cluster_id": "312",
+            "label": "add chili powder",
+            "time": "74.665"
+        },
+        "313": {
+            "cluster_id": "313",
+            "label": "now lets make the stuffing",
+            "time": "56.8"
+        },
+        "314": {
+            "cluster_id": "314",
+            "label": "Chopped green chiles",
+            "time": "77.895"
+        },
+        "315": {
+            "cluster_id": "315",
+            "label": "mix onion with chill power, cumin  powder,chopped green chilies,coriander leaves, chat masala or lemon juice.",
+            "time": "79.49"
+        },
+        "316": {
+            "cluster_id": "316",
+            "label": "Cumin powder",
+            "time": "76.295"
+        },
+        "317": {
+            "cluster_id": "317",
+            "label": "Rest the dough for 15-20 mins",
+            "time": "110.765"
+        },
+        "318": {
+            "cluster_id": "318",
+            "label": "Add one cup of all purpose flour",
+            "time": "40.175"
+        },
+        "319": {
+            "cluster_id": "319",
+            "label": "Mix together",
+            "time": "89.905"
+        }
+    },
+    "s1_c04_v02": {
+        "320": {
+            "cluster_id": "320",
+            "label": "\"\"if you have not seen the first one of the week\"\"",
+            "time": "8.255"
+        },
+        "321": {
+            "cluster_id": "321",
+            "label": "this is super easy super simple and super delicious.",
+            "time": "34.0875"
+        },
+        "322": {
+            "cluster_id": "322",
+            "label": "cut the potato",
+            "time": "40.42"
+        },
+        "323": {
+            "cluster_id": "323",
+            "label": "Put them into a pot and cover with cold water",
+            "time": "49.275"
+        },
+        "324": {
+            "cluster_id": "324",
+            "label": "Cover them with water",
+            "time": "50.98"
+        },
+        "325": {
+            "cluster_id": "325",
+            "label": "When they are ready drain them and give them a mash.",
+            "time": "55.5433333333"
+        },
+        "326": {
+            "cluster_id": "326",
+            "label": "Add in the garam masala cumin and curry powder.",
+            "time": "66.16"
+        },
+        "327": {
+            "cluster_id": "327",
+            "label": "Mix until well combined.",
+            "time": "70.12"
+        },
+        "328": {
+            "cluster_id": "328",
+            "label": "Add in the peas and mix until well combined.",
+            "time": "75.85"
+        },
+        "329": {
+            "cluster_id": "329",
+            "label": "Fold by pinching the edges together.",
+            "time": "98"
+        },
+        "330": {
+            "cluster_id": "330",
+            "label": "pinch down the ends of samoza so the mixture doesn",
+            "time": "107.4175"
+        },
+        "331": {
+            "cluster_id": "331",
+            "label": "Put them in the baking tray and brush them up with beaten egg.",
+            "time": "119.1625"
+        },
+        "332": {
+            "cluster_id": "332",
+            "label": "Bake for 20-25 minutes at 190 celcius or until golden brown",
+            "time": "123.6"
+        },
+        "333": {
+            "cluster_id": "333",
+            "label": "Serve alone or with favorite condiment",
+            "time": "133.21"
+        },
+        "334": {
+            "cluster_id": "334",
+            "label": "Sprinkle with paprika",
+            "time": "129.465"
+        },
+        "335": {
+            "cluster_id": "335",
+            "label": "chop up some sweet potatoes some plain potatoes and some pumpkin.",
+            "time": "44.0633333333"
+        },
+        "336": {
+            "cluster_id": "336",
+            "label": "boil until soft",
+            "time": "51.975"
+        },
+        "337": {
+            "cluster_id": "337",
+            "label": "SMASH THE BOILED POTATO PUMPKIN",
+            "time": "58.735"
+        },
+        "338": {
+            "cluster_id": "338",
+            "label": "Put them in the oven for 20-25 min untill they are golden brown.",
+            "time": "126.37"
+        }
+    },
+    "s1_c04_v03": {
+        "339": {
+            "cluster_id": "339",
+            "label": "sift 1 1/2 cups flour into a bowl",
+            "time": "31.31"
+        },
+        "340": {
+            "cluster_id": "340",
+            "label": "pinch of salt",
+            "time": "34.99"
+        },
+        "341": {
+            "cluster_id": "341",
+            "label": "4 teaspoons of vegetable oil",
+            "time": "37.845"
+        },
+        "342": {
+            "cluster_id": "342",
+            "label": "mix the dough then knead it",
+            "time": "52.445"
+        },
+        "343": {
+            "cluster_id": "343",
+            "label": "knead dough on a lightly flowered surface",
+            "time": "58.04"
+        },
+        "344": {
+            "cluster_id": "344",
+            "label": "Gather samossa filling ingredients",
+            "time": "68.41"
+        },
+        "345": {
+            "cluster_id": "345",
+            "label": "mix all the ingredients into the mashed potatoes",
+            "time": "93.805"
+        },
+        "346": {
+            "cluster_id": "346",
+            "label": "Break off a golf ball sized piece of dough",
+            "time": "107.51"
+        },
+        "347": {
+            "cluster_id": "347",
+            "label": "Roll in to sausage shape",
+            "time": "118.776666667"
+        },
+        "348": {
+            "cluster_id": "348",
+            "label": "put a teaspoon of filling into one corner",
+            "time": "157.34"
+        },
+        "349": {
+            "cluster_id": "349",
+            "label": "Add 1 heaped tsp filling in to one corner of pastry",
+            "time": "165.3675"
+        },
+        "350": {
+            "cluster_id": "350",
+            "label": "Wet the two edges here.",
+            "time": "171.085"
+        },
+        "351": {
+            "cluster_id": "351",
+            "label": "fold this corner over in to the edge",
+            "time": "181.21"
+        },
+        "352": {
+            "cluster_id": "352",
+            "label": "just press it down though it breaks it is not a problem",
+            "time": "190.205"
+        },
+        "353": {
+            "cluster_id": "353",
+            "label": "wet the other two edges",
+            "time": "195.96"
+        },
+        "354": {
+            "cluster_id": "354",
+            "label": "fold",
+            "time": "203.416666667"
+        },
+        "355": {
+            "cluster_id": "355",
+            "label": "press it down seal it",
+            "time": "208.345"
+        },
+        "356": {
+            "cluster_id": "356",
+            "label": "and finally wet this flap",
+            "time": "213.75"
+        },
+        "357": {
+            "cluster_id": "357",
+            "label": "Fold it over the samosa",
+            "time": "218.26"
+        },
+        "358": {
+            "cluster_id": "358",
+            "label": "Smooth out any air bubbles",
+            "time": "224.7"
+        },
+        "359": {
+            "cluster_id": "359",
+            "label": "bake in the oven at 200 degrees celcius for 25 to 30 minutes",
+            "time": "283.093333333"
+        },
+        "360": {
+            "cluster_id": "360",
+            "label": "Use rolling pin to roll dough into a rectangle",
+            "time": "124.466666667"
+        },
+        "361": {
+            "cluster_id": "361",
+            "label": "Cut around the template to make a rectangle",
+            "time": "145.24"
+        },
+        "362": {
+            "cluster_id": "362",
+            "label": "8x4 or 10x20 template to cut rectangle dough",
+            "time": "139.855"
+        },
+        "363": {
+            "cluster_id": "363",
+            "label": "Fold over to make a triangle",
+            "time": "219.505"
+        },
+        "364": {
+            "cluster_id": "364",
+            "label": "Fry in skillet 3 minutes each side.",
+            "time": "256.66"
+        },
+        "365": {
+            "cluster_id": "365",
+            "label": "make samosas",
+            "time": "303.93"
+        },
+        "366": {
+            "cluster_id": "366",
+            "label": "just leave it to ",
+            "time": "64.245"
+        },
+        "367": {
+            "cluster_id": "367",
+            "label": "you can either deep fry them (oil at 180 degrees, for 6 minutes)",
+            "time": "244.235"
+        },
+        "368": {
+            "cluster_id": "368",
+            "label": "Put samossas onto a greased baking tray and brush with milk",
+            "time": "273.9"
+        },
+        "369": {
+            "cluster_id": "369",
+            "label": "Place on to floured tray",
+            "time": "229.69"
+        },
+        "370": {
+            "cluster_id": "370",
+            "label": "Break off a golf ball size piece of dough",
+            "time": "112.45"
+        },
+        "371": {
+            "cluster_id": "371",
+            "label": "brush with milk",
+            "time": "277.935"
+        },
+        "372": {
+            "cluster_id": "372",
+            "label": "Roll dough in your hands",
+            "time": "115.185"
+        }
+    },
+    "s1_c04_v04": {
+        "373": {
+            "cluster_id": "373",
+            "label": "samose",
+            "time": "5.865"
+        },
+        "374": {
+            "cluster_id": "374",
+            "label": "put ajwain & salt",
+            "time": "16.3333333333"
+        },
+        "375": {
+            "cluster_id": "375",
+            "label": "put margarine",
+            "time": "24.555"
+        },
+        "376": {
+            "cluster_id": "376",
+            "label": "mix flour with water until the flour gets tight",
+            "time": "79.665"
+        },
+        "377": {
+            "cluster_id": "377",
+            "label": "3/4 teaspoon of cummin seeds",
+            "time": "90.375"
+        },
+        "378": {
+            "cluster_id": "378",
+            "label": "Make the dough balls.",
+            "time": "214.565"
+        },
+        "379": {
+            "cluster_id": "379",
+            "label": "roti making",
+            "time": "229.82"
+        },
+        "380": {
+            "cluster_id": "380",
+            "label": "new instruction",
+            "time": "238.885"
+        },
+        "381": {
+            "cluster_id": "381",
+            "label": "roast roti for 40 second",
+            "time": "258.385"
+        },
+        "382": {
+            "cluster_id": "382",
+            "label": "Cut it into half",
+            "time": "272.744"
+        },
+        "383": {
+            "cluster_id": "383",
+            "label": "Make a cone",
+            "time": "293.455"
+        },
+        "384": {
+            "cluster_id": "384",
+            "label": "Place the filling",
+            "time": "307.095"
+        },
+        "385": {
+            "cluster_id": "385",
+            "label": "Press to close the cone",
+            "time": "316.646666667"
+        },
+        "386": {
+            "cluster_id": "386",
+            "label": "Now fry them",
+            "time": "330.806666667"
+        },
+        "387": {
+            "cluster_id": "387",
+            "label": "The Cruncy Samosa",
+            "time": "350.935"
+        },
+        "388": {
+            "cluster_id": "388",
+            "label": "Place onto paper towel to absorb oil",
+            "time": "368.635"
+        },
+        "389": {
+            "cluster_id": "389",
+            "label": "POMEGRANATE SEEDS",
+            "time": "194.685"
+        },
+        "390": {
+            "cluster_id": "390",
+            "label": "ADD CRUSHED CHILLIS",
+            "time": "190.39"
+        },
+        "391": {
+            "cluster_id": "391",
+            "label": "Take out when brown",
+            "time": "360.805"
+        },
+        "392": {
+            "cluster_id": "392",
+            "label": "\"\"heat the Thava\"\"",
+            "time": "241.435"
+        },
+        "393": {
+            "cluster_id": "393",
+            "label": "Add various seasonings to Samose",
+            "time": "197.595"
+        }
+    },
+    "s1_c04_v05": {
+        "394": {
+            "cluster_id": "394",
+            "label": "250 grams chicken mince",
+            "time": "19.0166666667"
+        },
+        "395": {
+            "cluster_id": "395",
+            "label": "1 large onion, finely chopped",
+            "time": "21.84"
+        },
+        "396": {
+            "cluster_id": "396",
+            "label": "1 onion finely chopped",
+            "time": "23.555"
+        },
+        "397": {
+            "cluster_id": "397",
+            "label": "1 cup finely chopped coriander leaves",
+            "time": "25.295"
+        },
+        "398": {
+            "cluster_id": "398",
+            "label": "1/2 teaspoon of",
+            "time": "32.5"
+        },
+        "399": {
+            "cluster_id": "399",
+            "label": "2 green chilies finely chopped",
+            "time": "34.6"
+        },
+        "400": {
+            "cluster_id": "400",
+            "label": "2 tsp lemon juice",
+            "time": "36.555"
+        },
+        "401": {
+            "cluster_id": "401",
+            "label": "\"\"make the filling of the samosa\"\"",
+            "time": "38.45"
+        },
+        "402": {
+            "cluster_id": "402",
+            "label": "1 tsp chaat masala",
+            "time": "40.625"
+        },
+        "403": {
+            "cluster_id": "403",
+            "label": "salt to taste",
+            "time": "42.97"
+        },
+        "404": {
+            "cluster_id": "404",
+            "label": "oil to deep fry",
+            "time": "44.74"
+        },
+        "405": {
+            "cluster_id": "405",
+            "label": "to make the filling of the",
+            "time": "47.16"
+        },
+        "406": {
+            "cluster_id": "406",
+            "label": "Add finely chopped fresh coriander leaves",
+            "time": "55.43"
+        },
+        "407": {
+            "cluster_id": "407",
+            "label": "add fresh coriander leaves",
+            "time": "56.345"
+        },
+        "408": {
+            "cluster_id": "408",
+            "label": "add ginger garlic paste and turmeric powder",
+            "time": "57.91"
+        },
+        "409": {
+            "cluster_id": "409",
+            "label": "mix coriander leaves ginger garlic paste turmeric powder chat masala garam masala lemon juice salt to taste",
+            "time": "64.225"
+        },
+        "410": {
+            "cluster_id": "410",
+            "label": "Mix everything",
+            "time": "68.235"
+        },
+        "411": {
+            "cluster_id": "411",
+            "label": "take samosa strip",
+            "time": "74.0166666667"
+        },
+        "412": {
+            "cluster_id": "412",
+            "label": "place samosa strip on chopping board and apply water on sides",
+            "time": "80.3733333333"
+        },
+        "413": {
+            "cluster_id": "413",
+            "label": "fold the strip with the stuffing into little triangles",
+            "time": "84.16"
+        },
+        "414": {
+            "cluster_id": "414",
+            "label": "fold again ",
+            "time": "89.265"
+        },
+        "415": {
+            "cluster_id": "415",
+            "label": "to stick the samosa use a paste of water and flour",
+            "time": "109.15"
+        },
+        "416": {
+            "cluster_id": "416",
+            "label": "mix flour and water to make a paste",
+            "time": "112.853333333"
+        },
+        "417": {
+            "cluster_id": "417",
+            "label": "Combine flour with water to make paste",
+            "time": "117.68"
+        },
+        "418": {
+            "cluster_id": "418",
+            "label": "use the paste to stick the samosa strips",
+            "time": "123.723333333"
+        },
+        "419": {
+            "cluster_id": "419",
+            "label": "Add to simosas to oil",
+            "time": "131.443333333"
+        },
+        "420": {
+            "cluster_id": "420",
+            "label": "Flame should be medium high",
+            "time": "139.535"
+        },
+        "421": {
+            "cluster_id": "421",
+            "label": "keep the flame in medium level",
+            "time": "152.735"
+        },
+        "422": {
+            "cluster_id": "422",
+            "label": "Place simosas on paper to drain",
+            "time": "171.036666667"
+        },
+        "423": {
+            "cluster_id": "423",
+            "label": "Serve with chutney of your choice",
+            "time": "176.626666667"
+        },
+        "424": {
+            "cluster_id": "424",
+            "label": "garlic powder",
+            "time": "30.235"
+        },
+        "425": {
+            "cluster_id": "425",
+            "label": "when the samosa looks golden color turn off the gas",
+            "time": "166.59"
+        },
+        "426": {
+            "cluster_id": "426",
+            "label": "2 tbsp refined flour",
+            "time": "113.92"
+        },
+        "427": {
+            "cluster_id": "427",
+            "label": "2 tsp ginger garlic",
+            "time": "28.21"
+        },
+        "428": {
+            "cluster_id": "428",
+            "label": "fold over and apply water",
+            "time": "86.18"
+        },
+        "429": {
+            "cluster_id": "429",
+            "label": "Add one finely chopped onion",
+            "time": "52.53"
+        },
+        "430": {
+            "cluster_id": "430",
+            "label": "Add two finely chopped green chiles",
+            "time": "54.315"
+        },
+        "431": {
+            "cluster_id": "431",
+            "label": "seal the edges",
+            "time": "94.88"
+        }
+    },
+    "s1_c05_v01": {
+        "432": {
+            "cluster_id": "432",
+            "label": "Put thinly sliced beef into a bowl",
+            "time": "48.06"
+        },
+        "433": {
+            "cluster_id": "433",
+            "label": "pour 4 tablespoons of pear juice and 3 tablespoons of refined white wine",
+            "time": "57.505"
+        },
+        "434": {
+            "cluster_id": "434",
+            "label": "add sugar ginger oil",
+            "time": "107.815"
+        },
+        "435": {
+            "cluster_id": "435",
+            "label": "Add dash of black pepper",
+            "time": "109.975"
+        },
+        "436": {
+            "cluster_id": "436",
+            "label": "Pour 4 Tbsp pear juice",
+            "time": "60.275"
+        },
+        "437": {
+            "cluster_id": "437",
+            "label": "add refined white wine",
+            "time": "68.39"
+        },
+        "438": {
+            "cluster_id": "438",
+            "label": "Leave it for 15-20 minutes",
+            "time": "71.74"
+        },
+        "439": {
+            "cluster_id": "439",
+            "label": "slice the carrot and green onion ",
+            "time": "84.6433333333"
+        },
+        "440": {
+            "cluster_id": "440",
+            "label": "Make Sauce",
+            "time": "92.1766666667"
+        },
+        "441": {
+            "cluster_id": "441",
+            "label": "chopped green onion garlic ginger juice ",
+            "time": "97.035"
+        },
+        "442": {
+            "cluster_id": "442",
+            "label": "now you may stir",
+            "time": "126.04"
+        },
+        "443": {
+            "cluster_id": "443",
+            "label": "Add mushrooms when beef is almost cooked",
+            "time": "137.755"
+        },
+        "444": {
+            "cluster_id": "444",
+            "label": "Cooking beef stir fry",
+            "time": "141.87"
+        },
+        "445": {
+            "cluster_id": "445",
+            "label": "\"\"mix it together and add to the meat\"\"",
+            "time": "122.465"
+        }
+    },
+    "s1_c05_v02": {
+        "446": {
+            "cluster_id": "446",
+            "label": "noop",
+            "time": "8.24333333333"
+        },
+        "447": {
+            "cluster_id": "447",
+            "label": "Chop up one half of a white onion",
+            "time": "21.445"
+        },
+        "448": {
+            "cluster_id": "448",
+            "label": "cut meat",
+            "time": "35.5833333333"
+        },
+        "449": {
+            "cluster_id": "449",
+            "label": "cut thin slices of beef sirloin",
+            "time": "55.0633333333"
+        },
+        "450": {
+            "cluster_id": "450",
+            "label": "Mix and let it sit for 3 hours",
+            "time": "122.49"
+        },
+        "451": {
+            "cluster_id": "451",
+            "label": "Cook in a pan or wok",
+            "time": "137.845"
+        },
+        "452": {
+            "cluster_id": "452",
+            "label": "cook on high heat for a couple minutes",
+            "time": "145.375"
+        },
+        "453": {
+            "cluster_id": "453",
+            "label": "chop up 2 stalks of green onion",
+            "time": "10.825"
+        },
+        "454": {
+            "cluster_id": "454",
+            "label": "Add 2 Tbsp of sesame oil",
+            "time": "89.4533333333"
+        },
+        "455": {
+            "cluster_id": "455",
+            "label": "cut beef into slices",
+            "time": "58.9125"
+        },
+        "456": {
+            "cluster_id": "456",
+            "label": "add 1/2 c of soy sauce to meat",
+            "time": "109.704"
+        },
+        "457": {
+            "cluster_id": "457",
+            "label": "Add 2 Tbsp of rice wine",
+            "time": "76.7166666667"
+        },
+        "458": {
+            "cluster_id": "458",
+            "label": "Let it sit for about 3 hours",
+            "time": "130.05"
+        },
+        "459": {
+            "cluster_id": "459",
+            "label": "ad 1/4 cup of sugar and 1/4 cup of soy sauce",
+            "time": "105.103333333"
+        }
+    },
+    "s1_c05_v03": {
+        "460": {
+            "cluster_id": "460",
+            "label": "noop",
+            "time": "14.71"
+        },
+        "461": {
+            "cluster_id": "461",
+            "label": "Marinate beef with soy sauce ginger oyster sauce garlic black pepper salt and sugar",
+            "time": "51.215"
+        },
+        "462": {
+            "cluster_id": "462",
+            "label": "marinate",
+            "time": "88.655"
+        },
+        "463": {
+            "cluster_id": "463",
+            "label": "melt butter in pan",
+            "time": "103.393333333"
+        },
+        "464": {
+            "cluster_id": "464",
+            "label": "Cook the beef for eight minutes",
+            "time": "123.313333333"
+        },
+        "465": {
+            "cluster_id": "465",
+            "label": "put mushroom celery green pepper and onion",
+            "time": "139.316666667"
+        },
+        "466": {
+            "cluster_id": "466",
+            "label": "mix thoroughly",
+            "time": "152.186666667"
+        },
+        "467": {
+            "cluster_id": "467",
+            "label": "stir fry marinated veggies until half",
+            "time": "183.576666667"
+        },
+        "468": {
+            "cluster_id": "468",
+            "label": "the ingredients",
+            "time": "8.955"
+        },
+        "469": {
+            "cluster_id": "469",
+            "label": "the steps",
+            "time": "46.995"
+        },
+        "470": {
+            "cluster_id": "470",
+            "label": "heat wok with olive oil",
+            "time": "171.886666667"
+        },
+        "471": {
+            "cluster_id": "471",
+            "label": "Add marinated beef to the hot pan",
+            "time": "113.065"
+        },
+        "472": {
+            "cluster_id": "472",
+            "label": "Marinate beef with soy sauce oyster sauce garlic sauce black pepper",
+            "time": "55.605"
+        },
+        "473": {
+            "cluster_id": "473",
+            "label": "Add the seasoning and remove the beef from the heat",
+            "time": "131.533333333"
+        }
+    },
+    "s1_c05_v04": {
+        "474": {
+            "cluster_id": "474",
+            "label": "1 tbsp of garlic 1 tbsp of sugar 1 tbsp of honey 2 tbsp of sesame oil 3 tbsp of soy sauce and 3 tbsp of lettuce juice.",
+            "time": "98.89"
+        },
+        "475": {
+            "cluster_id": "475",
+            "label": "Slice one green onion",
+            "time": "103.21"
+        },
+        "476": {
+            "cluster_id": "476",
+            "label": "a pound of thinly",
+            "time": "65.625"
+        },
+        "477": {
+            "cluster_id": "477",
+            "label": "thinly sliced beef piece green onion half onion half carrot",
+            "time": "76.355"
+        },
+        "478": {
+            "cluster_id": "478",
+            "label": "Slice thinly",
+            "time": "109.78"
+        },
+        "479": {
+            "cluster_id": "479",
+            "label": "make sure the everything",
+            "time": "124.4"
+        },
+        "480": {
+            "cluster_id": "480",
+            "label": "Make sure well mixed",
+            "time": "175.35"
+        },
+        "481": {
+            "cluster_id": "481",
+            "label": "Add sliced vegetables",
+            "time": "189.756666667"
+        },
+        "482": {
+            "cluster_id": "482",
+            "label": "Wait till pan gets hot",
+            "time": "214.433333333"
+        },
+        "483": {
+            "cluster_id": "483",
+            "label": "Cook the meat over medium-high heat",
+            "time": "229.82"
+        },
+        "484": {
+            "cluster_id": "484",
+            "label": "Move the meat to a nice dish and serve",
+            "time": "274.106666667"
+        },
+        "485": {
+            "cluster_id": "485",
+            "label": "use a lettuce leaf as a healthier alternative with bulgogi",
+            "time": "295.685"
+        },
+        "486": {
+            "cluster_id": "486",
+            "label": "First take lettuce leaves.",
+            "time": "300.03"
+        },
+        "487": {
+            "cluster_id": "487",
+            "label": "Various leaves can be used and so take your pick.",
+            "time": "304.535"
+        },
+        "488": {
+            "cluster_id": "488",
+            "label": "Be careful. Don",
+            "time": "314.873333333"
+        },
+        "489": {
+            "cluster_id": "489",
+            "label": "add samjeong to your bulgogi",
+            "time": "325.46"
+        },
+        "490": {
+            "cluster_id": "490",
+            "label": "noop",
+            "time": "382.13"
+        },
+        "491": {
+            "cluster_id": "491",
+            "label": "put some cooking oil",
+            "time": "218.62"
+        },
+        "492": {
+            "cluster_id": "492",
+            "label": "Slice half an onion and half a carrot",
+            "time": "106.435"
+        },
+        "493": {
+            "cluster_id": "493",
+            "label": "Put cooking oil in the pan",
+            "time": "217.68"
+        },
+        "494": {
+            "cluster_id": "494",
+            "label": "Next prepare a big bowl and mix all the ingredients except for the vegetables",
+            "time": "117.41"
+        },
+        "495": {
+            "cluster_id": "495",
+            "label": "Carefully fold the lettuce leaf to close the wrap",
+            "time": "338.725"
+        },
+        "496": {
+            "cluster_id": "496",
+            "label": "Honey",
+            "time": "159.436666667"
+        },
+        "497": {
+            "cluster_id": "497",
+            "label": "close it up carefully",
+            "time": "342.045"
+        },
+        "498": {
+            "cluster_id": "498",
+            "label": "Garlic",
+            "time": "165.608333333"
+        },
+        "499": {
+            "cluster_id": "499",
+            "label": "First slice one green onion half an onion and half a crrot.",
+            "time": "105.445"
+        },
+        "500": {
+            "cluster_id": "500",
+            "label": "Add cooking oil to the skillet",
+            "time": "216.823333333"
+        },
+        "501": {
+            "cluster_id": "501",
+            "label": "Prepare a big bowl",
+            "time": "112.2875"
+        },
+        "502": {
+            "cluster_id": "502",
+            "label": "put garlic sesame",
+            "time": "169.296666667"
+        },
+        "503": {
+            "cluster_id": "503",
+            "label": "add sugar to the soy sauce and beef",
+            "time": "148.0025"
+        }
+    },
+    "s1_c05_v05": {
+        "504": {
+            "cluster_id": "504",
+            "label": "Ingredients list",
+            "time": "19.935"
+        },
+        "505": {
+            "cluster_id": "505",
+            "label": "Cut 3 cups of beef",
+            "time": "35.34"
+        },
+        "506": {
+            "cluster_id": "506",
+            "label": "Slice one onion",
+            "time": "50.6566666667"
+        },
+        "507": {
+            "cluster_id": "507",
+            "label": "Julienne half a carrot",
+            "time": "79.965"
+        },
+        "508": {
+            "cluster_id": "508",
+            "label": "Put 6 tablespoons soy sauce in a bowl",
+            "time": "99.9366666667"
+        },
+        "509": {
+            "cluster_id": "509",
+            "label": "1 tbsp sesame oil",
+            "time": "126.28"
+        },
+        "510": {
+            "cluster_id": "510",
+            "label": "3 tbsp chopped green onions",
+            "time": "138.81"
+        },
+        "511": {
+            "cluster_id": "511",
+            "label": "one and a half garlic cloves minced",
+            "time": "151.34"
+        },
+        "512": {
+            "cluster_id": "512",
+            "label": "Add ginger powder and black pepper to the mix",
+            "time": "161.07"
+        },
+        "513": {
+            "cluster_id": "513",
+            "label": "Add 3 Tbsp sugar",
+            "time": "171.06"
+        },
+        "514": {
+            "cluster_id": "514",
+            "label": "In large bowl combine beef onion and carrot",
+            "time": "187.01"
+        },
+        "515": {
+            "cluster_id": "515",
+            "label": "Pour mixed sauce in to beef",
+            "time": "203.36"
+        },
+        "516": {
+            "cluster_id": "516",
+            "label": "Heat the Bulgogi in a pan until the beef is cooked",
+            "time": "272.445"
+        },
+        "517": {
+            "cluster_id": "517",
+            "label": "Serve this bulgolgi with rice and different kinds of vegetables.",
+            "time": "296.966666667"
+        },
+        "518": {
+            "cluster_id": "518",
+            "label": "3 tbsp pear juice",
+            "time": "118.415"
+        },
+        "519": {
+            "cluster_id": "519",
+            "label": "Mix well",
+            "time": "174.495"
+        },
+        "520": {
+            "cluster_id": "520",
+            "label": "Add one pinch of ginger powder",
+            "time": "164.47"
+        },
+        "521": {
+            "cluster_id": "521",
+            "label": "Cover with plastic wrap and place in refrigerator for 12 hours",
+            "time": "249.33"
+        },
+        "522": {
+            "cluster_id": "522",
+            "label": "Slice the onion",
+            "time": "56.145"
+        },
+        "523": {
+            "cluster_id": "523",
+            "label": "Add 3 TBSP cooking wine",
+            "time": "109.803333333"
+        },
+        "524": {
+            "cluster_id": "524",
+            "label": "Put the bulgulgi in a heated pan until the beef is cooked.",
+            "time": "274.493333333"
+        },
+        "525": {
+            "cluster_id": "525",
+            "label": "Add 1 full tsp of black pepper",
+            "time": "166.58"
+        },
+        "526": {
+            "cluster_id": "526",
+            "label": "1 and half mixed",
+            "time": "149.695"
+        }
+    },
+    "s1_m01_v01": {
+        "527": {
+            "cluster_id": "527",
+            "label": "Apply primer",
+            "time": "98.205"
+        },
+        "528": {
+            "cluster_id": "528",
+            "label": "Take flat brush and eye shadow",
+            "time": "116.363333333"
+        },
+        "529": {
+            "cluster_id": "529",
+            "label": "Take mixing medium and lightly soak brush",
+            "time": "125.99"
+        },
+        "530": {
+            "cluster_id": "530",
+            "label": "Do not go past outer crease or inner corner",
+            "time": "153.29"
+        },
+        "531": {
+            "cluster_id": "531",
+            "label": "taking another team brush with my favourite shadow color for this summer",
+            "time": "199.963333333"
+        },
+        "532": {
+            "cluster_id": "532",
+            "label": "adding eximedium to my team brush of about 2 drops",
+            "time": "216.566666667"
+        },
+        "533": {
+            "cluster_id": "533",
+            "label": "Apply petal pink to crease above eyelid",
+            "time": "222.49"
+        },
+        "534": {
+            "cluster_id": "534",
+            "label": "Using the same brush blend to inner corner of eye",
+            "time": "245.18"
+        },
+        "535": {
+            "cluster_id": "535",
+            "label": "blend it",
+            "time": "271.5125"
+        },
+        "536": {
+            "cluster_id": "536",
+            "label": "eye shadows",
+            "time": "309.165"
+        },
+        "537": {
+            "cluster_id": "537",
+            "label": "take flat brush and wet it",
+            "time": "328.313333333"
+        },
+        "538": {
+            "cluster_id": "538",
+            "label": "put one drop of this",
+            "time": "350.75"
+        },
+        "539": {
+            "cluster_id": "539",
+            "label": "focus putting more pressure on inner quad",
+            "time": "284.79"
+        },
+        "540": {
+            "cluster_id": "540",
+            "label": "so that have any harh lines.",
+            "time": "166.386666667"
+        },
+        "541": {
+            "cluster_id": "541",
+            "label": "apply on lid",
+            "time": "138.453333333"
+        },
+        "542": {
+            "cluster_id": "542",
+            "label": "give it a try",
+            "time": "454.96"
+        },
+        "543": {
+            "cluster_id": "543",
+            "label": "apply pink colour in the breeze area of the eye",
+            "time": "228.715"
+        },
+        "544": {
+            "cluster_id": "544",
+            "label": "nice eyebrow eye liner improve beauty",
+            "time": "373.38"
+        }
+    },
+    "s1_m01_v02": {
+        "545": {
+            "cluster_id": "545",
+            "label": "eyebrows",
+            "time": "138.101666667"
+        },
+        "546": {
+            "cluster_id": "546",
+            "label": "noop",
+            "time": "147.57"
+        },
+        "547": {
+            "cluster_id": "547",
+            "label": "Touch up with powder",
+            "time": "171.173333333"
+        },
+        "548": {
+            "cluster_id": "548",
+            "label": "Apply Eyeshadow M.A.C SOft brown is a good one",
+            "time": "185.62"
+        },
+        "549": {
+            "cluster_id": "549",
+            "label": "Apply bronzy eyeshadow",
+            "time": "211.554"
+        },
+        "550": {
+            "cluster_id": "550",
+            "label": "conture this nose",
+            "time": "237.1625"
+        },
+        "551": {
+            "cluster_id": "551",
+            "label": "Apply makeup to temple and forehead area",
+            "time": "255.2"
+        },
+        "552": {
+            "cluster_id": "552",
+            "label": "Apply mocha lipstick to lips",
+            "time": "266.055"
+        },
+        "553": {
+            "cluster_id": "553",
+            "label": "Apply lip liner and then lipstick.",
+            "time": "269.993333333"
+        },
+        "554": {
+            "cluster_id": "554",
+            "label": "noop",
+            "time": "304.18"
+        },
+        "555": {
+            "cluster_id": "555",
+            "label": "touch up with face powder everywhere on the face",
+            "time": "164.265"
+        },
+        "556": {
+            "cluster_id": "556",
+            "label": "Apply \"\"early bird\"\" eyeshadow",
+            "time": "193.766666667"
+        },
+        "557": {
+            "cluster_id": "557",
+            "label": "Apply lip liner with MAC color",
+            "time": "262.05"
+        },
+        "558": {
+            "cluster_id": "558",
+            "label": "Contour the face heavily",
+            "time": "246.04"
+        },
+        "559": {
+            "cluster_id": "559",
+            "label": "Seal with muffy concealer",
+            "time": "154.496666667"
+        },
+        "560": {
+            "cluster_id": "560",
+            "label": "Holy Grail Cetaphil",
+            "time": "114.633333333"
+        },
+        "561": {
+            "cluster_id": "561",
+            "label": "Apply moisturizer",
+            "time": "112.86"
+        },
+        "562": {
+            "cluster_id": "562",
+            "label": "Primer to make eyeshadow last",
+            "time": "178.256666667"
+        },
+        "563": {
+            "cluster_id": "563",
+            "label": "Seal with touchup powder",
+            "time": "167.615"
+        },
+        "564": {
+            "cluster_id": "564",
+            "label": "examine lipstick onlips",
+            "time": "275.016666667"
+        },
+        "565": {
+            "cluster_id": "565",
+            "label": "Apply face primer",
+            "time": "118.185"
+        }
+    },
+    "s1_m01_v03": {
+        "566": {
+            "cluster_id": "566",
+            "label": "noop",
+            "time": "44.0066666667"
+        },
+        "567": {
+            "cluster_id": "567",
+            "label": "Set with finishing powder",
+            "time": "58.692"
+        },
+        "568": {
+            "cluster_id": "568",
+            "label": "noop",
+            "time": "74.8433333333"
+        },
+        "569": {
+            "cluster_id": "569",
+            "label": "INSTRUCTION",
+            "time": "88.8666666667"
+        },
+        "570": {
+            "cluster_id": "570",
+            "label": "Blend a pinkish bown color to the upper lid blending with a Mac 222 brush",
+            "time": "145.78"
+        },
+        "571": {
+            "cluster_id": "571",
+            "label": "noop",
+            "time": "159.69"
+        },
+        "572": {
+            "cluster_id": "572",
+            "label": "use brush mac 266",
+            "time": "176.475"
+        },
+        "573": {
+            "cluster_id": "573",
+            "label": "Put Mac eye color on top and bottom lash line.",
+            "time": "186.7"
+        },
+        "574": {
+            "cluster_id": "574",
+            "label": "apply color to inner lashline/waterline",
+            "time": "195.36"
+        },
+        "575": {
+            "cluster_id": "575",
+            "label": "apply mascara to upper and lower lashes",
+            "time": "216.564"
+        },
+        "576": {
+            "cluster_id": "576",
+            "label": "On cheeks, use Milani antastic Face & Body Bronzer",
+            "time": "236.88"
+        },
+        "577": {
+            "cluster_id": "577",
+            "label": "noop",
+            "time": "33.535"
+        },
+        "578": {
+            "cluster_id": "578",
+            "label": "Eye lashes",
+            "time": "170.8"
+        },
+        "579": {
+            "cluster_id": "579",
+            "label": "liquid foundation",
+            "time": "26.205"
+        },
+        "580": {
+            "cluster_id": "580",
+            "label": "apply mascara to lashes",
+            "time": "209.12"
+        },
+        "581": {
+            "cluster_id": "581",
+            "label": "add pink color to eye rim",
+            "time": "166.86"
+        },
+        "582": {
+            "cluster_id": "582",
+            "label": "apply lipgloss use BEYU Star Gloss 108",
+            "time": "255.245"
+        }
+    },
+    "s1_m01_v04": {
+        "583": {
+            "cluster_id": "583",
+            "label": "Blend all over",
+            "time": "38.84"
+        },
+        "584": {
+            "cluster_id": "584",
+            "label": "Apply on bottom waterline",
+            "time": "45.75"
+        },
+        "585": {
+            "cluster_id": "585",
+            "label": "apply it right here",
+            "time": "60.9866666667"
+        },
+        "586": {
+            "cluster_id": "586",
+            "label": "apply bronze to tear duct",
+            "time": "204.965"
+        },
+        "587": {
+            "cluster_id": "587",
+            "label": "bring it down like so",
+            "time": "222.57"
+        },
+        "588": {
+            "cluster_id": "588",
+            "label": "Blending color",
+            "time": "236.695"
+        },
+        "589": {
+            "cluster_id": "589",
+            "label": "Create a smoky look",
+            "time": "129.226666667"
+        },
+        "590": {
+            "cluster_id": "590",
+            "label": "make a \"\"v\"\" and blend that out",
+            "time": "142.235"
+        },
+        "591": {
+            "cluster_id": "591",
+            "label": "Use same brown and apply on lower lid",
+            "time": "152.48"
+        },
+        "592": {
+            "cluster_id": "592",
+            "label": "Apply black",
+            "time": "159.54"
+        },
+        "593": {
+            "cluster_id": "593",
+            "label": "apply a little bit to make it look smokey",
+            "time": "175.61"
+        },
+        "594": {
+            "cluster_id": "594",
+            "label": "creating smokey eye",
+            "time": "189.466666667"
+        },
+        "595": {
+            "cluster_id": "595",
+            "label": "and now i am going to use my eye lashes",
+            "time": "292.63"
+        },
+        "596": {
+            "cluster_id": "596",
+            "label": "WAIT UNTIL THEY DRY",
+            "time": "312.72"
+        },
+        "597": {
+            "cluster_id": "597",
+            "label": "Apply mineral skin finish natural",
+            "time": "401.735"
+        },
+        "598": {
+            "cluster_id": "598",
+            "label": "Apply corrector all over lid",
+            "time": "23.14"
+        },
+        "599": {
+            "cluster_id": "599",
+            "label": "applying eyeliner",
+            "time": "273.23"
+        },
+        "600": {
+            "cluster_id": "600",
+            "label": "Create waterline",
+            "time": "266.005"
+        }
+    },
+    "s1_m01_v05": {
+        "601": {
+            "cluster_id": "601",
+            "label": "apply kohl on the waterline",
+            "time": "19.5666666667"
+        },
+        "602": {
+            "cluster_id": "602",
+            "label": "noop",
+            "time": "27.12"
+        },
+        "603": {
+            "cluster_id": "603",
+            "label": "INSTRUCTION",
+            "time": "37.06"
+        },
+        "604": {
+            "cluster_id": "604",
+            "label": "Apply bronze color to center lid on top of the dark eyeshadow",
+            "time": "74.76"
+        },
+        "605": {
+            "cluster_id": "605",
+            "label": "apply black eye lashes",
+            "time": "107.102"
+        },
+        "606": {
+            "cluster_id": "606",
+            "label": "apply the same to down lash line",
+            "time": "121.55"
+        },
+        "607": {
+            "cluster_id": "607",
+            "label": "blend and soften the shades",
+            "time": "130.57"
+        },
+        "608": {
+            "cluster_id": "608",
+            "label": "use mac 217 brush",
+            "time": "149.18"
+        },
+        "609": {
+            "cluster_id": "609",
+            "label": "apply dark colors to bottom lid and crease blend with brush",
+            "time": "162.99"
+        },
+        "610": {
+            "cluster_id": "610",
+            "label": "Add highlight color along brow line with small brush",
+            "time": "178.955"
+        },
+        "611": {
+            "cluster_id": "611",
+            "label": "use black liner under eye",
+            "time": "219.055"
+        },
+        "612": {
+            "cluster_id": "612",
+            "label": "Add kohl liner to top and bottom",
+            "time": "234.71"
+        },
+        "613": {
+            "cluster_id": "613",
+            "label": "smudge kohl with pencil brush",
+            "time": "250.51"
+        },
+        "614": {
+            "cluster_id": "614",
+            "label": "Add light shimmer to outside of eyes",
+            "time": "262.82"
+        },
+        "615": {
+            "cluster_id": "615",
+            "label": "apply kohl on lid",
+            "time": "31.415"
+        },
+        "616": {
+            "cluster_id": "616",
+            "label": "use a light color liner on inner corner of eyes slightly smudge",
+            "time": "188"
+        },
+        "617": {
+            "cluster_id": "617",
+            "label": "Smudge kohl using pencil brush",
+            "time": "43.56"
+        },
+        "618": {
+            "cluster_id": "618",
+            "label": "i have used coastal scents pointed crease brush here",
+            "time": "49.255"
+        },
+        "619": {
+            "cluster_id": "619",
+            "label": "smudge the kohl onto the lower lash line",
+            "time": "55.495"
+        },
+        "620": {
+            "cluster_id": "620",
+            "label": "Darken waterline of lower lid with eye liner",
+            "time": "207.31"
+        },
+        "621": {
+            "cluster_id": "621",
+            "label": "Soften the edges in the outer corner",
+            "time": "173.545"
+        },
+        "622": {
+            "cluster_id": "622",
+            "label": "soften the edges in the outer corner",
+            "time": "164.96"
+        },
+        "623": {
+            "cluster_id": "623",
+            "label": "smudge kohl on lower lash line",
+            "time": "57.625"
+        }
+    },
+    "s1_m02_v01": {
+        "624": {
+            "cluster_id": "624",
+            "label": "IF YOU HAVE FAIR SKIN",
+            "time": "19.2033333333"
+        },
+        "625": {
+            "cluster_id": "625",
+            "label": "Use L'Oreal Paris visible lift liquid foundation",
+            "time": "35.045"
+        },
+        "626": {
+            "cluster_id": "626",
+            "label": "take good quality of foundation and place it on baack of your hand",
+            "time": "40.57"
+        },
+        "627": {
+            "cluster_id": "627",
+            "label": "use a foundation brush",
+            "time": "48.2533333333"
+        },
+        "628": {
+            "cluster_id": "628",
+            "label": "in small circular motions just buff it out.",
+            "time": "59.8366666667"
+        },
+        "629": {
+            "cluster_id": "629",
+            "label": "Put makeup into the edge of the nose.",
+            "time": "75.845"
+        },
+        "630": {
+            "cluster_id": "630",
+            "label": "make sure to get the chin",
+            "time": "88.2066666667"
+        },
+        "631": {
+            "cluster_id": "631",
+            "label": "start with the center of the face.",
+            "time": "56.0633333333"
+        }
+    },
+    "s1_m02_v02": {
+        "632": {
+            "cluster_id": "632",
+            "label": "Use yellow colors to cancel redness dab color on",
+            "time": "37.8333333333"
+        },
+        "633": {
+            "cluster_id": "633",
+            "label": "dab over the redness spot to develop natural fairness",
+            "time": "53.2175"
+        },
+        "634": {
+            "cluster_id": "634",
+            "label": "just again apply the spots cream on spots",
+            "time": "75.905"
+        },
+        "635": {
+            "cluster_id": "635",
+            "label": "use creamy texture makeup to tap in to place",
+            "time": "147.285"
+        },
+        "636": {
+            "cluster_id": "636",
+            "label": "tap in a little bit on upper eyelid",
+            "time": "179.806666667"
+        },
+        "637": {
+            "cluster_id": "637",
+            "label": "CORRECTING OF THAT COLOR",
+            "time": "216.3"
+        },
+        "638": {
+            "cluster_id": "638",
+            "label": "IF YOU FEEL LIKE YOUR GETTING",
+            "time": "260.035"
+        },
+        "639": {
+            "cluster_id": "639",
+            "label": "Go in with layers as needed",
+            "time": "275.595"
+        },
+        "640": {
+            "cluster_id": "640",
+            "label": "use pointed brush for small areas",
+            "time": "285.865"
+        },
+        "641": {
+            "cluster_id": "641",
+            "label": "Build concealer only as needed",
+            "time": "165.18"
+        },
+        "642": {
+            "cluster_id": "642",
+            "label": "tap it in build as needed",
+            "time": "167.0625"
+        },
+        "643": {
+            "cluster_id": "643",
+            "label": "add makeup to nose and stipple with finger",
+            "time": "116.39"
+        },
+        "644": {
+            "cluster_id": "644",
+            "label": "Tap this in",
+            "time": "163.64"
+        },
+        "645": {
+            "cluster_id": "645",
+            "label": "go in in layers as needed",
+            "time": "274.105"
+        }
+    },
+    "s1_m02_v03": {
+        "646": {
+            "cluster_id": "646",
+            "label": "Concealer package that will help get rid of any redness on the face",
+            "time": "20.86"
+        },
+        "647": {
+            "cluster_id": "647",
+            "label": "Pick color that matches skin tone",
+            "time": "36.84"
+        },
+        "648": {
+            "cluster_id": "648",
+            "label": "put in the chin area curves of cheeks and forehead",
+            "time": "47.59"
+        },
+        "649": {
+            "cluster_id": "649",
+            "label": "Take sponge and add product and place on chin or under the eyes where ever you see redness",
+            "time": "53.1333333333"
+        },
+        "650": {
+            "cluster_id": "650",
+            "label": "just dab lightly and avoid causing more redness",
+            "time": "58.215"
+        },
+        "651": {
+            "cluster_id": "651",
+            "label": "rub softly on the fore-head",
+            "time": "94.59"
+        },
+        "652": {
+            "cluster_id": "652",
+            "label": "I am henley and i just showed you how to eliminate redness on your eyes face and nose",
+            "time": "118.725"
+        },
+        "653": {
+            "cluster_id": "653",
+            "label": "apply the product gentle on the skin",
+            "time": "75.71"
+        },
+        "654": {
+            "cluster_id": "654",
+            "label": "How to get rid of any redness on the face",
+            "time": "14.5"
+        }
+    },
+    "s1_m02_v04": {
+        "655": {
+            "cluster_id": "655",
+            "label": "grind oats in grinder",
+            "time": "18.2333333333"
+        },
+        "656": {
+            "cluster_id": "656",
+            "label": "use back of spoon to apply",
+            "time": "61.696"
+        },
+        "657": {
+            "cluster_id": "657",
+            "label": "Leave it on for 15 minutes",
+            "time": "73.385"
+        },
+        "658": {
+            "cluster_id": "658",
+            "label": "rince with cold water",
+            "time": "86.365"
+        },
+        "659": {
+            "cluster_id": "659",
+            "label": "add honey",
+            "time": "23.15"
+        }
+    },
+    "s1_m02_v05": {
+        "660": {
+            "cluster_id": "660",
+            "label": "Moisturize tone and cleanse your face",
+            "time": "18.46"
+        },
+        "661": {
+            "cluster_id": "661",
+            "label": "Moisturize cleanse and tone your face beforehand",
+            "time": "21.88"
+        },
+        "662": {
+            "cluster_id": "662",
+            "label": "where there is redness",
+            "time": "39.232"
+        },
+        "663": {
+            "cluster_id": "663",
+            "label": "for those who blush easily apply primer on cheeks",
+            "time": "51.4333333333"
+        },
+        "664": {
+            "cluster_id": "664",
+            "label": "foundation",
+            "time": "59.7475"
+        },
+        "665": {
+            "cluster_id": "665",
+            "label": "dont go",
+            "time": "65.685"
+        },
+        "666": {
+            "cluster_id": "666",
+            "label": "popy brow foundation",
+            "time": "77.51"
+        },
+        "667": {
+            "cluster_id": "667",
+            "label": "Bobby brown foundation stick",
+            "time": "80.535"
+        },
+        "668": {
+            "cluster_id": "668",
+            "label": "yellow foundation in page number 3 mix with same foundation in no.4",
+            "time": "92.8366666667"
+        },
+        "669": {
+            "cluster_id": "669",
+            "label": "going to mix it foundation number 4",
+            "time": "100.563333333"
+        },
+        "670": {
+            "cluster_id": "670",
+            "label": "Use either sponge or fingers",
+            "time": "128.856666667"
+        },
+        "671": {
+            "cluster_id": "671",
+            "label": "Use sponge or fingers to blend it out",
+            "time": "137.57"
+        },
+        "672": {
+            "cluster_id": "672",
+            "label": "apply where there is redness on the face.",
+            "time": "48.17"
+        },
+        "673": {
+            "cluster_id": "673",
+            "label": "it could find a grey",
+            "time": "56.605"
+        },
+        "674": {
+            "cluster_id": "674",
+            "label": "Dont go too bright",
+            "time": "68.685"
+        },
+        "675": {
+            "cluster_id": "675",
+            "label": "Use sponge to smooth out",
+            "time": "72.18"
+        },
+        "676": {
+            "cluster_id": "676",
+            "label": "touch up to dark places",
+            "time": "108.595"
+        }
+    },
+    "s1_m03_v01": {
+        "677": {
+            "cluster_id": "677",
+            "label": "apply the eye shadow",
+            "time": "36.195"
+        },
+        "678": {
+            "cluster_id": "678",
+            "label": "Apply eye liner to lower eye lid",
+            "time": "56.695"
+        },
+        "679": {
+            "cluster_id": "679",
+            "label": "blend down from lower lashline",
+            "time": "72.87"
+        },
+        "680": {
+            "cluster_id": "680",
+            "label": "Blend corner of eye outward",
+            "time": "82.24"
+        },
+        "681": {
+            "cluster_id": "681",
+            "label": "Line under brow with white shadow",
+            "time": "94.89"
+        },
+        "682": {
+            "cluster_id": "682",
+            "label": "Thick black eyeliner on lower lashline",
+            "time": "106.896666667"
+        },
+        "683": {
+            "cluster_id": "683",
+            "label": "apply in upper eye like eyeliner",
+            "time": "119.5"
+        },
+        "684": {
+            "cluster_id": "684",
+            "label": "apply in the under in eye area",
+            "time": "144.705"
+        },
+        "685": {
+            "cluster_id": "685",
+            "label": "Add highlight under eyes",
+            "time": "90.28"
+        }
+    },
+    "s1_m03_v02": {
+        "686": {
+            "cluster_id": "686",
+            "label": "apply matte shadow on the brow",
+            "time": "53.76"
+        },
+        "687": {
+            "cluster_id": "687",
+            "label": "Apply sparkle beige to the inner corner of the eye",
+            "time": "226.34"
+        },
+        "688": {
+            "cluster_id": "688",
+            "label": "optional- apply false lashes and black mascara",
+            "time": "256.555"
+        },
+        "689": {
+            "cluster_id": "689",
+            "label": "if you have false eyelashes, put them on",
+            "time": "267.095"
+        },
+        "690": {
+            "cluster_id": "690",
+            "label": "Put on hand then dip finger in it",
+            "time": "280.735"
+        },
+        "691": {
+            "cluster_id": "691",
+            "label": "Using your finger take concealer from hand to under-eye area",
+            "time": "285.67"
+        },
+        "692": {
+            "cluster_id": "692",
+            "label": "Use a couple shades lighter than your skin tone",
+            "time": "298.995"
+        },
+        "693": {
+            "cluster_id": "693",
+            "label": "apply lip pencil on lips",
+            "time": "315.44"
+        },
+        "694": {
+            "cluster_id": "694",
+            "label": "Apply A nude-like color to lips Airy fairy is used here",
+            "time": "328.206666667"
+        },
+        "695": {
+            "cluster_id": "695",
+            "label": "apply warm brown",
+            "time": "118.173333333"
+        },
+        "696": {
+            "cluster_id": "696",
+            "label": "blend the two eyeshadows",
+            "time": "144.005"
+        },
+        "697": {
+            "cluster_id": "697",
+            "label": "tip to blend is to keep picking up and alternate between colors",
+            "time": "156.07"
+        },
+        "698": {
+            "cluster_id": "698",
+            "label": "a matte shade and apply it to the brow bone ",
+            "time": "163.233333333"
+        },
+        "699": {
+            "cluster_id": "699",
+            "label": "take a black liner and line upper and lower lashes ",
+            "time": "185.43"
+        },
+        "700": {
+            "cluster_id": "700",
+            "label": "Smudge line underneath with artisan",
+            "time": "205.936666667"
+        },
+        "701": {
+            "cluster_id": "701",
+            "label": "Apply Sparkle Beige on Eyes",
+            "time": "216.105"
+        },
+        "702": {
+            "cluster_id": "702",
+            "label": "A REALLY GOOD TIP TO BLEND",
+            "time": "150.23"
+        },
+        "703": {
+            "cluster_id": "703",
+            "label": "apply sparkle beige ",
+            "time": "220.105"
+        },
+        "704": {
+            "cluster_id": "704",
+            "label": "exaggerate the pencil",
+            "time": "317.625"
+        },
+        "705": {
+            "cluster_id": "705",
+            "label": "noop",
+            "time": "341.39"
+        },
+        "706": {
+            "cluster_id": "706",
+            "label": "apply nude lipstick",
+            "time": "331.565"
+        },
+        "707": {
+            "cluster_id": "707",
+            "label": "Take matte shade eye shadow and apply to the brow bone",
+            "time": "162.17"
+        },
+        "708": {
+            "cluster_id": "708",
+            "label": "start blending",
+            "time": "168.243333333"
+        },
+        "709": {
+            "cluster_id": "709",
+            "label": "Apply a warm brown eye shadow",
+            "time": "114.57"
+        },
+        "710": {
+            "cluster_id": "710",
+            "label": "smudge the liner ",
+            "time": "196.7"
+        },
+        "711": {
+            "cluster_id": "711",
+            "label": "apply eyeshadow primer",
+            "time": "43.535"
+        },
+        "712": {
+            "cluster_id": "712",
+            "label": "take matte shade and apply to brow bone",
+            "time": "164.815"
+        },
+        "713": {
+            "cluster_id": "713",
+            "label": "Take black eye shadow and blend it in",
+            "time": "141.33"
+        },
+        "714": {
+            "cluster_id": "714",
+            "label": "Apply a gold lip gloss",
+            "time": "337.94"
+        },
+        "715": {
+            "cluster_id": "715",
+            "label": "apply crease",
+            "time": "123.3825"
+        },
+        "716": {
+            "cluster_id": "716",
+            "label": "Apply concealer underneath eye",
+            "time": "276.8675"
+        },
+        "717": {
+            "cluster_id": "717",
+            "label": "set the concealer with a lighter powder",
+            "time": "305.2175"
+        },
+        "718": {
+            "cluster_id": "718",
+            "label": "using a makeup wipe clean up any powder under the eye",
+            "time": "247.626666667"
+        }
+    },
+    "s1_m03_v03": {
+        "719": {
+            "cluster_id": "719",
+            "label": "Apply eyeshadow base",
+            "time": "14.37"
+        },
+        "720": {
+            "cluster_id": "720",
+            "label": "APPLY IT TO THE LID",
+            "time": "26.53"
+        },
+        "721": {
+            "cluster_id": "721",
+            "label": "using transition colour",
+            "time": "40.6333333333"
+        },
+        "722": {
+            "cluster_id": "722",
+            "label": "Add crease color with medium pink",
+            "time": "52.265"
+        },
+        "723": {
+            "cluster_id": "723",
+            "label": "FOR MY CREASE COLOR",
+            "time": "56.42"
+        },
+        "724": {
+            "cluster_id": "724",
+            "label": "use dark brown gel liner to carve out crease",
+            "time": "83.9"
+        },
+        "725": {
+            "cluster_id": "725",
+            "label": "Apply to end of lash line.",
+            "time": "92.1"
+        },
+        "726": {
+            "cluster_id": "726",
+            "label": "use dark brown eyeshadow to blend and add depth to crease",
+            "time": "106.545"
+        },
+        "727": {
+            "cluster_id": "727",
+            "label": "Using blending brush add more brown eyeshadow onto your crease",
+            "time": "115.775"
+        },
+        "728": {
+            "cluster_id": "728",
+            "label": "adding the lid color",
+            "time": "131.146666667"
+        },
+        "729": {
+            "cluster_id": "729",
+            "label": "make sure not to spray too much",
+            "time": "157.503333333"
+        },
+        "730": {
+            "cluster_id": "730",
+            "label": "apply your wing liner using a gel liner and an angle brush",
+            "time": "164.25"
+        },
+        "731": {
+            "cluster_id": "731",
+            "label": "whip your brush",
+            "time": "172.91"
+        },
+        "732": {
+            "cluster_id": "732",
+            "label": "curl eye lashes is thick so nice",
+            "time": "195.35"
+        },
+        "733": {
+            "cluster_id": "733",
+            "label": "Then fill in.",
+            "time": "204.39"
+        },
+        "734": {
+            "cluster_id": "734",
+            "label": "apply both eye shadow and eye liner before applying your lashes.",
+            "time": "216.845"
+        },
+        "735": {
+            "cluster_id": "735",
+            "label": "begin applying the eyeshadow base.",
+            "time": "246.116666667"
+        },
+        "736": {
+            "cluster_id": "736",
+            "label": "Smudge brown into eyeliner with flat brush",
+            "time": "308.16"
+        },
+        "737": {
+            "cluster_id": "737",
+            "label": "Apply light matte eyeshadow underneath",
+            "time": "331.69"
+        },
+        "738": {
+            "cluster_id": "738",
+            "label": "appy next to the tear duck",
+            "time": "346.16"
+        },
+        "739": {
+            "cluster_id": "739",
+            "label": "Apply moisturiser.",
+            "time": "365.945"
+        },
+        "740": {
+            "cluster_id": "740",
+            "label": "Applying Blush",
+            "time": "389.44"
+        },
+        "741": {
+            "cluster_id": "741",
+            "label": "curl lashes and add mascara",
+            "time": "226.54"
+        },
+        "742": {
+            "cluster_id": "742",
+            "label": "Add mascara",
+            "time": "228.97"
+        },
+        "743": {
+            "cluster_id": "743",
+            "label": "Apply blush",
+            "time": "381.143333333"
+        },
+        "744": {
+            "cluster_id": "744",
+            "label": "Highlight cheeks",
+            "time": "390.535"
+        },
+        "745": {
+            "cluster_id": "745",
+            "label": "clean up eyeshadow by applying makeup concealer",
+            "time": "261.31"
+        },
+        "746": {
+            "cluster_id": "746",
+            "label": "wait 30 seconds for the eyelash glue to get tacky",
+            "time": "235.12"
+        },
+        "747": {
+            "cluster_id": "747",
+            "label": "Highlight the top and bottom of lips",
+            "time": "392.996666667"
+        },
+        "748": {
+            "cluster_id": "748",
+            "label": "apply eyeshadow directly onto crease",
+            "time": "60.4433333333"
+        },
+        "749": {
+            "cluster_id": "749",
+            "label": "after you pack your eyshadow on your brush spray with setting spray",
+            "time": "138.843333333"
+        },
+        "750": {
+            "cluster_id": "750",
+            "label": "Highlight nose",
+            "time": "386.636666667"
+        },
+        "751": {
+            "cluster_id": "751",
+            "label": "BY BLENDING THE BASE",
+            "time": "34.965"
+        },
+        "752": {
+            "cluster_id": "752",
+            "label": "Double coat the glue onto the lash band",
+            "time": "231.89"
+        },
+        "753": {
+            "cluster_id": "753",
+            "label": "Pinch your natural lashes to your false lashes",
+            "time": "255.01"
+        }
+    },
+    "s1_m03_v04": {
+        "754": {
+            "cluster_id": "754",
+            "label": "Apply eyeshadow",
+            "time": "13.2933333333"
+        },
+        "755": {
+            "cluster_id": "755",
+            "label": "sweeping it along her lid",
+            "time": "21.3433333333"
+        },
+        "756": {
+            "cluster_id": "756",
+            "label": "keeping my brush flat",
+            "time": "30.645"
+        },
+        "757": {
+            "cluster_id": "757",
+            "label": "use sponge to clean up any areas as you go",
+            "time": "64.54"
+        },
+        "758": {
+            "cluster_id": "758",
+            "label": "eye color",
+            "time": "84.12"
+        },
+        "759": {
+            "cluster_id": "759",
+            "label": "blend eye shadow",
+            "time": "107.1825"
+        },
+        "760": {
+            "cluster_id": "760",
+            "label": "carefully keeping control of the brush and the color",
+            "time": "118.79"
+        },
+        "761": {
+            "cluster_id": "761",
+            "label": "AND BLENDING ",
+            "time": "124.875"
+        },
+        "762": {
+            "cluster_id": "762",
+            "label": "Apply shadow along the crease",
+            "time": "142.3"
+        },
+        "763": {
+            "cluster_id": "763",
+            "label": "than along the top of the lower lashes ",
+            "time": "165.1"
+        },
+        "764": {
+            "cluster_id": "764",
+            "label": "again with the 330 brush",
+            "time": "44.42"
+        },
+        "765": {
+            "cluster_id": "765",
+            "label": "create a soft smoky",
+            "time": "58.87"
+        },
+        "766": {
+            "cluster_id": "766",
+            "label": "dust off under eyes",
+            "time": "94.415"
+        }
+    },
+    "s1_m03_v05": {
+        "767": {
+            "cluster_id": "767",
+            "label": "Apply favorite shadow to avoid creasing",
+            "time": "13.325"
+        },
+        "768": {
+            "cluster_id": "768",
+            "label": "Using a mini-shader brush appkly a shimmery white color to the inner corner lid",
+            "time": "25.875"
+        },
+        "769": {
+            "cluster_id": "769",
+            "label": "Using a brush apply darker shade of eyeshadow to crease",
+            "time": "63.84"
+        },
+        "770": {
+            "cluster_id": "770",
+            "label": "apply heavily on corner and crease blend",
+            "time": "72.21"
+        },
+        "771": {
+            "cluster_id": "771",
+            "label": "Using a fluffy brush apply the same eyeshadow all over until you get the smoky look",
+            "time": "90.54"
+        },
+        "772": {
+            "cluster_id": "772",
+            "label": "Using a matte black shadow and a pencil tip brush outline your eye",
+            "time": "109.964"
+        },
+        "773": {
+            "cluster_id": "773",
+            "label": "Then go back over your inner corner highlights with the same shimmery silver",
+            "time": "121.666666667"
+        },
+        "774": {
+            "cluster_id": "774",
+            "label": "Add mascara",
+            "time": "150.465"
+        },
+        "775": {
+            "cluster_id": "775",
+            "label": "Add mascara",
+            "time": "154.63"
+        },
+        "776": {
+            "cluster_id": "776",
+            "label": "finishing touches",
+            "time": "156.65"
+        },
+        "777": {
+            "cluster_id": "777",
+            "label": "Then add some of the colors you used today to the bottom eye.",
+            "time": "140.735"
+        },
+        "778": {
+            "cluster_id": "778",
+            "label": "line your lash line with liquid or fluid liner. ( as thick or thin as you want)",
+            "time": "130.776666667"
+        },
+        "779": {
+            "cluster_id": "779",
+            "label": "blend it all perfectly.",
+            "time": "159.975"
+        },
+        "780": {
+            "cluster_id": "780",
+            "label": "PICK A COLOR",
+            "time": "48.12"
+        }
+    },
+    "s1_m04_v01": {
+        "781": {
+            "cluster_id": "781",
+            "label": "ocean bright",
+            "time": "37.0666666667"
+        },
+        "782": {
+            "cluster_id": "782",
+            "label": "Use prescise lip brush",
+            "time": "90.155"
+        },
+        "783": {
+            "cluster_id": "783",
+            "label": "pat an ultra bright pigment on top of the lipstick",
+            "time": "140.19"
+        },
+        "784": {
+            "cluster_id": "784",
+            "label": "using lips shades",
+            "time": "150.445"
+        },
+        "785": {
+            "cluster_id": "785",
+            "label": "Coloring Her Mouth (LipStick Painting)",
+            "time": "225.033333333"
+        },
+        "786": {
+            "cluster_id": "786",
+            "label": "Apply Blush on Cheeks",
+            "time": "246.2"
+        },
+        "787": {
+            "cluster_id": "787",
+            "label": "Keep rest of the face really soft",
+            "time": "193.875"
+        },
+        "788": {
+            "cluster_id": "788",
+            "label": "Apply bright color carefully to lip with brush",
+            "time": "79.7733333333"
+        },
+        "789": {
+            "cluster_id": "789",
+            "label": "Highlight on the cheek",
+            "time": "204.95"
+        }
+    },
+    "s1_m04_v02": {
+        "790": {
+            "cluster_id": "790",
+            "label": "applying lipstick- first exfoliate lips with a scrub wipe off excess with moisten cotton balls",
+            "time": "21.1575"
+        },
+        "791": {
+            "cluster_id": "791",
+            "label": "hydrate with a rich lip balm",
+            "time": "28.27"
+        },
+        "792": {
+            "cluster_id": "792",
+            "label": "Apply Concealer to perfect the lip line",
+            "time": "34.225"
+        },
+        "793": {
+            "cluster_id": "793",
+            "label": "add lip pencil start at edge work your way in",
+            "time": "40.7066666667"
+        },
+        "794": {
+            "cluster_id": "794",
+            "label": "use a lip brush to spread evenly and perfect lip line",
+            "time": "46.9633333333"
+        },
+        "795": {
+            "cluster_id": "795",
+            "label": "Work to create a dimension effect.",
+            "time": "56.0475"
+        },
+        "796": {
+            "cluster_id": "796",
+            "label": "buxom full bodies lipstick",
+            "time": "59.935"
+        },
+        "797": {
+            "cluster_id": "797",
+            "label": "finish by applying blush over the apples of the cheek, towards the temple.",
+            "time": "62.565"
+        }
+    },
+    "s1_m04_v03": {
+        "798": {
+            "cluster_id": "798",
+            "label": "moisturize lips",
+            "time": "96.685"
+        },
+        "799": {
+            "cluster_id": "799",
+            "label": "put on eyeshadow",
+            "time": "102.735"
+        },
+        "800": {
+            "cluster_id": "800",
+            "label": "Apply brown color to lower lash line",
+            "time": "118.31"
+        },
+        "801": {
+            "cluster_id": "801",
+            "label": "noop",
+            "time": "161.65"
+        },
+        "802": {
+            "cluster_id": "802",
+            "label": "apply white colour eye shadow",
+            "time": "172.6375"
+        },
+        "803": {
+            "cluster_id": "803",
+            "label": "coat top of eyelashes then curl them up",
+            "time": "212.98"
+        },
+        "804": {
+            "cluster_id": "804",
+            "label": "apply foundation cream ",
+            "time": "219.2725"
+        },
+        "805": {
+            "cluster_id": "805",
+            "label": "conceal under eyes",
+            "time": "236.86"
+        },
+        "806": {
+            "cluster_id": "806",
+            "label": "apply talc powder evenly",
+            "time": "250.41"
+        },
+        "807": {
+            "cluster_id": "807",
+            "label": "apply bronzer",
+            "time": "260.855"
+        },
+        "808": {
+            "cluster_id": "808",
+            "label": "contour cheeks",
+            "time": "274.833333333"
+        },
+        "809": {
+            "cluster_id": "809",
+            "label": "apply to nose",
+            "time": "279.695"
+        },
+        "810": {
+            "cluster_id": "810",
+            "label": "apply the pink color lipstick",
+            "time": "287.055"
+        },
+        "811": {
+            "cluster_id": "811",
+            "label": "then apply the lip liner",
+            "time": "311.145"
+        },
+        "812": {
+            "cluster_id": "812",
+            "label": "blush",
+            "time": "337.795"
+        },
+        "813": {
+            "cluster_id": "813",
+            "label": "Apply warm brown eyeshadow in the crease of your eyes",
+            "time": "111.655"
+        },
+        "814": {
+            "cluster_id": "814",
+            "label": "Using a light color apply to lid",
+            "time": "128.526666667"
+        },
+        "815": {
+            "cluster_id": "815",
+            "label": "then apply the orange color lipstick",
+            "time": "299.856666667"
+        },
+        "816": {
+            "cluster_id": "816",
+            "label": "noop",
+            "time": "109.925"
+        },
+        "817": {
+            "cluster_id": "817",
+            "label": "apply on cheeks",
+            "time": "324.62"
+        },
+        "818": {
+            "cluster_id": "818",
+            "label": "apply mascara",
+            "time": "199.035"
+        },
+        "819": {
+            "cluster_id": "819",
+            "label": "paint lid with brown",
+            "time": "146.54"
+        }
+    },
+    "s1_m04_v04": {
+        "820": {
+            "cluster_id": "820",
+            "label": "eye brows is very thick so eye shadow apply very light",
+            "time": "34.4325"
+        },
+        "821": {
+            "cluster_id": "821",
+            "label": "Pack lid with toasted from naked palette",
+            "time": "60.73"
+        },
+        "822": {
+            "cluster_id": "822",
+            "label": "make-up for eye shadow",
+            "time": "72.96"
+        },
+        "823": {
+            "cluster_id": "823",
+            "label": "brushing over the eye-brows",
+            "time": "92.6766666667"
+        },
+        "824": {
+            "cluster_id": "824",
+            "label": "color lower lash lid",
+            "time": "117.31"
+        },
+        "825": {
+            "cluster_id": "825",
+            "label": "lips",
+            "time": "227.51"
+        },
+        "826": {
+            "cluster_id": "826",
+            "label": "use eyeliner",
+            "time": "148.52"
+        },
+        "827": {
+            "cluster_id": "827",
+            "label": "i'm gonna use lengthening brush first",
+            "time": "163.173333333"
+        },
+        "828": {
+            "cluster_id": "828",
+            "label": "Using bronzer",
+            "time": "183.82"
+        },
+        "829": {
+            "cluster_id": "829",
+            "label": "Use betty lumonizer highligher",
+            "time": "194.215"
+        },
+        "830": {
+            "cluster_id": "830",
+            "label": "blend cheek colors together",
+            "time": "214.4175"
+        },
+        "831": {
+            "cluster_id": "831",
+            "label": "Apply lipstick ginger lilly in color.",
+            "time": "242.94"
+        },
+        "832": {
+            "cluster_id": "832",
+            "label": "Place brown in crease",
+            "time": "82.83"
+        },
+        "833": {
+            "cluster_id": "833",
+            "label": "light touch buds ",
+            "time": "108.415"
+        },
+        "834": {
+            "cluster_id": "834",
+            "label": "Apply most natural looking lip liner",
+            "time": "235.575"
+        }
+    },
+    "s1_m04_v05": {
+        "835": {
+            "cluster_id": "835",
+            "label": "Keep face really clean",
+            "time": "23.6"
+        },
+        "836": {
+            "cluster_id": "836",
+            "label": "bridal lip make-up",
+            "time": "40.21"
+        },
+        "837": {
+            "cluster_id": "837",
+            "label": "after tracing and filling in get corners",
+            "time": "62.8333333333"
+        },
+        "838": {
+            "cluster_id": "838",
+            "label": "Fill in lip corners with color",
+            "time": "98.27"
+        },
+        "839": {
+            "cluster_id": "839",
+            "label": "check your line and make sure it is all filled in",
+            "time": "108.96"
+        },
+        "840": {
+            "cluster_id": "840",
+            "label": "Trace it out and fill lips in",
+            "time": "57.91"
+        }
+    },
+    "s1_m05_v01": {
+        "841": {
+            "cluster_id": "841",
+            "label": "TO BEGIN YOU NEED",
+            "time": "14.135"
+        },
+        "842": {
+            "cluster_id": "842",
+            "label": "softening",
+            "time": "78.75"
+        },
+        "843": {
+            "cluster_id": "843",
+            "label": "\"\"another thing I really like\"\"",
+            "time": "93.74"
+        },
+        "844": {
+            "cluster_id": "844",
+            "label": "Curl eye lashes",
+            "time": "185.305"
+        },
+        "845": {
+            "cluster_id": "845",
+            "label": "Apply mascara",
+            "time": "193.475"
+        },
+        "846": {
+            "cluster_id": "846",
+            "label": "use concealer before applying mascara to bottom lashes",
+            "time": "208.646666667"
+        },
+        "847": {
+            "cluster_id": "847",
+            "label": "Bronze on tops of cheekbones forehead and nose",
+            "time": "232.19"
+        },
+        "848": {
+            "cluster_id": "848",
+            "label": "Highlight tops of cheekbones and eyebrow lid",
+            "time": "253.93"
+        },
+        "849": {
+            "cluster_id": "849",
+            "label": "Powder through the center of the face",
+            "time": "276.603333333"
+        },
+        "850": {
+            "cluster_id": "850",
+            "label": "apply eyeshadow under eye as well",
+            "time": "132.34"
+        },
+        "851": {
+            "cluster_id": "851",
+            "label": "Add mascara on bottom lashes",
+            "time": "224.925"
+        },
+        "852": {
+            "cluster_id": "852",
+            "label": "step 2: foundation to use",
+            "time": "24.5033333333"
+        },
+        "853": {
+            "cluster_id": "853",
+            "label": "apply dark eyeshadow thinly along top lashes",
+            "time": "155.065"
+        },
+        "854": {
+            "cluster_id": "854",
+            "label": "Blend concealer in with finger",
+            "time": "216.183333333"
+        },
+        "855": {
+            "cluster_id": "855",
+            "label": "AND A LITTLE ANGLE",
+            "time": "68.23"
+        },
+        "856": {
+            "cluster_id": "856",
+            "label": "use eyelash curlers",
+            "time": "186.545"
+        }
+    },
+    "s1_m05_v02": {
+        "857": {
+            "cluster_id": "857",
+            "label": "Apply foundation to back of hand",
+            "time": "16.9025"
+        },
+        "858": {
+            "cluster_id": "858",
+            "label": "apply as a wash all over the lid",
+            "time": "248.813333333"
+        },
+        "859": {
+            "cluster_id": "859",
+            "label": "highlight the eye using correct eye shadow",
+            "time": "261.62"
+        },
+        "860": {
+            "cluster_id": "860",
+            "label": "apply the same light color to the inner corners of the eyes",
+            "time": "301.4775"
+        },
+        "861": {
+            "cluster_id": "861",
+            "label": "Keep blending with a fluffy brush until fully blended",
+            "time": "312.196666667"
+        },
+        "862": {
+            "cluster_id": "862",
+            "label": "\"\"keep the line very very thin\"\"",
+            "time": "345.175"
+        },
+        "863": {
+            "cluster_id": "863",
+            "label": "please check out my previous video",
+            "time": "372.35"
+        },
+        "864": {
+            "cluster_id": "864",
+            "label": "Take out colors in lips",
+            "time": "59.696"
+        },
+        "865": {
+            "cluster_id": "865",
+            "label": "Apply to the high points of cheeks",
+            "time": "69.76"
+        },
+        "866": {
+            "cluster_id": "866",
+            "label": "Blend in with fingers",
+            "time": "85.7466666667"
+        },
+        "867": {
+            "cluster_id": "867",
+            "label": "Apply over the top of highlight",
+            "time": "91.0766666667"
+        },
+        "868": {
+            "cluster_id": "868",
+            "label": "Apply in \"\"C\"\" shape from top of brows to top of cheekbone",
+            "time": "104.548"
+        },
+        "869": {
+            "cluster_id": "869",
+            "label": "Apply to below hairline temples and hollows of cheekbones",
+            "time": "130.0375"
+        },
+        "870": {
+            "cluster_id": "870",
+            "label": "Apply MAC shimmery powder lightly to cheeks",
+            "time": "148.83"
+        },
+        "871": {
+            "cluster_id": "871",
+            "label": "apply all over and in corners",
+            "time": "232.18"
+        },
+        "872": {
+            "cluster_id": "872",
+            "label": "apply the cream on eye over",
+            "time": "238.436666667"
+        },
+        "873": {
+            "cluster_id": "873",
+            "label": "just apply on the face by brush",
+            "time": "115.87"
+        },
+        "874": {
+            "cluster_id": "874",
+            "label": "back of hand and dab with finger",
+            "time": "222.82"
+        },
+        "875": {
+            "cluster_id": "875",
+            "label": "Apply the remainder to your cupid",
+            "time": "112.245"
+        },
+        "876": {
+            "cluster_id": "876",
+            "label": "then take drops and add them to the foundation on the back of hand",
+            "time": "31.2266666667"
+        },
+        "877": {
+            "cluster_id": "877",
+            "label": "this will golden shine in the eye",
+            "time": "242.255"
+        },
+        "878": {
+            "cluster_id": "878",
+            "label": "Darken the lash line",
+            "time": "333.46"
+        },
+        "879": {
+            "cluster_id": "879",
+            "label": "remember to keep the line really really thin",
+            "time": "338.975"
+        },
+        "880": {
+            "cluster_id": "880",
+            "label": "now apply your favorite mascara",
+            "time": "350.3"
+        },
+        "881": {
+            "cluster_id": "881",
+            "label": "Using a matte black eye shadow and an angled blush apply it to your lashline",
+            "time": "320.07"
+        },
+        "882": {
+            "cluster_id": "882",
+            "label": "apply skin shine shadow brush",
+            "time": "163.506666667"
+        },
+        "883": {
+            "cluster_id": "883",
+            "label": "Apply light color to center lid only",
+            "time": "277.076666667"
+        },
+        "884": {
+            "cluster_id": "884",
+            "label": "use the eyelighter gently and apply the color even to all the places for both the eyes",
+            "time": "257.405"
+        },
+        "885": {
+            "cluster_id": "885",
+            "label": "Apply highlight over highlight already applied",
+            "time": "96.485"
+        },
+        "886": {
+            "cluster_id": "886",
+            "label": "Using matte black and angeled bush apply eye liner",
+            "time": "322.63"
+        },
+        "887": {
+            "cluster_id": "887",
+            "label": "For a Golden Eye makeup use the cluster drops",
+            "time": "219.95"
+        },
+        "888": {
+            "cluster_id": "888",
+            "label": "Add highlight above and below brows and right above top lip",
+            "time": "77.825"
+        },
+        "889": {
+            "cluster_id": "889",
+            "label": "apply bown to brown the face",
+            "time": "120.27"
+        },
+        "890": {
+            "cluster_id": "890",
+            "label": "mix with foundation brush and apply to cheeks",
+            "time": "40.265"
+        },
+        "891": {
+            "cluster_id": "891",
+            "label": "it can just apply on eye with finger",
+            "time": "229.205"
+        },
+        "892": {
+            "cluster_id": "892",
+            "label": "use eyelighter to get little lighter color the apply to both the eyes",
+            "time": "272.415"
+        },
+        "893": {
+            "cluster_id": "893",
+            "label": "just so that it darkens my lashline a bit",
+            "time": "332.62"
+        }
+    },
+    "s1_m05_v03": {
+        "894": {
+            "cluster_id": "894",
+            "label": "pat the eyeshadow",
+            "time": "57.685"
+        },
+        "895": {
+            "cluster_id": "895",
+            "label": "noop",
+            "time": "75.155"
+        },
+        "896": {
+            "cluster_id": "896",
+            "label": "apply gold glitter to eyelids",
+            "time": "148.66"
+        },
+        "897": {
+            "cluster_id": "897",
+            "label": "noop",
+            "time": "168.823333333"
+        },
+        "898": {
+            "cluster_id": "898",
+            "label": "they intend to use these on victoria's secret models",
+            "time": "182.393333333"
+        },
+        "899": {
+            "cluster_id": "899",
+            "label": "pate makeup to moisturise ",
+            "time": "220.325"
+        },
+        "900": {
+            "cluster_id": "900",
+            "label": "apply concealer",
+            "time": "246.11"
+        },
+        "901": {
+            "cluster_id": "901",
+            "label": "Apply foundation",
+            "time": "261.545"
+        },
+        "902": {
+            "cluster_id": "902",
+            "label": "Define your lip line",
+            "time": "325.326666667"
+        },
+        "903": {
+            "cluster_id": "903",
+            "label": "Top it off with lipstick Pumpkin Pie",
+            "time": "328.755"
+        },
+        "904": {
+            "cluster_id": "904",
+            "label": "noop",
+            "time": "350.55"
+        },
+        "905": {
+            "cluster_id": "905",
+            "label": "shadows to thicken the eyebrows",
+            "time": "214.455"
+        },
+        "906": {
+            "cluster_id": "906",
+            "label": "apply face primer",
+            "time": "223.61"
+        }
+    },
+    "s1_m05_v04": {
+        "907": {
+            "cluster_id": "907",
+            "label": "use garnier bb cream instead of primer. mix two shades",
+            "time": "18.035"
+        },
+        "908": {
+            "cluster_id": "908",
+            "label": "buffing brush",
+            "time": "26.9266666667"
+        },
+        "909": {
+            "cluster_id": "909",
+            "label": "Apply cheek stains",
+            "time": "115.99"
+        },
+        "910": {
+            "cluster_id": "910",
+            "label": "\"\"take the real technique cont-ruing brush\"\"",
+            "time": "166.813333333"
+        },
+        "911": {
+            "cluster_id": "911",
+            "label": "Apply lipliner to lips",
+            "time": "233.396666667"
+        },
+        "912": {
+            "cluster_id": "912",
+            "label": "Using the Zigma blending brush just soften it.",
+            "time": "210.53"
+        },
+        "913": {
+            "cluster_id": "913",
+            "label": "Then take Kirloskar mascara.",
+            "time": "220.14"
+        }
+    },
+    "s1_m05_v05": {
+        "914": {
+            "cluster_id": "914",
+            "label": "apply basement cream on face using stippling brush ",
+            "time": "28.03"
+        },
+        "915": {
+            "cluster_id": "915",
+            "label": "use highlight on nose cheek and brow area",
+            "time": "51.516"
+        },
+        "916": {
+            "cluster_id": "916",
+            "label": "Medium taupe with a different brush on eyes",
+            "time": "99.675"
+        },
+        "917": {
+            "cluster_id": "917",
+            "label": "to the high cheekbone, my nose area and a little bit to my eyes",
+            "time": "57.8"
+        },
+        "918": {
+            "cluster_id": "918",
+            "label": "for eyes use pixi nude warm eye shadow",
+            "time": "75.255"
+        },
+        "919": {
+            "cluster_id": "919",
+            "label": "take a flat shader brush and put on peachy matte eyeshadow",
+            "time": "80.605"
+        },
+        "920": {
+            "cluster_id": "920",
+            "label": "use a shimmery bronze color with red undertone",
+            "time": "89.16"
+        },
+        "921": {
+            "cluster_id": "921",
+            "label": "dust color to center of eye",
+            "time": "93.91"
+        },
+        "922": {
+            "cluster_id": "922",
+            "label": "slightly blend with the eye shadow",
+            "time": "115.4175"
+        },
+        "923": {
+            "cluster_id": "923",
+            "label": "add false eye lashes",
+            "time": "167.756666667"
+        },
+        "924": {
+            "cluster_id": "924",
+            "label": "apply the mascara",
+            "time": "174.615"
+        },
+        "925": {
+            "cluster_id": "925",
+            "label": "blend shadow to outer corner.",
+            "time": "185.025"
+        },
+        "926": {
+            "cluster_id": "926",
+            "label": "using a blending brush swipe it down the side of your nose",
+            "time": "223.425"
+        },
+        "927": {
+            "cluster_id": "927",
+            "label": "lightly blend towards cheek",
+            "time": "229.146666667"
+        },
+        "928": {
+            "cluster_id": "928",
+            "label": "mac creme d nude, i wanna use benefits juicy coral lipshine gloss",
+            "time": "256.08"
+        },
+        "929": {
+            "cluster_id": "929",
+            "label": "blend the lip products together on lips",
+            "time": "262.99"
+        },
+        "930": {
+            "cluster_id": "930",
+            "label": "use urabn decay duo pencil to the eyebrow",
+            "time": "135.885"
+        },
+        "931": {
+            "cluster_id": "931",
+            "label": "blend brush downward to nose",
+            "time": "218.77"
+        },
+        "932": {
+            "cluster_id": "932",
+            "label": "LIGHTLY BLEND IT",
+            "time": "225.53"
+        },
+        "933": {
+            "cluster_id": "933",
+            "label": "Pat highest cheek bone",
+            "time": "235.045"
+        },
+        "934": {
+            "cluster_id": "934",
+            "label": "use light stroke make arch",
+            "time": "197.45"
+        },
+        "935": {
+            "cluster_id": "935",
+            "label": "downwards toward jaw line",
+            "time": "217.6575"
+        },
+        "936": {
+            "cluster_id": "936",
+            "label": "just gonna tap it ",
+            "time": "241.29"
+        },
+        "937": {
+            "cluster_id": "937",
+            "label": "Use windshield wiper motions to blend that eyeshadow",
+            "time": "104.8"
+        }
+    },
+    "s1_p01_v01": {
+        "938": {
+            "cluster_id": "938",
+            "label": "Make a copy",
+            "time": "19.895"
+        },
+        "939": {
+            "cluster_id": "939",
+            "label": "bring hardness all the way down on bottom slider",
+            "time": "38.34"
+        },
+        "940": {
+            "cluster_id": "940",
+            "label": "Bring the Opacity to about 70%",
+            "time": "41.88"
+        },
+        "941": {
+            "cluster_id": "941",
+            "label": "Take off the blur around the edge",
+            "time": "54.36"
+        },
+        "942": {
+            "cluster_id": "942",
+            "label": "filter motion blur",
+            "time": "25.705"
+        }
+    },
+    "s1_p01_v02": {
+        "943": {
+            "cluster_id": "943",
+            "label": "making motion effect for an image",
+            "time": "25.45"
+        },
+        "944": {
+            "cluster_id": "944",
+            "label": "Highlight on the Character",
+            "time": "40.888"
+        },
+        "945": {
+            "cluster_id": "945",
+            "label": "outline the target with the polygon lasso tool",
+            "time": "52.9175"
+        },
+        "946": {
+            "cluster_id": "946",
+            "label": "going to highlight the border and once you finish selecting feather tool for smoothing",
+            "time": "121.623333333"
+        },
+        "947": {
+            "cluster_id": "947",
+            "label": "right click on feather and choose 5 pixel",
+            "time": "130.835"
+        },
+        "948": {
+            "cluster_id": "948",
+            "label": "Apply motion blur to it.",
+            "time": "159.395"
+        },
+        "949": {
+            "cluster_id": "949",
+            "label": "add motion blur filter",
+            "time": "162.858"
+        },
+        "950": {
+            "cluster_id": "950",
+            "label": "adjust the motion blur settings",
+            "time": "178.385"
+        },
+        "951": {
+            "cluster_id": "951",
+            "label": "Confirm your adjustments",
+            "time": "204.325"
+        },
+        "952": {
+            "cluster_id": "952",
+            "label": "Go to filter blur motion blur.",
+            "time": "166.365"
+        },
+        "953": {
+            "cluster_id": "953",
+            "label": "then go to layer and selcet via copy",
+            "time": "145.75"
+        },
+        "954": {
+            "cluster_id": "954",
+            "label": "Highlight the character",
+            "time": "58.33"
+        }
+    },
+    "s1_p01_v03": {
+        "955": {
+            "cluster_id": "955",
+            "label": "take elliptical marque tool for selecting the wheel",
+            "time": "54.84"
+        },
+        "956": {
+            "cluster_id": "956",
+            "label": "Hold space to float and adjust selection",
+            "time": "70.885"
+        },
+        "957": {
+            "cluster_id": "957",
+            "label": "Use Copy Merged tool",
+            "time": "109.266666667"
+        },
+        "958": {
+            "cluster_id": "958",
+            "label": "going to play the radio blur filter system",
+            "time": "126.14"
+        },
+        "959": {
+            "cluster_id": "959",
+            "label": "hold Cmd or Ctrl key and press layer",
+            "time": "146.325"
+        },
+        "960": {
+            "cluster_id": "960",
+            "label": "click Filter / Blur / Radial Blur",
+            "time": "195.065"
+        },
+        "961": {
+            "cluster_id": "961",
+            "label": "we have to know how much blur is appropriate for this wheeel",
+            "time": "211.32"
+        },
+        "962": {
+            "cluster_id": "962",
+            "label": "select the image and then move to the correct position",
+            "time": "242.63"
+        },
+        "963": {
+            "cluster_id": "963",
+            "label": "then change opacity value",
+            "time": "253.4"
+        },
+        "964": {
+            "cluster_id": "964",
+            "label": "the supporting dvd with the tutorial book gives 10 hours of movies tutorial",
+            "time": "299.57"
+        },
+        "965": {
+            "cluster_id": "965",
+            "label": "the book is available in amazon.com or amozon.co.uk",
+            "time": "270.385"
+        },
+        "966": {
+            "cluster_id": "966",
+            "label": "click Edit / Paste",
+            "time": "120.735"
+        },
+        "967": {
+            "cluster_id": "967",
+            "label": "next going to commit the transformation and then we are going to apply the radial blur to this pictures",
+            "time": "189.66"
+        },
+        "968": {
+            "cluster_id": "968",
+            "label": "try to create a square from these pixel in the boundary box",
+            "time": "176.916666667"
+        },
+        "969": {
+            "cluster_id": "969",
+            "label": "choose edit menu and select free transforms",
+            "time": "153.91"
+        },
+        "970": {
+            "cluster_id": "970",
+            "label": "we go to blur filter and then radio blur . we dont need to center because we have an active selection",
+            "time": "200.155"
+        }
+    },
+    "s1_p01_v04": {
+        "971": {
+            "cluster_id": "971",
+            "label": "Open up adobe photoshop",
+            "time": "16.3766666667"
+        },
+        "972": {
+            "cluster_id": "972",
+            "label": "click on the image you want",
+            "time": "30.27"
+        },
+        "973": {
+            "cluster_id": "973",
+            "label": "select filter then blur and then motion blur",
+            "time": "44.6533333333"
+        },
+        "974": {
+            "cluster_id": "974",
+            "label": "create new layer",
+            "time": "72.1"
+        },
+        "975": {
+            "cluster_id": "975",
+            "label": "slide Fill Opacity to 0% then click Drop Shadow",
+            "time": "157.298"
+        },
+        "976": {
+            "cluster_id": "976",
+            "label": "click Drop Shadow",
+            "time": "172.68"
+        },
+        "977": {
+            "cluster_id": "977",
+            "label": "click on distance of pixels you want",
+            "time": "54.63"
+        },
+        "978": {
+            "cluster_id": "978",
+            "label": "click on the how many pixels and distance",
+            "time": "58.19"
+        },
+        "979": {
+            "cluster_id": "979",
+            "label": "Insert text",
+            "time": "134.91"
+        },
+        "980": {
+            "cluster_id": "980",
+            "label": "How to use the motion blur",
+            "time": "9.145"
+        }
+    },
+    "s1_p01_v05": {
+        "981": {
+            "cluster_id": "981",
+            "label": "Go to File > New. The width is 400 pixels and height is 100 pixels. The resolution is 72 pixels/inch",
+            "time": "10.8433333333"
+        },
+        "982": {
+            "cluster_id": "982",
+            "label": "Select the Text Tool",
+            "time": "31.23"
+        },
+        "983": {
+            "cluster_id": "983",
+            "label": "Click anywhere on the left of the canvas",
+            "time": "33.63"
+        },
+        "984": {
+            "cluster_id": "984",
+            "label": "Type something in",
+            "time": "39.715"
+        },
+        "985": {
+            "cluster_id": "985",
+            "label": "select > all",
+            "time": "50.0033333333"
+        },
+        "986": {
+            "cluster_id": "986",
+            "label": "click Align Vertically  Centers then Align Horizontally Centers",
+            "time": "55.8733333333"
+        },
+        "987": {
+            "cluster_id": "987",
+            "label": "click Select / Deselect",
+            "time": "68.425"
+        },
+        "988": {
+            "cluster_id": "988",
+            "label": "copy the motion blur layer by dragging it down to the icon over the trash",
+            "time": "79.145"
+        },
+        "989": {
+            "cluster_id": "989",
+            "label": "drag the motion blur copy below the motion blur text layer",
+            "time": "90.28"
+        },
+        "990": {
+            "cluster_id": "990",
+            "label": "we can see it bluring the text already vertically you can also do it horizontally",
+            "time": "114.1125"
+        },
+        "991": {
+            "cluster_id": "991",
+            "label": "use distance to control the amount of blur",
+            "time": "141.623333333"
+        },
+        "992": {
+            "cluster_id": "992",
+            "label": "click OK",
+            "time": "149.87"
+        },
+        "993": {
+            "cluster_id": "993",
+            "label": "You will see some alignment icons at the top",
+            "time": "52.885"
+        },
+        "994": {
+            "cluster_id": "994",
+            "label": "click ok",
+            "time": "25.355"
+        },
+        "995": {
+            "cluster_id": "995",
+            "label": "Click on Circular icon and drag the icon to prefered angle",
+            "time": "129.66"
+        }
+    },
+    "s1_p02_v01": {
+        "1000": {
+            "cluster_id": "1000",
+            "label": "and he's in there and then you can crop off these work bits",
+            "time": "293.285"
+        },
+        "1001": {
+            "cluster_id": "1001",
+            "label": "Zoom in the image and then select the image",
+            "time": "305.58"
+        },
+        "1002": {
+            "cluster_id": "1002",
+            "label": "Filter / Extract",
+            "time": "59.83"
+        },
+        "1003": {
+            "cluster_id": "1003",
+            "label": "\"\"resize to fit\"\"",
+            "time": "273.2"
+        },
+        "1004": {
+            "cluster_id": "1004",
+            "label": "bring up the image you would like for your background",
+            "time": "244.265"
+        },
+        "1005": {
+            "cluster_id": "1005",
+            "label": "click on Paint History Brush tool",
+            "time": "107.59"
+        },
+        "1006": {
+            "cluster_id": "1006",
+            "label": "trace around",
+            "time": "66.965"
+        },
+        "996": {
+            "cluster_id": "996",
+            "label": "or you got the extract tool",
+            "time": "48.9"
+        },
+        "997": {
+            "cluster_id": "997",
+            "label": "erasor",
+            "time": "136.146666667"
+        },
+        "998": {
+            "cluster_id": "998",
+            "label": "removing the patches",
+            "time": "175.703333333"
+        },
+        "999": {
+            "cluster_id": "999",
+            "label": "drag picture into desire background",
+            "time": "266.6725"
+        }
+    },
+    "s1_p02_v03": {
+        "1007": {
+            "cluster_id": "1007",
+            "label": "turn photo transparent ",
+            "time": "38.52"
+        },
+        "1008": {
+            "cluster_id": "1008",
+            "label": "so who inside the square washmachine",
+            "time": "59.67"
+        },
+        "1009": {
+            "cluster_id": "1009",
+            "label": "click the layer image",
+            "time": "69.13"
+        },
+        "1010": {
+            "cluster_id": "1010",
+            "label": "dotted lines tell if we have a selection",
+            "time": "200.18"
+        },
+        "1011": {
+            "cluster_id": "1011",
+            "label": "Select->Load Selection-> Invert channel",
+            "time": "206.15"
+        },
+        "1012": {
+            "cluster_id": "1012",
+            "label": "selection settings in a layer of the image",
+            "time": "248.606666667"
+        },
+        "1013": {
+            "cluster_id": "1013",
+            "label": "pull slider to the left",
+            "time": "326.09"
+        },
+        "1014": {
+            "cluster_id": "1014",
+            "label": "is quite useful and click the ok button",
+            "time": "386.02"
+        },
+        "1015": {
+            "cluster_id": "1015",
+            "label": "to use channels",
+            "time": "29.17"
+        },
+        "1016": {
+            "cluster_id": "1016",
+            "label": "Select your layer",
+            "time": "241.19"
+        },
+        "1017": {
+            "cluster_id": "1017",
+            "label": "click on windos select channels",
+            "time": "76.89"
+        },
+        "1018": {
+            "cluster_id": "1018",
+            "label": "it start to effect the ble channel",
+            "time": "172.88"
+        },
+        "1019": {
+            "cluster_id": "1019",
+            "label": "click blue copy",
+            "time": "166.275"
+        },
+        "1020": {
+            "cluster_id": "1020",
+            "label": "click on the background",
+            "time": "44.2366666667"
+        },
+        "1021": {
+            "cluster_id": "1021",
+            "label": "addd layer mask",
+            "time": "63.08"
+        },
+        "1022": {
+            "cluster_id": "1022",
+            "label": "hold down ctrl + left click",
+            "time": "194.04"
+        },
+        "1023": {
+            "cluster_id": "1023",
+            "label": "hit OK",
+            "time": "215.803333333"
+        },
+        "1024": {
+            "cluster_id": "1024",
+            "label": "Blue copy channel",
+            "time": "209.12"
+        },
+        "1025": {
+            "cluster_id": "1025",
+            "label": "noop",
+            "time": "341.14"
+        }
+    },
+    "s1_p02_v04": {
+        "1026": {
+            "cluster_id": "1026",
+            "label": "how to take agraphic",
+            "time": "6.87"
+        },
+        "1027": {
+            "cluster_id": "1027",
+            "label": "get rid of the white background",
+            "time": "19.65"
+        },
+        "1028": {
+            "cluster_id": "1028",
+            "label": "because it is a lock down layer. In order to remove that little lock",
+            "time": "47.43"
+        },
+        "1029": {
+            "cluster_id": "1029",
+            "label": "take the layer and double click",
+            "time": "59.9033333333"
+        },
+        "1030": {
+            "cluster_id": "1030",
+            "label": "Click wand tool in outside area",
+            "time": "77.53"
+        },
+        "1031": {
+            "cluster_id": "1031",
+            "label": "select regular tool i going drag logo photo graph",
+            "time": "133.36"
+        },
+        "1032": {
+            "cluster_id": "1032",
+            "label": "background and border",
+            "time": "151.255"
+        },
+        "1033": {
+            "cluster_id": "1033",
+            "label": "scale picture",
+            "time": "165.213333333"
+        },
+        "1034": {
+            "cluster_id": "1034",
+            "label": "Click Edit / Transform / Scale",
+            "time": "179.145"
+        },
+        "1035": {
+            "cluster_id": "1035",
+            "label": "use zoom tool",
+            "time": "245.47"
+        },
+        "1036": {
+            "cluster_id": "1036",
+            "label": "it is used to create the shadow on the logo ",
+            "time": "265.81"
+        },
+        "1037": {
+            "cluster_id": "1037",
+            "label": "change size and spread to 5",
+            "time": "302.446666667"
+        },
+        "1038": {
+            "cluster_id": "1038",
+            "label": "there is black shadow behind the log",
+            "time": "311.465"
+        },
+        "1039": {
+            "cluster_id": "1039",
+            "label": " i am going to save the graphic",
+            "time": "326.326666667"
+        },
+        "1040": {
+            "cluster_id": "1040",
+            "label": "apply a drop shadow",
+            "time": "272.775"
+        },
+        "1041": {
+            "cluster_id": "1041",
+            "label": "open a new grapic logo in jpeg",
+            "time": "35.375"
+        },
+        "1042": {
+            "cluster_id": "1042",
+            "label": "click on the drop shadow",
+            "time": "279.055"
+        },
+        "1043": {
+            "cluster_id": "1043",
+            "label": "Select regular move tool",
+            "time": "128.425"
+        },
+        "1044": {
+            "cluster_id": "1044",
+            "label": "hit up the drop shadow button",
+            "time": "287.3"
+        }
+    },
+    "s1_p02_v05": {
+        "1045": {
+            "cluster_id": "1045",
+            "label": "Open picture",
+            "time": "33.8633333333"
+        },
+        "1046": {
+            "cluster_id": "1046",
+            "label": "and we're gonna select our brush tool",
+            "time": "40.87"
+        },
+        "1047": {
+            "cluster_id": "1047",
+            "label": "Select Brush tool",
+            "time": "44.29"
+        },
+        "1048": {
+            "cluster_id": "1048",
+            "label": "double click Layer to unlock  press Ctrl +D",
+            "time": "82.755"
+        },
+        "1049": {
+            "cluster_id": "1049",
+            "label": "we are going to go to the magical eraser and we are going to go around here",
+            "time": "104.7275"
+        },
+        "1050": {
+            "cluster_id": "1050",
+            "label": "drag in to the other picture",
+            "time": "192.095"
+        },
+        "1051": {
+            "cluster_id": "1051",
+            "label": "Use Control + C shortcut key",
+            "time": "206.78"
+        },
+        "1052": {
+            "cluster_id": "1052",
+            "label": "click Eraser / Magic Eraser",
+            "time": "97.2033333333"
+        }
+    },
+    "s1_p03_v01": {
+        "1053": {
+            "cluster_id": "1053",
+            "label": "Set it up higher",
+            "time": "55.668"
+        },
+        "1054": {
+            "cluster_id": "1054",
+            "label": "add  curves",
+            "time": "71.6366666667"
+        },
+        "1055": {
+            "cluster_id": "1055",
+            "label": "bring bottom curve down",
+            "time": "77.08"
+        },
+        "1056": {
+            "cluster_id": "1056",
+            "label": "bring top pof the curve up creating a slight s shape",
+            "time": "86.71"
+        },
+        "1057": {
+            "cluster_id": "1057",
+            "label": "Go into your greens and do the same thing and push it up",
+            "time": "100.885"
+        },
+        "1058": {
+            "cluster_id": "1058",
+            "label": "go to blue and bring it all the way down",
+            "time": "111.105"
+        },
+        "1059": {
+            "cluster_id": "1059",
+            "label": "then select the ingredient tool around the border if you like it",
+            "time": "129.58"
+        },
+        "1060": {
+            "cluster_id": "1060",
+            "label": "corners rounded",
+            "time": "160.593333333"
+        },
+        "1061": {
+            "cluster_id": "1061",
+            "label": "\"\"add a new layer on the other boarder\"\"",
+            "time": "195.7"
+        },
+        "1062": {
+            "cluster_id": "1062",
+            "label": "Click delete, then command d to deselect.",
+            "time": "212.33"
+        },
+        "1063": {
+            "cluster_id": "1063",
+            "label": "the last thing you want to do is select black",
+            "time": "123.333333333"
+        },
+        "1064": {
+            "cluster_id": "1064",
+            "label": "Select a square.",
+            "time": "209.16"
+        },
+        "1065": {
+            "cluster_id": "1065",
+            "label": "go into the rectangular Marquee tool ",
+            "time": "204.63"
+        }
+    },
+    "s1_p03_v02": {
+        "1066": {
+            "cluster_id": "1066",
+            "label": "teaches how to curve and green chanel",
+            "time": "98.08"
+        },
+        "1067": {
+            "cluster_id": "1067",
+            "label": "setLayer to Overlay and adjust Opacity to about 50%",
+            "time": "150.886666667"
+        },
+        "1068": {
+            "cluster_id": "1068",
+            "label": "Create a new adjustment layer - curve",
+            "time": "192.7"
+        },
+        "1069": {
+            "cluster_id": "1069",
+            "label": "click Layer / New Adjustment Layer / Gradient Map",
+            "time": "218.075"
+        },
+        "1070": {
+            "cluster_id": "1070",
+            "label": "Go into the Layers Panel",
+            "time": "229.195"
+        },
+        "1071": {
+            "cluster_id": "1071",
+            "label": "test out Lomo Effect",
+            "time": "260.45"
+        },
+        "1072": {
+            "cluster_id": "1072",
+            "label": "go to blue channel and create opposite S curve",
+            "time": "106.11"
+        },
+        "1073": {
+            "cluster_id": "1073",
+            "label": "Create a actions palette",
+            "time": "175.593333333"
+        },
+        "1074": {
+            "cluster_id": "1074",
+            "label": "Lomo effect  click Play",
+            "time": "270.065"
+        },
+        "1075": {
+            "cluster_id": "1075",
+            "label": "Apply Gradient Map",
+            "time": "126.305"
+        },
+        "1076": {
+            "cluster_id": "1076",
+            "label": "Use Layer New Adjustment Layer and Curves tool",
+            "time": "199.225"
+        },
+        "1077": {
+            "cluster_id": "1077",
+            "label": "Hit F12",
+            "time": "163.685"
+        },
+        "1078": {
+            "cluster_id": "1078",
+            "label": "click Image / Adjustments / Curves",
+            "time": "80.285"
+        }
+    },
+    "s1_p03_v03": {
+        "1079": {
+            "cluster_id": "1079",
+            "label": "Click Layer / New Adjustment Layer / Curves",
+            "time": "29.2866666667"
+        },
+        "1080": {
+            "cluster_id": "1080",
+            "label": "Click OK",
+            "time": "38.43"
+        },
+        "1081": {
+            "cluster_id": "1081",
+            "label": "In RGB Channel make a S",
+            "time": "48.9266666667"
+        },
+        "1082": {
+            "cluster_id": "1082",
+            "label": "there in my final lomo effect in photoshop",
+            "time": "55.6"
+        },
+        "1083": {
+            "cluster_id": "1083",
+            "label": "just do the rbg do the blue and do the opposite",
+            "time": "61.31"
+        },
+        "1084": {
+            "cluster_id": "1084",
+            "label": "select the layer menu and then choose new adjustment layer then click the gradient  option",
+            "time": "82.31"
+        },
+        "1085": {
+            "cluster_id": "1085",
+            "label": "change blending mode to Overlay",
+            "time": "91.81"
+        },
+        "1086": {
+            "cluster_id": "1086",
+            "label": "set Opacity to around 30%",
+            "time": "97.805"
+        }
+    },
+    "s1_p03_v04": {
+        "1087": {
+            "cluster_id": "1087",
+            "label": "so let's jump right into this",
+            "time": "85.315"
+        },
+        "1088": {
+            "cluster_id": "1088",
+            "label": "make sure your feather is set up to something high like 80 px",
+            "time": "116.49"
+        },
+        "1089": {
+            "cluster_id": "1089",
+            "label": "Click Select / Inverse",
+            "time": "157.54"
+        },
+        "1090": {
+            "cluster_id": "1090",
+            "label": "open up the adjustment panel here click on the level adjustment ",
+            "time": "174.9725"
+        },
+        "1091": {
+            "cluster_id": "1091",
+            "label": "add a Curves Adjustment pulling the curve down in the dark area",
+            "time": "211.146666667"
+        },
+        "1092": {
+            "cluster_id": "1092",
+            "label": "go to centre of this  box and click and drag it ",
+            "time": "233.41"
+        },
+        "1093": {
+            "cluster_id": "1093",
+            "label": "create a new layer",
+            "time": "279.865"
+        },
+        "1094": {
+            "cluster_id": "1094",
+            "label": "blur to Hue",
+            "time": "301.225"
+        },
+        "1095": {
+            "cluster_id": "1095",
+            "label": "lowering capacity",
+            "time": "311.97"
+        },
+        "1096": {
+            "cluster_id": "1096",
+            "label": "click Merge to merge adjustment layers",
+            "time": "327.05"
+        },
+        "1097": {
+            "cluster_id": "1097",
+            "label": "go back to Layers",
+            "time": "359.845"
+        },
+        "1098": {
+            "cluster_id": "1098",
+            "label": "go to Image / Mode",
+            "time": "381.7"
+        },
+        "1099": {
+            "cluster_id": "1099",
+            "label": "Gives really cool effect",
+            "time": "394.2"
+        },
+        "1100": {
+            "cluster_id": "1100",
+            "label": "different image and this is eva in his backyard making some king of hand symbols",
+            "time": "442.203333333"
+        },
+        "1101": {
+            "cluster_id": "1101",
+            "label": "i have a feeling that it is suggesting something about his nibbles",
+            "time": "460.77"
+        },
+        "1102": {
+            "cluster_id": "1102",
+            "label": "drag the curve a little down to the right",
+            "time": "219.23"
+        },
+        "1103": {
+            "cluster_id": "1103",
+            "label": "RGB Color",
+            "time": "384.84"
+        },
+        "1104": {
+            "cluster_id": "1104",
+            "label": "eva is going to teach you how to added into the picture and here is it",
+            "time": "472.325"
+        },
+        "1105": {
+            "cluster_id": "1105",
+            "label": "double click the lock and click OK",
+            "time": "96.325"
+        },
+        "1106": {
+            "cluster_id": "1106",
+            "label": "click Lasso Tool",
+            "time": "109.44"
+        },
+        "1107": {
+            "cluster_id": "1107",
+            "label": "close the Adjustments panel",
+            "time": "274.525"
+        },
+        "1108": {
+            "cluster_id": "1108",
+            "label": "make a selection close to edges",
+            "time": "130.8"
+        },
+        "1109": {
+            "cluster_id": "1109",
+            "label": "fill is shift backspace",
+            "time": "286.425"
+        }
+    },
+    "s1_p03_v05": {
+        "1110": {
+            "cluster_id": "1110",
+            "label": "Choose the selection tool",
+            "time": "26.28"
+        },
+        "1111": {
+            "cluster_id": "1111",
+            "label": "select the whole image",
+            "time": "43.1733333333"
+        },
+        "1112": {
+            "cluster_id": "1112",
+            "label": "select Invert",
+            "time": "49.785"
+        },
+        "1113": {
+            "cluster_id": "1113",
+            "label": "slide grey pointer to the right",
+            "time": "65.954"
+        },
+        "1114": {
+            "cluster_id": "1114",
+            "label": "new adjustment layer",
+            "time": "120.51"
+        },
+        "1115": {
+            "cluster_id": "1115",
+            "label": "Adjust the curve to make an \"\"S\"\" shape",
+            "time": "129.123333333"
+        },
+        "1116": {
+            "cluster_id": "1116",
+            "label": "right click on paint tool",
+            "time": "171.896666667"
+        },
+        "1117": {
+            "cluster_id": "1117",
+            "label": "Go to Capacity and put it down to around 30-40.",
+            "time": "206.12"
+        },
+        "1118": {
+            "cluster_id": "1118",
+            "label": "Set Lab Color",
+            "time": "251.455"
+        },
+        "1119": {
+            "cluster_id": "1119",
+            "label": "Use Unsharp Mask",
+            "time": "273.526666667"
+        },
+        "1120": {
+            "cluster_id": "1120",
+            "label": "go to layers then new adjustment layer then curves and confirm",
+            "time": "118.74"
+        },
+        "1121": {
+            "cluster_id": "1121",
+            "label": "I will continue with more vidieo",
+            "time": "420.675"
+        },
+        "1122": {
+            "cluster_id": "1122",
+            "label": "fill that layer in black",
+            "time": "183.203333333"
+        },
+        "1123": {
+            "cluster_id": "1123",
+            "label": "And then fill that layer",
+            "time": "181.465"
+        },
+        "1124": {
+            "cluster_id": "1124",
+            "label": " select curves",
+            "time": "122.8"
+        },
+        "1125": {
+            "cluster_id": "1125",
+            "label": "click Layer / New Adjustment Layer / Level",
+            "time": "55.905"
+        },
+        "1126": {
+            "cluster_id": "1126",
+            "label": "create a new layer above those 2 layers",
+            "time": "164.09"
+        },
+        "1127": {
+            "cluster_id": "1127",
+            "label": "change the 'capacity' to 35.",
+            "time": "216.365"
+        }
+    },
+    "s1_p04_v01": {
+        "1128": {
+            "cluster_id": "1128",
+            "label": "so usually I start off with the saturation",
+            "time": "168.236666667"
+        },
+        "1129": {
+            "cluster_id": "1129",
+            "label": "choose subsections",
+            "time": "283.503333333"
+        },
+        "1130": {
+            "cluster_id": "1130",
+            "label": "pump up the blue in the shadows",
+            "time": "325.885"
+        },
+        "1131": {
+            "cluster_id": "1131",
+            "label": "bring this back up",
+            "time": "227.12"
+        },
+        "1132": {
+            "cluster_id": "1132",
+            "label": "go to youtube.com",
+            "time": "489.165"
+        },
+        "1133": {
+            "cluster_id": "1133",
+            "label": "do a white screen prop like this",
+            "time": "435.82"
+        },
+        "1134": {
+            "cluster_id": "1134",
+            "label": "now gonna get to the colorgrading",
+            "time": "257.35"
+        },
+        "1135": {
+            "cluster_id": "1135",
+            "label": "pop down this rgb menu",
+            "time": "267.915"
+        }
+    },
+    "s1_p04_v02": {
+        "1136": {
+            "cluster_id": "1136",
+            "label": "go to Pallet click Gradient",
+            "time": "23.0066666667"
+        },
+        "1137": {
+            "cluster_id": "1137",
+            "label": "in Gradient make sure 2nd color is white",
+            "time": "39.14"
+        },
+        "1138": {
+            "cluster_id": "1138",
+            "label": "changing the colors of the edges of layer 1",
+            "time": "80.1"
+        },
+        "1139": {
+            "cluster_id": "1139",
+            "label": "CLICK LINEAR",
+            "time": "132.655"
+        },
+        "1140": {
+            "cluster_id": "1140",
+            "label": "linear dodge",
+            "time": "170.006666667"
+        },
+        "1141": {
+            "cluster_id": "1141",
+            "label": "lower Fill to about 60%",
+            "time": "221.31"
+        },
+        "1142": {
+            "cluster_id": "1142",
+            "label": "Paste the image in the new layer",
+            "time": "246.2"
+        },
+        "1143": {
+            "cluster_id": "1143",
+            "label": "press Enter",
+            "time": "250.815"
+        },
+        "1144": {
+            "cluster_id": "1144",
+            "label": "lower Opacity some to about 69%",
+            "time": "270.805"
+        },
+        "1145": {
+            "cluster_id": "1145",
+            "label": "Change blend mode to Soft Light",
+            "time": "52.255"
+        },
+        "1146": {
+            "cluster_id": "1146",
+            "label": "Go to Google and search for grunge textures",
+            "time": "236.825"
+        },
+        "1147": {
+            "cluster_id": "1147",
+            "label": "Create New Layer and paste texture",
+            "time": "241.675"
+        },
+        "1148": {
+            "cluster_id": "1148",
+            "label": "Click Cmd + G to group them",
+            "time": "281.075"
+        },
+        "1149": {
+            "cluster_id": "1149",
+            "label": "change blend mode to Soft Light",
+            "time": "258.005"
+        }
+    },
+    "s1_p04_v03": {
+        "1150": {
+            "cluster_id": "1150",
+            "label": "Double-click the background layer to unlock it.",
+            "time": "49.765"
+        },
+        "1151": {
+            "cluster_id": "1151",
+            "label": "go to Adjustments and click Curves",
+            "time": "111.81"
+        },
+        "1152": {
+            "cluster_id": "1152",
+            "label": "go to the drop down click blue drag line down to first graph line",
+            "time": "129.03"
+        },
+        "1153": {
+            "cluster_id": "1153",
+            "label": "drag the top line down about halfway and bring the bottom line up about half way",
+            "time": "135.23"
+        },
+        "1154": {
+            "cluster_id": "1154",
+            "label": "create a new layer",
+            "time": "194.04"
+        },
+        "1155": {
+            "cluster_id": "1155",
+            "label": "select the first layer make a blur wing on the edges like that",
+            "time": "233.885"
+        },
+        "1156": {
+            "cluster_id": "1156",
+            "label": "noop",
+            "time": "266.52"
+        },
+        "1157": {
+            "cluster_id": "1157",
+            "label": "no instruction in this portion of the vid",
+            "time": "302.725"
+        },
+        "1158": {
+            "cluster_id": "1158",
+            "label": "double click the background layer to unlock it",
+            "time": "52.635"
+        },
+        "1159": {
+            "cluster_id": "1159",
+            "label": "you can add a photo filter",
+            "time": "201.02"
+        },
+        "1160": {
+            "cluster_id": "1160",
+            "label": "Open up a picture of whatever you want.",
+            "time": "38.165"
+        },
+        "1161": {
+            "cluster_id": "1161",
+            "label": "if you want you can add blur to it",
+            "time": "227.405"
+        },
+        "1162": {
+            "cluster_id": "1162",
+            "label": "than you wanna come back here ",
+            "time": "102.335"
+        },
+        "1163": {
+            "cluster_id": "1163",
+            "label": "duplicate layer (right click duplicate for windows users)",
+            "time": "58.895"
+        },
+        "1164": {
+            "cluster_id": "1164",
+            "label": "Duplicate the layer. Right click the layer and select ",
+            "time": "56.29"
+        },
+        "1165": {
+            "cluster_id": "1165",
+            "label": "change mode to Soft Light",
+            "time": "72.04"
+        }
+    },
+    "s1_p04_v04": {
+        "1166": {
+            "cluster_id": "1166",
+            "label": "Desaturate photo",
+            "time": "55.005"
+        },
+        "1167": {
+            "cluster_id": "1167",
+            "label": "duplicating the layer and changing the background",
+            "time": "74.6666666667"
+        },
+        "1168": {
+            "cluster_id": "1168",
+            "label": "in cs 4 layer it just pop up just get the black point just a little up",
+            "time": "108"
+        },
+        "1169": {
+            "cluster_id": "1169",
+            "label": "click OK",
+            "time": "126.225"
+        },
+        "1170": {
+            "cluster_id": "1170",
+            "label": "fade contrast in the image",
+            "time": "145.985"
+        },
+        "1171": {
+            "cluster_id": "1171",
+            "label": "get the black point right at the end and move up",
+            "time": "168.056666667"
+        },
+        "1172": {
+            "cluster_id": "1172",
+            "label": "create a duplicate layer",
+            "time": "186.37"
+        },
+        "1173": {
+            "cluster_id": "1173",
+            "label": "if you think the colour is too faded out don",
+            "time": "282.995"
+        },
+        "1174": {
+            "cluster_id": "1174",
+            "label": "if you want more red or blue you dont have to play with the colour balance",
+            "time": "291.705"
+        },
+        "1175": {
+            "cluster_id": "1175",
+            "label": "this is the one with the hard line effect this is the one with the curve",
+            "time": "214.785"
+        },
+        "1176": {
+            "cluster_id": "1176",
+            "label": "click on your adjusted layer",
+            "time": "245.395"
+        },
+        "1177": {
+            "cluster_id": "1177",
+            "label": "click OK",
+            "time": "272.42"
+        },
+        "1178": {
+            "cluster_id": "1178",
+            "label": "go to image adjustment / color balance",
+            "time": "85.195"
+        }
+    },
+    "s1_p04_v05": {
+        "1179": {
+            "cluster_id": "1179",
+            "label": "click Hue Saturation then check Colorize",
+            "time": "29.725"
+        },
+        "1180": {
+            "cluster_id": "1180",
+            "label": "changings the colours in the backgrounds",
+            "time": "47.455"
+        },
+        "1181": {
+            "cluster_id": "1181",
+            "label": "slide Hue between 20 & 30 to adjust red tone",
+            "time": "58.7875"
+        },
+        "1182": {
+            "cluster_id": "1182",
+            "label": "make a copy by clicking your background layer then Layer / Duplicate Layer",
+            "time": "79.875"
+        },
+        "1183": {
+            "cluster_id": "1183",
+            "label": "select the layer menu then click the duplicate layer",
+            "time": "94.645"
+        },
+        "1184": {
+            "cluster_id": "1184",
+            "label": "set Radius to about 15 pixels",
+            "time": "103.095"
+        },
+        "1185": {
+            "cluster_id": "1185",
+            "label": "choose eraser tool ",
+            "time": "114.443333333"
+        },
+        "1186": {
+            "cluster_id": "1186",
+            "label": "\"\"make another new layer\"\" ",
+            "time": "139.955"
+        },
+        "1187": {
+            "cluster_id": "1187",
+            "label": "choose layer menu then create a new layer",
+            "time": "158.386666667"
+        },
+        "1188": {
+            "cluster_id": "1188",
+            "label": "click Select / Deselect",
+            "time": "172.575"
+        },
+        "1189": {
+            "cluster_id": "1189",
+            "label": "create another new layer click Layer / New Layer",
+            "time": "232.705"
+        },
+        "1190": {
+            "cluster_id": "1190",
+            "label": "click Filter / Render / Clouds",
+            "time": "164.03"
+        },
+        "1191": {
+            "cluster_id": "1191",
+            "label": "Paint Brush",
+            "time": "216.735"
+        },
+        "1192": {
+            "cluster_id": "1192",
+            "label": "click Filter / Blur / Gaussian Blur",
+            "time": "98.29"
+        },
+        "1193": {
+            "cluster_id": "1193",
+            "label": "Choose the Blend Mode - Overlay",
+            "time": "194.92"
+        },
+        "1194": {
+            "cluster_id": "1194",
+            "label": "change foreground color to mid-grey",
+            "time": "210.57"
+        }
+    },
+    "s1_p05_v01": {
+        "1195": {
+            "cluster_id": "1195",
+            "label": "click Image / Adjustments / Desaturate",
+            "time": "22.25"
+        },
+        "1196": {
+            "cluster_id": "1196",
+            "label": "click on copy layer",
+            "time": "35.215"
+        },
+        "1197": {
+            "cluster_id": "1197",
+            "label": "select color dodge to make the document white",
+            "time": "56.94"
+        },
+        "1198": {
+            "cluster_id": "1198",
+            "label": "zoom in",
+            "time": "116.315"
+        },
+        "1199": {
+            "cluster_id": "1199",
+            "label": "sketch in and out",
+            "time": "124.51"
+        },
+        "1200": {
+            "cluster_id": "1200",
+            "label": "\"\"click filter, other and then minimum\"\"",
+            "time": "74.5866666667"
+        },
+        "1201": {
+            "cluster_id": "1201",
+            "label": "click ok",
+            "time": "110.57"
+        }
+    },
+    "s1_p05_v02": {
+        "1202": {
+            "cluster_id": "1202",
+            "label": "Select image you want click Open",
+            "time": "21.485"
+        },
+        "1203": {
+            "cluster_id": "1203",
+            "label": "click Background / Create duplicate layer / OK",
+            "time": "30.585"
+        },
+        "1204": {
+            "cluster_id": "1204",
+            "label": "Go to Image",
+            "time": "36.44"
+        },
+        "1205": {
+            "cluster_id": "1205",
+            "label": "Click File / Open",
+            "time": "17.35"
+        },
+        "1206": {
+            "cluster_id": "1206",
+            "label": "File -> open image",
+            "time": "18.57"
+        },
+        "1207": {
+            "cluster_id": "1207",
+            "label": "Select Image Layer -> Image -> Adjustments -> Desaturate",
+            "time": "44.625"
+        },
+        "1208": {
+            "cluster_id": "1208",
+            "label": "Make a duplicate layer",
+            "time": "27.29"
+        }
+    },
+    "s1_p05_v03": {
+        "1209": {
+            "cluster_id": "1209",
+            "label": "open the photos",
+            "time": "5.54666666667"
+        },
+        "1210": {
+            "cluster_id": "1210",
+            "label": "press Ctrl + J then Ctrl +Shift + U then Ctrl + J then Ctrl + I",
+            "time": "14.295"
+        },
+        "1211": {
+            "cluster_id": "1211",
+            "label": "select all and copy",
+            "time": "67.5725"
+        },
+        "1212": {
+            "cluster_id": "1212",
+            "label": "Ctrl+V",
+            "time": "75.855"
+        },
+        "1213": {
+            "cluster_id": "1213",
+            "label": "Select Multiply",
+            "time": "85.468"
+        },
+        "1214": {
+            "cluster_id": "1214",
+            "label": "right click on the layer merge visible",
+            "time": "132.005"
+        },
+        "1215": {
+            "cluster_id": "1215",
+            "label": "Set photo filter to 15 to 25%",
+            "time": "141.873333333"
+        },
+        "1216": {
+            "cluster_id": "1216",
+            "label": "Reduce the noise to improve the final results by going to Filter > Noise > Reduce Noise",
+            "time": "155.535"
+        },
+        "1217": {
+            "cluster_id": "1217",
+            "label": "\"\"press ctrl + V\"\"",
+            "time": "91.215"
+        },
+        "1218": {
+            "cluster_id": "1218",
+            "label": "Paste the picture on paper photo",
+            "time": "72.24"
+        },
+        "1219": {
+            "cluster_id": "1219",
+            "label": "set the capacity between 60 to 70.",
+            "time": "128.96"
+        },
+        "1220": {
+            "cluster_id": "1220",
+            "label": "FILTER>BLUR>GAUSSIAN BLUR",
+            "time": "24.195"
+        },
+        "1221": {
+            "cluster_id": "1221",
+            "label": "Resize it with Ctrl + T",
+            "time": "78.475"
+        },
+        "1222": {
+            "cluster_id": "1222",
+            "label": "Go to Image > Adjustments > Photo Filter. Set it to 15% - 25%",
+            "time": "134.693333333"
+        },
+        "1223": {
+            "cluster_id": "1223",
+            "label": "CHOSE \"\"COLOR DODGE\"\"",
+            "time": "20.31"
+        },
+        "1224": {
+            "cluster_id": "1224",
+            "label": "Erase a bit of the borders of the drawing",
+            "time": "96.885"
+        },
+        "1225": {
+            "cluster_id": "1225",
+            "label": "SET IT BETWEEN 100 TO 225 PIXELS",
+            "time": "29.505"
+        }
+    },
+    "s1_p05_v04": {
+        "1226": {
+            "cluster_id": "1226",
+            "label": "cover the basics to get this look",
+            "time": "15.98"
+        },
+        "1227": {
+            "cluster_id": "1227",
+            "label": "give some detail how to jazz up the phpto a little bit",
+            "time": "31.67"
+        },
+        "1228": {
+            "cluster_id": "1228",
+            "label": "keep duplicate",
+            "time": "55.105"
+        },
+        "1229": {
+            "cluster_id": "1229",
+            "label": "Take top layer change to Color Dodge",
+            "time": "72.395"
+        },
+        "1230": {
+            "cluster_id": "1230",
+            "label": "and once we have that we're gonna filter",
+            "time": "79.3133333333"
+        },
+        "1231": {
+            "cluster_id": "1231",
+            "label": "depending on the look you on the photo you can increase or decrease the resolution on the images",
+            "time": "101.45"
+        },
+        "1232": {
+            "cluster_id": "1232",
+            "label": "use radius for different look",
+            "time": "127.175"
+        },
+        "1233": {
+            "cluster_id": "1233",
+            "label": "Use Gaussian Blur tool and set radius to 2.2",
+            "time": "132.935"
+        },
+        "1234": {
+            "cluster_id": "1234",
+            "label": "desaturate",
+            "time": "150.34"
+        },
+        "1235": {
+            "cluster_id": "1235",
+            "label": "create layer",
+            "time": "146.925"
+        },
+        "1236": {
+            "cluster_id": "1236",
+            "label": "click Filter / Blur / Gaussian Blur",
+            "time": "85.645"
+        }
+    },
+    "s1_p05_v05": {
+        "1237": {
+            "cluster_id": "1237",
+            "label": "changing the color of layer 1",
+            "time": "79.97"
+        },
+        "1238": {
+            "cluster_id": "1238",
+            "label": "Change the gamma level",
+            "time": "154.525"
+        },
+        "1239": {
+            "cluster_id": "1239",
+            "label": "choose an airbrush",
+            "time": "210.09"
+        },
+        "1240": {
+            "cluster_id": "1240",
+            "label": "set Opacity to about 12%",
+            "time": "221.95"
+        },
+        "1241": {
+            "cluster_id": "1241",
+            "label": "set flow to 100%",
+            "time": "228.42"
+        },
+        "1242": {
+            "cluster_id": "1242",
+            "label": "lightly go over some of the areas that got blown out",
+            "time": "272.4"
+        },
+        "1243": {
+            "cluster_id": "1243",
+            "label": "touch up around the arms",
+            "time": "299.685"
+        },
+        "1244": {
+            "cluster_id": "1244",
+            "label": "click Image / Duplicate",
+            "time": "350.515"
+        },
+        "1245": {
+            "cluster_id": "1245",
+            "label": "click Filter / Sharpen / Unsharpen Mask",
+            "time": "383.81"
+        },
+        "1246": {
+            "cluster_id": "1246",
+            "label": "Click Cntrl + J to duplicate your layer",
+            "time": "52.995"
+        },
+        "1247": {
+            "cluster_id": "1247",
+            "label": "choose Gaussian Blur",
+            "time": "108.596666667"
+        },
+        "1248": {
+            "cluster_id": "1248",
+            "label": "choose threshold of about 142",
+            "time": "407.25"
+        },
+        "1249": {
+            "cluster_id": "1249",
+            "label": "select Black to help darken",
+            "time": "250.425"
+        }
+    }
+}

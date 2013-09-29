@@ -486,9 +486,9 @@ for i in range(1, 2):
         #     print i, label, "(", clusters[i], ")", sorted_turk[i]["workerid"], sorted_turk[i]["desc"]        
         
         clusters = merge_neighbors(clusters, label_turk_list, label_turk_list_desc, sorted_turk)
-        # print "MERGE "
-        # for (i, label) in enumerate(label_turk_list):
-        #     print i, label, "(", clusters[i], ")", sorted_turk[i]["workerid"], sorted_turk[i]["desc"]        
+        print "MERGE "
+        for (i, label) in enumerate(label_turk_list):
+            print i, label, "(", clusters[i], ")", sorted_turk[i]["workerid"], sorted_turk[i]["desc"]        
 
 
         # Print results and store them in a file for each eps

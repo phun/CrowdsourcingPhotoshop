@@ -10,7 +10,7 @@ for (filename,data) in zip(sys.argv[1:], (data1, data2)):
 		for line in f.readlines():
 			for (cid,before,after) in re.findall(r"cid[^}]*?(\d+)[^}]*?before[^}]*?(true|false)[^}]*?after[^}]*?(true|false)", line):
 				data.append({"cid":cid, "before": before=="true", "after": after=="true"})
-	print data
+#	print data
 			
 # now data1 and data2 are each a list of records of the form:
 # {"cid":"14","before":false,"after":true}
